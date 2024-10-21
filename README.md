@@ -1,3 +1,4 @@
 # NeoTech-Reborn
-# github official page of the NeoTech Reborn modpack
+# GitHub Official Page of the NeoTech Reborn ModPack
 # here for issues!
+# Join My Discord Server For further help! https://discord.gg/8Hz9qTjJaB
