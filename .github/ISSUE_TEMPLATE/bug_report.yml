@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a crash, bug, or issue with the modpack
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Modpack version
+      description: Check your CurseForge launcher for the exact version
+      placeholder: "e.g. 1.4.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+      description: Describe the bug or crash
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can this be triggered again
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log file
+      description: Paste a link to your latest.log or crash report (use mclo.gs or a gist, don't paste the whole log here)
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I'm running the modpack unmodified (no extra mods added on top)
+          required: true
+        - label: I checked existing issues and this hasn't been reported already
+          required: true
