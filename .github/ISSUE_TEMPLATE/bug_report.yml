@@ -1,6 +1,8 @@
 name: Bug report
 description: Report a crash, bug, or issue with the modpack
 labels: ["bug"]
+assignees:
+  - VaporeonScripts
 body:
   - type: markdown
     attributes:
