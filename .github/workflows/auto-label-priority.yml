@@ -1,0 +1,39 @@
+name: Auto-label priority
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Apply priority label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body || "";
+
+            const match = body.match(/### Priority\s*\n\s*(.+)/);
+            if (!match) return;
+
+            const value = match[1].trim();
+
+            const labelMap = {
+              "Crashes the game": "priority: crash",
+              "Major bug": "priority: major",
+              "Minor bug": "priority: minor",
+              "Visual only": "priority: visual"
+            };
+
+            const label = labelMap[value];
+            if (!label) return;
+
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: [label]
+            });
