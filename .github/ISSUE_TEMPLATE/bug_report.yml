@@ -53,6 +53,29 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Crashes the game
+        - Major bug
+        - Minor bug
+        - Visual only
+    validations:
+      required: true
+
+  - type: dropdown
+    id: shaders
+    attributes:
+      label: Shaders or extra resource packs
+      description: Are you using any shaders or resource packs not bundled with the pack?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:
