@@ -44,6 +44,15 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: ram
+    attributes:
+      label: RAM allocated
+      description: "Tip: allocate at least 12 GB to run the pack smoothly"
+      placeholder: "e.g. 12 GB"
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:
@@ -81,3 +90,11 @@ body:
           required: false
         - label: I checked existing issues and this hasn't been reported already
           required: true
+
+  - type: textarea
+    id: mod_changes
+    attributes:
+      label: Mods added or removed
+      description: Only fill this in if you checked the box above. List which mods you added or removed.
+    validations:
+      required: false
