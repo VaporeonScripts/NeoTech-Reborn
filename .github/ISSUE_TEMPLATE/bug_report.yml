@@ -44,7 +44,7 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: I haven't added or removed any mods from the pack
-          required: true
+        - label: I've added or removed mods from the pack
+          required: false
         - label: I checked existing issues and this hasn't been reported already
           required: true
