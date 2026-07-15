@@ -6,11 +6,10 @@ A NeoForge modpack with 600+ carefully picked mods, built for any type of player
 
 Minecraft 1.21.1 · NeoForge
 
-Modpack page: https://www.curseforge.com/minecraft/modpacks/neotech-reborn
-Discord: https://discord.gg/8Hz9qTjJaB
+**Modpack page:** https://www.curseforge.com/minecraft/modpacks/neotech-reborn
+**Discord:** https://discord.gg/8Hz9qTjJaB
 
-<img src="https://cf.way2muchnoise.eu/full_1118358_downloads.svg?badge_style=for_the_badge" height="28" alt="Downloads">
-<img src="https://img.shields.io/discord/1291470916395597944?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2" height="28" alt="Discord">
+<img src="https://cf.way2muchnoise.eu/full_1118358_downloads.svg?badge_style=for_the_badge" height="28" alt="Downloads"> <img src="https://img.shields.io/discord/1291470916395597944?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2" height="28" alt="Discord">
 
 [![Kinetic Hosting](https://media.forgecdn.net/attachments/description/1118358/description_a68aa7a0-1c8c-47f7-8ff8-f46305cd4bf9.png)](https://billing.kinetichosting.com/aff.php?aff=956)
 
