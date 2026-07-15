@@ -11,6 +11,39 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: launcher
+    attributes:
+      label: Launcher
+      options:
+        - CurseForge
+        - Prism Launcher
+        - ATLauncher
+        - Modrinth App
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: java
+    attributes:
+      label: Java version
+      description: "Tip: always use the latest Java 21 version"
+      placeholder: "e.g. Java 21.0.11"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Was this on a singleplayer world or a server?
+      options:
+        - Singleplayer
+        - Server
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:
