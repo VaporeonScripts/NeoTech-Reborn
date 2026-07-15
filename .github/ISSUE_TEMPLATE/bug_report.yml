@@ -129,7 +129,7 @@ body:
     id: logs
     attributes:
       label: Log file
-      description: Paste a link to your latest.log or crash report (use mclo.gs or a gist, don't paste the whole log here)
+      description: If this is a crash, please paste a link to your latest.log or crash report (use mclo.gs or a gist, don't paste the whole log here). Crashes are nearly impossible to diagnose without a log.
     validations:
       required: false
 
