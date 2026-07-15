@@ -2,6 +2,24 @@ name: Bug report
 description: Report a crash, bug, or issue with the modpack
 labels: ["bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please read before submitting:
+        - If the issue is with a specific mod, consider reporting it to the mod author directly.
+        - One issue per report. If you have multiple problems, open separate reports.
+        - Common fix: update the pack to the latest version first.
+
+  - type: dropdown
+    id: tried_solutions
+    attributes:
+      label: Have you updated to the latest modpack version and tried without added/removed mods?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
   - type: input
     id: version
     attributes:
