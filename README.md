@@ -10,7 +10,8 @@ Minecraft 1.21.1 · NeoForge
 <br>
 **Discord:** https://discord.gg/8Hz9qTjJaB
 
-<img src="https://cf.way2muchnoise.eu/full_1118358_downloads.svg?badge_style=for_the_badge" height="28" alt="Downloads"> <img src="https://img.shields.io/discord/1291470916395597944?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2" height="28" alt="Discord">
+<a href="https://www.curseforge.com/minecraft/modpacks/neotech-reborn"><img src="https://cf.way2muchnoise.eu/full_1118358_downloads.svg?badge_style=for_the_badge" height="28" alt="Downloads"></a>
+<img src="https://img.shields.io/discord/1291470916395597944?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2" height="28" alt="Discord">
 
 Want to host your own NeoTech Reborn server? Kinetic Hosting is my recommended host, optimized for modded servers.
 
