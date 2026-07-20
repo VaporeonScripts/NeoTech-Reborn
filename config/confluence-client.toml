@@ -1,0 +1,61 @@
+# Default: 90
+# Range: 0 ~ 100
+showWindParticles = 90
+# Default: 10
+# Range: 0 ~ 100
+minEctoMistEffectRadius = 10
+
+[HUD]
+	leftEffectIcon = false
+	# Default: 0
+	# Range: -256 ~ 256
+	extraInventoryButtonOffsetX = 192
+	# Default: 0
+	# Range: -256 ~ 256
+	extraInventoryButtonOffsetY = 0
+
+	[HUD.Health]
+		terraStyleHealth = true
+		#Allowed Values: LEGACY, OVERLAY
+		healthStyle = "OVERLAY"
+		# Default: 0
+		# Range: -256 ~ 256
+		healthOffsetX = 0
+		# Default: 0
+		# Range: -256 ~ 256
+		healthOffsetY = 0
+
+	[HUD.Food]
+		terraStyleFood = false
+		#Allowed Values: LEGACY, OVERLAY
+		foodStyle = "OVERLAY"
+
+	[HUD.Mana]
+		#Allowed Values: LEGACY, OVERLAY
+		manaStyle = "OVERLAY"
+		# Default: 0
+		# Range: -256 ~ 256
+		manaOffsetX = 0
+		# Default: 0
+		# Range: -256 ~ 256
+		manaOffsetY = 0
+
+	[HUD.Armor]
+		terraStyleArmor = true
+		#Allowed Values: LEGACY_HORIZONTAL, LEGACY_DIAGONAL, LEGACY_VERTICAL, OVERLAY
+		armorStyle = "OVERLAY"
+
+[Entity]
+	bloodyEffect = true
+	#Allowed Values: OFF, CONFLUENCE, CONFLUENCE_VANILLA, ALL
+	goreEffect = "ALL"
+	damageIndicator = false
+	healIndicator = false
+
+[GUI]
+	achievementToast = true
+	#Allowed Values: NEVER, EVERYWHERE, TRADE_SCREEN
+	sellPriceDisplay = "EVERYWHERE"
+	# Default: 71
+	# Range: 0 ~ 1000
+	customTitle = 71

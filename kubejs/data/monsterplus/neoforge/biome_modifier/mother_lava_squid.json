@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values":
+    [
+      "#minecraft:is_nether",
+      {
+        "type": "neoforge:not",
+        "value": "#monsterplus:cannot_spawn_lava_squid"
+      }
+    ]
+  },
+  "spawners": {
+    "type": "monsterplus:mother_lava_squid",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

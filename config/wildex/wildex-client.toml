@@ -1,0 +1,18 @@
+[ui]
+	#Wildex UI design style
+	#Allowed Values: VINTAGE, MODERN, JUNGLE, RUNES, STEAMPUNK
+	designStyle = "JUNGLE"
+	#Show a toast notification when discovering a new mob in hidden mode.
+	showDiscoveryToasts = true
+	#Show a small overlay when aiming at an already discovered mob with a spyglass.
+	showDiscoveredSpyglassOverlay = true
+	#Wildex UI scale factor. 2.0 = 100% display size.
+	# Default: 2.0
+	# Range: 1.0 ~ 4.0
+	wildexUiScale = 2.5
+	#Hide the GUI scale slider in the Wildex screen.
+	hideGuiScaleSlider = true
+	#Show and probe mob variant subentries in the list (can impact performance on heavily modded packs).
+	showMobVariants = true
+	#Run mob variant probing in a low-priority background queue. Disable to probe immediately on expand.
+	backgroundMobVariantProbe = true

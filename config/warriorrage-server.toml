@@ -1,0 +1,36 @@
+#Server config settings
+[server]
+	#Minimal kill count for rage to enable
+	# Default: 3
+	# Range: 0 ~ 1000
+	minimalKillCount = 5
+	#In Seconds
+	# Default: 20
+	# Range: 0 ~ 1000
+	rageDuration = 30
+	#Max kill count for rage bonus damage
+	# Default: 20
+	# Range: 0 ~ 1000
+	maxKillCountCap = 40
+	#Number of kills, which will multiply the bonus damage eg. 5 means, every 5 kills attack damage will be increased by bonusDamage value
+	# Default: 4
+	# Range: 1 ~ 1000
+	killIntervalBetweenNextBonus = 5
+	#Enable Fire Damage
+	enableFireDamage = true
+	#Required minimal kill count for fire damage to apply
+	# Default: 20
+	# Range: 0 ~ 1000
+	fireDamageRequiredKillCount = 30
+	#List of effects that are being applied on hit, use the following syntax 'registryEffectName, requiredKillCount (1-100), duration in ticks (1-999)[20ticks = 1 second], amplifier (0-255)' - example: 'minecraft:slowness, 5, 40, 1'
+	onHitEffects = []
+	#List of effects that are being applied to player, use the following syntax 'registryEffectName, requiredKillCount (1-100), duration in ticks (1-999)[20ticks = 1 second], amplifier (0-255)' - example: 'minecraft:regeneration, 15, 40, 1'
+	playerEffects = []
+	#Flat bonus damage per consecutive kills, for example 4 kills = +0.5 damage, 8 kills = +1.0 damage
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	bonusFlatDamage = 0.5
+	#Bonus percentage damage per kill consecutive kills (including weapon damage), for example 4 kills = +5% damage, 8 kills +10% damage
+	# Default: 0.0
+	# Range: 0.0 ~ 10.0
+	bonusPercentageDamage = 0.0

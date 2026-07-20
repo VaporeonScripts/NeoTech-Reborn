@@ -1,0 +1,166 @@
+[Gameplay]
+	autoStackGelsColor = true
+	returnPotionGlassBottle = false
+	rightClickRideMinecart = true
+	# Default: 128
+	# Range: > 0
+	announcementBoxDistance = 128
+	alertPlayerDungeon = false
+	starPhase = false
+	ammoSlotsBlacklist = ["confluence:falling_star", "#c:seeds"]
+	terraStyleExplosion = true
+	terraStyleFireDamage = true
+	npcInvulnerableToPlayer = true
+	allowsVanillaEntitiesToPerformStageAttributes = false
+	enemyDropsMoney = true
+	dragonChargePlayer = true
+
+[Recipe]
+	fletchingMenu = true
+	shimmerDecompose = true
+	altarTips = true
+
+[Spawning]
+	doMeteoriteSpawning = true
+
+	[Spawning."Falling Star"]
+		doFallingStarSpawning = true
+		# Default: 2400
+		# Range: 20 ~ 20000
+		fallingStarInterval = 2400
+
+	[Spawning.NPC]
+		doNPCSpawning = true
+		# Default: 2400
+		# Range: 20 ~ 20000
+		npcSpawnInterval = 6000
+		broadcastNpcMsg = true
+
+	[Spawning.Boss]
+		eyeOfCthulhuNatureSpawning = true
+		deerclopsNatureSpawning = true
+
+[PlayerDeath]
+	showMoneyDrops = true
+	dropsTombstone = false
+	# Default: 3
+	# Range: > 0
+	defaultRespawnTimeMin = 1
+	# Default: 8
+	# Range: > 0
+	defaultRespawnTimeMax = 1
+	# Default: 9
+	# Range: > 0
+	bossRespawnTimeMin = 1
+	# Default: 18
+	# Range: > 0
+	bossRespawnTimeMax = 1
+	playerDropsMoney = true
+
+[WorldGeneration]
+	wrappedCrimsonHeart = false
+	instantlyHardmodeConversion = false
+
+	[Compatibility.ArsNouveau]
+		convertArsNouveauMana = true
+
+	[Compatibility.IronsSpell]
+		convertIronsSpellMana = true
+
+	[Compatibility.FTB]
+		ftbChunksWormholePotion = true
+
+	[Compatibility.Waystones]
+		waystonesPylonNonCost = true
+
+	[GameEvent.SlimeRain]
+		# Default: 25
+		# Range: 1 ~ 1024
+		slimeRainEventMaxEnemiesBase = 25
+		# Default: 25
+		# Range: 1 ~ 1024
+		slimeRainEventPerPlayer = 25
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		slimeRainEventSpawnIntervalFactor = 1.0
+		# Default: 4
+		# Range: 1 ~ 1024
+		slimeRainEventSpawnGroupSize = 4
+		# Default: 150
+		# Range: 1 ~ 1024
+		slimeRainEventKingSlimeSpawnRequiredKillCount = 150
+		# Default: 28
+		# Range: 0 ~ 1024
+		slimeRainEventRequiredPlayerMaxHealth = 28
+		# Default: 14
+		# Range: 0 ~ 1024
+		slimeRainEventRequiredPlayerArmor = 14
+		# Default: 675000
+		# Range: > 1
+		slimeRainEventFrequency = 675000
+
+	[GameEvent.BloodMoon]
+		# Default: 30
+		# Range: 1 ~ 1024
+		bloodMoonEventMaxEnemiesBase = 30
+		# Default: 30
+		# Range: 1 ~ 1024
+		bloodMoonEventMaxEnemiesPerPlayer = 30
+		# Default: 1.5
+		# Range: 0.1 ~ 10.0
+		bloodMoonEventSpawnEnemiesIntervalFactor = 1.5
+		# Default: 24
+		# Range: 0 ~ 1024
+		bloodMoonEventRequiredPlayerMaxHealth = 40
+		# Default: 16
+		# Range: 0 ~ 1024
+		bloodMoonEventRequiredPlayerArmor = 24
+		# Default: 14
+		# Range: 1 ~ 1024
+		bloodMoonEventInvertChance = 70
+
+	[GameEvent.GoblinArmy]
+		# Default: 30
+		# Range: 1 ~ 1024
+		goblinArmyEventMaxEnemiesBase = 30
+		# Default: 30
+		# Range: 1 ~ 1024
+		goblinArmyEventMaxEnemiesPerPlayer = 30
+		# Default: 1.5
+		# Range: 0.1 ~ 10.0
+		goblinArmyEventSpawnEnemiesIntervalFactor = 1.5
+		# Default: 24
+		# Range: 0 ~ 1024
+		goblinArmyEventRequiredPlayerMaxHealth = 24
+		# Default: 16
+		# Range: 0 ~ 1024
+		goblinArmyEventRequiredPlayerArmor = 16
+		# Default: 60
+		# Range: 1 ~ 1024
+		goblinArmyEventInvertChance = 60
+		# Default: 80
+		# Range: 1 ~ 1024
+		goblinArmyEventRequiredKillCountBase = 80
+		# Default: 40
+		# Range: 1 ~ 1024
+		goblinArmyEventRequiredKillCountPerPlayer = 40
+
+	[GameEvent.MeteorShower]
+		# Default: 3.0
+		# Range: 2.0 ~ 4.0
+		meteorShowerEventFallingStarSpawnSpeedMultiplier = 3.0
+		# Default: 10
+		# Range: > 1
+		meteorShowerEventFrequency = 10
+		# Default: 5
+		# Range: > 1
+		meteorShowerEventCelebrationMK10Frequency = 5
+		# Default: 1
+		# Range: 1 ~ 1024
+		meteorShowerEventMaxEnchantedNightcrawlersBase = 1
+		# Default: 2
+		# Range: 1 ~ 1024
+		meteorShowerEventMaxEnchantedNightcrawlersPerPlayer = 2
+		# Default: 20
+		# Range: 1 ~ 1024
+		meteorShowerEventSpawnEnchantedNightcrawlersIntervalFactor = 20

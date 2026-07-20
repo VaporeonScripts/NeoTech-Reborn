@@ -1,0 +1,243 @@
+header-footer:
+  enabled: true
+  designs:
+    world-world1:
+      display-condition: '%world%=world1'
+      header:
+      - an example of world with custom
+      footer:
+      - header/footer and prefix/suffix
+    world-world2;world3:
+      display-condition: '%world%=world2|%world%=world3'
+      header:
+      - This is a shared header for
+      - world2 and world3
+      footer: []
+    server-server1:
+      display-condition: '%server%=server1'
+      header:
+      - an example of server with custom header
+      footer: []
+    default:
+      display-condition: '%world%!=disabledworld'
+      header:
+      - '&b&m                                                '
+      - '&b&lNeoTech Reborn &f&l1.4.1.0'
+      - ''
+      - '&b&l» &f%animation:Welcome%, &b%player%&f! &b&l«'
+      - '&fOnline Players: &b%online%'
+      - ''
+      footer:
+      - ''
+      - '%animation:time%'
+      - '&fPing: &b%ping%&fms'
+      - ''
+      - '&fUsed memory: &b%memory-used% MB / &b%memory-max% MB'
+      - ''
+      - '&bJoin our Discord! %animation:web%'
+      - '&b&m                                                '
+tablist-name-formatting:
+  enabled: true
+  disable-condition: '%world%=disabledworld'
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+playerlist-objective:
+  enabled: true
+  value: '%ping%'
+  fancy-value: '&b%ping%'
+  title: TAB
+  render-type: INTEGER
+  disable-condition: '%world%=disabledworld'
+belowname-objective:
+  enabled: false
+  value: '%health%'
+  title: '&cHealth'
+  fancy-value: '&c%health%'
+  fancy-value-default: NPC
+  disable-condition: '%world%=disabledworld'
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: BLUE
+      progress: '100'
+      text: '<#00BFFF>Website: <#FFFFFF>discord.gg/8Hz9qTjJaB'
+scoreboard:
+  enabled: false
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  delay-on-join-milliseconds: 0
+  scoreboards:
+    scoreboard-1.20.3+:
+      title: <#00BFFF>&lNeoTech Reborn
+      display-condition: '%player-version-id%>=765;%bedrock%=false'
+      lines:
+      - '&7%date%'
+      - ''
+      - <#00BFFF>&l&nServer Info&r
+      - ' &b• &fOnline: <#00BFFF>%online%'
+      - ' &b• &fWorld Online: <#00BFFF>%worldonline%'
+      - ' &b• &fStaff: <#00BFFF>%staffonline%'
+      - ''
+      - <#00BFFF>&l&nPlayer Info&r
+      - ' &b• &fRank: <#00BFFF>%group%'
+      - ' &b• &fPing: <#00BFFF>%ping%ms'
+      - ' &b• &fWorld: <#00BFFF>%world%'
+      - ''
+      - <#00BFFF>&omyserver.net
+    scoreboard:
+      title: '&b&lNeoTech Reborn'
+      lines:
+      - '&7%date%'
+      - ''
+      - '&b&l&nServer Info&r'
+      - ' &3• &fOnline: &b%online%'
+      - ' &3• &fWorld Online: &b%worldonline%'
+      - ' &3• &fStaff: &b%staffonline%'
+      - ''
+      - '&b&l&nPlayer Info&r'
+      - ' &3• &fRank: &b%group%'
+      - ' &3• &fPing: &b%ping%ms'
+      - ' &3• &fWorld: &b%world%'
+      - ''
+      - '&b&omyserver.net'
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:383747683
+  enable-remaining-players-text: true
+  remaining-players-text: '... and %s more'
+  empty-slot-ping-value: 1000
+  layouts:
+    default:
+      fixed-slots:
+      - '1|&3Website&f:'
+      - 2|&bmyserver.net
+      - '3|&8&m                       '
+      - '4|&3Name&f:'
+      - 5|&b%player%
+      - '7|&3Rank&f:'
+      - '8|Rank: %group%'
+      - '10|&3World&f:'
+      - 11|&b%world%
+      - '13|&3Time&f:'
+      - 14|&b%time%
+      - '21|&3Teamspeak&f:'
+      - 22|&bts.myserver.net
+      - '23|&8&m                       '
+      - '41|&3Store&f:'
+      - 42|&bshop.myserver.net
+      - '43|&8&m                       '
+      groups:
+        staff:
+          slots:
+          - 24-40
+          display-condition: permission:tab.staff
+        players:
+          slots:
+          - 44-80
+ping-spoof:
+  enabled: false
+  value: 0
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss]'
+  time-offset: 0
+  register-tab-expansion: false
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+conditions:
+  nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
+    true: '%player%'
+    false: ~%essentials_nickname%
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  '%server_uptime%': 1000
+  '%server_tps_1_colored%': 1000
+  '%server_unique_joins%': 5000
+  '%player_health%': 200
+  '%player_ping%': 1000
+  '%vault_prefix%': 1000
+  '%rel_factionsuuid_relation_color%': 1000
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Mod
+- Helper
+- default
+permission-refresh-interval: 1000
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+  useSSL: true
+proxy-support:
+  enabled: true
+  type: PLUGIN
+  plugin:
+    name: RedisBungee
+  redis:
+    url: redis://:password@localhost:6379/0
+  rabbitmq:
+    url: amqp://guest:guest@localhost:5672/%2F
+  channel-name-suffix: TAB
+per-world-playerlist:
+  enabled: false
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+compensate-for-packetevents-bug: false
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  update-latency: false
+  spy-servers:
+  - spyserver1
+  - spyserver2
+  server-groups:
+    lobbies:
+    - lobby1
+    - lobby2
+    group2:
+    - server1
+    - server2
+use-bukkit-permissions-manager: false
+use-online-uuid-in-tablist: true
+config-version: 5
+components:
+  minimessage-support: true
+  disable-shadow-for-heads: true

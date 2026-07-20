@@ -1,0 +1,14 @@
+{
+  "create_version": "21.0.26",
+  "structures": {
+    "giant_mossy_glowshroom": true,
+    "megalake": true,
+    "megalake_small": true,
+    "mountain": true,
+    "painted_mountain": true,
+    "eternal_portal": true,
+    "giant_ice_star": true,
+    "end_village": true
+  },
+  "modify_version": "21.0.26"
+}

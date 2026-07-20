@@ -1,0 +1,45 @@
+[animations]
+	#Choose your preferred animation speed (0.5-1.5)
+	# Default: 1.0
+	# Range: 0.5 ~ 1.5
+	animationSpeed = 0.8
+	#Switch speed (0-10)
+	# Default: 0.018
+	# Range: 0.0 ~ 10.0
+	switchSpeed = 0.01
+	#Enable or disable swimming animation
+	enableSwimmingAnimation = true
+	#Swing animation speed (6-12)
+	# Default: 9
+	# Range: 6 ~ 12
+	swingSpeed = 9
+	#Enable or disable climb and crawl animation
+	enableClimbAndCrawlAnimation = true
+	#Enable or disable punching animation
+	enablePunchingAnimation = true
+
+[positions]
+	#Viewmodel X Offset
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	viewmodelXOffset = 0.0
+	#Viewmodel Y Offset
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	viewmodelYOffset = 0.0
+	#Viewmodel Z Offset
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	viewmodelZOffset = 0.0
+
+[misc]
+	#Enable MB3D compatibility mode
+	mb3DCompat = false
+
+[modRenderExclusions]
+	#Mod IDs that should be excluded from custom rendering (entire mod).
+	excludedModIds = ["pointblank", "jeg", "cataclysm", "supplementaries"]
+	#Specific item IDs to exclude from custom rendering (e.g. 'modid:itemname').
+	excludedItemIds = []
+	#Skips the blockItem renderer, useful especially for create items because they're already 3D.
+	renderBlockAsItem = ["create:cogwheel", "create:large_cogwheel", "create:shaft", "create:gearbox", "create:vertical_gearbox", "create:clutch", "create:gearshift", "create:encased_chain_drive", "create:adjustable_chain_gearshift", "create:belt_connector", "create:chain_conveyor", "create:creative_motor", "create:water_wheel", "create:large_water_wheel", "create:nozzle", "create:turntable", "create:hand_crank", "create:millstone", "create:crushing_wheel", "create:mechanical_press", "create:mechanical_mixer", "create:empty_blaze_burner", "create:blaze_burner", "create:depot", "create:weighted_ejector", "create:speedometer", "create:stressometer", "create:wooden_bracket", "create:metal_bracket", "create:schematicannon", "create:fluid_pipe", "create:mechanical_pump", "create:smart_fluid_pipe", "create:fluid_valve", "create:copper_valve_handle", "create:hose_pulley", "create:portable_fluid_interface", "create:steam_engine", "create:gantry_carriage", "create:gantry_shaft", "create:windmill_bearing", "create:mechanical_bearing", "create:clockwork_bearing", "create:rope_pulley", "create:elevator_pulley", "create:cart_assembler", "create:sticker", "create:contraption_controls", "create:mechanical_drill", "create:mechanical_saw", "create:deployer", "create:portable_storage_interface", "create:mechanical_harvester", "create:mechanical_plough", "create:mechanical_roller", "create:mechanical_crafter", "create:sequenced_gearshift", "create:flywheel", "create:rotation_speed_controller", "create:mechanical_arm", "create:controls", "create:andesite_funnel", "create:brass_funnel", "create:andesite_tunnel", "create:brass_tunnel", "create:package_frogport", "create:factory_gauge", "create:display_board", "create:peculiar_bell", "create:haunted_bell", "create:brown_toolbox", "create:clipboard", "meadow:rustic_bed", "meadow:jacquard_bed", "meadow:plaid_bed", "meadow:chambray_bed", "meadow:tweed_bed", "meadow:warped_bed", "confluence:alchemy_table", "quark:birch_chest", "quark:warped_chest", "quark:mangrove_chest", "quark:prismarine_chest", "quark:cherry_chest", "quark:jungle_chest", "quark:spruce_chest", "quark:purpur_chest", "quark:blossom_chest", "quark:oak_chest", "quark:acacia_chest", "quark:ancient_chest", "quark:bamboo_chest", "quark:nether_brick_chest", "quark:crimson_chest", "quark:dark_oak_chest", "quark:azalea_chest", "quark:trapped_birch_chest", "quark:trapped_warped_chest", "quark:trapped_mangrove_chest", "quark:trapped_prismarine_chest", "quark:trapped_cherry_chest", "quark:trapped_jungle_chest", "quark:trapped_spruce_chest", "quark:trapped_purpur_chest", "quark:trapped_blossom_chest", "quark:trapped_oak_chest", "quark:trapped_acacia_chest", "quark:trapped_ancient_chest", "quark:trapped_bamboo_chest", "quark:trapped_nether_brick_chest", "quark:trapped_crimson_chest", "quark:trapped_dark_oak_chest", "quark:trapped_azalea_chest", "aether:treasure_chest", "aether:chest_mimic", "ascended_quark:sunroot_chest", "ascended_quark:trapped_cruderoot_chest", "ascended_quark:trapped_roseroot_chest", "ascended_quark:trapped_skyroot_chest", "ascended_quark:trapped_conberry_chest", "ascended_quark:roseroot_chest", "ascended_quark:trapped_yagroot_chest", "ascended_quark:yagroot_chest", "ascended_quark:conberry_chest", "ascended_quark:skyroot_chest", "ascended_quark:cruderoot_chest", "ascended_quark:trapped_sunroot_chest"]

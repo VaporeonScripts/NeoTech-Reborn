@@ -1,0 +1,108 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&b-&f--------------'
+    - '&f-&b-&f-------------'
+    - '&f--&b-&f------------'
+    - '&f---&b-&f-----------'
+    - '&f----&b-&f----------'
+    - '&f-----&b-&f---------'
+    - '&f------&b-&f--------'
+    - '&f-------&b-&f-------'
+    - '&f--------&b-&f------'
+    - '&f---------&b-&f-----'
+    - '&f----------&b-&f----'
+    - '&f-----------&b-&f---'
+    - '&f------------&b-&f--'
+    - '&f-------------&b-&f-'
+    - '&f--------------&b-'
+    - '&f-------------&b-&f-'
+    - '&f------------&b-&f--'
+    - '&f-----------&b-&f---'
+    - '&f----------&b-&f----'
+    - '&f---------&b-&f-----'
+    - '&f--------&b-&f------'
+    - '&f-------&b-&f-------'
+    - '&f------&b-&f--------'
+    - '&f-----&b-&f---------'
+    - '&f----&b-&f----------'
+    - '&f---&b-&f-----------'
+    - '&f--&b-&f------------'
+    - '&f-&b-&f-------------'
+    - '&b-&f--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&b&lNeoTech Reborn'
+  - '&f&lNeoTech Reborn'
+  - '&b&lNeoTech Reborn'
+  - '&b&l&nNeoTech Reborn'
+  - '&f&lNeoTech Reborn'
+  - '&f&l&nNeoTech Reborn'
+web:
+  change-interval: 200
+  texts:
+    - '&fdiscord.gg/8Hz9qTjJaB'
+    - '&fdiscord.gg/8Hz9qTjJaB'
+    - '&b&ld&fiscord.gg/8Hz9qTjJaB'
+    - '&fd&b&li&fscord.gg/8Hz9qTjJaB'
+    - '&fdi&b&ls&fcord.gg/8Hz9qTjJaB'
+    - '&fdis&b&lc&ford.gg/8Hz9qTjJaB'
+    - '&fdisc&b&lo&frd.gg/8Hz9qTjJaB'
+    - '&fdisco&b&lr&fd.gg/8Hz9qTjJaB'
+    - '&fdiscor&b&ld&f.gg/8Hz9qTjJaB'
+    - '&fdiscord&b&l.&fgg/8Hz9qTjJaB'
+    - '&fdiscord.&b&lg&fg/8Hz9qTjJaB'
+    - '&fdiscord.g&b&lg&f/8Hz9qTjJaB'
+    - '&fdiscord.gg&b&l/&f8Hz9qTjJaB'
+    - '&fdiscord.gg/&b&l8&fHz9qTjJaB'
+    - '&fdiscord.gg/8&b&lH&fz9qTjJaB'
+    - '&fdiscord.gg/8H&b&lz&f9qTjJaB'
+    - '&fdiscord.gg/8Hz&b&l9&fqTjJaB'
+    - '&fdiscord.gg/8Hz9&b&lq&fTjJaB'
+    - '&fdiscord.gg/8Hz9q&b&lT&fjJaB'
+    - '&fdiscord.gg/8Hz9qT&b&lj&fJaB'
+    - '&fdiscord.gg/8Hz9qTj&b&lJ&faB'
+    - '&fdiscord.gg/8Hz9qTjJ&b&la&fB'
+    - '&fdiscord.gg/8Hz9qTjJa&b&lB'
+    - '&fdiscord.gg/8Hz9qTjJaB'
+    - '&fdiscord.gg/8Hz9qTjJaB'
+    - '&fdiscord.gg/8Hz9qTjJaB'
+vote:
+  change-interval: 1000
+  texts:
+  - '&b&nvote.domain.com'
+  - '&f&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&f&lW_'
+  - '&f&lW_'
+  - '&f&lWe_'
+  - '&f&lWel_'
+  - '&f&lWelc_'
+  - '&f&lWelco_'
+  - '&f&lWelcom_'
+  - '&b&lWelcome'
+  - '&b&lWelcome'
+  - '&b&lWelcome'
+  - '&b&lWelcome'
+  - '&f&lWelcom_'
+  - '&f&lWelco_'
+  - '&f&lWelc_'
+  - '&f&lWel_'
+  - '&f&lWe_'
+  - '&f&lW_'
+  - '&f&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&bTime &f%time%'
+    - '&bDate &f%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

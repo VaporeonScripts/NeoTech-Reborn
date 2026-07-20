@@ -1,0 +1,30 @@
+[corruption]
+	#Spread speed of corrupted grass blocks, 1 = Default, 0 = Disabled
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	"Corruption Spread Speed" = 1.0
+	#Should the corrupted tree be able to grow through and destroy blocks? Default = true
+	"Corrupted Tree Grow Trough" = true
+	#Should corrupted sapling require bone meal to grow at all? Default = false
+	"Corrupted Tree Bone Meal" = false
+	#Should boblings spawn projectiles when hit and replace blocks when planting? Default = true
+	"Corrupted Bobling Griefing" = true
+	#Should sludges shoot projectiles when blocks get destroyed? Default = true
+	"Corrupted Sludge Griefing" = true
+
+[rebrewing]
+	#Change items for rebrewing recipe, JEI needs rejoin
+	"Rebrewing Length" = "minecraft:redstone"
+	"Rebrewing Amplifier" = "minecraft:glowstone_dust"
+	"Rebrewing Splash" = "minecraft:gunpowder"
+	"Rebrewing Lingering" = "minecraft:dragon_breath"
+
+[misc]
+	#Should Saltemone Bubbles drop loot, even when nobody popped them? Default = true
+	"Saltemone Griefing" = true
+	#Cooldown for all throwable items, which drop blocks. Input in ticks
+	# Default: 0
+	# Range: 0 ~ 10000
+	"Throwables Cooldown" = 0
+	#Allows Torchflowers to covert to burning torchflower when in direct sunlight
+	"Torchflower Conversion" = true

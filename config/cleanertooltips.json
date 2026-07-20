@@ -1,0 +1,26 @@
+{
+  "general": {
+    "enabled": true,
+    "compareAttributes": true,
+    "comparisonArrow": true,
+    "sharpness": true,
+    "hiddenAttributesHint": true,
+    "miningSpeed": false,
+    "innerGap": 3,
+    "attributeGap": 8
+  },
+  "durability": {
+    "durabilityEnabled": true,
+    "durabilityPos": "BOTTOM",
+    "durabilityStyle": "DEFAULT",
+    "maximumDurability": true,
+    "durabilityColor": true
+  },
+  "advanced": {
+    "onlyCompareShared": false,
+    "groupDisplay": "ROWS",
+    "hintBlacklist": [
+      "minecraft:player.mining_efficiency"
+    ]
+  }
+}

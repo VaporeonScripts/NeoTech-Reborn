@@ -1,0 +1,20 @@
+{
+	"general": {
+		"enabled": true,
+		"compareAttributes": true,
+		"comparisonArrow": true,
+		"sharpness": true,
+		"hiddenAttributesHint": true,
+		"miningSpeed": false
+	},
+	"durability": {
+		"durabilityEnabled": false,
+		"durabilityPos": "INLINE",
+		"maximumDurability": true,
+		"durabilityColor": true
+	},
+	"advanced": {
+		"onlyCompareShared": false,
+		"groupDisplay": "ROWS"
+	}
+}

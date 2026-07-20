@@ -1,0 +1,87 @@
+[damage-particles]
+	#Whether the pop-up particles when a mob is injured or healed are enabled.
+	damage_particles_enabled = true
+	#The relative size of damage particles.
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	damage_particle_size = 1.0
+	#Whether the numbers that appear as pop-up particles are outlined in a darker color.
+	damage_particle_outline = true
+
+[hud-indicator]
+	#Whether the hud damage indicator is enabled.
+	hud_indicator_enabled = true
+	#How far away (in blocks) entities can be to appear in the hud health indicator
+	# Default: 100.0
+	# Range: 3.0 ~ 10000.0
+	max_distance = 8.0
+	#Whether health appears with a more visible yellow/black scheme.
+	colorblind_health_bar = false
+	#Whether health appears with a decimal point.
+	health_decimals = true
+	#Whether health appears appears as a | (true) or / (false).
+	health_separator = true
+	#How long after mousing over an entity the hud damage indicator remains on screen, in game ticks.
+	# Default: 30
+	# Range: 0 ~ 1200
+	hud_linger_time = 0
+	#The relative size of hud indicator.
+	# Default: 0.75
+	# Range: 0.0 ~ 10.0
+	hud_indicator_size = 0.65
+	#How opaque the background of the hud indicator is.
+	# Default: 0.75
+	# Range: 0.0 ~ 10.0
+	hud_indicator_background_opacity = 0.75
+	#True if the hud indicator appears on the left side of the screen, false for right.
+	hud_indicator_align_left = true
+	#True if the hud indicator appears on the top of the screen, false for bottom.
+	hud_indicator_align_top = true
+	#How many pixels from the left side of the screen the hud indicator is.
+	# Default: 10
+	# Range: > -2147483648
+	hud_indicator_position_x = 0
+	#How many pixels from the top of the screen the hud indicator is.
+	# Default: 10
+	# Range: > -2147483648
+	hud_indicator_position_y = 150
+	#The size in pixels a usual entity should render as in the hud indicator.
+	# Default: 38.0
+	# Range: 0.0 ~ 2000.0
+	hud_entity_size = 38.0
+	#Whether the name of the entity in the hud indicator should be outlined.
+	hud_name_text_outline = false
+	#Whether the health of the entity in the hud indicator should be outlined.
+	hud_health_text_outline = false
+	#List of all entity_types to just render as a model instead of with entity context. add to this if an entity is rendering strangely.
+	hud_old_render_entities = ["alexsmobs:giant_squid"]
+	#Whether to show the name of the mod the entity comes from on the hud indicator.
+	show_mod_source = true
+	#Whether the health bar smoothly animates when the entity takes damage or heals.
+	hp_bar_animated = true
+	#How fast the health bar animation is (per tick lerp factor). Higher = faster.
+	# Default: 0.15
+	# Range: 0.01 ~ 1.0
+	hp_bar_animation_speed = 0.15
+	#Whether the indicator flashes red when the entity takes damage.
+	damage_flash = false
+	#How many ticks the damage flash lasts.
+	# Default: 8
+	# Range: 2 ~ 30
+	damage_flash_duration = 8
+	#Scale multiplier for the mod source text.
+	# Default: 1.0
+	# Range: 0.1 ~ 5.0
+	mod_source_size = 1.25
+	#Horizontal offset of the mod source text in pixels (relative to default position).
+	# Default: 0
+	# Range: -500 ~ 500
+	mod_source_offset_x = 0
+	#Vertical offset of the mod source text in pixels (relative to default position).
+	# Default: 5
+	# Range: -500 ~ 500
+	mod_source_offset_y = 5
+	#Color of the mod source text as an RGB integer (e.g. 0xAAAAAA = grey).
+	# Default: 11184810
+	# Range: 0 ~ 16777215
+	mod_source_color = 11184810

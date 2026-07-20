@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+  "type": "neoforge:and",
+    "values":
+    [
+      "#monsterplus:can_spawn_overgrown",
+      {
+        "type": "neoforge:not",
+        "value": "#c:no_default_monsters"
+      }
+    ]
+  },
+  "spawners": {
+    "type": "monsterplus:overgrown_skeleton",
+    "weight": 60,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

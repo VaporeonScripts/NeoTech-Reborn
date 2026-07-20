@@ -1,0 +1,60 @@
+#Game Settings
+[Settings]
+	#Should fisherman buy/sell items related to this mods items (Seafood and pearls)
+	fishermanBuyCDItems = true
+	#Should the Wandering Trader sell items in exchange for pearls?
+	wanderingTraderDealsPearls = true
+	#Should seafood only be able to be cooked through the Farmer's Delight pot?
+	cookInPot = true
+	#Minimum ticks before seafood can be gathered by the crab trap. Default = 4000
+	minTicks = 4000
+	#Maximum ticks before seafood can be gathered by the crab trap. Default = 8000
+	maxTicks = 8000
+	#Requires the crab trap to have a 3x3 of open water or waterlogged blocks around it to be able to function. Default = true
+	require_surrounding_water = true
+
+#World generation
+[world]
+
+	#Palm Tree generation
+	[world.palm_trees]
+		#Should palm trees generate on beaches?
+		generatePalmTrees = true
+		#Chance of generating. Smaller value = more frequent.
+		# Default: 1
+		# Range: > 1
+		chance = 1
+
+	#Seashell generation
+	[world.seashells]
+		#Should seashells generate on beaches and ocean floors?
+		generateSeashells = true
+		#Chance of generating on beaches. Smaller value = more frequent.
+		# Default: 2
+		# Range: > 1
+		chanceBeach = 2
+		#Chance of generating on ocean floors. Smaller value = more frequent.
+		# Default: 2
+		# Range: > 1
+		chanceUnderwater = 2
+		#Number of seashell variants available (must match textures/models/blockstates files)
+		# Default: 7
+		# Range: 1 ~ 64
+		seashellVariantCount = 7
+
+	#Crab spawning
+	[world.crab_spawns]
+		#Should crabs spawn naturally in the world?
+		generateCrabSpawns = true
+		#Spawn weight. Higher value = more frequent relative to other mobs.
+		# Default: 10
+		# Range: > 1
+		spawnWeight = 10
+		#Minimum crabs per spawn attempt.
+		# Default: 2
+		# Range: > 1
+		minCount = 2
+		#Maximum crabs per spawn attempt.
+		# Default: 3
+		# Range: > 1
+		maxCount = 3

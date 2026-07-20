@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = ntr_menu_slideshows
+   width = 1920
+   height = 1080
+   x = 0
+   y = 0
+   duration = 6.5
+   fadespeed = 3.0
+   randomize = true
+}

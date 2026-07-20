@@ -1,0 +1,19 @@
+[hardened_mouth_effect]
+	#Move extra slots from the Hardened mouth effect left to right
+	# Default: -25
+	# Range: -5000 ~ 5000
+	"Hardened Mouth X" = -25
+	#Move extra slots from the Hardened mouth effect up and down
+	# Default: 80
+	# Range: -5000 ~ 5000
+	"Hardened Mouth Y" = 80
+
+[block_patterns]
+	#Input in chunks. Negative values use a division of your current render distance instead
+	# Default: -2
+	# Range: -5 ~ 32
+	"Block Pattern Render Distance" = -2
+	#Enables smooth lighting for block patterns
+	"Block Pattern Smooth Lighting" = true
+	#Enables transparency for block patters (only noticeable with resource packs)
+	"Block Pattern Transparency" = false

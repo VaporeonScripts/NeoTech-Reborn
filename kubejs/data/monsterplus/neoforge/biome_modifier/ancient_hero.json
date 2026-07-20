@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values":
+    [
+      "#minecraft:is_overworld",
+      {
+        "type": "neoforge:not",
+        "value": "#c:no_default_monsters"
+      }
+    ]
+  },
+  "spawners": {
+    "type": "monsterplus:ancient_hero",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

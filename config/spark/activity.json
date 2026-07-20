@@ -1,0 +1,821 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1784309627377,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/T6aBBUfqlZ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783862693819,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/fIDhpQ8wKt"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783854430781,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Ou0eJiLnfm"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783778052562,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/RSyYHxo25f"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783777548917,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/RHpFK6KfQR"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783764526453,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QLUQZoY1qf"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783692245546,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/NEDWEqyABg"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783691378259,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/bjMMvOfn4K"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783627960116,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/0EfLI0dt0d"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783608158493,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/cwdIX70xLQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783605103860,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QXBf2U4tN7"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783600764424,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/JPVUb4lJhd"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783594882832,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/aXOY2GMzHr"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783593941503,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rxBBjsJgYs"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783550689525,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/HvEbQeIbCo"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783550622901,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zjBWBovwKl"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783550487526,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/UUenH59u0R"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783550092497,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/8HDsH5HC8E"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783550021511,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/bAwPYJvSmS"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783546659061,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/p5oPSz1WoO"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783546567664,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vYD6cdvHrl"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783546007031,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/GP0kPw1zxQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783544238098,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/A51c5aIRx1"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783543007715,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3aQ82RHcc5"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783542538405,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/bCd6Su2TQ8"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783542487155,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/7VIc1JHiQE"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783541837753,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QgfLeiWc00"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783540212792,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/9SZadiSLfx"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783539907742,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xoEZPhQYSe"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783436776831,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jgSCJFFvBy"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783184292135,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/tzHqAnVCHw"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783177106145,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/G4sGRzmhbJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1783007975966,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/taFPGI5BTX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782814006684,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/HpDKaFvBCX"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782766470706,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QHLLXwLFuw"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782402910211,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/OiVAMmzwpF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782305916312,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/iOMi1Qk3AJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782231141443,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/mzfu4oZ1mU"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782214282866,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/O3or8Hf5oU"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782211536608,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zTM0EPi7YG"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782211175852,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/MySFjqq4mR"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782210866471,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/PcxhelJqvb"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782165026820,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/GKW584Hv8a"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782163583678,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/20SSepPcTr"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782046951380,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3iwAzyiyqQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1782040789231,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/AJ7nK6QtRl"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1781968301687,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Y9GAcnVIRF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780670966460,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/XxvybBTT2g"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780596599446,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rpUXpwj41I"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780596322230,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/kSgh0xRiFp"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780582782013,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/XxKccTil4w"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780419149312,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/UiVgfqZFNs"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780395495913,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/PdAWBoyL6c"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780395327803,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/TuZQ43R12w"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780322493330,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/AaqFQnHFyv"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780263799014,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/thAJVXC7M8"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780263600754,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rlv9Ni7brn"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780257175486,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ubtT0F9gke"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780255133903,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/MShw3f4sKq"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1780246559062,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/9CiIfx7oiz"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1754400666535,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "/home/natsuyami/.local/share/PrismLauncher/instances/NeoForge Testing/.minecraft/config/spark/profile-2025-08-05_15.31.06.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1752438905878,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "/home/natsuyami/.local/share/PrismLauncher/instances/NeoForge Testing/.minecraft/config/spark/profile-2025-07-13_22.35.05.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
+    "time": 1752224681903,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "/home/natsuyami/.local/share/PrismLauncher/instances/NeoForge Testing/.minecraft/config/spark/profile-2025-07-11_11.04.41.sparkprofile"
+    }
+  }
+]

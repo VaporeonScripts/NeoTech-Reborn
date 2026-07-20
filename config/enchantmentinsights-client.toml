@@ -1,0 +1,205 @@
+#Controls enchantment descriptions shown on item tooltips.
+[enchanted_item_tooltips]
+	#Add descriptions and other useful information to tooltips.
+	#Default Value: ALWAYS
+	#Allowed Values: DISABLED, NEVER, ALWAYS, SHIFT, CONTROL, ALT
+	tooltip_descriptions = "SHIFT"
+	#Add a note on how to show descriptions when they are hidden.
+	#Default Value: true
+	tooltip_descriptions_hint = true
+	#Apply a fixed string before every initial description line.
+	#Default Value:  ◆ 
+	description_decoration = " ◆ "
+
+	#Formatting for setting a text color and various styles for different enchantments.
+	[enchanted_item_tooltips.enchantment_name_styling]
+
+		#Formatting for setting a text color and various styles for normal enchantments.
+		[enchanted_item_tooltips.enchantment_name_styling.default_formatting]
+			#Should text appear with an underline.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			underline = "DEFAULT"
+			#Should text appear italic.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			italic = "DEFAULT"
+			#Should text appear bold.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			bold = "DEFAULT"
+			#Should text appear struck-through.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			strikethrough = "DEFAULT"
+			#Should text appear colored.
+			#Default Value: true
+			colored = true
+			#The text color. Must be enabled separately.
+			#Allowed Values: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
+			text_color = "green"
+
+		#Formatting for setting a text color and various styles for treasure enchantments.
+		[enchanted_item_tooltips.enchantment_name_styling.treasure_formatting]
+			#Should text appear with an underline.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			underline = "DEFAULT"
+			#Should text appear italic.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			italic = "DEFAULT"
+			#Should text appear bold.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			bold = "DEFAULT"
+			#Should text appear struck-through.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			strikethrough = "DEFAULT"
+			#Should text appear colored.
+			#Default Value: true
+			colored = true
+			#The text color. Must be enabled separately.
+			#Allowed Values: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
+			text_color = "gold"
+
+		#Formatting for setting a text color and various styles for curses.
+		[enchanted_item_tooltips.enchantment_name_styling.curse_formatting]
+			#Should text appear with an underline.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			underline = "DEFAULT"
+			#Should text appear italic.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			italic = "DEFAULT"
+			#Should text appear bold.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			bold = "DEFAULT"
+			#Should text appear struck-through.
+			#Default Value: DEFAULT
+			#Allowed Values: TRUE, FALSE, DEFAULT
+			strikethrough = "DEFAULT"
+			#Should text appear colored.
+			#Default Value: true
+			colored = true
+			#The text color. Must be enabled separately.
+			#Allowed Values: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
+			text_color = "red"
+
+	#Formatting for setting a text color and various styles for the description component.
+	[enchanted_item_tooltips.description_formatting]
+		#Should text appear with an underline.
+		#Default Value: DEFAULT
+		#Allowed Values: TRUE, FALSE, DEFAULT
+		underline = "DEFAULT"
+		#Should text appear italic.
+		#Default Value: DEFAULT
+		#Allowed Values: TRUE, FALSE, DEFAULT
+		italic = "DEFAULT"
+		#Should text appear bold.
+		#Default Value: DEFAULT
+		#Allowed Values: TRUE, FALSE, DEFAULT
+		bold = "DEFAULT"
+		#Should text appear struck-through.
+		#Default Value: DEFAULT
+		#Allowed Values: TRUE, FALSE, DEFAULT
+		strikethrough = "DEFAULT"
+		#Should text appear colored.
+		#Default Value: true
+		colored = true
+		#The text color. Must be enabled separately.
+		#Allowed Values: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
+		text_color = "gray"
+
+	#Controls text lines added to enchantment description tooltips.
+	[enchanted_item_tooltips.item_tooltip_lines]
+		#Add the internal id to tooltips.
+		#Default Value: false
+		internal_name = false
+		#Add tags for primary and other supported items to tooltips.
+		#Default Value: false
+		compatible_items = false
+		#The maximum line width in pixels.
+		#Default Value: 175
+		# Default: 175
+		# Range: > 25
+		maximum_width = 175
+		#Add the name of the source mod to tooltips.
+		#Default Value: false
+		mod_name = false
+		#Add the maximum enchantment level as part of the name to tooltips.
+		#Default Value: true
+		maximum_level = false
+		#Add the description to tooltips.
+		#Default Value: true
+		value_description = true
+
+	#Add enchantment descriptions to certain item groups.
+	[enchanted_item_tooltips.item_description_targets]
+		#Add enchantment descriptions to enchanted books.
+		#Default Value: true
+		stored_enchantments = true
+		#Add enchantment descriptions to enchanted items.
+		#Default Value: true
+		enchantments = true
+
+#Controls enchantment descriptions shown when hovering enchant buttons in the enchanting table screen.
+[enchanting_table_tooltips]
+	#Add descriptions and other useful information to tooltips.
+	#Default Value: ALWAYS
+	#Allowed Values: DISABLED, NEVER, ALWAYS, SHIFT, CONTROL, ALT
+	tooltip_descriptions = "ALWAYS"
+	#Apply a fixed string before every initial description line.
+	#Default Value:  ◆ 
+	description_decoration = " ◆ "
+	#Add a note on how to show descriptions when they are hidden.
+	#Default Value: true
+	tooltip_descriptions_hint = true
+
+	#Formatting for setting a text color and various styles for the description component.
+	[enchanting_table_tooltips.description_formatting]
+		#Should text appear with an underline.
+		#Default Value: DEFAULT
+		#Allowed Values: TRUE, FALSE, DEFAULT
+		underline = "DEFAULT"
+		#Should text appear italic.
+		#Default Value: DEFAULT
+		#Allowed Values: TRUE, FALSE, DEFAULT
+		italic = "DEFAULT"
+		#Should text appear bold.
+		#Default Value: DEFAULT
+		#Allowed Values: TRUE, FALSE, DEFAULT
+		bold = "DEFAULT"
+		#Should text appear struck-through.
+		#Default Value: DEFAULT
+		#Allowed Values: TRUE, FALSE, DEFAULT
+		strikethrough = "DEFAULT"
+		#Should text appear colored.
+		#Default Value: true
+		colored = true
+		#The text color. Must be enabled separately.
+		#Allowed Values: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
+		text_color = "gray"
+
+	#Controls text lines added to enchantment description tooltips.
+	[enchanting_table_tooltips.widget_tooltip_lines]
+		#Add the internal id to tooltips.
+		#Default Value: false
+		internal_name = false
+		#Add tags for primary and other supported items to tooltips.
+		#Default Value: false
+		compatible_items = false
+		#The maximum line width in pixels.
+		#Default Value: 175
+		# Default: 175
+		# Range: > 25
+		maximum_width = 175
+		#Add the name of the source mod to tooltips.
+		#Default Value: false
+		mod_name = false
+		#Add the description to tooltips.
+		#Default Value: true
+		value_description = true

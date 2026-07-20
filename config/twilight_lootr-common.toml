@@ -1,0 +1,7 @@
+[general]
+	#if true, boss chests will decay after a set amount of time from the boss dying [default false]
+	enable_decay = true
+	#the time in ticks before a boss chest decays (if decay is enabled) [default 3 minutes]
+	# Default: 3600
+	# Range: > 0
+	decay_time = 3600

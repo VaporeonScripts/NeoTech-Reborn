@@ -1,0 +1,13 @@
+{
+	"stealtho_meter_style": "DISABLED",
+	"enable_custom_damage_flash": true,
+	"damage_flash_colors": {
+		"CRITICAL_HIT": 14669820,
+		"FIRE": 16743447,
+		"MAGIC": 16266239,
+		"DEFAULT": 0
+	},
+	"enable_attack_particles": true,
+	"enable_critical_burst": true,
+	"debug_mob_detection": false
+}

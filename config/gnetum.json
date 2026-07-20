@@ -1,0 +1,1016 @@
+{
+  "enabled": {
+    "value": "ON"
+  },
+  "showHudFps": {
+    "value": "ON"
+  },
+  "downscale": {
+    "value": "OFF"
+  },
+  "numberOfPasses": 3,
+  "maxFps": 60,
+  "screenMaxFps": 20,
+  "mapVanillaElements": {
+    "vampirism:action_cooldown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "youkaisfeasts:cuisine_hint": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:spectator_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "heaven_destiny_moment:moment_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "twilightforest:portal_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "vampirism:nearby_vampire": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "dungeonsdelight:voracity_effect_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "undergarden:carved_gloomgourd_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mekanism:status_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "eternal_starlight:portal": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:subtitle_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "sfm:network_tool_reminder": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "framedblocks:block_interact": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:active_abilities": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "aether:remedy_vignette": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "eternal_starlight:orb_of_prophecy_use": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "ars_nouveau:spell_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "supplementaries:selectable_container_item": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "naturescompass:natures_compass": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:scoreboard_sidebar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "ars_nouveau:mana_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "vampirism:disguise": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "l2archery:info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "eternal_starlight:ether_erosion": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "terra_curio:diving_helmet": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "inventoryhud:armor": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "gnetum:minecraft_hand": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "irons_spellbooks:screen_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "inventoryhud:potion": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "ars_nouveau:tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:experience_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:saving_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:title": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "pneumaticcraft:pneumatic_armor": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "youkaisfeasts:info_tile": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "vampirism:rage": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:value_settings": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:selected_item_name": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:torohealth_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "occultism:golden_sacrificial_bow_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mekanism:hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "modonomicon:multiblock_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "starcatcher:fish_tracker": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "confluence:goblin_army": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "werewolves:fur_border": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "divinerpg:arcana_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "ars_nouveau:scry_camera": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:blueprint": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "dungeonsdelight:ravenous_rush_vignette": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "deeperdarker:otherside_portal": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:info_tile": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "reliquified_twilight_forest:goblin_vignette": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "loot_journal:pickup_component": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "biomeswevegone:textures/misc/palepumpkinblur.png": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:experience_level": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "lootlog:pickup_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "relics:phantom_boot_bridge": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "twilightforest:quest_ram_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "immersiveengineering:items": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "l2complements:range_digging": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "starcatcher:tournament": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "gnetum:status_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "vampirism:raid_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "explorerscompass:explorers_compass": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "aether:shield_of_repulsion_vignette": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "twilightforest:item_display_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "eternal_starlight:spell_crosshair": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "yungscavebiomes:buffeted": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "cuisinedelight:cooking": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "inventoryhud:inventory": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "refurbished_furniture:cutting_board_helper": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "patchouli:book_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "vampirism:action_duration": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "sophisticatedstorageinmotion:paintbrush_moving_storage_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:tab_list": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "nuggets:in_world_tooltip": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:goggle_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "aether:aether_portal_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "l2itemselector:tool_select": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "eternal_starlight:offhand_attack_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "securitycraft:camera_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:toolbox": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "patchouli:multiblock_progress": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "deep_aether:stratus": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "reliquified_twilight_forest:rage_consumption_vignette": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "confluence:repeater_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:jump_meter": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "aether:moa_jumps": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "youkaishomecoming:info_tile": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:hotbar": {
+      "enabled": {
+        "value": "OFF"
+      },
+      "pass": 1
+    },
+    "artifacts:artifact_cooldowns": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:debug_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "undergarden:utheric_infection_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "confluence:house_select": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "emberstextapi:immersive_messages": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "aether:inebriation_vignette": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "rootsclassic:mana_layer": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "extended_industrialization:nano_gravichestplate_activation_status": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "immersiveengineering:blocks": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "sophisticatedstorage:storage_tool_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "the_trackers:pointer": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "aether:hammer_cooldown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "vampiricageing:tainted_sun_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "moresnifferflowers:glued": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "eternal_starlight:carved_lunaris_cactus_fruit_blur": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:overlay_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "irons_spellbooks:screen_effects": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "create:schematic": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "l2hostility:info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "sophisticatedstorage:paintbrush_info": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "mekanism:radiation_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "eternal_starlight:current_crest": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "refurbished_furniture:power_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "bagus_lib:dialog": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "vampirism:bat": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "ftbbackups3:overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "eternal_starlight:dream_catcher": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:track_placement": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "pneumaticcraft:minigun": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "l2archery:arrow": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:sleep_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "starcatcher:fish_radar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "irons_spellbooks:cast_bar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "undergarden:utheric_infection_vignette": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "justdirethings:abilitycooldownoverlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "irons_spellbooks:spell_wheel": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:boss_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "eccentrictome:tome_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "reliquified_twilight_forest:twilight_indicator": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "create:linked_controller": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "terra_curio:info_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "vampirism:sun": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "modern_industrialization:activation_status": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "twilightforest:ore_meter_stats": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "theurgy:item_hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "sfm:label_gun_reminder": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "relics:leafy_ring_hide": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "occultism:third_eye": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "undergarden:undergarden_portal_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "pneumaticcraft:jackhammer": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "supplementaries:slimed": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "pneumaticcraft:ender_visor": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "minecraft:chat": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "starcatcher:tracked_fish": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  },
+  "mapModdedElementsPre": {
+    "hackersandslashers": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "gnetum_unknown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "morerelics": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "block_factorys_bosses": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "lagprotection": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "chloride": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "luminous_nether": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "enhanced_enchanting": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "sfm": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "vampirism": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "unusualend": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
+    "werewolves": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    }
+  },
+  "mapModdedElementsPost": {
+    "puzzleslib": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "gnetum_unknown": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "compactf3plus": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "powah": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "endermanoverhaul": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "fabric_rendering_v1": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "bankstorage": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "jade": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "creativecore": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    }
+  }
+}

@@ -1,0 +1,57 @@
+#HUD Section Toggles
+[sections]
+	#Show FPS line
+	showFps = true
+	#Show RAM line
+	showSystem = true
+	#Show Lag (Stutters) line
+	showLag = false
+	#Show TPS line
+	showTps = false
+	#Show XYZ coordinates line
+	showCoords = true
+	#Show chunk/slime info line
+	showSubchunk = false
+	#Show local difficulty line
+	showLocalDifficulty = false
+	#Show entities count line
+	showEntities = true
+	#Show session time line
+	showSession = true
+	#Show ping line
+	showPing = true
+	#Show speed section
+	showSpeed = true
+	#Show facing direction line
+	showFacing = true
+	#Show head pitch (vertical angle) line
+	showPitch = false
+	#Show in-game time line
+	showTime = true
+	#Show in-game day line
+	showDay = true
+	#Show light level line
+	showLight = true
+	#Show biome line
+	showBiome = true
+	#Show dimension line
+	showDimension = true
+
+#Visual Settings
+[visuals]
+	#Color-code FPS and TPS values (green/yellow/red)
+	colorIndicators = false
+	#Render text with shadow
+	textShadow = true
+	#Show detailed speed information
+	detailedSpeed = false
+	#Replace the default F3 debug screen with the Compact F3 Plus overlay
+	replaceF3 = true
+	#Show the XYZ axis gizmo when F3 is replaced (only works when replaceF3 is true)
+	showGizmo = true
+	#Enable the Compact HUD by default when joining a world
+	enabledByDefault = false
+	#Background opacity percentage (0-100)
+	# Default: 25
+	# Range: 0 ~ 100
+	backgroundOpacity = 25

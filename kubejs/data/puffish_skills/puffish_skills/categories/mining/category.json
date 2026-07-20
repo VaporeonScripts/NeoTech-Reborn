@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Mining",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "crystalcraft_unlimited_java:black_opal_pickaxe"
+		}
+	},
+	"background": "chipped:textures/block/gray_concrete/gray_concrete_bricks.png"
+}

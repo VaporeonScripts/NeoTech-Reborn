@@ -1,0 +1,4 @@
+defaultEnchantmentOnWeapons = true
+daggerThrowable = true
+axeThrowable = true
+javelinThrowable = true

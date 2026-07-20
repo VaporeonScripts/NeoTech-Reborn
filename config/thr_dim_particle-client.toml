@@ -1,0 +1,20 @@
+[Emitter]
+	# Default: 50
+	# Range: 20 ~ 1000
+	emitterLimit = 50
+	# Default: 30
+	# Range: 10 ~ 260
+	fpsThreshold = 30
+	allowsVanillaParticleWhenReachLimit = false
+	# Default: 1
+	# Range: 1 ~ 1200
+	emitterAutoRemoveIntervalTick = 1
+	# Default: 32
+	# Range: 16 ~ 256
+	minimumEmitterAutoRemoveDistance = 32
+	# Default: 16
+	# Range: 0 ~ 64
+	minimumEmitterAutoRemoveAttenuationDistance = 16
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	minimumEmitterAutoRemoveAttenuationCoefficient = 0.25

@@ -1,0 +1,18 @@
+Player:
+  tagprefix: '&2&lPlayer &3'
+
+default:
+  tabprefix: '&b&l[Player] '
+  tagprefix: '%luckperms-prefix%'
+  customtabname: '%player%'
+  tabsuffix: '%luckperms-suffix%'
+  tagsuffix: '%luckperms-suffix%'
+
+per-world:
+  world1:
+    owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'
+
+owner:
+  tabprefix: '&4&l[Owner] '

@@ -1,0 +1,17 @@
+[
+    {
+        "mob": "monsterplus:wisp",
+        "attempts": 20,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": ["minecraft:overworld"],
+            "maxlocal": 15,
+            "and": {
+                "biometags": ["c:is_swamp"]
+            }
+        }
+    }
+]

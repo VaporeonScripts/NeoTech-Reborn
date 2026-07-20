@@ -1,0 +1,10 @@
+#World Generation Settings
+[worldGeneration]
+	#The entire overworld stone generation is replaced with a custom stone replacer system.
+	stoneReplacers = false
+	#Whether the tremor event can occur
+	tremors = false
+	#Do rocks generate around the world
+	rocks = true
+	#Whether the geysers generate around the world
+	geysers = false

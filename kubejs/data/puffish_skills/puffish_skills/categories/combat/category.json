@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Combat",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "simplyswords:awakened_lichblade"
+		}
+	},
+	"background": "cataclysm:textures/block/obsidian_bricks.png"
+}
