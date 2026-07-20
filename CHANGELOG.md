@@ -1,2 +1,0 @@
-# NeoTech Reborn Changelog
-# WIP
