@@ -3050,13 +3050,13 @@
     "curseForgeHash": 1121082259,
     "modrinthHash": "ab6a5c01f4100b5f011fdabf897a8772f1d650f1"
   },
-  "lootintegrations_vanilla-1.6.jar": {
-    "jarName": "lootintegrations_vanilla-1.6.jar",
+  "lootintegrations_vanilla-1.7.jar": {
+    "jarName": "lootintegrations_vanilla-1.7.jar",
     "modId": "lootintegrations_vanilla",
     "name": "lootintegrations_vanilla mod",
     "version": "1",
-    "curseForgeHash": 13866548,
-    "modrinthHash": "0f89be3a7dc5a0e6af59a4b93e138b4c10883286"
+    "curseForgeHash": 1733187719,
+    "modrinthHash": "c545c5177ac6a7d49b88a80f2706da7085d7708d"
   },
   "lootintegrations_yggdrasils-1.2.jar": {
     "jarName": "lootintegrations_yggdrasils-1.2.jar",
@@ -3818,13 +3818,13 @@
     "curseForgeHash": 3833846824,
     "modrinthHash": "ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd"
   },
-  "obe+1.21.1-neoforge-1.1.31.jar": {
-    "jarName": "obe+1.21.1-neoforge-1.1.31.jar",
+  "obe+1.21.1-neoforge-1.1.35.jar": {
+    "jarName": "obe+1.21.1-neoforge-1.1.35.jar",
     "modId": "obe",
     "name": "Optimized Block Entities",
-    "version": "1.1.31",
-    "curseForgeHash": 3666815551,
-    "modrinthHash": "9f19081da8e974ab96e2923bf903c7f52429b907"
+    "version": "1.1.35",
+    "curseForgeHash": 3577852098,
+    "modrinthHash": "f4fa68cac38c0169888a3d3460377c8df4cb5067"
   },
   "observable-5.4.4.jar": {
     "jarName": "observable-5.4.4.jar",
@@ -4802,13 +4802,13 @@
     "curseForgeHash": 3414849852,
     "modrinthHash": "84802fbe1645de8caf61ccb07db6cf451e614f68"
   },
-  "supplementaries-neoforge-1.21.1-3.8.2.jar": {
-    "jarName": "supplementaries-neoforge-1.21.1-3.8.2.jar",
+  "supplementaries-neoforge-1.21.1-3.8.3.jar": {
+    "jarName": "supplementaries-neoforge-1.21.1-3.8.3.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21.1-3.8.2",
-    "curseForgeHash": 4079264862,
-    "modrinthHash": "e14eefc14535cebeddae773a5ce66e36a998ca9e"
+    "version": "1.21.1-3.8.3",
+    "curseForgeHash": 1939802502,
+    "modrinthHash": "6012c4bec5aaa958ae1ea7b06daf93a2aa43ef23"
   },
   "t_and_t-neoforge-fabric-1.13.9+1.21.1.jar": {
     "jarName": "t_and_t-neoforge-fabric-1.13.9+1.21.1.jar",
