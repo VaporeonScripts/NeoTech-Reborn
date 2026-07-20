@@ -1,0 +1,18 @@
+{
+  "minecraft:item.trident.thunder": 0.5077728426395939,
+  "the_bumblezone:biomes.beehive_ambience": 0.0,
+  "subtle_effects:environment.firefly.buzz": 0.15561548223350255,
+  "subtle_effects:block.water.drip": 0.0,
+  "minecraft:item.goat_horn.sound.1": 0.25888324873096447,
+  "minecraft:item.goat_horn.sound.0": 0.2555520304568528,
+  "minecraft:item.goat_horn.sound.3": 0.25549920561349937,
+  "minecraft:item.goat_horn.sound.2": 0.2521150075844702,
+  "minecraft:entity.ender_dragon.death": 0.10961294416243655,
+  "minecraft:entity.lightning_bolt.thunder": 0.25951776649746194,
+  "minecraft:item.goat_horn.sound.5": 0.2555520304568528,
+  "minecraft:ui.toast.in": 0.1572017766497462,
+  "minecraft:item.goat_horn.sound.4": 0.25158629441624364,
+  "minecraft:item.goat_horn.sound.7": 0.2539657360406091,
+  "minecraft:ui.toast.out": 0.15323604060913706,
+  "minecraft:entity.lightning_bolt.impact": 0.2071700507614213
+}
