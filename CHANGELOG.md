@@ -1,24 +1,56 @@
 # NeoTech Reborn Changelog
 
-NeoTech Reborn | 1.4.1.0 Changelog (Released)SummaryMassive overhaul: dozens of new mobs (sharks, squids, deep-sea fish, orcas, and more) and new ocean biomes (coral reefs, trenches, sulfuric caves, tide pools)  Added-# - LootJS: KubeJS Addon  Removed-# - Complementary Structures (it looks like structures from this mod don't spawn at all, even when located)  Changes-# - Config Changes and Cleanup
--# - Improved the server MOTD with a more vibrant color scheme
--# - Added a "Filter: Tracked" option to the dropdown menu, to display currently tracked advancements (thanks to Niix)
--# - The progress bar is now dynamic: when searching or filtering within a section, it updates to show progress only for the matching advancements (thanks to Niix)
--# - Tracked advancements are now saved, so they're no longer lost on reload (thanks to Niix)
--# - Added support for filtering by multiple mods at once in the Advancements screen's search bar (thanks to Niix)
--# - Added support for remembering the search query in the Advancements screen across menu reopens (thanks to Niix)
--# - Removed all of Tide's fishing rods, since Starcatcher already covers that niche and newer Starcatcher versions were conflicting with them, causing crashes
--# - Disabled tide's "useThirdPartyMinigames" option due to crashes when using some rods
--# - Re-adjusted Chloride config options
--# - Removed unused FancyMenu layout config for FTB Backups  Notable Fixes-# - (!) Fixes included in Mod Updates
--# - Fixed a crash that would happen when you fished with non-starcatcher rods
--# - Fixed see-through UI elements after updating to the Accelerated Rendering Mesh update
--# - Fixed crash when picking up Lucy's Axe from Confluence
--# - Fixed numerous compatibility and world generation issues (including configs being ignored) with various biome/dimension mods
--# - Fixed the Advancements screen missing 1 pixel on the right/bottom edges (thanks to Niix)
--# - Fixed some memory leaks  Updated-# - (!) All mods that could be updated have been updated.
--# - Updated Resource Packs
--# - Updated NeoForge version from 21.1.235 -> 21.1.236  Current NeoForge Version-# - 21.1.236  -# (!) = A change included in every update.Additional NotesNothing is perfect, the pack may and will have bugs, report them here or in the discord server support channel.  
+## NeoTech Reborn 1.4.1.0.zip — 2026-07-20
+
+NeoTech Reborn | 1.4.1.0 Changelog (Released)
+Massive overhaul: dozens of new mobs (sharks, squids, deep-sea fish, orcas, and more) and new ocean biomes (coral reefs, trenches, sulfuric caves, tide pools)
+Added
+
+LootJS: KubeJS Addon
+
+Removed
+
+Complementary Structures (it looks like structures from this mod don't spawn at all, even when located)
+
+Changes
+
+Config Changes and Cleanup
+Improved the server MOTD with a more vibrant color scheme
+Added a "Filter: Tracked" option to the dropdown menu, to display currently tracked advancements (thanks to Niix)
+The progress bar is now dynamic: when searching or filtering within a section, it updates to show progress only for the matching advancements (thanks to Niix)
+Tracked advancements are now saved, so they're no longer lost on reload (thanks to Niix)
+Added support for filtering by multiple mods at once in the Advancements screen's search bar (thanks to Niix)
+Added support for remembering the search query in the Advancements screen across menu reopens (thanks to Niix)
+Removed all of Tide's fishing rods, since Starcatcher already covers that niche and newer Starcatcher versions were conflicting with them, causing crashes
+Disabled tide's "useThirdPartyMinigames" option due to crashes when using some rods
+Re-adjusted Chloride config options
+Removed unused FancyMenu layout config for FTB Backups
+
+Notable Fixes
+
+(!) Fixes included in Mod Updates
+Fixed a crash that would happen when you fished with non-starcatcher rods
+Fixed see-through UI elements after updating to the Accelerated Rendering Mesh update
+Fixed crash when picking up Lucy's Axe from Confluence
+Fixed numerous compatibility and world generation issues (including configs being ignored) with various biome/dimension mods
+Fixed the Advancements screen missing 1 pixel on the right/bottom edges (thanks to Niix)
+Fixed some memory leaks
+
+Updated
+
+(!) All mods that could be updated have been updated.
+Updated Resource Packs
+Updated NeoForge version from 21.1.235 -> 21.1.236
+
+Current NeoForge Version
+
+21.1.236
+
+(!) = A change included in every update.
+
+
+Additional Notes
+Nothing is perfect, the pack may and will have bugs, report them here or in the discord server support channel.
 
 ---
 
@@ -524,10 +556,10 @@ Nothing is perfect, the pack may and will have bugs, report them here or in the 
 ## NeoTech Reborn 1.3.1.0.zip — 2026-06-20
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.3.1.0 Changelog (Released)
-‎ 
+‎ 
 Summary
 tons (60+!!!) of new structures made by diff mods blocks/mobs, tons of tweaks (quark), new mobs and general config changes
-‎ 
+‎ 
 Added
 - Open Together
 - Quark
@@ -535,7 +567,7 @@ Added
 - Integrated API
 - Integrated Dungeons and Structures
 - Integrated Stronghold
-‎ 
+‎ 
 Removed
 - Open Sesame (replaced by Open Together)
 - EMI Loot (this caused massive log spam and prevented the user from joining a newly created world)
@@ -544,14 +576,14 @@ Removed
 - Repurposed Structures - Better Strongholds Compat (not required anymore)
 - YUNG's Better Desert Temples (replaced by IDAS Desert Temple)
 - Repurposed Structures - Better Desert Temples Compat (not required anymore)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Removed LTAB Luck enchant description from the script (it's now included by default)
 - Updated Apotheosis enchantments config file to fix wrong levels for some enchantments (Outreach, Cubic Mining, Grow, Light, Solid, Multi Boomerang, Swift Lash, Fire Wall, Aerodynamism, Wanderer)
 - Added many new, highly detailed structures to world generation
 - Supported animals now feature varied textures
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed wrong discount percentage displayed in the Kinetic Panel (multiplayer screen)
@@ -560,11 +592,11 @@ Notable Fixes
 - Fixed "Failed to load chunk" error/crash caused by Quark's Fairy Ring generator
 - Fixed the "c:gems/peridot" tag being empty (changed a kjs script)
 - Fixed "bomber" enchant description
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.233
 ### Additional Notes
@@ -575,29 +607,29 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.3.0.0.zip — 2026-06-13
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.3.0.0 Changelog (Released)
-‎ 
+‎ 
 Summary
 Performance focused update, includes texture related optimizations and ram usage improvements
-‎ 
+‎ 
 Added
-- 
-‎ 
+- 
+‎ 
 Removed
 - Quality Food (caused a crash on startup, might get re-added if it gets fixed)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Added ModernFix back to the server folder, it was missing for some reason
 - Updated KJS scripts
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Shader Packs
 - Updated Resource Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.233
 ### Additional Notes
@@ -608,20 +640,20 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.9.0.zip — 2026-06-05
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.9.0 Changelog (Released)
-‎ 
+‎ 
 Summary
 General update, some new mods, performance improvements, improved compatibility between mods
-‎ 
+‎ 
 Added
 - Kinetic Hosting Integration
 - Naturalist
 - Starcatcher's Delight
 - Polymorphic Occultism
 - MVSI - Moog's Voyager Structures Integrated
-‎ 
+‎ 
 Removed
 - Koopa's Critters (replaced by Naturalist)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Added a clickable Kinetic Hosting affiliate banner to the multiplayer server list
@@ -630,15 +662,15 @@ Changes
 - Removed EE gamerule from the gamerules.js script since now its disabled by default
 
 
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Finally fixed stutters caused by EE
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.233
 ### Additional Notes
@@ -649,12 +681,12 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.8.0.zip — 2026-06-02
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.8.0 Changelog (Released)
-‎ 
+‎ 
 Summary
 Massive update
 
 
-‎ 
+‎ 
 Added
 - Elytra Trims Extensions
 - Delight Lib (now required by More Delight)
@@ -665,7 +697,7 @@ Added
 - Compact F3 Plus
 - Enchantment Insights
 - Apothic Tooltip Cleanup
-‎ 
+‎ 
 Removed
 - Galosphere (caused issues with world gen and with apotheosis spawners) (will get re-added once fixed)
 - Explosive Enhancement: Reforged (not really needed)
@@ -679,7 +711,7 @@ Removed
 - More Villagers: Missing Buildings (depends on a version that doesn't exist)
 - Improved Village Placement (villages were almost non-existent)
 - RarityCore (buggy in multiple aspects, such as showing an uncommon rarity border on the cursor in certain scenarios)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Changed Puffish Skills luck attribute's icon (old one was from a removed mod, which caused problems)
@@ -696,20 +728,20 @@ Changes
 - Added ChangeLegendaryToolsColor (false) to gamerules.js (temp-fix for constant stutters)
 
 
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed the enchanted tool FPS drop issue caused by Enhanced Enchanting
 - Fixed the situation where the player would stay in the void (semi-softlock) for several seconds right after generating the world
 - Fixed Curse Enchantments causing the whole tooltip to flicker in certain situations (damn you, ImmersiveUI!)
 - Fixed NeoEnchant+ enchants not having a description when using Enchantment Insights
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shader Packs
 - Updated NeoForge Version from 21.1.228 -> 21.1.233
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.233
 ### Additional Notes
@@ -720,10 +752,10 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.7.3.zip — 2026-04-27
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.7.3 Changelog (Released)
-‎ 
+‎ 
 Summary
 Performance focused update, also many mod replacements/removals, and changes
-‎ 
+‎ 
 Added
 - Async Logger
 - Kerria
@@ -733,15 +765,15 @@ Added
 - Simple Backups
 - ItemClearLag
 - StructureOverlapless
-‎ 
+‎ 
 Removed
 - Iron's Patreon Lib (integrated in Iron's Lib)
 - FTB Backups 3 (replaced by Simple Backups)
 - Nameless Trinkets (there are enough trinkets/curios/artifacts in the pack, also this mod causes overhead when checking curio slots)
 - DarkQuesting (not needed, could provide op stuff during early gameplay's (such as shulker boxes or netherite armor))
 - DarkTimer (replaced by ItemClearLag)
-- No Structure Overlap (replaced by StructureOverlapless (better implementation)) 
-‎ 
+- No Structure Overlap (replaced by StructureOverlapless (better implementation)) 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Loggers are now asynchronous, improving performance
@@ -749,16 +781,16 @@ Changes
 - Changed Damage Indicator's mod source's size
 
 
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shader Packs
 - Updated NeoForge Version from 21.1.224 -> 21.1.228
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.228
 ### Additional Notes
@@ -769,32 +801,32 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.7.2.zip — 2026-04-07
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.7.2 Changelog (Released)
-‎ 
+‎ 
 Summary
 New dungeons got added, along improved compat between Excalibur and pack's mods
-‎ 
+‎ 
 Added
 - Epic Structures: Dungeons
 - You're in Grave Danger x Excalibur
 - Tag Localizations (Now separated from Tag Fixes)
-‎ 
+‎ 
 Removed
 - Fantastic Deepslate Dungeons
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - The “drowning bubbles” are now more transparent and obstruct less vision, with fewer bubbles appearing overall.
 - Disabled Eccentric Tome in ModTabs config due to it being currently buggy
 
 
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated NeoForge version from 21.1.222 -> 21.1.224
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.224
 ### Additional Notes
@@ -805,18 +837,18 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.7.1.zip — 2026-04-02
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.7.1 Changelog (Released)
-‎ 
+‎ 
 Summary
 Many mod changes, improved compat between mods, new rarity colors, bug fixes etc
-‎ 
+‎ 
 Added
 - Loot Log: Pickup Notifier
 - RarityCore
-‎ 
+‎ 
 Removed
 - (Bee's) Fancy Crops (doesn't fit the pack style)
 - Pick Up Notifier (replaced by Loot Log: Pickup Notifier)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - 35 new paintings got added
@@ -828,17 +860,17 @@ Changes
 - Re-Retro Damage Indicators will now show from which mod the shown mob comes from
 
 
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed a crash when using Spawn Eggs
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shader Packs
 - Updated NeoForge Version from 21.1.221 -> 21.1.222
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.222
 ### Additional Notes
@@ -849,19 +881,19 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.7.0.zip — 2026-03-27
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.7.0 Changelog (Released)
-‎ 
+‎ 
 Summary
 Tons of new enchantments have been added, along with some important fixes that could've made gameplay really unbalanced.
-‎ 
+‎ 
 Added
 - Enhanced Enchanting & Enchantments
 - Simply Swords x Excalibur
 - Simply More x Excalibur
 - Iron's Patreon Library (Now required by Iron's mods)
-‎ 
+‎ 
 Removed
 - Enchantments Encore (modrinth ahh mod, dropped support for 1.21.1 many months ago)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Made developer weapons from Confluence impossible to obtain from RandomOre blocks
@@ -870,14 +902,14 @@ Changes
 - Changed Enchantments max level (25% more than base given from Apothic Enchanting) (Only Enhanced Enchanting's enchantments were affected)
 
 
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated NeoForge version from 21.1.220 -> 21.1.221
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.221
 ### Additional Notes
@@ -888,15 +920,15 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.9.zip — 2026-03-21
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.6.9 Changelog (Released)
-‎ 
+‎ 
 Summary
 Bug-Fix focused update, contains updates
-‎ 
+‎ 
 Added
 - Compat API (Now required by Compat Structures)
 - Gensokyo Delight ~ Youkais' Feasts
 - Fantastic Deepslate Dungeons
-‎ 
+‎ 
 Removed
 - Create: Enchantable Machinery (crashing issues, will get re-added once fixed)
 - Gensokyo Delight ~ Youkai's Homecoming (1.21.1 version got removed)
@@ -904,7 +936,7 @@ Removed
 - Better Beds (caused issues with Fast Beds option from Chloride)
 - Adventure Dungeons (don't like how they are structured) (replaced by Fantastic Deepslate Dungeons)
 - Loot Integrations: Adventure Dungeons
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Many new structures got added
@@ -913,16 +945,16 @@ Changes
 - Removed WWOO from the server side's mods folder
 
 
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed a bug that caused placing the Enchantment Library to render transparent blocks, allowing players to see through them
 - Fixed buggy bed's models
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.220
 ### Additional Notes
@@ -933,32 +965,32 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.8.zip — 2026-03-16
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.6.8 Changelog (Released)
-‎ 
+‎ 
 Summary
 Mod updates and bug fixes
-‎ 
+‎ 
 Added
 \- Excalibur | Ice and Fire | Tabla's Dragon Retextures
-‎ 
+‎ 
 Removed
 \- Regions Unexplored: Expansion (not compatible with newer versions of RU)
-‎ 
+‎ 
 Changes
 \- Config Changes and Cleanup
 \- Changed Crash Assistant's theme to "FlatDarculaLaf"
 
 
-‎ 
+‎ 
 Notable Fixes
 \- (!) Fixes included in Mod Updates
 \- Fixed Modded Way Signs having a buggy texture
-‎ 
+‎ 
 Updated
 \- (!) All mods that could be updated have been updated.
 \- Updated Resource Packs
 \- Updated Shader Packs
 \- Updated NeoForge version from 21.1.219 -> 21.1.220
-‎ 
+‎ 
 Current NeoForge Version
 \- 21.1.220
 ### Additional Notes
@@ -969,31 +1001,31 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.7.zip — 2026-03-05
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.6.7 Changelog (Released)
-‎ 
+‎ 
 Summary
 Just a bump update along some adjustments and bug fixes included in mod updates
-‎ 
+‎ 
 Added
 - Simply Tooltips (now required by Simply Swords)
 - Excalibur | My nether's Delight Support
-‎ 
+‎ 
 Removed
-- 
-‎ 
+- 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Adjusted ESM button position
 
 
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shader Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.219
 ### Additional Notes
@@ -1004,31 +1036,31 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.6.zip — 2026-02-25
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.6.6 Changelog (Released)
-‎ 
+‎ 
 Summary
 Bug fix and performance focused update
-‎ 
+‎ 
 Added
 - Smooth Movement
 - Ancient Iron
 - Load My F***ing Tags
 - Tag Localization Fixes
-‎ 
+‎ 
 Removed
-- 
-‎ 
+- 
+‎ 
 Changes
 - Config Changes and Cleanup
 
 
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.219
 ### Additional Notes
@@ -1039,19 +1071,19 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.5.zip — 2026-02-16
 
 ⁨⁨⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.6.5 Changelog (Released)
-‎ 
+‎ 
 Summary
 Bug-fix focused update, with some improvements and a new mod
-‎ 
+‎ 
 Added
 - Mandalas GUI-KOTS Compat
 - Wildex Bestiary
 - Re-Retro Damage Indicators
-‎ 
+‎ 
 Removed
 - Simple Loot Viewer (EMI Loot is better)
 - Health Bars (replaced by Re-Retro Damage Indicators)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Confluence own's Advancements button is now hidden via FancyMenu
@@ -1060,17 +1092,17 @@ Changes
 - Added the Wildex book to the First_Join Eccentric Tome
 - Enabled "Fast Beds" option in Chloride
 - Added "[Let's Do] Meadow" mod's beds id's to the Hold My Items blacklist (due to buggy models)
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed beds being invisible
 - Fixed buggy slime texture when hovering over them
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shader Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.219
 ### Additional Notes
@@ -1081,31 +1113,31 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.4.zip — 2026-02-02
 
 ⁨⁨⁨⁨⁨⁨⁨NeoTech Reborn | 1.2.6.4 Changelog (Released)
-‎ 
+‎ 
 Summary
 Bug fixes and compatibility focused update, also contains performance improvements
-‎ 
+‎ 
 Added
 - Smart Particles
-‎ 
+‎ 
 Removed
 - Cardiac (Excessive particle effects when killing high-health mobs, leading to performance lag)
 - Excalibur | Warrior Rage Support (Now included in Excalibur | Additions: Minor Mods Support)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Adjusted Enchantment Levels
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed Hybrid Aquatic crabs being in the wrong offset in the GUI Health Bar
 - Fixed some attributes showing incorrectly
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shader Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.219
 ### Additional Notes
@@ -1116,32 +1148,32 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.3.zip — 2026-01-28
 
 NeoTech Reborn | 1.2.6.3 Changelog (Released)
-‎ 
+‎ 
 Summary
 
 
-‎ 
+‎ 
 Added
 - Alex's Caves (Unofficial Port)
 - Citadel (Unofficial Port)
 - BiomeSpy
-‎ 
+‎ 
 Removed
 - Structure Essentials (replaced by BiomeSpy)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed NeoForge EarlyLoadingScreen not appearing
 - Fixed Tooltip Overhaul not working on EMI
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated NeoForge version from 21.1.218 -> 21.1.219
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.219
 ### Additional Notes
@@ -1152,13 +1184,13 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.2HF.zip — 2026-01-12
 
 NeoTech Reborn | 1.2.6.2 Changelog (Released)
-‎ 
+‎ 
 Summary
 Fish-focused update, contains bug fixes and many improvements. Also includes some mod cleanup for future additions
-‎ 
+‎ 
 Added
 - Biolith
-‎ 
+‎ 
 Removed
 - Feature Recycler (caused issues with Biolith. That mod does the same thing as FR)
 - Vampire's Delight
@@ -1168,19 +1200,19 @@ Removed
 - Vampirism! (doesn't fit the pack style anymore)
 - Bloodlines - A Vampirism Addon
 - Werewolves - Become a Beast!
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Downgraded LWJGL from 3.3.6 -> 3.3.3 to prevent issues
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated NeoForge version from 21.1.217 -> 21.1.218
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.218
 ### Additional Notes
@@ -1191,10 +1223,10 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.1.zip — 2026-01-06
 
 NeoTech Reborn | 1.2.6.1 Changelog (Released)
-‎ 
+‎ 
 Summary
 Massive content update, tons of mod changes, significant performance improvements and bug fixes
-‎ 
+‎ 
 Added
 - Villager API (Needed for MV: RE)
 - BetterBlockZ
@@ -1213,7 +1245,7 @@ Added
 - Nether Trials & Chambers
 - Cleaner Tooltips
 - Simply Swords: Cataclysm
-‎ 
+‎ 
 Removed
 - Mowzie's Mobs (crashing issues)
 - GTBC's Geomancy Plus - Iron's Spells Addon (MM got removed)
@@ -1225,7 +1257,7 @@ Removed
 - Iceberg (not needed anymore)
 - Prism (not needed anymore)
 - Hackers 'n Slashers (temporarily removed due to it not working on the server side) (will get re-added once fixed)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Disabled Hacker 'n Slashers crosshair due to issues
@@ -1235,7 +1267,7 @@ Changes
 - Disabled the "firefly" particle effect from the "Particular" mod because SubtleEffects already provides it
 - Cataclysm bosses can no longer destroy graves
 - Disabled durability information from the “Clean Tooltips” mod
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed a crash when searching in the creative inventory
@@ -1244,13 +1276,13 @@ Notable Fixes
 - Fixed Sophisticated Storage upgraded chests flickering
 - Fixed NeoEnchant+ enchantment names displaying incorrectly when showing enchantment descriptions (thanks to Hardel!)
 - Fixed the “Summoner Pact” enchantment displaying its codename as the name
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shader Packs
 - Updated NeoForge Version from 21.1.215 -> 21.1.217
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.217
 ### Additional Notes
@@ -1261,10 +1293,10 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.6.0.zip — 2025-11-26
 
 NeoTech Reborn | 1.2.6.0 Changelog (Released)
-‎ 
+‎ 
 Summary
 massive update, includes new content, tons of bug fixes/performance improvements and improved compat
-‎ 
+‎ 
 Added
 - Network Protocol Disconnect
 - Excalibur | Macaw's Doors Support
@@ -1284,7 +1316,7 @@ Added
 - Duplicationless
 - Darker Depths
 - Tooltip Overhaul
-‎ 
+‎ 
 Removed
 - AsyncParticles (archived mod)
 - Noisium (archived mod)
@@ -1293,7 +1325,7 @@ Removed
 - Torohealth Damage Indicator Reformed (replaced by Health Bars)
 - Stardew Fishing (replaced by Starcatcher)
 - TNBN (replaced by TINBN)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Lowered floatingItemScale (immersiveUI from 1.4 -> 1.2)
@@ -1304,16 +1336,16 @@ Changes
 - Disabled Emi modID due to possible issues when joining
 - Updated Enchantments descriptions
 - Updated Apotheosis enchanting config
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shader Packs
 - Updated NeoForge version from 21.1.211 -> 21.1.215
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.215
 ### Additional Notes
@@ -1324,10 +1356,10 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.5.6.zip — 2025-10-13
 
 NeoTech Reborn | 1.2.5.6 Changelog (Released)
-‎ 
+‎ 
 Summary
 many new mods, mostly biomes/content ones, new foods, also tons of bug fixes due to mod updates
-‎ 
+‎ 
 Added
 - GTBC's Geomancy Plus - Iron's Spells Addon
 - [Let's Do] Meadow
@@ -1341,29 +1373,29 @@ Added
 - Dungeons Delight
 - RunicLib
 - YUNG's Better Caves
-‎ 
+‎ 
 Removed
 - Project: Vibrant Journeys (not needed anymore, since some other mods add similiar decorations, also this mod got some incompats with other biome mods)
 - Roots Classic (like, what even is the purpose of this mod bruh)
 - Stuttering Screen/Lag Protection (unstable mod, caused crashes)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Changed AR config to temp-fix a visual issue
 - Disabled Main-Hand item hud option in InventoryHUD+
 - Removed Crop Marker from VanillaTweaks
 - KubeJS compat changes
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed possible crashes related to the lag protection mod
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shader Packs
 - Updated from NeoForge 21.1.209 -> 21.1.211
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.211
 ### Additional Notes
@@ -1374,10 +1406,10 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.5.5.zip — 2025-10-01
 
 NeoTech Reborn | 1.2.5.5 Changelog (Released)
-‎ 
+‎ 
 Summary
 mod changes, bug fixes, improved excalibur compat
-‎ 
+‎ 
 Added
 - Shut Up GL Error
 - JamLib
@@ -1389,10 +1421,10 @@ Added
 - Excalibur | Ribbits Support
 - Create Ultimine
 - Don't Make Me Turn This Boat Around
-‎ 
+‎ 
 Removed
-- 
-‎ 
+- 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Changed ImmersiveUI config (improvements)
@@ -1402,16 +1434,16 @@ Changes
 - Boats now automatically align with your facing direction when you board them.
 - 16 new Alloys have been added
 - Unbound iris "K" keybind due to it being overlapped by puffish skills
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed logs possibly being spammed by GL Errors
 - Partially fixed some enchants flickering (altough when you will hold shift, it will flicker)
 - Fixed some deadlocks
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.209
 ### Additional Notes
@@ -1422,12 +1454,12 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.5.4.zip — 2025-09-22
 
 NeoTech Reborn | 1.2.5.4 Changelog (Released)
-‎ 
+‎ 
 Summary
 
 
 tons of mod changes, mostly bug fixes, new content, diagonal walls/fences, new villages types, tech additions
-‎ 
+‎ 
 Added
 - Excalibur | Macaw's Roofs Support
 - [Let's Do] Beachparty
@@ -1441,7 +1473,7 @@ Added
 - Super Factory Manager
 - Diagonal Fences
 - Diagonal Walls
-‎ 
+‎ 
 Removed
 - Rotten Creatures (some bugs, also mod support isn't provided)
 - Platform (RC dep)
@@ -1450,7 +1482,7 @@ Removed
 - All the Wizard Gear (same reason of ATM)
 - Excalibur | Supplementaries Support (signs textures were buggy, will get re-added once fixed)
 - PolyLib (useless since FTB Backups 2 got removed)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Reduced "Fortune" enchant max lvl from 10 -> 6 (to balance RandomOre drops) (also changed some enchants max lvl)
@@ -1465,7 +1497,7 @@ Changes
 - Re-Enabled Occultism version of the Silver Ore
 - Disabled the "What...? Magnet" trinket due to undesirable effects
 - Repositioned multiple huds (inventoryHUD+, WarriorRage)
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed a bug where crouching and placing blocks would incorrectly fill the lower parts beneath the targeted block instead of placing just one.
@@ -1474,12 +1506,12 @@ Notable Fixes
 - Fixed buggy Supplementaries signs textures
 - Fixed some Supplementaries items being buggy while in the main hand
 - Fixed buggy texture for torchflower while in the main hand
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated Shaders
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.209
 ### Additional Notes
@@ -1490,10 +1522,10 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.5.3.zip — 2025-09-15
 
 NeoTech Reborn | 1.2.5.3 Changelog (Released)
-‎ 
+‎ 
 Summary
 Excalibur compatibility focused update, along new mods
-‎ 
+‎ 
 Added
 - Excalibur | Handcrafted Support
 - Excalibur | Aquaculture 2
@@ -1504,29 +1536,29 @@ Added
 - Enchant Display: Roman numerals (basically "icons" RP enchants levels icons)
 - Legendary Tabs - Neoport
 - Botany Pots - Mystical Agriculture Compat
-‎ 
+‎ 
 Removed
 - Skin Layers 3D (could cause compatibility problems with mods, also not really needed in big modpacks)
 - I See My Armored Hand (some armors are bugged (no hand texture)), will re-add once they fix it
 - Icons (multiple issues with overlapping)
 - Advertisement Removal | Icons Addon (not needed anymore)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Changed SubtleEffects fire height from 0 -> -0.20
 - Removed some tweaks from Vanilla Tweaks resource pack (some are replaced by SubtleEffects config)
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed buggy hand texture with some chestplates
 - Fixed advancements icons overlapping fancytoasts advancements
 - Fixed language options having strange " (-) " symbols
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated Resource Packs
 - Updated NeoForge version from 21.1.208 -> 21.1.209
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.209
 ### Additional Notes
@@ -1537,10 +1569,10 @@ Nothing is perfect, the pack may and will have bugs, report them here.
 ## NeoTech Reborn 1.2.5.2.zip — 2025-09-08
 
 NeoTech Reborn | 1.2.5.2 Changelog (Released)
-‎ 
+‎ 
 Summary
 Bug fixing focused update, along with added Excalibur-compatible resource packs for improved mod textures and immersion
-‎ 
+‎ 
 Added
 - Excalibur | It Takes a Pillage
 - Excalibur | Ice and Fire
@@ -1555,7 +1587,7 @@ Added
 - Pick Up Notifier
 - Crafting Station: J/EMI Edition Updated
 - Excalibur | Lootr Retextured
-‎ 
+‎ 
 Removed
 - What Are They Up To (Watut) (buggy mod, caused SubtleEffects firefly particles to be buggy)
 - T.O Magic 'n Extras - Iron's Spells Addon (unstable + buggy mod, not even ready for 1.21.1 lol, will be re-added once they fix most issues) (replaced by GTBC's Spellbooks - Iron's Spells Addon)
@@ -1563,7 +1595,7 @@ Removed
 - Loot Journal (got some bugs, replaced by Pick Up Notifier)
 - AmbientSounds 6 (meh)
 - Excalibur | Lootr Support (replaced by Excalibur | Lootr Retextured)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - KubeJS changes
@@ -1575,7 +1607,7 @@ Changes
 - Changed LivingEntitiesMaxVerticalTickDistance from 48 -> 64 (3 -> 4 chunks)
 - Enabled allowVillageDestroyBlocks, which will now allow you to break blocks in vampirism factions villages even if you aren't in a faction
 - Glowcaps and other groundcover will no longer appear on the top bedrock layer
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed firefly from SubtleEffects being buggy
@@ -1583,12 +1615,12 @@ Notable Fixes
 - Fixed most issues with crashing/anything else related to TravelOptics
 - Fixed item flickering issues
 - Fixed FancyMenu pre-loading resources issues
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Resource Packs
 - Updated NeoForge version from 21.1.206 -> 21.1.208
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.208
 ### Additional Notes
@@ -1599,10 +1631,10 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.5.1.zip — 2025-09-01
 
 NeoTech Reborn | 1.2.5.1 Changelog (Released)
-‎ 
+‎ 
 Summary
 Apotheosis compatibility with other mods, some mod changes, many performance improvements & bug fixes, also new world generation stuff
-‎ 
+‎ 
 Added
 - YUNG's Cave Biomes
 - Create: Dreams n' Desires (added back)
@@ -1617,15 +1649,15 @@ Added
 - Epic Structures: Villages
 - Butchercraft
 - LITE shaders (MakeUp edit)
-‎ 
+‎ 
 Removed
 - Despawn Tweaks (replaced by Utilitarian new feature, works better)
 - Sussy Sniffers (crashed with Additional Attributes, the issue has been reported)
 - Miles's Enhanced Hud (not required anymore since Confluence modifies hearts and saturation textures)
 - Better Mana Bar for Iron's Spells 'n Spellbooks (not required anymore since Confluence compat for irons spellbooks is enabled)
 - Butchery (replaced by Butchercraft)
-- MakeUp - Ultra Fast (replaced by LITE shaders (MakeUp  edit))
-‎ 
+- MakeUp - Ultra Fast (replaced by LITE shaders (MakeUp  edit))
+‎ 
 Changes
 - Balanced mining/combat skills required exp (exponential growth, will be much harder)
 - Disabled Modern Industrialization update message
@@ -1641,17 +1673,17 @@ Changes
 - Changed LivingEntitiesMaxHorizontalTickDistance from 128 -> 96 (8 -> 6 chunks) due to the new option StopRenderingSkippedEntities, which will hide entities from rendering if the entity tick is skipped
 - Improved LITE shaders (MakeUp edit) config
 - Disabled Chloride Max Entity Distance (culling/hiding) due to it overlapping "DoesPotatoTick?" features
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed missing mods in server mods folder
 - Log Spam by fancy menu has been fixed
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Updated NeoForge version from 21.1.203 -> 21.1.206
 - Updated Resource Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.206
 ### Additional Notes
@@ -1662,31 +1694,31 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.5.0hf.zip — 2025-08-21
 
 NeoTech Reborn | 1.2.5.0hf Changelog (Released)
-‎ 
+‎ 
 Summary
 
 
-‎ 
+‎ 
 Added
-- 
-‎ 
+- 
+‎ 
 Removed
-- 
-‎ 
+- 
+‎ 
 Changes
 - Disabled showFoodValuesHudOverlay (AppleSkin) (it got overlapped by Confluence Hunger Bar)
 - Disabled Vampirism "collectStats" (basically telemetry)
 - Added comforts sleeping bags (totally 16) entries to holdmyitems blacklist, since they are bugged with the animation
 - Re-Enabled Tide Minigame, it should now use Stardew Fishing minigame
 - Reverted fallingStarInterval from 3600 -> 2400 since those are needed to get more mana
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed TAB config mismatching on server side
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.203
 ### Additional Notes
@@ -1697,10 +1729,10 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.5.0.zip — 2025-08-21
 
 NeoTech Reborn | 1.2.5.0 Changelog (Released)
-‎ 
+‎ 
 Summary
 Pack Stability focused update, this update aims to fix many performance issues with chunk loading, also many mod changes (new mobs, structures and biomes), a new way to grow plants/trees and general improvements to the pack (a world reset is recommended but not necessary)
-‎ 
+‎ 
 Added
 - Mine Treasure (Mod Version)
 - AsyncParticles (the issues got fixed)
@@ -1721,7 +1753,7 @@ Added
 - Iron's Spells 'n Spellbooks Dynamic Skill Trees
 - Pufferfish's Skills
 - Pufferfish's Attributes
-‎ 
+‎ 
 Removed
 - Mine Treasure (DataPack Version)
 - Wabi-Sabi Structures (not compatible with modded biomes due to hardcoded stuff)
@@ -1736,7 +1768,7 @@ Removed
 - Cataclysm Weaponery (not needed)
 - AoA Iron Furnaces Fix (AoA got removed)
 - Advent of Ascension (incomplete mod, buggy, will get re-added once it's complete)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Reduced ModPack file size
@@ -1761,18 +1793,18 @@ Changes
 - Deeply customized Pufferfish Skill's backgrounds and icons
 - Unbound an annoying IPN HotKey
 - Changed Panorama folder name from Nether_Panorama to Loading_Panorama (user-friendly usage purposes)
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed a mistake in global packs (forgot the resourcepacks/ for the excalibur create resource pack lol)
 - Fixed EMI exceptions/crashes when joining a world/server a 2nd time without rebooting the client
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - Resource Packs
 - Shader Packs
 - Updated NeoForge from 21.1.200 -> 21.1.203
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.203
 ### Additional Notes
@@ -1789,10 +1821,10 @@ updated all the mods and fixed a server side issue
 ## NeoTech Reborn 1.2.4.4.zip — 2025-08-14
 
 NeoTech Reborn | 1.2.4.4 Changelog (Released)
-‎ 
+‎ 
 Summary
 Significant Vanilla Biomes changes, Boat QOL improvements + config adjustments, performance improvements
-‎ 
+‎ 
 Added
 - ‎BoatView360
 - Boat Item View
@@ -1800,12 +1832,12 @@ Added
 - Jumpy Boats
 - Regions Unexplored: Expansion
 - You're in Grave Danger
-‎ 
+‎ 
 Removed
 - Clean Swing (replaced by Cut Through)
 - William Wythers' Overhauled Overworld (incompatible with Regions Unexplored: Expansion)
 - Corail Tombstone (mid mod, involved in curios loss when claiming the grave)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Changed Everlasting Abilities maxPlayerAbilities from 8 -> 10
@@ -1820,11 +1852,11 @@ Changes
 - Re-enabled FTBC Minimap by default and adjusted some settings
 - Re-bound the "Show Minimap" hotkey to "Page_UP"
 - Swapped "Icons" resourcepack with "Icons - NoLanguageMenu" (some languages had no icons)
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Fixed Curios items loss (actually caused by Corail tombstone, ew)
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 ‎ 
@@ -1838,19 +1870,19 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.4.3.zip — 2025-08-13
 
 NeoTech Reborn | 1.2.4.3 Changelog (Released)
-‎ 
+‎ 
 Summary
 
 
-‎ 
+‎ 
 Added
 - ‎TAB
 - Item Obliterator
 - Necronomicon API
-‎ 
+‎ 
 Removed
-- 
-‎ 
+- 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Added more dimensions (and fixed some stuff) to Apotheosis config (boss purposes)
@@ -1860,12 +1892,12 @@ Changes
 - Balanced l2hostility config to match the crystalcraft balancement and the enchantment improvements
 - Customized TAB config to look cool
 - Deleted some TerraCurio items with Item Obliterator (due to duped function/mechanics)
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
-‎ 
+‎ 
 Updated
-- (!) All mods that could be updated have been updated. ‎ 
+- (!) All mods that could be updated have been updated. ‎ 
 Current NeoForge Version
 - 21.1.200
 ### Additional Notes
@@ -1876,10 +1908,10 @@ Nothing is perfect, the pack may and will have bugs, report them [here](https://
 ## NeoTech Reborn 1.2.4.2.zip — 2025-08-11
 
 NeoTech Reborn | 1.2.4.2 Changelog (Released)
-‎ 
+‎ 
 Summary
 Finally, a pure NeoForge experience—no Sinytra or Fabric mods remain in the pack, as they have been replaced with NeoForge alternatives. Some config changes are included as well, along with many performance improvements and bug fixes (also resulting from the Connector removal).
-‎ 
+‎ 
 Added
 - ‎Crash Assistant
 - Glowing Emissive Ores - Fusion
@@ -1888,7 +1920,7 @@ Added
 - Bosses'Rise
 - Excalibur | Bosses'Rise Support
 - Functional Armor Trim
-‎ 
+‎ 
 Removed
 - Hyperbox (ew)
 - AsyncParticles (currently removed due to issues with particles) (will get re-added once fixed)
@@ -1906,7 +1938,7 @@ Removed
 - All The Trims (archived Mod, replaced by Functional Trims)
 - Better Trims (archived Mod, replaced by Functional Trims)
 - Runtime Trims (ATR and BT api/dep)
-‎ 
+‎ 
 Changes
 - Config Changes and Cleanup
 - Changed particular config
@@ -1921,17 +1953,17 @@ Changes
 - Reduced ModPack file size
 - Unbound TerraCurio dashing keybind (replaced by Bosses'Rises rolling ability) (will eventually find a way to prevent those TerraCurio items from being found/crafted)
 - Overridden keybinds (if you have changed something, please rebind it, sorry abt that) (was needed for multiple changes)
-‎ 
+‎ 
 Notable Fixes
 - (!) Fixes included in Mod Updates
 - Temp fixed jade flickering when hovering over an entity if a bossbar is present (gnetum config)
 - Fixed AzureLib/GeckoLib errors in logs due to BornInChaos (will get fixed by AzureLib's new code)
-‎ 
+‎ 
 Updated
 - (!) All mods that could be updated have been updated.
 - NeoForge Version (21.1.197 -> 21.1.200)
 - Resource Packs
-‎ 
+‎ 
 Current NeoForge Version
 - 21.1.200
 ### Additional Notes
@@ -1949,11 +1981,11 @@ Summary
 
 
 Added
-- 
+- 
 
 
 Removed
-- 
+- 
 
 
 Changes
@@ -2161,7 +2193,7 @@ Added
 
 
 Removed
-- 
+- 
 
 
 Changes
@@ -2269,7 +2301,7 @@ Summary
 
 
 Added
-- 
+- 
 
 
 Removed
@@ -2362,7 +2394,7 @@ Summary
 
 
 Added
-- 
+- 
 
 
 Removed
@@ -2599,11 +2631,11 @@ Summary
 
 
 Added
-- 
+- 
 
 
 Removed
-- 
+- 
 
 
 
@@ -2694,7 +2726,7 @@ Added
 
 
 Removed
-- 
+- 
 
 
 
@@ -2780,7 +2812,7 @@ Summary
 
 
 Added
-- 
+- 
 
 
 Removed
@@ -2877,7 +2909,7 @@ Added
 
 
 Removed
-- 
+- 
 
 
 
@@ -2915,12 +2947,12 @@ Summary
 
 
 Added
-- 
+- 
 
 
 
 Removed
-- 
+- 
 
 
 
@@ -3040,7 +3072,7 @@ Removed
 - Sodium Options API
 - Sodium Extras
 - Sodium Options Mod Compat
- 
+ 
 Changes
 - Config Changes and Cleanup
 - Enabled Favourite keybind for EMI
@@ -3052,7 +3084,7 @@ Notable Fixes
 - (!) Fixes included in Mod Updates
 - Multiple compare boxes
 - AlmostUnified errors
-- Empty chests 
+- Empty chests 
 
 
 Updated
@@ -3106,7 +3138,7 @@ Removed
 - Clean Tooltips (issues)
 - GeOre (meh)
 - GeOre Nouveau (meh)
- 
+ 
 Changes
 - Config Changes and Cleanup
 
@@ -3151,8 +3183,8 @@ Added
 
 
 Removed
-- 
- 
+- 
+ 
 Changes
 - Config Changes and Cleanup
 
@@ -3163,7 +3195,7 @@ Notable Fixes
 
 
 Updated
-- (!) All mods that could be updated have been updated. 
+- (!) All mods that could be updated have been updated. 
 - Updated NeoForge version from 21.1.145 -> 21.1.146
 
 
@@ -3188,8 +3220,8 @@ Added
 
 
 Removed
-- 
- 
+- 
+ 
 Changes
 - Config Changes and Cleanup
 - Balanced l2hostility config
@@ -3247,7 +3279,7 @@ Removed
 - GTBC's Spellbooks - Iron's Spells Addon (replaced by T.O Magic 'n Extras - Iron's Spells Addon)
 - GTBCS Spell Lib
 - Champions Unofficial and the Affix Remover datapack (the game is simply too hard)
- 
+ 
 Changes
 - Config Changes and Cleanup
 - Added Apotheosis bossed to all the dimensions
@@ -3282,12 +3314,12 @@ General Update fixing some configs, mod changes and updates
 
 
 Added
-- 
+- 
 
 
 Removed
 - Fast Furnace (Recipe Essentials does the same job)
- 
+ 
 Changes
 - Config Changes and Cleanup
 
@@ -3361,7 +3393,7 @@ Removed
 - Geosmelt
 - THE UNDEAD REVAMPED
 - Computer Craft: Tweaked (not on cf anymore)
- 
+ 
 Changes
 - Config Changes and Cleanup
 - Disabled Lightning rod oxidation
@@ -3373,7 +3405,7 @@ Notable Fixes
 
 
 Updated
-- (!) All mods that could be updated have been updated. 
+- (!) All mods that could be updated have been updated. 
 - Resource Packs
 - Shader Packs
 - NeoForge Version from 21.1.132 -> 21.1.141
@@ -3403,8 +3435,8 @@ Added
 
 
 Removed
-- 
- 
+- 
+ 
 Changes
 - Cleaned up config
 - Reduced Server file size (-175mb)
@@ -3471,7 +3503,7 @@ Removed
 - JEI (Replaced by EMI + TooManyRecipeViewers (TMRV))
 - DarkBlades (Replaced by CrystalCraft Unlimited)
 - Open Sesame (not on curseforge anymore lmao)
- 
+ 
 Changes
 - Cleaned up config
 - KubeJS Changes
