@@ -1,0 +1,10 @@
+# Ars Nouveau search index cache (regenerated locally, machine-specific)
+config/ars_nouveau/search_index/
+
+# Backup files
+*.bak
+
+# Common Minecraft/modpack junk worth excluding too
+logs/
+crash-reports/
+*.log
