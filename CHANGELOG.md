@@ -1,56 +1,24 @@
 # NeoTech Reborn Changelog
 
-## NeoTech Reborn 1.4.1.0.zip — 2026-07-20
-
-NeoTech Reborn | 1.4.1.0 Changelog (Released)
-Massive overhaul: dozens of new mobs (sharks, squids, deep-sea fish, orcas, and more) and new ocean biomes (coral reefs, trenches, sulfuric caves, tide pools)
-Added
-
-LootJS: KubeJS Addon
-
-Removed
-
-Complementary Structures (it looks like structures from this mod don't spawn at all, even when located)
-
-Changes
-
-Config Changes and Cleanup
-Improved the server MOTD with a more vibrant color scheme
-Added a "Filter: Tracked" option to the dropdown menu, to display currently tracked advancements (thanks to Niix)
-The progress bar is now dynamic: when searching or filtering within a section, it updates to show progress only for the matching advancements (thanks to Niix)
-Tracked advancements are now saved, so they're no longer lost on reload (thanks to Niix)
-Added support for filtering by multiple mods at once in the Advancements screen's search bar (thanks to Niix)
-Added support for remembering the search query in the Advancements screen across menu reopens (thanks to Niix)
-Removed all of Tide's fishing rods, since Starcatcher already covers that niche and newer Starcatcher versions were conflicting with them, causing crashes
-Disabled tide's "useThirdPartyMinigames" option due to crashes when using some rods
-Re-adjusted Chloride config options
-Removed unused FancyMenu layout config for FTB Backups
-
-Notable Fixes
-
-(!) Fixes included in Mod Updates
-Fixed a crash that would happen when you fished with non-starcatcher rods
-Fixed see-through UI elements after updating to the Accelerated Rendering Mesh update
-Fixed crash when picking up Lucy's Axe from Confluence
-Fixed numerous compatibility and world generation issues (including configs being ignored) with various biome/dimension mods
-Fixed the Advancements screen missing 1 pixel on the right/bottom edges (thanks to Niix)
-Fixed some memory leaks
-
-Updated
-
-(!) All mods that could be updated have been updated.
-Updated Resource Packs
-Updated NeoForge version from 21.1.235 -> 21.1.236
-
-Current NeoForge Version
-
-21.1.236
-
-(!) = A change included in every update.
-
-
-Additional Notes
-Nothing is perfect, the pack may and will have bugs, report them here or in the discord server support channel.
+NeoTech Reborn | 1.4.1.0 Changelog (Released)SummaryMassive overhaul: dozens of new mobs (sharks, squids, deep-sea fish, orcas, and more) and new ocean biomes (coral reefs, trenches, sulfuric caves, tide pools)  Added-# - LootJS: KubeJS Addon  Removed-# - Complementary Structures (it looks like structures from this mod don't spawn at all, even when located)  Changes-# - Config Changes and Cleanup
+-# - Improved the server MOTD with a more vibrant color scheme
+-# - Added a "Filter: Tracked" option to the dropdown menu, to display currently tracked advancements (thanks to Niix)
+-# - The progress bar is now dynamic: when searching or filtering within a section, it updates to show progress only for the matching advancements (thanks to Niix)
+-# - Tracked advancements are now saved, so they're no longer lost on reload (thanks to Niix)
+-# - Added support for filtering by multiple mods at once in the Advancements screen's search bar (thanks to Niix)
+-# - Added support for remembering the search query in the Advancements screen across menu reopens (thanks to Niix)
+-# - Removed all of Tide's fishing rods, since Starcatcher already covers that niche and newer Starcatcher versions were conflicting with them, causing crashes
+-# - Disabled tide's "useThirdPartyMinigames" option due to crashes when using some rods
+-# - Re-adjusted Chloride config options
+-# - Removed unused FancyMenu layout config for FTB Backups  Notable Fixes-# - (!) Fixes included in Mod Updates
+-# - Fixed a crash that would happen when you fished with non-starcatcher rods
+-# - Fixed see-through UI elements after updating to the Accelerated Rendering Mesh update
+-# - Fixed crash when picking up Lucy's Axe from Confluence
+-# - Fixed numerous compatibility and world generation issues (including configs being ignored) with various biome/dimension mods
+-# - Fixed the Advancements screen missing 1 pixel on the right/bottom edges (thanks to Niix)
+-# - Fixed some memory leaks  Updated-# - (!) All mods that could be updated have been updated.
+-# - Updated Resource Packs
+-# - Updated NeoForge version from 21.1.235 -> 21.1.236  Current NeoForge Version-# - 21.1.236  -# (!) = A change included in every update.Additional NotesNothing is perfect, the pack may and will have bugs, report them here or in the discord server support channel.  
 
 ---
 
