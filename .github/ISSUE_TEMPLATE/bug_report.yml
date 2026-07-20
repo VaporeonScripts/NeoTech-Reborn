@@ -148,15 +148,15 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: I've added or removed mods from the pack
+        - label: I've modified the pack (mods, configs, scripts, etc.)
           required: false
         - label: I checked existing issues and this hasn't been reported already
           required: true
 
   - type: textarea
-    id: mod_changes
+    id: user_modifications
     attributes:
-      label: Mods added or removed
-      description: Only fill this in if you checked the box above. List which mods you added or removed.
+      label: User modifications
+      description: Only fill this in if you checked the box above. Briefly explain what you've modified, added mods are particularly important.
     validations:
       required: false
