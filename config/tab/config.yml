@@ -22,7 +22,7 @@ header-footer:
       display-condition: '%world%!=disabledworld'
       header:
       - '&b&m                                                '
-      - '&b&lNeoTech Reborn &f&l1.4.1.0'
+      - '&b&lNeoTech Reborn &f&l1.4.2.0'
       - ''
       - '&b&l» &f%animation:Welcome%, &b%player%&f! &b&l«'
       - '&fOnline Players: &b%online%'
