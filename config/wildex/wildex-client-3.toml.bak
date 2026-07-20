@@ -1,8 +1,0 @@
-[ui]
-	#Wildex UI design style
-	#Allowed Values: VINTAGE, MODERN
-	designStyle = "VINTAGE"
-	#Show a toast notification when discovering a new mob in hidden mode.
-	showDiscoveryToasts = true
-	#Show a small overlay when aiming at an already discovered mob with a spyglass.
-	showDiscoveredSpyglassOverlay = true
