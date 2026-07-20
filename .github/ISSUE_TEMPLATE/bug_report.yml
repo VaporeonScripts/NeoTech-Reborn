@@ -1,5 +1,6 @@
 name: Bug report
 description: Report a crash, bug, or issue with the modpack
+title: "[Bug Report]: "
 labels: ["bug"]
 assignees:
   - VaporeonScripts
@@ -61,6 +62,7 @@ body:
       options:
         - Singleplayer
         - Server
+        - Both
     validations:
       required: true
 
@@ -125,11 +127,19 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: logs
+  - type: input
+    id: crashlog
     attributes:
-      label: Log file
-      description: If this is a crash, please paste a link to your latest.log or crash report (use mclo.gs or a gist, don't paste the whole log here). Crashes are nearly impossible to diagnose without a log.
+      label: Crash report
+      description: If this crashed, please paste a link to your crash report (use mclo.gs or a gist, don't paste the whole log here). Crashes are nearly impossible to diagnose without one.
+    validations:
+      required: false
+
+  - type: input
+    id: latestlog
+    attributes:
+      label: Latest log
+      description: Paste a link to your latest.log (use mclo.gs or a gist, don't paste the whole log here)
     validations:
       required: false
 
