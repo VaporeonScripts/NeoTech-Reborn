@@ -507,7 +507,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = Buy a server, support the modpack!
+  description = &3&lKinetic Hosting%n%&fQuality Hosting, For Low Prices!%n%&7billing.kinetichosting.com/aff.php?aff=956%n%&r%n%&724/7 Support &f| &7Mod Support%n%&f(Clicking will open your browser.)
   label = Host a Server
   navigatable = true
   widget_active_state_requirement_container_identifier = fef3fc9d-59ad-461c-8824-f83a1afd62bb-1751652486577

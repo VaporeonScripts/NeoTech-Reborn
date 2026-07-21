@@ -153,13 +153,13 @@ element {
 
 element {
   button_element_executable_block_identifier = dec46f4a-a431-4dc7-955c-eaadccb71856-1731784059187
-  [executable_action_instance:68ffbcd9-9ac3-4388-a188-4a06a9154841-1731784106536][action_type:openlink] = https://discord.gg/8Hz9qTjJaB
+  [executable_action_instance:68ffbcd9-9ac3-4388-a188-4a06a9154841-1731784106536][action_type:openlink] = https://github.com/VaporeonScripts/NeoTech-Reborn/issues
   [executable_block:dec46f4a-a431-4dc7-955c-eaadccb71856-1731784059187][type:generic] = [executables:68ffbcd9-9ac3-4388-a188-4a06a9154841-1731784106536;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Found a Bug? Report it on My Server!
+  description = Found a Bug? Report it on GitHub!
   label = Report a Bug
   navigatable = true
   widget_active_state_requirement_container_identifier = 910b5843-3a92-4269-9fec-38f8a009d39d-1731784059187
