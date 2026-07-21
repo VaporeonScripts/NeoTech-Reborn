@@ -27,9 +27,6 @@ net.minecraft.client.gui.screens.packs.PackSelectionScreen {
 net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 }
 
-com.terraformersmc.mod_menu.gui.ModsScreen {
-}
-
 net.minecraft.client.gui.screens.inventory.InventoryScreen {
 }
 
@@ -99,12 +96,12 @@ net.minecraft.client.gui.screens.DirectJoinServerScreen {
 net.minecraft.client.gui.screens.DisconnectedScreen {
 }
 
-dev.ftb.mods.ftbbackups.client.RestoreBackupScreen {
-}
-
 net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
 net.minecraft.client.gui.screens.WinScreen {
+}
+
+com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
 }
 

@@ -368,7 +368,10 @@
     "net.geforcemods.securitycraft.screen.SCManualScreen": true,
     "net.abraxator.moresnifferflowers.client.gui.screen.cookbook.CookbookScreen": true,
     "me.srrapero720.chloride.impl.sodium.ParticleListScreen": true,
-    "com.niixlabs.lucidadvancements.client.gui.config.LucidConfigScreen": true
+    "com.niixlabs.lucidadvancements.client.gui.config.LucidConfigScreen": true,
+    "com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen": true,
+    "com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen": true,
+    "com.mrcrayfish.configured.client.screen.ConfigScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
