@@ -16,7 +16,7 @@ B:advanced_customization_mode = 'true';
 
 B:game_intro_fade_out = 'true';
 S:game_intro_sound_channel = 'master';
-S:preload_resources = '[source:local]config/fancymenu/assets/neotech_16x16.png%!source_end!%[source:local]config/fancymenu/assets/neotech_32x32.png%!source_end!%[source:local]config/fancymenu/assets/discord_logo.png%!source_end!%[source:local]config/fancymenu/assets/discord_logo_hovered.png%!source_end!%[slideshow]ntr_menu_slideshows%!source_end!%[source:local]config/fancymenu/assets/main_logo.png%!source_end!%[cubic_panorama]loading_panorama%!source_end!%';
+S:preload_resources = '[source:local]config/fancymenu/assets/neotech_16x16.png%!source_end!%[source:local]config/fancymenu/assets/neotech_32x32.png%!source_end!%[source:local]config/fancymenu/assets/discord_logo.png%!source_end!%[source:local]config/fancymenu/assets/discord_logo_hovered.png%!source_end!%[slideshow]ntr_menu_slideshows%!source_end!%[source:local]config/fancymenu/assets/main_logo.png%!source_end!%[cubic_panorama]loading_panorama%!source_end!%[source:local]config/fancymenu/assets/kinetic_hosting_logo.png%!source_end!%';
 B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';
 F:game_intro_volume = '1.0';
