@@ -4946,13 +4946,13 @@
     "curseForgeHash": 2442274714,
     "modrinthHash": "75f1753eefa0b7b8e3afd7377deaf9fe71392476"
   },
-  "theurgy-1.21.1-neoforge-1.74.0.jar": {
-    "jarName": "theurgy-1.21.1-neoforge-1.74.0.jar",
+  "theurgy-1.21.1-neoforge-1.75.1.jar": {
+    "jarName": "theurgy-1.21.1-neoforge-1.75.1.jar",
     "modId": "theurgy",
     "name": "Theurgy",
-    "version": "1.74.0",
-    "curseForgeHash": 2202255871,
-    "modrinthHash": "7383ec69d9a870b1c04b3bd7581bb46341f15dcd"
+    "version": "1.75.1",
+    "curseForgeHash": 9760672,
+    "modrinthHash": "dd4e014e66444c9cc8a5fd98fb4bd3cc4ffa43f5"
   },
   "tidal-towns-1.3.4.jar": {
     "jarName": "tidal-towns-1.3.4.jar",
