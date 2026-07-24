@@ -371,7 +371,8 @@
     "com.niixlabs.lucidadvancements.client.gui.config.LucidConfigScreen": true,
     "com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen": true,
     "com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen": true,
-    "com.mrcrayfish.configured.client.screen.ConfigScreen": true
+    "com.mrcrayfish.configured.client.screen.ConfigScreen": true,
+    "com.niixlabs.lucidgallery.client.gui.screen.GalleryScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

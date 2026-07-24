@@ -3106,6 +3106,14 @@
     "curseForgeHash": 3990683144,
     "modrinthHash": "14cbbef76df4aa003f62b8dfbb4ba31597812d22"
   },
+  "LucidGallery.NeoForge.1.0.0.jar": {
+    "jarName": "LucidGallery.NeoForge.1.0.0.jar",
+    "modId": "lucidgallery",
+    "name": "LucidGallery",
+    "version": "1.0.0",
+    "curseForgeHash": 755331874,
+    "modrinthHash": "4289c795782066f683d4c84332edec202172e248"
+  },
   "Luminous Overworld V1.5.52 -NeoForge 1.21.1.jar": {
     "jarName": "Luminous Overworld V1.5.52 -NeoForge 1.21.1.jar",
     "modId": "luminousworld",
