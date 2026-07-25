@@ -8,3 +8,4 @@ config/ars_nouveau/search_index/
 logs/
 crash-reports/
 *.log
+config/spark/activity.json
