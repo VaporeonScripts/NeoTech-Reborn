@@ -1,0 +1,16 @@
+{
+  "mod_id": "hybrid_aquatic",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "hybrid_aquatic:root",
+      "title": "Hybrid Aquatic",
+      "description": "Discover an expanded world beneath the waves",
+      "icon": {
+        "type": "item",
+        "value": "hybrid_aquatic:tuna"
+      },
+      "enabled": true
+    }
+  ]
+}

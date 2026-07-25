@@ -11,6 +11,50 @@
         "value": "divinerpg:rupee_shickaxe"
       },
       "enabled": true
+    },
+    {
+      "id": "twilight/root",
+      "advancement_root": "divinerpg:twilight/root",
+      "title": "Twilight Dimensions",
+      "description": "Taste the rainbow",
+      "icon": {
+        "type": "item",
+        "value": "divinerpg:divine_rock"
+      },
+      "enabled": true
+    },
+    {
+      "id": "iceika/root",
+      "advancement_root": "divinerpg:iceika/root",
+      "title": "Iceika",
+      "description": "The frozen land",
+      "icon": {
+        "type": "item",
+        "value": "divinerpg:snow_globe"
+      },
+      "enabled": true
+    },
+    {
+      "id": "vethea/root",
+      "advancement_root": "divinerpg:vethea/root",
+      "title": "Vethea",
+      "description": "Dive into your dreams",
+      "icon": {
+        "type": "item",
+        "value": "divinerpg:dream_grass"
+      },
+      "enabled": true
+    },
+    {
+      "id": "arcana/root",
+      "advancement_root": "divinerpg:arcana/root",
+      "title": "Arcana",
+      "description": "What lies within?",
+      "icon": {
+        "type": "item",
+        "value": "divinerpg:arcana_portal_frame"
+      },
+      "enabled": true
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "mod_id": "enchantplus",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "enchantplus:root",
+      "title": "NeoEnchant+",
+      "description": "Discover a new power of enchantments",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:enchanting_table"
+      },
+      "enabled": true
+    }
+  ]
+}

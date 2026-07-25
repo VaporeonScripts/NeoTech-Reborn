@@ -1,0 +1,16 @@
+{
+  "mod_id": "block_factorys_bosses",
+  "categories": [
+    {
+      "id": "die_boss",
+      "advancement_root": "block_factorys_bosses:die_boss",
+      "title": "Bosses' Rise",
+      "description": "Die fighting a Boss",
+      "icon": {
+        "type": "item",
+        "value": "block_factorys_bosses:achievement_icons"
+      },
+      "enabled": true
+    }
+  ]
+}

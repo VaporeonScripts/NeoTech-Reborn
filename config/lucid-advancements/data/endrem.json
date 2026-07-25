@@ -1,0 +1,16 @@
+{
+  "mod_id": "endrem",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "endrem:main/root",
+      "title": "The Beginning of An Adventure",
+      "description": "Get Your First Eye",
+      "icon": {
+        "type": "item",
+        "value": "endrem:ancient_portal_frame"
+      },
+      "enabled": true
+    }
+  ]
+}

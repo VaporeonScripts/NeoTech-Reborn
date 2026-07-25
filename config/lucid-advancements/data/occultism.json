@@ -11,6 +11,17 @@
         "value": "occultism:brush"
       },
       "enabled": true
+    },
+    {
+      "id": "occultism/familiar/root",
+      "advancement_root": "occultism:occultism/familiar/root",
+      "title": "Occultism: Friends",
+      "description": "Use a ritual to summon a familiar",
+      "icon": {
+        "type": "item",
+        "value": "occultism:pentacle_possess"
+      },
+      "enabled": true
     }
   ]
 }

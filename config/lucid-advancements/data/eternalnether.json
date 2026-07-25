@@ -1,0 +1,16 @@
+{
+  "mod_id": "eternalnether",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "eternalnether:root",
+      "title": "Eternal Nether",
+      "description": "Explore the Nether for new structures!",
+      "icon": {
+        "type": "item",
+        "value": "eternalnether:chiseled_withered_blackstone"
+      },
+      "enabled": true
+    }
+  ]
+}

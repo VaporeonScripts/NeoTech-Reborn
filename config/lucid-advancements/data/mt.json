@@ -1,0 +1,16 @@
+{
+  "mod_id": "mt",
+  "categories": [
+    {
+      "id": "treasure_advancements/root",
+      "advancement_root": "mt:treasure_advancements/root",
+      "title": "Mine Treasure",
+      "description": "Ready your pickaxe!",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:barrel"
+      },
+      "enabled": true
+    }
+  ]
+}

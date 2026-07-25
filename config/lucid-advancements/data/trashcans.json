@@ -1,0 +1,16 @@
+{
+  "mod_id": "trashcans",
+  "categories": [
+    {
+      "id": "trash_can",
+      "advancement_root": "trashcans:trash_can",
+      "title": "Don't forget to recycle",
+      "description": "Craft a trash can",
+      "icon": {
+        "type": "item",
+        "value": "trashcans:item_trash_can"
+      },
+      "enabled": true
+    }
+  ]
+}

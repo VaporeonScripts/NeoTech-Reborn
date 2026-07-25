@@ -1,0 +1,16 @@
+{
+  "mod_id": "pneumaticcraft",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "pneumaticcraft:root",
+      "title": "The First Explosion (of many?)",
+      "description": "Throw Iron on the ground and create an explosion close to it.",
+      "icon": {
+        "type": "item",
+        "value": "pneumaticcraft:ingot_iron_compressed"
+      },
+      "enabled": true
+    }
+  ]
+}

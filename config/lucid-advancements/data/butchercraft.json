@@ -1,0 +1,16 @@
+{
+  "mod_id": "butchercraft",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "butchercraft:root",
+      "title": "Butchercraft",
+      "description": "Welcome to Butchercraft!",
+      "icon": {
+        "type": "item",
+        "value": "butchercraft:butcher_knife"
+      },
+      "enabled": true
+    }
+  ]
+}

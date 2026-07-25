@@ -1,0 +1,16 @@
+{
+  "mod_id": "l2archery",
+  "categories": [
+    {
+      "id": "archery/root",
+      "advancement_root": "l2archery:archery/root",
+      "title": "Welcome to L2Archery",
+      "description": "Explore the variety of bows and arrows",
+      "icon": {
+        "type": "item",
+        "value": "l2archery:sun_bow"
+      },
+      "enabled": true
+    }
+  ]
+}

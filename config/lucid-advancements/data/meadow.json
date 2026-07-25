@@ -4,7 +4,7 @@
     {
       "id": "main/root",
       "advancement_root": "meadow:main/root",
-      "title": "Welcome to Meadow!",
+      "title": "Meadow",
       "description": "Thank you for downloading Meadow",
       "icon": {
         "type": "item",

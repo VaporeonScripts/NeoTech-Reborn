@@ -1,0 +1,16 @@
+{
+  "mod_id": "frightsdelight",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "frightsdelight:main/root",
+      "title": "Fright's Delight",
+      "description": "Welcome to a world of unusual delights. Consume with caution.",
+      "icon": {
+        "type": "item",
+        "value": "frightsdelight:apple_slime"
+      },
+      "enabled": true
+    }
+  ]
+}

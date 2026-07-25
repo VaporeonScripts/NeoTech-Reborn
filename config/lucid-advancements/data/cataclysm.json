@@ -1,0 +1,16 @@
+{
+  "mod_id": "cataclysm",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "cataclysm:root",
+      "title": "Cataclysm",
+      "description": "Cataclysm!",
+      "icon": {
+        "type": "item",
+        "value": "cataclysm:the_incinerator"
+      },
+      "enabled": true
+    }
+  ]
+}

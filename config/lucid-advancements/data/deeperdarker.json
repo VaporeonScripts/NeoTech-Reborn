@@ -1,0 +1,16 @@
+{
+  "mod_id": "deeperdarker",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "deeperdarker:main/root",
+      "title": "Sculk Story",
+      "description": "You feel something pulling you towards the source...",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:sculk"
+      },
+      "enabled": true
+    }
+  ]
+}

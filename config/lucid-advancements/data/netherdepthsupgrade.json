@@ -1,0 +1,16 @@
+{
+  "mod_id": "netherdepthsupgrade",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "netherdepthsupgrade:main/root",
+      "title": "Nether Depths Upgrade",
+      "description": "A whole new world awaits you below the depths!",
+      "icon": {
+        "type": "item",
+        "value": "netherdepthsupgrade:soulsucker"
+      },
+      "enabled": true
+    }
+  ]
+}

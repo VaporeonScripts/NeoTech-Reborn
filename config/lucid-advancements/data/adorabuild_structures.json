@@ -11,6 +11,28 @@
         "value": "minecraft:mossy_stone_bricks"
       },
       "enabled": true
+    },
+    {
+      "id": "end_structures",
+      "advancement_root": "adorabuild_structures:end_structures",
+      "title": "AdoraBuild: The End",
+      "description": "Start exploring The End to find new structures",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:purpur_block"
+      },
+      "enabled": true
+    },
+    {
+      "id": "nether_structures",
+      "advancement_root": "adorabuild_structures:nether_structures",
+      "title": "AdoraBuild: The Nether",
+      "description": "Start exploring The Nether to find new structures",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:nether_bricks"
+      },
+      "enabled": true
     }
   ]
 }

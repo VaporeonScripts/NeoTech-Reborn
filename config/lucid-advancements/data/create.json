@@ -4,7 +4,7 @@
     {
       "id": "root",
       "advancement_root": "create:root",
-      "title": "Welcome to Create",
+      "title": "Create",
       "description": "Here Be Contraptions",
       "icon": {
         "type": "item",

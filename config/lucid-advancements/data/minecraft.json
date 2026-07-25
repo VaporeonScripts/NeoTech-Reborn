@@ -33,6 +33,28 @@
         "value": "minecraft:grass_block"
       },
       "enabled": true
+    },
+    {
+      "id": "husbandry/root",
+      "advancement_root": "minecraft:husbandry/root",
+      "title": "§7Husbandry",
+      "description": "The world is full of friends and food",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:hay_block"
+      },
+      "enabled": true
+    },
+    {
+      "id": "nether/root",
+      "advancement_root": "minecraft:nether/root",
+      "title": "§7Nether",
+      "description": "Bring summer clothes",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:red_nether_bricks"
+      },
+      "enabled": true
     }
   ]
 }

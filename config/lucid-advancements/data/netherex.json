@@ -1,0 +1,16 @@
+{
+  "mod_id": "netherex",
+  "categories": [
+    {
+      "id": "nether/root",
+      "advancement_root": "netherex:nether/root",
+      "title": "NetherEx",
+      "description": "The Nether, But Hotter Than Ever.",
+      "icon": {
+        "type": "item",
+        "value": "netherex:warped_nether_bricks"
+      },
+      "enabled": true
+    }
+  ]
+}

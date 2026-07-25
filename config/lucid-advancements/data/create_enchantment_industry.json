@@ -4,7 +4,7 @@
     {
       "id": "root",
       "advancement_root": "create_enchantment_industry:root",
-      "title": "Welcome to Create: Enchantment Industry",
+      "title": "Create: Enchantment Industry",
       "description": "Road to master enchanting begins",
       "icon": {
         "type": "item",

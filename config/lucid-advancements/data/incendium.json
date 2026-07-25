@@ -1,0 +1,16 @@
+{
+  "mod_id": "incendium",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "incendium:root",
+      "title": "Incendium",
+      "description": "Explore the terrifying, and rewarding, Incendium Nether",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:crying_obsidian"
+      },
+      "enabled": true
+    }
+  ]
+}

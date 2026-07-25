@@ -1,0 +1,16 @@
+{
+  "mod_id": "constructionstick",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "constructionstick:root",
+      "title": "Construction Sticks",
+      "description": "Making building easier",
+      "icon": {
+        "type": "item",
+        "value": "constructionstick:wooden_stick"
+      },
+      "enabled": true
+    }
+  ]
+}

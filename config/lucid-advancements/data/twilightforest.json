@@ -1,0 +1,16 @@
+{
+  "mod_id": "twilightforest",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "twilightforest:root",
+      "title": "Twilight Forest",
+      "description": "Enter the mysterious, magical woodlands: the Twilight Forest",
+      "icon": {
+        "type": "item",
+        "value": "twilightforest:twilight_portal_miniature_structure"
+      },
+      "enabled": true
+    }
+  ]
+}

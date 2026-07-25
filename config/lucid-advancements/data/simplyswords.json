@@ -1,0 +1,16 @@
+{
+  "mod_id": "simplyswords",
+  "categories": [
+    {
+      "id": "simplyswords",
+      "advancement_root": "simplyswords:simplyswords",
+      "title": "Simply Swords",
+      "description": "Runic powers await you.",
+      "icon": {
+        "type": "item",
+        "value": "simplyswords:runic_tablet"
+      },
+      "enabled": true
+    }
+  ]
+}

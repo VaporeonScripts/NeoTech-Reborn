@@ -1,0 +1,16 @@
+{
+  "mod_id": "doggytalents",
+  "categories": [
+    {
+      "id": "dtn_core/summon_dog",
+      "advancement_root": "doggytalents:dtn_core/summon_dog",
+      "title": "Ah, you scared me!",
+      "description": "Summon your first dog via the Doggy Charm.",
+      "icon": {
+        "type": "item",
+        "value": "doggytalents:doggy_charm"
+      },
+      "enabled": true
+    }
+  ]
+}

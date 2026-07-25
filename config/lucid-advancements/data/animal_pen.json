@@ -1,0 +1,16 @@
+{
+  "mod_id": "animal_pen",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "animal_pen:root",
+      "title": "Animal Husbandry",
+      "description": "Getting started with animal pens",
+      "icon": {
+        "type": "item",
+        "value": "animal_pen:animal_pen_dark_oak"
+      },
+      "enabled": true
+    }
+  ]
+}

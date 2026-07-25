@@ -1,0 +1,16 @@
+{
+  "mod_id": "aether",
+  "categories": [
+    {
+      "id": "the_aether",
+      "advancement_root": "aether:the_aether",
+      "title": "The Aether",
+      "description": "It's not dead!",
+      "icon": {
+        "type": "item",
+        "value": "aether:aether_portal_frame"
+      },
+      "enabled": true
+    }
+  ]
+}

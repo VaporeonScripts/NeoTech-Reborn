@@ -1,0 +1,16 @@
+{
+  "mod_id": "fishofthieves",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "fishofthieves:root",
+      "title": "Fish of Thieves",
+      "description": "Fishing and Hunting",
+      "icon": {
+        "type": "item",
+        "value": "fishofthieves:splashtail"
+      },
+      "enabled": true
+    }
+  ]
+}

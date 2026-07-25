@@ -1,0 +1,16 @@
+{
+  "mod_id": "tide",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "tide:root",
+      "title": "Tide",
+      "description": "Gotta catch 'em all",
+      "icon": {
+        "type": "item",
+        "value": "tide:angelfish"
+      },
+      "enabled": true
+    }
+  ]
+}

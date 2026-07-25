@@ -4,7 +4,7 @@
     {
       "id": "main/root",
       "advancement_root": "beachparty:main/root",
-      "title": "Welcome to Beachparty!",
+      "title": "Beachparty",
       "description": "Thank you for downloading Beachparty",
       "icon": {
         "type": "item",

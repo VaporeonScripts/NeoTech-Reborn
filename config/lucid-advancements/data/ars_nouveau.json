@@ -1,0 +1,16 @@
+{
+  "mod_id": "ars_nouveau",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "ars_nouveau:root",
+      "title": "Ars Nouveau",
+      "description": "Acquire a Tattered Tome",
+      "icon": {
+        "type": "item",
+        "value": "ars_nouveau:worn_notebook"
+      },
+      "enabled": true
+    }
+  ]
+}

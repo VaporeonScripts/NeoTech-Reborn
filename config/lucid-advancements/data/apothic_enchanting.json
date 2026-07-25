@@ -1,0 +1,16 @@
+{
+  "mod_id": "apothic_enchanting",
+  "categories": [
+    {
+      "id": "enchanter",
+      "advancement_root": "apothic_enchanting:enchanter",
+      "title": "The Secrets of Enchanting",
+      "description": "Obtain an enchanting table, and begin to unveil the mystery.",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:enchanting_table"
+      },
+      "enabled": true
+    }
+  ]
+}

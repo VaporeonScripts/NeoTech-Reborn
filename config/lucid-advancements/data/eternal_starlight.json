@@ -1,0 +1,16 @@
+{
+  "mod_id": "eternal_starlight",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "eternal_starlight:root",
+      "title": "Eternal Starlight",
+      "description": "Explore the starlight dimension!",
+      "icon": {
+        "type": "item",
+        "value": "eternal_starlight:lunar_log"
+      },
+      "enabled": true
+    }
+  ]
+}

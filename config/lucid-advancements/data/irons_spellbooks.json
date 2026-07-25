@@ -1,0 +1,16 @@
+{
+  "mod_id": "irons_spellbooks",
+  "categories": [
+    {
+      "id": "irons_spellbooks/root",
+      "advancement_root": "irons_spellbooks:irons_spellbooks/root",
+      "title": "Iron's Spells 'n Spellbooks",
+      "description": "There's more than meets the eye to this world...",
+      "icon": {
+        "type": "item",
+        "value": "irons_spellbooks:gold_spell_book"
+      },
+      "enabled": true
+    }
+  ]
+}

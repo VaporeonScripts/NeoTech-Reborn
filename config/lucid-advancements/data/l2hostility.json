@@ -4,7 +4,7 @@
     {
       "id": "hostility/root",
       "advancement_root": "l2hostility:hostility/root",
-      "title": "Welcome to L2Hostility",
+      "title": "L2Hostility",
       "description": "Your survival guide",
       "icon": {
         "type": "item",

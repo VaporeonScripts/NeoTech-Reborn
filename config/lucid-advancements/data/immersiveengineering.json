@@ -1,0 +1,38 @@
+{
+  "mod_id": "immersiveengineering",
+  "categories": [
+    {
+      "id": "multiblocks/multiblocks_root",
+      "advancement_root": "immersiveengineering:multiblocks/multiblocks_root",
+      "title": "Multiblocks",
+      "description": "Large machines for large factories",
+      "icon": {
+        "type": "item",
+        "value": "immersiveengineering:steel_scaffolding_standard"
+      },
+      "enabled": true
+    },
+    {
+      "id": "main/main_root",
+      "advancement_root": "immersiveengineering:main/main_root",
+      "title": "Immersive Engineering",
+      "description": "RTFM!",
+      "icon": {
+        "type": "item",
+        "value": "immersiveengineering:manual"
+      },
+      "enabled": true
+    },
+    {
+      "id": "tools/tools_root",
+      "advancement_root": "immersiveengineering:tools/tools_root",
+      "title": "Tools & Upgrades",
+      "description": "The Engineer's Workbench can be used to modify your tools",
+      "icon": {
+        "type": "item",
+        "value": "immersiveengineering:workbench"
+      },
+      "enabled": true
+    }
+  ]
+}

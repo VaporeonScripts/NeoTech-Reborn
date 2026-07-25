@@ -1,0 +1,16 @@
+{
+  "mod_id": "ae2",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "ae2:main/root",
+      "title": "Applied Energistics",
+      "description": "When a chest is simply not enough. Acquire Copper to start your AE2 adventure.",
+      "icon": {
+        "type": "item",
+        "value": "ae2:certus_quartz_crystal"
+      },
+      "enabled": true
+    }
+  ]
+}

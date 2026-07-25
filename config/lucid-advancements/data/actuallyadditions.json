@@ -1,0 +1,16 @@
+{
+  "mod_id": "actuallyadditions",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "actuallyadditions:root",
+      "title": "Knowledge Bringer!",
+      "description": "Open an Actually Additions Manual",
+      "icon": {
+        "type": "item",
+        "value": "actuallyadditions:booklet"
+      },
+      "enabled": true
+    }
+  ]
+}

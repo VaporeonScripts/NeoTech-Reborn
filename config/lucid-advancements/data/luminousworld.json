@@ -1,0 +1,16 @@
+{
+  "mod_id": "luminousworld",
+  "categories": [
+    {
+      "id": "why",
+      "advancement_root": "luminousworld:why",
+      "title": "...why?",
+      "description": "Consume bleach or something idk what you were thinking",
+      "icon": {
+        "type": "item",
+        "value": "luminousworld:bleach"
+      },
+      "enabled": true
+    }
+  ]
+}

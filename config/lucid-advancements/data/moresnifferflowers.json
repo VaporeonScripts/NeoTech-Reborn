@@ -1,0 +1,16 @@
+{
+  "mod_id": "moresnifferflowers",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "moresnifferflowers:root",
+      "title": "More Sniffer Flowers",
+      "description": "Discover More Sniffer Flowers",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:sniffer_egg"
+      },
+      "enabled": true
+    }
+  ]
+}
