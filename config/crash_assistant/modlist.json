@@ -3106,13 +3106,13 @@
     "curseForgeHash": 3702269079,
     "modrinthHash": "a5dae941acc991df3f0de56bd8367f719824f131"
   },
-  "LucidAdvancements.NeoForge.1.1.9.jar": {
-    "jarName": "LucidAdvancements.NeoForge.1.1.9.jar",
+  "lucidadvancements-neoforge-1.21-1.2.0.jar": {
+    "jarName": "lucidadvancements-neoforge-1.21-1.2.0.jar",
     "modId": "lucidadvancements",
     "name": "LucidAdvancements",
-    "version": "1.1.9",
-    "curseForgeHash": 3990683144,
-    "modrinthHash": "14cbbef76df4aa003f62b8dfbb4ba31597812d22"
+    "version": "1.2.0",
+    "curseForgeHash": 4083460082,
+    "modrinthHash": "64ff55f947eee3a6fde5c0e0fb63c6dddb0ecb2b"
   },
   "lucidgallery-neoforge-1.21-1.0.1.jar": {
     "jarName": "lucidgallery-neoforge-1.21-1.0.1.jar",
