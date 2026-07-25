@@ -988,6 +988,12 @@
       },
       "pass": 3
     },
+    "titanium": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "fabric_rendering_v1": {
       "enabled": {
         "value": "AUTO"

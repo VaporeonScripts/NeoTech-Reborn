@@ -5,6 +5,19 @@
       "name": "KuroOnLinux",
       "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
     },
+    "time": 1784999473870,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/X5nBolAcoU"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KuroOnLinux",
+      "uniqueId": "fe0f4df5-f370-44d0-b54f-8ad1492ff271"
+    },
     "time": 1784309627377,
     "type": "Profiler",
     "data": {
