@@ -15,7 +15,7 @@
     {
       "id": "twilight/root",
       "advancement_root": "divinerpg:twilight/root",
-      "title": "Twilight Dimensions",
+      "title": "DivineRPG: Twilight Dimensions",
       "description": "Taste the rainbow",
       "icon": {
         "type": "item",
@@ -26,7 +26,7 @@
     {
       "id": "iceika/root",
       "advancement_root": "divinerpg:iceika/root",
-      "title": "Iceika",
+      "title": "DivineRPG: Iceika",
       "description": "The frozen land",
       "icon": {
         "type": "item",
@@ -37,7 +37,7 @@
     {
       "id": "vethea/root",
       "advancement_root": "divinerpg:vethea/root",
-      "title": "Vethea",
+      "title": "DivineRPG: Vethea",
       "description": "Dive into your dreams",
       "icon": {
         "type": "item",
@@ -48,7 +48,7 @@
     {
       "id": "arcana/root",
       "advancement_root": "divinerpg:arcana/root",
-      "title": "Arcana",
+      "title": "DivineRPG: Arcana",
       "description": "What lies within?",
       "icon": {
         "type": "item",

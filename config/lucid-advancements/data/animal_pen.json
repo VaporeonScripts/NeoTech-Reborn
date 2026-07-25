@@ -4,7 +4,7 @@
     {
       "id": "root",
       "advancement_root": "animal_pen:root",
-      "title": "Animal Husbandry",
+      "title": "Animal Pens",
       "description": "Getting started with animal pens",
       "icon": {
         "type": "item",

@@ -4,7 +4,7 @@
     {
       "id": "root",
       "advancement_root": "pneumaticcraft:root",
-      "title": "The First Explosion (of many?)",
+      "title": "PneumaticCraft: Repressurized",
       "description": "Throw Iron on the ground and create an explosion close to it.",
       "icon": {
         "type": "item",

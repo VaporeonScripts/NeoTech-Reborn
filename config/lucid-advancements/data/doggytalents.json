@@ -4,7 +4,7 @@
     {
       "id": "dtn_core/summon_dog",
       "advancement_root": "doggytalents:dtn_core/summon_dog",
-      "title": "Ah, you scared me!",
+      "title": "Doggy Talents Next",
       "description": "Summon your first dog via the Doggy Charm.",
       "icon": {
         "type": "item",

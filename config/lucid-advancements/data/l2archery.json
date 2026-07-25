@@ -4,7 +4,7 @@
     {
       "id": "archery/root",
       "advancement_root": "l2archery:archery/root",
-      "title": "Welcome to L2Archery",
+      "title": "L2Archery",
       "description": "Explore the variety of bows and arrows",
       "icon": {
         "type": "item",

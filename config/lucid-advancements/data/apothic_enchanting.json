@@ -4,7 +4,7 @@
     {
       "id": "enchanter",
       "advancement_root": "apothic_enchanting:enchanter",
-      "title": "The Secrets of Enchanting",
+      "title": "Apothic Enchanting",
       "description": "Obtain an enchanting table, and begin to unveil the mystery.",
       "icon": {
         "type": "item",

@@ -4,7 +4,7 @@
     {
       "id": "trash_can",
       "advancement_root": "trashcans:trash_can",
-      "title": "Don't forget to recycle",
+      "title": "Trash Cans",
       "description": "Craft a trash can",
       "icon": {
         "type": "item",
