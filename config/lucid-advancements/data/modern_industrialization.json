@@ -1,0 +1,16 @@
+{
+  "mod_id": "modern_industrialization",
+  "categories": [
+    {
+      "id": "guidebook",
+      "advancement_root": "modern_industrialization:guidebook",
+      "title": "Modern Industrialization",
+      "description": "Welcome to Modern Industrialization! Make sure to check out the guidebook.",
+      "icon": {
+        "type": "item",
+        "value": "modern_industrialization:guidebook"
+      },
+      "enabled": true
+    }
+  ]
+}

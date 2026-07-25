@@ -1,0 +1,16 @@
+{
+  "mod_id": "occultism",
+  "categories": [
+    {
+      "id": "chalks/root",
+      "advancement_root": "occultism:chalks/root",
+      "title": "Occultism: Chalks",
+      "description": "Colorful",
+      "icon": {
+        "type": "item",
+        "value": "occultism:brush"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mod_id": "create",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "create:root",
+      "title": "Welcome to Create",
+      "description": "Here Be Contraptions",
+      "icon": {
+        "type": "item",
+        "value": "create:brass_hand"
+      },
+      "enabled": true
+    }
+  ]
+}

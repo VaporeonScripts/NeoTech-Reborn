@@ -1,0 +1,16 @@
+{
+  "mod_id": "extradelight",
+  "categories": [
+    {
+      "id": "start",
+      "advancement_root": "extradelight:start",
+      "title": "Extra Delight",
+      "description": "Feeling a little extra.",
+      "icon": {
+        "type": "item",
+        "value": "extradelight:wooden_spoon"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mod_id": "yggdrasil",
+  "categories": [
+    {
+      "id": "explore/root",
+      "advancement_root": "yggdrasil:explore/root",
+      "title": "Yggdrasil",
+      "description": "Explore the nine realms of Yggdrasil",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:cherry_sapling"
+      },
+      "enabled": true
+    }
+  ]
+}

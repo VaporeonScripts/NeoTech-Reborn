@@ -1,0 +1,16 @@
+{
+  "mod_id": "iceandfire",
+  "categories": [
+    {
+      "id": "iceandfire/root",
+      "advancement_root": "iceandfire:iceandfire/root",
+      "title": "Ice and Fire",
+      "description": "Enter a world of magical creatures",
+      "icon": {
+        "type": "item",
+        "value": "iceandfire:dragon_skull_fire"
+      },
+      "enabled": true
+    }
+  ]
+}

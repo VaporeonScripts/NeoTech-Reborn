@@ -1,0 +1,16 @@
+{
+  "mod_id": "biomeswevegone",
+  "categories": [
+    {
+      "id": "biomeswevegone/root",
+      "advancement_root": "biomeswevegone:biomeswevegone/root",
+      "title": "Oh The Biomes We've Gone",
+      "description": "Launch a world with the Oh The Biomes We've Gone",
+      "icon": {
+        "type": "item",
+        "value": "biomeswevegone:bwg_logo"
+      },
+      "enabled": true
+    }
+  ]
+}

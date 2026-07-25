@@ -1,0 +1,16 @@
+{
+  "mod_id": "lootr",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "lootr:root",
+      "title": "Lootr",
+      "description": "It belongs in a museum! Bring instanced loot to your world.",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:chest"
+      },
+      "enabled": true
+    }
+  ]
+}

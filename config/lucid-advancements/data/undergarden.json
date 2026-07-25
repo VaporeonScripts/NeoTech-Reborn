@@ -1,0 +1,16 @@
+{
+  "mod_id": "undergarden",
+  "categories": [
+    {
+      "id": "undergarden/root",
+      "advancement_root": "undergarden:undergarden/root",
+      "title": "The Undergarden",
+      "description": "",
+      "icon": {
+        "type": "item",
+        "value": "undergarden:deepturf_block"
+      },
+      "enabled": true
+    }
+  ]
+}

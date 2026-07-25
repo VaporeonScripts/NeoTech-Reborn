@@ -1,0 +1,16 @@
+{
+  "mod_id": "born_in_chaos_v1",
+  "categories": [
+    {
+      "id": "bornin_chaos",
+      "advancement_root": "born_in_chaos_v1:bornin_chaos",
+      "title": "Born in Chaos",
+      "description": "Enter a world full of dangers",
+      "icon": {
+        "type": "item",
+        "value": "born_in_chaos_v1:chaos_icon"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mod_id": "regions_unexplored",
+  "categories": [
+    {
+      "id": "parent",
+      "advancement_root": "regions_unexplored:parent",
+      "title": "Regions Unexplored",
+      "description": "Discover the many biomes and explore the world!",
+      "icon": {
+        "type": "item",
+        "value": "regions_unexplored:eucalyptus_sapling"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mod_id": "dumplings_delight",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "dumplings_delight:root",
+      "title": "Dumpling's Delight",
+      "description": "As the saying goes, \"There's nothing more delicious than dumplings!\"",
+      "icon": {
+        "type": "item",
+        "value": "dumplings_delight:pork_cabbage_boiled_dumpling"
+      },
+      "enabled": true
+    }
+  ]
+}

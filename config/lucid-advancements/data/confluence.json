@@ -1,0 +1,16 @@
+{
+  "mod_id": "confluence",
+  "categories": [
+    {
+      "id": "achievements/new_world",
+      "advancement_root": "confluence:achievements/new_world",
+      "title": "Old World, New Journey!",
+      "description": "The otherworld of confluence and exchange",
+      "icon": {
+        "type": "item",
+        "value": "confluence:copper_short_sword"
+      },
+      "enabled": true
+    }
+  ]
+}

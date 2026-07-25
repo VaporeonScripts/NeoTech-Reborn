@@ -1,0 +1,16 @@
+{
+  "mod_id": "create_ltab",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "create_ltab:root",
+      "title": "Let The Adventure Begin",
+      "description": "The beginning",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:netherite_boots"
+      },
+      "enabled": true
+    }
+  ]
+}

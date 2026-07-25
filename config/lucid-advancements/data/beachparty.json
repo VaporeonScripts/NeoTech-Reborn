@@ -1,0 +1,16 @@
+{
+  "mod_id": "beachparty",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "beachparty:main/root",
+      "title": "Welcome to Beachparty!",
+      "description": "Thank you for downloading Beachparty",
+      "icon": {
+        "type": "item",
+        "value": "beachparty:beach_ball"
+      },
+      "enabled": true
+    }
+  ]
+}

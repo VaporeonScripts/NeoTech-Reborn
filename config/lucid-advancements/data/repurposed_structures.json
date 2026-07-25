@@ -1,0 +1,16 @@
+{
+  "mod_id": "repurposed_structures",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "repurposed_structures:root",
+      "title": "Repurposed Structures",
+      "description": "Start exploring for structures!",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:filled_map"
+      },
+      "enabled": true
+    }
+  ]
+}

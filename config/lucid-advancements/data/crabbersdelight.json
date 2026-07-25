@@ -1,0 +1,16 @@
+{
+  "mod_id": "crabbersdelight",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "crabbersdelight:main/root",
+      "title": "Crabber's Delight",
+      "description": "A seafood adventure awaits you!",
+      "icon": {
+        "type": "item",
+        "value": "crabbersdelight:clawster"
+      },
+      "enabled": true
+    }
+  ]
+}

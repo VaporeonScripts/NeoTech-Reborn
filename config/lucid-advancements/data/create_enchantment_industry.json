@@ -1,0 +1,16 @@
+{
+  "mod_id": "create_enchantment_industry",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "create_enchantment_industry:root",
+      "title": "Welcome to Create: Enchantment Industry",
+      "description": "Road to master enchanting begins",
+      "icon": {
+        "type": "item",
+        "value": "create_enchantment_industry:experience_bucket"
+      },
+      "enabled": true
+    }
+  ]
+}

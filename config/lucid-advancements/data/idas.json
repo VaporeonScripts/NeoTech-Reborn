@@ -1,0 +1,16 @@
+{
+  "mod_id": "idas",
+  "categories": [
+    {
+      "id": "idas_root",
+      "advancement_root": "idas:idas_root",
+      "title": "Integrated Dungeons and Structures",
+      "description": "Start exploring for structures!",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:filled_map"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mod_id": "darkerdepths",
+  "categories": [
+    {
+      "id": "story/root",
+      "advancement_root": "darkerdepths:story/root",
+      "title": "Darker Depths",
+      "description": "Thank you for installing Darker Depths!",
+      "icon": {
+        "type": "item",
+        "value": "darkerdepths:glowshroom"
+      },
+      "enabled": true
+    }
+  ]
+}

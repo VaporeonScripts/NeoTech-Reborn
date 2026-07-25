@@ -1,0 +1,16 @@
+{
+  "mod_id": "adorabuild_structures",
+  "categories": [
+    {
+      "id": "overworld_structures",
+      "advancement_root": "adorabuild_structures:overworld_structures",
+      "title": "AdoraBuild: Overworld",
+      "description": "Start exploring Overworld to find new structures",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:mossy_stone_bricks"
+      },
+      "enabled": true
+    }
+  ]
+}

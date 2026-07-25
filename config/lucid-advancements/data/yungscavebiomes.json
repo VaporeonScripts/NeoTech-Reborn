@@ -1,0 +1,16 @@
+{
+  "mod_id": "yungscavebiomes",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "yungscavebiomes:root",
+      "title": "YUNG's Cave Biomes",
+      "description": "Explore the underground...",
+      "icon": {
+        "type": "item",
+        "value": "yungscavebiomes:layered_ancient_sandstone"
+      },
+      "enabled": true
+    }
+  ]
+}

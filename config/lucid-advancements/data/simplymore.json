@@ -1,0 +1,16 @@
+{
+  "mod_id": "simplymore",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "simplymore:root",
+      "title": "Simply More",
+      "description": "New runes have sprung!",
+      "icon": {
+        "type": "item",
+        "value": "simplymore:runefused_carver"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mod_id": "moredelight",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "moredelight:main/root",
+      "title": "More Delight",
+      "description": "More delicious recipes to make!",
+      "icon": {
+        "type": "item",
+        "value": "moredelight:chicken_sandwich_with_egg_and_tomato"
+      },
+      "enabled": true
+    }
+  ]
+}

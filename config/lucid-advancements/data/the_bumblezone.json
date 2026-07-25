@@ -1,0 +1,16 @@
+{
+  "mod_id": "the_bumblezone",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "the_bumblezone:root",
+      "title": "The Bumblezone",
+      "description": "See the rest of the advancements to learn what to do with this mod!",
+      "icon": {
+        "type": "item",
+        "value": "the_bumblezone:honeycomb_brood_block"
+      },
+      "enabled": true
+    }
+  ]
+}

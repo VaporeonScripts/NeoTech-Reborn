@@ -1,0 +1,38 @@
+{
+  "mod_id": "minecraft",
+  "categories": [
+    {
+      "id": "adventure/root",
+      "advancement_root": "minecraft:adventure/root",
+      "title": "§7Adventure",
+      "description": "Adventure, exploration and combat",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:map"
+      },
+      "enabled": true
+    },
+    {
+      "id": "end/root",
+      "advancement_root": "minecraft:end/root",
+      "title": "§7The End",
+      "description": "Or the beginning?",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:end_stone"
+      },
+      "enabled": true
+    },
+    {
+      "id": "story/root",
+      "advancement_root": "minecraft:story/root",
+      "title": "§7Minecraft",
+      "description": "The heart and story of the game",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:grass_block"
+      },
+      "enabled": true
+    }
+  ]
+}

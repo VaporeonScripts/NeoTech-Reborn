@@ -1,0 +1,16 @@
+{
+  "mod_id": "expandeddelight",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "expandeddelight:main/root",
+      "title": "Expanded Delight",
+      "description": "Prepare seeds and start cooking!",
+      "icon": {
+        "type": "item",
+        "value": "expandeddelight:juicer"
+      },
+      "enabled": true
+    }
+  ]
+}

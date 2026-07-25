@@ -1,0 +1,16 @@
+{
+  "mod_id": "youkaisfeasts",
+  "categories": [
+    {
+      "id": "main/welcome_to_gensokyo",
+      "advancement_root": "youkaisfeasts:main/welcome_to_gensokyo",
+      "title": "Gensokyo Delight",
+      "description": "Welcome To Gensokyo",
+      "icon": {
+        "type": "item",
+        "value": "youkaisfeasts:black_tea_bag"
+      },
+      "enabled": true
+    }
+  ]
+}

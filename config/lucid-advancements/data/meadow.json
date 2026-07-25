@@ -1,0 +1,16 @@
+{
+  "mod_id": "meadow",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "meadow:main/root",
+      "title": "Welcome to Meadow!",
+      "description": "Thank you for downloading Meadow",
+      "icon": {
+        "type": "item",
+        "value": "meadow:pine_sapling"
+      },
+      "enabled": true
+    }
+  ]
+}

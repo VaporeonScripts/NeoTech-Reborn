@@ -1,0 +1,16 @@
+{
+  "mod_id": "betterdungeons",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "betterdungeons:root",
+      "title": "YUNG's Better Dungeons",
+      "description": "Adventure awaits...",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:mossy_stone_bricks"
+      },
+      "enabled": true
+    }
+  ]
+}

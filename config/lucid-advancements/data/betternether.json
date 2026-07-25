@@ -1,0 +1,16 @@
+{
+  "mod_id": "betternether",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "betternether:root",
+      "title": "BetterNether",
+      "description": "Enter a world that has a better Nether",
+      "icon": {
+        "type": "item",
+        "value": "betternether:cincinnasite_lantern"
+      },
+      "enabled": true
+    }
+  ]
+}

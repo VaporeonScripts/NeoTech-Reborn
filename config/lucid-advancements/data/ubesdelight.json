@@ -1,0 +1,16 @@
+{
+  "mod_id": "ubesdelight",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "ubesdelight:main/root",
+      "title": "Ube's Delight",
+      "description": "Cuisine from the Phillipines!",
+      "icon": {
+        "type": "item",
+        "value": "ubesdelight:ube"
+      },
+      "enabled": true
+    }
+  ]
+}

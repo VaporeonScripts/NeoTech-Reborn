@@ -1,0 +1,16 @@
+{
+  "mod_id": "dungeonsdelight",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "dungeonsdelight:main/root",
+      "title": "Dungeon's Delight",
+      "description": "A world of monsters await you!",
+      "icon": {
+        "type": "item",
+        "value": "dungeonsdelight:monster_pot"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mod_id": "mekanism",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "mekanism:root",
+      "title": "Mekanism",
+      "description": "Welcome to Mekanism!",
+      "icon": {
+        "type": "item",
+        "value": "mekanism:atomic_disassembler"
+      },
+      "enabled": true
+    }
+  ]
+}

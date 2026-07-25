@@ -1,0 +1,16 @@
+{
+  "mod_id": "enhanced_enchanting",
+  "categories": [
+    {
+      "id": "enhanced_enchanting_advancement",
+      "advancement_root": "enhanced_enchanting:enhanced_enchanting_advancement",
+      "title": "Enhanced Enchanting",
+      "description": "Welcome to Enhanced Enchanting !",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:bookshelf"
+      },
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "mod_id": "morevillagers",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "morevillagers:root",
+      "title": "More Villagers",
+      "description": "Your villager journey awaits.",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:emerald_block"
+      },
+      "enabled": true
+    }
+  ]
+}

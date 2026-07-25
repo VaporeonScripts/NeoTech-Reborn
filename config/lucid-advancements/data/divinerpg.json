@@ -1,0 +1,16 @@
+{
+  "mod_id": "divinerpg",
+  "categories": [
+    {
+      "id": "divine/root",
+      "advancement_root": "divinerpg:divine/root",
+      "title": "DivineRPG",
+      "description": "The journey begins...",
+      "icon": {
+        "type": "item",
+        "value": "divinerpg:rupee_shickaxe"
+      },
+      "enabled": true
+    }
+  ]
+}
