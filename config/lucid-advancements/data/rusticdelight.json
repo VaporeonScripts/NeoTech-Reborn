@@ -1,0 +1,16 @@
+{
+  "mod_id": "rusticdelight",
+  "categories": [
+    {
+      "id": "main/root",
+      "advancement_root": "rusticdelight:main/root",
+      "title": "Rustic Delight",
+      "description": "The comforts of home await.",
+      "icon": {
+        "type": "item",
+        "value": "rusticdelight:wild_cotton"
+      },
+      "enabled": true
+    }
+  ]
+}
