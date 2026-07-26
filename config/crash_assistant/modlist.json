@@ -1,9 +1,9 @@
 {
-  "neoforge-21.1.243 (modloader)": {
-    "jarName": "neoforge-21.1.243 (modloader)",
+  "neoforge-21.1.244 (modloader)": {
+    "jarName": "neoforge-21.1.244 (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-21.1.243"
+    "version": "neoforge-21.1.244"
   },
   "0Pack2Reload-NeoForge-1.21.1-1.0.1.jar": {
     "jarName": "0Pack2Reload-NeoForge-1.21.1-1.0.1.jar",
@@ -1373,13 +1373,13 @@
     "curseForgeHash": 2798632357,
     "modrinthHash": "550f272c140566f0961c1bb3fdfb1a6272be30dd"
   },
-  "cyclopscore-1.21.1-neoforge-1.29.1-1057.jar": {
-    "jarName": "cyclopscore-1.21.1-neoforge-1.29.1-1057.jar",
+  "cyclopscore-1.21.1-neoforge-1.29.1-1059.jar": {
+    "jarName": "cyclopscore-1.21.1-neoforge-1.29.1-1059.jar",
     "modId": "cyclopscore",
     "name": "Cyclops Core",
     "version": "1.29.1",
-    "curseForgeHash": 466326991,
-    "modrinthHash": "233799acd91950c56cd8b9cf22477e046cae3018"
+    "curseForgeHash": 3134023680,
+    "modrinthHash": "114fd3b6a1e987cce0c1afebf2324f81ff669580"
   },
   "darkerdepths-2.1.4.jar": {
     "jarName": "darkerdepths-2.1.4.jar",
@@ -3594,13 +3594,13 @@
     "curseForgeHash": 1450799768,
     "modrinthHash": "f4dbb8c2307f3ff6ca31229068ea0243659a5c7e"
   },
-  "morerelics-1.7.5-1.21.1.jar": {
-    "jarName": "morerelics-1.7.5-1.21.1.jar",
+  "morerelics-1.7.6-1.21.1.jar": {
+    "jarName": "morerelics-1.7.6-1.21.1.jar",
     "modId": "morerelics",
     "name": "More Relics",
-    "version": "1.7.5",
-    "curseForgeHash": 4129288391,
-    "modrinthHash": "9d52214915329c01226839e3f13184f55bbfc4fa"
+    "version": "1.7.6",
+    "curseForgeHash": 3568656666,
+    "modrinthHash": "72b28be0732d61b0f04093a553034459ac6fc14d"
   },
   "MoreSnifferFlowers-1.21.1-neo-6.6.6.jar": {
     "jarName": "MoreSnifferFlowers-1.21.1-neo-6.6.6.jar",
@@ -4378,13 +4378,13 @@
     "curseForgeHash": 2936183341,
     "modrinthHash": "22dfd6a52d31bcab58b93c2d4a637ae1b2a01895"
   },
-  "rusticdelight-neoforge-1.21-1.6.1.jar": {
-    "jarName": "rusticdelight-neoforge-1.21-1.6.1.jar",
+  "rusticdelight-neoforge-1.21-1.7.0.jar": {
+    "jarName": "rusticdelight-neoforge-1.21-1.7.0.jar",
     "modId": "rusticdelight",
     "name": "Rustic Delight",
-    "version": "1.6.1",
-    "curseForgeHash": 2204286534,
-    "modrinthHash": "b5c343d01cf4c9cc77815a15f9a45da4a3205002"
+    "version": "1.7.0",
+    "curseForgeHash": 2945938810,
+    "modrinthHash": "4e9cd8dfc6c49a31b9fec9b3e03b93e5ffdb6d5d"
   },
   "saturn-mc1.21.1-0.1.5.jar": {
     "jarName": "saturn-mc1.21.1-0.1.5.jar",

@@ -17,3 +17,15 @@
 	#This config only works with More Relics relics.
 	#Format Example:["morerelics:guts_orb","morerelics:mass_gauntlet"]
 	blockWearingCopies = []
+
+["Mass Gauntlet"]
+	#Cooldown of mass gauntlets damage boost. Seconds.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	massGauntletCooldown = 0.2
+	#Maximum damage mass gauntlet can deal.
+	# Default: 1.7976931348623157E308
+	# Range: 0.0 ~ 1.7976931348623157E308
+	massGauntletDamageCap = 1.7976931348623157E308
+	#Makes it so only default attacks will be boosted by mass gauntlet.
+	massGauntletOnlyMelee = false
