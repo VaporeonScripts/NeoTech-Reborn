@@ -84,4 +84,4 @@
 	#Color of the mod source text as an RGB integer (e.g. 0xAAAAAA = grey).
 	# Default: 11184810
 	# Range: 0 ~ 16777215
-	mod_source_color = 11184810
+	mod_source_color = 16777215
