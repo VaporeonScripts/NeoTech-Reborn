@@ -37,7 +37,7 @@
       "advanced": false,
       "multi_dimension_fog_control": false,
       "atmospheric": {
-        "distance_chunks": 0,
+        "distance_chunks": -1,
         "start_percent": 100,
         "shape_mode": "VANILLA",
         "cloud_fog_percent": 100

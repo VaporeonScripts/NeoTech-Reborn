@@ -1,10 +1,10 @@
 {
   "create_version": "21.0.22",
   "log": {
-    "verbose": true
+    "verbose": false
   },
   "server": {
     "force_default_world_preset": true
   },
-  "modify_version": "21.0.22"
+  "modify_version": "21.0.23"
 }
