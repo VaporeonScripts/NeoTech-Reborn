@@ -613,13 +613,13 @@
     "curseForgeHash": 1600566737,
     "modrinthHash": "dee878f03ce749857d8a380b91f6b8f491532f72"
   },
-  "bclib-21.0.23.jar": {
-    "jarName": "bclib-21.0.23.jar",
+  "bclib-21.0.24.jar": {
+    "jarName": "bclib-21.0.24.jar",
     "modId": "bclib",
     "name": "BCLib",
-    "version": "21.0.23",
-    "curseForgeHash": 2654410099,
-    "modrinthHash": "3c81a0f6cffe94789fc2e53fc271bf9623a583a5"
+    "version": "21.0.24",
+    "curseForgeHash": 2126216429,
+    "modrinthHash": "6ff66cb67833c62db74efb418413a4344cf2e51a"
   },
   "BEB-NeoForge-1.21-6.0.0.jar": {
     "jarName": "BEB-NeoForge-1.21-6.0.0.jar",
@@ -677,21 +677,21 @@
     "curseForgeHash": 1743851108,
     "modrinthHash": "859aede566bf73e0bd65e3a498aeca32f9a24525"
   },
-  "BetterEnd-21.0.28.jar": {
-    "jarName": "BetterEnd-21.0.28.jar",
+  "BetterEnd-21.0.29.jar": {
+    "jarName": "BetterEnd-21.0.29.jar",
     "modId": "betterend",
     "name": "Better End",
-    "version": "21.0.28",
-    "curseForgeHash": 2298694950,
-    "modrinthHash": "0ab986cbbb31d15ba25230fb78590753f2567682"
+    "version": "21.0.29",
+    "curseForgeHash": 2963396584,
+    "modrinthHash": "ace1a7d9721bf8acd2e17f4bd21eb4073c59863a"
   },
-  "BetterNether-21.0.21.jar": {
-    "jarName": "BetterNether-21.0.21.jar",
+  "BetterNether-21.0.22.jar": {
+    "jarName": "BetterNether-21.0.22.jar",
     "modId": "betternether",
     "name": "Better Nether",
-    "version": "21.0.21",
-    "curseForgeHash": 966828010,
-    "modrinthHash": "0f981ec72de1888888161195669e9e46d3815c6e"
+    "version": "21.0.22",
+    "curseForgeHash": 3331416362,
+    "modrinthHash": "91a8d42ab397dcf7256d6c876b61654254ddd8c6"
   },
   "BetterThirdPerson-neoforge-1.9.0.jar": {
     "jarName": "BetterThirdPerson-neoforge-1.9.0.jar",
@@ -2077,13 +2077,13 @@
     "curseForgeHash": 397785702,
     "modrinthHash": "fa7b3d1b06c0285dcbe8e53a27d44cd7f8d15726"
   },
-  "ftb-library-neoforge-2101.1.33.jar": {
-    "jarName": "ftb-library-neoforge-2101.1.33.jar",
+  "ftb-library-neoforge-2101.1.34.jar": {
+    "jarName": "ftb-library-neoforge-2101.1.34.jar",
     "modId": "ftblibrary",
     "name": "FTB Library",
-    "version": "2101.1.33",
-    "curseForgeHash": 3687773507,
-    "modrinthHash": "a653118630fa17ed37d67b0beddc5984c760fc72"
+    "version": "2101.1.34",
+    "curseForgeHash": 1387063591,
+    "modrinthHash": "58e47947064d1aefe4cc304cf19175152b901269"
   },
   "ftb-quests-neoforge-2101.1.27.jar": {
     "jarName": "ftb-quests-neoforge-2101.1.27.jar",
@@ -5242,13 +5242,13 @@
     "curseForgeHash": 186874262,
     "modrinthHash": "1ee93dce6193ebeab41944e97d1f07e5d729bd96"
   },
-  "worldweaver-21.0.23.jar": {
-    "jarName": "worldweaver-21.0.23.jar",
+  "worldweaver-21.0.24.jar": {
+    "jarName": "worldweaver-21.0.24.jar",
     "modId": "wover",
     "name": "WorldWeaver",
-    "version": "21.0.23",
-    "curseForgeHash": 414867208,
-    "modrinthHash": "8b44d4b6dd9a53dd433280ffc8fcb98826eb5703"
+    "version": "21.0.24",
+    "curseForgeHash": 814397887,
+    "modrinthHash": "bd9f24e87ffb00e680b76de6ec56f33e5dc9f677"
   },
   "wunderlib-21.0.10.jar": {
     "jarName": "wunderlib-21.0.10.jar",
