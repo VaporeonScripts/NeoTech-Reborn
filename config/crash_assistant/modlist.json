@@ -453,21 +453,21 @@
     "curseForgeHash": 709864394,
     "modrinthHash": "a1e4021177aae0e16c1f7c6487a82f0b68bbade3"
   },
-  "ars_nouveau-1.21.1-5.12.1.jar": {
-    "jarName": "ars_nouveau-1.21.1-5.12.1.jar",
+  "ars_nouveau-1.21.1-5.13.0.jar": {
+    "jarName": "ars_nouveau-1.21.1-5.13.0.jar",
     "modId": "ars_nouveau",
     "name": "Ars Nouveau",
-    "version": "5.12.1",
-    "curseForgeHash": 2681225383,
-    "modrinthHash": "ca5800c6fa315bbf8fd8d833564f98a5f27b81bc"
+    "version": "5.13.0",
+    "curseForgeHash": 363127807,
+    "modrinthHash": "b8d71856fd76d89573e6976f2461ea7385a3fff7"
   },
-  "ars_ocultas-1.21.1-2.4.1.jar": {
-    "jarName": "ars_ocultas-1.21.1-2.4.1.jar",
+  "ars_ocultas-1.21.1-2.5.0.jar": {
+    "jarName": "ars_ocultas-1.21.1-2.5.0.jar",
     "modId": "ars_ocultas",
     "name": "Ars Ocultas",
-    "version": "2.4.1",
-    "curseForgeHash": 3529794441,
-    "modrinthHash": "b1ce2428d28713e50da6e93a421d8b97cc448f6f"
+    "version": "2.5.0",
+    "curseForgeHash": 2823096979,
+    "modrinthHash": "d9807c2d4c9e51c15ba2e19d9227d8a1237a237a"
   },
   "ars_polymorphia-1.0.3.jar": {
     "jarName": "ars_polymorphia-1.0.3.jar",
@@ -2589,13 +2589,13 @@
     "curseForgeHash": 280364357,
     "modrinthHash": "8a92b235a424bc29f56cf6331e533f8c11f65975"
   },
-  "Ixeris-4.5.2+1.21.1-neoforge.jar": {
-    "jarName": "Ixeris-4.5.2+1.21.1-neoforge.jar",
+  "Ixeris-4.6.0+1.21.1-neoforge.jar": {
+    "jarName": "Ixeris-4.6.0+1.21.1-neoforge.jar",
     "modId": "ixeris_dummy",
     "name": "Ixeris",
-    "version": "4.5.2+1.21.1-neoforge",
-    "curseForgeHash": 1495287831,
-    "modrinthHash": "416cc56033cdb510ee8f505b3756183d9cbfc206"
+    "version": "4.6.0+1.21.1-neoforge",
+    "curseForgeHash": 3385469555,
+    "modrinthHash": "9b522f0d29a22c378e7b5460a5fedd88cd874235"
   },
   "Jade-1.21.1-NeoForge-15.10.5.jar": {
     "jarName": "Jade-1.21.1-NeoForge-15.10.5.jar",
@@ -3418,13 +3418,13 @@
     "curseForgeHash": 1914015235,
     "modrinthHash": "3f206d55dc002f217a2a4e5b1cce9327fd67bfa6"
   },
-  "Modern-Industrialization-2.5.4.jar": {
-    "jarName": "Modern-Industrialization-2.5.4.jar",
+  "Modern-Industrialization-2.5.5.jar": {
+    "jarName": "Modern-Industrialization-2.5.5.jar",
     "modId": "modern_industrialization",
     "name": "Modern Industrialization",
-    "version": "2.5.4",
-    "curseForgeHash": 3042961553,
-    "modrinthHash": "724b702900c56399758954b0d6abad0187af255b"
+    "version": "2.5.5",
+    "curseForgeHash": 840650878,
+    "modrinthHash": "5ad80397df3fb950196f40a7ea716bf90eabda16"
   },
   "modernfix-neoforge-5.27.20+mc1.21.1.jar": {
     "jarName": "modernfix-neoforge-5.27.20+mc1.21.1.jar",
@@ -3658,13 +3658,13 @@
     "curseForgeHash": 109262868,
     "modrinthHash": "d2fb0de59b66a017a1a25f23acdbe6e241b08541"
   },
-  "MysticalAgradditions-1.21.1-8.0.13.jar": {
-    "jarName": "MysticalAgradditions-1.21.1-8.0.13.jar",
+  "MysticalAgradditions-1.21.1-8.0.14.jar": {
+    "jarName": "MysticalAgradditions-1.21.1-8.0.14.jar",
     "modId": "mysticalagradditions",
     "name": "Mystical Agradditions",
-    "version": "8.0.13",
-    "curseForgeHash": 184977975,
-    "modrinthHash": "19bcd0011e8ab46de3093672bf2704fbb5443cfe"
+    "version": "8.0.14",
+    "curseForgeHash": 1511200059,
+    "modrinthHash": "e66484aa157c68e9ee26cbab4096c5fcbc4070c8"
   },
   "MysticalAgriculture-1.21.1-8.0.27.jar": {
     "jarName": "MysticalAgriculture-1.21.1-8.0.27.jar",
@@ -4042,13 +4042,13 @@
     "curseForgeHash": 533269171,
     "modrinthHash": "05be8ddcc78532b9a5520c718edc6c971cd0057c"
   },
-  "pneumaticcraft-repressurized-8.2.22+mc1.21.1.jar": {
-    "jarName": "pneumaticcraft-repressurized-8.2.22+mc1.21.1.jar",
+  "pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar": {
+    "jarName": "pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar",
     "modId": "pneumaticcraft",
     "name": "PneumaticCraft: Repressurized",
-    "version": "8.2.22",
-    "curseForgeHash": 4183137753,
-    "modrinthHash": "dd89e496a3ce85cd280f882820f69265ee5a2953"
+    "version": "8.2.23",
+    "curseForgeHash": 3773557735,
+    "modrinthHash": "44ea59cb9ac3abfc343518e50cc19fe7200a592e"
   },
   "polyeng-0.4.1.jar": {
     "jarName": "polyeng-0.4.1.jar",
