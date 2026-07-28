@@ -11,7 +11,8 @@ const obliterateItems = [
 'tide:village_fishing_rod',
 'tide:blazing_fishing_rod',
 'tide:honeycomb_fishing_rod',
-'tide:midas_fishing_rod'
+'tide:midas_fishing_rod',
+'minecraft:enchanted_book[minecraft:stored_enchantments={"l2complements:invincible":1}]'
 ]
 // Check if itemID exists within obliterateItems
 function ObliterateCheck(itemID) {
@@ -26,6 +27,10 @@ function ObliterateCheck(itemID) {
         }
     }
     return check
+}
+function isInvincibleBook(item) {
+    if (item.id !== 'minecraft:enchanted_book') return false
+        return item.getEnchantments().getLevel('l2complements:invincible') > 0
 }
 // Remove recipes
 ServerEvents.recipes(event => {
@@ -64,17 +69,17 @@ BlockEvents.placed(event => {
 ItemEvents.canPickUp(event => {
     let { item, itemEntity } = event
     if(itemEntity.hasPickUpDelay()) return
-        if (ObliterateCheck(item.id)) { item.setCount(0) }
+        if (ObliterateCheck(item.id) || isInvincibleBook(item)) { item.setCount(0) }
 })
 // Destroy on drop
 ItemEvents.dropped(event => {
     let { item } = event
-    if (ObliterateCheck(item.id)) { item.setCount(0) }
+    if (ObliterateCheck(item.id) || isInvincibleBook(item)) { item.setCount(0) }
 })
 // Destroy on inventory changed
 PlayerEvents.inventoryChanged(event => {
     let { item, player } = event
-    if (ObliterateCheck(item.id)) {
+    if (ObliterateCheck(item.id) || isInvincibleBook(item)) {
         player.inventory.clear(item);
     }
 })
