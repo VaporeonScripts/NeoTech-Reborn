@@ -23,3 +23,7 @@
 	tortoise_removed = false
 	vulture_removed = false
 	zebra_removed = false
+
+[behavior]
+	#Unnamed Snails will be crushed when falling on them if not wearing Feather Falling boots.
+	snail_crushing = false

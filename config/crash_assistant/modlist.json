@@ -277,13 +277,13 @@
     "curseForgeHash": 2969405753,
     "modrinthHash": "b955b065375dd6486138aed28c8442b7495f1c4f"
   },
-  "Apotheosis-1.21.1-8.6.0.jar": {
-    "jarName": "Apotheosis-1.21.1-8.6.0.jar",
+  "Apotheosis-1.21.1-8.6.1.jar": {
+    "jarName": "Apotheosis-1.21.1-8.6.1.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.6.0",
-    "curseForgeHash": 3487140419,
-    "modrinthHash": "816c532349f51a370f62ecb47a723bef2a891cf0"
+    "version": "8.6.1",
+    "curseForgeHash": 3362945668,
+    "modrinthHash": "7a639e58c820069ec1d8a3431c38b58511d24dc1"
   },
   "apothic_attributes_extension-2101.1.2.jar": {
     "jarName": "apothic_attributes_extension-2101.1.2.jar",
@@ -853,13 +853,13 @@
     "curseForgeHash": 905028723,
     "modrinthHash": "acd114fabe85bf819087c8fc9a5db6306ffb4b31"
   },
-  "byepregen-1.0.9.1.jar": {
-    "jarName": "byepregen-1.0.9.1.jar",
+  "byepregen-1.0.10.0.jar": {
+    "jarName": "byepregen-1.0.10.0.jar",
     "modId": "byepregen",
     "name": "ByePregen",
-    "version": "1.0.9.1",
-    "curseForgeHash": 3214736171,
-    "modrinthHash": "5408aaeb90d9f406c7e9a11cfbb9c0d925008929"
+    "version": "1.0.10.0",
+    "curseForgeHash": 1203714885,
+    "modrinthHash": "25980c01394ad8a4870bae3c196cd013cbcc24e7"
   },
   "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar": {
     "jarName": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar",
@@ -1005,13 +1005,13 @@
     "curseForgeHash": 3484238619,
     "modrinthHash": "ed816decf1ce06bd17b3a446b4fddd33b07ace40"
   },
-  "clienttweaks-neoforge-1.21.1-21.1.13.jar": {
-    "jarName": "clienttweaks-neoforge-1.21.1-21.1.13.jar",
+  "clienttweaks-neoforge-1.21.1-21.1.14.jar": {
+    "jarName": "clienttweaks-neoforge-1.21.1-21.1.14.jar",
     "modId": "clienttweaks",
     "name": "Client Tweaks",
-    "version": "21.1.13",
-    "curseForgeHash": 3153124110,
-    "modrinthHash": "7969d3af6f3b44e0760c3529045585ca95b0e596"
+    "version": "21.1.14",
+    "curseForgeHash": 1395156757,
+    "modrinthHash": "faf5d806df2dd053178045d6eee0be5fc30734e8"
   },
   "cloth-config-15.0.140-neoforge.jar": {
     "jarName": "cloth-config-15.0.140-neoforge.jar",
@@ -2077,13 +2077,13 @@
     "curseForgeHash": 397785702,
     "modrinthHash": "fa7b3d1b06c0285dcbe8e53a27d44cd7f8d15726"
   },
-  "ftb-library-neoforge-2101.1.34.jar": {
-    "jarName": "ftb-library-neoforge-2101.1.34.jar",
+  "ftb-library-neoforge-2101.1.33.jar": {
+    "jarName": "ftb-library-neoforge-2101.1.33.jar",
     "modId": "ftblibrary",
     "name": "FTB Library",
-    "version": "2101.1.34",
-    "curseForgeHash": 1387063591,
-    "modrinthHash": "58e47947064d1aefe4cc304cf19175152b901269"
+    "version": "2101.1.33",
+    "curseForgeHash": 3687773507,
+    "modrinthHash": "a653118630fa17ed37d67b0beddc5984c760fc72"
   },
   "ftb-quests-neoforge-2101.1.27.jar": {
     "jarName": "ftb-quests-neoforge-2101.1.27.jar",
@@ -2189,13 +2189,13 @@
     "curseForgeHash": 3926185248,
     "modrinthHash": "14c64013cadee7d28f3685f94350f9a4d2ec6d86"
   },
-  "GEO-v0.3.1-NeoForge-1.21.1.jar": {
-    "jarName": "GEO-v0.3.1-NeoForge-1.21.1.jar",
+  "GEO-v0.3.3-NeoForge-1.21.1.jar": {
+    "jarName": "GEO-v0.3.3-NeoForge-1.21.1.jar",
     "modId": "geo_mod",
     "name": "Glowing Emissive Ores Definitive Edition",
-    "version": "0.3.1",
-    "curseForgeHash": 1167307180,
-    "modrinthHash": "43085ba063e6633e5c8cc756608e41ccca17fa02"
+    "version": "0.3.3",
+    "curseForgeHash": 3409725811,
+    "modrinthHash": "fe0ec5980a1a393e3f46088218bb855fff83ccbc"
   },
   "getittogetherdrops-neoforge-1.21.5-1.4.jar": {
     "jarName": "getittogetherdrops-neoforge-1.21.5-1.4.jar",
@@ -3682,13 +3682,13 @@
     "curseForgeHash": 1175861673,
     "modrinthHash": "d0f2905bb2bc9a404531d63042e3eb5091ec105f"
   },
-  "naturalist-1.0.2-neoforge-1.21.1.jar": {
-    "jarName": "naturalist-1.0.2-neoforge-1.21.1.jar",
+  "naturalist-2.0.0-neoforge-1.21.1.jar": {
+    "jarName": "naturalist-2.0.0-neoforge-1.21.1.jar",
     "modId": "naturalist",
     "name": "Naturalist",
-    "version": "1.0.2",
-    "curseForgeHash": 3711803653,
-    "modrinthHash": "d026c2c4ac66a9bc656e9b894683d1131054a80a"
+    "version": "2.0.0",
+    "curseForgeHash": 605583683,
+    "modrinthHash": "797a10f81fba9cdf91a7b1c4cd8dc7f632ad7fac"
   },
   "NaturesCompass-1.21.1-3.4.0-neoforge.jar": {
     "jarName": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
@@ -4818,13 +4818,13 @@
     "curseForgeHash": 1923939184,
     "modrinthHash": "07452242e389975e8a88b97066f4bae6a4ebe574"
   },
-  "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar": {
-    "jarName": "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar",
+  "supermartijn642corelib-1.1.22-neoforge-mc1.21.jar": {
+    "jarName": "supermartijn642corelib-1.1.22-neoforge-mc1.21.jar",
     "modId": "supermartijn642corelib",
     "name": "SuperMartijn642\u0027s Core Lib",
-    "version": "1.1.21",
-    "curseForgeHash": 3414849852,
-    "modrinthHash": "84802fbe1645de8caf61ccb07db6cf451e614f68"
+    "version": "1.1.22",
+    "curseForgeHash": 3994155733,
+    "modrinthHash": "ad3d575887d50ab321176b58af4b31166bb67b41"
   },
   "supplementaries-neoforge-1.21.1-3.8.4.jar": {
     "jarName": "supplementaries-neoforge-1.21.1-3.8.4.jar",
