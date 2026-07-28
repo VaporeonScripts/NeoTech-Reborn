@@ -11,9 +11,11 @@ const obliterateItems = [
 'tide:village_fishing_rod',
 'tide:blazing_fishing_rod',
 'tide:honeycomb_fishing_rod',
-'tide:midas_fishing_rod',
-'minecraft:enchanted_book[minecraft:stored_enchantments={"l2complements:invincible":1}]'
+'tide:midas_fishing_rod'
 ]
+const obliterateIngredients = obliterateItems.concat([
+    'minecraft:enchanted_book[minecraft:stored_enchantments={"l2complements:invincible":1}]'
+])
 // Check if itemID exists within obliterateItems
 function ObliterateCheck(itemID) {
     let check = false
@@ -37,8 +39,8 @@ function hasInvincibleEnchant(item) {
 }
 // Remove recipes
 ServerEvents.recipes(event => {
-    event.remove({ input: obliterateItems })
-    event.remove({ output: obliterateItems })
+    event.remove({ input: obliterateIngredients })
+    event.remove({ output: obliterateIngredients })
 })
 // Remove tags
 ServerEvents.tags('item', event => {
@@ -46,15 +48,16 @@ ServerEvents.tags('item', event => {
 })
 // Append disabled tooltip
 ItemEvents.modifyTooltips(event => {
-    event.add(obliterateItems, Text.red('Disabled'))
+    event.add(obliterateIngredients, Text.red('Disabled'))
 })
 // Remove from recipe viewer
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
-    event.remove(obliterateItems)
+    event.remove(obliterateIngredients)
 })
 // Remove from loot pools
 LootJS.lootTables(event => {
     event.modifyLootTables(/.*/).removeItem(obliterateItems)
+    event.modifyLootTables(/.*/).removeItem(ItemFilter.hasStoredEnchantment('l2complements:invincible'))
 })
 // Destroy on interaction
 BlockEvents.rightClicked(event => {
