@@ -11,11 +11,9 @@ const obliterateItems = [
 'tide:village_fishing_rod',
 'tide:blazing_fishing_rod',
 'tide:honeycomb_fishing_rod',
-'tide:midas_fishing_rod'
+'tide:midas_fishing_rod',
+'minecraft:enchanted_book[minecraft:stored_enchantments={"l2complements:invincible":1}]'
 ]
-const obliterateIngredients = obliterateItems.concat([
-    'minecraft:enchanted_book[minecraft:stored_enchantments={"l2complements:invincible":1}]'
-])
 // Check if itemID exists within obliterateItems
 function ObliterateCheck(itemID) {
     let check = false
@@ -34,13 +32,10 @@ function isInvincibleBook(item) {
     if (item.id !== 'minecraft:enchanted_book') return false
         return item.getEnchantments().getLevel('l2complements:invincible') > 0
 }
-function hasInvincibleEnchant(item) {
-    return item.getEnchantments().getLevel('l2complements:invincible') > 0
-}
 // Remove recipes
 ServerEvents.recipes(event => {
-    event.remove({ input: obliterateIngredients })
-    event.remove({ output: obliterateIngredients })
+    event.remove({ input: obliterateItems })
+    event.remove({ output: obliterateItems })
 })
 // Remove tags
 ServerEvents.tags('item', event => {
@@ -48,16 +43,15 @@ ServerEvents.tags('item', event => {
 })
 // Append disabled tooltip
 ItemEvents.modifyTooltips(event => {
-    event.add(obliterateIngredients, Text.red('Disabled'))
+    event.add(obliterateItems, Text.red('Disabled'))
 })
 // Remove from recipe viewer
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
-    event.remove(obliterateIngredients)
+    event.remove(obliterateItems)
 })
 // Remove from loot pools
 LootJS.lootTables(event => {
     event.modifyLootTables(/.*/).removeItem(obliterateItems)
-    event.modifyLootTables(/.*/).removeItem(ItemFilter.hasStoredEnchantment('l2complements:invincible'))
 })
 // Destroy on interaction
 BlockEvents.rightClicked(event => {
@@ -87,8 +81,5 @@ PlayerEvents.inventoryChanged(event => {
     let { item, player } = event
     if (ObliterateCheck(item.id) || isInvincibleBook(item)) {
         player.inventory.clear(item);
-    }
-    if (hasInvincibleEnchant(item)) {
-        item.getEnchantments().remove('l2complements:invincible')
     }
 })
