@@ -32,6 +32,9 @@ function isInvincibleBook(item) {
     if (item.id !== 'minecraft:enchanted_book') return false
         return item.getEnchantments().getLevel('l2complements:invincible') > 0
 }
+function hasInvincibleEnchant(item) {
+    return item.getEnchantments().getLevel('l2complements:invincible') > 0
+}
 // Remove recipes
 ServerEvents.recipes(event => {
     event.remove({ input: obliterateItems })
@@ -81,5 +84,8 @@ PlayerEvents.inventoryChanged(event => {
     let { item, player } = event
     if (ObliterateCheck(item.id) || isInvincibleBook(item)) {
         player.inventory.clear(item);
+    }
+    if (hasInvincibleEnchant(item)) {
+        item.getEnchantments().remove('l2complements:invincible')
     }
 })
