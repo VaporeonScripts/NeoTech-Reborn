@@ -853,13 +853,13 @@
     "curseForgeHash": 905028723,
     "modrinthHash": "acd114fabe85bf819087c8fc9a5db6306ffb4b31"
   },
-  "byepregen-1.0.10.0.jar": {
-    "jarName": "byepregen-1.0.10.0.jar",
+  "byepregen-1.0.10.1.jar": {
+    "jarName": "byepregen-1.0.10.1.jar",
     "modId": "byepregen",
     "name": "ByePregen",
-    "version": "1.0.10.0",
-    "curseForgeHash": 1203714885,
-    "modrinthHash": "25980c01394ad8a4870bae3c196cd013cbcc24e7"
+    "version": "1.0.10.1",
+    "curseForgeHash": 1926160484,
+    "modrinthHash": "33336fdc89ea17b65e8f6f9cb722fdee675a029d"
   },
   "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar": {
     "jarName": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar",
@@ -3866,13 +3866,13 @@
     "curseForgeHash": 1811166438,
     "modrinthHash": "e17417eee213aac8291ff8bad1c6a5f710636b72"
   },
-  "occultism-1.21.1-neoforge-1.224.0.jar": {
-    "jarName": "occultism-1.21.1-neoforge-1.224.0.jar",
+  "occultism-1.21.1-neoforge-1.224.1.jar": {
+    "jarName": "occultism-1.21.1-neoforge-1.224.1.jar",
     "modId": "occultism",
     "name": "Occultism",
-    "version": "1.224.0",
-    "curseForgeHash": 1781736828,
-    "modrinthHash": "b74a90195c5b234de5ea2b30c10f665393298494"
+    "version": "1.224.1",
+    "curseForgeHash": 4029621385,
+    "modrinthHash": "96e03c9cf38c6855b9080a9c9f2deb01dfdbfdf9"
   },
   "oceansdelight-neoforge-1.0.4-1.21.1.jar": {
     "jarName": "oceansdelight-neoforge-1.0.4-1.21.1.jar",
@@ -4138,13 +4138,13 @@
     "curseForgeHash": 2779396011,
     "modrinthHash": "f4b67aa8da294203203bc8e6cd4b0cbf0a99d9dc"
   },
-  "puffish_skills-0.18.2-1.21-neoforge.jar": {
-    "jarName": "puffish_skills-0.18.2-1.21-neoforge.jar",
+  "puffish_skills-0.18.3-1.21-neoforge.jar": {
+    "jarName": "puffish_skills-0.18.3-1.21-neoforge.jar",
     "modId": "puffish_skills",
     "name": "Pufferfish\u0027s Skills",
-    "version": "0.18.2",
-    "curseForgeHash": 2460905723,
-    "modrinthHash": "9142d7bc3d4e802aa73d55229ed5b5fd65615c45"
+    "version": "0.18.3",
+    "curseForgeHash": 4094359737,
+    "modrinthHash": "f322b151ab16bcb9048fe29ed1010c457befd131"
   },
   "PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar": {
     "jarName": "PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar",
@@ -4930,13 +4930,13 @@
     "curseForgeHash": 3841976251,
     "modrinthHash": "8a1a3508b88e78cc427333db9973f9837d5f7437"
   },
-  "the_bumblezone-7.15.2+1.21.1-neoforge.jar": {
-    "jarName": "the_bumblezone-7.15.2+1.21.1-neoforge.jar",
+  "the_bumblezone-7.15.3+1.21.1-neoforge.jar": {
+    "jarName": "the_bumblezone-7.15.3+1.21.1-neoforge.jar",
     "modId": "the_bumblezone",
     "name": "The Bumblezone",
-    "version": "7.15.2+1.21.1-neoforge",
-    "curseForgeHash": 96566241,
-    "modrinthHash": "984eb10b67d5df7fe9911224d1bdcc818b2325d7"
+    "version": "7.15.3+1.21.1-neoforge",
+    "curseForgeHash": 1051098325,
+    "modrinthHash": "d15559a5a29b2976d8f7f29aecf1a6b75ebe7c7d"
   },
   "The_Undergarden-1.21.1-0.9.6.jar": {
     "jarName": "The_Undergarden-1.21.1-0.9.6.jar",
