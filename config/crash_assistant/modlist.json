@@ -597,13 +597,13 @@
     "curseForgeHash": 845661297,
     "modrinthHash": "d4251434fe01daff0879e93199c952d1456b5819"
   },
-  "balm-neoforge-1.21.1-21.0.63.jar": {
-    "jarName": "balm-neoforge-1.21.1-21.0.63.jar",
+  "balm-neoforge-1.21.1-21.0.64.jar": {
+    "jarName": "balm-neoforge-1.21.1-21.0.64.jar",
     "modId": "balm",
     "name": "Balm",
-    "version": "21.0.63",
-    "curseForgeHash": 2247822616,
-    "modrinthHash": "d452e71d4ff81a047f6e22f9a3ddb3c72632751e"
+    "version": "21.0.64",
+    "curseForgeHash": 581688561,
+    "modrinthHash": "db544a4fb95f7847cd4b1de9479c39cfa31fd529"
   },
   "bankstorage-1.6.1+1.21.jar": {
     "jarName": "bankstorage-1.6.1+1.21.jar",
@@ -3802,13 +3802,13 @@
     "curseForgeHash": 1237891864,
     "modrinthHash": "9edfc7861277ff661141304dc8216f83eacdd9af"
   },
-  "nondirectionaldamagetiltfix2.0.1+b1.21.1.jar": {
-    "jarName": "nondirectionaldamagetiltfix2.0.1+b1.21.1.jar",
+  "nondirectionaldamagetiltfix-3.0.0+neoforge.jar": {
+    "jarName": "nondirectionaldamagetiltfix-3.0.0+neoforge.jar",
     "modId": "nondirectionaldamagetiltfix",
-    "name": "Non-Directional Damage Tilt Fix",
-    "version": "2.0.1+b1.21.1",
-    "curseForgeHash": 2426280690,
-    "modrinthHash": "d2e569ee01dc672bb96d8cc581cf6052efb67f6b"
+    "name": "Nondirectional Damage Tilt Fix",
+    "version": "3.0.0",
+    "curseForgeHash": 673918447,
+    "modrinthHash": "337748fa4e755d3b2c73f89de130a25f0355c7d4"
   },
   "nopackcompatcheck-0.1.0-neoforge-mc1.21+.jar": {
     "jarName": "nopackcompatcheck-0.1.0-neoforge-mc1.21+.jar",
