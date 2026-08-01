@@ -213,13 +213,13 @@
     "curseForgeHash": 1491987109,
     "modrinthHash": "deed8189554e98faf2f0c084d5ce1c8d3cc3b4b5"
   },
-  "alltheleaks-1.1.10+1.21.1-neoforge.jar": {
-    "jarName": "alltheleaks-1.1.10+1.21.1-neoforge.jar",
+  "alltheleaks-1.1.11+1.21.1-neoforge.jar": {
+    "jarName": "alltheleaks-1.1.11+1.21.1-neoforge.jar",
     "modId": "alltheleaks",
     "name": "All The Leaks",
-    "version": "1.1.10+1.21.1-neoforge",
-    "curseForgeHash": 2274201648,
-    "modrinthHash": "00bf99e3a09204a555dc219a9648423c93f529d4"
+    "version": "1.1.11+1.21.1-neoforge",
+    "curseForgeHash": 3899353244,
+    "modrinthHash": "f94d617b2e887e4bee6f54377c0a931bae823032"
   },
   "almostunified-neoforge-1.21.1-1.4.2.jar": {
     "jarName": "almostunified-neoforge-1.21.1-1.4.2.jar",
@@ -533,13 +533,13 @@
     "curseForgeHash": 252385511,
     "modrinthHash": "9ec66494590b97c9e16c7b0a2af5a18ed49e80e2"
   },
-  "AsyncParticles-21.1.3.0+1.21.1.jar": {
-    "jarName": "AsyncParticles-21.1.3.0+1.21.1.jar",
+  "AsyncParticles-21.1.3.1+1.21.1.jar": {
+    "jarName": "AsyncParticles-21.1.3.1+1.21.1.jar",
     "modId": "asyncparticles",
     "name": "AsyncParticles",
-    "version": "21.1.3.0",
-    "curseForgeHash": 2072901659,
-    "modrinthHash": "170637e8bc7943f1ccce7a8b9de4a2decd08b96c"
+    "version": "21.1.3.1",
+    "curseForgeHash": 587736060,
+    "modrinthHash": "113fdb401d284a75bb1981c96a387d27896fdc23"
   },
   "ATi Structures V1.4.6.jar": {
     "jarName": "ATi Structures V1.4.6.jar",
@@ -1509,13 +1509,13 @@
     "curseForgeHash": 940199134,
     "modrinthHash": "edfb786fa38e08a8d3a43b5f8c81dc6d6e742fd3"
   },
-  "drippyloadingscreen_neoforge_3.1.2_MC_1.21.1.jar": {
-    "jarName": "drippyloadingscreen_neoforge_3.1.2_MC_1.21.1.jar",
+  "drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar": {
+    "jarName": "drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar",
     "modId": "drippyloadingscreen",
     "name": "Drippy Loading Screen",
-    "version": "3.1.2",
-    "curseForgeHash": 976803780,
-    "modrinthHash": "b47a59369a55f818cadd9e0eeb9352b4028a5e9b"
+    "version": "3.1.5",
+    "curseForgeHash": 2326404052,
+    "modrinthHash": "9d27991a7f5a551265692abf8ed40ece10ea1958"
   },
   "dsbg-1.0-1.21.1.jar": {
     "jarName": "dsbg-1.0-1.21.1.jar",
@@ -1861,13 +1861,13 @@
     "curseForgeHash": 1540853139,
     "modrinthHash": "51fa93c3b0978f4f7e3b801bea6822ec72522e50"
   },
-  "fancymenu_neoforge_3.9.8_MC_1.21.1.jar": {
-    "jarName": "fancymenu_neoforge_3.9.8_MC_1.21.1.jar",
+  "fancymenu_neoforge_3.9.9_MC_1.21.1.jar": {
+    "jarName": "fancymenu_neoforge_3.9.9_MC_1.21.1.jar",
     "modId": "fancymenu",
     "name": "FancyMenu",
-    "version": "3.9.8",
-    "curseForgeHash": 2960739409,
-    "modrinthHash": "1192ddd19dc2f7f59a361d64aeb5682b273b6063"
+    "version": "3.9.9",
+    "curseForgeHash": 4228588218,
+    "modrinthHash": "a1a2f34a7020b440355501f80c0b1c0f44710891"
   },
   "fancytoasts-neoforge-1.21.1-1.4.7.jar": {
     "jarName": "fancytoasts-neoforge-1.21.1-1.4.7.jar",
@@ -2589,13 +2589,13 @@
     "curseForgeHash": 280364357,
     "modrinthHash": "8a92b235a424bc29f56cf6331e533f8c11f65975"
   },
-  "Ixeris-4.6.0+1.21.1-neoforge.jar": {
-    "jarName": "Ixeris-4.6.0+1.21.1-neoforge.jar",
+  "Ixeris-4.6.2+1.21.1-neoforge.jar": {
+    "jarName": "Ixeris-4.6.2+1.21.1-neoforge.jar",
     "modId": "ixeris_dummy",
     "name": "Ixeris",
-    "version": "4.6.0+1.21.1-neoforge",
-    "curseForgeHash": 3385469555,
-    "modrinthHash": "9b522f0d29a22c378e7b5460a5fedd88cd874235"
+    "version": "4.6.2+1.21.1-neoforge",
+    "curseForgeHash": 3306930440,
+    "modrinthHash": "e63382006d713d0bc24000821d256a17c624e438"
   },
   "Jade-1.21.1-NeoForge-15.10.5.jar": {
     "jarName": "Jade-1.21.1-NeoForge-15.10.5.jar",
@@ -2669,13 +2669,13 @@
     "curseForgeHash": 900519501,
     "modrinthHash": "9b2bfac5e7aa0952dfb3da18936c0ece4beeae21"
   },
-  "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar": {
-    "jarName": "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar",
+  "JustEnoughMekanismMultiblocks-1.21.1-7.16.jar": {
+    "jarName": "JustEnoughMekanismMultiblocks-1.21.1-7.16.jar",
     "modId": "jei_mekanism_multiblocks",
     "name": "Just Enough Mekanism Multiblocks",
-    "version": "7.15",
-    "curseForgeHash": 1547674975,
-    "modrinthHash": "160c5d10059c5f98bac91f46ef9cc287fa12a964"
+    "version": "7.16",
+    "curseForgeHash": 873284408,
+    "modrinthHash": "4fc7f5bf9a7b49039f4973bec041be1aa47970b7"
   },
   "JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar": {
     "jarName": "JustEnoughResources-NeoForge-1.21.1-1.6.0.17.jar",
@@ -4378,13 +4378,13 @@
     "curseForgeHash": 2936183341,
     "modrinthHash": "22dfd6a52d31bcab58b93c2d4a637ae1b2a01895"
   },
-  "rusticdelight-neoforge-1.21-1.7.0.jar": {
-    "jarName": "rusticdelight-neoforge-1.21-1.7.0.jar",
+  "rusticdelight-neoforge-1.21-1.7.1.jar": {
+    "jarName": "rusticdelight-neoforge-1.21-1.7.1.jar",
     "modId": "rusticdelight",
     "name": "Rustic Delight",
-    "version": "1.7.0",
-    "curseForgeHash": 2945938810,
-    "modrinthHash": "4e9cd8dfc6c49a31b9fec9b3e03b93e5ffdb6d5d"
+    "version": "1.7.1",
+    "curseForgeHash": 90496112,
+    "modrinthHash": "697df889af0cec1823cf5330fca62bf7f6e5037f"
   },
   "saturn-mc1.21.1-0.1.5.jar": {
     "jarName": "saturn-mc1.21.1-0.1.5.jar",
