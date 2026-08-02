@@ -1,0 +1,17 @@
+{
+  "scrollSpeed": 1.0,
+  "textScrollSpeedMultiplier": 1.0,
+  "maxApplicableSlots": 4,
+  "useTextForBooleans": false,
+  "showRarity": true,
+  "showMaxLevel": true,
+  "showTreasure": true,
+  "showTradeable": true,
+  "showCurse": true,
+  "showDiscoverable": true,
+  "showEnchantingTable": true,
+  "rarityColorCommon": 16777215,
+  "rarityColorUncommon": 16777045,
+  "rarityColorRare": 5592575,
+  "rarityColorVeryRare": 16755200
+}
