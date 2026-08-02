@@ -82,7 +82,7 @@
 
 [enchantments]
 	#Be sure to inform players when you turn this off
-	enableImmunityEnchantments = true
+	enableImmunityEnchantments = false
 	# Default: 1.0
 	# Range: 0.1 ~ 100.0
 	windSweepIncrement = 1.0

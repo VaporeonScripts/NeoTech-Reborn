@@ -13,9 +13,6 @@ const obliterateItems = [
 'tide:honeycomb_fishing_rod',
 'tide:midas_fishing_rod'
 ]
-const obliterateIngredients = obliterateItems.concat([
-    'minecraft:enchanted_book[minecraft:stored_enchantments={"l2complements:invincible":1}]'
-])
 // Check if itemID exists within obliterateItems
 function ObliterateCheck(itemID) {
     let check = false
@@ -30,14 +27,10 @@ function ObliterateCheck(itemID) {
     }
     return check
 }
-function isInvincibleBook(item) {
-    if (item.id !== 'minecraft:enchanted_book') return false
-        return item.getEnchantments().getLevel('l2complements:invincible') > 0
-}
 // Remove recipes
 ServerEvents.recipes(event => {
-    event.remove({ input: obliterateIngredients })
-    event.remove({ output: obliterateIngredients })
+    event.remove({ input: obliterateItems })
+    event.remove({ output: obliterateItems })
 })
 // Remove tags
 ServerEvents.tags('item', event => {
@@ -45,16 +38,15 @@ ServerEvents.tags('item', event => {
 })
 // Append disabled tooltip
 ItemEvents.modifyTooltips(event => {
-    event.add(obliterateIngredients, Text.red('Disabled'))
+    event.add(obliterateItems, Text.red('Disabled'))
 })
 // Remove from recipe viewer
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
-    event.remove(obliterateIngredients)
+    event.remove(obliterateItems)
 })
 // Remove from loot pools
 LootJS.lootTables(event => {
     event.modifyLootTables(/.*/).removeItem(obliterateItems)
-    event.modifyLootTables(/.*/).removeItem(ItemFilter.hasStoredEnchantment('l2complements:invincible'))
 })
 // Destroy on interaction
 BlockEvents.rightClicked(event => {
@@ -72,17 +64,17 @@ BlockEvents.placed(event => {
 ItemEvents.canPickUp(event => {
     let { item, itemEntity } = event
     if(itemEntity.hasPickUpDelay()) return
-        if (ObliterateCheck(item.id) || isInvincibleBook(item)) { item.setCount(0) }
+        if (ObliterateCheck(item.id)) { item.setCount(0) }
 })
 // Destroy on drop
 ItemEvents.dropped(event => {
     let { item } = event
-    if (ObliterateCheck(item.id) || isInvincibleBook(item)) { item.setCount(0) }
+    if (ObliterateCheck(item.id)) { item.setCount(0) }
 })
 // Destroy on inventory changed
 PlayerEvents.inventoryChanged(event => {
     let { item, player } = event
-    if (ObliterateCheck(item.id) || isInvincibleBook(item)) {
+    if (ObliterateCheck(item.id)) {
         player.inventory.clear(item);
     }
 })
