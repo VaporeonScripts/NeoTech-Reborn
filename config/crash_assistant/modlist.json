@@ -1,9 +1,9 @@
 {
-  "neoforge-21.1.244 (modloader)": {
-    "jarName": "neoforge-21.1.244 (modloader)",
+  "neoforge-21.1.248 (modloader)": {
+    "jarName": "neoforge-21.1.248 (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-21.1.244"
+    "version": "neoforge-21.1.248"
   },
   "0Pack2Reload-NeoForge-1.21.1-1.0.1.jar": {
     "jarName": "0Pack2Reload-NeoForge-1.21.1-1.0.1.jar",
@@ -645,13 +645,13 @@
     "curseForgeHash": 2307132189,
     "modrinthHash": "3e5f07639bab5084b492cd7d66b9bfea740ec244"
   },
-  "better_lib-neoforge-1.21.1-1.0.109.jar": {
-    "jarName": "better_lib-neoforge-1.21.1-1.0.109.jar",
+  "better_lib-neoforge-1.21.1-1.0.111.jar": {
+    "jarName": "better_lib-neoforge-1.21.1-1.0.111.jar",
     "modId": "better_lib",
     "name": "Better lib",
-    "version": "1.0.109",
-    "curseForgeHash": 1806718778,
-    "modrinthHash": "8437f2f2f8292752af3ccae1bf6526db1ed87b8b"
+    "version": "1.0.111",
+    "curseForgeHash": 1454094642,
+    "modrinthHash": "92ff366f541a9df29c5744cbc647b32cb88f6802"
   },
   "BetterAnimationsCollection-v21.1.1-1.21.1-NeoForge.jar": {
     "jarName": "BetterAnimationsCollection-v21.1.1-1.21.1-NeoForge.jar",
@@ -669,13 +669,13 @@
     "curseForgeHash": 931746353,
     "modrinthHash": "24342e731d10a3d33a955e7b10b993a786171e78"
   },
-  "betterblockz-0.2.9-1.21.1-neoforge.jar": {
-    "jarName": "betterblockz-0.2.9-1.21.1-neoforge.jar",
+  "betterblockz-0.2.10-1.21.1-neoforge.jar": {
+    "jarName": "betterblockz-0.2.10-1.21.1-neoforge.jar",
     "modId": "betterblockz",
     "name": "BetterBlockZ",
-    "version": "0.2.9-1.21.1-neoforge",
-    "curseForgeHash": 1743851108,
-    "modrinthHash": "859aede566bf73e0bd65e3a498aeca32f9a24525"
+    "version": "0.2.10-1.21.1-neoforge",
+    "curseForgeHash": 2048558936,
+    "modrinthHash": "c8a69cfd467c212b27a701a4169f9e358d4ce728"
   },
   "BetterEnd-21.0.30.jar": {
     "jarName": "BetterEnd-21.0.30.jar",
@@ -1693,13 +1693,13 @@
     "curseForgeHash": 3970152377,
     "modrinthHash": "d3fca102a9f5aeb108d5118665b86ead1dd30988"
   },
-  "enhanced_enchanting-2.0.6.1-neoforge-1.21.1.jar": {
-    "jarName": "enhanced_enchanting-2.0.6.1-neoforge-1.21.1.jar",
+  "enhanced_enchanting-2.0.6.2-neoforge-1.21.1.jar": {
+    "jarName": "enhanced_enchanting-2.0.6.2-neoforge-1.21.1.jar",
     "modId": "enhanced_enchanting",
     "name": "Enhanced Enchanting",
-    "version": "2.0.6.1",
-    "curseForgeHash": 2413535190,
-    "modrinthHash": "218f7d9a66121f5666a23952498958f3de9fe3f8"
+    "version": "2.0.6.2",
+    "curseForgeHash": 687594691,
+    "modrinthHash": "7488f256719505b99e9204625c6f5c6cd390500c"
   },
   "entityculling-neoforge-1.10.5-mc1.21.1.jar": {
     "jarName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
@@ -1957,13 +1957,13 @@
     "curseForgeHash": 2808038058,
     "modrinthHash": "9563692efb708b6b568df27a01ec52f6311928ef"
   },
-  "fish_of_thieves-mc1.21.1-v21.1.2.0-neoforge.jar": {
-    "jarName": "fish_of_thieves-mc1.21.1-v21.1.2.0-neoforge.jar",
+  "fish_of_thieves-mc1.21.1-v21.1.2.1-neoforge.jar": {
+    "jarName": "fish_of_thieves-mc1.21.1-v21.1.2.1-neoforge.jar",
     "modId": "fishofthieves",
     "name": "Fish of Thieves",
-    "version": "21.1.2.0",
-    "curseForgeHash": 3221652739,
-    "modrinthHash": "29c730a4ad78a337a230cda64e0a3caa54f27fcd"
+    "version": "21.1.2.1",
+    "curseForgeHash": 4161546492,
+    "modrinthHash": "df3606529d40d6687b602946f9144f37ab014930"
   },
   "flerovium-neoforge-1.21.1-1.1.2-all.jar": {
     "jarName": "flerovium-neoforge-1.21.1-1.1.2-all.jar",
@@ -2189,13 +2189,13 @@
     "curseForgeHash": 3926185248,
     "modrinthHash": "14c64013cadee7d28f3685f94350f9a4d2ec6d86"
   },
-  "GEO-v0.3.3-NeoForge-1.21.1.jar": {
-    "jarName": "GEO-v0.3.3-NeoForge-1.21.1.jar",
+  "GEO-v0.3.4-NeoForge-1.21.1.jar": {
+    "jarName": "GEO-v0.3.4-NeoForge-1.21.1.jar",
     "modId": "geo_mod",
     "name": "Glowing Emissive Ores Definitive Edition",
-    "version": "0.3.3",
-    "curseForgeHash": 3409725811,
-    "modrinthHash": "fe0ec5980a1a393e3f46088218bb855fff83ccbc"
+    "version": "0.3.4",
+    "curseForgeHash": 1495435085,
+    "modrinthHash": "9f1742d282f0b67ae5772864f13b4c590eafbf9f"
   },
   "getittogetherdrops-neoforge-1.21.5-1.4.jar": {
     "jarName": "getittogetherdrops-neoforge-1.21.5-1.4.jar",
@@ -2308,14 +2308,6 @@
     "version": "1.0.5",
     "curseForgeHash": 1416348763,
     "modrinthHash": "0c03bf04e99b3e8a310c9f5b6f3e7613e3b69528"
-  },
-  "holdmyitemsnf-1.21.1v2.1.jar": {
-    "jarName": "holdmyitemsnf-1.21.1v2.1.jar",
-    "modId": "holdmyitemsnf",
-    "name": "HoldMyItems",
-    "version": "2.0",
-    "curseForgeHash": 3300671849,
-    "modrinthHash": "c4a8d9c03c659c696d63580e9b71e7a7c64dae33"
   },
   "homesteads-2.0.0-for-neoforge-1.21.1.jar": {
     "jarName": "homesteads-2.0.0-for-neoforge-1.21.1.jar",
@@ -2461,13 +2453,13 @@
     "curseForgeHash": 1736749463,
     "modrinthHash": "9c425610a04f04d81ce9491e886c6df3fc4feac8"
   },
-  "invasiveopts-1.0.22.jar": {
-    "jarName": "invasiveopts-1.0.22.jar",
+  "invasiveopts-1.0.23.jar": {
+    "jarName": "invasiveopts-1.0.23.jar",
     "modId": "invasiveopts",
     "name": "Invasive Optimizations",
-    "version": "1.0.22",
-    "curseForgeHash": 3750916897,
-    "modrinthHash": "795d7264112e74d9dde5d784b9cab2f2dd11f052"
+    "version": "1.0.23",
+    "curseForgeHash": 1225569989,
+    "modrinthHash": "b513a315f8db2721a10977df732214c6044527dd"
   },
   "inventoryessentials-neoforge-1.21.1-21.1.17.jar": {
     "jarName": "inventoryessentials-neoforge-1.21.1-21.1.17.jar",
