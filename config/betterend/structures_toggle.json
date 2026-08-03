@@ -13,7 +13,8 @@
     "end_lake_normal": true,
     "end_lake_rare": true,
     "end_bridge": true,
-    "small_island": true
+    "small_island": true,
+    "sulphuric_cave": true
   },
-  "modify_version": "21.0.28"
+  "modify_version": "21.0.31"
 }
