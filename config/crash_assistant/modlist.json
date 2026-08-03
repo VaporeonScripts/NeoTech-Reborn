@@ -117,13 +117,13 @@
     "curseForgeHash": 2173922547,
     "modrinthHash": "21d572284bb67014b1df5cdeb66acd04c2c17ef3"
   },
-  "AdvancedAE-1.6.11-1.21.1.jar": {
-    "jarName": "AdvancedAE-1.6.11-1.21.1.jar",
+  "AdvancedAE-1.6.12-1.21.1.jar": {
+    "jarName": "AdvancedAE-1.6.12-1.21.1.jar",
     "modId": "advanced_ae",
     "name": "Advanced AE",
-    "version": "1.6.11-1.21.1",
-    "curseForgeHash": 3606340089,
-    "modrinthHash": "0af8033f7291b9f5062b229053e16b439a906db9"
+    "version": "1.6.12-1.21.1",
+    "curseForgeHash": 605268054,
+    "modrinthHash": "9358ccfa5477c7ab1c5ffab6c831e105fe46ecc3"
   },
   "advancednetherite-neoforge-2.3.1-1.21.1.jar": {
     "jarName": "advancednetherite-neoforge-2.3.1-1.21.1.jar",
@@ -277,13 +277,13 @@
     "curseForgeHash": 2969405753,
     "modrinthHash": "b955b065375dd6486138aed28c8442b7495f1c4f"
   },
-  "Apotheosis-1.21.1-8.6.1.jar": {
-    "jarName": "Apotheosis-1.21.1-8.6.1.jar",
+  "Apotheosis-1.21.1-8.7.0.jar": {
+    "jarName": "Apotheosis-1.21.1-8.7.0.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.6.1",
-    "curseForgeHash": 3362945668,
-    "modrinthHash": "7a639e58c820069ec1d8a3431c38b58511d24dc1"
+    "version": "8.7.0",
+    "curseForgeHash": 852000903,
+    "modrinthHash": "5537a71726a0f6a4c74257f26eeeea060a7327c4"
   },
   "apothic_attributes_extension-2101.1.2.jar": {
     "jarName": "apothic_attributes_extension-2101.1.2.jar",
@@ -677,13 +677,13 @@
     "curseForgeHash": 2048558936,
     "modrinthHash": "c8a69cfd467c212b27a701a4169f9e358d4ce728"
   },
-  "BetterEnd-21.0.30.jar": {
-    "jarName": "BetterEnd-21.0.30.jar",
+  "BetterEnd-21.0.31.jar": {
+    "jarName": "BetterEnd-21.0.31.jar",
     "modId": "betterend",
     "name": "Better End",
-    "version": "21.0.30",
-    "curseForgeHash": 2856244659,
-    "modrinthHash": "72e166854a840a42f1e5e23a3d21e6795952c80a"
+    "version": "21.0.31",
+    "curseForgeHash": 1199997251,
+    "modrinthHash": "7d975c43b2398c3be6f98c72072f4330541a7baf"
   },
   "BetterNether-21.0.22.jar": {
     "jarName": "BetterNether-21.0.22.jar",
@@ -1245,13 +1245,13 @@
     "curseForgeHash": 2332909618,
     "modrinthHash": "c594e20659b73a67bd0b0c2de45b29b78a2eb160"
   },
-  "CreateDragonsPlus-1.11.3.jar": {
-    "jarName": "CreateDragonsPlus-1.11.3.jar",
+  "CreateDragonsPlus-1.11.4.jar": {
+    "jarName": "CreateDragonsPlus-1.11.4.jar",
     "modId": "create_dragons_plus",
     "name": "Create: Dragons Plus",
-    "version": "1.11.3",
-    "curseForgeHash": 3175373970,
-    "modrinthHash": "37e2373216b70893409d2baeae86b02c2bfa65bc"
+    "version": "1.11.4",
+    "curseForgeHash": 3600234241,
+    "modrinthHash": "4b76a8dec488cd6fd81d20106e4a05a72efdf54d"
   },
   "createnewbeg-0.1.0-1.21.1.jar": {
     "jarName": "createnewbeg-0.1.0-1.21.1.jar",
@@ -2301,13 +2301,13 @@
     "curseForgeHash": 1416348763,
     "modrinthHash": "0c03bf04e99b3e8a310c9f5b6f3e7613e3b69528"
   },
-  "homesteads-2.0.0-for-neoforge-1.21.1.jar": {
-    "jarName": "homesteads-2.0.0-for-neoforge-1.21.1.jar",
+  "homesteads-2.0.1-for-neoforge-1.21.1.jar": {
+    "jarName": "homesteads-2.0.1-for-neoforge-1.21.1.jar",
     "modId": "homesteads",
     "name": "Homesteads",
-    "version": "2.0.0",
-    "curseForgeHash": 1715833317,
-    "modrinthHash": "cbdb902a144d8e8eeec4cb87e08360e79eb262a1"
+    "version": "2.0.1",
+    "curseForgeHash": 110569197,
+    "modrinthHash": "38a934c229b65627cbcdc2b1415cf1fc9a3629c4"
   },
   "HopoBetterMineshaft-[1.21-1.21.3]-1.3.0b.jar": {
     "jarName": "HopoBetterMineshaft-[1.21-1.21.3]-1.3.0b.jar",
@@ -3546,13 +3546,13 @@
     "curseForgeHash": 1650555785,
     "modrinthHash": "e2b6dd9efb491f54a1fa38002457b53e43f9dd8c"
   },
-  "moreculling-neoforge-1.21.1-1.0.8.jar": {
-    "jarName": "moreculling-neoforge-1.21.1-1.0.8.jar",
+  "moreculling-neoforge-1.21.1-1.0.9.jar": {
+    "jarName": "moreculling-neoforge-1.21.1-1.0.9.jar",
     "modId": "moreculling",
     "name": "More Culling",
-    "version": "1.0.8",
-    "curseForgeHash": 3217070920,
-    "modrinthHash": "fdbfaa5d6d93a11d44020301199dac68de231649"
+    "version": "1.0.9",
+    "curseForgeHash": 4051334391,
+    "modrinthHash": "ae55b17d7257dbc52616899198545dc219c132af"
   },
   "moredelight-26.05.20a-1.21-neoforge.jar": {
     "jarName": "moredelight-26.05.20a-1.21-neoforge.jar",
