@@ -685,13 +685,13 @@
     "curseForgeHash": 1199997251,
     "modrinthHash": "7d975c43b2398c3be6f98c72072f4330541a7baf"
   },
-  "BetterNether-21.0.22.jar": {
-    "jarName": "BetterNether-21.0.22.jar",
+  "BetterNether-21.0.23.jar": {
+    "jarName": "BetterNether-21.0.23.jar",
     "modId": "betternether",
     "name": "Better Nether",
-    "version": "21.0.22",
-    "curseForgeHash": 3331416362,
-    "modrinthHash": "91a8d42ab397dcf7256d6c876b61654254ddd8c6"
+    "version": "21.0.23",
+    "curseForgeHash": 3864904204,
+    "modrinthHash": "2a938e668555ef71984a550779640a996f64c569"
   },
   "BetterThirdPerson-neoforge-1.9.0.jar": {
     "jarName": "BetterThirdPerson-neoforge-1.9.0.jar",
@@ -1868,6 +1868,14 @@
     "version": "1.4.7",
     "curseForgeHash": 1477519538,
     "modrinthHash": "f484d2aa960475fddd2c15a276c3328ea8feb62e"
+  },
+  "farmerd_naturalist_compat-0.2-1.21.1.jar": {
+    "jarName": "farmerd_naturalist_compat-0.2-1.21.1.jar",
+    "modId": "farmerd_naturalist_compat",
+    "name": "Naturalist_Delight",
+    "version": "0.2-1.21.1",
+    "curseForgeHash": 2799182550,
+    "modrinthHash": "581eb794c79ecad8e51ce0deb65a4d834f90c8f0"
   },
   "FarmersDelight-1.21.1-1.3.2.jar": {
     "jarName": "FarmersDelight-1.21.1-1.3.2.jar",
@@ -4698,6 +4706,14 @@
     "curseForgeHash": 3447435049,
     "modrinthHash": "9430cc2ab64ff89d698be593769fb9f9ee4efae6"
   },
+  "spell_descriptions-1.21.1-1.0.0.jar": {
+    "jarName": "spell_descriptions-1.21.1-1.0.0.jar",
+    "modId": "spell_descriptions",
+    "name": "Spell Descriptions",
+    "version": "1.0.0",
+    "curseForgeHash": 1705930715,
+    "modrinthHash": "dc55c8c1945d6173704710160e78bcc006420b2a"
+  },
   "spelunkers_charm-5.0.6.jar": {
     "jarName": "spelunkers_charm-5.0.6.jar",
     "modId": "spelunkers_charm",
@@ -4946,13 +4962,13 @@
     "curseForgeHash": 1716912348,
     "modrinthHash": "ef3e419d3ef610cae6117b396e0a74b9a40be635"
   },
-  "tide-neoforge-1.21.1-2.1.jar": {
-    "jarName": "tide-neoforge-1.21.1-2.1.jar",
+  "tide-neoforge-1.21.1-2.1.1.jar": {
+    "jarName": "tide-neoforge-1.21.1-2.1.1.jar",
     "modId": "tide",
     "name": "Tide",
-    "version": "2.1",
-    "curseForgeHash": 4219327038,
-    "modrinthHash": "3b40c7ae813a307e98d6cdf51ea1fb6e11e8e82f"
+    "version": "2.1.1",
+    "curseForgeHash": 931902769,
+    "modrinthHash": "6916fb787c0c3da859166b57a9aaac287d7ed144"
   },
   "titanium-1.21-4.0.45.jar": {
     "jarName": "titanium-1.21-4.0.45.jar",
