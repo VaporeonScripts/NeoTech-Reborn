@@ -685,13 +685,13 @@
     "curseForgeHash": 1199997251,
     "modrinthHash": "7d975c43b2398c3be6f98c72072f4330541a7baf"
   },
-  "BetterNether-21.0.23.jar": {
-    "jarName": "BetterNether-21.0.23.jar",
+  "BetterNether-21.0.24.jar": {
+    "jarName": "BetterNether-21.0.24.jar",
     "modId": "betternether",
     "name": "Better Nether",
-    "version": "21.0.23",
-    "curseForgeHash": 3864904204,
-    "modrinthHash": "2a938e668555ef71984a550779640a996f64c569"
+    "version": "21.0.24",
+    "curseForgeHash": 3091793447,
+    "modrinthHash": "4aacca74595eda5a8741c8a06df5cf6e15604c6b"
   },
   "BetterThirdPerson-neoforge-1.9.0.jar": {
     "jarName": "BetterThirdPerson-neoforge-1.9.0.jar",
@@ -1661,13 +1661,13 @@
     "curseForgeHash": 1585337905,
     "modrinthHash": "f71aa503738f2e23a8d939b7ea9f96f2fe203f11"
   },
-  "endersdelight-1.3.0.jar": {
-    "jarName": "endersdelight-1.3.0.jar",
+  "endersdelight-1.3.1.jar": {
+    "jarName": "endersdelight-1.3.1.jar",
     "modId": "endersdelight",
     "name": "Ender\u0027s Delight",
-    "version": "1.3.0",
-    "curseForgeHash": 2529837400,
-    "modrinthHash": "5a1920506ae61cf66a30457faaca8482ea94ff1e"
+    "version": "1.3.1",
+    "curseForgeHash": 477870928,
+    "modrinthHash": "a3a9f7fd621f14461d37357463dbd16c67d2badf"
   },
   "EnderZoology-v21.1.4-1.21.1-NeoForge.jar": {
     "jarName": "EnderZoology-v21.1.4-1.21.1-NeoForge.jar",
@@ -2261,13 +2261,13 @@
     "curseForgeHash": 3577234745,
     "modrinthHash": "244d8b57aa7d34e247f3dd09cacf647a9ba1cfab"
   },
-  "gtbcs_spell_lib-1.5.0-1.21.1.jar": {
-    "jarName": "gtbcs_spell_lib-1.5.0-1.21.1.jar",
+  "gtbcs_spell_lib-1.6.0-1.21.1.jar": {
+    "jarName": "gtbcs_spell_lib-1.6.0-1.21.1.jar",
     "modId": "gtbcs_spell_lib",
     "name": "GTBC\u0027s SpellLib",
-    "version": "1.5.0-1.21.1",
-    "curseForgeHash": 3951859328,
-    "modrinthHash": "6cd001c4142d51bf455bf1af029a3755779b8c85"
+    "version": "1.6.0-1.21.1",
+    "curseForgeHash": 818810802,
+    "modrinthHash": "cb6fba10a9536e80247c66e66e1e22beffd1d512"
   },
   "guardvillagers-2.4.10-1.21.1.jar": {
     "jarName": "guardvillagers-2.4.10-1.21.1.jar",

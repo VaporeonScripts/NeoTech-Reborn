@@ -32,7 +32,7 @@
     "pocketWatchBlacklist": []
   },
   "journal": {
-    "giveJournal": true,
+    "giveJournal": false,
     "showToasts": true
   },
   "minigame": {
@@ -40,7 +40,7 @@
     "minigameDifficultyMultiplier": 1.0,
     "doSuccessSound": true,
     "doFailSound": true,
-    "useThirdPartyMinigames": true,
+    "useThirdPartyMinigames": false,
     "useThirdPartyFishData": false
   }
 }
