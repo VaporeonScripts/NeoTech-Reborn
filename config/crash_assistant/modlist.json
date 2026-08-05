@@ -533,13 +533,13 @@
     "curseForgeHash": 252385511,
     "modrinthHash": "9ec66494590b97c9e16c7b0a2af5a18ed49e80e2"
   },
-  "AsyncParticles-21.1.3.1+1.21.1.jar": {
-    "jarName": "AsyncParticles-21.1.3.1+1.21.1.jar",
+  "AsyncParticles-21.1.4.0-alpha.1+1.21.1.jar": {
+    "jarName": "AsyncParticles-21.1.4.0-alpha.1+1.21.1.jar",
     "modId": "asyncparticles",
     "name": "AsyncParticles",
-    "version": "21.1.3.1",
-    "curseForgeHash": 587736060,
-    "modrinthHash": "113fdb401d284a75bb1981c96a387d27896fdc23"
+    "version": "21.1.4.0-alpha.1",
+    "curseForgeHash": 2242528302,
+    "modrinthHash": "0fa48be449271a1e57b3fa0ca38dab3add91601a"
   },
   "ATi Structures V1.4.6.jar": {
     "jarName": "ATi Structures V1.4.6.jar",
@@ -661,13 +661,13 @@
     "curseForgeHash": 2851432843,
     "modrinthHash": "1bacea8719a1af6079bb70a135129a2cd1559423"
   },
-  "betterarcheology-neoforge-1.21.1-1.3.7.jar": {
-    "jarName": "betterarcheology-neoforge-1.21.1-1.3.7.jar",
+  "betterarcheology-neoforge-1.21.1-1.3.8.jar": {
+    "jarName": "betterarcheology-neoforge-1.21.1-1.3.8.jar",
     "modId": "betterarcheology",
     "name": "Better Archeology",
-    "version": "1.21.1-1.3.7",
-    "curseForgeHash": 931746353,
-    "modrinthHash": "24342e731d10a3d33a955e7b10b993a786171e78"
+    "version": "1.21.1-1.3.8",
+    "curseForgeHash": 1099117155,
+    "modrinthHash": "fb2d3f41d2973911e84c5a99dfd1da8a8a9edbb2"
   },
   "betterblockz-0.2.10-1.21.1-neoforge.jar": {
     "jarName": "betterblockz-0.2.10-1.21.1-neoforge.jar",
@@ -685,13 +685,13 @@
     "curseForgeHash": 1199997251,
     "modrinthHash": "7d975c43b2398c3be6f98c72072f4330541a7baf"
   },
-  "BetterNether-21.0.24.jar": {
-    "jarName": "BetterNether-21.0.24.jar",
+  "BetterNether-21.0.25.jar": {
+    "jarName": "BetterNether-21.0.25.jar",
     "modId": "betternether",
     "name": "Better Nether",
-    "version": "21.0.24",
-    "curseForgeHash": 3091793447,
-    "modrinthHash": "4aacca74595eda5a8741c8a06df5cf6e15604c6b"
+    "version": "21.0.25",
+    "curseForgeHash": 2582656395,
+    "modrinthHash": "7427c2ccf812e6ed5d379790da9ae7f9c220d080"
   },
   "BetterThirdPerson-neoforge-1.9.0.jar": {
     "jarName": "BetterThirdPerson-neoforge-1.9.0.jar",
@@ -925,13 +925,13 @@
     "curseForgeHash": 312239514,
     "modrinthHash": "3208ea2ca10d786895d03c2cd3a124d14393b357"
   },
-  "chat_heads-0.15.3-neoforge-1.21.jar": {
-    "jarName": "chat_heads-0.15.3-neoforge-1.21.jar",
+  "chat_heads-0.15.4-neoforge-1.21.jar": {
+    "jarName": "chat_heads-0.15.4-neoforge-1.21.jar",
     "modId": "chat_heads",
     "name": "Chat Heads",
-    "version": "0.15.3",
-    "curseForgeHash": 989483085,
-    "modrinthHash": "de821ac64b3c8694b1a27e0acd05742660c6af3f"
+    "version": "0.15.4",
+    "curseForgeHash": 3187053094,
+    "modrinthHash": "ea9cc7545639208257089123c986d2ef790c78ed"
   },
   "ChatImpressiveAnimation-neoforge-1.6.0+mc1.21.5.jar": {
     "jarName": "ChatImpressiveAnimation-neoforge-1.6.0+mc1.21.5.jar",
@@ -1685,13 +1685,13 @@
     "curseForgeHash": 3970152377,
     "modrinthHash": "d3fca102a9f5aeb108d5118665b86ead1dd30988"
   },
-  "enhanced_enchanting-2.0.6.2-neoforge-1.21.1.jar": {
-    "jarName": "enhanced_enchanting-2.0.6.2-neoforge-1.21.1.jar",
+  "enhanced_enchanting-2.0.6.3-neoforge-1.21.1.jar": {
+    "jarName": "enhanced_enchanting-2.0.6.3-neoforge-1.21.1.jar",
     "modId": "enhanced_enchanting",
     "name": "Enhanced Enchanting",
-    "version": "2.0.6.2",
-    "curseForgeHash": 687594691,
-    "modrinthHash": "7488f256719505b99e9204625c6f5c6cd390500c"
+    "version": "2.0.6.3",
+    "curseForgeHash": 967076518,
+    "modrinthHash": "3b7f587c4f528b9f8057203e162d18b0a0f07b30"
   },
   "entityculling-neoforge-1.10.5-mc1.21.1.jar": {
     "jarName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
@@ -3082,13 +3082,13 @@
     "curseForgeHash": 905075820,
     "modrinthHash": "54ffddd1763ae4af84e9bbcb22e4081a1e7f3556"
   },
-  "lootr-neoforge-1.21.1-1.11.37.122.jar": {
-    "jarName": "lootr-neoforge-1.21.1-1.11.37.122.jar",
+  "lootr-neoforge-1.21.1-1.11.38.123.jar": {
+    "jarName": "lootr-neoforge-1.21.1-1.11.38.123.jar",
     "modId": "lootr",
     "name": "Lootr",
-    "version": "1.21.1-1.11.37.122",
-    "curseForgeHash": 3702269079,
-    "modrinthHash": "a5dae941acc991df3f0de56bd8367f719824f131"
+    "version": "1.21.1-1.11.38.123",
+    "curseForgeHash": 465777733,
+    "modrinthHash": "0a0cf6475fcd8802de4255dc5046a956899b3081"
   },
   "lucidadvancements-neoforge-1.21-1.2.0.1.jar": {
     "jarName": "lucidadvancements-neoforge-1.21-1.2.0.1.jar",
@@ -3538,13 +3538,13 @@
     "curseForgeHash": 701069093,
     "modrinthHash": "5aadcb344cd1940dabc54618fd88603b00d08eae"
   },
-  "moonlight-neoforge-1.21.1-3.3.0.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.3.0.jar",
+  "moonlight-1.21.1-3.3.2-neoforge.jar": {
+    "jarName": "moonlight-1.21.1-3.3.2-neoforge.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.3.0",
-    "curseForgeHash": 1632952408,
-    "modrinthHash": "2752b6ab1ded59ab91942e380f0f1853e57dc1ca"
+    "version": "1.21.1-3.3.2",
+    "curseForgeHash": 272176256,
+    "modrinthHash": "066461830cba209098c70fde4c31c74ae8f64aed"
   },
   "more_sounds-1.21.x-0.3.0-beta.jar": {
     "jarName": "more_sounds-1.21.x-0.3.0-beta.jar",
@@ -4826,13 +4826,13 @@
     "curseForgeHash": 3994155733,
     "modrinthHash": "ad3d575887d50ab321176b58af4b31166bb67b41"
   },
-  "supplementaries-neoforge-1.21.1-3.8.5.jar": {
-    "jarName": "supplementaries-neoforge-1.21.1-3.8.5.jar",
+  "supplementaries-1.21.1-3.8.8-neoforge.jar": {
+    "jarName": "supplementaries-1.21.1-3.8.8-neoforge.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21.1-3.8.5",
-    "curseForgeHash": 1257165382,
-    "modrinthHash": "b7c9a5e2ab4d6bfb8124099ad607e07d2fec1dbc"
+    "version": "1.21.1-3.8.8",
+    "curseForgeHash": 1839420999,
+    "modrinthHash": "4e66106d496a130f9d37824d30aaa8b494225b8f"
   },
   "t_and_t-neoforge-fabric-1.13.9+1.21.1.jar": {
     "jarName": "t_and_t-neoforge-fabric-1.13.9+1.21.1.jar",
