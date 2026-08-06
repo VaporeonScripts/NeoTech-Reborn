@@ -461,13 +461,13 @@
     "curseForgeHash": 363127807,
     "modrinthHash": "b8d71856fd76d89573e6976f2461ea7385a3fff7"
   },
-  "ars_ocultas-1.21.1-2.5.0.jar": {
-    "jarName": "ars_ocultas-1.21.1-2.5.0.jar",
+  "ars_ocultas-1.21.1-2.6.1.jar": {
+    "jarName": "ars_ocultas-1.21.1-2.6.1.jar",
     "modId": "ars_ocultas",
     "name": "Ars Ocultas",
-    "version": "2.5.0",
-    "curseForgeHash": 2823096979,
-    "modrinthHash": "d9807c2d4c9e51c15ba2e19d9227d8a1237a237a"
+    "version": "2.6.1",
+    "curseForgeHash": 1991949125,
+    "modrinthHash": "92c5e7fcbf07141fc8bb0195e28ed9c3e77e1004"
   },
   "ars_polymorphia-1.0.3.jar": {
     "jarName": "ars_polymorphia-1.0.3.jar",
@@ -853,13 +853,13 @@
     "curseForgeHash": 905028723,
     "modrinthHash": "acd114fabe85bf819087c8fc9a5db6306ffb4b31"
   },
-  "byepregen-1.0.10.1.jar": {
-    "jarName": "byepregen-1.0.10.1.jar",
+  "byepregen-1.0.10.2.jar": {
+    "jarName": "byepregen-1.0.10.2.jar",
     "modId": "byepregen",
     "name": "ByePregen",
-    "version": "1.0.10.1",
-    "curseForgeHash": 1926160484,
-    "modrinthHash": "33336fdc89ea17b65e8f6f9cb722fdee675a029d"
+    "version": "1.0.10.2",
+    "curseForgeHash": 1485251181,
+    "modrinthHash": "10b2a8eb3bbb4af298ae636bfa50994fbe5bb63f"
   },
   "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar": {
     "jarName": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar",
@@ -2349,13 +2349,13 @@
     "curseForgeHash": 3585609209,
     "modrinthHash": "ec8074d4e194b5f478ba75c3a3577a07a6b8ccdc"
   },
-  "IceAndFireCE-2.0-beta.15-1.21.1-neoforge.jar": {
-    "jarName": "IceAndFireCE-2.0-beta.15-1.21.1-neoforge.jar",
+  "iceandfire-2.1-beta.3.jar": {
+    "jarName": "iceandfire-2.1-beta.3.jar",
     "modId": "iceandfire",
     "name": "Ice And Fire Community Edition",
-    "version": "2.0-beta.15",
-    "curseForgeHash": 3486965131,
-    "modrinthHash": "c4d33745a8041465f2d12bb76fc048750288ce24"
+    "version": "2.1-beta.3",
+    "curseForgeHash": 3702004341,
+    "modrinthHash": "217498b651056dd7a17bfa32c005fd6155c13003"
   },
   "idas-1.13.7+1.21.1-neoforge.jar": {
     "jarName": "idas-1.13.7+1.21.1-neoforge.jar",
@@ -2754,13 +2754,13 @@
     "curseForgeHash": 541431109,
     "modrinthHash": "b41ecb7b33335259265b1b4dfae806cab801aeb4"
   },
-  "l2weaponry-3.1.2.jar": {
-    "jarName": "l2weaponry-3.1.2.jar",
+  "l2weaponry-3.1.4.jar": {
+    "jarName": "l2weaponry-3.1.4.jar",
     "modId": "l2weaponry",
     "name": "L2Weaponry",
-    "version": "3.1.2",
-    "curseForgeHash": 1629057113,
-    "modrinthHash": "0992f767e5b03d3c8c33efb3513cc8dd16d6fda8"
+    "version": "3.1.4",
+    "curseForgeHash": 923167576,
+    "modrinthHash": "1e282db2bfbfa1ca10ee20982f65b32240420682"
   },
   "L_Ender\u0027s Cataclysm 1.21.1-3.32.jar": {
     "jarName": "L_Ender\u0027s Cataclysm 1.21.1-3.32.jar",
@@ -5154,13 +5154,13 @@
     "curseForgeHash": 3109271451,
     "modrinthHash": "53f0f3b5ad0e06c28f3fe62dea10bc90dbf89c88"
   },
-  "uranus-2.4.1-1.21.1-neoforge.jar": {
-    "jarName": "uranus-2.4.1-1.21.1-neoforge.jar",
+  "uranus-2.4.1-bugfix-1.21.1-neoforge.jar": {
+    "jarName": "uranus-2.4.1-bugfix-1.21.1-neoforge.jar",
     "modId": "uranus",
     "name": "Uranus",
-    "version": "2.4.1",
-    "curseForgeHash": 3641816608,
-    "modrinthHash": "2d689d2d9e5861ea0a382a459fa8fb0a3e4b5091"
+    "version": "2.4.1-bugfix",
+    "curseForgeHash": 3390854945,
+    "modrinthHash": "ccdb021d6eb0f0699a7113c814d3886eac458874"
   },
   "utilitarian-1.21.1-0.19.2.jar": {
     "jarName": "utilitarian-1.21.1-0.19.2.jar",
