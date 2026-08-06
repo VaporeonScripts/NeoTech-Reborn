@@ -1685,13 +1685,13 @@
     "curseForgeHash": 3970152377,
     "modrinthHash": "d3fca102a9f5aeb108d5118665b86ead1dd30988"
   },
-  "enhanced_enchanting-2.0.6.3-neoforge-1.21.1.jar": {
-    "jarName": "enhanced_enchanting-2.0.6.3-neoforge-1.21.1.jar",
+  "enhanced_enchanting-2.0.6.4-neoforge-1.21.1.jar": {
+    "jarName": "enhanced_enchanting-2.0.6.4-neoforge-1.21.1.jar",
     "modId": "enhanced_enchanting",
     "name": "Enhanced Enchanting",
-    "version": "2.0.6.3",
-    "curseForgeHash": 967076518,
-    "modrinthHash": "3b7f587c4f528b9f8057203e162d18b0a0f07b30"
+    "version": "2.0.6.4",
+    "curseForgeHash": 1478131572,
+    "modrinthHash": "fc44409504ed42bebf269bd9e89ab52c91a176c4"
   },
   "entityculling-neoforge-1.10.5-mc1.21.1.jar": {
     "jarName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
@@ -2037,13 +2037,13 @@
     "curseForgeHash": 1313912180,
     "modrinthHash": "e46eb138fbb13a12f37154fb4ec407d64b326475"
   },
-  "friendsandfoes-neoforge-4.0.26+mc1.21.1.jar": {
-    "jarName": "friendsandfoes-neoforge-4.0.26+mc1.21.1.jar",
+  "friendsandfoes-neoforge-4.0.27+mc1.21.1.jar": {
+    "jarName": "friendsandfoes-neoforge-4.0.27+mc1.21.1.jar",
     "modId": "friendsandfoes",
     "name": "Friends\u0026Foes",
-    "version": "4.0.26",
-    "curseForgeHash": 3758786343,
-    "modrinthHash": "a8f70b74dc5166b657874d6decd7685fe5837a5c"
+    "version": "4.0.27",
+    "curseForgeHash": 3833697772,
+    "modrinthHash": "3967c4e91662e3997318329b13af19816968b56a"
   },
   "frightsdelight-neoforge-1.21.1-1.4.8.jar": {
     "jarName": "frightsdelight-neoforge-1.21.1-1.4.8.jar",
