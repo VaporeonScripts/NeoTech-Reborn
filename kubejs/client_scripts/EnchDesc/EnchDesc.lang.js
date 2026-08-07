@@ -30,10 +30,6 @@ ClientEvents.lang('en_us', event => {
     'enchantment.luminous_nether.soul_cleave.desc': 'Mobs drop Ghostly Essence when killed.',
 
     //Yggdrasil Enchantments Descriptions
-    'enchantment.yggdrasil.divine_key.desc': 'This enchantment is not obtainable by players and is exclusively used by the Divine Key.',
-
-    //Darker Depths Enchantments Descriptions
-    'enchantment.darkerdepths.quick_dash.desc': 'Reduces Stiletto dash cooldown by 25% per level.',
-    'enchantment.darkerdepths.swift_strike.desc': 'Dealing damage during a Stiletto dash instantly recharges dash cooldown.'
+    'enchantment.yggdrasil.divine_key.desc': 'This enchantment is not obtainable by players and is exclusively used by the Divine Key.'
   });
 });
