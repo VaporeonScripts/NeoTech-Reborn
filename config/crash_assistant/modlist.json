@@ -1381,13 +1381,13 @@
     "curseForgeHash": 643595756,
     "modrinthHash": "950e5ffb1d01fcca26afb698d37aa46e1e894fa9"
   },
-  "darkerdepths-2.1.4.jar": {
-    "jarName": "darkerdepths-2.1.4.jar",
+  "darkerdepths-2.1.5.jar": {
+    "jarName": "darkerdepths-2.1.5.jar",
     "modId": "darkerdepths",
     "name": "Darker Depths",
-    "version": "2.1.4",
-    "curseForgeHash": 3731457926,
-    "modrinthHash": "d745f44aa58ba7c88c7c4310a5fae9deb53193b9"
+    "version": "2.1.5",
+    "curseForgeHash": 1152028725,
+    "modrinthHash": "303aa74594ad5e8b353361a01bbadcaaa766f11e"
   },
   "darkermagic-1.3.3-1.21.1-ver.b.jar": {
     "jarName": "darkermagic-1.3.3-1.21.1-ver.b.jar",
@@ -2589,13 +2589,13 @@
     "curseForgeHash": 3306930440,
     "modrinthHash": "e63382006d713d0bc24000821d256a17c624e438"
   },
-  "Jade-1.21.1-NeoForge-15.10.5.jar": {
-    "jarName": "Jade-1.21.1-NeoForge-15.10.5.jar",
+  "Jade-1.21.1-NeoForge-15.10.6.jar": {
+    "jarName": "Jade-1.21.1-NeoForge-15.10.6.jar",
     "modId": "jade",
     "name": "Jade",
-    "version": "15.10.5+neoforge",
-    "curseForgeHash": 1963309046,
-    "modrinthHash": "d5bf134b3dbde9f5258666823900e21341dc0a50"
+    "version": "15.10.6+neoforge",
+    "curseForgeHash": 2677633875,
+    "modrinthHash": "88ee316e68900080b017f60c12162e2731924cf8"
   },
   "JadeAddons-1.21.1-NeoForge-6.1.0.jar": {
     "jarName": "JadeAddons-1.21.1-NeoForge-6.1.0.jar",
@@ -3858,13 +3858,13 @@
     "curseForgeHash": 1811166438,
     "modrinthHash": "e17417eee213aac8291ff8bad1c6a5f710636b72"
   },
-  "occultism-1.21.1-neoforge-1.224.1.jar": {
-    "jarName": "occultism-1.21.1-neoforge-1.224.1.jar",
+  "occultism-1.21.1-neoforge-1.224.2.jar": {
+    "jarName": "occultism-1.21.1-neoforge-1.224.2.jar",
     "modId": "occultism",
     "name": "Occultism",
-    "version": "1.224.1",
-    "curseForgeHash": 4029621385,
-    "modrinthHash": "96e03c9cf38c6855b9080a9c9f2deb01dfdbfdf9"
+    "version": "1.224.2",
+    "curseForgeHash": 1624203252,
+    "modrinthHash": "e67f886ed1268f1ba60c428c11d0c74be279c3bd"
   },
   "oceansdelight-neoforge-1.0.4-1.21.1.jar": {
     "jarName": "oceansdelight-neoforge-1.0.4-1.21.1.jar",
@@ -4106,13 +4106,13 @@
     "curseForgeHash": 2462115450,
     "modrinthHash": "31f7bb1567fdbb508db133f5b094d5d0d293030d"
   },
-  "productivetrees-1.21.1-1.0.0.jar": {
-    "jarName": "productivetrees-1.21.1-1.0.0.jar",
+  "productivetrees-1.21.1-1.1.0.jar": {
+    "jarName": "productivetrees-1.21.1-1.1.0.jar",
     "modId": "productivetrees",
     "name": "Productive Trees",
-    "version": "1.21.1-1.0.0",
-    "curseForgeHash": 2925099531,
-    "modrinthHash": "f3c4f098e50b519a186230c328bad20f91659044"
+    "version": "1.21.1-1.1.0",
+    "curseForgeHash": 3062201722,
+    "modrinthHash": "e063ee85e8f835d62b00a0f90675c65b280edbf5"
   },
   "pufferfish_unofficial_additions-1.21.1-2.2.8.jar": {
     "jarName": "pufferfish_unofficial_additions-1.21.1-2.2.8.jar",
@@ -4618,13 +4618,13 @@
     "curseForgeHash": 1842955801,
     "modrinthHash": "3aaac7712521b477acc73757459b3883c4e0bbda"
   },
-  "sodium-neoforge-0.8.13-beta.1+mc1.21.1.jar": {
-    "jarName": "sodium-neoforge-0.8.13-beta.1+mc1.21.1.jar",
+  "sodium-neoforge-0.8.13-beta.2+mc1.21.1.jar": {
+    "jarName": "sodium-neoforge-0.8.13-beta.2+mc1.21.1.jar",
     "modId": "sodium",
     "name": "Sodium",
-    "version": "0.8.13-beta.1+mc1.21.1",
-    "curseForgeHash": 1515020877,
-    "modrinthHash": "f868ab0a037d1211fabd31b2f42a2862b8e6c669"
+    "version": "0.8.13-beta.2+mc1.21.1",
+    "curseForgeHash": 4032389777,
+    "modrinthHash": "af0f6e28638b1e6696d0501dd8496d230e9519ae"
   },
   "SodiumExtraInformation-neoforge-2.7.0.jar": {
     "jarName": "SodiumExtraInformation-neoforge-2.7.0.jar",
