@@ -13,13 +13,13 @@
     "curseForgeHash": 2567642950,
     "modrinthHash": "9654ef43899b5f1e18defdd1eaffc5062e48f39b"
   },
-  "[1.21.1-Neoforge] Hybrid Aquatic 1.6.8.jar": {
-    "jarName": "[1.21.1-Neoforge] Hybrid Aquatic 1.6.8.jar",
+  "[1.21.1-Neoforge] Hybrid Aquatic 1.6.9.jar": {
+    "jarName": "[1.21.1-Neoforge] Hybrid Aquatic 1.6.9.jar",
     "modId": "hybrid_aquatic",
     "name": "Hybrid Aquatic",
-    "version": "1.6.8",
-    "curseForgeHash": 3447946879,
-    "modrinthHash": "2f962e504a5f71ad3b3af50d4c63f78730e73e18"
+    "version": "1.6.9",
+    "curseForgeHash": 2993876814,
+    "modrinthHash": "e0b181001cdd22926c11f190759b7121452eae64"
   },
   "[1.21.1] SecurityCraft v1.10.2.1.jar": {
     "jarName": "[1.21.1] SecurityCraft v1.10.2.1.jar",
@@ -613,13 +613,13 @@
     "curseForgeHash": 1600566737,
     "modrinthHash": "dee878f03ce749857d8a380b91f6b8f491532f72"
   },
-  "bclib-21.0.24.jar": {
-    "jarName": "bclib-21.0.24.jar",
+  "bclib-21.0.25.jar": {
+    "jarName": "bclib-21.0.25.jar",
     "modId": "bclib",
     "name": "BCLib",
-    "version": "21.0.24",
-    "curseForgeHash": 2126216429,
-    "modrinthHash": "6ff66cb67833c62db74efb418413a4344cf2e51a"
+    "version": "21.0.25",
+    "curseForgeHash": 3629899446,
+    "modrinthHash": "45600f5c70f621c0b1a71e3bb53fa73576e26d94"
   },
   "BEB-NeoForge-1.21-6.0.0.jar": {
     "jarName": "BEB-NeoForge-1.21-6.0.0.jar",
@@ -677,13 +677,13 @@
     "curseForgeHash": 2048558936,
     "modrinthHash": "c8a69cfd467c212b27a701a4169f9e358d4ce728"
   },
-  "BetterEnd-21.0.31.jar": {
-    "jarName": "BetterEnd-21.0.31.jar",
+  "BetterEnd-21.0.32.jar": {
+    "jarName": "BetterEnd-21.0.32.jar",
     "modId": "betterend",
     "name": "Better End",
-    "version": "21.0.31",
-    "curseForgeHash": 1199997251,
-    "modrinthHash": "7d975c43b2398c3be6f98c72072f4330541a7baf"
+    "version": "21.0.32",
+    "curseForgeHash": 2912104070,
+    "modrinthHash": "c7cc25ebb1358e9be6b846411be5fd76bdc1cc35"
   },
   "BetterNether-21.0.25.jar": {
     "jarName": "BetterNether-21.0.25.jar",
@@ -1269,13 +1269,13 @@
     "curseForgeHash": 1787865240,
     "modrinthHash": "5257686b00b3c1ed79737411577914eac182dde4"
   },
-  "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar": {
-    "jarName": "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
+  "CreativeCore_NEOFORGE_v2.13.42_mc1.21.1.jar": {
+    "jarName": "CreativeCore_NEOFORGE_v2.13.42_mc1.21.1.jar",
     "modId": "creativecore",
     "name": "CreativeCore",
-    "version": "2.13.41",
-    "curseForgeHash": 3043399915,
-    "modrinthHash": "4b666b4668b77fdc1ac34a183aae58a432999970"
+    "version": "2.13.42",
+    "curseForgeHash": 2040461065,
+    "modrinthHash": "7e68402af969eab2ce23edad85738db52807f761"
   },
   "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar": {
     "jarName": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
@@ -1685,13 +1685,13 @@
     "curseForgeHash": 3970152377,
     "modrinthHash": "d3fca102a9f5aeb108d5118665b86ead1dd30988"
   },
-  "enhanced_enchanting-2.0.6.4-neoforge-1.21.1.jar": {
-    "jarName": "enhanced_enchanting-2.0.6.4-neoforge-1.21.1.jar",
+  "enhanced_enchanting-2.0.6.5-neoforge-1.21.1.jar": {
+    "jarName": "enhanced_enchanting-2.0.6.5-neoforge-1.21.1.jar",
     "modId": "enhanced_enchanting",
     "name": "Enhanced Enchanting",
-    "version": "2.0.6.4",
-    "curseForgeHash": 1478131572,
-    "modrinthHash": "fc44409504ed42bebf269bd9e89ab52c91a176c4"
+    "version": "2.0.6.5",
+    "curseForgeHash": 1298436669,
+    "modrinthHash": "558f23f472a5c2c7d65ccf5f453fe92629fb92fa"
   },
   "entityculling-neoforge-1.10.5-mc1.21.1.jar": {
     "jarName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
@@ -5106,13 +5106,13 @@
     "curseForgeHash": 659766458,
     "modrinthHash": "3fa47552e79588fbd5b50f8814e735b16f831f9e"
   },
-  "undergardendelight-2.0.2-neoforge-1.21.1.jar": {
-    "jarName": "undergardendelight-2.0.2-neoforge-1.21.1.jar",
+  "undergardendelight-2.0.3-neoforge-1.21.1.jar": {
+    "jarName": "undergardendelight-2.0.3-neoforge-1.21.1.jar",
     "modId": "undergardendelight",
     "name": "[NoCube\u0027s] Undergarden Delight",
-    "version": "2.0.2",
-    "curseForgeHash": 2685865457,
-    "modrinthHash": "349fd52f3883b6deac0483fd6ecf79f3e94f709d"
+    "version": "2.0.3",
+    "curseForgeHash": 85939301,
+    "modrinthHash": "090ea061b7048fcffdb92c2a3d45127577be17dd"
   },
   "underground_village-neoforge-1.21.1-2.0.jar": {
     "jarName": "underground_village-neoforge-1.21.1-2.0.jar",
@@ -5250,13 +5250,13 @@
     "curseForgeHash": 186874262,
     "modrinthHash": "1ee93dce6193ebeab41944e97d1f07e5d729bd96"
   },
-  "worldweaver-21.0.24.jar": {
-    "jarName": "worldweaver-21.0.24.jar",
+  "worldweaver-21.0.25.jar": {
+    "jarName": "worldweaver-21.0.25.jar",
     "modId": "wover",
     "name": "WorldWeaver",
-    "version": "21.0.24",
-    "curseForgeHash": 814397887,
-    "modrinthHash": "bd9f24e87ffb00e680b76de6ec56f33e5dc9f677"
+    "version": "21.0.25",
+    "curseForgeHash": 44459709,
+    "modrinthHash": "b274b0bb221739d52a0f52bc969bd64d691f8bbc"
   },
   "wunderlib-21.0.10.jar": {
     "jarName": "wunderlib-21.0.10.jar",
