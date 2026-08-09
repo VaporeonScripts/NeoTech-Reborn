@@ -21,6 +21,14 @@
     "curseForgeHash": 2993876814,
     "modrinthHash": "e0b181001cdd22926c11f190759b7121452eae64"
   },
+  "[1.21.1-Neoforge] Hybrid Delights 1.2.1 Hotfix.jar": {
+    "jarName": "[1.21.1-Neoforge] Hybrid Delights 1.2.1 Hotfix.jar",
+    "modId": "hybrid_delights",
+    "name": "Hybrid Delights",
+    "version": "1.2.1",
+    "curseForgeHash": 4238584891,
+    "modrinthHash": "80f4526d1af55ed27a286f8b9ba572f93b67d898"
+  },
   "[1.21.1] SecurityCraft v1.10.2.1.jar": {
     "jarName": "[1.21.1] SecurityCraft v1.10.2.1.jar",
     "modId": "securitycraft",
