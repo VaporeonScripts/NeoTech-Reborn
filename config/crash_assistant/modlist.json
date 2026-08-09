@@ -613,13 +613,13 @@
     "curseForgeHash": 1600566737,
     "modrinthHash": "dee878f03ce749857d8a380b91f6b8f491532f72"
   },
-  "bclib-21.0.25.jar": {
-    "jarName": "bclib-21.0.25.jar",
+  "bclib-21.0.26.jar": {
+    "jarName": "bclib-21.0.26.jar",
     "modId": "bclib",
     "name": "BCLib",
-    "version": "21.0.25",
-    "curseForgeHash": 3629899446,
-    "modrinthHash": "45600f5c70f621c0b1a71e3bb53fa73576e26d94"
+    "version": "21.0.26",
+    "curseForgeHash": 1101722029,
+    "modrinthHash": "06cc971fd149d7dae65c75792798b98be7439141"
   },
   "BEB-NeoForge-1.21-6.0.0.jar": {
     "jarName": "BEB-NeoForge-1.21-6.0.0.jar",
@@ -677,13 +677,13 @@
     "curseForgeHash": 2048558936,
     "modrinthHash": "c8a69cfd467c212b27a701a4169f9e358d4ce728"
   },
-  "BetterEnd-21.0.32.jar": {
-    "jarName": "BetterEnd-21.0.32.jar",
+  "BetterEnd-21.0.34.jar": {
+    "jarName": "BetterEnd-21.0.34.jar",
     "modId": "betterend",
     "name": "Better End",
-    "version": "21.0.32",
-    "curseForgeHash": 2912104070,
-    "modrinthHash": "c7cc25ebb1358e9be6b846411be5fd76bdc1cc35"
+    "version": "21.0.34",
+    "curseForgeHash": 3359989254,
+    "modrinthHash": "149b73179ea63bf777315a7c850b2eba65c554bd"
   },
   "BetterNether-21.0.25.jar": {
     "jarName": "BetterNether-21.0.25.jar",
@@ -925,13 +925,13 @@
     "curseForgeHash": 312239514,
     "modrinthHash": "3208ea2ca10d786895d03c2cd3a124d14393b357"
   },
-  "chat_heads-0.15.5-neoforge-1.21.jar": {
-    "jarName": "chat_heads-0.15.5-neoforge-1.21.jar",
+  "chat_heads-0.15.6-neoforge-1.21.jar": {
+    "jarName": "chat_heads-0.15.6-neoforge-1.21.jar",
     "modId": "chat_heads",
     "name": "Chat Heads",
-    "version": "0.15.5",
-    "curseForgeHash": 1133931855,
-    "modrinthHash": "ac2c09021ea041df6a5c30cef04862f4428edbe3"
+    "version": "0.15.6",
+    "curseForgeHash": 3337467388,
+    "modrinthHash": "37f276ee3449e785a32b68ba6260d6992974cf19"
   },
   "ChatImpressiveAnimation-neoforge-1.6.0+mc1.21.5.jar": {
     "jarName": "ChatImpressiveAnimation-neoforge-1.6.0+mc1.21.5.jar",
@@ -973,13 +973,13 @@
     "curseForgeHash": 960747248,
     "modrinthHash": "50454011525e2862678b15d94484fd32a5a54dfb"
   },
-  "chunksending-1.21-2.9.jar": {
-    "jarName": "chunksending-1.21-2.9.jar",
+  "chunksending-1.21-3.7.jar": {
+    "jarName": "chunksending-1.21-3.7.jar",
     "modId": "chunksending",
     "name": "chunksending mod",
-    "version": "2.9",
-    "curseForgeHash": 3840699650,
-    "modrinthHash": "636a121a3252028bb0ec14a3f39f9bbf723ddacd"
+    "version": "3.7",
+    "curseForgeHash": 2224530362,
+    "modrinthHash": "ab8beeb5287e4e88bddb0408d1f404833e83f969"
   },
   "clean_tooltips-1.1-neoforge-1.21.1.jar": {
     "jarName": "clean_tooltips-1.1-neoforge-1.21.1.jar",
@@ -1204,6 +1204,14 @@
     "version": "4.0.0",
     "curseForgeHash": 2350444955,
     "modrinthHash": "655ac2efcc387f4f6d0b92308955d0b6cbbb9387"
+  },
+  "create_ltab-4.1.0.jar": {
+    "jarName": "create_ltab-4.1.0.jar",
+    "modId": "create_ltab",
+    "name": "Create Let The Adventure Begin",
+    "version": "4.1.0",
+    "curseForgeHash": 768468672,
+    "modrinthHash": "c5725961ba8585693a84cf06becb21e8f4b13f11"
   },
   "create_pillagers_arise NeoForge 1.21.1-132.36.jar": {
     "jarName": "create_pillagers_arise NeoForge 1.21.1-132.36.jar",
@@ -3290,13 +3298,13 @@
     "curseForgeHash": 836426441,
     "modrinthHash": "6efa264eabf4a53283660814be3e395500f339f0"
   },
-  "meed-1.21.1-8.0.3.jar": {
-    "jarName": "meed-1.21.1-8.0.3.jar",
+  "meed-1.21.1-8.0.4.jar": {
+    "jarName": "meed-1.21.1-8.0.4.jar",
     "modId": "meed",
     "name": "Moderately Enough Effect Descriptions",
-    "version": "8.0.3",
-    "curseForgeHash": 3365324891,
-    "modrinthHash": "997fd50d775fb9b164b4f2aa224438ea8aab1bef"
+    "version": "8.0.4",
+    "curseForgeHash": 2916724876,
+    "modrinthHash": "5df6bcf14783c9945be1f25f724077fea7c4ffe4"
   },
   "megacells-4.11.0.jar": {
     "jarName": "megacells-4.11.0.jar",
@@ -3538,13 +3546,13 @@
     "curseForgeHash": 701069093,
     "modrinthHash": "5aadcb344cd1940dabc54618fd88603b00d08eae"
   },
-  "moonlight-1.21.1-3.3.2-neoforge.jar": {
-    "jarName": "moonlight-1.21.1-3.3.2-neoforge.jar",
+  "moonlight-1.21.1-3.3.3-neoforge.jar": {
+    "jarName": "moonlight-1.21.1-3.3.3-neoforge.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.3.2",
-    "curseForgeHash": 272176256,
-    "modrinthHash": "066461830cba209098c70fde4c31c74ae8f64aed"
+    "version": "1.21.1-3.3.3",
+    "curseForgeHash": 2384845456,
+    "modrinthHash": "3b149a020b5d8c398712adfa5fe7d8f10bc9c9c9"
   },
   "more_sounds-1.21.x-0.3.0-beta.jar": {
     "jarName": "more_sounds-1.21.x-0.3.0-beta.jar",
@@ -4122,13 +4130,13 @@
     "curseForgeHash": 259156000,
     "modrinthHash": "b273ea691e027b33fb9a19fb966c5f072edfa5c0"
   },
-  "puffish_attributes-0.8.2-1.21-neoforge.jar": {
-    "jarName": "puffish_attributes-0.8.2-1.21-neoforge.jar",
+  "puffish_attributes-0.8.3-1.21-neoforge.jar": {
+    "jarName": "puffish_attributes-0.8.3-1.21-neoforge.jar",
     "modId": "puffish_attributes",
     "name": "Pufferfish\u0027s Attributes",
-    "version": "0.8.2",
-    "curseForgeHash": 2779396011,
-    "modrinthHash": "f4b67aa8da294203203bc8e6cd4b0cbf0a99d9dc"
+    "version": "0.8.3",
+    "curseForgeHash": 2607265513,
+    "modrinthHash": "9e6a87f790fc9281ea2685f8d4f6435d0d7c6d1f"
   },
   "puffish_skills-0.18.3-1.21-neoforge.jar": {
     "jarName": "puffish_skills-0.18.3-1.21-neoforge.jar",
