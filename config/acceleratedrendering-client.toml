@@ -196,7 +196,7 @@
 	#- DISABLED: Filters will be disabled and all entities, block entities and items will be accelerated when rendering.
 	#- ENABLED: Filters will test if the entities, block entities and items should be accelerated when rendering based on the filter values and the filter type.
 	#Allowed Values: DISABLED, ENABLED
-	feature_status = "DISABLED"
+	feature_status = "ENABLED"
 	#- DISABLED: Entity filter will be disabled and all entities will be accelerated.
 	#- ENABLED: Entity filter will test if the entities should be accelerated when rendering based on the filter values and the filter type.
 	#Allowed Values: DISABLED, ENABLED
