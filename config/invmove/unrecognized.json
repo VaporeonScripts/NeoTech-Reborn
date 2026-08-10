@@ -375,7 +375,13 @@
     "com.niixlabs.lucidgallery.client.gui.screen.GalleryScreen": true,
     "fr.madu59.obe.client.config.configscreen.OptimisedBlockEntitiesConfigScreen": true,
     "org.betterx.betterend.config.screen.ConfigScreen": true,
-    "org.betterx.wover.screens.impl.MainMenu": true
+    "org.betterx.wover.screens.impl.MainMenu": true,
+    "com.sammy.minersdelight.content.block.copper_pot.CopperPotScreen": true,
+    "com.mrcrayfish.furniture.refurbished.client.gui.screen.WorkbenchScreen": true,
+    "com.mrcrayfish.furniture.refurbished.client.gui.screen.ElectricityGeneratorScreen": true,
+    "com.wdiscute.starcatcher.tournament.StandScreen": true,
+    "com.wdiscute.starcatcher.blocks.tacklebox.TackleBoxScreen": true,
+    "org.confluence.terra_curio.client.gui.WorkshopScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
@@ -575,6 +581,12 @@
     "net.mcreator.luminousworld.client.gui.BFEPage9Screen": true,
     "net.mcreator.luminousworld.client.gui.BFEPage10Screen": true,
     "net.mcreator.luminousworld.client.gui.BFEPage11Screen": true,
-    "net.mcreator.luminousworld.client.gui.BFEPage12Screen": true
+    "net.mcreator.luminousworld.client.gui.BFEPage12Screen": true,
+    "com.sammy.minersdelight.content.block.copper_pot.CopperPotScreen": true,
+    "com.mrcrayfish.furniture.refurbished.client.gui.screen.WorkbenchScreen": true,
+    "com.mrcrayfish.furniture.refurbished.client.gui.screen.ElectricityGeneratorScreen": true,
+    "com.wdiscute.starcatcher.tournament.StandScreen": true,
+    "com.wdiscute.starcatcher.blocks.tacklebox.TackleBoxScreen": true,
+    "org.confluence.terra_curio.client.gui.WorkshopScreen": true
   }
 }

@@ -25,13 +25,13 @@
     "iconMode": "TOP",
     "animation": true,
     "disappearingDelay": 0.0,
-    "overlaySquare": false,
+    "overlaySquare": true,
     "flipMainHand": false,
     "autoScaleThreshold": 0.4,
     "overlayScale": 0.85,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
-    "activeTheme": "jade:dark",
+    "activeTheme": "jade:mandalasgui",
     "overlayPosX": 0.5,
     "overlayPosY": 1.0
   },
@@ -42,6 +42,6 @@
     }
   },
   "history": {
-    "themesHash": 134534286
+    "themesHash": 1645973062
   }
 }

@@ -1132,6 +1132,7 @@
         "ignore": true
     },
     "com.wdiscute.starcatcher.blocks.tacklebox.TackleBoxScreen": {
+        "ignore": true,
         "playerSideOnly": true
     },
     "com.wdiscute.starcatcher.tournament.StandScreen": {
@@ -1192,6 +1193,9 @@
         "ignore": true
     },
     "dev.xkmc.l2artifacts.content.search.main.FilteredMenuScreen": {
+        "ignore": true
+    },
+    "org.confluence.terra_curio.client.gui.WorkshopScreen": {
         "ignore": true
     }
 }

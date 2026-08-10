@@ -885,13 +885,13 @@
     "curseForgeHash": 2767968248,
     "modrinthHash": "e4c2e1af4e3082d68f7df75f7c8ce30116d71515"
   },
-  "calmtheleaks-1.2.2+1.21.1-neoforge.jar": {
-    "jarName": "calmtheleaks-1.2.2+1.21.1-neoforge.jar",
+  "calmtheleaks-1.2.3+1.21.1-neoforge.jar": {
+    "jarName": "calmtheleaks-1.2.3+1.21.1-neoforge.jar",
     "modId": "calmtheleaks",
     "name": "Calm The Leaks",
-    "version": "1.2.2",
-    "curseForgeHash": 2793804838,
-    "modrinthHash": "69f97ba05c939bc6ee09c842efd5a6879e08dff7"
+    "version": "1.2.3",
+    "curseForgeHash": 346690840,
+    "modrinthHash": "bdba40351992927d989217bdc1f1a77287fab900"
   },
   "cataclysmfortresses-1.21.1-NeoForge.jar": {
     "jarName": "cataclysmfortresses-1.21.1-NeoForge.jar",
@@ -1717,21 +1717,21 @@
     "curseForgeHash": 2247657042,
     "modrinthHash": "420d0006dbc0a20b1c2dd0b3c7c20ddb5cc51fcf"
   },
-  "Epic Jungle Temples v1.0.1.jar": {
-    "jarName": "Epic Jungle Temples v1.0.1.jar",
+  "Epic Jungle Temples v1.0.2.jar": {
+    "jarName": "Epic Jungle Temples v1.0.2.jar",
     "modId": "mr_epic_structuresjungletemples",
     "name": "Epic Structures: Jungle Temples",
     "version": "1.0.1",
-    "curseForgeHash": 2435514402,
-    "modrinthHash": "1f5023e0958150e5115cd2bfb1a836c8e4cb7013"
+    "curseForgeHash": 48821564,
+    "modrinthHash": "a93405ca7e625f56cba52f0b36ce358eba512844"
   },
-  "Epic Villages 1.3.2.jar": {
-    "jarName": "Epic Villages 1.3.2.jar",
+  "Epic Villages 1.3.3.jar": {
+    "jarName": "Epic Villages 1.3.3.jar",
     "modId": "mr_epic_structuresvillages",
     "name": "Epic Structures: Villages",
     "version": "1.2.0",
-    "curseForgeHash": 4151651099,
-    "modrinthHash": "3780da0b6fc05224069f0b7f398279b5e6724747"
+    "curseForgeHash": 3216140435,
+    "modrinthHash": "47d33c83c0aae927e4e649b2fb197609b7678f41"
   },
   "Epic Witch Huts v1.3.1.jar": {
     "jarName": "Epic Witch Huts v1.3.1.jar",
@@ -1845,13 +1845,13 @@
     "curseForgeHash": 4220290964,
     "modrinthHash": "a04ddf96b39a0f909d4184d326cc09c54650737d"
   },
-  "extraspecialcore-1.2.2+1.21.1-neoforge.jar": {
-    "jarName": "extraspecialcore-1.2.2+1.21.1-neoforge.jar",
+  "extraspecialcore-1.3.0+1.21.1-neoforge.jar": {
+    "jarName": "extraspecialcore-1.3.0+1.21.1-neoforge.jar",
     "modId": "extraspecialcore",
     "name": "ExtraSpecialCore",
-    "version": "1.2.2",
-    "curseForgeHash": 4268401159,
-    "modrinthHash": "9960370cb74d8ed5426e825f85d95d43ce2c278b"
+    "version": "1.3.0",
+    "curseForgeHash": 2129550517,
+    "modrinthHash": "f6b0c4155487ef4da02bddd5448d1d71ba61130a"
   },
   "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar": {
     "jarName": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
@@ -3306,13 +3306,13 @@
     "curseForgeHash": 836426441,
     "modrinthHash": "6efa264eabf4a53283660814be3e395500f339f0"
   },
-  "meed-1.21.1-8.0.4.jar": {
-    "jarName": "meed-1.21.1-8.0.4.jar",
+  "meed-1.21.1-8.0.5.jar": {
+    "jarName": "meed-1.21.1-8.0.5.jar",
     "modId": "meed",
     "name": "Moderately Enough Effect Descriptions",
-    "version": "8.0.4",
-    "curseForgeHash": 2916724876,
-    "modrinthHash": "5df6bcf14783c9945be1f25f724077fea7c4ffe4"
+    "version": "8.0.5",
+    "curseForgeHash": 2867056188,
+    "modrinthHash": "a27595b6b7ff3262874ffa34f6083b634eab5c88"
   },
   "megacells-4.11.0.jar": {
     "jarName": "megacells-4.11.0.jar",
