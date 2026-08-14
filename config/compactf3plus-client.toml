@@ -36,6 +36,20 @@
 	showBiome = true
 	#Show dimension line
 	showDimension = true
+	#Show durability of damaged held items
+	showDurability = false
+	#Show growth stage of the targeted crop
+	showCropGrowth = false
+	#Show the currently playing music or record
+	showMusicTrack = false
+	#Show the registry id of the targeted block
+	showTargetBlock = false
+	#Show the registry id of the targeted fluid
+	showTargetFluid = false
+	#Show the registry id of the targeted entity
+	showTargetEntity = false
+	#Append blockstate properties to the targeted block line
+	showTargetProperties = false
 
 #Visual Settings
 [visuals]
@@ -55,3 +69,19 @@
 	# Default: 25
 	# Range: 0 ~ 100
 	backgroundOpacity = 25
+
+#HUD Position
+[position]
+	#Screen corner the HUD is anchored to: 0 = top-left, 1 = top-right,
+	#2 = bottom-left, 3 = bottom-right
+	# Default: 0
+	# Range: 0 ~ 3
+	hudAnchor = 0
+	#Horizontal gap between the HUD box and the anchored corner, in pixels
+	# Default: 6
+	# Range: 0 ~ 200
+	hudOffsetX = 6
+	#Vertical gap between the HUD box and the anchored corner, in pixels
+	# Default: 6
+	# Range: 0 ~ 200
+	hudOffsetY = 6
