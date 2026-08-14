@@ -869,13 +869,13 @@
     "curseForgeHash": 1485251181,
     "modrinthHash": "10b2a8eb3bbb4af298ae636bfa50994fbe5bb63f"
   },
-  "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.118.jar": {
-    "jarName": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.118.jar",
+  "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar": {
+    "jarName": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar",
     "modId": "c2me",
     "name": "Concurrent Chunk Management Engine",
-    "version": "0.4.0-alpha.0.118+1.21.1",
-    "curseForgeHash": 511561187,
-    "modrinthHash": "2ea4fbf10c324e43f2405dfc8870c0b4fc17a165"
+    "version": "0.4.0-alpha.0.116+1.21.1",
+    "curseForgeHash": 1260447497,
+    "modrinthHash": "ed43c962c5162ffc660e61329a65ad6a46da1884"
   },
   "caelus-neoforge-7.0.1+1.21.1.jar": {
     "jarName": "caelus-neoforge-7.0.1+1.21.1.jar",
@@ -1565,13 +1565,13 @@
     "curseForgeHash": 3533465852,
     "modrinthHash": "ac9edb266a1360e9e4c80ed0b2f931f1505307eb"
   },
-  "duplicationless-1.21.1-1.2.0.jar": {
-    "jarName": "duplicationless-1.21.1-1.2.0.jar",
+  "duplicationless-1.21.1-1.2.1.jar": {
+    "jarName": "duplicationless-1.21.1-1.2.1.jar",
     "modId": "duplicationless",
     "name": "Duplicationless",
-    "version": "1.21.1-1.2.0",
-    "curseForgeHash": 1928046182,
-    "modrinthHash": "8ba9b766b1f0d0633cbd6c86978adeecc70c7042"
+    "version": "1.21.1-1.2.1",
+    "curseForgeHash": 460939580,
+    "modrinthHash": "c3f8e32ee4239bb14c11940518085b66ca1cd5f5"
   },
   "e4mc-neoforge-6.2.1.jar": {
     "jarName": "e4mc-neoforge-6.2.1.jar",
@@ -2589,13 +2589,13 @@
     "curseForgeHash": 280364357,
     "modrinthHash": "8a92b235a424bc29f56cf6331e533f8c11f65975"
   },
-  "Ixeris-4.6.4+1.21.1-neoforge.jar": {
-    "jarName": "Ixeris-4.6.4+1.21.1-neoforge.jar",
+  "Ixeris-4.6.3+1.21.1-neoforge.jar": {
+    "jarName": "Ixeris-4.6.3+1.21.1-neoforge.jar",
     "modId": "ixeris_dummy",
     "name": "Ixeris",
-    "version": "4.6.4+1.21.1-neoforge",
-    "curseForgeHash": 3311695725,
-    "modrinthHash": "11c2bb35fd508e52bb31a2936956656affcf7088"
+    "version": "4.6.3+1.21.1-neoforge",
+    "curseForgeHash": 2115723924,
+    "modrinthHash": "dbf9e21fdcb0e7e2d2b7f009690edb183344ec0e"
   },
   "Jade-1.21.1-NeoForge-15.10.6.jar": {
     "jarName": "Jade-1.21.1-NeoForge-15.10.6.jar",
@@ -5050,13 +5050,13 @@
     "curseForgeHash": 1720933038,
     "modrinthHash": "0a255f4f915a6e21c25d336440f5d0725acf5467"
   },
-  "trashcans-1.0.18c-neoforge-mc1.21.jar": {
-    "jarName": "trashcans-1.0.18c-neoforge-mc1.21.jar",
+  "trashcans-1.1.0-neoforge-mc1.21.jar": {
+    "jarName": "trashcans-1.1.0-neoforge-mc1.21.jar",
     "modId": "trashcans",
     "name": "Trash Cans",
-    "version": "1.0.18+c",
-    "curseForgeHash": 4070200547,
-    "modrinthHash": "8e853e0784b01b36b4503ef5599be2724be74b07"
+    "version": "1.1.0",
+    "curseForgeHash": 403218868,
+    "modrinthHash": "31ed299e945a827d604c6397c2c535f058823efb"
   },
   "trashslot-neoforge-1.21.1-21.1.11.jar": {
     "jarName": "trashslot-neoforge-1.21.1-21.1.11.jar",
