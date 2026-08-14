@@ -1,0 +1,50 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+# Enables/disables - Knaves' Needs' Cincinnasite additions.
+cincinnasiteEnabled = true
+# Cincinnasite durability/uses, can be any whole number.
+cincinnasiteDurability = 512
+# Cincinnasite attack speed, can be any decimal number.
+cincinnasiteMiningSpeedMultiplier = 6.2
+# Cincinnasite bonus damage, can be any decimal number.
+cincinnasiteAttackDamage = 2.5
+# Cincinnasite mining level, can be any whole number.
+cincinnasiteMiningLevel = 1
+# Cincinnasite enchantability, can be any whole number.
+cincinnasiteEnchantability = 16
+# Enables/disables - Knaves' Needs' Cincinnasite Diamond additions.
+cincinnasiteDiamondEnabled = true
+# Cincinnasite Diamond durability/uses, can be any whole number.
+cincinnasiteDiamondDurability = 2061
+# Cincinnasite Diamond attack speed, can be any decimal number.
+cincinnasiteDiamondMiningSpeedMultiplier = 8.2
+# Cincinnasite Diamond bonus damage, can be any decimal number.
+cincinnasiteDiamondAttackDamage = 3.7
+# Cincinnasite Diamond mining level, can be any whole number.
+cincinnasiteDiamondMiningLevel = 1
+# Cincinnasite Diamond enchantability, can be any whole number.
+cincinnasiteDiamondEnchantability = 14
+# Enables/disables - Knaves' Needs' Nether Ruby additions.
+netherRubyEnabled = true
+# Nether Ruby durability/uses, can be any whole number.
+netherRubyDurability = 2561
+# Nether Ruby attack speed, can be any decimal number.
+netherRubyMiningSpeedMultiplier = 7.1
+# Nether Ruby bonus damage, can be any decimal number.
+netherRubyAttackDamage = 3.1
+# Nether Ruby mining level, can be any whole number.
+netherRubyMiningLevel = 1
+# Nether Ruby enchantability, can be any whole number.
+netherRubyEnchantability = 18
+# Enables/disables - Knaves' Needs' Flaming Ruby additions.
+flamingRubyEnabled = true
+# Flaming Ruby durability/uses, can be any whole number.
+flamingRubyDurability = 2861
+# Flaming Ruby attack speed, can be any decimal number.
+flamingRubyMiningSpeedMultiplier = 10.4
+# Flaming Ruby bonus damage, can be any decimal number.
+flamingRubyAttackDamage = 6.0
+# Flaming Ruby mining level, can be any whole number.
+flamingRubyMiningLevel = 1
+# Flaming Ruby enchantability, can be any whole number.
+flamingRubyEnchantability = 32

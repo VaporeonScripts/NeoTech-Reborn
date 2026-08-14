@@ -24,6 +24,7 @@
     "gpuAcceleration": true,
     "appendNewParticlesToRenderer": true,
     "computeExecutionStage": "LEVEL_RENDERING",
+    "tickRendererOnMainThread": false,
     "cullWeathers": true
   },
   "valkyrienSkies": {

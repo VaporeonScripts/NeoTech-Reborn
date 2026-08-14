@@ -1,0 +1,38 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+# Enables/disables - Knaves' Needs' Deorum additions. (No registry yet - Forbidden Arcanus has no Deorum tool tier to match.)
+deorumEnabled = false
+# Deorum durability/uses, can be any whole number.
+deorumDurability = 1000
+# Deorum attack speed, can be any decimal number.
+deorumSpeed = 1.0
+# Deorum bonus damage, can be any decimal number.
+deorumAttackBonus = 0.0
+# Deorum mining level, can be any whole number.
+deorumMiningLevel = 1
+# Deorum enchantability, can be any whole number.
+deorumEnchantability = 15
+# Enables/disables - Knaves' Needs' Reinforced Deorum additions.
+reinforcedDeorumEnabled = false
+# Reinforced Deorum durability/uses, can be any whole number.
+reinforcedDeorumDurability = 1000
+# Reinforced Deorum attack speed, can be any decimal number.
+reinforcedDeorumSpeed = 1.0
+# Reinforced Deorum bonus damage, can be any decimal number.
+reinforcedDeorumAttackBonus = 0.0
+# Reinforced Deorum mining level, can be any whole number.
+reinforcedDeorumMiningLevel = 1
+# Reinforced Deorum enchantability, can be any whole number.
+reinforcedDeorumEnchantability = 15
+# Enables/disables - Knaves' Needs' Draco Arcanus additions.
+dracoArcanusEnabled = true
+# Draco Arcanus durability/uses, can be any whole number.
+dracoArcanusDurability = 2661
+# Draco Arcanus attack speed, can be any decimal number.
+dracoArcanusSpeed = 12.0
+# Draco Arcanus bonus damage, can be any decimal number.
+dracoArcanusAttackBonus = 7.0
+# Draco Arcanus mining level, can be any whole number.
+dracoArcanusMiningLevel = 3
+# Draco Arcanus enchantability, can be any whole number.
+dracoArcanusEnchantability = 20

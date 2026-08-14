@@ -1,0 +1,38 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+# Enables/disables - Knaves' Needs' Aeternium additions.
+aeterniumEnabled = true
+# Aeternium durability/uses, can be any whole number.
+aeterniumDurability = 2196
+# Aeternium attack speed, can be any decimal number.
+aeterniumSpeed = 10.0
+# Aeternium bonus damage, can be any decimal number.
+aeterniumAttackBonus = 4.5
+# Aeternium mining level, can be any whole number.
+aeterniumMiningLevel = 1
+# Aeternium enchantability, can be any whole number.
+aeterniumEnchantability = 18
+# Enables/disables - Knaves' Needs' Terminite additions.
+terminiteEnabled = true
+# Terminite durability/uses, can be any whole number.
+terminiteDurability = 1230
+# Terminite attack speed, can be any decimal number.
+terminiteSpeed = 8.5
+# Terminite bonus damage, can be any decimal number.
+terminiteAttackBonus = 3.0
+# Terminite mining level, can be any whole number.
+terminiteMiningLevel = 1
+# Terminite enchantability, can be any whole number.
+terminiteEnchantability = 14
+# Enables/disables - Knaves' Needs' Thallasium additions.
+thallasiumEnabled = true
+# Thallasium durability/uses, can be any whole number.
+thallasiumDurability = 320
+# Thallasium attack speed, can be any decimal number.
+thallasiumSpeed = 7.0
+# Thallasium bonus damage, can be any decimal number.
+thallasiumAttackBonus = 1.5
+# Thallasium mining level, can be any whole number.
+thallasiumMiningLevel = 1
+# Thallasium enchantability, can be any whole number.
+thallasiumEnchantability = 12
