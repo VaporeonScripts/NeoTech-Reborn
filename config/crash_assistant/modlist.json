@@ -1805,13 +1805,13 @@
     "curseForgeHash": 1043010622,
     "modrinthHash": "5fb28be29200a41b034e423d87823eb19ad651cd"
   },
-  "extended-industrialization-1.15.46-1.21.1.jar": {
-    "jarName": "extended-industrialization-1.15.46-1.21.1.jar",
+  "extended-industrialization-1.16.0-1.21.1.jar": {
+    "jarName": "extended-industrialization-1.16.0-1.21.1.jar",
     "modId": "extended_industrialization",
     "name": "Extended Industrialization",
-    "version": "1.15.46-1.21.1",
-    "curseForgeHash": 946756776,
-    "modrinthHash": "9efa3a3f07d9fc40208f19ebf199215f8158f30f"
+    "version": "1.16.0-1.21.1",
+    "curseForgeHash": 2912180566,
+    "modrinthHash": "3d5783681b930d36dbdc8947d44d2d73329701e8"
   },
   "ExtendedAE-1.21-2.2.35-neoforge.jar": {
     "jarName": "ExtendedAE-1.21-2.2.35-neoforge.jar",
@@ -2069,13 +2069,13 @@
     "curseForgeHash": 1998713974,
     "modrinthHash": "04a62e52e359542d6eaeed3b9229b708115e10d2"
   },
-  "ftb-chunks-neoforge-2101.1.20.jar": {
-    "jarName": "ftb-chunks-neoforge-2101.1.20.jar",
+  "ftb-chunks-neoforge-2101.1.21.jar": {
+    "jarName": "ftb-chunks-neoforge-2101.1.21.jar",
     "modId": "ftbchunks",
     "name": "FTB Chunks",
-    "version": "2101.1.20",
-    "curseForgeHash": 1163728616,
-    "modrinthHash": "f8fd8b158379015302f7aa234785f29a1353803d"
+    "version": "2101.1.21",
+    "curseForgeHash": 2297845790,
+    "modrinthHash": "37e1c12393d44d5f3e612cf9a5958dd8f1d77675"
   },
   "ftb-essentials-neoforge-2101.1.10.jar": {
     "jarName": "ftb-essentials-neoforge-2101.1.10.jar",
@@ -2085,21 +2085,21 @@
     "curseForgeHash": 397785702,
     "modrinthHash": "fa7b3d1b06c0285dcbe8e53a27d44cd7f8d15726"
   },
-  "ftb-library-neoforge-2101.1.33.jar": {
-    "jarName": "ftb-library-neoforge-2101.1.33.jar",
+  "ftb-library-neoforge-2101.1.35.jar": {
+    "jarName": "ftb-library-neoforge-2101.1.35.jar",
     "modId": "ftblibrary",
     "name": "FTB Library",
-    "version": "2101.1.33",
-    "curseForgeHash": 3687773507,
-    "modrinthHash": "a653118630fa17ed37d67b0beddc5984c760fc72"
+    "version": "2101.1.35",
+    "curseForgeHash": 243616433,
+    "modrinthHash": "9922fa358983120edeed22194bf02bcf9c859fbb"
   },
-  "ftb-quests-neoforge-2101.1.27.jar": {
-    "jarName": "ftb-quests-neoforge-2101.1.27.jar",
+  "ftb-quests-neoforge-2101.1.31.jar": {
+    "jarName": "ftb-quests-neoforge-2101.1.31.jar",
     "modId": "ftbquests",
     "name": "FTB Quests",
-    "version": "2101.1.27",
-    "curseForgeHash": 3178076391,
-    "modrinthHash": "baf3a7f173d09c2b9800626109cf6ca5a52a6c19"
+    "version": "2101.1.31",
+    "curseForgeHash": 3113851300,
+    "modrinthHash": "4e2691cbbc3f79d188b0a96809f1cd140310fc78"
   },
   "ftb-teams-neoforge-2101.1.10.jar": {
     "jarName": "ftb-teams-neoforge-2101.1.10.jar",
@@ -2117,13 +2117,13 @@
     "curseForgeHash": 805267901,
     "modrinthHash": "c96a7cc0b52bf919660ea61c1536cebd9d5773b3"
   },
-  "ftb-xmod-compat-neoforge-21.1.9.jar": {
-    "jarName": "ftb-xmod-compat-neoforge-21.1.9.jar",
+  "ftb-xmod-compat-neoforge-21.1.11.jar": {
+    "jarName": "ftb-xmod-compat-neoforge-21.1.11.jar",
     "modId": "ftbxmodcompat",
     "name": "FTB XMod Compat",
-    "version": "21.1.9",
-    "curseForgeHash": 1219856723,
-    "modrinthHash": "0c8caa1d5e6954d71aa114f377bbc79ba83e1faf"
+    "version": "21.1.11",
+    "curseForgeHash": 463793783,
+    "modrinthHash": "06061863f24e1c0d9b2bb2646e96e07cbf0029f5"
   },
   "FTBQuestsOptimizer-neoforge-3.2.0-1.21.1.jar": {
     "jarName": "FTBQuestsOptimizer-neoforge-3.2.0-1.21.1.jar",
@@ -2485,13 +2485,13 @@
     "curseForgeHash": 507699904,
     "modrinthHash": "1bfd8bbb862a8cf55fd83947ded2b0eeda8c6bc8"
   },
-  "InventoryProfilesNext-neoforge-1.21.1-2.2.6-SNAPSHOT.jar": {
-    "jarName": "InventoryProfilesNext-neoforge-1.21.1-2.2.6-SNAPSHOT.jar",
+  "InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar": {
+    "jarName": "InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
     "modId": "inventoryprofilesnext",
     "name": "Inventory Profiles Next",
-    "version": "2.2.6-SNAPSHOT",
-    "curseForgeHash": 909397901,
-    "modrinthHash": "5125637a27fb52a1e49bb7acf41d891318777c52"
+    "version": "2.2.5",
+    "curseForgeHash": 2506326347,
+    "modrinthHash": "b09d7c0820c233ea34af54d0a3ab7ed510b32dcc"
   },
   "InvMove-0.9.3+1.21.1-NeoForge.jar": {
     "jarName": "InvMove-0.9.3+1.21.1-NeoForge.jar",
