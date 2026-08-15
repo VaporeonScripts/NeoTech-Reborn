@@ -325,7 +325,7 @@
   "ftbQuestsTabIconNudgeLeft": 0,
   "ftbQuestsTabIconNudgeRight": 0,
   "ftbQuestsTabOrder": 0,
-  "ftbQuestsTabDisplayVisibility": "YES",
+  "ftbQuestsTabDisplayVisibility": "TUCK",
   "ftbChunksTabEnabled": true,
   "ftbChunksTabCustomIcon": "",
   "ftbChunksTabIconScale": 100,
