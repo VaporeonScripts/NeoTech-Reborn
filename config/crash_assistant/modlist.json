@@ -1557,14 +1557,6 @@
     "curseForgeHash": 1842335510,
     "modrinthHash": "249a5bdd0e8622b8a11f88758e6f5fd5fda036a3"
   },
-  "DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar": {
-    "jarName": "DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar",
-    "modId": "dungeons_arise_seven_seas",
-    "name": "When Dungeons Arise: Seven Seas",
-    "version": "1.0.4",
-    "curseForgeHash": 3533465852,
-    "modrinthHash": "ac9edb266a1360e9e4c80ed0b2f931f1505307eb"
-  },
   "duplicationless-1.21.1-1.2.1.jar": {
     "jarName": "duplicationless-1.21.1-1.2.1.jar",
     "modId": "duplicationless",
@@ -3130,13 +3122,13 @@
     "curseForgeHash": 334618940,
     "modrinthHash": "321ef76417e824a4ddcc765046b1dd763754d157"
   },
-  "lucidadvancements-neoforge-1.21-1.2.0.1.jar": {
-    "jarName": "lucidadvancements-neoforge-1.21-1.2.0.1.jar",
+  "lucidadvancements-neoforge-1.21-1.2.1.jar": {
+    "jarName": "lucidadvancements-neoforge-1.21-1.2.1.jar",
     "modId": "lucidadvancements",
     "name": "LucidAdvancements",
-    "version": "1.2.0.1",
-    "curseForgeHash": 3087971070,
-    "modrinthHash": "e6669221c96c36a71c4f2ea6c906803d4ca57af8"
+    "version": "1.2.1",
+    "curseForgeHash": 411264814,
+    "modrinthHash": "fe781f7dba16d00f76f2c8489fa9b2969ac837f2"
   },
   "lucidgallery-neoforge-1.21-1.0.2.jar": {
     "jarName": "lucidgallery-neoforge-1.21-1.0.2.jar",
@@ -3561,6 +3553,14 @@
     "version": "3.0.0",
     "curseForgeHash": 1147131702,
     "modrinthHash": "b07843ca80d49579beabb4397157de0c4330db01"
+  },
+  "MoogsOceanStructures-universal-1.21-1.0.1.jar": {
+    "jarName": "MoogsOceanStructures-universal-1.21-1.0.1.jar",
+    "modId": "mos",
+    "name": "MoogsOceanStructures",
+    "version": "1.0.1",
+    "curseForgeHash": 1083052214,
+    "modrinthHash": "5c4732edcad51c5347f9f7861594150a78cecfd7"
   },
   "MoogsSoaringStructures-1.21-2.1.2.jar": {
     "jarName": "MoogsSoaringStructures-1.21-2.1.2.jar",
