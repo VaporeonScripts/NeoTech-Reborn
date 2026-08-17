@@ -2485,13 +2485,13 @@
     "curseForgeHash": 507699904,
     "modrinthHash": "1bfd8bbb862a8cf55fd83947ded2b0eeda8c6bc8"
   },
-  "InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar": {
-    "jarName": "InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
+  "InventoryProfilesNext-neoforge-1.21.1-2.2.6-SNAPSHOT.jar": {
+    "jarName": "InventoryProfilesNext-neoforge-1.21.1-2.2.6-SNAPSHOT.jar",
     "modId": "inventoryprofilesnext",
     "name": "Inventory Profiles Next",
-    "version": "2.2.5",
-    "curseForgeHash": 2506326347,
-    "modrinthHash": "b09d7c0820c233ea34af54d0a3ab7ed510b32dcc"
+    "version": "2.2.6-SNAPSHOT",
+    "curseForgeHash": 909397901,
+    "modrinthHash": "5125637a27fb52a1e49bb7acf41d891318777c52"
   },
   "InvMove-0.9.3+1.21.1-NeoForge.jar": {
     "jarName": "InvMove-0.9.3+1.21.1-NeoForge.jar",
