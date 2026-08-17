@@ -9,3 +9,4 @@ logs/
 crash-reports/
 *.log
 config/spark/activity.json
+config/spark/tmp-client/
