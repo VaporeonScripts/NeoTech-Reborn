@@ -1693,13 +1693,13 @@
     "curseForgeHash": 3970152377,
     "modrinthHash": "d3fca102a9f5aeb108d5118665b86ead1dd30988"
   },
-  "enhanced_enchanting-2.0.7.0-neoforge-1.21.1.jar": {
-    "jarName": "enhanced_enchanting-2.0.7.0-neoforge-1.21.1.jar",
+  "enhanced_enchanting-2.0.8.0-neoforge-1.21.1.jar": {
+    "jarName": "enhanced_enchanting-2.0.8.0-neoforge-1.21.1.jar",
     "modId": "enhanced_enchanting",
     "name": "Enhanced Enchanting",
-    "version": "2.0.7.0",
-    "curseForgeHash": 3393465898,
-    "modrinthHash": "375d2bca2cdf43836175dde17e4776d9605b9470"
+    "version": "2.0.8.0",
+    "curseForgeHash": 2972093695,
+    "modrinthHash": "402b3f927df3c4afb0a957682ababa7c50d6a732"
   },
   "entityculling-neoforge-1.10.5-mc1.21.1.jar": {
     "jarName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
@@ -1757,13 +1757,13 @@
     "curseForgeHash": 3374630768,
     "modrinthHash": "3460532417842063306c5a12428b3c877e18d073"
   },
-  "eternalstarlight-0.8.1+1.21.1+neoforge.jar": {
-    "jarName": "eternalstarlight-0.8.1+1.21.1+neoforge.jar",
+  "eternalstarlight-0.9.0+1.21.1+neoforge.jar": {
+    "jarName": "eternalstarlight-0.9.0+1.21.1+neoforge.jar",
     "modId": "eternal_starlight",
     "name": "Eternal Starlight",
-    "version": "0.8.1+1.21.1+neoforge",
-    "curseForgeHash": 2955342771,
-    "modrinthHash": "7deb37b78198efafb053ca84551b3a7d573a2737"
+    "version": "0.9.0+1.21.1+neoforge",
+    "curseForgeHash": 3518658107,
+    "modrinthHash": "66b97fa352c1b5d065e49e7fe7119da3c5f62f3d"
   },
   "everlastingabilities-1.21.1-neoforge-2.5.6-390.jar": {
     "jarName": "everlastingabilities-1.21.1-neoforge-2.5.6-390.jar",
@@ -1844,6 +1844,14 @@
     "version": "1.3.0",
     "curseForgeHash": 2129550517,
     "modrinthHash": "f6b0c4155487ef4da02bddd5448d1d71ba61130a"
+  },
+  "extraspeciallib-1.0.0+1.21.1-neoforge.jar": {
+    "jarName": "extraspeciallib-1.0.0+1.21.1-neoforge.jar",
+    "modId": "extraspeciallib",
+    "name": "ExtraSpecialLIB",
+    "version": "1.0.0",
+    "curseForgeHash": 233174323,
+    "modrinthHash": "2a4ff76caf841b8649e156f0f554f9dfb56637b4"
   },
   "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar": {
     "jarName": "ExtremeSoundMuffler-3.56_NeoForge-1.21.jar",
@@ -2842,13 +2850,13 @@
     "curseForgeHash": 3484116427,
     "modrinthHash": "baab9e8cae3d2b77b5e172b5694e465ee9f30d4a"
   },
-  "lightspeed-1.21.1-1.2.2.jar": {
-    "jarName": "lightspeed-1.21.1-1.2.2.jar",
+  "lightspeed-1.21.1-1.2.3.jar": {
+    "jarName": "lightspeed-1.21.1-1.2.3.jar",
     "modId": "lightspeed",
     "name": "Lightspeed",
-    "version": "1.21.1-1.2.2",
-    "curseForgeHash": 2888610532,
-    "modrinthHash": "c8372a5ae17021028d4a7b70530f7ee35ad08701"
+    "version": "1.21.1-1.2.3",
+    "curseForgeHash": 2529228324,
+    "modrinthHash": "1b8e908326e9777d0c9865834dc357a8354f367c"
   },
   "lionfishapi-3.1.jar": {
     "jarName": "lionfishapi-3.1.jar",
@@ -3114,13 +3122,13 @@
     "curseForgeHash": 465777733,
     "modrinthHash": "0a0cf6475fcd8802de4255dc5046a956899b3081"
   },
-  "lootr_liason-1.2.1+1.21.1-neoforge.jar": {
-    "jarName": "lootr_liason-1.2.1+1.21.1-neoforge.jar",
+  "lootr_liason-1.2-neoforge.jar": {
+    "jarName": "lootr_liason-1.2-neoforge.jar",
     "modId": "lootr_liason",
     "name": "Lootr Liason",
-    "version": "1.2.1-neoforge",
-    "curseForgeHash": 4168553852,
-    "modrinthHash": "0e829fd0392c734c48d9d092d067dea8440d786f"
+    "version": "1.2-neoforge",
+    "curseForgeHash": 334618940,
+    "modrinthHash": "321ef76417e824a4ddcc765046b1dd763754d157"
   },
   "lucidadvancements-neoforge-1.21-1.2.0.1.jar": {
     "jarName": "lucidadvancements-neoforge-1.21-1.2.0.1.jar",
@@ -4729,6 +4737,14 @@
     "version": "0.10.32",
     "curseForgeHash": 1285003033,
     "modrinthHash": "23bdc793fb18fc94ff40c7512caf7dd48b6fef68"
+  },
+  "sortedcreativetabs-1.0.1.jar": {
+    "jarName": "sortedcreativetabs-1.0.1.jar",
+    "modId": "sortedcreativetabs",
+    "name": "Sorted Creative Tabs",
+    "version": "1.0.1",
+    "curseForgeHash": 3664052310,
+    "modrinthHash": "c03cfc186cc8d4868bcdde023206f9b63edcd62e"
   },
   "sounds-2.4.22+lts+1.21.1-neoforge.jar": {
     "jarName": "sounds-2.4.22+lts+1.21.1-neoforge.jar",
