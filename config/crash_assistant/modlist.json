@@ -517,13 +517,13 @@
     "curseForgeHash": 1915201961,
     "modrinthHash": "e46e7cf5c4fc5f48d1b1ea025eb59c484811b2c6"
   },
-  "artifacts-neoforge-13.2.2.jar": {
-    "jarName": "artifacts-neoforge-13.2.2.jar",
+  "artifacts-neoforge-13.2.3.jar": {
+    "jarName": "artifacts-neoforge-13.2.3.jar",
     "modId": "artifacts",
     "name": "Artifacts",
-    "version": "13.2.2",
-    "curseForgeHash": 2272845637,
-    "modrinthHash": "11cc1db09015b52c94b0bc87a5359012b6840328"
+    "version": "13.2.3",
+    "curseForgeHash": 410661766,
+    "modrinthHash": "8247516201418bda17ef76d5ba02a3d71698477c"
   },
   "ascended_quark-1.21.1-1.1.7.jar": {
     "jarName": "ascended_quark-1.21.1-1.1.7.jar",
