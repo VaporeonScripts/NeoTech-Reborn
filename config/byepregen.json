@@ -1,9 +1,13 @@
 {
+  "debugDisableFeatures": false,
   "enablePlacedFeatureMixin": false,
   "enableFastTickChunks": false,
   "enableArenaPalette": false,
+  "enableDensityColumnCompiler": true,
   "enableServerRuntimeArenaPalette": false,
   "enableClientArenaPalette": false,
   "enableGcFreeWorldgenSave": true,
+  "retainChunkSavingBuffer": true,
+  "enableSurfaceRuleCompiler": true,
   "enableYALightEngine": false
 }

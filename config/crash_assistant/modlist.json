@@ -861,13 +861,13 @@
     "curseForgeHash": 290890848,
     "modrinthHash": "dd7920e114fbd066986ea1028aa201a5e0742875"
   },
-  "byepregen-1.0.10.2.jar": {
-    "jarName": "byepregen-1.0.10.2.jar",
+  "byepregen-1.1.0.jar": {
+    "jarName": "byepregen-1.1.0.jar",
     "modId": "byepregen",
     "name": "ByePregen",
-    "version": "1.0.10.2",
-    "curseForgeHash": 1485251181,
-    "modrinthHash": "10b2a8eb3bbb4af298ae636bfa50994fbe5bb63f"
+    "version": "1.1.0",
+    "curseForgeHash": 2633682074,
+    "modrinthHash": "3b4e8c8febd7f128cc40cb93b68536044c059607"
   },
   "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar": {
     "jarName": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
