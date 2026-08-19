@@ -49,7 +49,7 @@
   },
   "pixie": {
     "size": 5,
-    "maxPixiesPerVillage": 8,
+    "maxPixiesPerVillage": 7,
     "stealItems": false
   },
   "cyclops": {
