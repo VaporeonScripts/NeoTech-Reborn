@@ -29,3 +29,25 @@
 	massGauntletDamageCap = 1.7976931348623157E308
 	#Makes it so only default attacks will be boosted by mass gauntlet.
 	massGauntletOnlyMelee = false
+
+[Moodworm]
+	#Cooldown of Moodworm mood changes. Seconds.
+	# Default: 600
+	# Range: > 0
+	moodwormMoodChangeDuration = 600
+
+["Bionic Eye"]
+	#Level of applied Vulnerability by bionic eye. 0 means the first level.
+	# Default: 0
+	# Range: > 0
+	bionicVulLevel = 0
+	#Level of applied Vulnerability by bionic eye under cyberpsychosis. 0 means the first level.
+	# Default: 1
+	# Range: > 0
+	bionicIncreasedVulLevel = 1
+
+["Eject Button"]
+	#Percentage of health under which eject button will activate.
+	# Default: 20.0
+	# Range: 0.0 ~ 100.0
+	ejectButtonHealthPerch = 20.0

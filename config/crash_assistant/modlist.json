@@ -861,13 +861,13 @@
     "curseForgeHash": 290890848,
     "modrinthHash": "dd7920e114fbd066986ea1028aa201a5e0742875"
   },
-  "byepregen-1.1.0.jar": {
-    "jarName": "byepregen-1.1.0.jar",
+  "byepregen-1.1.0.1.jar": {
+    "jarName": "byepregen-1.1.0.1.jar",
     "modId": "byepregen",
     "name": "ByePregen",
-    "version": "1.1.0",
-    "curseForgeHash": 2633682074,
-    "modrinthHash": "3b4e8c8febd7f128cc40cb93b68536044c059607"
+    "version": "1.1.0.1",
+    "curseForgeHash": 913319395,
+    "modrinthHash": "9e7c3e490dd56321dc7e8806d8e42b4c6b916e40"
   },
   "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar": {
     "jarName": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.120.jar",
@@ -1685,13 +1685,13 @@
     "curseForgeHash": 3970152377,
     "modrinthHash": "d3fca102a9f5aeb108d5118665b86ead1dd30988"
   },
-  "enhanced_enchanting-2.0.8.2-neoforge-1.21.1.jar": {
-    "jarName": "enhanced_enchanting-2.0.8.2-neoforge-1.21.1.jar",
+  "enhanced_enchanting-2.0.10.0-neoforge-1.21.1.jar": {
+    "jarName": "enhanced_enchanting-2.0.10.0-neoforge-1.21.1.jar",
     "modId": "enhanced_enchanting",
     "name": "Enhanced Enchanting",
-    "version": "2.0.8.2",
-    "curseForgeHash": 4294643655,
-    "modrinthHash": "ae2c3c4d6eb68a50cffe676a582541ac1c876190"
+    "version": "2.0.10.0",
+    "curseForgeHash": 851864274,
+    "modrinthHash": "f79412ea501ce71989f9c390d2bd4d57d8b8cfd6"
   },
   "entityculling-neoforge-1.10.5-mc1.21.1.jar": {
     "jarName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
@@ -2021,13 +2021,13 @@
     "curseForgeHash": 3285114977,
     "modrinthHash": "a73014bef73680ffc6210c77fde685f32422dfd9"
   },
-  "fragmentum-neoforge-1.21.1-2.4.2.jar": {
-    "jarName": "fragmentum-neoforge-1.21.1-2.4.2.jar",
+  "fragmentum-neoforge-1.21.1-2.4.3.jar": {
+    "jarName": "fragmentum-neoforge-1.21.1-2.4.3.jar",
     "modId": "fragmentum",
     "name": "Fragmentum",
-    "version": "2.4.2",
-    "curseForgeHash": 3630015296,
-    "modrinthHash": "3c3e39b775e9322f73f9e55451736c6827c448d9"
+    "version": "2.4.3",
+    "curseForgeHash": 278845804,
+    "modrinthHash": "4ca5b9c1ba15b82061391c16bee8b0c8c8ffa7a2"
   },
   "FramedBlocks-10.6.1.jar": {
     "jarName": "FramedBlocks-10.6.1.jar",
@@ -2093,13 +2093,13 @@
     "curseForgeHash": 243616433,
     "modrinthHash": "9922fa358983120edeed22194bf02bcf9c859fbb"
   },
-  "ftb-quests-neoforge-2101.1.32.jar": {
-    "jarName": "ftb-quests-neoforge-2101.1.32.jar",
+  "ftb-quests-neoforge-2101.1.33.jar": {
+    "jarName": "ftb-quests-neoforge-2101.1.33.jar",
     "modId": "ftbquests",
     "name": "FTB Quests",
-    "version": "2101.1.32",
-    "curseForgeHash": 864845053,
-    "modrinthHash": "9710c0ff4506cad97af4f75b96738eb8cd369eed"
+    "version": "2101.1.33",
+    "curseForgeHash": 3843142229,
+    "modrinthHash": "e1a30e1c75f7d02d5cb5b6ffd76fff373730cad4"
   },
   "ftb-teams-neoforge-2101.1.10.jar": {
     "jarName": "ftb-teams-neoforge-2101.1.10.jar",
@@ -3634,13 +3634,13 @@
     "curseForgeHash": 1450799768,
     "modrinthHash": "f4dbb8c2307f3ff6ca31229068ea0243659a5c7e"
   },
-  "morerelics-1.7.6-1.21.1.jar": {
-    "jarName": "morerelics-1.7.6-1.21.1.jar",
+  "morerelics-1.7.7-1.21.1.jar": {
+    "jarName": "morerelics-1.7.7-1.21.1.jar",
     "modId": "morerelics",
     "name": "More Relics",
-    "version": "1.7.6",
-    "curseForgeHash": 3568656666,
-    "modrinthHash": "72b28be0732d61b0f04093a553034459ac6fc14d"
+    "version": "1.7.7",
+    "curseForgeHash": 1163810056,
+    "modrinthHash": "ba0c920bc7712d1ff85012327b26e1a808c648f6"
   },
   "MoreSnifferFlowers-1.21.1-neo-6.6.6.jar": {
     "jarName": "MoreSnifferFlowers-1.21.1-neo-6.6.6.jar",

@@ -382,7 +382,9 @@
     "com.wdiscute.starcatcher.tournament.StandScreen": true,
     "com.wdiscute.starcatcher.blocks.tacklebox.TackleBoxScreen": true,
     "org.confluence.terra_curio.client.gui.WorkshopScreen": true,
-    "net.mehvahdjukaar.supplementaries.client.screens.TrappedPresentScreen": true
+    "net.mehvahdjukaar.supplementaries.client.screens.TrappedPresentScreen": true,
+    "uk.co.extraspecialstudio.calml_the_leaks_ctl.client.gui.CtlMainPanelScreen": true,
+    "uk.co.extraspecialstudio.calml_the_leaks_ctl.client.gui.CtlLeakDetailScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
