@@ -381,7 +381,8 @@
     "com.mrcrayfish.furniture.refurbished.client.gui.screen.ElectricityGeneratorScreen": true,
     "com.wdiscute.starcatcher.tournament.StandScreen": true,
     "com.wdiscute.starcatcher.blocks.tacklebox.TackleBoxScreen": true,
-    "org.confluence.terra_curio.client.gui.WorkshopScreen": true
+    "org.confluence.terra_curio.client.gui.WorkshopScreen": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.TrappedPresentScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
@@ -587,6 +588,7 @@
     "com.mrcrayfish.furniture.refurbished.client.gui.screen.ElectricityGeneratorScreen": true,
     "com.wdiscute.starcatcher.tournament.StandScreen": true,
     "com.wdiscute.starcatcher.blocks.tacklebox.TackleBoxScreen": true,
-    "org.confluence.terra_curio.client.gui.WorkshopScreen": true
+    "org.confluence.terra_curio.client.gui.WorkshopScreen": true,
+    "net.mehvahdjukaar.supplementaries.client.screens.TrappedPresentScreen": true
   }
 }
