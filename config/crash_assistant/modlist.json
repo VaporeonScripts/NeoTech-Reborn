@@ -1690,8 +1690,8 @@
     "modId": "enhanced_enchanting",
     "name": "Enhanced Enchanting",
     "version": "2.0.10.0",
-    "curseForgeHash": 851864274,
-    "modrinthHash": "f79412ea501ce71989f9c390d2bd4d57d8b8cfd6"
+    "curseForgeHash": 165180845,
+    "modrinthHash": "796f71e92b469657cf702d5db72b0655e259e864"
   },
   "entityculling-neoforge-1.10.5-mc1.21.1.jar": {
     "jarName": "entityculling-neoforge-1.10.5-mc1.21.1.jar",
@@ -5354,13 +5354,13 @@
     "curseForgeHash": 2235005080,
     "modrinthHash": "5f8382ea90afaeb302a60e87e70a560a9329eabc"
   },
-  "YungsApi-1.21.1-NeoForge-5.1.6.jar": {
-    "jarName": "YungsApi-1.21.1-NeoForge-5.1.6.jar",
+  "YungsApi-1.21.1-NeoForge-5.1.7.jar": {
+    "jarName": "YungsApi-1.21.1-NeoForge-5.1.7.jar",
     "modId": "yungsapi",
     "name": "YUNG\u0027s API",
-    "version": "1.21.1-NeoForge-5.1.6",
-    "curseForgeHash": 3632489824,
-    "modrinthHash": "e1c394779fb9e038e4f7a1b4558d0432607d263b"
+    "version": "1.21.1-NeoForge-5.1.7",
+    "curseForgeHash": 2208956167,
+    "modrinthHash": "1c2e7b0d294690f9ed5e6627ba28182605543654"
   },
   "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar": {
     "jarName": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
