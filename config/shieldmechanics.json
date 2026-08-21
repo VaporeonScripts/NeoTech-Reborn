@@ -1,10 +1,10 @@
 {
   "hideinactiveshield": {
-    "desc:": "Should the shield in offhand be hidden while not blocking, default:false",
+    // Should the shield in offhand be hidden while not blocking, default:false
     "hideinactiveshield": true
   },
   "shields": {
-    "desc:": "List of shield items and their damage values. Start the game once to fill these entries with all modded shields automatically. Format: Shield name id;shield damage reduction on block; shield passive damage reduction when just held.E.g. default: [\"minecraft:shield;65;15\"] this give the minecraft shield 65% damage reduction on block, and 15% passive damage reduction when not blocking but held.To put multiple values seperate them by commas like this:  [\"minecraft:shield;65;15\", \"minecraft:shield;65;15\"] ",
+    // List of shield items and their damage values. Start the game once to fill these entries with all modded shields automatically. Format: Shield name id;shield damage reduction on block; shield passive damage reduction when just held.E.g. default: ["minecraft:shield;65;15"] this give the minecraft shield 65% damage reduction on block, and 15% passive damage reduction when not blocking but held.To put multiple values seperate them by commas like this:  ["minecraft:shield;65;15", "minecraft:shield;65;15"] 
     "shields": [
       "crystalcraft_unlimited_java:malachite_shield;73;12",
       "crystalcraft_unlimited_java:quicksilver_shield;35;8",
@@ -82,6 +82,7 @@
       "crystalcraft_unlimited_java:ikegamini_shield;69;17",
       "crystalcraft_unlimited_java:green_pearl_shield;72;13",
       "crystalcraft_unlimited_java:tigerseye_shield;70;12",
+      "crystalcraft_unlimited_java:gamma_shield;77;13",
       "crystalcraft_unlimited_java:yellow_pearl_shield;71;15",
       "crystalcraft_unlimited_java:goshenite_shield;73;10",
       "crystalcraft_unlimited_java:ametrine_shield;72;10",
@@ -89,6 +90,7 @@
       "crystalcraft_unlimited_java:soul_quartz_shield;73;11",
       "crystalcraft_unlimited_java:smoky_quartz_shield;66;15",
       "crystalcraft_unlimited_java:cadmium_shield;69;16",
+      "crystalcraft_unlimited_java:rhodochrosite_shield;71;12",
       "crystalcraft_unlimited_java:zirconium_shield;63;20",
       "crystalcraft_unlimited_java:raspberry_diamond_shield;75;10",
       "l2weaponry:utherium_plate_shield;72;19",
@@ -108,6 +110,7 @@
       "crystalcraft_unlimited_java:pink_pearl_shield;72;11",
       "l2weaponry:lightning_dragonsteel_round_shield;83;24",
       "crystalcraft_unlimited_java:angerite_shield;75;15",
+      "crystalcraft_unlimited_java:blue_john_fluorite_shield;71;15",
       "crystalcraft_unlimited_java:onyx_shield;68;15",
       "immersiveengineering:shield;78;10",
       "eternal_starlight:flowglaze_shield;70;16",
@@ -126,6 +129,7 @@
       "crystalcraft_unlimited_java:pink_star_sapphire_shield;73;18",
       "crystalcraft_unlimited_java:black_catseye_shield;68;14",
       "crystalcraft_unlimited_java:titanium_shield;76;13",
+      "crystalcraft_unlimited_java:moss_agate_shield;71;14",
       "eternal_starlight:glacite_shield;66;17",
       "crystalcraft_unlimited_java:sapphire_shield;71;12",
       "crystalcraft_unlimited_java:chalcanthite_shield;65;18",
@@ -136,8 +140,10 @@
       "cataclysm:black_steel_targe;73;12",
       "crystalcraft_unlimited_java:rare_tanzanite_shield;66;18",
       "crystalcraft_unlimited_java:humoranium_shield;69;21",
+      "crystalcraft_unlimited_java:shattuckite_shield;65;20",
       "crystalcraft_unlimited_java:fluorite_shield;74;10",
       "crystalcraft_unlimited_java:stellite_shield;79;12",
+      "crystalcraft_unlimited_java:chevron_amethyst_shield;75;14",
       "cataclysm:bulwark_of_the_flame;50;10",
       "crystalcraft_unlimited_java:brickerite_shield;75;11",
       "l2weaponry:poseidite_round_shield;72;18",
@@ -162,8 +168,10 @@
       "crystalcraft_unlimited_java:lead_shield;69;15",
       "crystalcraft_unlimited_java:rene_41_shield;73;19",
       "l2weaponry:sculkium_round_shield;83;13",
+      "crystalcraft_unlimited_java:wernerite_shield;67;16",
       "mekanismtools:osmium_shield;68;15",
       "crystalcraft_unlimited_java:rare_citrine_shield;68;18",
+      "crystalcraft_unlimited_java:aquamorganite_shield;70;16",
       "l2weaponry:iron_plate_shield;65;13",
       "l2weaponry:steeleaf_plate_shield;57;12",
       "crystalcraft_unlimited_java:cast_iron_shield;79;11",
@@ -194,6 +202,7 @@
       "crystalcraft_unlimited_java:amazonite_shield;75;11",
       "crystalcraft_unlimited_java:rhodonite_shield;71;12",
       "crystalcraft_unlimited_java:molybdenum_shield;67;19",
+      "crystalcraft_unlimited_java:mystic_topaz_shield;74;10",
       "crystalcraft_unlimited_java:neon_shield;78;11",
       "l2weaponry:eternium_round_shield;98;10",
       "l2weaponry:sculkium_plate_shield;82;12",
@@ -273,6 +282,7 @@
       "crystalcraft_unlimited_java:blue_catseye_shield;65;17",
       "mekanismtools:refined_obsidian_shield;77;17",
       "crystalcraft_unlimited_java:star_sapphire_shield;80;12",
+      "crystalcraft_unlimited_java:rainbow_fluorite_shield;76;18",
       "crystalcraft_unlimited_java:chloronium_shield;77;17",
       "crystalcraft_unlimited_java:peridot_shield;71;13",
       "crystalcraft_unlimited_java:antimony_shield;70;13",
@@ -302,6 +312,7 @@
       "crystalcraft_unlimited_java:blood_quartz_shield;72;11",
       "crystalcraft_unlimited_java:palladium_shield;75;10",
       "l2weaponry:ice_dragonsteel_plate_shield;91;14",
+      "crystalcraft_unlimited_java:rare_tourmaline_shield;70;13",
       "cataclysm:azure_sea_shield;67;14",
       "crystalcraft_unlimited_java:bismuth_shield;74;12",
       "crystalcraft_unlimited_java:pewter_shield;78;10",
@@ -340,23 +351,23 @@
     ]
   },
   "playerOnly": {
-    "desc:": "Should the mechanic changes only affect players, default:false",
+    // Should the mechanic changes only affect players, default:false
     "playerOnly": false
   },
   "blockCooldown": {
-    "desc:": "Shield block cooldown(players only), values are in ticks. 20 ticks = 1 sec, default = 5 ticks(0.25s)",
+    // Shield block cooldown(players only), values are in ticks. 20 ticks = 1 sec, default = 5 ticks(0.25s)
     "blockCooldown": 5
   },
   "maxblockdamagereduction": {
-    "desc:": "Maximum percent of damage allowed to be blocked. Default:85",
+    // Maximum percent of damage allowed to be blocked. Default:85
     "maxblockdamagereduction": 100
   },
   "maxpassivedamagereduction": {
-    "desc:": "Maximum percent of passive damage reduction while holding a shield(not blocking). Default:25",
+    // Maximum percent of passive damage reduction while holding a shield(not blocking). Default:25
     "maxpassivedamagereduction": 33
   },
   "debugLogging": {
-    "desc:": "Enables debug logging of block damage reduction. Default:false",
+    // Enables debug logging of block damage reduction. Default:false
     "debugLogging": false
   }
 }
