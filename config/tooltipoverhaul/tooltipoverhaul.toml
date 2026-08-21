@@ -222,7 +222,7 @@
 	# emerge, squash, card, shake.
 	# 
 	# Default: none
-	TOOLTIP_APPEAR_ANIMATION = "pop"
+	TOOLTIP_APPEAR_ANIMATION = "none"
 	# Duration (in seconds) of the tooltip appear/disappear animation. Lower values are snappier.
 	# 
 	# Default: 0.15000000596046448
