@@ -380,7 +380,8 @@
     "uk.co.extraspecialstudio.calml_the_leaks_ctl.client.gui.CtlLeakDetailScreen": true,
     "com.mrcrayfish.configured.client.screen.ActiveConfirmationScreen": true,
     "ironfurnaces.gui.furnaces.BlockMillionFurnaceScreen": true,
-    "dev.xylonity.tooltipoverhaul.client.screen.config.FrameEditorScreen": true
+    "dev.xylonity.tooltipoverhaul.client.screen.config.FrameEditorScreen": true,
+    "net.dndats.hackersandslashers.client.gui.HnSConfigScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
