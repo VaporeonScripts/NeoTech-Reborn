@@ -40,6 +40,8 @@
 	unbreakableSupremiumArmor = false
 	#Should resource crops need to be planted on their effective Farmland to grow?
 	requiresEffectiveFarmland = false
+	#Should Supremium & Awakened Supremium Armor be enchantable in an Enchanting Table?
+	enchantableSupremiumArmor = true
 
 #World generation options.
 [World]

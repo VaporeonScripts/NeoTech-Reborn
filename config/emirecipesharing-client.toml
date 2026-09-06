@@ -1,0 +1,2 @@
+#Whether shared recipes should appear in chat.
+showSharedRecipesInChat = true

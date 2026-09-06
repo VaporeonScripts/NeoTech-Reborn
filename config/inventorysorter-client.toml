@@ -1,0 +1,8 @@
+#Inventory sorter modules
+[modules]
+	#Wheel move module
+	wheelmovemodule = false
+	#Sorting module
+	sortingmodule = true
+	#Avoid conflicts with mousetweaks wheel moves
+	dodgemousetweaks = true

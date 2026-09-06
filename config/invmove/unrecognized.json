@@ -55,7 +55,6 @@
     "cn.leolezury.eternalstarlight.common.client.gui.screen.BookScreen": true,
     "cn.leolezury.eternalstarlight.common.client.gui.screen.CrestSelectionScreen": true,
     "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
-    "com.autovw.advancednetherite.client.screen.ConfigScreen": true,
     "com.jahirtrap.configlib.TXFConfig$ConfigScreen": true,
     "appeng.client.guidebook.screen.GuideScreen": true,
     "com.illusivesoulworks.spectrelib.config.client.screen.ModConfigSelectScreen": true,
@@ -163,7 +162,6 @@
     "net.blay09.mods.waystones.client.gui.screen.SharestoneSelectionScreen": true,
     "net.blay09.mods.waystones.client.gui.screen.WaystoneModifierScreen": true,
     "com.prefab.structures.gui.GuiHouseImproved": true,
-    "com.hypherionmc.pocketmachines.client.screen.PocketFurnaceScreen": true,
     "com.prefab.structures.gui.GuiHouse": true,
     "com.cazsius.solcarrot.client.gui.FoodBookScreen": true,
     "net.mde.dungeons.client.gui.InfostructiresScreen": true,
@@ -381,7 +379,8 @@
     "com.mrcrayfish.configured.client.screen.ActiveConfirmationScreen": true,
     "ironfurnaces.gui.furnaces.BlockMillionFurnaceScreen": true,
     "dev.xylonity.tooltipoverhaul.client.screen.config.FrameEditorScreen": true,
-    "net.dndats.hackersandslashers.client.gui.HnSConfigScreen": true
+    "net.dndats.hackersandslashers.client.gui.HnSConfigScreen": true,
+    "de.larsensmods.jeiworldgen.gui.BiomeListScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
@@ -462,7 +461,6 @@
     "me.desht.pneumaticcraft.client.gui.PressureChamberInterfaceScreen": true,
     "net.blay09.mods.waystones.client.gui.screen.SharestoneSelectionScreen": true,
     "net.blay09.mods.waystones.client.gui.screen.WaystoneModifierScreen": true,
-    "com.hypherionmc.pocketmachines.client.screen.PocketFurnaceScreen": true,
     "net.mde.dungeons.client.gui.InfostructiresScreen": true,
     "net.mde.dungeons.client.gui.CreeperforestinfoScreen": true,
     "com.nine.travelerscompass.client.screen.CompassScreen": true,

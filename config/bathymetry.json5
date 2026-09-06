@@ -1,0 +1,12 @@
+{
+  "smoothing_radius": 3,
+  "underwater_fog": false,
+  "deep_fog_distance": 0.5,
+  "deep_depth": 20,
+  "smooth_edges": true,
+  "shallow_tint": "#FFFFFF",
+  "deep_tint": "#6FC4F0",
+  "shallow_depth": 3,
+  "mod_enabled": true,
+  "intensity": 1.0
+}
