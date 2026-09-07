@@ -380,7 +380,9 @@
     "ironfurnaces.gui.furnaces.BlockMillionFurnaceScreen": true,
     "dev.xylonity.tooltipoverhaul.client.screen.config.FrameEditorScreen": true,
     "net.dndats.hackersandslashers.client.gui.HnSConfigScreen": true,
-    "de.larsensmods.jeiworldgen.gui.BiomeListScreen": true
+    "de.larsensmods.jeiworldgen.gui.BiomeListScreen": true,
+    "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigSelectScreen": true,
+    "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
