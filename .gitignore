@@ -1,6 +1,9 @@
 # Ars Nouveau search index cache (regenerated locally, machine-specific)
 config/ars_nouveau/search_index/
 
+# EMI worldgen cache (regenerated locally, machine-specific)
+config/jeiworldgen-*.dat
+
 # Backup files
 *.bak
 
