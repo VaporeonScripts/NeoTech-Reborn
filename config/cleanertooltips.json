@@ -14,7 +14,7 @@
   "attributeGap": 8,
   "innerGap": 3,
   "sharpnessFix": true,
-  "miningSpeed": true,
+  "miningSpeed": false,
   "durabilityEnabled": true,
   "durabilityMaximum": true,
   "hideWhenRepaired": true,
