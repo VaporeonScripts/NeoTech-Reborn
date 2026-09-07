@@ -1,26 +1,30 @@
 {
-  "general": {
-    "enabled": true,
-    "compareAttributes": true,
-    "comparisonArrow": true,
-    "sharpness": true,
-    "hiddenAttributesHint": true,
-    "miningSpeed": false,
-    "innerGap": 3,
-    "attributeGap": 8
-  },
-  "durability": {
-    "durabilityEnabled": true,
-    "durabilityPos": "BOTTOM",
-    "durabilityStyle": "DEFAULT",
-    "maximumDurability": true,
-    "durabilityColor": true
-  },
-  "advanced": {
-    "onlyCompareShared": false,
-    "groupDisplay": "ROWS",
-    "hintBlacklist": [
-      "minecraft:player.mining_efficiency"
-    ]
+  "iconsEnabled": true,
+  "comparisonEnabled": true,
+  "comparisonArrow": true,
+  "onlyCompareMutual": false,
+  "hintEnabled": true,
+  "customOrder": false,
+  "groupDisplay": "ROWS",
+  "attributeIdBlacklist": [],
+  "modifierIdBlacklist": [
+    "minecraft:enchantment.efficiency/mainhand",
+    "apotheosis:overworld/royalty_modifier_apothic_attributes.head_#"
+  ],
+  "attributeGap": 8,
+  "innerGap": 3,
+  "sharpnessFix": true,
+  "miningSpeed": true,
+  "durabilityEnabled": true,
+  "durabilityMaximum": true,
+  "hideWhenRepaired": true,
+  "durabilityPos": "BOTTOM",
+  "durabilityStyle": "DEFAULT",
+  "durabilityColor": true,
+  "colorMode": "DEFAULT",
+  "colorsStops": {
+    "100": 5635925,
+    "50": 16755200,
+    "15": 16733525
   }
 }
