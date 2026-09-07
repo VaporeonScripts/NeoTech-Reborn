@@ -102,7 +102,7 @@
 	#Renders a flame particle on top of held torches
 	torch_item_flame = false
 	#Gives the villager trade buttons the same look loom and stonecutter buttons have
-	villager_trade_buttons = true
+	villager_trade_buttons = false
 
 [sign]
 	#Gives signs a pixel consistent model and texture. Also affects other mods. This also makes them use a Block Model, making them render much much much faster than as block entities
