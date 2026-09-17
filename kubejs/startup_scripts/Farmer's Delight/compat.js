@@ -47,7 +47,6 @@ let stewsAndSoups = [
 "pamhc2foodextended:tomatosoupitem",
 "pamhc2foodextended:vegetablesoupitem",
 "pamhc2foodextended:wontonsoupitem",
-"starcatcher_delight:weather_soup",
 "the_bumblezone:bee_soup",
 "twilightforest:meef_stroganoff",
 "twilightforest:moss_soup",
