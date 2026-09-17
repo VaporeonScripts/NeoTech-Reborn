@@ -1,10 +1,16 @@
 {
   "hideinactiveshield": {
-    // Should the shield in offhand be hidden while not blocking, default:false
+    // Should the shield in offhand be hidden while not blocking, 
+    // Default:false
     "hideinactiveshield": true
   },
+
   "shields": {
-    // List of shield items and their damage values. Start the game once to fill these entries with all modded shields automatically. Format: Shield name id;shield damage reduction on block; shield passive damage reduction when just held.E.g. default: ["minecraft:shield;65;15"] this give the minecraft shield 65% damage reduction on block, and 15% passive damage reduction when not blocking but held.To put multiple values seperate them by commas like this:  ["minecraft:shield;65;15", "minecraft:shield;65;15"] 
+    // List of shield items and their damage values. Start the game once to fill these entries with all modded shields automatically.
+    // Format: Shield name id;shield damage reduction on block; shield passive damage reduction when just held. E.g. 
+    // Default: ["minecraft:shield;65;15"] this give the minecraft shield 65% damage reduction on block,
+    // and 15% passive damage reduction when not blocking but held.To put multiple values seperate them by commas like this:  ["minecraft:shield;65;15",
+    // "minecraft:shield;65;15"] 
     "shields": [
       "crystalcraft_unlimited_java:malachite_shield;73;12",
       "crystalcraft_unlimited_java:quicksilver_shield;35;8",
@@ -250,6 +256,7 @@
       "crystalcraft_unlimited_java:ikegamium_shield;74;10",
       "block_factorys_bosses:enhanced_shield;72;10",
       "crystalcraft_unlimited_java:neptunium_shield;77;17",
+      "artifacts:umbrella;50;10",
       "crystalcraft_unlimited_java:shadow_diamond_shield;82;11",
       "crystalcraft_unlimited_java:rhodium_shield;64;18",
       "crystalcraft_unlimited_java:citrine_shield;61;20",
@@ -350,24 +357,34 @@
       "crystalcraft_unlimited_java:zircon_shield_5;75;11"
     ]
   },
+
   "playerOnly": {
-    // Should the mechanic changes only affect players, default:false
+    // Should the mechanic changes only affect players, 
+    // Default:false
     "playerOnly": false
   },
+
   "blockCooldown": {
-    // Shield block cooldown(players only), values are in ticks. 20 ticks = 1 sec, default = 5 ticks(0.25s)
+    // Shield block cooldown(players only), values are in ticks. 20 ticks = 1 sec, 
+    // Default = 5 ticks(0.25s)
     "blockCooldown": 5
   },
+
   "maxblockdamagereduction": {
-    // Maximum percent of damage allowed to be blocked. Default:85
+    // Maximum percent of damage allowed to be blocked. 
+    // Default:85
     "maxblockdamagereduction": 100
   },
+
   "maxpassivedamagereduction": {
-    // Maximum percent of passive damage reduction while holding a shield(not blocking). Default:25
+    // Maximum percent of passive damage reduction while holding a shield(not blocking). 
+    // Default:25
     "maxpassivedamagereduction": 33
   },
+
   "debugLogging": {
-    // Enables debug logging of block damage reduction. Default:false
+    // Enables debug logging of block damage reduction. 
+    // Default:false
     "debugLogging": false
   }
 }

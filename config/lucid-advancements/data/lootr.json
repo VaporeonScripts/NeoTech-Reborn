@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "lootr:root",
-      "title": "Lootr",
-      "description": "It belongs in a museum! Bring instanced loot to your world.",
+      "title": "lootr.advancements.root.title",
+      "description": "lootr.advancements.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:chest"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

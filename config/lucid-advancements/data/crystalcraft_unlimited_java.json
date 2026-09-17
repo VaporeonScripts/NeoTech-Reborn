@@ -4,13 +4,14 @@
     {
       "id": "recipe_unlock",
       "advancement_root": "crystalcraft_unlimited_java:recipe_unlock",
-      "title": "Crystalcraft Unlimited",
-      "description": "Unlocks All Recipes Upon World Creation",
+      "title": "advancements.recipe_unlock.title",
+      "description": "advancements.recipe_unlock.descr",
       "icon": {
         "type": "item",
         "value": "crystalcraft_unlimited_java:galaxite_blade"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

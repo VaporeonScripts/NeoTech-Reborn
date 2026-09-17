@@ -10,7 +10,8 @@
         "type": "item",
         "value": "minecraft:mossy_stone_bricks"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     },
     {
       "id": "end_structures",
@@ -21,7 +22,8 @@
         "type": "item",
         "value": "minecraft:purpur_block"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     },
     {
       "id": "nether_structures",
@@ -32,7 +34,8 @@
         "type": "item",
         "value": "minecraft:nether_bricks"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     }
   ]
 }

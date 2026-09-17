@@ -4,13 +4,14 @@
     {
       "id": "story/root",
       "advancement_root": "darkerdepths:story/root",
-      "title": "Darker Depths",
-      "description": "Thank you for installing Darker Depths!",
+      "title": "advancements.darkerdepths.parent.title",
+      "description": "advancements.darkerdepths.parent.description",
       "icon": {
         "type": "item",
         "value": "darkerdepths:glowshroom"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

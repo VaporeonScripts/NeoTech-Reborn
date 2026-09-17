@@ -17,6 +17,7 @@
     "failPerSecLimit": 5,
     "failBehavior": "RAISE_CRASH",
     "suppressCME": false,
+    "syncAnimationClasses": [],
     "syncParticleClasses": []
   },
   "rendering": {

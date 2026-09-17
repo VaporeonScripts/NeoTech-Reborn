@@ -4,13 +4,14 @@
     {
       "id": "guidebook",
       "advancement_root": "modern_industrialization:guidebook",
-      "title": "Modern Industrialization",
-      "description": "Welcome to Modern Industrialization! Make sure to check out the guidebook.",
+      "title": "text.modern_industrialization.ModernIndustrialization",
+      "description": "advancements.modern_industrialization.guidebook.description",
       "icon": {
         "type": "item",
         "value": "modern_industrialization:guidebook"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

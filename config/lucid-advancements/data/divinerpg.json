@@ -4,13 +4,14 @@
     {
       "id": "divine/root",
       "advancement_root": "divinerpg:divine/root",
-      "title": "DivineRPG",
-      "description": "The journey begins...",
+      "title": "advancement.divinerpg.divine.root",
+      "description": "advancement.divinerpg.divine.root.desc",
       "icon": {
         "type": "item",
         "value": "divinerpg:rupee_shickaxe"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     },
     {
       "id": "twilight/root",
@@ -21,7 +22,8 @@
         "type": "item",
         "value": "divinerpg:divine_rock"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     },
     {
       "id": "iceika/root",
@@ -32,7 +34,8 @@
         "type": "item",
         "value": "divinerpg:snow_globe"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     },
     {
       "id": "vethea/root",
@@ -43,7 +46,8 @@
         "type": "item",
         "value": "divinerpg:dream_grass"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     },
     {
       "id": "arcana/root",
@@ -54,7 +58,8 @@
         "type": "item",
         "value": "divinerpg:arcana_portal_frame"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     }
   ]
 }

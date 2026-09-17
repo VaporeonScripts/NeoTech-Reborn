@@ -60,6 +60,11 @@
         # Lets compiled density columns read NoiseChunk flat-cache values directly.
         # When disabled, density functions are evaluated through their standard compute method.
         flat-cache-access = "Default"
+        # Default: True
+        # Removes the internal lock of PalettedContainer, whose acquire/release bookkeeping is redundant
+        # If you installed Lithium and disabled its chunk.no_locking option, disable this option too;
+        # otherwise the two sides would disagree about whether palette locking is still required.
+        palette-lock = "Default"
 
 # Dedicated and integrated server optimizations.
 [server]

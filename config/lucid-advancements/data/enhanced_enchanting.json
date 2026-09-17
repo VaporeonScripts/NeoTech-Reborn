@@ -4,13 +4,14 @@
     {
       "id": "enhanced_enchanting_advancement",
       "advancement_root": "enhanced_enchanting:enhanced_enchanting_advancement",
-      "title": "Enhanced Enchanting",
-      "description": "Welcome to Enhanced Enchanting !",
+      "title": "advancements.enhanced_enchanting_advancement.title",
+      "description": "advancements.enhanced_enchanting_advancement.descr",
       "icon": {
         "type": "item",
         "value": "minecraft:bookshelf"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

@@ -4,13 +4,14 @@
     {
       "id": "main/welcome_to_gensokyo",
       "advancement_root": "youkaisfeasts:main/welcome_to_gensokyo",
-      "title": "Gensokyo Delight",
-      "description": "Welcome To Gensokyo",
+      "title": "advancements.youkaisfeasts.main.welcome_to_gensokyo.title",
+      "description": "advancements.youkaisfeasts.main.welcome_to_gensokyo.description",
       "icon": {
         "type": "item",
         "value": "youkaisfeasts:black_tea_bag"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

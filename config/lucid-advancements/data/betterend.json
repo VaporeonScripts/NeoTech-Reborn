@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "betterend:root",
-      "title": "BetterEnd",
-      "description": "Enter a world that has a better End",
+      "title": "advancements.betterend.root.title",
+      "description": "advancements.betterend.root.description",
       "icon": {
         "type": "item",
         "value": "betterend:end_mycelium"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

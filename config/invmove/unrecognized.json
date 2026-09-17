@@ -382,7 +382,8 @@
     "net.dndats.hackersandslashers.client.gui.HnSConfigScreen": true,
     "de.larsensmods.jeiworldgen.gui.BiomeListScreen": true,
     "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigSelectScreen": true,
-    "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigScreen": true
+    "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigScreen": true,
+    "net.caffeinemc.mods.sodium.client.gui.VideoSettingsScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

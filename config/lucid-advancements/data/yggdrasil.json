@@ -4,13 +4,14 @@
     {
       "id": "explore/root",
       "advancement_root": "yggdrasil:explore/root",
-      "title": "Yggdrasil",
-      "description": "Explore the nine realms of Yggdrasil",
+      "title": "advancement.yggdrasil.explore.root.title",
+      "description": "advancement.yggdrasil.explore.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:cherry_sapling"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

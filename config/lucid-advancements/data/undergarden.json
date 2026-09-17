@@ -4,13 +4,14 @@
     {
       "id": "undergarden/root",
       "advancement_root": "undergarden:undergarden/root",
-      "title": "The Undergarden",
+      "title": "advancement.undergarden.root.title",
       "description": "",
       "icon": {
         "type": "item",
         "value": "undergarden:deepturf_block"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

@@ -22,7 +22,8 @@
     "upside_down_forest": true,
     "upside_down_forest_cleared": true,
     "wart_forest": true,
-    "wart_forest_edge": true
+    "wart_forest_edge": true,
+    "gloomwood": true
   },
-  "modify_version": "21.0.20"
+  "modify_version": "21.0.27"
 }

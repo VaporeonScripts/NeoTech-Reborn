@@ -10,7 +10,8 @@
         "type": "item",
         "value": "minecraft:filled_map"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

@@ -5,12 +5,13 @@
       "id": "root",
       "advancement_root": "simplymore:root",
       "title": "Simply More",
-      "description": "New runes have sprung!",
+      "description": "advancements.simplymore.root.description",
       "icon": {
         "type": "item",
         "value": "simplymore:runefused_carver"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

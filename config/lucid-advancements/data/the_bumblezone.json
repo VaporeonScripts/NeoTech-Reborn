@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "the_bumblezone:root",
-      "title": "The Bumblezone",
-      "description": "See the rest of the advancements to learn what to do with this mod!",
+      "title": "advancements.the_bumblezone.root.title",
+      "description": "advancements.the_bumblezone.root.description",
       "icon": {
         "type": "item",
         "value": "the_bumblezone:honeycomb_brood_block"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

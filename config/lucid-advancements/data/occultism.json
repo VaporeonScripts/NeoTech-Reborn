@@ -4,13 +4,14 @@
     {
       "id": "chalks/root",
       "advancement_root": "occultism:chalks/root",
-      "title": "Occultism: Chalks",
-      "description": "Colorful",
+      "title": "advancements.occultism.chalks.root.title",
+      "description": "advancements.occultism.chalks.root.description",
       "icon": {
         "type": "item",
         "value": "occultism:brush"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     },
     {
       "id": "occultism/familiar/root",
@@ -21,7 +22,8 @@
         "type": "item",
         "value": "occultism:pentacle_possess"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     }
   ]
 }

@@ -25,7 +25,9 @@
     "lush_smaragdant_cave": true,
     "empty_aurora_cave": true,
     "lush_aurora_cave": true,
-    "jade_cave": true
+    "jade_cave": true,
+    "flower_islets": true,
+    "waterfall_ponds": true
   },
-  "modify_version": "21.0.26"
+  "modify_version": "21.0.35"
 }

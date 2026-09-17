@@ -4,13 +4,14 @@
     {
       "id": "progression/root",
       "advancement_root": "apotheosis:progression/root",
-      "title": "Apothic World Tiers",
-      "description": "Milestones for unlocking World Tiers in Apotheosis.\nPress CTRL+T to open the select screen",
+      "title": "advancements.apotheosis.progression.root.title",
+      "description": "advancements.apotheosis.progression.root.desc",
       "icon": {
         "type": "item",
         "value": "apotheosis:boss_summoner"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

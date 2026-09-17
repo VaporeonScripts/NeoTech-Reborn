@@ -10,7 +10,8 @@
         "type": "item",
         "value": "minecraft:mossy_stone_bricks"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

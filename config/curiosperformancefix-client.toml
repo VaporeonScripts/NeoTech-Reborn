@@ -1,0 +1,8 @@
+#Use Curios Performance Fix's shared equipment snapshot instead of Curios' per-query tick cache for item/predicate lookups.
+replaceCuriosQueryCache = true
+#Reuse the shared Curios snapshot for Relics equipped-curio lookups when Relics is installed.
+optimizeRelics = true
+#Reuse the shared Curios snapshot for More Relics equipped-relic scans when More Relics is installed.
+optimizeMoreRelics = true
+#Skip Curios render-layer work for entities that have no renderable normal or cosmetic curios.
+optimizeRender = true

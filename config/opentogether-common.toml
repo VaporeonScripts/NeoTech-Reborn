@@ -1,0 +1,18 @@
+#Can doors open together with other blocks of the same kind surrounding them.
+#This applies to both manual interactions and using redstone.
+#Default Value: true
+#Requires Restart: World
+open_doors_together = true
+#Can trapdoors open together with other blocks of the same kind surrounding them.
+#This applies to both manual interactions and using redstone.
+#Default Value: true
+#Requires Restart: World
+open_trapdoors_together = true
+#Can fence gates open together with other blocks of the same kind surrounding them.
+#This applies to both manual interactions and using redstone.
+#Default Value: true
+#Requires Restart: World
+open_fence_gates_together = true
+#Can any kind of blocks open together with other blocks of the same kind surrounding them.
+#This serves as a global toggle and must be enabled in addition to the individual block types.
+open_any_blocks_together = true

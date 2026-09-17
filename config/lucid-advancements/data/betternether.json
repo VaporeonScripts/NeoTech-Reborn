@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "betternether:root",
-      "title": "BetterNether",
-      "description": "Enter a world that has a better Nether",
+      "title": "advancements.betternether.root.title",
+      "description": "advancements.betternether.root.description",
       "icon": {
         "type": "item",
         "value": "betternether:cincinnasite_lantern"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

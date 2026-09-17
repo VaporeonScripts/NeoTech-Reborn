@@ -4,13 +4,14 @@
     {
       "id": "iceandfire/root",
       "advancement_root": "iceandfire:iceandfire/root",
-      "title": "Ice and Fire",
-      "description": "Enter a world of magical creatures",
+      "title": "advancements.iceandfire.root.title",
+      "description": "advancements.iceandfire.root.description",
       "icon": {
         "type": "item",
         "value": "iceandfire:dragon_skull_fire"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

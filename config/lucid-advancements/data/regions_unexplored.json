@@ -4,13 +4,14 @@
     {
       "id": "parent",
       "advancement_root": "regions_unexplored:parent",
-      "title": "Regions Unexplored",
-      "description": "Discover the many biomes and explore the world!",
+      "title": "advancements.regions_unexplored.title",
+      "description": "advancements.regions_unexplored.description",
       "icon": {
         "type": "item",
         "value": "regions_unexplored:eucalyptus_sapling"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }
