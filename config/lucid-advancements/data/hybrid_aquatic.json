@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "hybrid_aquatic:root",
-      "title": "Hybrid Aquatic",
-      "description": "Discover an expanded world beneath the waves",
+      "title": "advancements.hybrid_aquatic.enter_water.title",
+      "description": "advancements.hybrid_aquatic.enter_water.description",
       "icon": {
         "type": "item",
         "value": "hybrid_aquatic:tuna"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

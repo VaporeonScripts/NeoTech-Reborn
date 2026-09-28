@@ -108,8 +108,8 @@
 #or want automatic Spark profiles when CTL escalates.
 #============================================================
 [debug]
-	#Log detailed CTL debug information to the server log. Default: false.
-	log_debug_details = false
 	#true: automatically trigger Spark profiling when leaks are detected.
 	#false: skip auto profiles (and related chat). Default: true.
-	auto_spark_profiling = true
+	auto_spark_profiling = false
+	#Log detailed CTL debug information to the server log. Default: false.
+	log_debug_details = false

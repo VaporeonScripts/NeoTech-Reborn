@@ -71,7 +71,7 @@
 		ftbChunksWormholePotion = true
 
 	[Compatibility.Waystones]
-		waystonesPylonNonCost = true
+		waystonesPylonNonCost = false
 
 	[GameEvent.SlimeRain]
 		# Default: 25

@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "apothic_spawners:root",
-      "title": "Apothic Spawners",
-      "description": "Collect a mob spawner using Silk Touch.",
+      "title": "advancements.apothic_spawners.spawner",
+      "description": "advancements.apothic_spawners.spawner.desc",
       "icon": {
         "type": "item",
         "value": "minecraft:spawner"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

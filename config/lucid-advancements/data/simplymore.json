@@ -8,7 +8,7 @@
       "description": "advancements.simplymore.root.description",
       "icon": {
         "type": "item",
-        "value": "simplymore:runefused_carver"
+        "value": "simplymore:reforming_remnant"
       },
       "enabled": true,
       "localized": true

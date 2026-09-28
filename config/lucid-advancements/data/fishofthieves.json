@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "fishofthieves:root",
-      "title": "Fish of Thieves",
-      "description": "Fishing and Hunting",
+      "title": "advancements.fishofthieves.root.title",
+      "description": "advancements.fishofthieves.root.description",
       "icon": {
         "type": "item",
         "value": "fishofthieves:splashtail"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

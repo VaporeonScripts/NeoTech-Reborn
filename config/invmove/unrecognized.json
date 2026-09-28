@@ -383,7 +383,8 @@
     "de.larsensmods.jeiworldgen.gui.BiomeListScreen": true,
     "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigSelectScreen": true,
     "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigScreen": true,
-    "net.caffeinemc.mods.sodium.client.gui.VideoSettingsScreen": true
+    "net.caffeinemc.mods.sodium.client.gui.VideoSettingsScreen": true,
+    "dev.xylonity.tooltipoverhaul.client.screen.config.EffectEditorScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

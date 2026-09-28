@@ -1,3 +1,4 @@
 {
-  "panel": "NONE"
+  "panel": "SYSTEM",
+  "systemSection": "CPU"
 }

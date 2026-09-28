@@ -10,7 +10,8 @@
         "type": "item",
         "value": "minecraft:map"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     },
     {
       "id": "end/root",
@@ -21,18 +22,20 @@
         "type": "item",
         "value": "minecraft:end_stone"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     },
     {
       "id": "story/root",
       "advancement_root": "minecraft:story/root",
-      "title": "§7Minecraft",
-      "description": "The heart and story of the game",
+      "title": "advancements.story.root.title",
+      "description": "advancements.story.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:grass_block"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     },
     {
       "id": "husbandry/root",
@@ -43,7 +46,8 @@
         "type": "item",
         "value": "minecraft:hay_block"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     },
     {
       "id": "nether/root",
@@ -54,7 +58,8 @@
         "type": "item",
         "value": "minecraft:red_nether_bricks"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": false
     }
   ]
 }
