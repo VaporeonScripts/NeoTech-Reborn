@@ -1,0 +1,17 @@
+{
+  "mod_id": "integrated_villages",
+  "categories": [
+    {
+      "id": "integrated_villages_root",
+      "advancement_root": "integrated_villages:integrated_villages_root",
+      "title": "Integrated Villages",
+      "description": "Start exploring for villages!",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:filled_map"
+      },
+      "enabled": true,
+      "localized": true
+    }
+  ]
+}
