@@ -1,0 +1,41 @@
+#============================================================
+#MIMICS (ARTIFACTS)
+#Compatibility with the Artifacts mod mimic chests.
+#When Artifacts is absent these options do nothing.
+#============================================================
+[mimics]
+	#Enable mimic compatibility for the Artifacts mod.
+	#Default: true.
+	enable_artifacts_mimic_compat = true
+	#When to roll for a mimic: "finalization" or "first_interact".
+	#Default: finalization.
+	mimic_roll_timing = "finalization"
+	#Container block ids excluded from mimic rolls.
+	#Example: minecraft:barrel. Default: minecraft:barrel only.
+	exclude_container_types = ["minecraft:barrel"]
+	#true: honour Artifacts' own mimic config when available.
+	#Default: true.
+	respect_artifacts_config = true
+	#Max mimic evaluations per tick when using first_interact timing.
+	#Default: 8.
+	# Default: 8
+	# Range: 1 ~ 64
+	max_mimic_checks_per_tick = 8
+
+#============================================================
+#LOOTR FINALIZATION
+#How long Lootr Liaison waits after spotting a container before
+#finalizing it, and how many finalize per tick.
+#============================================================
+[general]
+	#----- START HERE: FINALIZATION -----
+	#Ticks to wait after detecting a container before finalizing
+	#(gives worldgen time to finish). Default: 20.
+	# Default: 20
+	# Range: 0 ~ 400
+	finalization_delay_ticks = 20
+	#Maximum containers to finalize per server tick.
+	#Default: 8.
+	# Default: 8
+	# Range: 1 ~ 64
+	max_finalizations_per_tick = 8
