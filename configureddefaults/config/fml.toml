@@ -21,6 +21,6 @@ disableOptimizedDFU = true
 #Skip specific GL versions, may help with buggy graphics card drivers
 earlyWindowSkipGLVersions = []
 #Max threads for early initialization parallelism,  -1 is based on processor count
-maxThreads = -1
+maxThreads = 1
 #Squir?
 earlyWindowSquir = false
