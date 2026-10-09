@@ -501,13 +501,13 @@ element {
 
 element {
   button_element_executable_block_identifier = 052e39da-e37a-4fe3-bbbb-333d95fcdcf7-1751652486577
-  [executable_action_instance:0db20ecf-95f1-48ef-bfc4-92a26bdb5cdf-1751654504082][action_type:openlink] = https://billing.kinetichosting.com/aff.php?aff=956
+  [executable_action_instance:0db20ecf-95f1-48ef-bfc4-92a26bdb5cdf-1751654504082][action_type:openlink] = https://www.kinetichosting.com/modpacks/neotech-reborn/order
   [executable_block:052e39da-e37a-4fe3-bbbb-333d95fcdcf7-1751652486577][type:generic] = [executables:0db20ecf-95f1-48ef-bfc4-92a26bdb5cdf-1751654504082;]
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = &3&lKinetic Hosting%n%&fQuality Hosting, For Low Prices!%n%&7billing.kinetichosting.com/aff.php?aff=956%n%&r%n%&724/7 Support &f| &7Mod Support%n%&f(Clicking will open your browser.)
+  description = &3&lKinetic Hosting%n%&fQuality Hosting, For Low Prices!%n%&7kinetichosting.com/modpacks/neotech-reborn/order%n%&r%n%&724/7 Support &f| &7Mod Support%n%&f(Clicking will open your browser.)
   label = Host a Server
   navigatable = true
   widget_active_state_requirement_container_identifier = fef3fc9d-59ad-461c-8824-f83a1afd62bb-1751652486577
