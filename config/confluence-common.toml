@@ -14,14 +14,64 @@
 	allowsVanillaEntitiesToPerformStageAttributes = false
 	enemyDropsMoney = true
 	dragonChargePlayer = true
+	stopAskForSoftcore = true
+
+	[Gameplay.MonsterAttributes]
+		#Apply these multipliers to vanilla and other mods' hostile mobs as well. Otherwise only Confluence enemies are affected. Bosses, summons and friendly creatures are excluded.
+		enhanceAllMonster = false
+		#Maximum health multiplier. Does not refill wounded enemies when reloaded.
+		# Default: 1.0
+		# Range: 0.0625 ~ 100.0
+		monsterAttributesMultiplierHealth = 1.0
+		#Attack damage attribute multiplier. Projectiles derived from that attribute inherit it once; independently configured projectile damage is unchanged.
+		# Default: 1.0
+		# Range: 0.0625 ~ 100.0
+		monsterAttributesMultiplierDamage = 1.0
+		#Armor multiplier. Multiplication cannot give armor to an enemy whose armor is zero.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		monsterAttributesMultiplierArmor = 1.0
+		#Armor toughness multiplier. Zero toughness remains zero.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		monsterAttributesMultiplierArmorToughness = 1.0
+		#Movement speed attribute multiplier; does not alter AI movement implemented with fixed velocities.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		monsterAttributesMultiplierMovementSpeed = 1.0
+		#Flying speed attribute multiplier; only affects enemies that use this attribute.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		monsterAttributesMultiplierFlyingSpeed = 1.0
+		#Knockback resistance multiplier, clamped by the attribute's own allowed range.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		monsterAttributesMultiplierKnockbackResistance = 1.0
+		#Follow range attribute multiplier; existing line-of-sight and AI-specific range checks still apply.
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		monsterAttributesMultiplierFollowRange = 1.0
+
+	[Gameplay.AutomaticWeaponUse]
+		autoSwingAllSwords = false
+		autoReleaseAllBows = false
+		autoFireAllGuns = false
+
+	[Gameplay.LightningBolt]
+		terraStyleLightningBolt = true
+		# Default: 10
+		# Range: 1 ~ 1000
+		terraStyleLightningBoltFrequencyMultiplier = 10
 
 [Recipe]
 	fletchingMenu = true
 	shimmerDecompose = true
 	altarTips = true
+	shimmerDecomposeFirstTagItem = false
 
 [Spawning]
 	doMeteoriteSpawning = true
+	spawnWithoutLight = true
 
 	[Spawning."Falling Star"]
 		doFallingStarSpawning = true
@@ -35,10 +85,20 @@
 		# Range: 20 ~ 20000
 		npcSpawnInterval = 6000
 		broadcastNpcMsg = true
+		npcAttackBlacklist = []
 
 	[Spawning.Boss]
 		eyeOfCthulhuNatureSpawning = true
 		deerclopsNatureSpawning = true
+		allowFleshBossesOutsideUnderworld = false
+		bossClearWhenNoTarget = true
+		kingSlimeLargeMinions = false
+		# Default: 1.0
+		# Range: 0.0625 ~ 10.0
+		bossAttributesMultiplierHealth = 1.0
+		# Default: 1.0
+		# Range: 0.0625 ~ 10.0
+		bossAttributesMultiplierDamage = 1.0
 
 [PlayerDeath]
 	showMoneyDrops = true
@@ -135,7 +195,7 @@
 		# Default: 16
 		# Range: 0 ~ 1024
 		goblinArmyEventRequiredPlayerArmor = 16
-		# Default: 60
+		# Default: 3
 		# Range: 1 ~ 1024
 		goblinArmyEventInvertChance = 60
 		# Default: 80
@@ -144,6 +204,15 @@
 		# Default: 40
 		# Range: 1 ~ 1024
 		goblinArmyEventRequiredKillCountPerPlayer = 40
+		# Default: 30
+		# Range: 1 ~ 1024
+		goblinArmyDefeatedEventInvertChance = 30
+		# Default: 3
+		# Range: 1 ~ 1024
+		goblinArmyHardmodeEventInvertChance = 3
+		# Default: 60
+		# Range: 1 ~ 1024
+		goblinArmyEventHardmodeDefeatedInvertChance = 60
 
 	[GameEvent.MeteorShower]
 		# Default: 3.0
