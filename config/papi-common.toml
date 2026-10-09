@@ -36,6 +36,11 @@
 					# Range: 0 ~ 5000000
 					minSizeBeforeClear = 10000
 
+		[leakFixes.minecraft.livingEntity]
+			#Minecraft: drop a living entity's expired last-damage source, which otherwise pins its attacker
+			#and that attacker's level until something reads it. Runs per living entity per tick.
+			expireLastDamageSource = true
+
 		[leakFixes.mods.emi]
 			#EMI: clear the recipe-view history on respawn/dimension change so it stops retaining referenced item stacks.
 			clearHistoryOnRespawn = true
@@ -63,6 +68,9 @@
 			#10 minutes after access, but Guava only evicts on a later cache operation, so leaving a world strands
 			#every storage wrapper (and its backing inventory) until you load another world.
 			clearStorageWrappersOnWorldUnload = true
+			#SophisticatedCore: with CraftingTweaks installed, re-register the crafting UI part on world change
+			#so its singleton stops holding the storage screen, menu, player and level you left behind.
+			resetCraftingUiOnWorldChange = true
 
 		[leakFixes.mods.entityTextureFeatures]
 			#Entity Texture Features: release the player-texture state held across a respawn/dimension change.

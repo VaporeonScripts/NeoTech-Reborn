@@ -384,7 +384,9 @@
     "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigSelectScreen": true,
     "net.mehvahdjukaar.moonlight.core.client.config.MoonlightConfigScreen": true,
     "net.caffeinemc.mods.sodium.client.gui.VideoSettingsScreen": true,
-    "dev.xylonity.tooltipoverhaul.client.screen.config.EffectEditorScreen": true
+    "dev.xylonity.tooltipoverhaul.client.screen.config.EffectEditorScreen": true,
+    "com.mrcrayfish.configured.client.screen.EditListScreen": true,
+    "org.confluence.mod.client.gui.AskForSoftcoreScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
@@ -590,6 +592,7 @@
     "com.wdiscute.starcatcher.blocks.tacklebox.TackleBoxScreen": true,
     "org.confluence.terra_curio.client.gui.WorkshopScreen": true,
     "net.mehvahdjukaar.supplementaries.client.screens.TrappedPresentScreen": true,
-    "ironfurnaces.gui.furnaces.BlockMillionFurnaceScreen": true
+    "ironfurnaces.gui.furnaces.BlockMillionFurnaceScreen": true,
+    "org.confluence.mod.client.gui.AskForSoftcoreScreen": true
   }
 }

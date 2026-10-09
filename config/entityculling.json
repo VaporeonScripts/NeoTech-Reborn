@@ -26,7 +26,6 @@
     "create:contraption",
     "create:stationary_contraption",
     "create:gantry_contraption",
-    "minecraft:boat",
     "mts:builder_seat",
     "minecraft:firework_rocket",
     "create:carriage_contraption",
@@ -67,7 +66,8 @@
     "createbigcannons:pitch_contraption",
     "minecraft:item_display",
     "cinematiccataclysm:ignis_cutscene",
-    "voidscape:corrupted_pawn"
+    "voidscape:corrupted_pawn",
+    "minecraft:boat"
   ],
   "disableF3": true,
   "skipEntityCulling": false,

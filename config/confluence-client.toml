@@ -45,20 +45,12 @@ minEctoMistEffectRadius = 10
 		#Allowed Values: LEGACY_HORIZONTAL, LEGACY_DIAGONAL, LEGACY_VERTICAL, OVERLAY
 		armorStyle = "OVERLAY"
 
-	[HUD.Boss]
-		#Allowed Values: VANILLA, STATIC, DYNAMIC
-		bossBarStyle = "STATIC"
-		#Show exact health values on custom boss bars.
-		bossBarNumbersVisible = true
-
 [Entity]
 	bloodyEffect = true
 	#Allowed Values: OFF, CONFLUENCE, CONFLUENCE_VANILLA, ALL
 	goreEffect = "ALL"
-	#Allowed Values: PARTICLE, VIRTUAL
-	damageIndicator = "VIRTUAL"
-	#Allowed Values: PARTICLE, VIRTUAL
-	healIndicator = "VIRTUAL"
+	damageIndicator = true
+	healIndicator = true
 
 [GUI]
 	achievementToast = true
@@ -67,33 +59,3 @@ minEctoMistEffectRadius = 10
 	# Default: 71
 	# Range: 0 ~ 1000
 	customTitle = 71
-	#显示武器自身的伤害和暴击率（保留词缀），不计玩家装备和效果加成；默认显示加成后的数值。
-	weaponTooltipBaseStats = false
-
-	[GUI.Soulcerer]
-		# Default: 270
-		# Range: 0 ~ 360
-		soulcererBackgroundHue = 270
-		# Default: 255
-		# Range: 0 ~ 255
-		soulcererBackgroundContrast = 255
-		soulcererBackgroundTree = true
-		soulcererBackgroundMagic = true
-
-	[Biome."The Hallow"]
-		# Default: 3
-		# Range: 0 ~ 20
-		rainbowCount = 3
-		rainbowGradient = false
-
-[WeaponInput]
-	#Allowed Values: LEFT, RIGHT
-	staffUseButton = "RIGHT"
-	#Allowed Values: LEFT, RIGHT
-	whipUseButton = "LEFT"
-	#Allowed Values: LEFT, RIGHT
-	yoyoUseButton = "LEFT"
-	#Allowed Values: LEFT, RIGHT
-	gunUseButton = "LEFT"
-	#Allowed Values: LEFT, RIGHT
-	flailUseButton = "LEFT"

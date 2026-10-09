@@ -1,0 +1,25 @@
+#Enable DataTip tooltips. Set to false to disable all custom tooltips.
+enabled = true
+#Default text color preset. Select CUSTOM to use default_color_value.
+#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, CUSTOM
+default_color = "GRAY"
+#Custom default text color. Supports #RRGGBB, #AARRGGBB, 0xAARRGGBB, or signed decimal ARGB.
+default_color_value = "#FFAAAAAA"
+#Default line height in pixels. Set to 0 to use the vanilla font line height.
+# Default: 0
+# Range: > 0
+default_line_height = 0
+#Tooltip width override in pixels. Set to 0 to use the content's natural width.
+# Default: 0
+# Range: > 0
+max_width = 0
+#Shift hint color preset. Select CUSTOM to use shift_hint_color_value.
+#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, CUSTOM
+shift_hint_color = "CUSTOM"
+#Custom Shift hint color. Supports #RRGGBB, #AARRGGBB, 0xAARRGGBB, or signed decimal ARGB.
+shift_hint_color_value = "#FF888888"
+#Scroll hint color preset. Select CUSTOM to use scroll_hint_color_value.
+#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, CUSTOM
+scroll_hint_color = "CUSTOM"
+#Custom scroll hint color. Supports #RRGGBB, #AARRGGBB, 0xAARRGGBB, or signed decimal ARGB.
+scroll_hint_color_value = "#FF888888"
