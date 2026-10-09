@@ -3,7 +3,13 @@ ServerEvents.tags('item', e => {
     const knives = [
         'ae2:certus_quartz_cutting_knife',
         'ae2:nether_quartz_cutting_knife',
-        'refurbished_furniture:knife'
+        'refurbished_furniture:knife',
+        'dungeonsdelight:zanite_knife',
+        'dungeonsdelight:gravitite_knife',
+        'dungeonsdelight:ironwood_knife',
+        'dungeonsdelight:knightmetal_knife',
+        'dungeonsdelight:steeleaf_knife',
+        'dungeonsdelight:fiery_knife'
     ];
 
     e.add('c:tools/knives', knives);
