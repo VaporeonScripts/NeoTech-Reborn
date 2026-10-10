@@ -15,7 +15,7 @@ Minecraft 1.21.1 · NeoForge
 
 Want to host your own NeoTech Reborn server? Kinetic Hosting is my recommended host, optimized for modded servers.
 
-[![Kinetic Hosting](https://media.forgecdn.net/attachments/description/1118358/description_a68aa7a0-1c8c-47f7-8ff8-f46305cd4bf9.png)](https://billing.kinetichosting.com/aff.php?aff=956)
+[![Kinetic Hosting](https://media.forgecdn.net/attachments/description/1118358/description_a68aa7a0-1c8c-47f7-8ff8-f46305cd4bf9.png)]([https://billing.kinetichosting.com/aff.php?aff=956](https://www.kinetichosting.com/modpacks/neotech-reborn/order))
 
 ## Reporting issues
 
