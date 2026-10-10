@@ -44,6 +44,7 @@ scoreboard-teams:
   enable-collision: true
   invisible-nametags: false
   sorting-types:
+  - PLACEHOLDER_A_TO_Z:%condition:owner-sort%
   - GROUPS:owner,admin,mod,helper,builder,vip,default
   - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
@@ -164,7 +165,14 @@ placeholder-output-replacements:
     'yes': '&7| Vanished'
     'no': ''
 conditions:
+  owner-sort:
+    conditions:
+    - '%player%=KuroOnLinux'
+    true: '1'
+    false: '2'
   nick:
+    conditions:
+    - '%player%=%essentials_nickname%'
     conditions:
     - '%player%=%essentials_nickname%'
     true: '%player%'
@@ -196,7 +204,7 @@ mysql:
   password: password
   useSSL: true
 proxy-support:
-  enabled: true
+  enabled: false
   type: PLUGIN
   plugin:
     name: RedisBungee
