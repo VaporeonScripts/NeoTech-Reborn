@@ -36,6 +36,6 @@ testPerformance = false
 	#Messages logged by loggers with the specified names will be filtered out and not logged.
 	loggers = ["STDOUT"]
 	#Messages containing the specified substrings will be filtered out and not logged.
-	strings = ["Unable to find animation:", "[STDERR]", "[STDOUT]", "FileAlreadyExistsException"]
+	strings = ["Unable to find animation:", "[STDERR]", "[STDOUT]", "FileAlreadyExistsException", "Item must not be minecraft:air"]
 	#Messages that match the specified regexes will be filtered out and not logged.
 	regexes = []
