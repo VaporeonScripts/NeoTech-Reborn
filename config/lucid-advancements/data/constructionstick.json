@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "constructionstick:root",
-      "title": "Construction Sticks",
-      "description": "Making building easier",
+      "title": "advancement.constructionstick.root.title",
+      "description": "advancement.constructionstick.root.desc",
       "icon": {
         "type": "item",
         "value": "constructionstick:wooden_stick"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }
