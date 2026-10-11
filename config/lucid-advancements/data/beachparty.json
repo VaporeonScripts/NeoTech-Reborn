@@ -4,7 +4,7 @@
     {
       "id": "main/root",
       "advancement_root": "beachparty:main/root",
-      "title": "advancement.beachparty.root",
+      "title": "Beachparty",
       "description": "advancement.beachparty.root.desc",
       "icon": {
         "type": "item",
