@@ -1,0 +1,17 @@
+{
+  "mod_id": "spider_overhaul",
+  "categories": [
+    {
+      "id": "root",
+      "advancement_root": "spider_overhaul:root",
+      "title": "advancements.spider_overhaul.root.title",
+      "description": "advancements.spider_overhaul.root.description",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:string"
+      },
+      "enabled": true,
+      "localized": true
+    }
+  ]
+}
