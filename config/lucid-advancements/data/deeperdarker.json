@@ -5,12 +5,13 @@
       "id": "main/root",
       "advancement_root": "deeperdarker:main/root",
       "title": "Deeper and Darker",
-      "description": "You feel something pulling you towards the source...",
+      "description": "advancements.deeperdarker.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:sculk"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

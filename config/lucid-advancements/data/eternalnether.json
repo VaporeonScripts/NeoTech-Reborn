@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "eternalnether:root",
-      "title": "Eternal Nether",
-      "description": "Explore the Nether for new structures!",
+      "title": "advancements.eternalnether.root.title",
+      "description": "advancements.eternalnether.root.description",
       "icon": {
         "type": "item",
         "value": "eternalnether:chiseled_withered_blackstone"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

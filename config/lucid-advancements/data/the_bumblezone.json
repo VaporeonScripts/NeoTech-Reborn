@@ -4,7 +4,7 @@
     {
       "id": "root",
       "advancement_root": "the_bumblezone:root",
-      "title": "advancements.the_bumblezone.root.title",
+      "title": "The Bumblezone",
       "description": "advancements.the_bumblezone.root.description",
       "icon": {
         "type": "item",

@@ -5,12 +5,13 @@
       "id": "main/root",
       "advancement_root": "endrem:main/root",
       "title": "End Remastered",
-      "description": "Get Your First Eye",
+      "description": "advancements.main.root.description",
       "icon": {
         "type": "item",
         "value": "endrem:ancient_portal_frame"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

@@ -5,12 +5,13 @@
       "id": "root",
       "advancement_root": "actuallyadditions:root",
       "title": "Actually Additions",
-      "description": "Open an Actually Additions Manual",
+      "description": "achievement.actuallyadditions.openBooklet.desc",
       "icon": {
         "type": "item",
         "value": "actuallyadditions:booklet"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

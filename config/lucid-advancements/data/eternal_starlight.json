@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "eternal_starlight:root",
-      "title": "Eternal Starlight",
-      "description": "Explore the starlight dimension!",
+      "title": "advancements.eternal_starlight.root.title",
+      "description": "advancements.eternal_starlight.root.description",
       "icon": {
         "type": "item",
         "value": "eternal_starlight:lunar_log"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

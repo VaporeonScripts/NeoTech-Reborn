@@ -4,13 +4,14 @@
     {
       "id": "nether/root",
       "advancement_root": "netherex:nether/root",
-      "title": "NetherEx",
-      "description": "The Nether, But Hotter Than Ever.",
+      "title": "advancements.netherex.nether.enter_nether.title",
+      "description": "advancements.netherex.nether.enter_nether.description",
       "icon": {
         "type": "item",
         "value": "netherex:warped_nether_bricks"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

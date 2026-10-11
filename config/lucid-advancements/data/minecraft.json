@@ -16,14 +16,14 @@
     {
       "id": "end/root",
       "advancement_root": "minecraft:end/root",
-      "title": "§7The End",
-      "description": "Or the beginning?",
+      "title": "advancements.end.root.title",
+      "description": "advancements.end.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:end_stone"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     },
     {
       "id": "story/root",
@@ -52,14 +52,14 @@
     {
       "id": "nether/root",
       "advancement_root": "minecraft:nether/root",
-      "title": "§7Nether",
-      "description": "Bring summer clothes",
+      "title": "advancements.nether.root.title",
+      "description": "advancements.nether.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:red_nether_bricks"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     }
   ]
 }

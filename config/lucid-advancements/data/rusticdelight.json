@@ -4,13 +4,14 @@
     {
       "id": "main/root",
       "advancement_root": "rusticdelight:main/root",
-      "title": "Rustic Delight",
-      "description": "The comforts of home await.",
+      "title": "advancements.rusticdelight.root.title",
+      "description": "advancements.rusticdelight.root.description",
       "icon": {
         "type": "item",
         "value": "rusticdelight:wild_cotton"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

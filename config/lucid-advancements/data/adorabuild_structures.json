@@ -23,7 +23,7 @@
         "value": "minecraft:purpur_block"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     },
     {
       "id": "nether_structures",
@@ -35,7 +35,7 @@
         "value": "minecraft:nether_bricks"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     }
   ]
 }

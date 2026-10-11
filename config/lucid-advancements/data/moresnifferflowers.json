@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "moresnifferflowers:root",
-      "title": "More Sniffer Flowers",
-      "description": "Discover More Sniffer Flowers",
+      "title": "advancements.more_sniffer_flowers.any_seed",
+      "description": "advancements.more_sniffer_flowers.any_seed.desc",
       "icon": {
         "type": "item",
         "value": "minecraft:sniffer_egg"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

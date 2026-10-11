@@ -4,13 +4,14 @@
     {
       "id": "simplyswords",
       "advancement_root": "simplyswords:simplyswords",
-      "title": "Simply Swords",
-      "description": "Runic powers await you.",
+      "title": "advancements.simplyswords.root.title",
+      "description": "advancements.simplyswords.root.description",
       "icon": {
         "type": "item",
         "value": "simplyswords:runic_tablet"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

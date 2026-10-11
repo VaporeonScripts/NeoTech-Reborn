@@ -5,12 +5,13 @@
       "id": "root",
       "advancement_root": "pneumaticcraft:root",
       "title": "PneumaticCraft: Repressurized",
-      "description": "Throw Iron on the ground and create an explosion close to it.",
+      "description": "pneumaticcraft.advancement.root.desc",
       "icon": {
         "type": "item",
         "value": "pneumaticcraft:ingot_iron_compressed"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

@@ -4,13 +4,14 @@
     {
       "id": "irons_spellbooks/root",
       "advancement_root": "irons_spellbooks:irons_spellbooks/root",
-      "title": "Iron's Spells 'n Spellbooks",
-      "description": "There's more than meets the eye to this world...",
+      "title": "advancements.irons_spellbooks.root.title",
+      "description": "advancements.irons_spellbooks.root.description",
       "icon": {
         "type": "item",
         "value": "irons_spellbooks:gold_spell_book"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

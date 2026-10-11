@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "tide:root",
-      "title": "Tide",
-      "description": "Gotta catch 'em all",
+      "title": "advancements.tide.root.title",
+      "description": "advancements.tide.root.description",
       "icon": {
         "type": "item",
         "value": "tide:angelfish"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

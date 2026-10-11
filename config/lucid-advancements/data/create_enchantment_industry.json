@@ -5,12 +5,13 @@
       "id": "root",
       "advancement_root": "create_enchantment_industry:root",
       "title": "Create: Enchantment Industry",
-      "description": "Road to master enchanting begins",
+      "description": "advancement.create_enchantment_industry.root.desc",
       "icon": {
         "type": "item",
         "value": "create_enchantment_industry:experience_bucket"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

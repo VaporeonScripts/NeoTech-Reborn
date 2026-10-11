@@ -17,49 +17,49 @@
       "id": "twilight/root",
       "advancement_root": "divinerpg:twilight/root",
       "title": "DivineRPG: Twilight Dimensions",
-      "description": "Taste the rainbow",
+      "description": "advancement.divinerpg.twilight.root.desc",
       "icon": {
         "type": "item",
         "value": "divinerpg:divine_rock"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     },
     {
       "id": "iceika/root",
       "advancement_root": "divinerpg:iceika/root",
       "title": "DivineRPG: Iceika",
-      "description": "The frozen land",
+      "description": "advancement.divinerpg.iceika.root.desc",
       "icon": {
         "type": "item",
         "value": "divinerpg:snow_globe"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     },
     {
       "id": "vethea/root",
       "advancement_root": "divinerpg:vethea/root",
       "title": "DivineRPG: Vethea",
-      "description": "Dive into your dreams",
+      "description": "advancement.divinerpg.vethea.root.desc",
       "icon": {
         "type": "item",
         "value": "divinerpg:dream_grass"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     },
     {
       "id": "arcana/root",
       "advancement_root": "divinerpg:arcana/root",
       "title": "DivineRPG: Arcana",
-      "description": "What lies within?",
+      "description": "advancement.divinerpg.arcana.root.desc",
       "icon": {
         "type": "item",
         "value": "divinerpg:arcana_portal_frame"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     }
   ]
 }

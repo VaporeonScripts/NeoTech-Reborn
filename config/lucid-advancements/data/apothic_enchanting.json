@@ -5,12 +5,13 @@
       "id": "enchanter",
       "advancement_root": "apothic_enchanting:enchanter",
       "title": "Apothic Enchanting",
-      "description": "Obtain an enchanting table, and begin to unveil the mystery.",
+      "description": "advancements.apothic_enchanting.enchantment.desc",
       "icon": {
         "type": "item",
         "value": "minecraft:enchanting_table"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

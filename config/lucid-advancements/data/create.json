@@ -5,12 +5,13 @@
       "id": "root",
       "advancement_root": "create:root",
       "title": "Create",
-      "description": "Here Be Contraptions",
+      "description": "advancement.create.root.desc",
       "icon": {
         "type": "item",
         "value": "create:brass_hand"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

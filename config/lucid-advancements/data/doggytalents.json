@@ -5,12 +5,13 @@
       "id": "dtn_core/summon_dog",
       "advancement_root": "doggytalents:dtn_core/summon_dog",
       "title": "Doggy Talents Next",
-      "description": "Summon your first dog via the Doggy Charm.",
+      "description": "advancements.doggytalents.doggy_charm_summon.description",
       "icon": {
         "type": "item",
         "value": "doggytalents:doggy_charm"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

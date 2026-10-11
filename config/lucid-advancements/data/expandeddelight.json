@@ -10,7 +10,8 @@
         "type": "item",
         "value": "expandeddelight:juicer"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

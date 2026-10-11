@@ -5,12 +5,13 @@
       "id": "main/root",
       "advancement_root": "meadow:main/root",
       "title": "Meadow",
-      "description": "Thank you for downloading Meadow",
+      "description": "advancement.meadow.root.desc",
       "icon": {
         "type": "item",
         "value": "meadow:pine_sapling"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

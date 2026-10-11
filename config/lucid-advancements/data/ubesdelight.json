@@ -4,13 +4,14 @@
     {
       "id": "main/root",
       "advancement_root": "ubesdelight:main/root",
-      "title": "Ube's Delight",
-      "description": "Cuisine from the Phillipines!",
+      "title": "ubesdelight.advancement.root",
+      "description": "ubesdelight.advancement.root.desc",
       "icon": {
         "type": "item",
         "value": "ubesdelight:ube"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

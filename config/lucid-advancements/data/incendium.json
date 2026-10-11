@@ -10,7 +10,8 @@
         "type": "item",
         "value": "minecraft:crying_obsidian"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

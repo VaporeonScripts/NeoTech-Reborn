@@ -4,13 +4,14 @@
     {
       "id": "main/root",
       "advancement_root": "dungeonsdelight:main/root",
-      "title": "Dungeon's Delight",
-      "description": "A world of monsters await you!",
+      "title": "dungeonsdelight.advancement.root",
+      "description": "dungeonsdelight.advancement.root.desc",
       "icon": {
         "type": "item",
         "value": "dungeonsdelight:monster_pot"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

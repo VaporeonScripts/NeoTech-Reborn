@@ -5,12 +5,13 @@
       "id": "root",
       "advancement_root": "animal_pen:root",
       "title": "Animal Pens",
-      "description": "Getting started with animal pens",
+      "description": "advancements.animal_pen.root.description",
       "icon": {
         "type": "item",
         "value": "animal_pen:animal_pen_dark_oak"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

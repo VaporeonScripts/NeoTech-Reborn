@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "twilightforest:root",
-      "title": "Twilight Forest",
-      "description": "Enter the mysterious, magical woodlands: the Twilight Forest",
+      "title": "advancement.twilightforest.root",
+      "description": "advancement.twilightforest.root.desc",
       "icon": {
         "type": "item",
         "value": "twilightforest:twilight_portal_miniature_structure"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

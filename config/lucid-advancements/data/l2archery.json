@@ -4,7 +4,7 @@
     {
       "id": "archery/root",
       "advancement_root": "l2archery:archery/root",
-      "title": "advancements.l2archery.archery.root.title",
+      "title": "L2Archery",
       "description": "advancements.l2archery.archery.root.description",
       "icon": {
         "type": "item",

@@ -5,12 +5,13 @@
       "id": "why",
       "advancement_root": "luminousworld:why",
       "title": "Luminous: Overworld",
-      "description": "Consume bleach or something idk what you were thinking",
+      "description": "advancements.why.descr",
       "icon": {
         "type": "item",
         "value": "luminousworld:bleach"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }
