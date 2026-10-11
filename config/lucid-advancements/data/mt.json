@@ -10,7 +10,8 @@
         "type": "item",
         "value": "minecraft:barrel"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

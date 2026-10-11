@@ -1,0 +1,18 @@
+#Enable all EMI QuickIndex optimizations. Restart Minecraft after changes.
+enabled = true
+#Total search-index build threads, including EMI's existing worker. Range 1..4.
+# Default: 4
+# Range: 1 ~ 4
+threads = 4
+#Avoid rehashing recipe lookup tables during final conversion.
+recipeLookups = true
+#Reduce generated anvil enchanting examples. False restores all original anvil examples.
+representativeExamples = true
+#Keep one highest-level grindstone book example per enchantment. False restores all original book levels. Independent of the anvil toggle.
+grindstoneExamples = true
+#Target item examples per enchantment. Item coverage may exceed this target. Range 1..64.
+# Default: 4
+# Range: 1 ~ 64
+anvilExamplesPerEnchantment = 4
+#Log EMI reload-stage timings and representative example counts.
+diagnostics = true

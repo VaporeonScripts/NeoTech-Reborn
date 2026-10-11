@@ -386,7 +386,10 @@
     "net.caffeinemc.mods.sodium.client.gui.VideoSettingsScreen": true,
     "dev.xylonity.tooltipoverhaul.client.screen.config.EffectEditorScreen": true,
     "com.mrcrayfish.configured.client.screen.EditListScreen": true,
-    "org.confluence.mod.client.gui.AskForSoftcoreScreen": true
+    "org.confluence.mod.client.gui.AskForSoftcoreScreen": true,
+    "x.haider.prismpanel.ui.PrismPanelInfoScreen": true,
+    "com.niixlabs.printsmc.client.gui.screen.GalleryScreen": true,
+    "com.starskyxiii.collapsible_groups.compat.jei.manager.GroupManagerScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "enchantplus:root",
-      "title": "NeoEnchant+",
-      "description": "Discover a new power of enchantments",
+      "title": "advancement.enchantplus.title.root",
+      "description": "advancement.enchantplus.description.root",
       "icon": {
         "type": "item",
         "value": "minecraft:enchanting_table"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

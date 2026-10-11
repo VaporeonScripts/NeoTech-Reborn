@@ -4,14 +4,14 @@
     {
       "id": "adventure/root",
       "advancement_root": "minecraft:adventure/root",
-      "title": "§7Adventure",
-      "description": "Adventure, exploration and combat",
+      "title": "advancements.adventure.root.title",
+      "description": "advancements.adventure.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:map"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     },
     {
       "id": "end/root",
@@ -40,14 +40,14 @@
     {
       "id": "husbandry/root",
       "advancement_root": "minecraft:husbandry/root",
-      "title": "§7Husbandry",
-      "description": "The world is full of friends and food",
+      "title": "advancements.husbandry.root.title",
+      "description": "advancements.husbandry.root.description",
       "icon": {
         "type": "item",
         "value": "minecraft:hay_block"
       },
       "enabled": true,
-      "localized": false
+      "localized": true
     },
     {
       "id": "nether/root",

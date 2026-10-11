@@ -4,13 +4,14 @@
     {
       "id": "hostility/root",
       "advancement_root": "l2hostility:hostility/root",
-      "title": "L2Hostility",
-      "description": "Your survival guide",
+      "title": "advancements.l2hostility.hostility.root.title",
+      "description": "advancements.l2hostility.hostility.root.description",
       "icon": {
         "type": "item",
         "value": "l2hostility:teleport"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

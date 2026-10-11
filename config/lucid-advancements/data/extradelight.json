@@ -4,13 +4,14 @@
     {
       "id": "start",
       "advancement_root": "extradelight:start",
-      "title": "Extra Delight",
-      "description": "Feeling a little extra.",
+      "title": "extradelight.advancement.start.name",
+      "description": "extradelight.advancement.start.desc",
       "icon": {
         "type": "item",
         "value": "extradelight:wooden_spoon"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

@@ -4,13 +4,14 @@
     {
       "id": "archery/root",
       "advancement_root": "l2archery:archery/root",
-      "title": "L2Archery",
-      "description": "Explore the variety of bows and arrows",
+      "title": "advancements.l2archery.archery.root.title",
+      "description": "advancements.l2archery.archery.root.description",
       "icon": {
         "type": "item",
         "value": "l2archery:sun_bow"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

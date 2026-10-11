@@ -4,13 +4,14 @@
     {
       "id": "root",
       "advancement_root": "cataclysm:root",
-      "title": "Cataclysm",
-      "description": "Cataclysm!",
+      "title": "advancements.cataclysm.root.title",
+      "description": "advancements.cataclysm.root.description",
       "icon": {
         "type": "item",
         "value": "cataclysm:the_incinerator"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

@@ -4,13 +4,14 @@
     {
       "id": "main/root",
       "advancement_root": "farmersdelight:main/root",
-      "title": "Farmer's Delight",
-      "description": "A world of flavor awaits you!",
+      "title": "advancements.farmersdelight.root.title",
+      "description": "advancements.farmersdelight.root.description",
       "icon": {
         "type": "item",
         "value": "farmersdelight:cooking_pot"
       },
-      "enabled": true
+      "enabled": true,
+      "localized": true
     }
   ]
 }

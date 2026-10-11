@@ -1,0 +1,62 @@
+#Master switch for every GeckoLib Animation Optimizer feature.
+enabled = true
+
+[visibility_culling]
+	#Skip GeckoLib entity rendering when its expanded culling bounds are outside the camera frustum.
+	enabled = true
+	#Extra blocks added to every side of a GeckoLib entity's culling bounds.
+	# Default: 0.5
+	# Range: 0.0 ~ 64.0
+	boundsExpansion = 0.5
+	#Skip GeckoLib entity rendering and animation when opaque blocks fully hide it from the camera.
+	#Disabled by default because very large models can be incorrectly hidden.
+	#Glass, doors, trapdoors, fences, fence gates, liquids, and non-occluding blocks do not block visibility.
+	occlusionEnabled = false
+	#How often wall visibility is recalculated. Two ticks equals about 100 milliseconds.
+	# Default: 2
+	# Range: 1 ~ 20
+	occlusionCheckIntervalTicks = 2
+	#Extra block IDs that should never hide entities from the wall visibility optimizer.
+	#Use this list for modded transparent blocks that incorrectly report themselves as opaque.
+	#Example: modid:custom_glass
+	transparentBlocks = []
+
+[entity_filtering]
+	#Allow optimizations for non-player GeckoLib entities.
+	optimizeMobs = true
+	#Entity IDs that this mod never optimizes.
+	#The blacklist overrides the entity whitelist. Example: minecraft:zombie
+	entityBlacklist = []
+	#If empty, every non-blacklisted entity can be optimized.
+	#If it contains entries, only listed entities can be optimized. Example: minecraft:skeleton
+	entityWhitelist = []
+	#Allow optimizations for other players using GeckoLib rendering.
+	#Disabled by default. Your own player is always protected.
+	optimizeOtherPlayers = false
+	#Keep full rendering and full animation updates for boss-tagged or high-health entities.
+	preserveBossAnimations = true
+	#Living entities with at least this much maximum health are treated as bosses.
+	#Set to 0 to rely only on the boss entity tag and boss whitelist.
+	# Default: 150.0
+	# Range: 0.0 ~ 1000000.0
+	bossHealthThreshold = 150.0
+	#Entity IDs that are never protected as bosses.
+	#This overrides the boss whitelist, boss tag, and health threshold.
+	bossBlacklist = []
+	#Entity IDs that are always treated as bosses and keep full rendering and animation.
+	#This list works even when automatic boss protection is disabled.
+	bossWhitelist = []
+	#Keep full rendering and animation for the entity currently under the crosshair.
+	preserveLookedAtEntity = true
+
+[distance_animation_throttling]
+	#Reduce GeckoLib bone animation updates for distant entities.
+	enabled = true
+	#Entities farther than this distance use the far animation FPS limit.
+	# Default: 32.0
+	# Range: 1.0 ~ 1024.0
+	distanceThresholdBlocks = 32.0
+	#Maximum GeckoLib animation update rate beyond the distance threshold.
+	# Default: 20
+	# Range: 1 ~ 240
+	farAnimationFps = 20
