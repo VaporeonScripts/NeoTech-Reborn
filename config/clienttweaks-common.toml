@@ -40,7 +40,7 @@
 
 [rendering]
 	#This option will hide your shield unless you are holding a weapon.
-	hideShieldUnlessHoldingWeapon = true
+	hideShieldUnlessHoldingWeapon = false
 	#This option will hide your shield unless you are actively blocking.
 	hideShieldUnlessBlocking = false
 	#This option will hide your offhand item. It can be toggled via an optional key binding.
