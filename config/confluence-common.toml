@@ -102,13 +102,13 @@
 	[GameEvent.BloodMoon]
 		# Default: 30
 		# Range: 1 ~ 1024
-		bloodMoonEventMaxEnemiesBase = 30
+		bloodMoonEventMaxEnemiesBase = 20
 		# Default: 30
 		# Range: 1 ~ 1024
-		bloodMoonEventMaxEnemiesPerPlayer = 30
+		bloodMoonEventMaxEnemiesPerPlayer = 15
 		# Default: 1.5
 		# Range: 0.1 ~ 10.0
-		bloodMoonEventSpawnEnemiesIntervalFactor = 1.5
+		bloodMoonEventSpawnEnemiesIntervalFactor = 1.0
 		# Default: 24
 		# Range: 0 ~ 1024
 		bloodMoonEventRequiredPlayerMaxHealth = 40
