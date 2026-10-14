@@ -12,7 +12,7 @@
 	showCoords = true
 	#Show chunk/slime info line
 	showSubchunk = false
-	#Show local difficulty line
+	#Show local difficulty line (singleplayer only)
 	showLocalDifficulty = false
 	#Show entities count line
 	showEntities = true
@@ -50,10 +50,26 @@
 	showTargetEntity = false
 	#Append blockstate properties to the targeted block line
 	showTargetProperties = false
+	#Append 1% low FPS to the FPS line
+	showOnePercentLow = false
+	#Show the LSFG frame generation rate
+	showLsfg = true
+	#Show the GPU the game is rendering on
+	showGpu = true
+	#Show the CPU model and thread count
+	showCpu = true
+	#Show matching Nether / Overworld coordinates
+	showNetherCoords = false
+	#Show how many dropped items you can currently see: on screen and not
+	#hidden behind blocks.
+	showDroppedItems = true
+	#Add the total of dropped items nearby, seen or not: in your render distance in
+	#singleplayer, within the server's entity range in multiplayer.
+	showAllDroppedItems = true
 
 #Visual Settings
 [visuals]
-	#Color-code FPS and TPS values (green/yellow/red)
+	#Color-code FPS, TPS and Lag, and mark light red where mobs can spawn
 	colorIndicators = false
 	#Render text with shadow
 	textShadow = true
