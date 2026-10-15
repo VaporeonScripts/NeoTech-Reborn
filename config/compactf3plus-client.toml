@@ -101,3 +101,9 @@
 	# Default: 6
 	# Range: 0 ~ 200
 	hudOffsetY = 6
+
+#HUD Line Order
+[order]
+	#Top-to-bottom order of the HUD lines, as set in the Order tab. Empty means the
+	#default order; a line missing from the list keeps its default place.
+	lineOrder = ["fps", "system", "cpu", "gpu", "coords", "entities", "dropped_items", "session", "speed", "facing", "time", "light", "biome", "dimension"]
