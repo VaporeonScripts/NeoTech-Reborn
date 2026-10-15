@@ -1,0 +1,27 @@
+{
+  "detected": 1792082602341,
+  "previous": 1792072187616,
+  "mcOld": "1.21.1",
+  "mcNew": "1.21.1",
+  "modsAdded": [],
+  "modsRemoved": [],
+  "modsUpdated": [
+    {
+      "id": "enhanced_enchanting",
+      "name": "Enhanced Enchanting",
+      "oldVersion": "2.2.0.4",
+      "newVersion": "2.2.0.5"
+    },
+    {
+      "id": "neruina",
+      "name": "Neruina",
+      "oldVersion": "3.3.3",
+      "newVersion": "3.3.4"
+    }
+  ],
+  "itemsAdded": [],
+  "itemsRemoved": [],
+  "entitiesAdded": [],
+  "entitiesRemoved": [],
+  "seen": true
+}

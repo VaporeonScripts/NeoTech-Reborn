@@ -1,0 +1,9 @@
+{
+  "titleScreenButton": true,
+  "titleButtonX": 4,
+  "titleButtonY": 4,
+  "chatNotifications": true,
+  "toasts": true,
+  "trackModUpdates": true,
+  "hideRecipesForNewItems": true
+}
