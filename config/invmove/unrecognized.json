@@ -389,7 +389,8 @@
     "org.confluence.mod.client.gui.AskForSoftcoreScreen": true,
     "x.haider.prismpanel.ui.PrismPanelInfoScreen": true,
     "com.niixlabs.printsmc.client.gui.screen.GalleryScreen": true,
-    "com.starskyxiii.collapsible_groups.compat.jei.manager.GroupManagerScreen": true
+    "com.starskyxiii.collapsible_groups.compat.jei.manager.GroupManagerScreen": true,
+    "net.nikenmar.compactf3plus.screen.CompactF3PlusConfigScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

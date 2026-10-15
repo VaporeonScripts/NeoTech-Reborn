@@ -101,6 +101,7 @@ magmaFrostWalkerSteam = true
 magmaFrostWalkerSounds = true
 redstoneRailDustParticles = true
 itemEnchantedParticlesDisplayType = "GLYPHS"
+improvedWitherRoseParticles = true
 
 [sparks]
 removeVanillaCampfireSparks = true

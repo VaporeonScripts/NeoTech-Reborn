@@ -1,160 +1,276 @@
-removeSavannaAnimals = true
-removeSwampAnimals = true
-removeJungleAnimals = true
-removeForestAnimals = true
-addJungleAnimals = true
-spawnHazelnutBush = true
-spawnTermiteMound = true
-# Default: 8
-# Range: 0 ~ 1000
-scorpionSpawnWeight = 8
-# Default: 1
-# Range: 1 ~ 10
-scorpionMinGroupSize = 1
-# Default: 2
-# Range: 1 ~ 10
-scorpionMaxGroupSize = 2
-# Default: 12
-# Range: 0 ~ 1000
-lionSpawnWeight = 12
-# Default: 3
-# Range: 1 ~ 10
-lionMinGroupSize = 3
-# Default: 5
-# Range: 1 ~ 10
-lionMaxGroupSize = 5
-# Default: 11
-# Range: 0 ~ 1000
-beaverSpawnWeight = 11
-# Default: 2
-# Range: 1 ~ 10
-beaverMinGroupSize = 2
-# Default: 3
-# Range: 1 ~ 10
-beaverMaxGroupSize = 3
-# Default: 12
-# Range: 0 ~ 1000
-elephantSpawnWeight = 12
-# Default: 3
-# Range: 1 ~ 10
-elephantMinGroupSize = 3
-# Default: 5
-# Range: 1 ~ 10
-elephantMaxGroupSize = 5
-# Default: 10
-# Range: 0 ~ 1000
-hippoSpawnWeight = 10
-# Default: 3
-# Range: 1 ~ 10
-hippoMinGroupSize = 3
-# Default: 5
-# Range: 1 ~ 10
-hippoMaxGroupSize = 5
-# Default: 12
-# Range: 0 ~ 1000
-giraffeSpawnWeight = 12
-# Default: 2
-# Range: 1 ~ 10
-giraffeMinGroupSize = 2
-# Default: 4
-# Range: 1 ~ 10
-giraffeMaxGroupSize = 4
-# Default: 12
-# Range: 0 ~ 1000
-deerSpawnWeight = 12
-# Default: 2
-# Range: 1 ~ 10
-deerMinGroupSize = 2
-# Default: 4
-# Range: 1 ~ 10
-deerMaxGroupSize = 4
-# Default: 8
-# Range: 0 ~ 1000
-raccoonSpawnWeight = 8
-# Default: 2
-# Range: 1 ~ 10
-raccoonMinGroupSize = 2
-# Default: 3
-# Range: 1 ~ 10
-raccoonMaxGroupSize = 3
-# Default: 8
-# Range: 0 ~ 1000
-squirrelSpawnWeight = 8
-# Default: 2
-# Range: 1 ~ 10
-squirrelMinGroupSize = 2
-# Default: 2
-# Range: 1 ~ 10
-squirrelMaxGroupSize = 2
-# Default: 10
-# Range: 0 ~ 1000
-swiftFoxSpawnWeight = 10
-# Default: 2
-# Range: 1 ~ 10
-swiftFoxMinGroupSize = 2
-# Default: 4
-# Range: 1 ~ 10
-swiftFoxMaxGroupSize = 4
-# Default: 14
-# Range: 0 ~ 1000
-boarSpawnWeight = 14
-# Default: 4
-# Range: 1 ~ 10
-boarMinGroupSize = 4
-# Default: 5
-# Range: 1 ~ 10
-boarMaxGroupSize = 5
-# Default: 10
-# Range: 0 ~ 1000
-bisonSpawnWeight = 10
-# Default: 3
-# Range: 1 ~ 10
-bisonMinGroupSize = 3
-# Default: 5
-# Range: 1 ~ 10
-bisonMaxGroupSize = 5
-# Default: 12
-# Range: 0 ~ 1000
-turkeySpawnWeight = 12
-# Default: 3
-# Range: 1 ~ 10
-turkeyMinGroupSize = 3
-# Default: 5
-# Range: 1 ~ 10
-turkeyMaxGroupSize = 5
-# Default: 2
-# Range: 0 ~ 1000
-dogSpawnWeight = 2
-# Default: 1
-# Range: 1 ~ 10
-dogMinGroupSize = 1
-# Default: 1
-# Range: 1 ~ 10
-dogMaxGroupSize = 1
-# Default: 8
-# Range: 0 ~ 1000
-minisheepSpawnWeight = 8
-# Default: 2
-# Range: 1 ~ 10
-minisheepMinGroupSize = 2
-# Default: 4
-# Range: 1 ~ 10
-minisheepMaxGroupSize = 4
-# Default: 12
-# Range: 0 ~ 1000
-cassowarySpawnWeight = 12
-# Default: 3
-# Range: 1 ~ 10
-cassowaryMinGroupSize = 3
-# Default: 4
-# Range: 1 ~ 10
-cassowaryMaxGroupSize = 4
-# Default: 10
-# Range: 0 ~ 1000
-hedgehogSpawnWeight = 10
-# Default: 2
-# Range: 1 ~ 10
-hedgehogMinGroupSize = 2
-# Default: 4
-# Range: 1 ~ 10
-hedgehogMaxGroupSize = 4
+#Which vanilla animals and natural features appear in the world. Changes need a game restart.
+[World]
+	#Sheep, pigs, chickens and cows no longer spawn in savannas.
+	removeSavannaAnimals = true
+	#Sheep, pigs, chickens and cows no longer spawn in swamps.
+	removeSwampAnimals = true
+	#Pigs, chickens and cows no longer spawn in jungles.
+	removeJungleAnimals = true
+	#Pigs and chickens no longer spawn in forests.
+	removeForestAnimals = true
+	#Frogs spawn in jungles.
+	enableJungleFrogs = true
+	#Wild hazelnut bushes generate in the world.
+	enableHazelnutBushes = true
+	#Termite mounds generate in savannas.
+	enableTermiteMounds = true
+	#Hollow caches generate in plains and forests.
+	enableHollowCaches = true
+	#On average one termite mound attempt in this many chunks. Higher means rarer.
+	# Default: 36
+	# Range: 1 ~ 1000
+	termiteMoundRarity = 36
+	#On average one hollow cache in this many chunks. Higher means rarer.
+	# Default: 18
+	# Range: 1 ~ 1000
+	hollowCacheRarity = 18
+
+#How often and in which group sizes the animals spawn. Changes need a game restart.
+[Spawning]
+	#How often the scorpion spawns compared to other animals. 0 = never.
+	# Default: 8
+	# Range: 0 ~ 100
+	scorpionSpawnWeight = 8
+	#Smallest number of scorpions that spawn together.
+	# Default: 1
+	# Range: 1 ~ 10
+	scorpionMinGroupSize = 1
+	#Largest number of scorpions that spawn together.
+	# Default: 2
+	# Range: 1 ~ 10
+	scorpionMaxGroupSize = 2
+	#How often the giraffe spawns compared to other animals. 0 = never.
+	# Default: 13
+	# Range: 0 ~ 100
+	giraffeSpawnWeight = 13
+	#Smallest number of giraffes that spawn together.
+	# Default: 2
+	# Range: 1 ~ 10
+	giraffeMinGroupSize = 2
+	#Largest number of giraffes that spawn together.
+	# Default: 4
+	# Range: 1 ~ 10
+	giraffeMaxGroupSize = 4
+	#How often the deer spawns compared to other animals. 0 = never.
+	# Default: 13
+	# Range: 0 ~ 100
+	deerSpawnWeight = 13
+	#Smallest number of deer that spawn together.
+	# Default: 2
+	# Range: 1 ~ 10
+	deerMinGroupSize = 2
+	#Largest number of deer that spawn together.
+	# Default: 4
+	# Range: 1 ~ 10
+	deerMaxGroupSize = 4
+	#How often the raccoon spawns compared to other animals. 0 = never.
+	# Default: 12
+	# Range: 0 ~ 100
+	raccoonSpawnWeight = 12
+	#Smallest number of raccoons that spawn together.
+	# Default: 2
+	# Range: 1 ~ 10
+	raccoonMinGroupSize = 2
+	#Largest number of raccoons that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	raccoonMaxGroupSize = 3
+	#How often the squirrel spawns compared to other animals. 0 = never.
+	# Default: 10
+	# Range: 0 ~ 100
+	squirrelSpawnWeight = 10
+	#Smallest number of squirrels that spawn together.
+	# Default: 2
+	# Range: 1 ~ 10
+	squirrelMinGroupSize = 2
+	#Largest number of squirrels that spawn together.
+	# Default: 2
+	# Range: 1 ~ 10
+	squirrelMaxGroupSize = 2
+	#How often the swift fox spawns compared to other animals. 0 = never.
+	# Default: 12
+	# Range: 0 ~ 100
+	swiftFoxSpawnWeight = 12
+	#Smallest number of swift foxes that spawn together.
+	# Default: 2
+	# Range: 1 ~ 10
+	swiftFoxMinGroupSize = 2
+	#Largest number of swift foxes that spawn together.
+	# Default: 4
+	# Range: 1 ~ 10
+	swiftFoxMaxGroupSize = 4
+	#How often the boar spawns compared to other animals. 0 = never.
+	# Default: 14
+	# Range: 0 ~ 100
+	boarSpawnWeight = 14
+	#Smallest number of boars that spawn together.
+	# Default: 4
+	# Range: 1 ~ 10
+	boarMinGroupSize = 4
+	#Largest number of boars that spawn together.
+	# Default: 5
+	# Range: 1 ~ 10
+	boarMaxGroupSize = 5
+	#How often the bison spawns compared to other animals. 0 = never.
+	# Default: 14
+	# Range: 0 ~ 100
+	bisonSpawnWeight = 14
+	#Smallest number of bison that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	bisonMinGroupSize = 3
+	#Largest number of bison that spawn together.
+	# Default: 6
+	# Range: 1 ~ 10
+	bisonMaxGroupSize = 6
+	#How often the turkey spawns compared to other animals. 0 = never.
+	# Default: 12
+	# Range: 0 ~ 100
+	turkeySpawnWeight = 12
+	#Smallest number of turkeys that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	turkeyMinGroupSize = 3
+	#Largest number of turkeys that spawn together.
+	# Default: 5
+	# Range: 1 ~ 10
+	turkeyMaxGroupSize = 5
+	#How often the dog spawns compared to other animals. 0 = never.
+	# Default: 5
+	# Range: 0 ~ 100
+	dogSpawnWeight = 5
+	#Smallest number of dogs that spawn together.
+	# Default: 1
+	# Range: 1 ~ 10
+	dogMinGroupSize = 1
+	#Largest number of dogs that spawn together.
+	# Default: 1
+	# Range: 1 ~ 10
+	dogMaxGroupSize = 1
+	#How often the mini sheep spawns compared to other animals. 0 = never.
+	# Default: 13
+	# Range: 0 ~ 100
+	miniSheepSpawnWeight = 13
+	#Smallest number of mini sheep that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	miniSheepMinGroupSize = 3
+	#Largest number of mini sheep that spawn together.
+	# Default: 6
+	# Range: 1 ~ 10
+	miniSheepMaxGroupSize = 6
+	#How often the cassowary spawns compared to other animals. 0 = never.
+	# Default: 7
+	# Range: 0 ~ 100
+	cassowarySpawnWeight = 7
+	#Smallest number of cassowaries that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	cassowaryMinGroupSize = 3
+	#Largest number of cassowaries that spawn together.
+	# Default: 5
+	# Range: 1 ~ 10
+	cassowaryMaxGroupSize = 5
+	#How often the hedgehog spawns compared to other animals. 0 = never.
+	# Default: 13
+	# Range: 0 ~ 100
+	hedgehogSpawnWeight = 13
+	#Smallest number of hedgehogs that spawn together.
+	# Default: 1
+	# Range: 1 ~ 10
+	hedgehogMinGroupSize = 1
+	#Largest number of hedgehogs that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	hedgehogMaxGroupSize = 3
+	#How often the hippo spawns compared to other animals. 0 = never.
+	# Default: 14
+	# Range: 0 ~ 100
+	hippoSpawnWeight = 14
+	#Smallest number of hippos that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	hippoMinGroupSize = 3
+	#Largest number of hippos that spawn together.
+	# Default: 6
+	# Range: 1 ~ 10
+	hippoMaxGroupSize = 6
+	#How often the elephant spawns compared to other animals. 0 = never.
+	# Default: 10
+	# Range: 0 ~ 100
+	elephantSpawnWeight = 10
+	#Smallest number of elephants that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	elephantMinGroupSize = 3
+	#Largest number of elephants that spawn together.
+	# Default: 5
+	# Range: 1 ~ 10
+	elephantMaxGroupSize = 5
+	#How often the beaver spawns compared to other animals. 0 = never.
+	# Default: 11
+	# Range: 0 ~ 100
+	beaverSpawnWeight = 11
+	#Smallest number of beavers that spawn together.
+	# Default: 2
+	# Range: 1 ~ 10
+	beaverMinGroupSize = 2
+	#Largest number of beavers that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	beaverMaxGroupSize = 3
+	#How often the lion spawns compared to other animals. 0 = never.
+	# Default: 12
+	# Range: 0 ~ 100
+	lionSpawnWeight = 12
+	#Smallest number of lions that spawn together.
+	# Default: 3
+	# Range: 1 ~ 10
+	lionMinGroupSize = 3
+	#Largest number of lions that spawn together.
+	# Default: 5
+	# Range: 1 ~ 10
+	lionMaxGroupSize = 5
+
+#How animals behave in the world.
+[Animals]
+	#Termites eat logs near their mound. Also needs the mobGriefing game rule.
+	enableTermiteLogEating = true
+	#Beavers build dams from logs. Also needs the mobGriefing game rule.
+	enableBeaverDams = true
+	#Raccoons loot containers, steal eggs and nibble on crops.
+	enableRaccoonStealing = true
+	#Raccoons open and close doors.
+	enableRaccoonDoors = true
+	#Boars dig up grass while searching for food.
+	enableBoarRooting = true
+	#Tamed dogs dig burrows and bury bones in them.
+	enableDogDigging = true
+	#Trusting squirrels bring you gifts.
+	enableSquirrelGifts = true
+	#Angry bison charge at their target.
+	enableBisonCharge = true
+
+#Everything about the bounty board and its daily bounties.
+[Bounties]
+	#The bounty board can be used to take on bounties.
+	enableBountyBoard = true
+	#Lowest number of bounties offered each day.
+	# Default: 12
+	# Range: 1 ~ 32
+	bountyMinDaily = 12
+	#Highest number of bounties offered each day.
+	# Default: 16
+	# Range: 1 ~ 32
+	bountyMaxDaily = 16
+	#Multiplies the experience you get for bounties. 1.0 = normal, 2.0 = double, 0.0 = none.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	bountyExperienceMultiplier = 1.0
+
+#Everything that does not fit anywhere else.
+[Misc]
+	#Animals show icons above their head, like alert, question mark, sleeping or hearts.
+	enableEmoteParticles = true
+	#Blocks show small animations and particles, like swaying contracts on the Bounty Board, dust on Termite Mounds or dripping Rotten Logs.
+	animations = true

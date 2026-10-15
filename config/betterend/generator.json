@@ -48,10 +48,11 @@
         "y": 65,
         "z": 0
       }
-    }
+    },
+    "give_guide_book": true
   },
   "cosmetic": {
     "change_chorus_plant": true
   },
-  "modify_version": "21.0.26"
+  "modify_version": "21.0.37"
 }
