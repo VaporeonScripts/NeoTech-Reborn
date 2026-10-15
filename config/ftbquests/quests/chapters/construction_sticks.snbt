@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "construction_sticks"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "constructionstick:wooden_stick"
+	}
+	id: "5144471B0B60CAD5"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "740CA0BB081DB68C"
+		tasks: [{
+			id: "23E74FC1A87691E0"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

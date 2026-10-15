@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "10788EC10FFABF2A"
+	icon: {
+		id: "powah:uraninite"
+	}
+	id: "3AEE67EEE419CC6B"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "58B9C179438F6BA3"
+		tasks: [{
+			id: "361742C78965EE15"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

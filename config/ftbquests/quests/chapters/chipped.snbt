@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chipped"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "chipped:chisel"
+	}
+	id: "57553586229411BA"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "026FC31ABA2CD5DA"
+		tasks: [{
+			id: "5C5DF18148FE6C0C"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

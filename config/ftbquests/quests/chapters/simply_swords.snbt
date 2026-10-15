@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simply_swords"
+	group: "56A66C57DE55E953"
+	icon: {
+		id: "simplyswords:gold_sai"
+	}
+	id: "628CFF96901FD096"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "4B1457DFD1C35788"
+		tasks: [{
+			id: "07BACA13B95C24DC"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

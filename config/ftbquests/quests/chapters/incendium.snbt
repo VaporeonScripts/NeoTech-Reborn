@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "incendium"
+	group: "49288E17E9D90688"
+	icon: {
+		id: "minecraft:fire_charge"
+	}
+	id: "450BF5828B024B59"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "26D40F0FE4F4FF0B"
+		tasks: [{
+			id: "1CC922D90814C741"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

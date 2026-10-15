@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_storage"
+	group: "2401AD943A650627"
+	icon: {
+		components: {
+			"sophisticatedstorage:wood_type": "cherry"
+		}
+		id: "sophisticatedstorage:diamond_barrel"
+	}
+	id: "1DD06CDAAE292F70"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "3896EA4050742B0F"
+		tasks: [{
+			id: "21F1633FFE6605E3"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

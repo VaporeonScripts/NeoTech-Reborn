@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "10788EC10FFABF2A"
+	icon: {
+		components: {
+			"mekanism:energy": {
+				energy_containers: [L;1000000L]
+			}
+		}
+		id: "mekanism:atomic_disassembler"
+	}
+	id: "27BF3E699EF3C1C4"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "292A049C42029627"
+		tasks: [{
+			id: "3E090BE757FB4D87"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

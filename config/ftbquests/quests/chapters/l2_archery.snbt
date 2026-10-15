@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2_archery"
+	group: "56A66C57DE55E953"
+	icon: {
+		id: "l2archery:sun_bow"
+	}
+	id: "110EDAFFE4FD0295"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "2A68199F937A6738"
+		tasks: [{
+			id: "167C39F839A77D96"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

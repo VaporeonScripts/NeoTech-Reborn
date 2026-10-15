@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gateways_to_eternity"
+	group: "6B63167E1B82FEE2"
+	icon: {
+		components: {
+			"gateways:gateway": "apotheosis:endless_invader"
+		}
+		id: "gateways:gate_pearl"
+	}
+	id: "6C81966B31FE50B0"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "3B5646F6FDF402EB"
+		tasks: [{
+			id: "614AC445020B3466"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

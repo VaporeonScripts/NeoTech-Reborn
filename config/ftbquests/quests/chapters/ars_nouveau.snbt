@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "5BC1E3118B4BBBD9"
+	icon: {
+		id: "ars_nouveau:magebloom"
+	}
+	id: "2EB9F6203D4EE929"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "113E536A12D1FE5E"
+		tasks: [{
+			id: "0640F87F5CD291D9"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

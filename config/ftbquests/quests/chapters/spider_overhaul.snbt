@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spider_overhaul"
+	group: "6B63167E1B82FEE2"
+	icon: {
+		id: "spider_overhaul:bottle_of_spider_pollen"
+	}
+	id: "6A54061CE2A9F3AE"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "7DCD8D983E05F9E4"
+		tasks: [{
+			id: "60190A5A98EB5F59"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

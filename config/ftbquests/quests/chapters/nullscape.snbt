@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nullscape"
+	group: "49288E17E9D90688"
+	icon: {
+		id: "minecraft:ender_pearl"
+	}
+	id: "7E0F6C1F77802760"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "0C115D3DCD720CAE"
+		tasks: [{
+			id: "741ADC50A66B1DCA"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

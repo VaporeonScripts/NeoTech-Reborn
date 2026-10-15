@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "actually_additions"
+	group: "10788EC10FFABF2A"
+	icon: {
+		id: "actuallyadditions:black_quartz"
+	}
+	id: "5296633A880BBE10"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "2968FEE9CAE5ECFA"
+		tasks: [{
+			id: "14E12F494A51DC2E"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

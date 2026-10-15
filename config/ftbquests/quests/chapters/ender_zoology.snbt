@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_zoology"
+	group: "6B63167E1B82FEE2"
+	icon: {
+		id: "enderzoology:confusing_powder"
+	}
+	id: "4E72CBDE692BEC64"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "5319081C2EC86C50"
+		tasks: [{
+			id: "7F9AFF135F5FF6C1"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

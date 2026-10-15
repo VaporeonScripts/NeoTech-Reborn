@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "super_factory_manager"
+	group: "2401AD943A650627"
+	icon: {
+		id: "sfm:network_tool"
+	}
+	id: "52AAA12A97989B6C"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "3B58C219ECDAC0D7"
+		tasks: [{
+			id: "345950E87C817747"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

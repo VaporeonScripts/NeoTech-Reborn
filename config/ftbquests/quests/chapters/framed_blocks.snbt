@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "framed_blocks"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "framedblocks:framed_cube"
+	}
+	id: "30D2601528839A0A"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "2DA23C0F18EE5DBA"
+		tasks: [{
+			id: "4B762D8CAD857F8D"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "waystones"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "waystones:warp_stone"
+	}
+	id: "45EE43950FE6D15B"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "52E2B96B9F768E56"
+		tasks: [{
+			id: "4254097DA640FD1D"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

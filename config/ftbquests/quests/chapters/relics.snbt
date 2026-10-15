@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: "56A66C57DE55E953"
+	icon: {
+		components: {
+			"relics:data": {
+				abilities: {
+					abilities: {
+						rewind: {
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							stats: {
+								time: {
+									initialQuality: 1
+								}
+							}
+						}
+					}
+					synergies: { }
+				}
+				leveling: { }
+				statistic: { }
+			}
+		}
+		id: "relics:clot_of_time"
+	}
+	id: "775FD9662F4BD788"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "5F3DDF6D6F66C496"
+		tasks: [{
+			id: "787C4F3EA125EA34"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

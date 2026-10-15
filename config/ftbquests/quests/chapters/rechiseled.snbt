@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rechiseled"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "rechiseled:chisel"
+	}
+	id: "07D682CD2B67EF3C"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "73F1D97AF9D33D65"
+		tasks: [{
+			id: "67E9D9EC8A52AA2D"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
