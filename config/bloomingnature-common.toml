@@ -40,7 +40,7 @@
 
 [fog]
 	#Mist in damp and cold biomes, in the morning and when it rains
-	enabled = true
+	enabled = false
 	#Where the mist starts, in % of the render distance
 	# Default: 0
 	# Range: 0 ~ 100
