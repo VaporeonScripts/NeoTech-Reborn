@@ -14,3 +14,4 @@ crash-reports/
 config/spark/activity.json
 config/spark/tmp-client/
 config/sodium-fingerprint.json
+config/whatchanged/pack-snapshot.json
