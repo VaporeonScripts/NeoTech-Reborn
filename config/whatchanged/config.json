@@ -2,8 +2,37 @@
   "titleScreenButton": true,
   "titleButtonX": 4,
   "titleButtonY": 4,
-  "chatNotifications": true,
-  "toasts": true,
+  "chatNotifications": false,
+  "toasts": false,
   "trackModUpdates": true,
-  "hideRecipesForNewItems": true
+  "hideRecipesForNewItems": true,
+  "trackConfigs": true,
+  "notifyConfigChanges": false,
+  "configIgnore": [
+    "**/*.bak",
+    "**/*.old",
+    "**/*.tmp",
+    "**/*.lock",
+    "**/*.log",
+    "**/backups/**",
+    "**/backup/**",
+    "jei/world/**",
+    "jei/bookmarks.ini",
+    "**/*cache*",
+    "**/*history*"
+  ],
+  "configIgnoreKeys": [
+    "timestamp",
+    "lastcheck",
+    "last_check",
+    "lastupdate",
+    "last_update",
+    "lastlaunch",
+    "last_launch",
+    "lastplayed",
+    "last_played",
+    "lastseen",
+    "last_seen",
+    "lastrun"
+  ]
 }

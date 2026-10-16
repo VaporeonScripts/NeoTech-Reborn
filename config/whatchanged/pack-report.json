@@ -1,27 +1,31 @@
 {
-  "detected": 1792082602341,
-  "previous": 1792072187616,
+  "detected": 1792179662008,
+  "previous": 1792178749215,
   "mcOld": "1.21.1",
   "mcNew": "1.21.1",
   "modsAdded": [],
   "modsRemoved": [],
-  "modsUpdated": [
+  "modsUpdated": [],
+  "modsDowngraded": [],
+  "configs": [
     {
-      "id": "enhanced_enchanting",
-      "name": "Enhanced Enchanting",
-      "oldVersion": "2.2.0.4",
-      "newVersion": "2.2.0.5"
+      "path": "crash_assistant/modlist.json",
+      "mod": "Crash Assistant",
+      "kind": 0,
+      "keys": [],
+      "moreKeys": 0
     },
     {
-      "id": "neruina",
-      "name": "Neruina",
-      "oldVersion": "3.3.3",
-      "newVersion": "3.3.4"
+      "path": "ftbchunks-client.snbt",
+      "mod": "FTB Chunks",
+      "kind": 0,
+      "keys": [],
+      "moreKeys": 0
     }
   ],
   "itemsAdded": [],
   "itemsRemoved": [],
   "entitiesAdded": [],
   "entitiesRemoved": [],
-  "seen": true
+  "seen": false
 }
