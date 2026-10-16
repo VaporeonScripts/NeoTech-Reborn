@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "divine_rpg"
+	group: "49288E17E9D90688"
+	icon: {
+		id: "divinerpg:slowsprout"
+	}
+	id: "7AA36F06A5D9C6D2"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [{
+		id: "54704F03A61485EA"
+		tasks: [{
+			id: "3C8EDE57D87146F0"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

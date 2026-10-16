@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "illager_invasion"
+	group: "6B63167E1B82FEE2"
+	icon: {
+		id: "illagerinvasion:hallowed_gem"
+	}
+	id: "492AF8DFDF6159B0"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "0865F7360306A4FB"
+		tasks: [{
+			id: "36D059BF38B6557B"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

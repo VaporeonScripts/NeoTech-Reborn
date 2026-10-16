@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventurer_skills"
+	group: "56A66C57DE55E953"
+	icon: {
+		id: "minecraft:experience_bottle"
+	}
+	id: "03BEEA61B3EA3BE4"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "1ED2AA4068C17DA4"
+		tasks: [{
+			id: "5FB2521BBB1E1DD8"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

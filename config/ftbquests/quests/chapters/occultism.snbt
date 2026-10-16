@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occultism"
+	group: "5BC1E3118B4BBBD9"
+	icon: {
+		id: "occultism:vitality_compass"
+	}
+	id: "34B4F4D9D77AF9A6"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "6F99765373711A07"
+		tasks: [{
+			id: "1C536153E7DB10CC"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

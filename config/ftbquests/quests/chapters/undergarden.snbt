@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "undergarden"
+	group: "49288E17E9D90688"
+	icon: {
+		id: "undergarden:blood_globule"
+	}
+	id: "5ED6FD913EBA7CB4"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "3B671CC375F06724"
+		tasks: [{
+			id: "046B9B8236BB546A"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

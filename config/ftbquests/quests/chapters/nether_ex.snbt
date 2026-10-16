@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether_ex"
+	group: "49288E17E9D90688"
+	icon: {
+		id: "netherex:strider_bucket"
+	}
+	id: "620161054C5BA3D9"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "45051BB3EEA08C1A"
+		tasks: [{
+			id: "4694B380645A1DC1"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

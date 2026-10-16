@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_delight"
+	group: "5C913BC4F177E1BC"
+	icon: {
+		id: "farmersdelight:skillet"
+	}
+	id: "45980A04C426910D"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5CDAD0915C8B88A3"
+		tasks: [{
+			id: "269E650F9AB84D4E"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

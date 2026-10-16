@@ -1,0 +1,98 @@
+{
+	autofocus_id: "0FB941C49B31912E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "00_start_here"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "neotechreborn:textures/quests/pack_icon.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "157C96B65D357389"
+	images: [
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "27F6FC9DFB867457"
+			image: "neotechreborn:textures/quests/pack_icon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.42d
+			id: "2EE7102D4239A2FC"
+			image: "neotechreborn:textures/quests/pack_banner.png"
+			rotation: 0.0d
+			width: 22.0d
+			x: 6.0d
+			y: -5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "neotechreborn:textures/quests/pack_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0FB941C49B31912E"
+			size: 2.0d
+			tasks: [{
+				id: "09B2A9D972674E7D"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FB941C49B31912E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "fancytoasts:textures/gui/sprites/links/discord_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "367FFB447D28B83B"
+			tasks: [{
+				id: "440CB6B3417382DD"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FB941C49B31912E"]
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "5BD202341683BEAA"
+			tasks: [{
+				id: "656B747D3C264A6F"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FB941C49B31912E"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "6B902C0B6CE683CA"
+			tasks: [{
+				id: "4161F319EEBDDE5B"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+	]
+}

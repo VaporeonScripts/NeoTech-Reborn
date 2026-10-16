@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "5BC1E3118B4BBBD9"
+	icon: {
+		id: "irons_spellbooks:pyromancer_helmet"
+	}
+	id: "2C5453BFDA7ADD30"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "33C5E9FE23AA99BF"
+		tasks: [{
+			id: "70BA85582D1B3BAC"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "doggy_talents_next"
+	group: "6B63167E1B82FEE2"
+	icon: {
+		id: "doggytalents:kami_treat"
+	}
+	id: "6F68E84048C406E9"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "0D0B8C907AD9D56F"
+		tasks: [{
+			id: "5D01761936C98139"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

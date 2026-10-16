@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pipez"
+	group: "2401AD943A650627"
+	icon: {
+		id: "pipez:wrench"
+	}
+	id: "0DED3CA68A75EF53"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "2CBD4A0732FC13F3"
+		tasks: [{
+			id: "1593476A32AB287F"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

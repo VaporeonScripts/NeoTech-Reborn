@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creeper_overhaul"
+	group: "6B63167E1B82FEE2"
+	icon: {
+		id: "creeperoverhaul:tiny_cactus"
+	}
+	id: "494840E305705944"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "12B66D2B6AA2CBEC"
+		tasks: [{
+			id: "37ED92987BE97566"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

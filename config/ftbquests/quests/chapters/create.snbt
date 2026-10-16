@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "10788EC10FFABF2A"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "35154CFA0A780326"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "6C52D2F0CB0CC561"
+		tasks: [{
+			id: "04255A60438CEED9"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

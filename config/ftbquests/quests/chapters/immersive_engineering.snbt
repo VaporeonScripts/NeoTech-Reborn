@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_engineering"
+	group: "10788EC10FFABF2A"
+	icon: {
+		components: {
+			"immersiveengineering:blueprint": "bannerpatterns"
+		}
+		id: "immersiveengineering:blueprint"
+	}
+	id: "3DEF43FE6C5951AF"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "2670ABCD722E6B08"
+		tasks: [{
+			id: "400392FCF9C4F726"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

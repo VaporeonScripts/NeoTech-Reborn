@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ice_and_fire"
+	group: "6B63167E1B82FEE2"
+	icon: {
+		id: "iceandfire:dragon_skull_lightning"
+	}
+	id: "252E85F7E3233C5D"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "553A0826A531DECD"
+		tasks: [{
+			id: "3CC1215D2B1CC0A4"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

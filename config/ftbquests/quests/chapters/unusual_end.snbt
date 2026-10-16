@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unusual_end"
+	group: "49288E17E9D90688"
+	icon: {
+		id: "unusualend:chorus_petal"
+	}
+	id: "43E82B4CE281FE90"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		id: "31D82BC4F5B81732"
+		tasks: [{
+			id: "7E5D607DC3FBAFFD"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

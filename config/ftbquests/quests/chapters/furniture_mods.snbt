@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "furniture_mods"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "refurbished_furniture:light_electricity_generator"
+	}
+	id: "10C16D1482E1F55C"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "3B5D09F2B541F129"
+		tasks: [{
+			id: "3E4ED4A5357AE36D"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

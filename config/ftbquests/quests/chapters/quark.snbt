@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quark"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "quark:blaze_lantern"
+	}
+	id: "11B1772CA3123C8E"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "625FBA4D1405E41A"
+		tasks: [{
+			id: "4BADBB989AA1E6CC"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

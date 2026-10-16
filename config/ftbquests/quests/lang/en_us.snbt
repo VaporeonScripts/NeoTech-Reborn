@@ -1,0 +1,390 @@
+{
+	chapter.00CE0AE36D35EEE6.title: "Aquaculture"
+	chapter.03BEEA61B3EA3BE4.title: "Adventurer Skills"
+	chapter.03E9158FD3E77039.title: "Sophisticated Backpacks"
+	chapter.07597CAF9673CDE2.title: "Productive Trees"
+	chapter.076666131EE238D9.title: "Confluence Otherworld"
+	chapter.07D682CD2B67EF3C.title: "Rechiseled"
+	chapter.0DED3CA68A75EF53.title: "Pipez"
+	chapter.10C16D1482E1F55C.title: "Furniture Mods"
+	chapter.110EDAFFE4FD0295.title: "L2 Archery"
+	chapter.11B1772CA3123C8E.title: "Quark"
+	chapter.157C96B65D357389.title: "NeoTech Reborn"
+	chapter.18CC7EC3F748AEFF.title: "Monster Plus"
+	chapter.1DD06CDAAE292F70.title: "Sophisticated Storage"
+	chapter.201469C1F9115E14.title: "Botany Pots"
+	chapter.248AADEEFDCD4D3A.title: "Modern Dynamics"
+	chapter.252E85F7E3233C5D.title: "Ice and Fire"
+	chapter.27BF3E699EF3C1C4.title: "Mekanism"
+	chapter.284FF41E79048212.title: "Modern Industrialization"
+	chapter.2AB6B39C197BC285.title: "The Twilight Forest"
+	chapter.2BC34F165E8360DC.title: "Apotheosis"
+	chapter.2C5453BFDA7ADD30.title: "Iron's Spells 'n Spellbooks"
+	chapter.2EB9F6203D4EE929.title: "Ars Nouveau"
+	chapter.30D2601528839A0A.title: "FramedBlocks"
+	chapter.34B4F4D9D77AF9A6.title: "Occultism"
+	chapter.35154CFA0A780326.title: "Create"
+	chapter.36EF92216627E0F7.title: "Bosses'Rise"
+	chapter.3AEE67EEE419CC6B.title: "Powah"
+	chapter.3DEF43FE6C5951AF.title: "Immersive Engineering"
+	chapter.3FD2CE58197FEEC5.title: "The Aether"
+	chapter.415BC8852C4BE771.title: "Eternal Nether"
+	chapter.43E82B4CE281FE90.title: "Unusual End"
+	chapter.44E744AB981F6A55.title: "Applied Energistics 2"
+	chapter.450BF5828B024B59.title: "Incendium"
+	chapter.45980A04C426910D.title: "Farmer's Delight"
+	chapter.45EE43950FE6D15B.title: "Waystones"
+	chapter.492AF8DFDF6159B0.title: "Illager Invasion"
+	chapter.494840E305705944.title: "Creeper Overhaul"
+	chapter.4CB3B0309EA2F790.title: "Pufferfish's Skills"
+	chapter.4E72CBDE692BEC64.title: "Ender Zoology"
+	chapter.5058F614AE7DE039.title: "Flux Networks"
+	chapter.5144471B0B60CAD5.title: "Construction Sticks"
+	chapter.5296633A880BBE10.title: "Actually Additions"
+	chapter.52AAA12A97989B6C.title: "Super Factory Manager"
+	chapter.5398A465F7E1C25C.title: "Functional Storage"
+	chapter.57553586229411BA.title: "Chipped"
+	chapter.5A488E43A653F20F.title: "Productive Bees"
+	chapter.5ED6FD913EBA7CB4.title: "The Undergarden"
+	chapter.60512970E27A8C24.title: "BetterNether"
+	chapter.620161054C5BA3D9.title: "NetherEx"
+	chapter.6229D9D8B314B233.title: "Chisel"
+	chapter.628CFF96901FD096.title: "Simply Swords"
+	chapter.65519AAA74BAC30A.title: "BetterEnd"
+	chapter.68A305402087E66F.title: "L2 Weaponry"
+	chapter.69C97E90F04B71C9.title: "Artifacts"
+	chapter.6A54061CE2A9F3AE.title: "Spider Overhaul"
+	chapter.6B5C21031327AECC.title: "Mystical Agriculture"
+	chapter.6C81966B31FE50B0.title: "Gateways to Eternity"
+	chapter.6DED6BD983D714A0.title: "L_Ender's Cataclysm"
+	chapter.6F68E84048C406E9.title: "Doggy Talents Next"
+	chapter.775FD9662F4BD788.title: "Relics"
+	chapter.7A1824336CF6B15B.title: "Building Gadgets 2"
+	chapter.7AA36F06A5D9C6D2.title: "DivineRPG"
+	chapter.7DEB25F143D101CC.title: "PneumaticCraft: Repressurized"
+	chapter.7E0F6C1F77802760.title: "Nullscape"
+	chapter_group.10788EC10FFABF2A.title: "Tech and Automation"
+	chapter_group.2401AD943A650627.title: "Storage and Logistics"
+	chapter_group.49288E17E9D90688.title: "Dimensions"
+	chapter_group.56A66C57DE55E953.title: "Enchanting and Gear"
+	chapter_group.5BC1E3118B4BBBD9.title: "Magic and Spellcraft"
+	chapter_group.5C913BC4F177E1BC.title: "Farming and Food"
+	chapter_group.6B63167E1B82FEE2.title: "Combat, Mobs, and Bosses"
+	chapter_group.7E64D61002F15440.title: "Building and QoL"
+	quest.007BAD376131FFB9.quest_desc: ["Fluix Glass Cable carries channels and power between ME devices. Make it from Quartz Fiber and Fluix, then use it to connect your network."]
+	quest.007BAD376131FFB9.title: "Connect with Fluix Glass Cable"
+	quest.00E952987C1156B9.quest_desc: ["Artifacts adds special accessories that provide unique effects when equipped. Search structures and loot for them, then try combinations that suit your playstyle."]
+	quest.00E952987C1156B9.title: "Getting Started"
+	quest.026FC31ABA2CD5DA.quest_desc: ["Chipped greatly expands decorative variants for many block families. Use its workstations to browse the available styles and personalize your builds."]
+	quest.026FC31ABA2CD5DA.title: "Getting Started"
+	quest.03259AC69C0167C8.quest_desc: ["Monster Plus adds new hostile creatures and encounters. Stay alert while exploring and adapt your equipment to the threats you meet."]
+	quest.03259AC69C0167C8.title: "Getting Started"
+	quest.0865F7360306A4FB.quest_desc: ["Illager Invasion adds new illager enemies and combat encounters. Learn their attack patterns and choose equipment that suits each fight."]
+	quest.0865F7360306A4FB.title: "Getting Started"
+	quest.0A5D9A846FAFF859.quest_desc: ["Combine Charged Certus Quartz with Nether Quartz and Redstone using AE2 crystal transformation. Fluix is used throughout the network."]
+	quest.0A5D9A846FAFF859.title: "Create Fluix Crystals"
+	quest.0C115D3DCD720CAE.quest_desc: ["Nullscape reworks End terrain and adds new landscapes beyond the central island. Explore the outer End to find its changed generation."]
+	quest.0C115D3DCD720CAE.title: "Getting Started"
+	quest.0D0B8C907AD9D56F.quest_desc: ["Doggy Talents Next lets you train and customize a companion dog. Explore its talents and care features to build a companion suited to your adventures."]
+	quest.0D0B8C907AD9D56F.title: "Getting Started"
+	quest.0E792CA135B5492F.quest_desc: ["BetterNether expands the Nether with new biomes, plants, structures, and materials. Venture out prepared and explore the changed environment."]
+	quest.0E792CA135B5492F.title: "Getting Started"
+	quest.0F222D07634017A9.quest_desc: ["The Wireless Crafting Terminal combines wireless item access with a crafting grid. Keep it charged and stay within range of a linked Wireless Access Point."]
+	quest.0F222D07634017A9.title: "Craft Wirelessly"
+	quest.0FB941C49B31912E.quest_desc: ["Welcome to NeoTech Reborn! This NeoForge 1.21.1 modpack brings together 650+ carefully selected mods for beginners and veterans alike. Explore tech, magic, combat, dungeons, building, and new worlds at your own pace. This questbook is an optional guide, not a required gameplay path."]
+	quest.0FB941C49B31912E.quest_subtitle: "650+ mods. Play your way."
+	quest.0FB941C49B31912E.title: "Welcome to NeoTech Reborn"
+	quest.113E536A12D1FE5E.quest_desc: ["Ars Nouveau combines spellcraft, magical equipment, familiars, and automation. Begin with its guidebook and discover how to create and customize spells."]
+	quest.113E536A12D1FE5E.title: "Getting Started"
+	quest.12B66D2B6AA2CBEC.quest_desc: ["Creeper Overhaul adds biome-themed creeper variants with different appearances and behaviors. Pay attention to your surroundings and identify the variant before it gets close."]
+	quest.12B66D2B6AA2CBEC.title: "Getting Started"
+	quest.140411C5983C3503.quest_desc: ["Productive Trees adds useful trees and ways to cultivate them. Discover the available varieties and learn how their growth can support resource production."]
+	quest.140411C5983C3503.title: "Getting Started"
+	quest.171D5D4D3055AB9A.quest_desc: ["An autocrafting setup combines an ME Crafting CPU, Molecular Assemblers, Pattern Providers, and encoded patterns. Connect the components to your network and configure a recipe in the Pattern Encoding Terminal."]
+	quest.1AD70D19CEABBD1D.quest_desc: ["Chisel adds decorative block variants for building. Explore its block selections to find alternate styles for common materials."]
+	quest.1AD70D19CEABBD1D.title: "Getting Started"
+	quest.1ED2AA4068C17DA4.quest_desc: ["Adventurer Skills adds character progression through skills. Review the available choices and build toward the bonuses that support your preferred playstyle."]
+	quest.1ED2AA4068C17DA4.title: "Getting Started"
+	quest.1FD78504D48D3F65.quest_desc: ["Applied Energistics 2 (AE2) introduces a unique approach to inventory management and automation. Its futuristic sci-fi theme centers around the concept of converting matter into energy and vice versa for instantaneous resource transportation."]
+	quest.1FD78504D48D3F65.title: "Getting Started"
+	quest.20407B9AFD424A64.quest_desc: ["Eternal Nether adds further content and exploration to the Nether. Look for its distinctive additions as you travel through the dimension."]
+	quest.20407B9AFD424A64.title: "Getting Started"
+	quest.2271BF34DE180569.quest_desc: ["The Pattern Encoding Terminal lets you encode patterns for crafting and processing. It is made by upgrading a Crafting Terminal with an Engineering Processor."]
+	quest.24D4FBE7F6546E8A.quest_desc: ["Pufferfish's Skills provides a skill-tree progression system. Open its interface to review available paths and understand how skills can shape a character."]
+	quest.24D4FBE7F6546E8A.title: "Getting Started"
+	quest.259C2D5026BA9FA8.quest_desc: ["Functional Storage focuses on compact, high-capacity drawers and storage controllers. Use it for bulk resources and explore how drawers connect into a larger storage setup."]
+	quest.259C2D5026BA9FA8.title: "Getting Started"
+	quest.25A3B35B337A45CB.quest_desc: ["The Crafting Terminal combines an ME Terminal with a crafting grid, letting you craft from items stored on the network."]
+	quest.25A3B35B337A45CB.title: "Craft from the Network"
+	quest.2667E78AD0E7EF5F.quest_desc: ["Mystical Agriculture lets you grow resources using essence and special crops. Learn how seeds, essences, and infusion crafting fit together, then explore Mystical Agradditions for extensions."]
+	quest.2667E78AD0E7EF5F.title: "Getting Started"
+	quest.2670ABCD722E6B08.quest_desc: ["Immersive Engineering brings multiblock machines, treated wood, wires, and a distinctive industrial style. Look for its engineers manual and explore its machine structures and power network."]
+	quest.2670ABCD722E6B08.title: "Getting Started"
+	quest.26D40F0FE4F4FF0B.quest_desc: ["Incendium overhauls Nether terrain and exploration with new regions and points of interest. Travel through the Nether to discover its custom generation."]
+	quest.26D40F0FE4F4FF0B.title: "Getting Started"
+	quest.27618E7CCDA4ED55.quest_desc: ["The Twilight Forest is a major adventure dimension with themed biomes, dungeons, and bosses. Explore its landmarks and follow the clues found throughout the forest."]
+	quest.27618E7CCDA4ED55.title: "Getting Started"
+	quest.27D840D1ED7B4A09.quest_desc: ["Botany Pots provide compact, automated plant and crop growing. Check which soils and plants are supported and use the pots where passive production is useful."]
+	quest.27D840D1ED7B4A09.title: "Getting Started"
+	quest.292A049C42029627.quest_desc: ["Mekanism offers machinery, ore processing, power generation, and advanced resource production. Explore its machines and generators, then use EMI to follow processing chains."]
+	quest.292A049C42029627.title: "Getting Started"
+	quest.2968FEE9CAE5ECFA.quest_desc: ["Explore Actually Additions, a technology and utility mod with generators, machines, farming tools, and automation. Use EMI to discover the recipes and available machines."]
+	quest.2968FEE9CAE5ECFA.title: "Getting Started"
+	quest.29DBDBD72FFB3B0A.quest_desc: ["Crafting Storage combines a Crafting Unit with a Cell Component. It stores the ingredients needed for crafting jobs inside an ME Crafting CPU."]
+	quest.29DBDBD72FFB3B0A.title: "Build a 1k Crafting Storage"
+	quest.2A60F513EF50520E.quest_desc: ["A Fluix Pearl is made from Fluix, Fluix Dust, and an Ender Pearl. It is required for AE2 wireless components and the Quantum Link Chamber."]
+	quest.2A68199F937A6738.quest_desc: ["L2 Archery expands ranged combat with additional bows and related equipment. Try different options to find a range and firing style that suits you."]
+	quest.2A68199F937A6738.title: "Getting Started"
+	quest.2B8651AF164921EA.quest_desc: ["The Molecular Assembler crafts recipes automatically when supplied with ingredients by an ME network. It uses both core types and a crafting table."]
+	quest.2BEECC08D246CEF6.quest_desc: ["L_Ender's Cataclysm adds dangerous bosses, challenging structures, and powerful loot. Prepare your equipment before seeking out its encounters."]
+	quest.2BEECC08D246CEF6.title: "Getting Started"
+	quest.2CBD4A0732FC13F3.quest_desc: ["Pipez offers simple pipes for moving items, fluids, energy, and other resources. Check the pipe types and extraction settings to build straightforward transport networks."]
+	quest.2CBD4A0732FC13F3.title: "Getting Started"
+	quest.2DA23C0F18EE5DBA.quest_desc: ["FramedBlocks lets you create decorative blocks that can take on the appearance of other block types. Experiment with its framing tools to match your builds."]
+	quest.2DA23C0F18EE5DBA.title: "Getting Started"
+	quest.3101B52EA9E2145C.quest_desc: ["A Pattern Provider supplies encoded patterns to adjacent inventories or machines. It is a key part of connecting external processing to ME autocrafting."]
+	quest.3190039210A6240B.quest_desc: ["Sophisticated Backpacks provide portable storage with upgrade slots and useful automation features. Explore the available upgrades to tailor a backpack to gathering, travel, or building."]
+	quest.3190039210A6240B.title: "Getting Started"
+	quest.31B09F8305099DAD.quest_desc: ["L2 Weaponry adds additional weapons and combat options. Explore its weapon range and compare their strengths with the other gear available in the pack."]
+	quest.31B09F8305099DAD.title: "Getting Started"
+	quest.31D82BC4F5B81732.quest_desc: ["Unusual End adds new discoveries and content to End exploration. Travel beyond the main island and look for its unusual additions."]
+	quest.31D82BC4F5B81732.title: "Getting Started"
+	quest.33C5E9FE23AA99BF.quest_desc: ["Iron's Spells 'n Spellbooks focuses on spellcasting and magical combat. Explore spellbooks, scrolls, and the ways spells can shape your combat style."]
+	quest.33C5E9FE23AA99BF.title: "Getting Started"
+	quest.367FFB447D28B83B.quest_desc: ["[ { \"text\": \"Join the NeoTech Reborn Discord!\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://discord.gg/8Hz9qTjJaB\" }, \"color\": \"aqua\" } ]"]
+	quest.367FFB447D28B83B.quest_subtitle: "Meet other players, find the community, and join the conversation."
+	quest.367FFB447D28B83B.title: "Join the NeoTech Reborn Discord"
+	quest.37C4277D80E37F2A.quest_desc: ["Building Gadgets 2 provides tools for placing, copying, and modifying larger groups of blocks. Learn its gadget modes and settings before using them on a large build."]
+	quest.37C4277D80E37F2A.title: "Getting Started"
+	quest.3896EA4050742B0F.quest_desc: ["Sophisticated Storage adds expandable chests, barrels, and storage upgrades. Learn how its tiers and upgrades can organize items and automate storage tasks."]
+	quest.3896EA4050742B0F.title: "Getting Started"
+	quest.38C3B0E3023E725B.quest_desc: ["Confluence Otherworld adds a separate world of exploration and content. Look for its route into the dimension and discover its unique environments and resources."]
+	quest.38C3B0E3023E725B.title: "Getting Started"
+	quest.3990249985A36A73.quest_desc: ["Aquaculture expands fishing with new catches, equipment, and uses for aquatic resources. Try fishing in different waters and check what the new catches can be used for."]
+	quest.3990249985A36A73.title: "Getting Started"
+	quest.3B5646F6FDF402EB.quest_desc: ["Gateways to Eternity introduces challenge encounters through gateways. Learn how to activate a gateway, prepare for the waves, and claim its rewards."]
+	quest.3B5646F6FDF402EB.title: "Getting Started"
+	quest.3B58C219ECDAC0D7.quest_desc: ["Super Factory Manager lets you control complex automation with programmable factory logic. Start with a simple input-to-output setup and expand its rules as needed."]
+	quest.3B58C219ECDAC0D7.title: "Getting Started"
+	quest.3B5D09F2B541F129.quest_desc: ["The pack includes several furniture mods with decorative and functional pieces. Browse their blocks and recipes to furnish a base in your preferred style."]
+	quest.3B5D09F2B541F129.title: "Getting Started"
+	quest.3B671CC375F06724.quest_desc: ["The Undergarden is a dark underground dimension with its own biomes, creatures, and resources. Prepare for its conditions before setting out to explore."]
+	quest.3B671CC375F06724.title: "Getting Started"
+	quest.3D4390F743BB5126.quest_desc: ["Bosses'Rise turns boss fights into real encounters. Each boss has its own arena, its own moveset and phases that change how you have to play, so winning comes from reading the fight instead of tanking it. "]
+	quest.3D4390F743BB5126.title: "Getting Started"
+	quest.3D71F8CEEDE1EEEF.quest_desc: ["PneumaticCraft uses compressed air to power machines, drones, and gadgets. Learn how pressure and air handling work before expanding into its automation tools."]
+	quest.3D71F8CEEDE1EEEF.title: "Getting Started"
+	quest.3E8C2D813E7AF7A6.quest_desc: ["Modern Dynamics adds configurable transport for items and other resources. Explore its network components and filters as another option for automating a base."]
+	quest.3E8C2D813E7AF7A6.title: "Getting Started"
+	quest.3EF028E3EBB91981.quest_desc: ["Flux Networks provides wireless energy transfer between connected points. Learn how to create a network and link it to your power generation and machines."]
+	quest.3EF028E3EBB91981.title: "Getting Started"
+	quest.40D4D79D0056EDA6.quest_desc: ["Productive Bees adds resource-producing bees and ways to manage them. Explore bee habitats, breeding, and safe ways to collect their products."]
+	quest.40D4D79D0056EDA6.title: "Getting Started"
+	quest.44CFB3403E8D0BF6.title: "Compass \\& Meteorite"
+	quest.45051BB3EEA08C1A.quest_desc: ["NetherEx expands Nether exploration with additional environments and content. Discover its features while traveling through the Nether."]
+	quest.45051BB3EEA08C1A.title: "Getting Started"
+	quest.460573A814CB8315.quest_desc: ["BetterEnd transforms the End with new biomes, terrain, plants, and resources. Explore beyond the familiar islands to discover its altered landscapes."]
+	quest.460573A814CB8315.title: "Getting Started"
+	quest.46F11C259FC72F5D.quest_desc: ["An Export Bus pushes selected items from your network into an attached inventory. Use it to supply machines or keep blocks stocked."]
+	quest.4B1457DFD1C35788.quest_desc: ["Simply Swords expands melee combat with new weapons and distinct abilities. Compare weapon types and find a moveset that fits how you like to fight."]
+	quest.4B1457DFD1C35788.title: "Getting Started"
+	quest.5041A256BA23DFA0.quest_desc: ["Apotheosis expands enchanting, equipment, affixes, spawners, and progression. Explore its different systems and use the in-game descriptions to understand the many available enchantments."]
+	quest.5041A256BA23DFA0.title: "Getting Started"
+	quest.51923E16358CAEA6.quest_desc: ["Use the Charger to charge Certus Quartz. Charged Certus is an important ingredient for Fluix and other AE2 components."]
+	quest.51923E16358CAEA6.title: "Charge Certus Quartz"
+	quest.52E2B96B9F768E56.quest_desc: ["Waystones provide a way to travel between discovered destinations. Find and activate them as you explore to make future journeys easier."]
+	quest.52E2B96B9F768E56.title: "Getting Started"
+	quest.5319081C2EC86C50.quest_desc: ["Ender Zoology adds new creatures and drops to encounter during exploration. Learn what each mob does before approaching unfamiliar threats."]
+	quest.5319081C2EC86C50.title: "Getting Started"
+	quest.539E860FE450D437.quest_desc: ["A Dense Energy Cell stores more power than the standard cell. It is also a component for the Wireless Terminal."]
+	quest.54704F03A61485EA.quest_desc: ["DivineRPG is a large adventure and progression mod with new creatures, equipment, and worlds. Explore its content at your own pace and consult EMI for unfamiliar items."]
+	quest.54704F03A61485EA.title: "Getting Started"
+	quest.553A0826A531DECD.quest_desc: ["Ice and Fire adds formidable creatures, including dragons, along with related equipment and discoveries. Observe the dangers from a safe distance and prepare before engaging."]
+	quest.553A0826A531DECD.title: "Getting Started"
+	quest.58B9C179438F6BA3.quest_desc: ["Powah adds power generation, energy storage, and wireless energy transfer. Compare its generators and energy cells as your base grows."]
+	quest.58B9C179438F6BA3.title: "Getting Started"
+	quest.5A7A1F75252F820E.quest_desc: ["An Import Bus pulls items from an attached inventory into your ME network. Configure its filters and connect it to a chest or machine output."]
+	quest.5A7A1F75252F820E.title: "Import Items into Storage"
+	quest.5B836FFF1D589FB8.quest_desc: ["Quartz Fiber separates power between connected ME networks while still allowing data to pass. It is also used in wireless components."]
+	quest.5BD202341683BEAA.quest_desc: ["[ { \"text\": \"Open the NeoTech Reborn issue tracker\", \"underlined\": true, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://github.com/VaporeonScripts/NeoTech-Reborn/issues\" }, \"color\": \"aqua\" } ]"]
+	quest.5BD202341683BEAA.quest_subtitle: "Found a bug or have an idea? Let the team know."
+	quest.5BD202341683BEAA.title: "Report an Issue or Suggest an Idea"
+	quest.5CDAD0915C8B88A3.quest_desc: ["Farmer's Delight adds cooking, kitchen tools, and new ways to prepare food. Begin by gathering ingredients and exploring the cooking pot and other preparation blocks."]
+	quest.5CDAD0915C8B88A3.title: "Getting Started"
+	quest.5D91D93192325C15.quest_desc: ["Combine the Item Cell Housing and 1k Cell Component to make a 1k Item Storage Cell. Insert it into an ME Drive to store items on the network."]
+	quest.5E6531ACFF7B13EB.quest_desc: ["The Item Cell Housing combines with a storage component to make an item cell. Keep item storage cells distinct from fluid and spatial cells."]
+	quest.5F3DDF6D6F66C496.quest_desc: ["Relics adds powerful equipment that can grow through use. Discover relics during exploration and learn how their experience and abilities develop."]
+	quest.5F3DDF6D6F66C496.title: "Getting Started"
+	quest.609929A2D0DCBD81.quest_desc: ["Modern Industrialization is a large-scale machinery and processing system. Begin by exploring its early machines, power requirements, and production chains in EMI."]
+	quest.609929A2D0DCBD81.title: "Getting Started"
+	quest.625FBA4D1405E41A.quest_desc: ["Quark adds many smaller features across building, exploration, items, and quality of life. Check its in-game descriptions and config-enabled features to discover what is active in this pack."]
+	quest.625FBA4D1405E41A.title: "Getting Started"
+	quest.64876E4A94758E1C.quest_desc: ["Bring power, a controller, a terminal, a drive with a storage cell, and cable together to form a working ME network. Use the network as a foundation for the branches that follow."]
+	quest.64876E4A94758E1C.title: "Build Your First ME Network"
+	quest.6B902C0B6CE683CA.quest_desc: ["This questbook is actively being developed. Some mod guides may be incomplete, change over time, or not exist yet. Checkmarks are optional read markers; there is no required quest order or gameplay objective."]
+	quest.6B902C0B6CE683CA.quest_subtitle: "The guide is a work in progress, not a finished questline."
+	quest.6B902C0B6CE683CA.title: "Questbook Under Development"
+	quest.6C52D2F0CB0CC561.quest_desc: ["Create centers on rotational power and mechanical machines. Start with water wheels or another early power source, then explore shafts, cogwheels, belts, and contraptions."]
+	quest.6C52D2F0CB0CC561.title: "Getting Started"
+	quest.6F99765373711A07.quest_desc: ["Occultism explores ritual magic, spirits, storage, and summoned helpers. Consult its guidebook to learn how rituals and bindings work before attempting more advanced summons."]
+	quest.6F99765373711A07.title: "Getting Started"
+	quest.7014B2366D779AE2.title: "Charger"
+	quest.71AA3B05D8E43179.quest_desc: ["The Aether is a sky dimension with its own landscapes, creatures, resources, and progression. Discover how to reach it and explore its floating islands."]
+	quest.71AA3B05D8E43179.title: "Getting Started"
+	quest.73F1D97AF9D33D65.quest_desc: ["Rechiseled adds additional decorative block variants. Browse its crafting options to find coordinated textures for your builds."]
+	quest.73F1D97AF9D33D65.title: "Getting Started"
+	quest.740CA0BB081DB68C.quest_desc: ["Construction Sticks helps place repeated blocks more quickly. Explore its placement behavior for walls, floors, and other building tasks."]
+	quest.740CA0BB081DB68C.title: "Getting Started"
+	quest.7DCD8D983E05F9E4.quest_desc: ["Spider Overhaul adds new spider variants and behaviors. Watch where you travel, especially in dark or enclosed areas, and learn how the variants differ."]
+	quest.7DCD8D983E05F9E4.title: "Getting Started"
+	quest.811B5DBA9C3B6C69.quest_desc: ["Quantum Ring blocks create the frame around a Quantum Link Chamber. Their recipe requires Logic and Engineering Processors, an Energy Cell, iron, and Smart Dense Cable."]
+	quest.811B5DBA9C3B6C69.title: "Craft Quantum Ring Blocks"
+	quest.8DE444535D7AD8C7.quest_desc: ["NeoTech Reborn is designed to look great while running smoothly. Complementary Unbound and BSL shaders are included, alongside pre-applied resource packs and datapacks for a cohesive experience. 14 GB or more of RAM is recommended; 10–12 GB is the minimum."]
+	quest.8DE444535D7AD8C7.quest_subtitle: "Visual polish, shaders, and practical performance guidance."
+	quest.8DE444535D7AD8C7.title: "Visuals and Performance"
+	quest.8FFFDAD81B77E91B.quest_desc: ["The Wireless Terminal gives wireless access to your ME network when linked to a powered Wireless Access Point. It requires a Receiver, Terminal, and Dense Energy Cell."]
+	quest.8FFFDAD81B77E91B.title: "Access Items from Anywhere Nearby"
+	quest.9153ACA88F3D86A4.quest_desc: ["Formation Cores are used by export and crafting components. Their recipe combines Certus Quartz, Fluix Dust, and a Logic Processor."]
+	quest.9153ACA88F3D86A4.title: "Craft Formation Cores"
+	quest.916DD681DFE4FCE2.quest_desc: ["Quartz Fiber separates power between connected ME networks while still allowing data to pass. It is also used in wireless components."]
+	quest.916DD681DFE4FCE2.title: "Make Quartz Fiber"
+	quest.94885582FF7946C6.quest_desc: ["A Fluix Pearl is made from Fluix, Fluix Dust, and an Ender Pearl. It is required for AE2 wireless components and the Quantum Link Chamber."]
+	quest.94885582FF7946C6.title: "Create a Fluix Pearl"
+	quest.9EAF8522B35926AD.quest_desc: ["Combine the Item Cell Housing and 1k Cell Component to make a 1k Item Storage Cell. Insert it into an ME Drive to store items on the network."]
+	quest.9EAF8522B35926AD.title: "Assemble a 1k Item Storage Cell"
+	quest.A13CE3F55A19E03C.quest_desc: ["The Matter Condenser consumes items from an ME network and turns accumulated matter into Singularities. Connect it to a powered network and give it items to process."]
+	quest.A13CE3F55A19E03C.title: "Build a Matter Condenser"
+	quest.B6DA5F849F19EF81.quest_desc: ["Crafting Units form the foundation of an ME Crafting CPU. Add crafting storage and other CPU components to expand the size and speed of crafting jobs."]
+	quest.B6DA5F849F19EF81.title: "Build a Crafting Unit"
+	quest.C24830A27A12C286.quest_desc: ["A Pattern Provider supplies encoded patterns to adjacent inventories or machines. It is a key part of connecting external processing to ME autocrafting."]
+	quest.C24830A27A12C286.title: "Provide Patterns to Machines"
+	quest.CA090624224EA826.quest_desc: ["An Export Bus pushes selected items from your network into an attached inventory. Use it to supply machines or keep blocks stocked."]
+	quest.CA090624224EA826.title: "Automate Item Output"
+	quest.D45DB55E7E3CA223.quest_desc: ["Annihilation Cores are used by import and crafting components. Their recipe combines Nether Quartz, Fluix Dust, and a Logic Processor."]
+	quest.D45DB55E7E3CA223.title: "Craft Annihilation Cores"
+	quest.DC9215C9F5C006B1.quest_desc: ["The Item Cell Housing combines with a storage component to make an item cell. Keep item storage cells distinct from fluid and spatial cells."]
+	quest.DC9215C9F5C006B1.title: "Prepare an Item Cell Housing"
+	quest.EAE1FEA40BF08A63.quest_desc: ["The Pattern Encoding Terminal lets you encode patterns for crafting and processing. It is made by upgrading a Crafting Terminal with an Engineering Processor."]
+	quest.EAE1FEA40BF08A63.title: "Encode Processing Patterns"
+	quest.EBD12705DAA31418.quest_desc: ["The ME Drive holds storage cells and connects them to your ME network. Add storage cells to the drive, then connect it with Fluix Glass Cable."]
+	quest.EBD12705DAA31418.title: "Build an ME Drive"
+	quest.ED18447EBCE105C3.quest_desc: ["A Dense Energy Cell stores more power than the standard cell. It is also a component for the Wireless Terminal."]
+	quest.ED18447EBCE105C3.title: "Upgrade to a Dense Energy Cell"
+	quest.EEB89581C16837DA.quest_desc: ["There is no single way to play. Follow a tech or magic system, explore dungeons and dimensions, build, farm, collect gear, or simply discover what the pack has to offer."]
+	quest.EEB89581C16837DA.quest_subtitle: "Pick a direction—or follow several."
+	quest.EEB89581C16837DA.title: "Choose Your Adventure"
+	quest.F330DEDCCD874A5D.quest_desc: ["An autocrafting setup combines an ME Crafting CPU, Molecular Assemblers, Pattern Providers, and encoded patterns. Connect the components to your network and configure a recipe in the Pattern Encoding Terminal."]
+	quest.F330DEDCCD874A5D.title: "Set Up ME Autocrafting"
+	quest.F94DE7233A4DA87E.quest_desc: ["The Wireless Access Point connects wireless terminals to a nearby ME network. Attach it to the network and provide power before using a terminal."]
+	quest.F94DE7233A4DA87E.title: "Extend the Network Wirelessly"
+	quest.FA862D49ECF37798.quest_desc: ["The Molecular Assembler crafts recipes automatically when supplied with ingredients by an ME network. It uses both core types and a crafting table."]
+	quest.FA862D49ECF37798.title: "Craft with a Molecular Assembler"
+	quest.FBEAA2C4C096AA5E.quest_desc: ["The ME Controller is the central block of a channel-based ME network. Its recipe uses Fluix and an Engineering Processor; connect it to your powered cable network."]
+	quest.FBEAA2C4C096AA5E.title: "Build an ME Controller"
+	task.04255A60438CEED9.title: "Create"
+	task.046B9B8236BB546A.title: "The Undergarden"
+	task.0640F87F5CD291D9.title: "Ars Nouveau"
+	task.079654A517B65C91.title: "BetterEnd"
+	task.07BACA13B95C24DC.title: "Simply Swords"
+	task.09274B44033AA449.title: "Flux Networks"
+	task.09B2A9D972674E7D.title: "Read the welcome"
+	task.0EC0E327F3F49ACB.title: "Mystical Agriculture"
+	task.14E12F494A51DC2E.title: "Actually Additions"
+	task.1562E21A3DD9FD83.title: "Applied Energistics 2"
+	task.1593476A32AB287F.title: "Pipez"
+	task.15C2FAA6471831A8.title: "Apotheosis"
+	task.167C39F839A77D96.title: "L2 Archery"
+	task.190281D5D6AAECA6.title: "Craft a Pattern Encoding Terminal"
+	task.1C536153E7DB10CC.title: "Occultism"
+	task.1CC922D90814C741.title: "Incendium"
+	task.21F1633FFE6605E3.title: "Sophisticated Storage"
+	task.23E74FC1A87691E0.title: "Construction Sticks"
+	task.25014435B1258EA6.title: "Confluence Otherworld"
+	task.25B532BC49346B35.title: "Modern Dynamics"
+	task.261E0AB3C396C181.title: "Modern Industrialization"
+	task.269E650F9AB84D4E.title: "Farmer's Delight"
+	task.26F09C136DE6986C.title: "Functional Storage"
+	task.2CB9CE82228ACA05.title: "Craft a Molecular Assembler"
+	task.30E11212B9F981A7.title: "Aquaculture"
+	task.345950E87C817747.title: "SuperFactoryManager (SFM)"
+	task.361742C78965EE15.title: "Powah"
+	task.362D7B67DBA695A0.title: "Productive Trees"
+	task.36D059BF38B6557B.title: "Illager Invasion"
+	task.37ED92987BE97566.title: "Creeper Overhaul"
+	task.38EF9E6FD0C8BCED.title: "Craft an Import Bus"
+	task.396E6698FEFC208C.title: "The Aether"
+	task.3C8EDE57D87146F0.title: "DivineRPG"
+	task.3CC1215D2B1CC0A4.title: "Ice and Fire"
+	task.3E090BE757FB4D87.title: "Mekanism"
+	task.3E4ED4A5357AE36D.title: "Furniture Mods"
+	task.400392FCF9C4F726.title: "Immersive Engineering"
+	task.4161F319EEBDDE5B.title: "I understand this questbook is in development"
+	task.423129A373B1B202.title: "Sophisticated Backpacks"
+	task.4254097DA640FD1D.title: "Waystones"
+	task.440CB6B3417382DD.title: "Open the Discord invite"
+	task.4694B380645A1DC1.title: "NetherEx"
+	task.46E255644788D725.title: "Monster Plus"
+	task.46FAD3F3085B464E.title: "BetterNether"
+	task.4785093AFA07327F.title: "Botany Pots"
+	task.4787C12C059BDC95.title: "Productive Bees"
+	task.4B762D8CAD857F8D.title: "FramedBlocks"
+	task.4BADBB989AA1E6CC.title: "Quark"
+	task.4BE692FA8590B7D8.title: "Building Gadgets 2"
+	task.4D22BA93502FD57E.title: "Bosses'Rise"
+	task.4DE233F724B9DEC6.title: "Obtain Charged Certus Quartz"
+	task.4E05B46F91C6A221.title: "Adventurer Skills"
+	task.55DE73C5F9D15642.title: "Craft an ME Drive"
+	task.5C5DF18148FE6C0C.title: "Chipped"
+	task.5CE8D977B573D2F4.title: "Craft a Pattern Provider"
+	task.5D01761936C98139.title: "Doggy Talents Next"
+	task.5FB2521BBB1E1DD8.title: "Adventurer Skills"
+	task.6002D9D6D89C0C1F.title: "Artifacts"
+	task.60190A5A98EB5F59.title: "Spider Overhaul"
+	task.607BEE9F8AEBCDFC.title: "Eternal Nether"
+	task.614AC445020B3466.title: "Gateways to Eternity"
+	task.656B747D3C264A6F.title: "Open the GitHub issue tracker"
+	task.6590F2C322955FF5.title: "Craft a Pattern Encoding Terminal"
+	task.67B96B7F242183AF.title: "L2 Weaponry"
+	task.67E9D9EC8A52AA2D.title: "Rechiseled"
+	task.68B573B1B0E31690.title: "PneumaticCraft: Repressurized"
+	task.6A2DC30CD7FA28F3.title: "L_Ender's Cataclysm"
+	task.6CE09ECEA9D01060.title: "The Twilight Forest"
+	task.6DAB35282149F7A1.title: "Meteorite"
+	task.70BA85582D1B3BAC.title: "Iron's Spells 'n Spellbooks"
+	task.741ADC50A66B1DCA.title: "Nullscape"
+	task.787C4F3EA125EA34.title: "Relics"
+	task.7AD4C44388BDB28A.title: "Chisel"
+	task.7D52423319C16F3A.title: "Craft an Export Bus"
+	task.7E5D607DC3FBAFFD.title: "Unusual End"
+	task.7F9AFF135F5FF6C1.title: "Ender Zoology"
+	task.81DD907559139D7C.title: "Craft a Fluix Pearl"
+	task.834E930C7B6A51DE.title: "Craft a Crafting Terminal"
+	task.87F2D1FB4A7B8514.title: "Craft a Matter Condenser"
+	task.8E5A1D875956DD96.title: "Craft an ME Controller"
+	task.91DED125220C665A.title: "Read the combat and gear overview"
+	task.9D784493D256350D.title: "Craft an ME Terminal"
+	task.9F8B2974167C8377.title: "Read the performance information"
+	task.A3E52FD0D97727E2.title: "Craft a Wireless Crafting Terminal"
+	task.A4FEFCCC001474E9.title: "Gather two Quantum Entangled Singularities"
+	task.A96F3CEC9199B9E9.title: "Craft a Wireless Terminal"
+	task.AE9AE87C1FF86DDD.title: "Read the exploration overview"
+	task.B001FEFC7ED9036B.title: "Craft a 1k Item Storage Cell"
+	task.BA47BDD0EBCF9414.title: "Craft a 1k Crafting Storage"
+	task.BC31D695259FD033.title: "Gather two Quantum Entangled Singularities"
+	task.C7035E32B87AB638.title: "Craft a Molecular Assembler"
+	task.C98C2EEF08C92A1E.title: "Craft a Pattern Provider"
+	task.CE6D4FC44C0CC8CD.title: "Craft a 1k Item Storage Cell"
+	task.D319E93CE68B858F.title: "Have a 1k Crafting Storage"
+	task.D58104FF22CE1996.title: "Craft an Annihilation Core"
+	task.D6477AE28C479927.title: "Make Fluix Glass Cable"
+	task.E03ACE706D4FCF50.title: "Craft a Quantum Ring Block"
+	task.E1556FF3B52AFBD1.title: "Craft an ME Controller"
+	task.E72E0B4507147EAE.title: "Craft an Item Cell Housing"
+	task.E88C256A19DCE44F.title: "Make Fluix Glass Cable"
+	task.EC4823774738D48C.title: "Craft a Wireless Access Point"
+	task.F1252048BB6B66FF.title: "Craft an Energy Acceptor"
+	task.F6CAEC0929C026A0.title: "Make Quartz Fiber"
+	task.F929AF1EF90454AC.title: "Choose how you want to play"
+	task.FA757A51D4C7F83D.title: "Craft a Dense Energy Cell"
+	task.FB2027C2B4CC571C.title: "Obtain Fluix Crystals"
+}

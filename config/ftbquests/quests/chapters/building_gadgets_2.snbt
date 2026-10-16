@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building_gadgets_2"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "buildinggadgets2:gadget_building"
+	}
+	id: "7A1824336CF6B15B"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "37C4277D80E37F2A"
+		tasks: [{
+			id: "4BE692FA8590B7D8"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

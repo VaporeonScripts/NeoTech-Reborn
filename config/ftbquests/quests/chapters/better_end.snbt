@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "better_end"
+	group: "49288E17E9D90688"
+	icon: {
+		id: "minecraft:end_stone"
+	}
+	id: "65519AAA74BAC30A"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "460573A814CB8315"
+		tasks: [{
+			id: "079654A517B65C91"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

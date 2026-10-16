@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: "10788EC10FFABF2A"
+	icon: {
+		id: "pneumaticcraft:compressed_iron_gear"
+	}
+	id: "7DEB25F143D101CC"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "3D71F8CEEDE1EEEF"
+		tasks: [{
+			id: "68B573B1B0E31690"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

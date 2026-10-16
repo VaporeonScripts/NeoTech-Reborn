@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "56A66C57DE55E953"
+	icon: {
+		id: "apotheosis:reforging_table"
+	}
+	id: "2BC34F165E8360DC"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5041A256BA23DFA0"
+		tasks: [{
+			id: "15C2FAA6471831A8"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

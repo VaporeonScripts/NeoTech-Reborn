@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifacts"
+	group: "56A66C57DE55E953"
+	icon: {
+		id: "l2artifacts:select"
+	}
+	id: "69C97E90F04B71C9"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "00E952987C1156B9"
+		tasks: [{
+			id: "6002D9D6D89C0C1F"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

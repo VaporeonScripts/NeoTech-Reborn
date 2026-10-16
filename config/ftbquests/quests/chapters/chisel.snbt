@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chisel"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "chisel:chisel"
+	}
+	id: "6229D9D8B314B233"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "1AD70D19CEABBD1D"
+		tasks: [{
+			id: "7AD4C44388BDB28A"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

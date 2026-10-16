@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l2_weaponry"
+	group: "56A66C57DE55E953"
+	icon: {
+		id: "l2weaponry:death_scythe"
+	}
+	id: "68A305402087E66F"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "31B09F8305099DAD"
+		tasks: [{
+			id: "67B96B7F242183AF"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

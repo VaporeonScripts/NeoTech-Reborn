@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "49288E17E9D90688"
+	icon: {
+		id: "minecraft:glowstone"
+	}
+	id: "3FD2CE58197FEEC5"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "71AA3B05D8E43179"
+		tasks: [{
+			id: "396E6698FEFC208C"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

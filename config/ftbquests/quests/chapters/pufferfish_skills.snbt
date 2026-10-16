@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pufferfish_skills"
+	group: "56A66C57DE55E953"
+	icon: {
+		id: "minecraft:experience_bottle"
+	}
+	id: "4CB3B0309EA2F790"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "24D4FBE7F6546E8A"
+		tasks: [{
+			id: "4E05B46F91C6A221"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

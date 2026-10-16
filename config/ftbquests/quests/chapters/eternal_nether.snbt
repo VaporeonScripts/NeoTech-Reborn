@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eternal_nether"
+	group: "49288E17E9D90688"
+	icon: {
+		id: "eternalnether:warped_ender_pearl"
+	}
+	id: "415BC8852C4BE771"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "20407B9AFD424A64"
+		tasks: [{
+			id: "607BEE9F8AEBCDFC"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
