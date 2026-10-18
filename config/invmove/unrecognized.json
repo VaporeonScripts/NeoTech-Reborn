@@ -390,7 +390,12 @@
     "x.haider.prismpanel.ui.PrismPanelInfoScreen": true,
     "com.niixlabs.printsmc.client.gui.screen.GalleryScreen": true,
     "com.starskyxiii.collapsible_groups.compat.jei.manager.GroupManagerScreen": true,
-    "net.nikenmar.compactf3plus.screen.CompactF3PlusConfigScreen": true
+    "net.nikenmar.compactf3plus.screen.CompactF3PlusConfigScreen": true,
+    "com.starskyxiii.collapsible_groups.client.manager.CategoryManagerScreen": true,
+    "io.github.thecsdev.betterstats.api.client.gui.screen.BetterStatsScreenWrapper": true,
+    "io.github.thecsdev.betterstats.client.gui.screen.hud.BetterStatsHudScreenWrapper": true,
+    "io.github.thecsdev.tcdcommons.api.client.gui.screen.TScreenWrapper": true,
+    "io.github.suel_ki.uei.client.screen.ConfigScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

@@ -2,7 +2,7 @@
   "show_builtin": true,
   "show_kubejs": true,
   "hide_used": false,
-  "manager_source_filter": "all",
+  "manager_source_filter": "builtin",
   "manager_sort_mode": "priority",
   "manager_show_empty": false,
   "manager_category_filter": "all",

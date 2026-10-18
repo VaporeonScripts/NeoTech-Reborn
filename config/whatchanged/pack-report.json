@@ -1,11 +1,35 @@
 {
-  "detected": 1792179662008,
-  "previous": 1792178749215,
+  "detected": 1792335948311,
+  "previous": 1792335577221,
   "mcOld": "1.21.1",
   "mcNew": "1.21.1",
-  "modsAdded": [],
+  "modsAdded": [
+    {
+      "id": "betterstats",
+      "name": "Better Statistics Screen",
+      "newVersion": "3.13.9+neoforge-1.21.1"
+    },
+    {
+      "id": "tcdcommons",
+      "name": "TCD Commons API",
+      "newVersion": "3.12.8+neoforge-1.21.1"
+    }
+  ],
   "modsRemoved": [],
-  "modsUpdated": [],
+  "modsUpdated": [
+    {
+      "id": "ixeris",
+      "name": "Ixeris",
+      "oldVersion": "4.6.8+1.21.1-neoforge",
+      "newVersion": "4.6.9+1.21.1-neoforge"
+    },
+    {
+      "id": "reliquified_irons_spells_and_spellbooks",
+      "name": "Reliquified Iron's Spells 'n Spellbooks",
+      "oldVersion": "0.2.7",
+      "newVersion": "0.2.8"
+    }
+  ],
   "modsDowngraded": [],
   "configs": [
     {
@@ -27,5 +51,5 @@
   "itemsRemoved": [],
   "entitiesAdded": [],
   "entitiesRemoved": [],
-  "seen": false
+  "seen": true
 }
