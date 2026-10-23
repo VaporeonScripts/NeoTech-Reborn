@@ -4,7 +4,7 @@
 	filename: "block_factorys_bosses"
 	group: "6B63167E1B82FEE2"
 	icon: {
-		id: "block_factorys_bosses:corpse"
+		id: "block_factorys_bosses:underworld_knight_spawn_egg"
 	}
 	id: "36EF92216627E0F7"
 	images: [ ]
