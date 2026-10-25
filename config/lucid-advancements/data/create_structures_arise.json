@@ -1,0 +1,16 @@
+{
+  "mod_id": "create_structures_arise",
+  "categories": [
+    {
+      "id": "structures/root",
+      "advancement_root": "create_structures_arise:structures/root",
+      "title": "advancement.create_structures_arise.structures.root.title",
+      "description": "advancement.create_structures_arise.structures.root.description",
+      "icon": {
+        "type": "item",
+        "value": "minecraft:compass"
+      },
+      "enabled": true
+    }
+  ]
+}
