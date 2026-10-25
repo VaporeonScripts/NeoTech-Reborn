@@ -1,11 +1,18 @@
 {
-  "detected": 1792837377664,
-  "previous": 1792834142865,
+  "detected": 1792926960745,
+  "previous": 1792920568309,
   "mcOld": "1.21.1",
   "mcNew": "1.21.1",
   "modsAdded": [],
   "modsRemoved": [],
-  "modsUpdated": [],
+  "modsUpdated": [
+    {
+      "id": "better_lib",
+      "name": "Better Lib",
+      "oldVersion": "1.0.111",
+      "newVersion": "1.0.113"
+    }
+  ],
   "modsDowngraded": [],
   "configs": [
     {
@@ -27,5 +34,5 @@
   "itemsRemoved": [],
   "entitiesAdded": [],
   "entitiesRemoved": [],
-  "seen": false
+  "seen": true
 }
