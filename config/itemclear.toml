@@ -1,0 +1,117 @@
+[general]
+	#Master switch. When false nothing is cleared and no warnings are sent.
+	#The countdown boss bar keeps running and shows the paused text.
+	enabled = true
+	#Seconds between two cleanups.
+	#The default of 610 means a cleanup every 10 minutes, with the first warning
+	#arriving 10 seconds after the previous cleanup.
+	# Default: 610
+	# Range: 20 ~ 604800
+	interval_seconds = 610
+	#Show how many items were removed in the cleanup message.
+	#When false the plain cleaned_none text is used instead.
+	show_count = true
+	#Dimensions where dropped items are never cleared, written as full ids.
+	#Example: ["minecraft:the_end", "minecraft:the_nether"]
+	excluded_dimensions = []
+
+#Chat warnings sent before a cleanup.
+#seconds_before is counted back from the cleanup. A warning is skipped when it is not
+#smaller than interval_seconds. The texts are plain, so if you change a time, also
+#change its text under [messages.overrides].
+[warnings]
+
+	[warnings.first]
+		#Send this warning.
+		enabled = true
+		#Seconds before the cleanup.
+		# Default: 600
+		# Range: 1 ~ 604800
+		seconds_before = 600
+
+	[warnings.second]
+		#Send this warning.
+		enabled = true
+		#Seconds before the cleanup.
+		# Default: 60
+		# Range: 1 ~ 604800
+		seconds_before = 60
+
+	[warnings.third]
+		#Send this warning.
+		enabled = true
+		#Seconds before the cleanup.
+		# Default: 10
+		# Range: 1 ~ 604800
+		seconds_before = 10
+
+#Optional big title shown to every player who has not muted the messages.
+[on_screen_warning]
+	enabled = false
+	#Seconds before the cleanup when the title appears.
+	# Default: 10
+	# Range: 1 ~ 604800
+	seconds_before = 10
+	#Fade in time in ticks, 20 ticks are one second.
+	# Default: 10
+	# Range: 0 ~ 1200
+	fade_in_ticks = 10
+	#Time the title stays fully visible in ticks.
+	# Default: 70
+	# Range: 0 ~ 1200
+	stay_ticks = 70
+	#Fade out time in ticks.
+	# Default: 20
+	# Range: 0 ~ 1200
+	fade_out_ticks = 20
+
+#Live countdown boss bar. Each player turns it on for themselves with /itemclear timer.
+[countdown_bar]
+	#Bar color: PINK, BLUE, RED, GREEN, YELLOW, PURPLE or WHITE.
+	#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+	color = "WHITE"
+	#Bar style: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12 or NOTCHED_20.
+	#Allowed Values: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+	style = "PROGRESS"
+
+[colors]
+	#Color set for the warnings, the cleanup message and the on-screen title.
+	#DEFAULT, SOFT, LOUD or MINIMAL.
+	#Allowed Values: DEFAULT, SOFT, LOUD, MINIMAL
+	preset = "DEFAULT"
+
+#Message texts.
+[messages]
+	#Language of the built-in texts: ENGLISH, ITALIAN, SPANISH, FRENCH, GERMAN or PORTUGUESE.
+	#Allowed Values: ENGLISH, ITALIAN, SPANISH, FRENCH, GERMAN, PORTUGUESE
+	language = "ENGLISH"
+
+	#Each text below shows its original English wording as a template.
+	#Leave it unchanged to follow the selected language, or edit it to use your own wording.
+	[messages.overrides]
+		#Chat message for the first warning.
+		warning_first = "Dropped items will be cleared in 10 minutes."
+		#Chat message for the second warning.
+		warning_second = "Dropped items will be cleared in 1 minute."
+		#Chat message for the third and final warning.
+		warning_third = "Dropped items will be cleared in 10 seconds."
+		#Title shown by the on-screen warning.
+		on_screen_title = "Items clear in 10 seconds"
+		#Chat message after a cleanup. Use {count} for the number of removed items.
+		cleaned = "{count} dropped items have been cleared."
+		#Chat message after a cleanup that removed exactly one item.
+		cleaned_one = "1 dropped item has been cleared."
+		#Chat message after a cleanup when no count is shown.
+		cleaned_none = "Dropped items have been cleared."
+		#Boss bar title and /itemclear time. Use {time} for the remaining time, for example 8m 26s.
+		next_cleanup = "Next item cleanup in {time}"
+		#Boss bar title and /itemclear time while the mod is disabled in the config.
+		paused = "Item clearing is currently paused."
+		#Reply when a player turns the item clear messages off.
+		mute_on = "Item clear messages disabled. Use /itemclear mute to enable them again."
+		#Reply when a player turns the item clear messages back on.
+		mute_off = "Item clear messages enabled."
+		#Reply when a player turns the countdown boss bar on.
+		timer_on = "Live countdown enabled. Use /itemclear timer to disable it."
+		#Reply when a player turns the countdown boss bar off.
+		timer_off = "Live countdown disabled."
