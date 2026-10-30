@@ -6,13 +6,13 @@
 	# Range: > 0
 	announcementBoxDistance = 128
 	alertPlayerDungeon = false
-	starPhase = false
 	ammoSlotsBlacklist = ["confluence:falling_star", "#c:seeds"]
 	terraStyleExplosion = true
 	terraStyleFireDamage = true
+	enemyDropsMoney = true
+	starPhase = false
 	npcInvulnerableToPlayer = true
 	allowsVanillaEntitiesToPerformStageAttributes = false
-	enemyDropsMoney = true
 	dragonChargePlayer = true
 
 [Recipe]
@@ -33,7 +33,7 @@
 		doNPCSpawning = true
 		# Default: 2400
 		# Range: 20 ~ 20000
-		npcSpawnInterval = 6000
+		npcSpawnInterval = 2400
 		broadcastNpcMsg = true
 
 	[Spawning.Boss]

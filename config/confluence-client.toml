@@ -50,12 +50,12 @@ minEctoMistEffectRadius = 10
 	#Allowed Values: OFF, CONFLUENCE, CONFLUENCE_VANILLA, ALL
 	goreEffect = "ALL"
 	damageIndicator = false
-	healIndicator = true
+	healIndicator = false
 
 [GUI]
 	achievementToast = true
-	#Allowed Values: NEVER, EVERYWHERE, TRADE_SCREEN
-	sellPriceDisplay = "EVERYWHERE"
 	# Default: 71
 	# Range: 0 ~ 1000
 	customTitle = 71
+	#Allowed Values: NEVER, EVERYWHERE, TRADE_SCREEN
+	sellPriceDisplay = "EVERYWHERE"

@@ -1,0 +1,24 @@
+#Internal config schema version - do not change
+configVersion = 1
+#Master switch for every Fast NBT optimization
+enabled = true
+
+	#BlockState Loading
+	[features.blockState]
+		#Faster NbtUtils block state parsing: resolves Name/Properties straight from the backing map instead of the vanilla contains()/getString() chain. Also covers getDataVersion
+		enabled = true
+
+	#NBT I/O Fast Paths
+	[features.nbtIo]
+		#Skips the discarded byte-accounting scan for unlimited NBT readers, which is what every chunk, level.dat and playerdata read uses
+		enabled = true
+
+	#Unchecked NBT Reads
+	[features.nbtAccounter]
+		#Removes NbtAccounter's byte quota, depth limit and UTF length scan entirely, and hands out one shared accounter for unlimited reads instead of allocating one per read. Nothing caps the size or nesting of NBT that is read. The safe variant is nbtIo, which only skips the UTF scan for unlimited readers; use that one on public servers
+		enabled = true
+
+	#BlockState Codec Fast Path
+	[features.blockStateCodec]
+		#Decodes chunk section palettes straight from the backing map instead of walking the DFU codec chain. Canonical tags only - malformed ids, unknown properties and unparseable values still go through the vanilla codec so its errors are preserved
+		enabled = true

@@ -1,0 +1,16 @@
+# Whether the config screen should use animations.
+enableAnimations: true
+# Maximum particle count.
+maxParticles: 1000
+# Volume multiplier for custom sounds.
+soundVolume: 0.8
+# Custom greeting displayed in player HUD.
+greetingMessage: Hello BetterLib!
+# UI Color Theme.
+# [@cui:Dropdown:Dark,Light,Midnight,Cyberpunk]
+themeName: Dark
+# Accent color used for GUI highlights.
+# [@cui:ColorField]
+accentColor: 3718648
+# Overall graphics quality preset.
+graphicsQuality: HIGH

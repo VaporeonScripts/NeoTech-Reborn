@@ -395,7 +395,9 @@
     "io.github.thecsdev.betterstats.api.client.gui.screen.BetterStatsScreenWrapper": true,
     "io.github.thecsdev.betterstats.client.gui.screen.hud.BetterStatsHudScreenWrapper": true,
     "io.github.thecsdev.tcdcommons.api.client.gui.screen.TScreenWrapper": true,
-    "io.github.suel_ki.uei.client.screen.ConfigScreen": true
+    "io.github.suel_ki.uei.client.screen.ConfigScreen": true,
+    "org.confluence.mod.client.gui.MergedConfigurationScreen": true,
+    "com.mrcrayfish.configured.client.screen.ChangeEnumScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,

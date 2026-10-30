@@ -1,0 +1,8 @@
+# Whether cheats and privileged commands are permitted.
+allowCheats: false
+# Max allowed concurrent players.
+maxPlayers: 20
+# Message of the day displayed to connecting players.
+motd: A BetterLib powered world!
+# Server player vs player combat policy.
+pvpMode: OPT_IN
