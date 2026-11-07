@@ -1,0 +1,15 @@
+[compatibility]
+	#TIDEying Up
+	#When Tide, Hybrid Aquatic and Starcatcher are installed together,
+	#removes selected duplicate Tide fish from Starcatcher's fishing registry
+	#in favor of the Hybrid Aquatic versions.
+	#
+	#Affected Tide fish:
+	#- Tuna
+	#- Mahi-mahi
+	#- Mackerel
+	#- Coelacanth
+	#- Carp
+	#
+	#Requires a game restart after changing.
+	tideyingUp = true

@@ -246,10 +246,12 @@ key_key.inventorysorter.itemout:key.mouse.102
 key_key.inventorysorter.itemin:key.mouse.100
 key_key.inventorysorter.sort:key.keyboard.r
 key_key.configured.open_mod_list:key.keyboard.unknown
+key_key.relics_thirteenflames.activity:key.keyboard.k
 key_key.terra_guns.shoot:key.mouse.left
 key_key.terra_guns.aim:key.mouse.right
 key_simplemagnets.keys.toggle:key.keyboard.h
 key_Build Current Structure:key.keyboard.b:ALT
+key_key.hammerlib.render_item:key.keyboard.unknown
 key_key.kubejs.kubedex:key.keyboard.unknown
 key_key.enhanced_enchanting.fire_trail_enchantment_use:key.keyboard.g
 key_key.enhanced_enchanting.bomber_enchantment_keybind:key.keyboard.g
@@ -464,10 +466,10 @@ key_key.bankstorage.togglepickupmode:key.keyboard.p
 key_key.bankstorage.lockslot:key.keyboard.left.alt
 key_key.bankstorage.openbankfromkeybind:key.keyboard.unknown
 key_key.bankstorage.enablescroll:key.keyboard.unknown
-key_key.twilightforest.swap_hotbar:key.keyboard.v
-key_key.twilightforest.zoom:key.keyboard.z
-key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.twilightforest.item_display_map_cycle:key.keyboard.c
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
+key_key.twilightforest.zoom:key.keyboard.z
+key_key.twilightforest.swap_hotbar:key.keyboard.v
 key_key.betterblockz.switch:key.keyboard.v
 key_key.betterblockz.scroll_modifier:key.keyboard.left.alt
 key_key.betterblockz.cycle_pillar_axis:key.keyboard.r
@@ -526,11 +528,11 @@ key_key.extendedae.viewpattern:key.keyboard.p
 key_key.extendedae.set_amount:key.mouse.middle
 key_key.modern_industrialization.toggle_3x3:key.keyboard.y
 key_key.modern_industrialization.toggle_flight:key.keyboard.unknown
+key_key.extended_industrialization.toggle_main_hand_ability:key.keyboard.y
+key_key.extended_industrialization.toggle_helmet_ability:key.keyboard.b
 key_key.extended_industrialization.toggle_chestplate_ability:key.keyboard.n
 key_key.extended_industrialization.toggle_boots_ability:key.keyboard.unknown
-key_key.extended_industrialization.toggle_main_hand_ability:key.keyboard.y
 key_key.extended_industrialization.toggle_leggings_ability:key.keyboard.m
-key_key.extended_industrialization.toggle_helmet_ability:key.keyboard.b
 key_key.industrialization_overdrive.terminal_mode_switch:key.keyboard.v
 key_key.theurgy.change_item_mode:key.keyboard.unknown
 key_key.inventoryhud.toggle:key.keyboard.unknown
@@ -578,7 +580,7 @@ key_pneumaticcraft.armor.upgrade.block_tracker.module.hackables:key.keyboard.unk
 key_pneumaticcraft.armor.upgrade.scuba:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.block_tracker.module.end_portal:key.keyboard.unknown
-soundCategory_master:0.1073943661971831
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:0.10798122065727686
 soundCategory_weather:0.05399061032863843
