@@ -1,8 +1,8 @@
 # NeoTech Reborn
 
-Official GitHub page of the NeoTech Reborn modpack (NeoForge, 1.21.1, 600+ mods).
+Official GitHub page of the NeoTech Reborn modpack (NeoForge, 1.21.1, 700+ mods).
 
-A NeoForge modpack with 600+ carefully picked mods, built for any type of player — from beginners to veterans. Looks good, runs well, and offers deep tech automation, magic, exploration, and combat, backed by custom enchantments, overhauled world generation, and thousands of structures and mobs to discover.
+A NeoForge modpack with 700+ carefully picked mods, built for any type of player — from beginners to veterans. Looks good, runs well, and offers deep tech automation, magic, exploration, and combat, backed by custom enchantments, overhauled world generation, and thousands of structures and mobs to discover.
 
 Minecraft 1.21.1 · NeoForge
 
