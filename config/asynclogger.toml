@@ -34,7 +34,7 @@ testPerformance = false
 	#The specified logging levels will be filtered out and not logged. Valid values: TRACE, DEBUG, INFO, WARN, ERROR, FATAL
 	levels = []
 	#Messages logged by loggers with the specified names will be filtered out and not logged.
-	loggers = ["STDOUT"]
+	loggers = ["STDOUT", "STDERR"]
 	#Messages containing the specified substrings will be filtered out and not logged.
 	strings = ["Unable to find animation:", "[STDERR/]", "[STDOUT]", "FileAlreadyExistsException", "Item must not be minecraft:air", "Found animation file with improper file name format", "Hammer Animations was tampered by someone"]
 	#Messages that match the specified regexes will be filtered out and not logged.
