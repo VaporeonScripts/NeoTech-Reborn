@@ -48,7 +48,7 @@ minEctoMistEffectRadius = 10
 [Entity]
 	bloodyEffect = true
 	#Allowed Values: OFF, CONFLUENCE, CONFLUENCE_VANILLA, ALL
-	goreEffect = "ALL"
+	goreEffect = "CONFLUENCE"
 	damageIndicator = false
 	healIndicator = false
 

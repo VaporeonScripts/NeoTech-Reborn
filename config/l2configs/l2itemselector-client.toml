@@ -10,3 +10,4 @@ infoAnchor = "CENTER"
 infoMaxWidth = 0.3
 selectionDisplayRequireShift = false
 selectionScrollRequireShift = true
+useFastSwitchWheel = false

@@ -10,3 +10,13 @@ machine_chainer_copy_depth = -1
 	# Default: 1.0
 	# Range: 0.1 ~ 1.7976931348623157E308
 	multi_processing_array_eu = 1.0
+
+[me_hatches]
+	#How many ticks newly placed ME hatches wait between transfers with the ME network; each hatch can change it in its screen. 1 transfers every tick
+	# Default: 40
+	# Range: 1 ~ 1200
+	transfer_interval_ticks = 40
+	#How many transfer intervals ME input hatches keep stocking for the last recipe after the multiblock stops running it, so a short stall does not return the stock to the network
+	# Default: 3
+	# Range: 0 ~ 100
+	smart_pull_hold_intervals = 3

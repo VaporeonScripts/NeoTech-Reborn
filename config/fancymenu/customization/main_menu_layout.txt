@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1784831075884
+  last_edited_time = 1794044805206
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = NeoTech Advanced
-  [loading_requirement_container_meta:e51c2664-8c99-4c2f-8f5e-6676f64b4fc8-1784831022937] = [groups:][instances:]
+  [loading_requirement_container_meta:ffe2c231-2ee3-45c6-974c-8b08a9a21d74-1794044681846] = [groups:][instances:]
 }
 
 menu_background {
@@ -61,8 +61,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = f6e0d202-1f65-4fdc-8a0f-28bb1ca5648b-1784641345838
-  background_type = video_mcef
+  instance_identifier = 098fcaf8-a119-486b-b27c-8e726b4a243c-1794044681846
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -128,13 +128,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 9bcffec5-5dc8-4331-9588-e8af0a85b110-1784641345838
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {

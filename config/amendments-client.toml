@@ -82,7 +82,7 @@
 
 [misc]
 	#Gives a special animation to torches when held in hand
-	torch_item_holding = true
+	torch_item_holding = false
 	#Size lanterns when held in hand
 	# Default: 1.0
 	# Range: 0.0 ~ 2.0
@@ -136,13 +136,11 @@
 	dragon_fireball_trail = true
 	#Makes 3D charges tumble in the air when moving
 	charges_tumble = true
-	#Makes 3D snowballs and slimeballs (supp compat) tumble in the air when moving
+	#Makes 3D snowballs, slimeballs (supp compat) and mud balls (environmental compat) tumble in the air when moving
 	projectiles_tumble = false
+	#Makes snowballs leave a trail of snowflakes and spawn more of them on hit
+	extra_particles = true
 
 	[projectiles.dragon_fireball]
 		#Makes dragon's breath particles emissive to better match new visuals
 		dragon_breath_emissive = true
-
-[buckets]
-	#Axolotl buckets show the color of the axolotl inside
-	axolotl_variants = true

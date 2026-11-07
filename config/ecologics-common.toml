@@ -11,13 +11,24 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 1.0
 	pricklyPearGrowthChance = 1.0
+	#Should you be able to place Chests on vanilla Camels? Disable for compatibility with certain camel mods.
+	camelChestsEnabled = true
 
 #Lush Caves Update
 [lush_caves]
 	#Vanilla Azalea trees will have azalea logs instead of oak logs
 	replaceAzaleaTree = true
 
-#Plains
+#Miscellaneous
 [plains]
 	#Should Foxes attack Squirrels?
 	foxesAttackSquirrels = true
+	#Should Ecologics items be added to vanilla Creative Tabs?
+	useVanillaCreativeTabs = true
+
+#Maple & Syrup Update
+[maple]
+	#The probability that Sappy Maple Logs will deplete when the bucket hanging from Spile completely fills up.
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	mapleSapDepletionChance = 0.2

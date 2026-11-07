@@ -103,6 +103,9 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "hammerlib": {
+    "root": true
+  },
   "betternether": {
     "plant_growth": true
   },
@@ -134,13 +137,6 @@
     "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
-  },
-  "securitycraft": {
-    "showowner": true,
-    "showmodules": true,
-    "entity_info": true,
-    "block_info": true,
-    "showcustomname": true
   },
   "framedblocks": {
     "framed_item_frame": true,

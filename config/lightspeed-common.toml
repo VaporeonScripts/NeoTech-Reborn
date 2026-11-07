@@ -11,9 +11,7 @@
 	verifyJarHash = false
 
 [compatibility]
-	#Complete failed third-party client resource reload listeners instead of letting one mod crash the whole loading overlay.
+	#Opt in to isolating failures owned by explicitly configured third-party resource reload listener classes.
 	isolateModdedResourceReloadFailures = true
-	#Class-name prefixes whose third-party reload listener or renderer failures may be isolated. Use * for all non-core mod code.
-	isolatedResourceReloadListenerPatterns = ["*"]
-	#When Sinytra Connector or Continuity is installed, avoid startup/resource optimizations that change Fabric resource reload or renderer lookup timing.
-	connectorCompatibilityMode = true
+	#Explicit class-name prefixes that may be isolated when resource reload fails. Wildcards are rejected so unrelated failures remain visible.
+	isolatedResourceReloadListenerPatterns = []
