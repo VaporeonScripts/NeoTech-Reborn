@@ -4,13 +4,11 @@ config/ars_nouveau/search_index/
 # EMI worldgen cache (regenerated locally, machine-specific)
 config/jeiworldgen-*.dat
 
-# Backup files
-*.bak
-
 # Common Minecraft/modpack junk worth excluding too
 logs/
 crash-reports/
 *.log
+*.bak
 config/spark/activity.json
 config/spark/tmp-client/
 config/sodium-fingerprint.json
