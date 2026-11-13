@@ -3,9 +3,21 @@
 	stealtho_meter_style = "CROSSHAIR"
 	enable_health_bar = true
 	enable_damage_numbers = true
+	#Horizontal offset of the energy bar relative to screen center.
+	# Default: 10
+	# Range: -2000 ~ 2000
+	energy_bar_offset_x = 10
+	#Vertical offset of the energy bar relative to screen bottom.
+	# Default: -48
+	# Range: -2000 ~ 2000
+	energy_bar_offset_y = -48
 
 [Visuals]
 	enable_custom_damage_flash = true
+	#Field of View used when rendering player model during first-person animations.
+	# Default: 100.0
+	# Range: 30.0 ~ 150.0
+	first_person_animation_fov = 100.0
 
 	[Visuals."Damage Flash Colors"]
 		# Default: 14669820
@@ -22,7 +34,6 @@
 		default = 16771453
 
 	[Visuals."Combat Particles"]
-		enable_attack_particles = true
 		enable_critical_burst = true
 		enable_speedlines = true
 
