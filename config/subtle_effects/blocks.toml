@@ -84,6 +84,7 @@ rainWaterRipples = true
 rainWaterRipplesDensity = 0.35
 underwaterBlockBreakBubbles = true
 decoratedPotsSpawnBubbles = true
+decoratedPotsInteractionBubbles = true
 openingBarrelsSpawnsBubbles = true
 openingChestsSpawnsBubbles = true
 chestsOpenRandomlyUnderwaterFrequency = 5

@@ -7,7 +7,7 @@ mushroomSporeDensity = 0.5
 mushroomSporeBiomes = [
     "minecraft:mushroom_fields"
 ]
-pollenDensity = 0.75
+pollenDensity = 0.74509805
 pollenBiomes = [
     "minecraft:flower_forest",
     "minecraft:sunflower_plains"
