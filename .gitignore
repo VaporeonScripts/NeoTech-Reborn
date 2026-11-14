@@ -14,3 +14,6 @@ config/spark/tmp-client/
 config/sodium-fingerprint.json
 config/whatchanged/pack-snapshot.json
 config/whatchanged/pack-report.json
+
+# EMI Accelerator stack cache (regenerated locally, machine-specific)
+config/emi-accelerator/stack-cache.emic
