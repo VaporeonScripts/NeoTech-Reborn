@@ -17,3 +17,6 @@ config/whatchanged/pack-report.json
 
 # EMI Accelerator stack cache (regenerated locally, machine-specific)
 config/emi-accelerator/stack-cache.emic
+
+# EMI Accelerator reload timings (regenerated locally, machine-specific)
+config/emi-accelerator/reload-timings.json
