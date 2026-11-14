@@ -4,7 +4,92 @@
 	stoneReplacers = false
 	#Whether the tremor event can occur
 	tremors = false
-	#Do rocks generate around the world
+	#Whether small rock piles (stone, deepslate, dripstone and basalt rocks) generate around the world
 	rocks = true
 	#Whether the geysers generate around the world
 	geysers = false
+	#Whether geysers can erupt. Turn this off to keep geysers as decoration only
+	activeGeysers = true
+	#Whether boulders generate in caves
+	boulders = true
+
+	#Ore boulders for ores added by other mods. They only generate when a mod adds the ore
+	#(found through the c:storage_blocks/raw_<ore> tag), so these do nothing without such a mod.
+	[worldGeneration.moddedBoulders]
+		#Whether zinc boulders generate when a mod adds zinc
+		zinc = true
+		#Whether osmium boulders generate when a mod adds osmium
+		osmium = true
+		#Whether tin boulders generate when a mod adds tin
+		tin = true
+		#Whether lead boulders generate when a mod adds lead
+		lead = true
+
+#Tremor Settings (only used when worldGeneration.tremors is true)
+[tremors]
+	#How often, in seconds, each player is checked for a natural tremor
+	# Default: 600
+	# Range: 10 ~ 3600
+	checkIntervalSeconds = 600
+	#Chance of a natural tremor per check when the player is at y=64 or higher
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	shallowChance = 0.01
+	#Chance of a natural tremor per check at the bottom of the world. Values in between scale with depth
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	deepChance = 0.15
+	#Length in seconds of a natural tremor at y=64 or higher
+	# Default: 20
+	# Range: 5 ~ 300
+	shallowLengthSeconds = 20
+	#Length in seconds of a natural tremor at the bottom of the world
+	# Default: 40
+	# Range: 5 ~ 300
+	deepLengthSeconds = 40
+	#Hard cap on how long any tremor can last, in seconds, including when tremors stack
+	# Default: 60
+	# Range: 5 ~ 600
+	maxLengthSeconds = 60
+	#Highest magnitude a tremor can reach. Natural tremors scale from 1 at y=64 to this at the bottom of the world
+	# Default: 5
+	# Range: 1 ~ 20
+	maxMagnitude = 5
+	#Seconds between the warning rumble and the tremor starting
+	# Default: 5
+	# Range: 0 ~ 60
+	warningSeconds = 5
+	#Seconds a tremor takes to build up to full strength, and to fade out at the end
+	# Default: 6
+	# Range: 0 ~ 60
+	rampSeconds = 6
+	#Horizontal radius in blocks around the tremor where blocks shake and rocks fall. Vertical range is half of this
+	# Default: 32
+	# Range: 4 ~ 64
+	effectRadius = 32
+	#Chance that a shaken stone ceiling drops a rock
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	rockChance = 0.15
+	#Most rocks a single tremor can drop in one tick
+	# Default: 1
+	# Range: 0 ~ 20
+	maxRocksPerTick = 1
+	#A tremor stops dropping rocks while this many falling rocks already exist within its effect radius
+	# Default: 20
+	# Range: 0 ~ 500
+	maxRocksNearby = 20
+	#Rocks only drop within this many blocks of a player
+	# Default: 32
+	# Range: 4 ~ 128
+	rockPlayerRange = 32
+	#Whether underground explosions cause tremors
+	explosionTremors = true
+	#Explosions must be below this Y level to cause a tremor
+	# Default: 32
+	# Range: -64 ~ 320
+	explosionMaxY = 32
+	#Seconds of tremor per block of explosion radius (TNT has a radius of 4)
+	# Default: 3.0
+	# Range: 0.0 ~ 30.0
+	explosionSecondsPerRadius = 3.0

@@ -20,7 +20,8 @@
       "withersweapons:raindrop": true,
       "minecraft:dripping_water": true,
       "minecraft:rain": true,
-      "irons_spellbooks:fog": true
+      "irons_spellbooks:fog": true,
+      "block_factorys_bosses:fog_1": true
     }
   },
   "detail_settings": {

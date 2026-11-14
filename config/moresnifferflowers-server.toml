@@ -13,7 +13,7 @@
 	"Corrupted Sludge Griefing" = true
 
 [rebrewing]
-	#Change items for rebrewing recipe, JEI needs rejoin
+	#Change unlockedItems for rebrewing recipe, JEI needs rejoin
 	"Rebrewing Length" = "minecraft:redstone"
 	"Rebrewing Amplifier" = "minecraft:glowstone_dust"
 	"Rebrewing Splash" = "minecraft:gunpowder"
@@ -22,7 +22,7 @@
 [misc]
 	#Should Saltemone Bubbles drop loot, even when nobody popped them? Default = true
 	"Saltemone Griefing" = true
-	#Cooldown for all throwable items, which drop blocks. Input in ticks
+	#Cooldown for all throwable unlockedItems, which drop blocks. Input in ticks
 	# Default: 0
 	# Range: 0 ~ 10000
 	"Throwables Cooldown" = 0
