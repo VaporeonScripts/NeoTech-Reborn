@@ -1,4 +1,7 @@
 [general]
+	#Dimensions where dropped items are never cleared.
+	#Write the dimension id, for example minecraft:the_end or just the_end for vanilla ones.
+	excluded_dimensions = []
 	#Master switch. When false nothing is cleared and no warnings are sent.
 	#The countdown boss bar keeps running and shows the paused text.
 	enabled = true
@@ -9,16 +12,21 @@
 	# Range: 20 ~ 604800
 	interval_seconds = 610
 	#Show how many items were removed in the cleanup message.
-	#When false the plain cleaned_none text is used instead.
+	#When off, the plain cleanup message without a count is used instead.
 	show_count = true
-	#Dimensions where dropped items are never cleared, written as full ids.
-	#Example: ["minecraft:the_end", "minecraft:the_nether"]
-	excluded_dimensions = []
+	#Keep items that have only been on the ground for a short time (see young item age below).
+	#Off by default, so every dropped item is cleared.
+	skip_young_items = false
+	#Items that have been on the ground for less time than this survive a cleanup.
+	#Only used when skipping young items is turned on.
+	# Default: 15
+	# Range: 1 ~ 3600
+	young_item_seconds = 15
 
 #Chat warnings sent before a cleanup.
-#seconds_before is counted back from the cleanup. A warning is skipped when it is not
-#smaller than interval_seconds. The texts are plain, so if you change a time, also
-#change its text under [messages.overrides].
+#Each warning time is counted back from the cleanup. A warning is skipped when its time is
+#not shorter than the cleanup interval. The texts are plain, so if you change a time, also
+#change its text in the Messages section.
 [warnings]
 
 	[warnings.first]
