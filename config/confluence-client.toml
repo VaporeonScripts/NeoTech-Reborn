@@ -1,10 +1,3 @@
-# Default: 90
-# Range: 0 ~ 100
-showWindParticles = 90
-# Default: 10
-# Range: 0 ~ 100
-minEctoMistEffectRadius = 10
-
 [HUD]
 	leftEffectIcon = false
 	# Default: 0
@@ -45,17 +38,98 @@ minEctoMistEffectRadius = 10
 		#Allowed Values: LEGACY_HORIZONTAL, LEGACY_DIAGONAL, LEGACY_VERTICAL, OVERLAY
 		armorStyle = "OVERLAY"
 
+	[HUD.Boss]
+		#Allowed Values: VANILLA, STATIC, DYNAMIC
+		bossBarStyle = "STATIC"
+		#Show exact health values on custom boss bars.
+		bossBarNumbersVisible = true
+
+	[HUD.Soulcerer]
+		#Allowed Values: LEGACY, OVERLAY
+		soulStyle = "OVERLAY"
+		#Allowed Values: ROULETTE_WHEEL_BIG, ROULETTE_WHEEL_SMALL, CARD_HORIZONTAL_L, CARD_HORIZONTAL_R
+		soulcererQuickSkillStyle = "ROULETTE_WHEEL_SMALL"
+
+	[HUD.Crosshair]
+		crosshairAnimation = true
+		crosshairAnimationBlacklist = []
+		bowCrosshairAnimation = true
+		crossbowCrosshairAnimation = true
+		gunCrosshairAnimation = true
+		repeaterCrosshairAnimation = true
+
+	[HUD.HitMarker]
+		hitMarker = true
+		hitMarkerBlacklist = []
+		hitMarkerMelee = true
+		hitMarkerRanged = true
+		hitMarkerMagic = true
+		hitMarkerSummon = true
+		hitMarkerOther = true
+
 [Entity]
 	bloodyEffect = true
 	#Allowed Values: OFF, CONFLUENCE, CONFLUENCE_VANILLA, ALL
 	goreEffect = "CONFLUENCE"
-	damageIndicator = false
-	healIndicator = false
+	#Allowed Values: PARTICLE, VIRTUAL, OFF
+	damageIndicator = "OFF"
+	#Allowed Values: PARTICLE, VIRTUAL, OFF
+	healIndicator = "OFF"
+	#Replace spiders and sand poachers with non-spider models. Requires a game restart.
+	enableNonSpiderModel = false
+	#Mute every Warden sound: footsteps, heartbeat, roars, sonic boom and so on. Client-side only, disabled by default.
+	muteWardenSound = false
 
 [GUI]
 	achievementToast = true
 	# Default: 71
 	# Range: 0 ~ 1000
 	customTitle = 71
-	#Allowed Values: NEVER, EVERYWHERE, TRADE_SCREEN
-	sellPriceDisplay = "EVERYWHERE"
+
+	[GUI.ItemTooltips]
+		#Show weapon / soul skill damage and cooldown with base stats, excluding player equipment and effects. Disabled by default to show the final values with player bonuses and cooldown reductions.
+		weaponTooltipBaseStats = false
+		#Allowed Values: NEVER, EVERYWHERE, TRADE_SCREEN
+		sellPriceDisplay = "EVERYWHERE"
+
+	[GUI.Soulcerer]
+		#Draw the dynamic background of the Soul Skill Overview screen. Disable to keep only the widgets.
+		soulcererBackgroundEnabled = true
+		# Default: 270
+		# Range: 0 ~ 360
+		soulcererBackgroundHue = 270
+		# Default: 255
+		# Range: 0 ~ 255
+		soulcererBackgroundContrast = 255
+		soulcererBackgroundTree = true
+		soulcererBackgroundMagic = true
+
+[Biome]
+	# Default: 10
+	# Range: 0 ~ 100
+	minEctoMistEffectRadius = 10
+
+	[Biome."The Hallow"]
+		# Default: 3
+		# Range: 0 ~ 20
+		rainbowCount = 3
+		rainbowGradient = false
+
+[WeaponInput]
+	#Allowed Values: LEFT, RIGHT
+	staffUseButton = "RIGHT"
+	#Allowed Values: LEFT, RIGHT
+	whipUseButton = "LEFT"
+	#Allowed Values: LEFT, RIGHT
+	yoyoUseButton = "LEFT"
+	#Allowed Values: LEFT, RIGHT
+	gunUseButton = "LEFT"
+	#Allowed Values: LEFT, RIGHT
+	flailUseButton = "LEFT"
+
+[Weather]
+	# Default: 90
+	# Range: 0 ~ 100
+	showWindParticles = 90
+	windSlantsRainClouds = true
+	blizzardAmbience = true
