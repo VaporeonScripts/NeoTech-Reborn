@@ -1,0 +1,1 @@
+enhanced_enchanting:curse_of_lagging
