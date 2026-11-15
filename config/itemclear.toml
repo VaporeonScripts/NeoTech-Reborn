@@ -1,7 +1,7 @@
 [general]
-	#Dimensions where dropped items are never cleared.
-	#Write the dimension id, for example minecraft:the_end or just the_end for vanilla ones.
-	excluded_dimensions = []
+	#In the drops command, hide dimensions that have no dropped items.
+	#When off, every dimension is listed, including empty ones.
+	hide_empty_dimensions = true
 	#Master switch. When false nothing is cleared and no warnings are sent.
 	#The countdown boss bar keeps running and shows the paused text.
 	enabled = true
@@ -14,6 +14,9 @@
 	#Show how many items were removed in the cleanup message.
 	#When off, the plain cleanup message without a count is used instead.
 	show_count = true
+	#Dimensions where dropped items are never cleared.
+	#Write the dimension id, for example minecraft:the_end or just the_end for vanilla ones.
+	excluded_dimensions = []
 	#Keep items that have only been on the ground for a short time (see young item age below).
 	#Off by default, so every dropped item is cleared.
 	skip_young_items = false
@@ -75,12 +78,22 @@
 
 #Live countdown boss bar. Each player turns it on for themselves with /itemclear timer.
 [countdown_bar]
+	#How many seconds before the cleanup the final color starts.
+	# Default: 10
+	# Range: 1 ~ 3600
+	final_seconds = 30
 	#Bar color: PINK, BLUE, RED, GREEN, YELLOW, PURPLE or WHITE.
 	#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
 	color = "WHITE"
 	#Bar style: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12 or NOTCHED_20.
 	#Allowed Values: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
 	style = "PROGRESS"
+	#Change the bar color during the last seconds before a cleanup.
+	#Off by default.
+	final_color_enabled = false
+	#Bar color used during the final seconds: PINK, BLUE, RED, GREEN, YELLOW, PURPLE or WHITE.
+	#Allowed Values: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+	final_color = "RED"
 
 [colors]
 	#Color set for the warnings, the cleanup message and the on-screen title.
@@ -90,7 +103,7 @@
 
 #Message texts.
 [messages]
-	#Language of the built-in texts: ENGLISH, ITALIAN, SPANISH, FRENCH, GERMAN or PORTUGUESE.
+	#Language of the built-in texts and command replies: ENGLISH, ITALIAN, SPANISH, FRENCH, GERMAN or PORTUGUESE.
 	#Allowed Values: ENGLISH, ITALIAN, SPANISH, FRENCH, GERMAN, PORTUGUESE
 	language = "ENGLISH"
 
