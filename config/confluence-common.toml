@@ -10,7 +10,7 @@
 	terraStyleExplosion = true
 	terraStyleFireDamage = true
 	enemyDropsMoney = true
-	stopAskForSoftcore = false
+	stopAskForSoftcore = true
 
 	[Gameplay.AutomaticWeaponUse]
 		autoSwingAllSwords = false

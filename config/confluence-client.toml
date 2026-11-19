@@ -59,7 +59,7 @@
 		repeaterCrosshairAnimation = true
 
 	[HUD.HitMarker]
-		hitMarker = true
+		hitMarker = false
 		hitMarkerBlacklist = []
 		hitMarkerMelee = true
 		hitMarkerRanged = true
