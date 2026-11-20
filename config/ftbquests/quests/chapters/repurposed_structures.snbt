@@ -1,0 +1,327 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "repurposed_structures"
+	group: ""
+	icon: {
+		id: "minecraft:book"
+	}
+	id: "7DFFBFFD6C230952"
+	images: [ ]
+	order_index: 27
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7B55273F83BCF2A6"
+			tasks: [{
+				id: "2DEADD2A5038DFF8"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "338A062A43604480"
+			rewards: [{
+				id: "5303351118BFB62F"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:fortress_jungle"
+				criterion: ""
+				id: "6834EFD305C1230D"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			id: "7EE4BB6EF557CF7A"
+			rewards: [{
+				id: "0395AD69F789C3F2"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:ruins"
+				criterion: ""
+				id: "7CAEFC3EC2F99010"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "6D2EC6B6C7E17675"
+			rewards: [{
+				id: "5F3658B44EF0281D"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:ruined_portal_end"
+				criterion: ""
+				id: "77074067815AFA74"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.75d
+		}
+		{
+			id: "1A505E628FF1DA06"
+			rewards: [{
+				id: "42A684C9472A3273"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:witch_huts"
+				criterion: ""
+				icon: {
+					id: "mcwholidays:witch_hat"
+				}
+				id: "543F5A1E4880AEC5"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "52CAFEB8EB1E0ED8"
+			rewards: [{
+				id: "4AECC0F076CFF0C5"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:mansions"
+				criterion: ""
+				icon: {
+					id: "minecraft:totem_of_undying"
+				}
+				id: "2825E7AB2B7D0DF6"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "4C49B899CC825C41"
+			rewards: [{
+				id: "727F87A4D6A9D26B"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:mineshafts"
+				criterion: ""
+				id: "18BC81DF35B43CA0"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			id: "476A3C6E2457DD68"
+			rewards: [{
+				id: "38D8B840C283353C"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:city_nether"
+				criterion: ""
+				icon: {
+					id: "minecraft:blaze_powder"
+				}
+				id: "6D9FFD076CFC74A4"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "27D2DDC0BDBDC436"
+			rewards: [{
+				id: "71292333FAD45CEB"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:igloos"
+				criterion: ""
+				id: "77E815512AFBB5C6"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 1.75d
+		}
+		{
+			id: "1932ECB2DBF7DB8D"
+			rewards: [{
+				id: "14CFB9B2689A8C4C"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:bastion_underground"
+				criterion: ""
+				icon: {
+					id: "mcwholidays:sitting_skeleton"
+				}
+				id: "09F8CDA60923D6FC"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.75d
+		}
+		{
+			id: "02E203CF25C47D92"
+			rewards: [{
+				id: "2F813EC1C3F612D3"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:shipwrecks"
+				criterion: ""
+				id: "233F6A5DC43B37E7"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "050247B8EC9FA02B"
+			rewards: [{
+				id: "25BB0F8CD8EDB2F4"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:villages"
+				criterion: ""
+				id: "32E04CBF495BBE0A"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 1.75d
+		}
+		{
+			id: "2D7E950C97EBBA12"
+			rewards: [{
+				id: "406E9F07590956C9"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:pyramids"
+				criterion: ""
+				id: "4A828CCE62DFEC66"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 1.75d
+		}
+		{
+			id: "7FEFB85C3DC442D2"
+			rewards: [{
+				id: "66CDD772F62C21B0"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:city_overworld"
+				criterion: ""
+				id: "42A7EB8639B4BAD2"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "55653B345B616B5E"
+			rewards: [{
+				id: "49D28B33799B36AB"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:temples"
+				criterion: ""
+				icon: {
+					id: "mcwholidays:gravestone"
+				}
+				id: "6F3E82436B6DCD42"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 1.75d
+		}
+		{
+			id: "02FF7A886AE1EC85"
+			rewards: [{
+				id: "4AC911A025FADA1C"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:outposts"
+				criterion: ""
+				id: "096AE0647E634927"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "4CA086C5BE127014"
+			rewards: [{
+				id: "55D9401BE22E19AD"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:strongholds"
+				criterion: ""
+				id: "02772FDCF3496F0A"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "1669297B82347096"
+			rewards: [{
+				id: "5E76E04E65D108D4"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:ancient_cities"
+				criterion: ""
+				id: "3A5DED37E18BD8A4"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "07BAF7805643E20B"
+			rewards: [{
+				id: "759DF6C96ABE423B"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "repurposed_structures:monuments"
+				criterion: ""
+				id: "409F3E205FF22CA5"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 1.75d
+		}
+	]
+}

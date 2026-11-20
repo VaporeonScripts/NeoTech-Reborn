@@ -2,21 +2,881 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aether"
-	group: "49288E17E9D90688"
+	group: ""
 	icon: {
 		id: "minecraft:glowstone"
 	}
 	id: "3FD2CE58197FEEC5"
 	images: [ ]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "71AA3B05D8E43179"
-		tasks: [{
-			id: "396E6698FEFC208C"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "71AA3B05D8E43179"
+			tasks: [{
+				id: "396E6698FEFC208C"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "15D71004975A0E99"
+			rewards: [{
+				count: 4
+				id: "58B1A4E97C676317"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:enter_aether"
+				criterion: ""
+				id: "0365B4CCCA4F2605"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "31FC442BAEF7FE35"
+			rewards: [{
+				id: "5256236065AD6F78"
+				item: {
+					count: 1
+					id: "aether:zanite_gemstone"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:zanite"
+				criterion: ""
+				id: "6903DE670DCC3AC0"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			id: "6BA4B719E5A64CAC"
+			rewards: [{
+				id: "180C5A1494BBBD0F"
+				item: {
+					count: 1
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:read_lore"
+				criterion: ""
+				id: "539BB41D378D70C1"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "546A74F503A75C96"
+			rewards: [{
+				count: 3
+				id: "656FEB756204B51C"
+				item: {
+					count: 1
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:loreception"
+				criterion: ""
+				id: "08CB280770D6FB6A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "6A0AD1EDDED4F8F0"
+			rewards: [{
+				count: 6
+				id: "61BC2DB8A5797C7F"
+				item: {
+					count: 1
+					id: "aether:holystone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CDA3CC02609C4F4"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			id: "72E0EC631DAC1513"
+			rewards: [{
+				count: 2
+				id: "00821D74B7F7C046"
+				item: {
+					count: 1
+					id: "minecraft:ice"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E15DCFAA2729803"
+				item: { count: 1, id: "aether:icestone" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			id: "421F14535BF99CEF"
+			rewards: [
+				{
+					count: 2
+					id: "7B1DE778B171216A"
+					item: {
+						count: 1
+						id: "minecraft:packed_ice"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "296CC6E2EE63E9B7"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3446F90C4E1156D5"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:ice_accessory"
+				criterion: ""
+				id: "510AB7D1ED6AC362"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 1.75d
+		}
+		{
+			id: "0C7F75FA3DD3A2CD"
+			rewards: [
+				{
+					count: 2
+					id: "768585D1D19C1955"
+					item: {
+						count: 1
+						id: "mekanism:ingot_bronze"
+					}
+					type: "item"
+				}
+				{
+					id: "71070049222B5F9E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				id: "5132BD36219052B3"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "aether:gravitite_chestplate"
+			}
+			id: "721EBB4B78B425A7"
+			rewards: [{
+				id: "3CE2FF607FFE6E0C"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "468F791FB2162852"
+					item: { count: 1, id: "aether:gravitite_helmet" }
+					type: "item"
+				}
+				{
+					id: "6574221FC84736EE"
+					item: { count: 1, id: "aether:gravitite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2AC8BCDA71C7DABF"
+					item: { count: 1, id: "aether:gravitite_leggings" }
+					type: "item"
+				}
+				{
+					id: "30EB9703D8A3C5CA"
+					item: { count: 1, id: "aether:gravitite_boots" }
+					type: "item"
+				}
+				{
+					id: "294201F21E2F503B"
+					item: { count: 1, id: "aether:gravitite_gloves" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.25d
+		}
+		{
+			id: "7B91CDC8202CB41F"
+			rewards: [{
+				id: "0E375F93BF03E13F"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75DDC6C2E853B361"
+				item: { count: 1, id: "aether:hammer_of_kingbdogz" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.25d
+		}
+		{
+			id: "2226A5E598BA2684"
+			rewards: [{
+				id: "54E6B970A587B319"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BC363F35AD395F2"
+				item: { count: 1, id: "aether:valkyrie_lance" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "372F90BF0928F68D"
+			rewards: [
+				{
+					count: 3
+					id: "07F5362B183E405A"
+					item: {
+						count: 1
+						id: "minecraft:snow_block"
+					}
+					type: "item"
+				}
+				{
+					id: "3A3836CEF2ED92E3"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:zephyr_hammer"
+				criterion: ""
+				id: "37D12DEC621053A3"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 5.25d
+		}
+		{
+			id: "7D5AB924D152BDB8"
+			rewards: [
+				{
+					id: "6374D0040CE5ACD3"
+					item: {
+						count: 1
+						id: "occultism:silver_block"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "78D9B5B0FF344A74"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				id: "025398EC732411F5"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "14E0CD2112C11AE9"
+			rewards: [
+				{
+					id: "5693239251D957D2"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_regeneration"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "0B803184CFEFB35F"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02D94F4495268F68"
+				item: { count: 1, id: "aether:regeneration_stone" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			id: "414997D27FB2024D"
+			rewards: [
+				{
+					id: "301B728ECC4BE892"
+					item: {
+						count: 1
+						id: "ascended_quark:valkyrie_pickarang"
+					}
+					type: "item"
+				}
+				{
+					id: "165C4992FC34DE40"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:valkyrie_loot"
+				criterion: ""
+				id: "62BDC9A00DE6BCDA"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 1.75d
+		}
+		{
+			id: "68E74946A779AA1C"
+			rewards: [
+				{
+					id: "539141EDA9367384"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7D010FBC0F8DC91E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				id: "16D2005FA13A4EC2"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			id: "149628006FAF96E5"
+			rewards: [
+				{
+					id: "47A68B85F550A15D"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_hoe"
+					}
+					type: "item"
+				}
+				{
+					id: "49E306FE7745299B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:valkyrie_hoe"
+				criterion: ""
+				id: "177B0596FE8425FA"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "083EF6D9D203B1C4"
+			rewards: [{
+				id: "0061083B61B72F4B"
+				item: {
+					count: 1
+					id: "comforts:sleeping_bag_orange"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:aether_sleep"
+				criterion: ""
+				id: "23E7BCD4C5D8CC15"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			id: "2FE39A0DD9DA8631"
+			rewards: [
+				{
+					count: 2
+					id: "6E3CA57A28FAEBFE"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fireball"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "028E0485091503DA"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:phoenix_armor"
+				criterion: ""
+				id: "2530976CC479D0FF"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 1.75d
+		}
+		{
+			icon: {
+				id: "aether:obsidian_chestplate"
+			}
+			id: "14234AD8060AD603"
+			optional: true
+			rewards: [
+				{
+					id: "42F8A27D0B52E182"
+					item: {
+						count: 1
+						id: "aether:obsidian_gloves"
+					}
+					type: "item"
+				}
+				{
+					id: "690C3BE5047E10F3"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5EE2940FC99754AA"
+					item: { count: 1, id: "aether:obsidian_helmet" }
+					type: "item"
+				}
+				{
+					id: "749D9F71730D40BB"
+					item: { count: 1, id: "aether:obsidian_chestplate" }
+					type: "item"
+				}
+				{
+					id: "18E8567D645C0313"
+					item: { count: 1, id: "aether:obsidian_leggings" }
+					type: "item"
+				}
+				{
+					id: "4E8896A08BB839A5"
+					item: { count: 1, id: "aether:obsidian_boots" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 1.75d
+		}
+		{
+			id: "7F7656C435574901"
+			rewards: [{
+				count: 3
+				id: "4E21E12C3A49FC15"
+				item: {
+					count: 1
+					id: "aether:blue_aercloud"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:blue_aercloud"
+				criterion: ""
+				id: "6975D819E1AA6921"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "3AB6F0508562D90B"
+			rewards: [{
+				id: "5EBD62BC5934AB0D"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "aether:obtain_egg"
+				criterion: ""
+				id: "0E7FDB51FC11711B"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.75d
+		}
+		{
+			id: "7E4611D01AB2B59E"
+			rewards: [{
+				count: 16
+				id: "3665BB6559651DFD"
+				item: {
+					components: {
+						"minecraft:fireworks": {
+							explosions: [
+								{
+									colors: [I;
+										16351261
+										13464641
+									]
+									fade_colors: [I;16383998]
+									has_trail: 1b
+									has_twinkle: 1b
+									shape: "small_ball"
+								}
+								{
+									shape: "star"
+								}
+							]
+						}
+					}
+					count: 1
+					id: "minecraft:firework_rocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:mount_phyg"
+				criterion: ""
+				id: "648A587559971116"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "3A2E905F7C0CFFE4"
+			rewards: [{
+				id: "7B29FF30604B12BB"
+				item: {
+					count: 1
+					id: "aether:aechor_petal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24482409473BE54D"
+				item: { count: 1, id: "aether:aechor_petal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			id: "5735348923DCA3E9"
+			rewards: [
+				{
+					count: 2
+					id: "699AF4DBA3A8E66A"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "68441067AA9B373A"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:incubate_moa"
+				criterion: ""
+				id: "256C48D528488C29"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "69AFFC7BF1826067"
+			tasks: [{
+				advancement: "aether:black_moa"
+				criterion: ""
+				id: "1405777F56CF8DA5"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "deep_aether:stratus_chestplate"
+			}
+			id: "6D00516005D13123"
+			rewards: [
+				{
+					id: "52E14D8C193546FC"
+					item: {
+						count: 1
+						id: "deep_aether:stratus_sword"
+					}
+					type: "item"
+				}
+				{
+					id: "3E9E1A26BCE91AF4"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "49762EBCF88F6D19"
+					item: { count: 1, id: "deep_aether:stratus_helmet" }
+					type: "item"
+				}
+				{
+					id: "629422122DA6F159"
+					item: { count: 1, id: "deep_aether:stratus_chestplate" }
+					type: "item"
+				}
+				{
+					id: "1C762E944AA9D93D"
+					item: { count: 1, id: "deep_aether:stratus_leggings" }
+					type: "item"
+				}
+				{
+					id: "383CF3C7858B7CA6"
+					item: { count: 1, id: "deep_aether:stratus_boots" }
+					type: "item"
+				}
+				{
+					id: "33F1CFF65C16C509"
+					item: { count: 1, id: "deep_aether:stratus_gloves" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 5.25d
+		}
+		{
+			id: "52D9E546A8601BFB"
+			rewards: [{
+				id: "0FD1FC62D1EFEDF9"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:swiftness"
+						}
+					}
+					count: 1
+					id: "apotheosis:potion_charm"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "deep_aether:explore_aether"
+				criterion: ""
+				id: "53F7C95E2F98E7FE"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "5CA9274187346BA1"
+			rewards: [
+				{
+					id: "43E2922C6586604A"
+					item: {
+						count: 1
+						id: "aether:netherite_gloves"
+					}
+					type: "item"
+				}
+				{
+					id: "172DDA3AECF85097"
+					item: {
+						count: 1
+						id: "mysticalagriculture:glowstone_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "768A0ADC0567A5CA"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "deep_aether:aether_champion"
+				criterion: ""
+				id: "50C499D419120339"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 5.25d
+		}
+		{
+			id: "5B87DD1CDAAEFA87"
+			rewards: [{
+				id: "7EF729C49781FC32"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:poison"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "deep_aether:transform_poison"
+				criterion: ""
+				id: "239B2A4AFDFA3312"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2E73C00970FBCFE4"
+			rewards: [{
+				count: 12
+				id: "35FB1B9F7DE2B724"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:prevent_aechor_petal_spawning"
+				criterion: ""
+				id: "7DC30C7C1E0B6563"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			id: "2E26ABBF82FB490C"
+			rewards: [{
+				count: 2
+				id: "6F0AA458CD49A86C"
+				item: {
+					count: 1
+					id: "aether:swet_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:prevent_swet_spawning"
+				criterion: ""
+				id: "2E60ADCA289E3971"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.75d
+		}
+		{
+			id: "3F978170FA20E99F"
+			rewards: [{
+				id: "4C8786F3AC6EF5D7"
+				item: {
+					count: 1
+					id: "aether:gravitite_ore"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B52A4936EA6FE4F"
+				item: { count: 1, id: "aether:enchanted_gravitite" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			hide_until_deps_complete: false
+			id: "67FB3271CD7923BB"
+			rewards: [{
+				id: "6EBF12BBAB828C1B"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
+			tasks: [{
+				advancement: "deep_aether:brass_dungeon"
+				criterion: ""
+				id: "23752F087B6323F4"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 1.75d
+		}
+	]
 }

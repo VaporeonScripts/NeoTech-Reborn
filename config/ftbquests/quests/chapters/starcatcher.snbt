@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starcatcher"
+	group: ""
+	icon: {
+		id: "starcatcher:starcatcher_rod"
+	}
+	id: "739B271EC11EC9D1"
+	images: [ ]
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3D17F65FD5323291"
+			tasks: [{
+				id: "534573B12097599C"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E3962026FAA8436"]
+			id: "4A0A1B9B85C5668C"
+			rewards: [{
+				count: 16
+				id: "14D62F3305D6B52F"
+				item: {
+					count: 1
+					id: "aquaculture:box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BCDBAA9A77FF5DE"
+				item: { count: 1, id: "starcatcher:starcatcher_guide" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D17F65FD5323291"]
+			id: "5E3962026FAA8436"
+			rewards: [{
+				count: 16
+				id: "542613A14F82C441"
+				item: {
+					count: 1
+					id: "aquaculture:box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63EEAF0E3E2E593F"
+				item: { count: 1, id: "starcatcher:starcatcher_rod" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A0A1B9B85C5668C"]
+			id: "6FE5B7A0CAFF99F2"
+			rewards: [{
+				count: 16
+				id: "2596249D0CC9CEE1"
+				item: {
+					count: 1
+					id: "aquaculture:treasure_chest"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6FFCB43004A63E68"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:hooks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7DAB5742BC838B06"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:bobbers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E3962026FAA8436"]
+			id: "073D408097BC4205"
+			rewards: [{
+				count: 16
+				id: "24DAC871074CC69F"
+				item: {
+					count: 1
+					id: "aquaculture:treasure_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5211110B50732D75"
+				item: { components: { "ftbfiltersystem:filter": "or(item(starcatcher:cherry_bait)item(starcatcher:lush_bait)item(starcatcher:sculk_bait)item(starcatcher:dripstone_bait)item(starcatcher:murkwater_bait)item(starcatcher:legendary_bait)item(starcatcher:meteorological_bait))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A0A1B9B85C5668C"]
+			id: "1479FBCA8429CAAF"
+			rewards: [{
+				count: 16
+				id: "162289747D9A3F7A"
+				item: {
+					count: 1
+					id: "aquaculture:lockbox"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C5729829DB3D863"
+				item: { count: 1, id: "starcatcher:fish_radar" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D17F65FD5323291"]
+			id: "1AC87470CBAB0A4A"
+			rewards: [{
+				count: 64
+				id: "17A9D6014754C3DF"
+				item: {
+					count: 1
+					id: "aquaculture:box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29345E31ADD5A560"
+				item: { count: 1, id: "starcatcher:trophy_copper" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AC87470CBAB0A4A"]
+			id: "73D613A73850F524"
+			rewards: [{
+				count: 64
+				id: "6D8991B1B64AAF0F"
+				item: {
+					count: 1
+					id: "aquaculture:lockbox"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09B93532C67F6F93"
+				item: { count: 1, id: "starcatcher:trophy_iron" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73D613A73850F524"]
+			id: "73FF1490429F0C1A"
+			rewards: [{
+				count: 64
+				id: "083E6BEC2FA4D29D"
+				item: {
+					count: 1
+					id: "aquaculture:treasure_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F532593E3343209"
+				item: { count: 1, id: "starcatcher:trophy_gold" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73FF1490429F0C1A"]
+			hide_dependency_lines: true
+			id: "0D2FFCDE73E0E243"
+			rewards: [{
+				count: 64
+				id: "4254AB99C1A86A39"
+				item: {
+					count: 1
+					id: "aquaculture:treasure_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71145C4C22EB2E0D"
+				item: { count: 1, id: "starcatcher:trophy_emerald" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D2FFCDE73E0E243"]
+			id: "39FECF808D584855"
+			rewards: [{
+				count: 64
+				id: "6D7D2D27AC864961"
+				item: {
+					count: 1
+					id: "aquaculture:treasure_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DCE79C8EB51DC7E"
+				item: { count: 1, id: "starcatcher:trophy_diamond" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39FECF808D584855"]
+			id: "6EF694A3D9B000F9"
+			rewards: [{
+				count: 64
+				id: "432EC37A600EA6CF"
+				item: {
+					count: 1
+					id: "aquaculture:treasure_chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45CAC890AB965B7A"
+				item: { count: 1, id: "starcatcher:trophy_of_the_older_angler" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+	]
+}

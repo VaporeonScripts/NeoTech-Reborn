@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss_hunting"
+	group: ""
+	icon: {
+		id: "minecraft:book"
+	}
+	id: "6950AB287CDFB65B"
+	images: [ ]
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3803DF864FB67E36"
+			tasks: [{
+				id: "66E1C3E8377C64C0"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:naga_trophy"
+			}
+			id: "2A058A2C33C2E781"
+			rewards: [{
+				id: "25D18AEB0F3247E5"
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "664136790970FAF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:lich_trophy"
+			}
+			id: "3A9C29CA7EFF0164"
+			rewards: [{
+				id: "3E6CF9EE620AB242"
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "267EF67CCDE6D2C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:hydra_trophy"
+			}
+			id: "1C2FE7811733B698"
+			rewards: [{
+				id: "2553E9331113FD0A"
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "313E5D7958A2BC77"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:ur_ghast_trophy"
+			}
+			id: "19C5DE80CD667F00"
+			rewards: [{
+				id: "6EDAA5067E208646"
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "6C9E886CC1EE3D8A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:snow_queen_trophy"
+			}
+			id: "68A3EEE369AA1162"
+			rewards: [{
+				id: "0561F734BC053E72"
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "5E67D21449700ED5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:minoshroom_trophy"
+			}
+			id: "4C1EA4A82A7DB249"
+			rewards: [{
+				id: "29EE576A9AEB5847"
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "7D76213346646EAD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:knight_phantom_trophy"
+			}
+			id: "3B18C16E95DF729F"
+			rewards: [{
+				id: "36ACC12F1A2913CD"
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "2182E8C050BC18FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:alpha_yeti_trophy"
+			}
+			id: "7757FCF6C6C943B5"
+			rewards: [{
+				id: "05FD010B07B3C6C4"
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "5AB02C8BF55AB237"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:quest_ram_trophy"
+			}
+			id: "3317612046F44147"
+			rewards: [{
+				id: "2D52722717950481"
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E5EB499D7FE1C18"
+				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

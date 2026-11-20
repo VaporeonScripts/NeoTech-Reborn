@@ -1,0 +1,110 @@
+{
+	hide_tooltip: true
+	icon: {
+		id: "minecraft:ender_chest"
+	}
+	id: "4ADEA23F7184D454"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 8
+			id: "49A28053D89F5202"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 750.0f
+		}
+		{
+			count: 6
+			id: "346F8ACE0AE44FBC"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 750.0f
+		}
+		{
+			count: 16
+			id: "7C4FC1375920D2AA"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 750.0f
+		}
+		{
+			count: 12
+			id: "3159641C57C3F661"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 750.0f
+		}
+		{
+			count: 12
+			id: "550C1BAD098D97F8"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 750.0f
+		}
+		{
+			count: 16
+			id: "18E1DB3F8E6B99F2"
+			item: {
+				count: 1
+				id: "minecraft:lapis_lazuli"
+			}
+			weight: 600.0f
+		}
+		{
+			count: 8
+			id: "58DB0F8F3113AC3A"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 600.0f
+		}
+		{
+			count: 2
+			id: "1B2B09B22DFF5336"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+			weight: 300.0f
+		}
+		{
+			count: 16
+			id: "091D5EC66A61F451"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 500.0f
+		}
+		{
+			count: 4
+			id: "325B68626F132E68"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 300.0f
+		}
+		{
+			id: "117FA53543D5A467"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 60.0f
+		}
+	]
+	use_title: true
+}
