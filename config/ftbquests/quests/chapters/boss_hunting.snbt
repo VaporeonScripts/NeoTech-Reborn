@@ -2,19 +2,26 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "boss_hunting"
-	group: "6B63167E1B82FEE2"
-	icon: { id: "minecraft:book" }
+	group: ""
+	icon: {
+		id: "minecraft:book"
+	}
 	id: "7757FCF6C6C943B5"
 	images: [ ]
-	order_index: 10
+	order_index: 26
 	quest_links: [ ]
 	quests: [
 		{
-			icon: { id: "twilightforest:naga_trophy" }
+			icon: {
+				id: "twilightforest:naga_trophy"
+			}
 			id: "2596249D0CC9CEE1"
 			rewards: [{
 				id: "083E6BEC2FA4D29D"
-				item: { count: 1, id: "twilightforest:trophy_pedestal" }
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -27,11 +34,16 @@
 			y: 0.0d
 		}
 		{
-			icon: { id: "twilightforest:lich_trophy" }
+			icon: {
+				id: "twilightforest:lich_trophy"
+			}
 			id: "5211110B50732D75"
 			rewards: [{
 				id: "4254AB99C1A86A39"
-				item: { count: 1, id: "twilightforest:trophy_pedestal" }
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -44,11 +56,16 @@
 			y: 0.0d
 		}
 		{
-			icon: { id: "twilightforest:hydra_trophy" }
+			icon: {
+				id: "twilightforest:hydra_trophy"
+			}
 			id: "24DAC871074CC69F"
 			rewards: [{
 				id: "6D7D2D27AC864961"
-				item: { count: 1, id: "twilightforest:trophy_pedestal" }
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -61,11 +78,16 @@
 			y: 0.0d
 		}
 		{
-			icon: { id: "twilightforest:ur_ghast_trophy" }
+			icon: {
+				id: "twilightforest:ur_ghast_trophy"
+			}
 			id: "6C5729829DB3D863"
 			rewards: [{
 				id: "432EC37A600EA6CF"
-				item: { count: 1, id: "twilightforest:trophy_pedestal" }
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -78,11 +100,16 @@
 			y: 0.0d
 		}
 		{
-			icon: { id: "twilightforest:snow_queen_trophy" }
+			icon: {
+				id: "twilightforest:snow_queen_trophy"
+			}
 			id: "162289747D9A3F7A"
 			rewards: [{
 				id: "3D17F65FD5323291"
-				item: { count: 1, id: "twilightforest:trophy_pedestal" }
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -95,11 +122,16 @@
 			y: 0.0d
 		}
 		{
-			icon: { id: "twilightforest:minoshroom_trophy" }
+			icon: {
+				id: "twilightforest:minoshroom_trophy"
+			}
 			id: "29345E31ADD5A560"
 			rewards: [{
 				id: "2A058A2C33C2E781"
-				item: { count: 1, id: "twilightforest:trophy_pedestal" }
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -112,11 +144,16 @@
 			y: 0.0d
 		}
 		{
-			icon: { id: "twilightforest:knight_phantom_trophy" }
+			icon: {
+				id: "twilightforest:knight_phantom_trophy"
+			}
 			id: "17A9D6014754C3DF"
 			rewards: [{
 				id: "1C2FE7811733B698"
-				item: { count: 1, id: "twilightforest:trophy_pedestal" }
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -129,11 +166,16 @@
 			y: 0.0d
 		}
 		{
-			icon: { id: "twilightforest:alpha_yeti_trophy" }
+			icon: {
+				id: "twilightforest:alpha_yeti_trophy"
+			}
 			id: "09B93532C67F6F93"
 			rewards: [{
 				id: "68A3EEE369AA1162"
-				item: { count: 1, id: "twilightforest:trophy_pedestal" }
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -146,11 +188,16 @@
 			y: 0.0d
 		}
 		{
-			icon: { id: "twilightforest:quest_ram_trophy" }
+			icon: {
+				id: "twilightforest:quest_ram_trophy"
+			}
 			id: "6D8991B1B64AAF0F"
 			rewards: [{
 				id: "3B18C16E95DF729F"
-				item: { count: 1, id: "twilightforest:trophy_pedestal" }
+				item: {
+					count: 1
+					id: "twilightforest:trophy_pedestal"
+				}
 				type: "item"
 			}]
 			tasks: [{

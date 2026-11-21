@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pneumaticcraft"
-	group: "10788EC10FFABF2A"
-	icon: { id: "pneumaticcraft:compressed_iron_gear" }
+	group: ""
+	icon: {
+		id: "pneumaticcraft:compressed_iron_gear"
+	}
 	id: "7DEB25F143D101CC"
 	images: [ ]
-	order_index: 5
+	order_index: 20
 	quest_links: [ ]
 	quests: [
 		{
@@ -37,9 +39,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "4E216EA21888B674"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -134,9 +138,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "73E56F9FF49205E2"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -165,7 +171,12 @@
 			y: -1.6d
 		}
 		{
-			dependencies: ["2D12317C92E58AEC" "09101C58F5EA5242" "4E84C807543AFBA3" "560B2C83B7DE350D"]
+			dependencies: [
+				"2D12317C92E58AEC"
+				"09101C58F5EA5242"
+				"4E84C807543AFBA3"
+				"560B2C83B7DE350D"
+			]
 			id: "6699ADB734C1C57B"
 			rewards: [
 				{
@@ -174,9 +185,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "04B4A05E77F19783"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -263,9 +276,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "767A39F322B5C204"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -288,9 +303,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "3B14D9635E099385"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -320,9 +337,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "6FF61C1CF6315B57"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -345,9 +364,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "0D6E79F92EEE349A"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -370,9 +391,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "14DE744EC31BA792"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -413,9 +436,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "479C0962EFA60E64"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -429,7 +454,10 @@
 			y: 1.6d
 		}
 		{
-			dependencies: ["5C92808D99179762" "121FCAED80755032"]
+			dependencies: [
+				"5C92808D99179762"
+				"121FCAED80755032"
+			]
 			id: "3B400A10672B862B"
 			rewards: [
 				{
@@ -438,9 +466,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "227903E5EA4F2F12"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -518,9 +548,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "25F22B9AC168F5B1"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -536,7 +568,10 @@
 			y: 1.6d
 		}
 		{
-			dependencies: ["241A984254DF5706" "0C99C6407AC3FA74"]
+			dependencies: [
+				"241A984254DF5706"
+				"0C99C6407AC3FA74"
+			]
 			id: "5C92808D99179762"
 			rewards: [
 				{
@@ -545,9 +580,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "7674DBECEC62DA5D"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -570,9 +607,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "7C130AF51D5A8945"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -595,9 +634,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "2F265EC3B1EB9020"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -620,9 +661,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "6B409792F662A1F5"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -636,7 +679,11 @@
 			y: 3.2d
 		}
 		{
-			dependencies: ["025B973C8F1C68E1" "1DA176B61FC02FF5" "7B8CBE1F84888E6F"]
+			dependencies: [
+				"025B973C8F1C68E1"
+				"1DA176B61FC02FF5"
+				"7B8CBE1F84888E6F"
+			]
 			id: "23C5DE3C94652080"
 			rewards: [
 				{
@@ -645,9 +692,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "20F7FDC6858B56B2"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -672,9 +721,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "1448B59403EC2B0B"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -724,9 +775,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "227CAA974A4084F3"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -749,9 +802,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "1C86FEB171269A2B"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -854,9 +909,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "2071E2CF69A6DE59"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -897,9 +954,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "2B846218B966BB4D"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -922,9 +981,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "53205A5E2C7CC586"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -947,9 +1008,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "4720428501B2DF48"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -972,9 +1035,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "73723187A87BFD5A"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1013,9 +1078,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "6022552EFCDC3115"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1038,9 +1105,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "6DF5E4B57BC4FE06"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1063,9 +1132,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "17DBB5E0AE4BEE19"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1136,9 +1207,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "673D6FD1B5C6F079"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1161,9 +1234,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "04254B08ABCEEFDA"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1186,9 +1261,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "5A741701CB51BB6D"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1211,9 +1288,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "6546D38307BA8FCF"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1236,9 +1315,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "5A1102CBB4093ED1"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1261,9 +1342,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "523CDF3C6F89685F"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1286,9 +1369,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "1B0A59B662E681D8"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1375,9 +1460,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "32A9CE24CD8E6249"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -1415,9 +1502,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "0FCD561B21268AFA"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1440,9 +1529,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "279A5C71EB99427D"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1465,9 +1556,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "0DB06754CFDECFDA"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1490,9 +1583,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "2B7BA12DD58F3A5F"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1515,9 +1610,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "278E0336EB4B62B1"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1540,9 +1637,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "5137121937E0D618"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1565,9 +1664,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "3B8ACB3297FDD07B"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1590,9 +1691,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "1F9AFE20E790BA78"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -1617,9 +1720,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "22D3CE958B212DB7"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1642,9 +1747,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "3277692DAE73C418"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1667,9 +1774,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "1061C2DB1AC5CF74"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1708,9 +1817,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "6339AB8FAAE73CA6"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -1755,9 +1866,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "0EFC0419069C15EA"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}

@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aquaculture"
-	group: "5C913BC4F177E1BC"
-	icon: { id: "aquaculture:iron_fishing_rod" }
+	group: ""
+	icon: {
+		id: "aquaculture:iron_fishing_rod"
+	}
 	id: "00CE0AE36D35EEE6"
 	images: [ ]
-	order_index: 1
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -336,7 +338,10 @@
 			rewards: [
 				{
 					id: "32849F93E59FA884"
-					item: { count: 1, id: "minecraft:iron_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
 					type: "item"
 				}
 				{
@@ -358,7 +363,10 @@
 			rewards: [
 				{
 					id: "74E6769A001F0002"
-					item: { count: 1, id: "minecraft:gold_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
 					type: "item"
 				}
 				{
@@ -380,7 +388,10 @@
 			rewards: [
 				{
 					id: "5171AB2922E688E1"
-					item: { count: 1, id: "minecraft:diamond" }
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
@@ -402,7 +413,10 @@
 			rewards: [
 				{
 					id: "51279FB0C0E78A42"
-					item: { count: 1, id: "aquaculture:neptunium_ingot" }
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_ingot"
+					}
 					type: "item"
 				}
 				{
@@ -424,12 +438,18 @@
 			rewards: [
 				{
 					id: "1A332E8C5843ABB4"
-					item: { count: 1, id: "aquaculture:lockbox" }
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
 					type: "item"
 				}
 				{
 					id: "4F89AEEADA8FC823"
-					item: { count: 1, id: "minecraft:iron_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
 					type: "item"
 				}
 			]
@@ -449,13 +469,19 @@
 			rewards: [
 				{
 					id: "5F2D3138BF63C6D4"
-					item: { count: 1, id: "aquaculture:lockbox" }
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "59189C1008735AB1"
-					item: { count: 1, id: "minecraft:gold_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
 					type: "item"
 				}
 			]
@@ -473,7 +499,10 @@
 			rewards: [
 				{
 					id: "55545AB6F086C908"
-					item: { count: 1, id: "minecraft:diamond" }
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
@@ -496,13 +525,19 @@
 			rewards: [
 				{
 					id: "6A75DFCB57384BA7"
-					item: { count: 1, id: "aquaculture:lockbox" }
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "1FC7E0981FA98517"
-					item: { count: 1, id: "minecraft:feather" }
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
 					type: "item"
 				}
 			]
@@ -520,13 +555,19 @@
 			rewards: [
 				{
 					id: "044F7AA04A054046"
-					item: { count: 1, id: "aquaculture:lockbox" }
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "0CF2ED7DE65E5F4B"
-					item: { count: 1, id: "minecraft:iron_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
 					type: "item"
 				}
 			]
@@ -544,13 +585,19 @@
 			rewards: [
 				{
 					id: "77A9937F771A75B2"
-					item: { count: 1, id: "aquaculture:lockbox" }
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "5B3B81179F4D1686"
-					item: { count: 1, id: "minecraft:iron_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -569,13 +616,19 @@
 			rewards: [
 				{
 					id: "0FC980AD1D18C410"
-					item: { count: 1, id: "aquaculture:lockbox" }
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
 					type: "item"
 				}
 				{
 					count: 3
 					id: "1A95B60E98302C1D"
-					item: { count: 1, id: "minecraft:redstone" }
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
 					type: "item"
 				}
 			]
@@ -609,7 +662,10 @@
 				{
 					count: 8
 					id: "708A1463EE0D89AA"
-					item: { count: 1, id: "minecraft:kelp" }
+					item: {
+						count: 1
+						id: "minecraft:kelp"
+					}
 					random_bonus: 4
 					type: "item"
 				}
@@ -632,13 +688,19 @@
 			rewards: [
 				{
 					id: "16FDD8AC566770DB"
-					item: { count: 1, id: "aquaculture:lockbox" }
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "271191216900E74F"
-					item: { count: 1, id: "minecraft:string" }
+					item: {
+						count: 1
+						id: "minecraft:string"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -656,13 +718,19 @@
 			rewards: [
 				{
 					id: "26755A16ED5A60D3"
-					item: { count: 1, id: "aquaculture:box" }
+					item: {
+						count: 1
+						id: "aquaculture:box"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "2145340D00B4B46B"
-					item: { count: 1, id: "minecraft:iron_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
 					type: "item"
 				}
 			]
@@ -679,13 +747,19 @@
 			rewards: [
 				{
 					id: "178308DE13CE094A"
-					item: { count: 1, id: "aquaculture:box" }
+					item: {
+						count: 1
+						id: "aquaculture:box"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "770D60C9F7371CCE"
-					item: { count: 1, id: "minecraft:oak_log" }
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
 					type: "item"
 				}
 			]
@@ -703,14 +777,20 @@
 				{
 					count: 2
 					id: "628E9C25D16436D9"
-					item: { count: 1, id: "aquaculture:box" }
+					item: {
+						count: 1
+						id: "aquaculture:box"
+					}
 					random_bonus: 2
 					type: "item"
 				}
 				{
 					count: 4
 					id: "1AE57F24BA8AA842"
-					item: { count: 1, id: "minecraft:cobblestone" }
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
 					type: "item"
 				}
 			]
@@ -728,13 +808,19 @@
 				{
 					count: 2
 					id: "6799548943A5F4E5"
-					item: { count: 1, id: "aquaculture:lockbox" }
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
 					random_bonus: 2
 					type: "item"
 				}
 				{
 					id: "1408775EF1DF7DCF"
-					item: { count: 1, id: "minecraft:iron_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
 					type: "item"
 				}
 			]
@@ -750,7 +836,10 @@
 			id: "241D2F19426D33B4"
 			rewards: [{
 				id: "17CEEF89AC59A118"
-				item: { count: 1, id: "minecraft:gold_ingot" }
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -766,7 +855,10 @@
 			rewards: [
 				{
 					id: "721A5A1E731633A2"
-					item: { count: 1, id: "minecraft:diamond" }
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
@@ -788,7 +880,10 @@
 			rewards: [
 				{
 					id: "3467371EC4646255"
-					item: { count: 1, id: "aquaculture:neptunium_ingot" }
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_ingot"
+					}
 					type: "item"
 				}
 				{
@@ -811,12 +906,18 @@
 			rewards: [
 				{
 					id: "5F5BF152348A73B8"
-					item: { count: 1, id: "aquaculture:lockbox" }
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
 					type: "item"
 				}
 				{
 					id: "5DE15CFA71D4C03F"
-					item: { count: 1, id: "minecraft:iron_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
 					type: "item"
 				}
 			]

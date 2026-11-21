@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "twilight_forest"
-	group: "49288E17E9D90688"
-	icon: { id: "twilightforest:firefly" }
+	group: ""
+	icon: {
+		id: "twilightforest:firefly"
+	}
 	id: "2AB6B39C197BC285"
 	images: [ ]
-	order_index: 1
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -68,7 +70,9 @@
 			tasks: [{
 				advancement: "twilightforest:hill1"
 				criterion: ""
-				icon: { id: "minecraft:iron_boots" }
+				icon: {
+					id: "minecraft:iron_boots"
+				}
 				id: "22E5BBB3AD357BA5"
 				type: "advancement"
 			}]
@@ -262,7 +266,9 @@
 			tasks: [{
 				advancement: "twilightforest:fiery_set"
 				criterion: ""
-				icon: { id: "twilightforest:fiery_sword" }
+				icon: {
+					id: "twilightforest:fiery_sword"
+				}
 				id: "62D42A412C8678AB"
 				type: "advancement"
 			}]
@@ -295,7 +301,9 @@
 			tasks: [{
 				advancement: "twilightforest:break_glass_sword"
 				criterion: ""
-				icon: { id: "twilightforest:glass_sword" }
+				icon: {
+					id: "twilightforest:glass_sword"
+				}
 				id: "6E8855DEC1DD7606"
 				type: "advancement"
 			}]
@@ -327,7 +335,9 @@
 			tasks: [{
 				advancement: "twilightforest:lich_scepters"
 				criterion: ""
-				icon: { id: "twilightforest:zombie_scepter" }
+				icon: {
+					id: "twilightforest:zombie_scepter"
+				}
 				id: "1E72801F8F99AB45"
 				type: "advancement"
 			}]
@@ -375,9 +385,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "45C5FACEDC10F1B4"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -403,7 +415,9 @@
 			tasks: [{
 				advancement: "twilightforest:progress_troll"
 				criterion: ""
-				icon: { id: "twilightforest:lamp_of_cinders" }
+				icon: {
+					id: "twilightforest:lamp_of_cinders"
+				}
 				id: "1562E88D3BC1C35F"
 				type: "advancement"
 			}]

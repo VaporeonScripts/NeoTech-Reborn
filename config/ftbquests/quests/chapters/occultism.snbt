@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "occultism"
-	group: "5BC1E3118B4BBBD9"
-	icon: { id: "occultism:vitality_compass" }
+	group: ""
+	icon: {
+		id: "occultism:vitality_compass"
+	}
 	id: "34B4F4D9D77AF9A6"
 	images: [ ]
-	order_index: 2
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -14,7 +16,10 @@
 			rewards: [{
 				count: 8
 				id: "6D643AE32D0F50B0"
-				item: { count: 1, id: "minecraft:bone_meal" }
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -32,12 +37,18 @@
 				{
 					count: 8
 					id: "3E904F241BEDB19D"
-					item: { count: 1, id: "minecraft:bone_meal" }
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
 					type: "item"
 				}
 				{
 					id: "6383754CFDEF084A"
-					item: { count: 1, id: "occultism:demons_dream_essence" }
+					item: {
+						count: 1
+						id: "occultism:demons_dream_essence"
+					}
 					type: "item"
 				}
 			]
@@ -51,25 +62,35 @@
 		}
 		{
 			dependencies: ["39594206DFA1F746"]
-			icon: { id: "occultism:spirit_fire" }
+			icon: {
+				id: "occultism:spirit_fire"
+			}
 			id: "7309FF5CF1382CC4"
 			rewards: [
 				{
 					count: 8
 					id: "2391C6F1271C8551"
-					item: { count: 1, id: "occultism:otherstone" }
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "32D818E5DCFF001C"
-					item: { count: 1, id: "occultism:otherworld_log" }
+					item: {
+						count: 1
+						id: "occultism:otherworld_log"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "12DE52EB185E791F"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -78,7 +99,9 @@
 			size: 1.5d
 			tasks: [
 				{
-					icon: { id: "occultism:spirit_fire" }
+					icon: {
+						id: "occultism:spirit_fire"
+					}
 					id: "44856908DDADED6D"
 					observation_type: "block"
 					observe_type: 0
@@ -106,7 +129,10 @@
 			rewards: [{
 				count: 4
 				id: "416F129110799C1A"
-				item: { count: 1, id: "occultism:spirit_attuned_gem" }
+				item: {
+					count: 1
+					id: "occultism:spirit_attuned_gem"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -123,7 +149,10 @@
 			rewards: [{
 				count: 4
 				id: "4C8D2AB83832E6C2"
-				item: { count: 1, id: "occultism:otherstone" }
+				item: {
+					count: 1
+					id: "occultism:otherstone"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -144,11 +173,7 @@
 			}]
 			tasks: [{
 				id: "0009D17B1ACEF0C8"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(farmersdelight:tools/knives))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(farmersdelight:tools/knives))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -17.0d
@@ -160,7 +185,10 @@
 			rewards: [{
 				count: 4
 				id: "0ABD121207ADA24C"
-				item: { count: 1, id: "occultism:tallow" }
+				item: {
+					count: 1
+					id: "occultism:tallow"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -184,8 +212,19 @@
 		}
 		{
 			dependencies: ["235CFE9AED85B1AB"]
-			icon: { id: "occultism:golden_sacrificial_bowl" }
+			icon: {
+				id: "occultism:golden_sacrificial_bowl"
+			}
 			id: "74C2921884820E96"
+			rewards: [{
+				id: "43FD8D1A4C592209"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -196,11 +235,7 @@
 				}
 				{
 					id: "76B7413DFD69FFCF"
-					item: {
-						components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)" }
-						count: 1
-						id: "ftbfiltersystem:smart_filter"
-					}
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -217,13 +252,6 @@
 			]
 			x: -19.0d
 			y: 7.2d
-			rewards: [{
-				count: 1
-				id: "43FD8D1A4C592209"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 2
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["200715E62F6ACBCC"]
@@ -238,18 +266,25 @@
 		}
 		{
 			dependencies: ["74C2921884820E96"]
-			icon: { id: "occultism:ritual_dummy/summon_foliot_sapling_trader" }
+			icon: {
+				id: "occultism:ritual_dummy/summon_foliot_sapling_trader"
+			}
 			id: "725ABB2AEA4B1E1D"
 			rewards: [
 				{
 					id: "04C4D92AE13B79E4"
-					item: { count: 1, id: "occultism:otherworld_sapling_natural" }
+					item: {
+						count: 1
+						id: "occultism:otherworld_sapling_natural"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "02329E5C1781D74C"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -257,11 +292,7 @@
 			tasks: [
 				{
 					id: "74F236A2D2FAB6F2"
-					item: {
-						components: { "occultism:spirit_name": "Najlitarvan" }
-						count: 1
-						id: "occultism:book_of_binding_bound_foliot"
-					}
+					item: { components: { "occultism:spirit_name": "Najlitarvan" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
 				{
@@ -287,7 +318,9 @@
 				{
 					advancement: "occultism:occultism/summon_foliot_sapling_trader"
 					criterion: ""
-					icon: { id: "occultism:ritual_dummy/summon_foliot_sapling_trader" }
+					icon: {
+						id: "occultism:ritual_dummy/summon_foliot_sapling_trader"
+					}
 					id: "55911AEE7E6B19F4"
 					type: "advancement"
 				}
@@ -297,22 +330,28 @@
 		}
 		{
 			dependencies: ["74C2921884820E96"]
-			icon: { id: "occultism:ritual_dummy/summon_foliot_transport_items" }
+			icon: {
+				id: "occultism:ritual_dummy/summon_foliot_transport_items"
+			}
 			id: "58C45A8D5B5FE0CE"
 			rewards: [
 				{
 					id: "566AF017BFA9EE94"
 					item: {
-						components: { "sophisticatedstorage:wood_type": "oak" }
+						components: {
+							"sophisticatedstorage:wood_type": "oak"
+						}
 						count: 1
 						id: "sophisticatedstorage:iron_chest"
 					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "3E258E01D7EFFF9E"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -320,11 +359,7 @@
 			tasks: [
 				{
 					id: "36BCDB0A2367562A"
-					item: {
-						components: { "occultism:spirit_name": "Marzoirrynne" }
-						count: 1
-						id: "occultism:book_of_binding_bound_foliot"
-					}
+					item: { components: { "occultism:spirit_name": "Marzoirrynne" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
 				{
@@ -345,7 +380,9 @@
 				{
 					advancement: "occultism:occultism/summon_foliot_transport_items"
 					criterion: ""
-					icon: { id: "occultism:ritual_dummy/summon_foliot_transport_items" }
+					icon: {
+						id: "occultism:ritual_dummy/summon_foliot_transport_items"
+					}
 					id: "0F496913644CEE65"
 					type: "advancement"
 				}
@@ -355,19 +392,26 @@
 		}
 		{
 			dependencies: ["74C2921884820E96"]
-			icon: { id: "occultism:ritual_dummy/summon_foliot_otherstone_trader" }
+			icon: {
+				id: "occultism:ritual_dummy/summon_foliot_otherstone_trader"
+			}
 			id: "2D76F03DC14DD75E"
 			rewards: [
 				{
 					count: 8
 					id: "02E3069E34051205"
-					item: { count: 1, id: "occultism:otherstone" }
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "2D2D72D3EA4E7659"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -375,11 +419,7 @@
 			tasks: [
 				{
 					id: "7B8B6BB86A5811B2"
-					item: {
-						components: { "occultism:spirit_name": "Raylirkyn" }
-						count: 1
-						id: "occultism:book_of_binding_bound_foliot"
-					}
+					item: { components: { "occultism:spirit_name": "Raylirkyn" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
 				{
@@ -405,7 +445,9 @@
 				{
 					advancement: "occultism:occultism/summon_foliot_otherstone_trader"
 					criterion: ""
-					icon: { id: "occultism:ritual_dummy/summon_foliot_otherstone_trader" }
+					icon: {
+						id: "occultism:ritual_dummy/summon_foliot_otherstone_trader"
+					}
 					id: "326DD6DB452FD32D"
 					type: "advancement"
 				}
@@ -415,18 +457,25 @@
 		}
 		{
 			dependencies: ["74C2921884820E96"]
-			icon: { id: "occultism:ritual_dummy/summon_foliot_lumberjack" }
+			icon: {
+				id: "occultism:ritual_dummy/summon_foliot_lumberjack"
+			}
 			id: "4A1035A5566EB4A1"
 			rewards: [
 				{
 					id: "33DD9221DA6C6F25"
-					item: { count: 1, id: "minecraft:iron_axe" }
+					item: {
+						count: 1
+						id: "minecraft:iron_axe"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "685BAFF5EC7530D8"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -434,20 +483,12 @@
 			tasks: [
 				{
 					id: "27C2F2871258667E"
-					item: {
-						components: { "occultism:spirit_name": "Jarmynthorn" }
-						count: 1
-						id: "occultism:book_of_binding_bound_foliot"
-					}
+					item: { components: { "occultism:spirit_name": "Jarmynthorn" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
 				{
 					id: "23012CDE90760B61"
-					item: {
-						components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:axes)" }
-						count: 1
-						id: "ftbfiltersystem:smart_filter"
-					}
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:axes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -459,7 +500,9 @@
 				{
 					advancement: "occultism:occultism/summon_foliot_lumberjack"
 					criterion: ""
-					icon: { id: "occultism:ritual_dummy/summon_foliot_lumberjack" }
+					icon: {
+						id: "occultism:ritual_dummy/summon_foliot_lumberjack"
+					}
 					id: "320CD7989718E38A"
 					type: "advancement"
 				}
@@ -469,19 +512,26 @@
 		}
 		{
 			dependencies: ["74C2921884820E96"]
-			icon: { id: "occultism:ritual_dummy/summon_foliot_crusher" }
+			icon: {
+				id: "occultism:ritual_dummy/summon_foliot_crusher"
+			}
 			id: "137B9F57460145F2"
 			rewards: [
 				{
 					count: 2
 					id: "75FC6C94C68BCC1A"
-					item: { count: 1, id: "minecraft:obsidian" }
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "352E6425C031D23B"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -489,47 +539,27 @@
 			tasks: [
 				{
 					id: "2299C93EDDA9BD15"
-					item: {
-						components: { "occultism:spirit_name": "Grimsirder" }
-						count: 1
-						id: "occultism:book_of_binding_bound_foliot"
-					}
+					item: { components: { "occultism:spirit_name": "Grimsirder" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
 				{
 					id: "3875DB8DFB5B7770"
-					item: {
-						components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/iron)" }
-						count: 1
-						id: "ftbfiltersystem:smart_filter"
-					}
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/iron)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "6618C424066FF5A1"
-					item: {
-						components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/silver)" }
-						count: 1
-						id: "ftbfiltersystem:smart_filter"
-					}
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/silver)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "050A97C33DDD5D0E"
-					item: {
-						components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/copper)" }
-						count: 1
-						id: "ftbfiltersystem:smart_filter"
-					}
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/copper)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
 					id: "61DAE5713BDCE44C"
-					item: {
-						components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/gold)" }
-						count: 1
-						id: "ftbfiltersystem:smart_filter"
-					}
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:raw_materials/gold)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -538,18 +568,25 @@
 		}
 		{
 			dependencies: ["74C2921884820E96"]
-			icon: { id: "occultism:ritual_dummy/summon_foliot_cleaner" }
+			icon: {
+				id: "occultism:ritual_dummy/summon_foliot_cleaner"
+			}
 			id: "6D3BF32E8DAF8F91"
 			rewards: [
 				{
 					id: "617A179D1C35ED74"
-					item: { count: 1, id: "minecraft:iron_shovel" }
+					item: {
+						count: 1
+						id: "minecraft:iron_shovel"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "00174B8593596EA4"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -557,11 +594,7 @@
 			tasks: [
 				{
 					id: "62AE7AEB23F462E6"
-					item: {
-						components: { "occultism:spirit_name": "Morrondlor" }
-						count: 1
-						id: "occultism:book_of_binding_bound_foliot"
-					}
+					item: { components: { "occultism:spirit_name": "Morrondlor" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
 				{
@@ -582,7 +615,9 @@
 				{
 					advancement: "occultism:occultism/summon_foliot_cleaner"
 					criterion: ""
-					icon: { id: "occultism:ritual_dummy/summon_foliot_cleaner" }
+					icon: {
+						id: "occultism:ritual_dummy/summon_foliot_cleaner"
+					}
 					id: "53AF682CCC8D0555"
 					type: "advancement"
 				}
@@ -595,7 +630,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_deer"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_deer" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_deer"
+				}
 				id: "5FD028B29860718D"
 				type: "advancement"
 			}]
@@ -607,7 +644,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_mummy"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_mummy" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_mummy"
+				}
 				id: "66528B46F90CD88E"
 				type: "advancement"
 			}]
@@ -619,7 +658,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_chimera"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_chimera" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_chimera"
+				}
 				id: "5AEDBB23F4920298"
 				type: "advancement"
 			}]
@@ -631,7 +672,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_beaver"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_beaver" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_beaver"
+				}
 				id: "13A02606CEB21D77"
 				type: "advancement"
 			}]
@@ -643,7 +686,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_greedy"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_greedy" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_greedy"
+				}
 				id: "2C23481582AF9D29"
 				type: "advancement"
 			}]
@@ -655,7 +700,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_devil"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_devil" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_devil"
+				}
 				id: "0964FCB667808246"
 				type: "advancement"
 			}]
@@ -667,7 +714,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_blacksmith"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_blacksmith" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_blacksmith"
+				}
 				id: "0206B3F6CF9FBD32"
 				type: "advancement"
 			}]
@@ -679,7 +728,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_fairy"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_fairy" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_fairy"
+				}
 				id: "519FDD0C21A3B3C7"
 				type: "advancement"
 			}]
@@ -692,7 +743,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_cthulhu"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_cthulhu" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_cthulhu"
+				}
 				id: "4ED8E6F1952A05DD"
 				type: "advancement"
 			}]
@@ -704,7 +757,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_beholder"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_beholder" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_beholder"
+				}
 				id: "5C5C1F5FFF45B8E1"
 				type: "advancement"
 			}]
@@ -716,7 +771,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_bat"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_bat" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_bat"
+				}
 				id: "2313940A23211229"
 				type: "advancement"
 			}]
@@ -728,7 +785,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_guardian"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_guardian" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_guardian"
+				}
 				id: "1DAAC362DCD75DB8"
 				type: "advancement"
 			}]
@@ -740,7 +799,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_dragon"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_dragon" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_dragon"
+				}
 				id: "25F13966A50F62CE"
 				type: "advancement"
 			}]
@@ -752,7 +813,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_headless"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_headless" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_headless"
+				}
 				id: "69BFA2D50F7051E9"
 				type: "advancement"
 			}]
@@ -765,14 +828,18 @@
 				{
 					advancement: "occultism:occultism/summon_demonic_wife"
 					criterion: ""
-					icon: { id: "occultism:ritual_dummy/summon_demonic_wife" }
+					icon: {
+						id: "occultism:ritual_dummy/summon_demonic_wife"
+					}
 					id: "6284308D00F36882"
 					type: "advancement"
 				}
 				{
 					advancement: "occultism:occultism/summon_demonic_husband"
 					criterion: ""
-					icon: { id: "occultism:ritual_dummy/summon_demonic_husband" }
+					icon: {
+						id: "occultism:ritual_dummy/summon_demonic_husband"
+					}
 					id: "1A22E98C6E564E80"
 					type: "advancement"
 				}
@@ -784,7 +851,10 @@
 			id: "6D152CC9EE402249"
 			rewards: [{
 				id: "4502871BB7DDA898"
-				item: { count: 1, id: "minecraft:comparator" }
+				item: {
+					count: 1
+					id: "minecraft:comparator"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -800,7 +870,10 @@
 			id: "49E6B0016D1E1DD1"
 			rewards: [{
 				id: "65E5A6799A1203C6"
-				item: { count: 1, id: "occultism:iesnium_pickaxe" }
+				item: {
+					count: 1
+					id: "occultism:iesnium_pickaxe"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -816,7 +889,10 @@
 			id: "454F456F34978425"
 			rewards: [{
 				id: "7D6E604009191387"
-				item: { count: 1, id: "occultism:book_of_binding_djinni" }
+				item: {
+					count: 1
+					id: "occultism:book_of_binding_djinni"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -833,7 +909,9 @@
 			rewards: [{
 				id: "7F579B61775D7FD2"
 				item: {
-					components: { "occultism:spirit_name": "Zeddornzirne" }
+					components: {
+						"occultism:spirit_name": "Zeddornzirne"
+					}
 					count: 1
 					id: "occultism:book_of_binding_bound_afrit"
 				}
@@ -852,7 +930,10 @@
 			id: "5F1B37269D42EDF5"
 			rewards: [{
 				id: "612F342445EB4519"
-				item: { count: 1, id: "occultism:book_of_binding_marid" }
+				item: {
+					count: 1
+					id: "occultism:book_of_binding_marid"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -867,7 +948,10 @@
 			id: "564E10E67012E447"
 			rewards: [{
 				id: "0883244300C0D868"
-				item: { count: 1, id: "occultism:soul_gem" }
+				item: {
+					count: 1
+					id: "occultism:soul_gem"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -906,7 +990,9 @@
 				count: 3
 				id: "59173C990C4BF6AA"
 				item: {
-					components: { "occultism:spirit_name": "Thrkyles" }
+					components: {
+						"occultism:spirit_name": "Thrkyles"
+					}
 					count: 1
 					id: "occultism:book_of_binding_bound_djinni"
 				}
@@ -945,7 +1031,10 @@
 			id: "3215E5C6BAB9BA51"
 			rewards: [{
 				id: "13A02F9AB170DEC4"
-				item: { count: 1, id: "minecraft:copper_block" }
+				item: {
+					count: 1
+					id: "minecraft:copper_block"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -961,7 +1050,10 @@
 			id: "351240185EE70EA5"
 			rewards: [{
 				id: "5819602D0DFBC656"
-				item: { count: 1, id: "modern_industrialization:silver_block" }
+				item: {
+					count: 1
+					id: "modern_industrialization:silver_block"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -977,7 +1069,10 @@
 			id: "35D6F66E836AD148"
 			rewards: [{
 				id: "767D866E7C81E7B8"
-				item: { count: 1, id: "minecraft:gold_block" }
+				item: {
+					count: 1
+					id: "minecraft:gold_block"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -993,7 +1088,10 @@
 			id: "6FD1D4CDDE2DFD69"
 			rewards: [{
 				id: "32BAFEAAA8A226C2"
-				item: { count: 1, id: "occultism:iesnium_block" }
+				item: {
+					count: 1
+					id: "occultism:iesnium_block"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1011,25 +1109,36 @@
 				{
 					count: 4
 					id: "54C4CBC78E04156B"
-					item: { count: 1, id: "occultism:taboo_book" }
+					item: {
+						count: 1
+						id: "occultism:taboo_book"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "330DF81A8238D0B3"
-					item: { count: 1, id: "occultism:purified_ink" }
+					item: {
+						count: 1
+						id: "occultism:purified_ink"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "48749D77A69F0967"
-					item: { count: 1, id: "occultism:awakened_feather" }
+					item: {
+						count: 1
+						id: "occultism:awakened_feather"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "65A5919D0FEC3971"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -1062,7 +1171,9 @@
 			rewards: [{
 				id: "06F6CAB375D82DFE"
 				item: {
-					components: { "occultism:spirit_name": "Styrmaracsyr" }
+					components: {
+						"occultism:spirit_name": "Styrmaracsyr"
+					}
 					count: 1
 					id: "occultism:book_of_binding_bound_foliot"
 				}
@@ -1082,7 +1193,9 @@
 			rewards: [{
 				id: "5A0640EE29220E43"
 				item: {
-					components: { "occultism:spirit_name": "KliKli" }
+					components: {
+						"occultism:spirit_name": "KliKli"
+					}
 					count: 1
 					id: "occultism:book_of_binding_bound_djinni"
 				}
@@ -1102,7 +1215,9 @@
 			rewards: [{
 				id: "722EF90E66B853F5"
 				item: {
-					components: { "occultism:spirit_name": "Firkylkyn" }
+					components: {
+						"occultism:spirit_name": "Firkylkyn"
+					}
 					count: 1
 					id: "occultism:book_of_binding_bound_afrit"
 				}
@@ -1122,7 +1237,9 @@
 			rewards: [{
 				id: "52716A63AC0CD5F6"
 				item: {
-					components: { "occultism:spirit_name": "Geirmeewyrm" }
+					components: {
+						"occultism:spirit_name": "Geirmeewyrm"
+					}
 					count: 1
 					id: "occultism:book_of_binding_bound_marid"
 				}
@@ -1141,7 +1258,9 @@
 			tasks: [{
 				advancement: "occultism:occultism/familiar_parrot"
 				criterion: ""
-				icon: { id: "occultism:ritual_dummy/familiar_parrot" }
+				icon: {
+					id: "occultism:ritual_dummy/familiar_parrot"
+				}
 				id: "099EE84FA5AEC988"
 				type: "advancement"
 			}]
@@ -1154,7 +1273,10 @@
 			rewards: [{
 				count: 2
 				id: "3434D890DEFAFB2A"
-				item: { count: 1, id: "occultism:iesnium_ingot" }
+				item: {
+					count: 1
+					id: "occultism:iesnium_ingot"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1170,7 +1292,10 @@
 			rewards: [{
 				count: 2
 				id: "7308D85FEE1143EB"
-				item: { count: 1, id: "occultism:spirit_attuned_gem" }
+				item: {
+					count: 1
+					id: "occultism:spirit_attuned_gem"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1186,7 +1311,10 @@
 			id: "14550A7149BBD5F7"
 			rewards: [{
 				id: "21E930487A6E8492"
-				item: { count: 1, id: "occultism:iesnium_ingot" }
+				item: {
+					count: 1
+					id: "occultism:iesnium_ingot"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1202,7 +1330,10 @@
 			id: "53C705C777BF4E64"
 			rewards: [{
 				id: "74D058C515D6CCFB"
-				item: { count: 1, id: "occultism:magic_lamp_empty" }
+				item: {
+					count: 1
+					id: "occultism:magic_lamp_empty"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1259,6 +1390,15 @@
 		{
 			dependencies: ["065E318C78569F9D"]
 			id: "2A78072DE4A7BC4E"
+			rewards: [{
+				id: "12BE62327B3E8E58"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "04C05269B9568D20"
 				item: { count: 1, id: "occultism:chalk_lime_impure" }
@@ -1266,17 +1406,22 @@
 			}]
 			x: -11.0d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2A78072DE4A7BC4E"
+				"7B18E086CE93DFC2"
+			]
+			id: "45410E3C4A9DF1C4"
 			rewards: [{
-				count: 1
-				id: "12BE62327B3E8E58"
-				item: { count: 1, id: "randomore:random_ore" }
+				id: "6A125A16C2B88D9A"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
 				random_bonus: 1
 				type: "item"
 			}]
-		}
-		{
-			dependencies: ["2A78072DE4A7BC4E" "7B18E086CE93DFC2"]
-			id: "45410E3C4A9DF1C4"
 			tasks: [{
 				id: "37B8FAABC74142B8"
 				item: { count: 1, id: "occultism:chalk_gray_impure" }
@@ -1284,17 +1429,19 @@
 			}]
 			x: -13.0d
 			y: 2.4d
-			rewards: [{
-				count: 1
-				id: "6A125A16C2B88D9A"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["2A78072DE4A7BC4E"]
 			id: "7E12929804B4E696"
+			rewards: [{
+				id: "73D28939C1877316"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F7AACD4E54EAE30"
 				item: { count: 1, id: "occultism:chalk_orange_impure" }
@@ -1302,17 +1449,19 @@
 			}]
 			x: -9.0d
 			y: 4.0d
-			rewards: [{
-				count: 1
-				id: "73D28939C1877316"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["7E12929804B4E696"]
 			id: "05C116FCF3DE3E89"
+			rewards: [{
+				id: "59BA5BF606D79727"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "05C5CBFC01FEDBEB"
 				item: { count: 1, id: "occultism:chalk_red_impure" }
@@ -1320,17 +1469,22 @@
 			}]
 			x: -9.0d
 			y: 2.4d
+		}
+		{
+			dependencies: [
+				"45410E3C4A9DF1C4"
+				"05C116FCF3DE3E89"
+			]
+			id: "15370113B5193049"
 			rewards: [{
-				count: 1
-				id: "59BA5BF606D79727"
-				item: { count: 1, id: "randomore:random_ore" }
+				id: "1EB53C6C0219EA46"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
 				random_bonus: 1
 				type: "item"
 			}]
-		}
-		{
-			dependencies: ["45410E3C4A9DF1C4" "05C116FCF3DE3E89"]
-			id: "15370113B5193049"
 			tasks: [{
 				id: "571DD67A3DD33019"
 				item: { count: 1, id: "occultism:chalk_black_impure" }
@@ -1338,17 +1492,22 @@
 			}]
 			x: -11.0d
 			y: 2.4d
+		}
+		{
+			dependencies: [
+				"05C116FCF3DE3E89"
+				"15370113B5193049"
+			]
+			id: "19098ED47E0DD410"
 			rewards: [{
-				count: 1
-				id: "1EB53C6C0219EA46"
-				item: { count: 1, id: "randomore:random_ore" }
+				id: "5551BEDD169216B3"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
 				random_bonus: 1
 				type: "item"
 			}]
-		}
-		{
-			dependencies: ["05C116FCF3DE3E89" "15370113B5193049"]
-			id: "19098ED47E0DD410"
 			tasks: [{
 				id: "4C8A4A312F5A87DA"
 				item: { count: 1, id: "occultism:chalk_blue_impure" }
@@ -1356,13 +1515,6 @@
 			}]
 			x: -9.0d
 			y: 0.8d
-			rewards: [{
-				count: 1
-				id: "5551BEDD169216B3"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 	]
 }

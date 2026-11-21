@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bank_storage"
-	group: "2401AD943A650627"
-	icon: { id: "bankstorage:bank_dock" }
+	group: ""
+	icon: {
+		id: "bankstorage:bank_dock"
+	}
 	id: "5A47C9C05A4648CE"
 	images: [ ]
-	order_index: 8
+	order_index: 25
 	quest_links: [ ]
 	quests: [
 		{
@@ -14,7 +16,10 @@
 			rewards: [{
 				count: 2
 				id: "4AC911A025FADA1C"
-				item: { count: 1, id: "minecraft:coal_block" }
+				item: {
+					count: 1
+					id: "minecraft:coal_block"
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -35,7 +40,10 @@
 				{
 					count: 4
 					id: "55D9401BE22E19AD"
-					item: { count: 1, id: "minecraft:copper_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
 					random_bonus: 4
 					type: "item"
 				}
@@ -60,7 +68,10 @@
 				{
 					count: 8
 					id: "409F3E205FF22CA5"
-					item: { count: 1, id: "minecraft:raw_iron" }
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -85,7 +96,10 @@
 				{
 					count: 6
 					id: "7B55273F83BCF2A6"
-					item: { count: 1, id: "minecraft:gold_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
 					random_bonus: 3
 					type: "item"
 				}
@@ -110,7 +124,10 @@
 				{
 					count: 3
 					id: "6DFBD4C3AAA520E0"
-					item: { count: 1, id: "minecraft:emerald" }
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					random_bonus: 4
 					type: "item"
 				}
@@ -135,7 +152,10 @@
 				{
 					count: 5
 					id: "69B5164BFF42729B"
-					item: { count: 1, id: "minecraft:diamond" }
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					random_bonus: 3
 					type: "item"
 				}
@@ -159,7 +179,10 @@
 			rewards: [
 				{
 					id: "49D3EE3A9D8D9FB3"
-					item: { count: 1, id: "minecraft:netherite_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -169,9 +192,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "6EE38D9257D7FAC4"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}

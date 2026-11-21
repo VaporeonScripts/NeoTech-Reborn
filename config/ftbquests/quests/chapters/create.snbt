@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
-	group: "10788EC10FFABF2A"
-	icon: { id: "create:wrench" }
+	group: ""
+	icon: {
+		id: "create:wrench"
+	}
 	id: "35154CFA0A780326"
 	images: [ ]
-	order_index: 1
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -329,11 +331,7 @@
 			}]
 			tasks: [{
 				id: "05640ED5C8326E2D"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(create:valve_handles))", "minecraft:custom_name": "\"Create: Valve Handles\"" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(create:valve_handles))", "minecraft:custom_name": "\"Create: Valve Handles\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -388,11 +386,7 @@
 			}]
 			tasks: [{
 				id: "59455E9F92622DBF"
-				item: {
-					components: { "create:banktank_air": 900 }
-					count: 1
-					id: "create:copper_backtank"
-				}
+				item: { components: { "create:banktank_air": 900 }, count: 1, id: "create:copper_backtank" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -488,11 +482,7 @@
 			}]
 			tasks: [{
 				id: "58309E027278FCCD"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(create:seats))", "minecraft:custom_name": "\"Create Seats\"" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(create:seats))", "minecraft:custom_name": "\"Create Seats\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -1421,11 +1411,7 @@
 			}]
 			tasks: [{
 				id: "147E1A2EF102445C"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(create:toolboxes))", "minecraft:custom_name": "\"Create: Toolbox\"" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(create:toolboxes))", "minecraft:custom_name": "\"Create: Toolbox\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -1790,11 +1776,7 @@
 				}
 				{
 					id: "3E6C44EA1617AA68"
-					item: {
-						components: { "create:banktank_air": 900 }
-						count: 1
-						id: "create:netherite_backtank"
-					}
+					item: { components: { "create:banktank_air": 900 }, count: 1, id: "create:netherite_backtank" }
 					type: "item"
 				}
 			]
@@ -1811,11 +1793,7 @@
 			}]
 			tasks: [{
 				id: "40F54B96703A0E7B"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(create:table_cloths))", "minecraft:custom_name": "\"Create: Table Cloths\"" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(create:table_cloths))", "minecraft:custom_name": "\"Create: Table Cloths\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -11.0d

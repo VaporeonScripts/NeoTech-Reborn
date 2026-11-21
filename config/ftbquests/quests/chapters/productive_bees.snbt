@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "productive_bees"
-	group: "5C913BC4F177E1BC"
-	icon: { id: "minecraft:honeycomb" }
+	group: ""
+	icon: {
+		id: "minecraft:honeycomb"
+	}
 	id: "5A488E43A653F20F"
 	images: [ ]
-	order_index: 2
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,7 +19,9 @@
 					count: 2
 					id: "2D6D7AA7283900D7"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:crystalline" }
+						components: {
+							"productivebees:bee_type": "productivebees:crystalline"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -26,13 +30,18 @@
 				{
 					count: 16
 					id: "7DF9D9D39E246B92"
-					item: { count: 1, id: "minecraft:quartz" }
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "6AA96A7FFE54A55C"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -41,11 +50,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "241EC33AE77C4020"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:crystalline" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:crystalline" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -59,7 +64,9 @@
 				{
 					id: "45E4D5CACCD3BDD8"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:iron" }
+						components: {
+							"productivebees:bee_type": "productivebees:iron"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -68,13 +75,18 @@
 				{
 					count: 12
 					id: "5EC3BC808F73B3EF"
-					item: { count: 1, id: "minecraft:iron_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "1D90EC211EC0CDDC"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -83,11 +95,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "2A44F2C6CB314F6B"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:iron" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -102,7 +110,9 @@
 					count: 2
 					id: "311F8614C7BACC30"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:tin" }
+						components: {
+							"productivebees:bee_type": "productivebees:tin"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -111,17 +121,16 @@
 				{
 					count: 4
 					id: "3C9FF9D9C2A39150"
-					item: { count: 1, id: "mekanism:ingot_tin" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_tin"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "675A9DEC503B892E"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:tin" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:tin" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -136,7 +145,9 @@
 					count: 3
 					id: "1BE56155A47E3912"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:copper" }
+						components: {
+							"productivebees:bee_type": "productivebees:copper"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -145,17 +156,16 @@
 				{
 					count: 5
 					id: "3E3898C34779105C"
-					item: { count: 1, id: "minecraft:copper_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "50477B52314B632D"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:copper" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:copper" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -170,7 +180,9 @@
 					count: 2
 					id: "2EDFA384D6D262F8"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:gold" }
+						components: {
+							"productivebees:bee_type": "productivebees:gold"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -179,17 +191,16 @@
 				{
 					count: 12
 					id: "1B69024CD6115018"
-					item: { count: 1, id: "minecraft:gold_ingot" }
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "1F74C1BB5B0EF999"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:gold" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:gold" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -204,7 +215,9 @@
 					count: 2
 					id: "3811A2CDC26469AB"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:prosperity" }
+						components: {
+							"productivebees:bee_type": "productivebees:prosperity"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -213,17 +226,16 @@
 				{
 					count: 12
 					id: "04281AB4E367D72B"
-					item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "4D564EFAA4F9467B"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:prosperity" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:prosperity" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -237,24 +249,25 @@
 				{
 					count: 8
 					id: "7528DDA523E546BC"
-					item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "074F37624F1043E9"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "317A8F2AB707B397"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:inferium" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:inferium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -268,7 +281,10 @@
 				{
 					count: 12
 					id: "48F6E30F4A9E42F0"
-					item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
 					type: "item"
 				}
 				{
@@ -279,13 +295,7 @@
 			]
 			tasks: [{
 				id: "6CBE6A0A3A76E592"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:prosperity" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:prosperity" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -299,7 +309,10 @@
 				{
 					count: 12
 					id: "708B969F00897AF7"
-					item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
 					type: "item"
 				}
 				{
@@ -308,22 +321,18 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "4F0F2F6A8769135D"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "5210E9FB3C319BD7"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:inferium" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:inferium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -337,7 +346,10 @@
 				{
 					count: 2
 					id: "62E4661D6C63326F"
-					item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:imperium_essence"
+					}
 					type: "item"
 				}
 				{
@@ -346,22 +358,18 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "0C6E4DA9CA859566"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "65C03A84B61A6EB8"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:imperium" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:imperium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -375,7 +383,10 @@
 				{
 					count: 2
 					id: "74EF6F8EEC7D2108"
-					item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
 					type: "item"
 				}
 				{
@@ -384,22 +395,18 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "2684ACA7FE1A51EA"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "61ED44A22801D502"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:prudentium" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:prudentium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -413,7 +420,10 @@
 				{
 					count: 2
 					id: "11E68CDF643B33FF"
-					item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:tertium_essence"
+					}
 					type: "item"
 				}
 				{
@@ -422,22 +432,18 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "255DE033D1FD9138"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "4679B16FB869DEC4"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:tertium" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:tertium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -451,7 +457,10 @@
 				{
 					count: 2
 					id: "085B32360B04F450"
-					item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:supremium_essence"
+					}
 					type: "item"
 				}
 				{
@@ -460,22 +469,18 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "38452D5D1823FBF7"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "7DB4FAAC58C0AD81"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:supremium" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:supremium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -489,24 +494,25 @@
 				{
 					count: 2
 					id: "298D03D0E8022117"
-					item: { count: 1, id: "mysticalagriculture:imperium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:imperium_essence"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "37B61E58C34624CA"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "4805FF764A74704E"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:supremium" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:supremium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -519,24 +525,25 @@
 				{
 					count: 2
 					id: "55DD46A758EAB94E"
-					item: { count: 1, id: "mysticalagriculture:tertium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:tertium_essence"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "6B1399DC37C20A28"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "4D652A89757D3FEF"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:imperium" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:imperium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -550,24 +557,25 @@
 				{
 					count: 2
 					id: "246C10D5FC47509B"
-					item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "2898EC2F6E603808"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "73BC7E949EA6D06F"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:tertium" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:tertium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -581,24 +589,25 @@
 				{
 					count: 16
 					id: "2ED93958AEBF5C0A"
-					item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "759927D21316364B"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "3F4E5EC72CEB8DB0"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:prudentium" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:prudentium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -612,7 +621,9 @@
 				{
 					id: "2AFD3B044052C4D8"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:ender" }
+						components: {
+							"productivebees:bee_type": "productivebees:ender"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -621,17 +632,16 @@
 				{
 					count: 2
 					id: "7CB9472DF05F6CCB"
-					item: { count: 1, id: "minecraft:ender_pearl" }
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "1B507C70775FD379"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:ender" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:ender" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -646,7 +656,9 @@
 					count: 2
 					id: "5CC04ADDF41E7743"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:silver" }
+						components: {
+							"productivebees:bee_type": "productivebees:silver"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -655,17 +667,16 @@
 				{
 					count: 8
 					id: "4ACF9139C96D99D0"
-					item: { count: 1, id: "occultism:silver_ingot" }
+					item: {
+						count: 1
+						id: "occultism:silver_ingot"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "3B4964D82970D834"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:silver" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:silver" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -679,13 +690,19 @@
 				{
 					count: 2
 					id: "2475C16E991AF021"
-					item: { count: 1, id: "productivebees:honeycomb_powdery" }
+					item: {
+						count: 1
+						id: "productivebees:honeycomb_powdery"
+					}
 					type: "item"
 				}
 				{
 					count: 6
 					id: "15CAD0C377AD0A48"
-					item: { count: 1, id: "minecraft:gunpowder" }
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
 					type: "item"
 				}
 			]
@@ -698,13 +715,18 @@
 			y: 7.2d
 		}
 		{
-			dependencies: ["00DE07E191E60A98" "70AB7073F3E04EA6"]
+			dependencies: [
+				"00DE07E191E60A98"
+				"70AB7073F3E04EA6"
+			]
 			id: "5B67C1C37B62D3E0"
 			rewards: [
 				{
 					id: "2DFB5B2EDC091F27"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:steel" }
+						components: {
+							"productivebees:bee_type": "productivebees:steel"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -713,24 +735,25 @@
 				{
 					count: 4
 					id: "742E313A57F23D29"
-					item: { count: 1, id: "mekanism:ingot_steel" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "2454BC580702037B"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "603AB3DF52D0F8BC"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:steel" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:steel" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -745,7 +768,9 @@
 					count: 2
 					id: "4A56AEAA882B6F23"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:coal" }
+						components: {
+							"productivebees:bee_type": "productivebees:coal"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -754,17 +779,16 @@
 				{
 					count: 16
 					id: "5D209429ED85DD30"
-					item: { count: 1, id: "minecraft:coal" }
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "04F833E48C89EF88"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:coal" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:coal" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -779,7 +803,9 @@
 				{
 					id: "2651A79207CD920A"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:blazing" }
+						components: {
+							"productivebees:bee_type": "productivebees:blazing"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -788,17 +814,16 @@
 				{
 					count: 2
 					id: "04DE25752B8564C9"
-					item: { count: 1, id: "minecraft:blaze_rod" }
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "0A771B1609EFF327"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:blazing" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:blazing" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -812,7 +837,9 @@
 				{
 					id: "107B7C1C107FD536"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:magmatic" }
+						components: {
+							"productivebees:bee_type": "productivebees:magmatic"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -821,17 +848,16 @@
 				{
 					count: 3
 					id: "4D2D09BB342636C1"
-					item: { count: 1, id: "minecraft:magma_cream" }
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "7F645AED58C6A726"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:magmatic" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:magmatic" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -844,7 +870,10 @@
 			rewards: [{
 				count: 32
 				id: "68A53D9E243AE29E"
-				item: { count: 1, id: "minecraft:nether_brick" }
+				item: {
+					count: 1
+					id: "minecraft:nether_brick"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -861,7 +890,10 @@
 			rewards: [{
 				count: 24
 				id: "5BAA6F91FDED9A8E"
-				item: { count: 1, id: "minecraft:quartz" }
+				item: {
+					count: 1
+					id: "minecraft:quartz"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -880,7 +912,9 @@
 					count: 2
 					id: "37BCA8D608CF4A3F"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:slimy" }
+						components: {
+							"productivebees:bee_type": "productivebees:slimy"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -888,17 +922,16 @@
 				}
 				{
 					id: "37D331F53F9E8668"
-					item: { count: 1, id: "minecraft:slime_block" }
+					item: {
+						count: 1
+						id: "minecraft:slime_block"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "2EDE2AC0FE380111"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:slimy" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:slimy" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -911,7 +944,10 @@
 			rewards: [{
 				count: 2
 				id: "570782AE35942A75"
-				item: { count: 1, id: "minecraft:slime_ball" }
+				item: {
+					count: 1
+					id: "minecraft:slime_ball"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -923,13 +959,18 @@
 			y: 5.6d
 		}
 		{
-			dependencies: ["5B1297C2D45DD486" "68987C39EB057268"]
+			dependencies: [
+				"5B1297C2D45DD486"
+				"68987C39EB057268"
+			]
 			id: "1208B9E5426E4CD2"
 			rewards: [
 				{
 					id: "1397E781EC65F36C"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:emerald" }
+						components: {
+							"productivebees:bee_type": "productivebees:emerald"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -938,24 +979,25 @@
 				{
 					count: 2
 					id: "6BDD832FCF57F67A"
-					item: { count: 1, id: "minecraft:emerald" }
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "288F1B426DD06785"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "045D4C52BE1D0AE2"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:emerald" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:emerald" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -963,13 +1005,18 @@
 			y: 5.6d
 		}
 		{
-			dependencies: ["652DFD0F7CBF6A51" "3895C493392514BF"]
+			dependencies: [
+				"652DFD0F7CBF6A51"
+				"3895C493392514BF"
+			]
 			id: "5B1297C2D45DD486"
 			rewards: [
 				{
 					id: "6C18CAC6750CEB6C"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:diamond" }
+						components: {
+							"productivebees:bee_type": "productivebees:diamond"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -978,13 +1025,18 @@
 				{
 					count: 3
 					id: "739219B6CDA8921A"
-					item: { count: 1, id: "minecraft:diamond" }
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "56B44B1BE0CCE3CD"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -993,11 +1045,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "56412A7ACA86EE5C"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:diamond" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:diamond" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1012,7 +1060,9 @@
 					count: 3
 					id: "7B59BD881C8ABA73"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:lapis" }
+						components: {
+							"productivebees:bee_type": "productivebees:lapis"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1020,17 +1070,16 @@
 				}
 				{
 					id: "28AE09334A39BEAD"
-					item: { count: 1, id: "minecraft:lapis_block" }
+					item: {
+						count: 1
+						id: "minecraft:lapis_block"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "3067C19B0C34078C"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:lapis" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:lapis" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1045,7 +1094,9 @@
 					count: 3
 					id: "451FDEB12500B377"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:redstone" }
+						components: {
+							"productivebees:bee_type": "productivebees:redstone"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1053,17 +1104,16 @@
 				}
 				{
 					id: "3D9F6CBDCEE8ED43"
-					item: { count: 1, id: "minecraft:redstone_block" }
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "14CC1962F37BD94D"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:redstone" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:redstone" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1079,7 +1129,9 @@
 					count: 2
 					id: "61B9EBB6BDA34698"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:glowing" }
+						components: {
+							"productivebees:bee_type": "productivebees:glowing"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1088,17 +1140,16 @@
 				{
 					count: 8
 					id: "2DDEB6318538A2FA"
-					item: { count: 1, id: "minecraft:glowstone_dust" }
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "441CD2028A57B719"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:glowing" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:glowing" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1112,13 +1163,19 @@
 				{
 					count: 8
 					id: "7E74C860801991C7"
-					item: { count: 1, id: "minecraft:glowstone" }
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
 					type: "item"
 				}
 				{
 					count: 16
 					id: "3511FC1642BB61B7"
-					item: { count: 1, id: "minecraft:glowstone_dust" }
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
 					type: "item"
 				}
 			]
@@ -1136,7 +1193,10 @@
 			rewards: [{
 				count: 32
 				id: "7A3F78688C38A031"
-				item: { count: 1, id: "minecraft:end_stone" }
+				item: {
+					count: 1
+					id: "minecraft:end_stone"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1148,40 +1208,46 @@
 			y: 2.4d
 		}
 		{
-			dependencies: ["652DFD0F7CBF6A51" "1208B9E5426E4CD2"]
+			dependencies: [
+				"652DFD0F7CBF6A51"
+				"1208B9E5426E4CD2"
+			]
 			id: "2BC867860E656705"
 			rewards: [
 				{
 					count: 8
 					id: "11C5142455348E35"
-					item: { count: 1, id: "minecraft:experience_bottle" }
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "040F227363B29B1F"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:experience" }
+						components: {
+							"productivebees:bee_type": "productivebees:experience"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "2619FA224A42594C"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "0FA17CEA6FB1A44E"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:experience" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:experience" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1195,7 +1261,9 @@
 				{
 					id: "6A8480E660966BBE"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:amethyst" }
+						components: {
+							"productivebees:bee_type": "productivebees:amethyst"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1204,24 +1272,25 @@
 				{
 					count: 8
 					id: "2866BF6965CD5ECB"
-					item: { count: 1, id: "minecraft:amethyst_shard" }
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "27026AA2075A85B3"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "6A5A68A7291E3747"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:amethyst" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:amethyst" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1236,7 +1305,9 @@
 					count: 2
 					id: "0619CBC15F4193A3"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:skeletal" }
+						components: {
+							"productivebees:bee_type": "productivebees:skeletal"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1245,17 +1316,16 @@
 				{
 					count: 12
 					id: "6F72280C90199FC7"
-					item: { count: 1, id: "minecraft:bone" }
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "7E7E1B5DA3813A27"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:skeletal" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:skeletal" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1270,7 +1340,9 @@
 					count: 2
 					id: "726A2F81B0139226"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:withered" }
+						components: {
+							"productivebees:bee_type": "productivebees:withered"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1279,17 +1351,16 @@
 				{
 					count: 4
 					id: "131F7634FAFD01CE"
-					item: { count: 1, id: "productivebees:wither_skull_chip" }
+					item: {
+						count: 1
+						id: "productivebees:wither_skull_chip"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "236DA28DB9D91B71"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:withered" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:withered" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1304,7 +1375,9 @@
 					count: 2
 					id: "71D3B40E20D53090"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:zombie" }
+						components: {
+							"productivebees:bee_type": "productivebees:zombie"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1313,17 +1386,16 @@
 				{
 					count: 16
 					id: "7CC587468AC2475A"
-					item: { count: 1, id: "minecraft:rotten_flesh" }
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "3B29B2560A6F8898"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:zombie" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:zombie" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1337,7 +1409,9 @@
 				{
 					id: "4165E1947883B1B7"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:netherite" }
+						components: {
+							"productivebees:bee_type": "productivebees:netherite"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1346,24 +1420,25 @@
 				{
 					count: 2
 					id: "6404339540DBDCBD"
-					item: { count: 1, id: "minecraft:netherite_scrap" }
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "53D44FC9B0C11829"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "50E543F48073F082"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:netherite" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:netherite" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1377,7 +1452,9 @@
 				{
 					id: "4EAA19E69D8B74C3"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:obsidian" }
+						components: {
+							"productivebees:bee_type": "productivebees:obsidian"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1386,17 +1463,16 @@
 				{
 					count: 3
 					id: "36D1A0243C7E2771"
-					item: { count: 1, id: "mekanism:dust_obsidian" }
+					item: {
+						count: 1
+						id: "mekanism:dust_obsidian"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "0C7F784C8A601A58"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:obsidian" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:obsidian" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1409,7 +1485,10 @@
 			rewards: [{
 				count: 2
 				id: "32CE7941640E0DE0"
-				item: { count: 1, id: "productivelib:upgrade_base" }
+				item: {
+					count: 1
+					id: "productivelib:upgrade_base"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1428,13 +1507,19 @@
 			rewards: [
 				{
 					id: "74C36F6FC7220464"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "5A1288B172478A01"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -1452,13 +1537,19 @@
 			rewards: [
 				{
 					id: "04981DE2E5BB68B2"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "2ACC29CD1660A53A"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -1476,13 +1567,19 @@
 			rewards: [
 				{
 					id: "18A9DC9197D9001E"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "7D9AB68C66B262A8"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -1500,13 +1597,19 @@
 			rewards: [
 				{
 					id: "323299A0D1F66AD0"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "3BF514A0ABC09B63"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -1525,13 +1628,19 @@
 			rewards: [
 				{
 					id: "516DE5167AD68ACA"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "1596A5F086DAEB49"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -1549,13 +1658,19 @@
 			rewards: [
 				{
 					id: "33FF74FC148D77A4"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "401F69FF4C371284"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -1573,13 +1688,19 @@
 			rewards: [
 				{
 					id: "45A300FFDE4DF96A"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "7D723B858D53758C"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -1597,13 +1718,19 @@
 			rewards: [
 				{
 					id: "7B2775B6ED2D7237"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "132CF70E919673B4"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -1620,7 +1747,10 @@
 			rewards: [{
 				count: 5
 				id: "2DFAB09CC9168526"
-				item: { count: 1, id: "minecraft:honeycomb" }
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1639,7 +1769,10 @@
 			rewards: [{
 				count: 4
 				id: "20DF03A659244083"
-				item: { count: 1, id: "productivebees:honey_treat" }
+				item: {
+					count: 1
+					id: "productivebees:honey_treat"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -1658,7 +1791,10 @@
 			rewards: [{
 				count: 16
 				id: "3F96B4D1992A10F1"
-				item: { count: 1, id: "minecraft:obsidian" }
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1676,7 +1812,9 @@
 				{
 					id: "04785FB897588DDD"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:draconic" }
+						components: {
+							"productivebees:bee_type": "productivebees:draconic"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1684,17 +1822,16 @@
 				}
 				{
 					id: "0171E36FC6A2FD1C"
-					item: { count: 1, id: "productivebees:draconic_dust" }
+					item: {
+						count: 1
+						id: "productivebees:draconic_dust"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "773F49C78FBAFBA5"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:draconic" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:draconic" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1707,7 +1844,10 @@
 			rewards: [{
 				count: 4
 				id: "03B926C311217A5F"
-				item: { count: 1, id: "minecraft:honey_bottle" }
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1723,7 +1863,10 @@
 			id: "0126B80792E5B621"
 			rewards: [{
 				id: "3F83F14903025A0A"
-				item: { count: 1, id: "productivebees:feeder" }
+				item: {
+					count: 1
+					id: "productivebees:feeder"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1738,7 +1881,10 @@
 			id: "2ADBD3B1767199CE"
 			rewards: [{
 				id: "36853F44A0534D62"
-				item: { count: 1, id: "minecraft:honeycomb" }
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1755,7 +1901,10 @@
 			rewards: [{
 				count: 2
 				id: "27F1BA9AD02D3346"
-				item: { count: 1, id: "minecraft:honey_bottle" }
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1772,7 +1921,10 @@
 			rewards: [{
 				count: 2
 				id: "4B47D0FD0B8B3342"
-				item: { count: 1, id: "minecraft:honey_bottle" }
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1800,7 +1952,10 @@
 			rewards: [{
 				count: 3
 				id: "3C3428CF7F74CEB2"
-				item: { count: 1, id: "productivebees:honey_treat" }
+				item: {
+					count: 1
+					id: "productivebees:honey_treat"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1816,7 +1971,10 @@
 			id: "64730C62AE083D95"
 			rewards: [{
 				id: "239E587E863DC91E"
-				item: { count: 1, id: "productivelib:upgrade_child" }
+				item: {
+					count: 1
+					id: "productivelib:upgrade_child"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1842,7 +2000,10 @@
 			id: "2D56054439A7F592"
 			rewards: [{
 				id: "24668F1DB215AE84"
-				item: { count: 1, id: "minecraft:honey_bottle" }
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1859,7 +2020,10 @@
 			rewards: [{
 				count: 2
 				id: "5A6D172E1BA1E618"
-				item: { count: 1, id: "productivebees:sturdy_bee_cage" }
+				item: {
+					count: 1
+					id: "productivebees:sturdy_bee_cage"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1875,7 +2039,10 @@
 			rewards: [{
 				count: 8
 				id: "02E2C35B0855FCD1"
-				item: { count: 1, id: "minecraft:grass_block" }
+				item: {
+					count: 1
+					id: "minecraft:grass_block"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1892,12 +2059,18 @@
 			rewards: [
 				{
 					id: "532A627E8371C2B2"
-					item: { count: 1, id: "minecraft:saddle" }
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
 					type: "item"
 				}
 				{
 					id: "366BCA329CD9EC7A"
-					item: { count: 1, id: "productivebees:honey_treat" }
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
 					type: "item"
 				}
 			]
@@ -1915,7 +2088,9 @@
 				count: 2
 				id: "16488890984DBE23"
 				item: {
-					components: { "productivebees:bee_type": "productivebees:salty" }
+					components: {
+						"productivebees:bee_type": "productivebees:salty"
+					}
 					count: 1
 					id: "productivebees:configurable_honeycomb"
 				}
@@ -1923,11 +2098,7 @@
 			}]
 			tasks: [{
 				id: "06EC094E5667FCB5"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:salty" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:salty" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1941,7 +2112,9 @@
 					count: 2
 					id: "348D8EE1DA29A129"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:prismarine" }
+						components: {
+							"productivebees:bee_type": "productivebees:prismarine"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1950,23 +2123,25 @@
 				{
 					count: 6
 					id: "0239F9D364125A6E"
-					item: { count: 1, id: "minecraft:prismarine_shard" }
+					item: {
+						count: 1
+						id: "minecraft:prismarine_shard"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "0FF9B168471BD3C9"
-					item: { count: 1, id: "minecraft:prismarine_crystals" }
+					item: {
+						count: 1
+						id: "minecraft:prismarine_crystals"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "4CD37236EBEEAEF5"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:prismarine" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:prismarine" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -1980,7 +2155,9 @@
 					count: 2
 					id: "1E39006AE20D13E9"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:frosty" }
+						components: {
+							"productivebees:bee_type": "productivebees:frosty"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -1989,23 +2166,25 @@
 				{
 					count: 8
 					id: "36C9A2F3060B9522"
-					item: { count: 1, id: "minecraft:snowball" }
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
 					type: "item"
 				}
 				{
 					count: 6
 					id: "5060394FF5248B0C"
-					item: { count: 1, id: "minecraft:ice" }
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "45EDDEA94B6D6A6E"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:frosty" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:frosty" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2018,13 +2197,19 @@
 				{
 					count: 2
 					id: "05B1F33CFADDEB82"
-					item: { count: 1, id: "productivebees:sugarbag_honeycomb" }
+					item: {
+						count: 1
+						id: "productivebees:sugarbag_honeycomb"
+					}
 					type: "item"
 				}
 				{
 					count: 3
 					id: "44DC6DD11AC2F4AC"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -2048,19 +2233,28 @@
 			y: -15.2d
 		}
 		{
-			dependencies: ["6E6DE23E9CCF1E39" "78B0C026C3A8AAEA"]
+			dependencies: [
+				"6E6DE23E9CCF1E39"
+				"78B0C026C3A8AAEA"
+			]
 			id: "76D07EE5DAFEA90D"
 			rewards: [
 				{
 					count: 2
 					id: "78CD853C3058E225"
-					item: { count: 1, id: "productivebees:honeycomb_ghostly" }
+					item: {
+						count: 1
+						id: "productivebees:honeycomb_ghostly"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "2A91072F34B1F37F"
-					item: { count: 1, id: "minecraft:ghast_tear" }
+					item: {
+						count: 1
+						id: "minecraft:ghast_tear"
+					}
 					type: "item"
 				}
 			]
@@ -2079,7 +2273,10 @@
 			rewards: [{
 				count: 16
 				id: "4CB01ECB3001DBB2"
-				item: { count: 1, id: "minecraft:soul_sand" }
+				item: {
+					count: 1
+					id: "minecraft:soul_sand"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -2091,13 +2288,18 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3895C493392514BF" "19E8B2CABE3FAFF0"]
+			dependencies: [
+				"3895C493392514BF"
+				"19E8B2CABE3FAFF0"
+			]
 			id: "5FD811D4BCBB4E6E"
 			rewards: [
 				{
 					id: "741D7CC30F9090B3"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:spacial" }
+						components: {
+							"productivebees:bee_type": "productivebees:spacial"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2106,17 +2308,16 @@
 				{
 					count: 2
 					id: "4CB3EFE413D4D757"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "60005518EE897791"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:spacial" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:spacial" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2130,7 +2331,9 @@
 					count: 2
 					id: "15874A494B9755F8"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:silicon" }
+						components: {
+							"productivebees:bee_type": "productivebees:silicon"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2139,17 +2342,16 @@
 				{
 					count: 8
 					id: "4DBC4BBE1F96F4DC"
-					item: { count: 1, id: "ae2:silicon" }
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "1AE4F4135689E828"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:silicon" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:silicon" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2162,12 +2364,18 @@
 				{
 					count: 2
 					id: "2A74103E0A4283B6"
-					item: { count: 1, id: "productivebees:honeycomb_milky" }
+					item: {
+						count: 1
+						id: "productivebees:honeycomb_milky"
+					}
 					type: "item"
 				}
 				{
 					id: "1BD679D4E2768D09"
-					item: { count: 1, id: "minecraft:milk_bucket" }
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
 					type: "item"
 				}
 			]
@@ -2187,7 +2395,10 @@
 				{
 					count: 3
 					id: "1A6E1F0B6AB978D5"
-					item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:supremium_essence"
+					}
 					type: "item"
 				}
 				{
@@ -2196,22 +2407,18 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "2DDB8403477B1D4B"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "48FCFE00FAE28517"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:awakened_supremium" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:awakened_supremium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2225,24 +2432,25 @@
 				{
 					count: 2
 					id: "245E2BC2C59B927F"
-					item: { count: 1, id: "mysticalagriculture:supremium_essence" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:supremium_essence"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "7D2671B615EB29D8"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "4130D64B622173BD"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:awakened_supremium" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:awakened_supremium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -2254,7 +2462,10 @@
 			rewards: [{
 				count: 3
 				id: "58B4702E24BFD4CE"
-				item: { count: 1, id: "minecraft:honeycomb" }
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -2271,13 +2482,19 @@
 			rewards: [
 				{
 					id: "2073998FAABDDB4D"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "216F9A1D80EEF69B"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -2290,18 +2507,27 @@
 			y: -2.4d
 		}
 		{
-			dependencies: ["763EA2539F967175" "4170C53128395EC8"]
+			dependencies: [
+				"763EA2539F967175"
+				"4170C53128395EC8"
+			]
 			id: "0568907D9675E7BA"
 			rewards: [
 				{
 					id: "681F503F9E0FB873"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "0C66F330010F4709"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -2314,18 +2540,27 @@
 			y: -2.4d
 		}
 		{
-			dependencies: ["0568907D9675E7BA" "5050338A941A4C43"]
+			dependencies: [
+				"0568907D9675E7BA"
+				"5050338A941A4C43"
+			]
 			id: "4DF6AB2247056E6F"
 			rewards: [
 				{
 					id: "76C1024EDFD5625D"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "3427AF630518266C"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -2343,13 +2578,19 @@
 			rewards: [
 				{
 					id: "338232731EDF03B4"
-					item: { count: 1, id: "productivelib:upgrade_base" }
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "4518B9F6306B99F4"
-					item: { count: 1, id: "minecraft:honeycomb" }
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
 					type: "item"
 				}
 			]
@@ -2366,7 +2607,10 @@
 			id: "5B81420F5B4091BA"
 			rewards: [{
 				id: "62D15ADE8879EB3A"
-				item: { count: 1, id: "productivebees:amber" }
+				item: {
+					count: 1
+					id: "productivebees:amber"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -2381,13 +2625,7 @@
 			id: "0B38D94672907F38"
 			tasks: [{
 				id: "31C60332366EFE2A"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:amber" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:amber" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2399,13 +2637,7 @@
 			id: "48857E853D866C67"
 			tasks: [{
 				id: "2BB783C38A65E38A"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:sussy" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:sussy" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2417,13 +2649,7 @@
 			id: "7E2522100BFBA8CB"
 			tasks: [{
 				id: "0FDCD6D4A7B9F05B"
-				item: {
-					components: {
-						"minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:wanna" }
-					}
-					count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-				}
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:wanna" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				only_from_crafting: false
 				type: "item"
@@ -2439,7 +2665,9 @@
 					count: 2
 					id: "31C1A2F95AA82CDF"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:osmium" }
+						components: {
+							"productivebees:bee_type": "productivebees:osmium"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2448,17 +2676,16 @@
 				{
 					count: 4
 					id: "0C82A5C2A889B02D"
-					item: { count: 1, id: "mekanism:ingot_osmium" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "34722E593F217BC9"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:osmium" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:osmium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2466,14 +2693,19 @@
 			y: -0.8d
 		}
 		{
-			dependencies: ["78399D60F97240DC" "2C98C57012256FC3"]
+			dependencies: [
+				"78399D60F97240DC"
+				"2C98C57012256FC3"
+			]
 			id: "0B56104ADC34D802"
 			rewards: [
 				{
 					count: 2
 					id: "4582B718760AE2D8"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:refined_obsidian" }
+						components: {
+							"productivebees:bee_type": "productivebees:refined_obsidian"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2482,24 +2714,25 @@
 				{
 					count: 2
 					id: "5EF96D696BFE4096"
-					item: { count: 1, id: "mekanism:dust_refined_obsidian" }
+					item: {
+						count: 1
+						id: "mekanism:dust_refined_obsidian"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "77B680E933E906FA"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "121050DF12CEAED5"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:refined_obsidian" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:refined_obsidian" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2513,7 +2746,9 @@
 				{
 					id: "060B198C57530162"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:fluorite" }
+						components: {
+							"productivebees:bee_type": "productivebees:fluorite"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2522,24 +2757,25 @@
 				{
 					count: 4
 					id: "6C7538D3ACA467AF"
-					item: { count: 1, id: "mekanism:fluorite_gem" }
+					item: {
+						count: 1
+						id: "mekanism:fluorite_gem"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "5004FE50E1FC7306"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "1DD80CEFF33665D9"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:fluorite" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:fluorite" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2553,7 +2789,9 @@
 				{
 					id: "51EA9820C880B679"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:celestigem" }
+						components: {
+							"productivebees:bee_type": "productivebees:celestigem"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2561,24 +2799,25 @@
 				}
 				{
 					id: "78F6ADB03D4543ED"
-					item: { count: 1, id: "justdirethings:celestigem" }
+					item: {
+						count: 1
+						id: "justdirethings:celestigem"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "0279334DE68F66AE"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "29B80AD69CA070D9"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:celestigem" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:celestigem" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2592,7 +2831,9 @@
 				{
 					id: "2470EDED0192A0CA"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:ferricore" }
+						components: {
+							"productivebees:bee_type": "productivebees:ferricore"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2600,17 +2841,16 @@
 				}
 				{
 					id: "022668E8C3AF4FC7"
-					item: { count: 1, id: "justdirethings:ferricore_ingot" }
+					item: {
+						count: 1
+						id: "justdirethings:ferricore_ingot"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "1BE40C794DE56FF2"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:ferricore" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:ferricore" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2624,7 +2864,9 @@
 				{
 					id: "67F5DF6FFF5D8F4D"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:eclipsealloy" }
+						components: {
+							"productivebees:bee_type": "productivebees:eclipsealloy"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2632,24 +2874,25 @@
 				}
 				{
 					id: "6E59B2CD5480E7A2"
-					item: { count: 1, id: "justdirethings:raw_eclipsealloy" }
+					item: {
+						count: 1
+						id: "justdirethings:raw_eclipsealloy"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "4030C20A7F5B09D5"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "3AA945C7D2F277C2"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:eclipsealloy" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:eclipsealloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2664,7 +2907,9 @@
 					count: 2
 					id: "6684C5E6304602BF"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:soulium" }
+						components: {
+							"productivebees:bee_type": "productivebees:soulium"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2673,17 +2918,16 @@
 				{
 					count: 3
 					id: "0BB133E06EFDA8DF"
-					item: { count: 1, id: "mysticalagriculture:soulium_dust" }
+					item: {
+						count: 1
+						id: "mysticalagriculture:soulium_dust"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "41AE71A00EBA998F"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:soulium" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:soulium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2691,14 +2935,19 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["76E9C42F3D4011D0" "7F6887517E63F6BE"]
+			dependencies: [
+				"76E9C42F3D4011D0"
+				"7F6887517E63F6BE"
+			]
 			id: "24AE372E79093B56"
 			rewards: [
 				{
 					count: 2
 					id: "155DFDAC7D70BB96"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:bronze" }
+						components: {
+							"productivebees:bee_type": "productivebees:bronze"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2707,17 +2956,16 @@
 				{
 					count: 2
 					id: "2EA3E23BE57A2D08"
-					item: { count: 1, id: "mekanism:ingot_bronze" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_bronze"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "0A654FC2F1F0568F"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:bronze" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:bronze" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2732,7 +2980,9 @@
 					count: 2
 					id: "5D0511C129842BA3"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:radioactive" }
+						components: {
+							"productivebees:bee_type": "productivebees:radioactive"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2741,18 +2991,17 @@
 				{
 					count: 3
 					id: "033074F20EBD7C6E"
-					item: { count: 1, id: "mekanism:raw_uranium" }
+					item: {
+						count: 1
+						id: "mekanism:raw_uranium"
+					}
 					random_bonus: 2
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "4E4D2E47B27582D5"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:radioactive" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:radioactive" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2767,7 +3016,9 @@
 					count: 2
 					id: "50BCF369D8E32F9A"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:blazegold" }
+						components: {
+							"productivebees:bee_type": "productivebees:blazegold"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2776,17 +3027,16 @@
 				{
 					count: 2
 					id: "7857EA50FD3E3A9D"
-					item: { count: 1, id: "justdirethings:raw_blazegold" }
+					item: {
+						count: 1
+						id: "justdirethings:raw_blazegold"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "3ACF047A9768068F"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:blazegold" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:blazegold" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2801,7 +3051,9 @@
 					count: 2
 					id: "090B61B7E46443C2"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:uraninite" }
+						components: {
+							"productivebees:bee_type": "productivebees:uraninite"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2810,17 +3062,16 @@
 				{
 					count: 4
 					id: "0C3D7EEEC0290A57"
-					item: { count: 1, id: "powah:uraninite" }
+					item: {
+						count: 1
+						id: "powah:uraninite"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "1E6E32ECD3804A49"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:uraninite" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:uraninite" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2835,7 +3086,9 @@
 					count: 2
 					id: "2D1B29E5A3147CB4"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:arcane_crystal" }
+						components: {
+							"productivebees:bee_type": "productivebees:arcane_crystal"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2844,24 +3097,25 @@
 				{
 					count: 3
 					id: "2EB0EC0617F325FF"
-					item: { count: 1, id: "forbidden_arcanus:arcane_crystal" }
+					item: {
+						count: 1
+						id: "forbidden_arcanus:arcane_crystal"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "0F91FA6079D6F68D"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "7C885C138A8D65F9"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:arcane_crystal" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:arcane_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2876,7 +3130,9 @@
 					count: 2
 					id: "473FAEC4DCF7A762"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:fluix" }
+						components: {
+							"productivebees:bee_type": "productivebees:fluix"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2885,17 +3141,16 @@
 				{
 					count: 2
 					id: "4FA034843B335277"
-					item: { count: 1, id: "ae2:fluix_crystal" }
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "786CDD8922D11654"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:fluix" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:fluix" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2903,14 +3158,19 @@
 			y: -2.4d
 		}
 		{
-			dependencies: ["2C98C57012256FC3" "549A78E49047E439"]
+			dependencies: [
+				"2C98C57012256FC3"
+				"549A78E49047E439"
+			]
 			id: "08092F782620EAC0"
 			rewards: [
 				{
 					count: 2
 					id: "5ACBA5DD5579EE02"
 					item: {
-						components: { "productivebees:bee_type": "productivebees:refined_glowstone" }
+						components: {
+							"productivebees:bee_type": "productivebees:refined_glowstone"
+						}
 						count: 1
 						id: "productivebees:configurable_honeycomb"
 					}
@@ -2918,24 +3178,25 @@
 				}
 				{
 					id: "2CE26C1ED31F1B6D"
-					item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
+					item: {
+						count: 1
+						id: "mekanism:ingot_refined_glowstone"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "6CFBA6E5B0DF3614"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "7D644623DFCD9996"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:refined_glowstone" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:refined_glowstone" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]
@@ -2949,7 +3210,9 @@
 				count: 2
 				id: "7F0583338F9DBED1"
 				item: {
-					components: { "productivebees:bee_type": "productivebees:menril" }
+					components: {
+						"productivebees:bee_type": "productivebees:menril"
+					}
 					count: 1
 					id: "productivebees:configurable_honeycomb"
 				}
@@ -2957,11 +3220,7 @@
 			}]
 			tasks: [{
 				id: "137A5CE42D1415D8"
-				item: {
-					components: { "productivebees:bee_type": "productivebees:menril" }
-					count: 1
-					id: "productivebees:configurable_honeycomb"
-				}
+				item: { components: { "productivebees:bee_type": "productivebees:menril" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
 			}]

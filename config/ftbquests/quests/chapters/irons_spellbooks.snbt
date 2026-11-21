@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "irons_spellbooks"
-	group: "5BC1E3118B4BBBD9"
-	icon: { id: "irons_spellbooks:pyromancer_helmet" }
+	group: ""
+	icon: {
+		id: "irons_spellbooks:pyromancer_helmet"
+	}
 	id: "2C5453BFDA7ADD30"
 	images: [ ]
-	order_index: 1
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -25,7 +27,10 @@
 			rewards: [{
 				count: 8
 				id: "76404141513E4010"
-				item: { count: 1, id: "irons_spellbooks:common_ink" }
+				item: {
+					count: 1
+					id: "irons_spellbooks:common_ink"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -52,6 +57,15 @@
 		{
 			dependencies: ["188395E73A18E2D2"]
 			id: "28CF75BB46B75616"
+			rewards: [{
+				id: "1B2406F1BD5CE366"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -61,31 +75,13 @@
 			}]
 			x: 11.0d
 			y: 7.2d
-			rewards: [{
-				count: 1
-				id: "1B2406F1BD5CE366"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 2
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["21046DD5D69EEDDA"]
 			id: "2C118A714F627961"
 			tasks: [{
 				id: "5A8D640EB89C8151"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [ ]
-							maxSpells: 5
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:copper_spell_book"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -96,11 +92,7 @@
 			id: "609DB7F8B0684C8A"
 			tasks: [{
 				id: "7E5D4D49856AD085"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:epic_ink)item(irons_spellbooks:legendary_ink)item(irons_spellbooks:rare_ink)item(irons_spellbooks:uncommon_ink)item(irons_spellbooks:common_ink))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:epic_ink)item(irons_spellbooks:legendary_ink)item(irons_spellbooks:rare_ink)item(irons_spellbooks:uncommon_ink)item(irons_spellbooks:common_ink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -113,11 +105,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5AAE5910954EF9A1"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:scroll))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:scroll))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -137,6 +125,15 @@
 		{
 			dependencies: ["409B92FD77AB5C18"]
 			id: "102263463081F75B"
+			rewards: [{
+				id: "2A189D1DBE3E00FC"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -146,17 +143,19 @@
 			}]
 			x: -3.0d
 			y: -0.8d
-			rewards: [{
-				count: 1
-				id: "2A189D1DBE3E00FC"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["3B52675F0BFBB74C"]
 			id: "188395E73A18E2D2"
+			rewards: [{
+				id: "0B3BE7FED988D7C6"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -166,13 +165,6 @@
 			}]
 			x: 7.0d
 			y: 7.2d
-			rewards: [{
-				count: 1
-				id: "0B3BE7FED988D7C6"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 2
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["191F435488BD2758"]
@@ -252,13 +244,18 @@
 				{
 					count: 8
 					id: "11A0CAFBEC226646"
-					item: { count: 1, id: "irons_spellbooks:legendary_ink" }
+					item: {
+						count: 1
+						id: "irons_spellbooks:legendary_ink"
+					}
 					type: "item"
 				}
 				{
-					count: 1
 					id: "49D78239184CF29A"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -293,9 +290,11 @@
 					type: "item"
 				}
 				{
-					count: 1
 					id: "69E6FD7B7613B8C0"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -335,30 +334,37 @@
 		{
 			dependencies: ["5DCAC60D8B46EBA0"]
 			id: "787A726BEEC0BB74"
+			rewards: [{
+				id: "755BB2C6144F0B6A"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "5E14AF4586F8C294"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:inscribed_rune))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:inscribed_rune))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: -2.4d
-			rewards: [{
-				count: 1
-				id: "755BB2C6144F0B6A"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["188395E73A18E2D2"]
 			id: "19161579CDA9D76C"
+			rewards: [{
+				id: "646040BEC814DB98"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "1EF4A3352527E0F9"
 				item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
@@ -366,35 +372,26 @@
 			}]
 			x: 9.0d
 			y: 8.8d
-			rewards: [{
-				count: 1
-				id: "646040BEC814DB98"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["19161579CDA9D76C"]
 			id: "4F81E669986ED173"
+			rewards: [{
+				id: "7C93516889B8A6A0"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "7003C2F7A15C9A83"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:fire_upgrade_orb)item(irons_spellbooks:ice_upgrade_orb)item(irons_spellbooks:lightning_upgrade_orb)item(irons_spellbooks:holy_upgrade_orb)item(irons_spellbooks:ender_upgrade_orb)item(irons_spellbooks:blood_upgrade_orb)item(irons_spellbooks:evocation_upgrade_orb)item(irons_spellbooks:nature_upgrade_orb)item(irons_spellbooks:mana_upgrade_orb)item(irons_spellbooks:cooldown_upgrade_orb)item(irons_spellbooks:protection_upgrade_orb))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:fire_upgrade_orb)item(irons_spellbooks:ice_upgrade_orb)item(irons_spellbooks:lightning_upgrade_orb)item(irons_spellbooks:holy_upgrade_orb)item(irons_spellbooks:ender_upgrade_orb)item(irons_spellbooks:blood_upgrade_orb)item(irons_spellbooks:evocation_upgrade_orb)item(irons_spellbooks:nature_upgrade_orb)item(irons_spellbooks:mana_upgrade_orb)item(irons_spellbooks:cooldown_upgrade_orb)item(irons_spellbooks:protection_upgrade_orb))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 9.0d
 			y: 10.4d
-			rewards: [{
-				count: 1
-				id: "7C93516889B8A6A0"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["191F435488BD2758"]
@@ -434,23 +431,7 @@
 			id: "2D862C43FCD886D9"
 			tasks: [{
 				id: "07EB0C9F218A1E52"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:abyssal_shroud"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:abyssal_shroud", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -461,23 +442,7 @@
 			id: "0BC36833E71A47C1"
 			tasks: [{
 				id: "7396E4AC3DEFEBAD"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:eldritch_blast"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:eldritch_blast", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -488,23 +453,7 @@
 			id: "177AFF67090D1CA1"
 			tasks: [{
 				id: "59FC15E1A3A3850B"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:planar_sight"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:planar_sight", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -515,23 +464,7 @@
 			id: "05FB39328B47F225"
 			tasks: [{
 				id: "49C5006AB4E4067A"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:sculk_tentacles"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:sculk_tentacles", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -542,23 +475,7 @@
 			id: "1DC3EA1F37C08EEC"
 			tasks: [{
 				id: "3A4FB1DAEA3131E4"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:sonic_boom"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:sonic_boom", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -569,23 +486,7 @@
 			id: "42162C6248690A73"
 			tasks: [{
 				id: "494378140971EEB2"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:telekinesis"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:telekinesis", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -594,203 +495,158 @@
 		{
 			dependencies: ["787A726BEEC0BB74"]
 			id: "0D24246C9B7E4ED7"
+			rewards: [{
+				id: "22CE65C11B420C79"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "59B4EF8E1466E246"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/helmets))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/helmets))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.0d
 			y: -0.8d
-			rewards: [{
-				count: 1
-				id: "22CE65C11B420C79"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["787A726BEEC0BB74"]
 			id: "7994E33730AB8D3D"
+			rewards: [{
+				id: "5043CD0A71DBADAB"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A26D3D5C9E777EF"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/chestplates))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/chestplates))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: -4.0d
-			rewards: [{
-				count: 1
-				id: "5043CD0A71DBADAB"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["787A726BEEC0BB74"]
 			id: "7432202F127281C8"
+			rewards: [{
+				id: "75B9B0F4C6DF1A56"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "22AC5FABA2C3BFDE"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/leggings))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/leggings))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.0d
 			y: -2.4d
-			rewards: [{
-				count: 1
-				id: "75B9B0F4C6DF1A56"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["787A726BEEC0BB74"]
 			id: "2B83605219431758"
+			rewards: [{
+				id: "7CD2D27D8D53694C"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E73D9DD23820E7D"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/boots))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(irons_spellbooks:armors/boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: -0.8d
-			rewards: [{
-				count: 1
-				id: "7CD2D27D8D53694C"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["2C118A714F627961"]
 			id: "356CA5DB72734326"
 			tasks: [{
 				id: "1FFA932B1053B8B8"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [ ]
-							maxSpells: 6
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:iron_spell_book"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
 				type: "item"
 			}]
 			x: -5.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["356CA5DB72734326" "409B92FD77AB5C18" "34EDB874318340F6"]
+			dependencies: [
+				"356CA5DB72734326"
+				"409B92FD77AB5C18"
+				"34EDB874318340F6"
+			]
 			id: "6D8BE79061F0CC20"
 			tasks: [{
 				id: "589326A4E1011FBE"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:gold_spell_book"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:gold_spell_book" }
 				type: "item"
 			}]
 			x: -5.0d
 			y: -2.4d
 		}
 		{
-			dependencies: ["6D8BE79061F0CC20" "102263463081F75B"]
+			dependencies: [
+				"6D8BE79061F0CC20"
+				"102263463081F75B"
+			]
 			id: "273E12E9CCDBBD6E"
+			rewards: [{
+				id: "2CFB1DBF1F1950D9"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AC11C970B258429"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:diamond_spell_book"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:diamond_spell_book" }
 				type: "item"
 			}]
 			x: -3.0d
 			y: -2.4d
-			rewards: [{
-				count: 1
-				id: "2CFB1DBF1F1950D9"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["273E12E9CCDBBD6E"]
 			id: "08499F9D4B1D1554"
+			rewards: [{
+				id: "43CDF473EFD59629"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "5485021F3061A13A"
-				item: {
-					components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:netherite_spell_book)item(irons_spellbooks:dragonskin_spell_book))" }
-					count: 1
-					id: "ftbfiltersystem:smart_filter"
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:netherite_spell_book)item(irons_spellbooks:dragonskin_spell_book))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.0d
 			y: -4.0d
-			rewards: [{
-				count: 1
-				id: "43CDF473EFD59629"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["2C118A714F627961"]
 			id: "74FEE5E4E73AE4D8"
 			tasks: [{
 				id: "1902E770F86A5C28"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [ ]
-							maxSpells: 8
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:rotten_spell_book"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 8, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:rotten_spell_book" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -801,18 +657,7 @@
 			id: "2643F5CF4596D650"
 			tasks: [{
 				id: "1868B3282120F867"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:druidic_spell_book"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:druidic_spell_book" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -820,7 +665,9 @@
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			icon: { id: "irons_spellbooks:priest_spawn_egg" }
+			icon: {
+				id: "irons_spellbooks:priest_spawn_egg"
+			}
 			id: "2FEE2E40891D99EB"
 			tasks: [{
 				id: "751A2DEECCAEDB89"
@@ -836,6 +683,15 @@
 		{
 			dependencies: ["28CF75BB46B75616"]
 			id: "0F1F1B7AD0337C08"
+			rewards: [{
+				id: "6A020BC80E6FD1C9"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D431A1FB5207BA0"
 				item: { count: 1, id: "irons_spellbooks:oakskin_elixir" }
@@ -843,17 +699,19 @@
 			}]
 			x: 11.0d
 			y: 8.8d
-			rewards: [{
-				count: 1
-				id: "6A020BC80E6FD1C9"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["28CF75BB46B75616"]
 			id: "5C9FD770397A56FE"
+			rewards: [{
+				id: "62C967E3D7D5C4A9"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BEA639702614B4F"
 				item: { count: 1, id: "irons_spellbooks:invisibility_elixir" }
@@ -861,17 +719,19 @@
 			}]
 			x: 13.0d
 			y: 8.8d
-			rewards: [{
-				count: 1
-				id: "62C967E3D7D5C4A9"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["28CF75BB46B75616"]
 			id: "23452C7E33F043EA"
+			rewards: [{
+				id: "33B8A1A8F959567C"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "31DBA03141A87651"
 				item: { count: 1, id: "irons_spellbooks:evasion_elixir" }
@@ -879,17 +739,19 @@
 			}]
 			x: 9.0d
 			y: 7.2d
-			rewards: [{
-				count: 1
-				id: "33B8A1A8F959567C"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["28CF75BB46B75616"]
 			id: "09E26B54D7355DE0"
+			rewards: [{
+				id: "4A8FEA4EC045596E"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "3884774EB5731D1D"
 				item: { count: 1, id: "irons_spellbooks:greater_healing_potion" }
@@ -897,13 +759,6 @@
 			}]
 			x: 11.0d
 			y: 5.6d
-			rewards: [{
-				count: 1
-				id: "4A8FEA4EC045596E"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["619E60387DC202AD"]
@@ -926,6 +781,15 @@
 		{
 			dependencies: ["35E6404B7ABD257A"]
 			id: "31762B3FF40814C2"
+			rewards: [{
+				id: "4D840A7AF2245518"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "69B3BA0E26182C53"
 				structure: "irons_spellbooks:ancient_battleground"
@@ -933,17 +797,19 @@
 			}]
 			x: 3.0d
 			y: 4.0d
-			rewards: [{
-				count: 1
-				id: "4D840A7AF2245518"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["31762B3FF40814C2"]
 			id: "3B52675F0BFBB74C"
+			rewards: [{
+				id: "1FB8153F87ED8C02"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			tasks: [{
 				entity: "irons_spellbooks:citadel_keeper"
 				id: "434DDD1651B73E6E"
@@ -952,13 +818,6 @@
 			}]
 			x: 5.0d
 			y: 5.6d
-			rewards: [{
-				count: 1
-				id: "1FB8153F87ED8C02"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 2
-				type: "item"
-			}]
 		}
 		{
 			id: "2E30F446C2E7B9B8"
@@ -994,40 +853,35 @@
 		{
 			dependencies: ["2A2B1C7AA042DD8C"]
 			id: "5925CDB7C3DED2F8"
+			rewards: [{
+				id: "494D0872381AD120"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "6ECC121E25A5ACAD"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:echoing_strikes"
-								index: 0
-								level: 5
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:amethyst_rapier"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:echoing_strikes", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:amethyst_rapier" }
 				type: "item"
 			}]
 			x: -1.0d
 			y: 0.8d
-			rewards: [{
-				count: 1
-				id: "494D0872381AD120"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["604330BFCBF3E6E5"]
 			id: "7FD2757B52219527"
+			rewards: [{
+				id: "3389D62C78E7EC8C"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "2473C64925ED658E"
 				item: { count: 1, id: "irons_spellbooks:portal_frame" }
@@ -1035,17 +889,19 @@
 			}]
 			x: 3.0d
 			y: 7.2d
-			rewards: [{
-				count: 1
-				id: "3389D62C78E7EC8C"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["47D5460052C9075E"]
 			id: "35E6404B7ABD257A"
+			rewards: [{
+				id: "11B53889BCF75D50"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1055,13 +911,6 @@
 			}]
 			x: 1.0d
 			y: 2.4d
-			rewards: [{
-				count: 1
-				id: "11B53889BCF75D50"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["35E6404B7ABD257A"]
@@ -1077,6 +926,15 @@
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "4ABD54CF90945DB4"
+			rewards: [{
+				id: "66E4C3B3C4BD1F80"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "75F4CA30612C591C"
 				item: { count: 1, id: "irons_spellbooks:cooldown_ring" }
@@ -1084,17 +942,19 @@
 			}]
 			x: 7.0d
 			y: 2.4d
-			rewards: [{
-				count: 1
-				id: "66E4C3B3C4BD1F80"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "1C97351EB6462785"
+			rewards: [{
+				id: "01A32EF1626351BB"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "62C790F4DC069E23"
 				item: { count: 1, id: "irons_spellbooks:cast_time_ring" }
@@ -1102,17 +962,19 @@
 			}]
 			x: 5.0d
 			y: 4.0d
-			rewards: [{
-				count: 1
-				id: "01A32EF1626351BB"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "5F350D671122B35E"
+			rewards: [{
+				id: "7E0EF10FF27E7761"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "29F0B36D84CCC407"
 				item: { count: 1, id: "irons_spellbooks:affinity_ring" }
@@ -1120,17 +982,19 @@
 			}]
 			x: 9.0d
 			y: 5.6d
-			rewards: [{
-				count: 1
-				id: "7E0EF10FF27E7761"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "6B89604387EC4F3D"
+			rewards: [{
+				id: "06AF8E4108FC1DB7"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "55A53F4F435FCFF5"
 				item: { count: 1, id: "irons_spellbooks:expulsion_ring" }
@@ -1138,17 +1002,19 @@
 			}]
 			x: 7.0d
 			y: 0.8d
-			rewards: [{
-				count: 1
-				id: "06AF8E4108FC1DB7"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "18EA77D4FE2A7ED8"
+			rewards: [{
+				id: "50F4CF327EED8E76"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F13596C4C1A21EF"
 				item: { count: 1, id: "irons_spellbooks:visibility_ring" }
@@ -1156,17 +1022,19 @@
 			}]
 			x: 5.0d
 			y: 2.4d
-			rewards: [{
-				count: 1
-				id: "50F4CF327EED8E76"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "5B16B578CC697BCE"
+			rewards: [{
+				id: "5F7794720A19DEAC"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "107E631219187511"
 				item: { count: 1, id: "irons_spellbooks:emerald_stoneplate_ring" }
@@ -1174,17 +1042,19 @@
 			}]
 			x: 9.0d
 			y: 4.0d
-			rewards: [{
-				count: 1
-				id: "5F7794720A19DEAC"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["188395E73A18E2D2"]
 			id: "07540AFB82511BD0"
+			rewards: [{
+				id: "614CD6475BA9468B"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "24376728A97FDC4B"
 				item: { count: 1, id: "irons_spellbooks:fireward_ring" }
@@ -1192,17 +1062,19 @@
 			}]
 			x: 5.0d
 			y: 7.2d
-			rewards: [{
-				count: 1
-				id: "614CD6475BA9468B"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "07D0F4B51DC6A59F"
+			rewards: [{
+				id: "37662E5BFD42CBF8"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "646B35E06AE46876"
 				item: { count: 1, id: "irons_spellbooks:poisonward_ring" }
@@ -1210,17 +1082,19 @@
 			}]
 			x: 7.0d
 			y: 5.6d
-			rewards: [{
-				count: 1
-				id: "37662E5BFD42CBF8"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "5B52F8FCFF692B78"
+			rewards: [{
+				id: "20C5E6561E2E8B1B"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "18B9D01A166D0FCE"
 				item: { count: 1, id: "irons_spellbooks:heavy_chain_necklace" }
@@ -1228,17 +1102,19 @@
 			}]
 			x: 9.0d
 			y: 2.4d
-			rewards: [{
-				count: 1
-				id: "20C5E6561E2E8B1B"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "230308CD365396D6"
+			rewards: [{
+				id: "40838BF3FC520FDE"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "35F395EE9BB22B7F"
 				item: { count: 1, id: "irons_spellbooks:conjurers_talisman" }
@@ -1246,17 +1122,19 @@
 			}]
 			x: 9.0d
 			y: 0.8d
-			rewards: [{
-				count: 1
-				id: "40838BF3FC520FDE"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
 			id: "7195E352119B893E"
+			rewards: [{
+				id: "480A7877E7B5D71C"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "13DF5F5E3A7BA28C"
 				item: { count: 1, id: "irons_spellbooks:concentration_amulet" }
@@ -1264,13 +1142,6 @@
 			}]
 			x: 5.0d
 			y: 0.8d
-			rewards: [{
-				count: 1
-				id: "480A7877E7B5D71C"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["191F435488BD2758"]
@@ -1284,7 +1155,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["102263463081F75B" "34EDB874318340F6"]
+			dependencies: [
+				"102263463081F75B"
+				"34EDB874318340F6"
+			]
 			id: "3BACCC6A2CAA9818"
 			tasks: [{
 				id: "4FA9E290734A78BE"
@@ -1297,6 +1171,15 @@
 		{
 			dependencies: ["35E6404B7ABD257A"]
 			id: "604330BFCBF3E6E5"
+			rewards: [{
+				id: "3E937141B032B1E1"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1306,13 +1189,6 @@
 			}]
 			x: 3.0d
 			y: 5.6d
-			rewards: [{
-				count: 1
-				id: "3E937141B032B1E1"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -1361,6 +1237,15 @@
 		{
 			dependencies: ["4594A8C1E81F7D37"]
 			id: "569AAE39DE56597A"
+			rewards: [{
+				id: "53488F820E532388"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1370,13 +1255,6 @@
 			}]
 			x: -9.0d
 			y: -8.8d
-			rewards: [{
-				count: 1
-				id: "53488F820E532388"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -1427,23 +1305,7 @@
 			id: "4F2727A61958C7CB"
 			tasks: [{
 				id: "5E437D91597222EB"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:blaze_storm"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:blaze_storm", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -1454,23 +1316,7 @@
 			id: "565A82F5628F3940"
 			tasks: [{
 				id: "1E00ECD762BFF2E4"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:cone_of_cold"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:cone_of_cold", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -1481,23 +1327,7 @@
 			id: "4EAE523B94BD0E17"
 			tasks: [{
 				id: "43FC83B1F72116DD"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:acid_orb"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:acid_orb", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -17.0d
@@ -1508,23 +1338,7 @@
 			id: "578D180F2DD79D7B"
 			tasks: [{
 				id: "195AD9CF4ED0F588"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:fang_strike"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:fang_strike", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -15.0d
@@ -1535,23 +1349,7 @@
 			id: "3BE1A07D7DCA6C81"
 			tasks: [{
 				id: "6A8542A2416F4CBA"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:heartstop"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:heartstop", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -15.0d
@@ -1562,23 +1360,7 @@
 			id: "2F5C45CE820FBB48"
 			tasks: [{
 				id: "6E290B37722B8F7C"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:blessing_of_life"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:blessing_of_life", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -11.0d
@@ -1589,23 +1371,7 @@
 			id: "1B90497496F0CBA0"
 			tasks: [{
 				id: "17E0B78DC94D5FD3"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:dragon_breath"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:dragon_breath", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -15.0d
@@ -1616,23 +1382,7 @@
 			id: "1E3FC9FC0023F9A6"
 			tasks: [{
 				id: "67E4EF10D7F35C1B"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:electrocute"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 0b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:scroll"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:electrocute", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
 				type: "item"
 			}]
 			x: -13.0d
@@ -1641,40 +1391,35 @@
 		{
 			dependencies: ["604330BFCBF3E6E5"]
 			id: "2A2B1C7AA042DD8C"
+			rewards: [{
+				id: "694AD73478B5559D"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [{
 				id: "393D45F9E878F2E1"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [{
-								id: "irons_spellbooks:counterspell"
-								index: 0
-								level: 1
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:spellbreaker"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
 				type: "item"
 			}]
 			x: 1.0d
 			y: 4.0d
-			rewards: [{
-				count: 1
-				id: "694AD73478B5559D"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["604330BFCBF3E6E5"]
 			id: "40EF421A1673BED6"
+			rewards: [{
+				id: "53C7442EB123FC33"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1684,13 +1429,6 @@
 			}]
 			x: 7.0d
 			y: 4.0d
-			rewards: [{
-				count: 1
-				id: "53C7442EB123FC33"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 2
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["191F435488BD2758"]
@@ -1709,18 +1447,7 @@
 			id: "4C185C574ADE6333"
 			tasks: [{
 				id: "17F52746947C5397"
-				item: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [ ]
-							maxSpells: 10
-							mustEquip: 1b
-							spellWheel: 1b
-						}
-					}
-					count: 1
-					id: "irons_spellbooks:villager_spell_book"
-				}
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:villager_spell_book" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -1732,46 +1459,7 @@
 			tasks: [
 				{
 					id: "744E082AC188FFA3"
-					item: {
-						components: {
-							"irons_spellbooks:affinity_data": {
-								bonuses: { "irons_spellbooks:raise_dead": 2 }
-							}
-							"irons_spellbooks:spell_container": {
-								data: [
-									{
-										id: "irons_spellbooks:blood_slash"
-										index: 0
-										level: 5
-										locked: 1b
-									}
-									{
-										id: "irons_spellbooks:blood_step"
-										index: 1
-										level: 5
-										locked: 1b
-									}
-									{
-										id: "irons_spellbooks:ray_of_siphoning"
-										index: 2
-										level: 5
-										locked: 1b
-									}
-									{
-										id: "irons_spellbooks:blaze_storm"
-										index: 3
-										level: 5
-										locked: 1b
-									}
-								]
-								maxSpells: 10
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-						}
-						count: 1
-						id: "irons_spellbooks:necronomicon_spell_book"
-					}
+					item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:raise_dead": 2 } }, "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:blood_slash", index: 0, level: 5, locked: 1b }, { id: "irons_spellbooks:blood_step", index: 1, level: 5, locked: 1b }, { id: "irons_spellbooks:ray_of_siphoning", index: 2, level: 5, locked: 1b }, { id: "irons_spellbooks:blaze_storm", index: 3, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:necronomicon_spell_book" }
 					type: "item"
 				}
 				{

@@ -2,17 +2,21 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "relics"
-	group: "56A66C57DE55E953"
+	group: ""
 	icon: {
 		components: {
 			"relics:data": {
 				abilities: {
 					abilities: {
 						rewind: {
-							lock: { breaks: 5 }
+							lock: {
+								breaks: 5
+							}
 							points: 0
 							stats: {
-								time: { initialQuality: 1 }
+								time: {
+									initialQuality: 1
+								}
 							}
 						}
 					}
@@ -26,7 +30,7 @@
 	}
 	id: "775FD9662F4BD788"
 	images: [ ]
-	order_index: 2
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
@@ -35,7 +39,10 @@
 				{
 					count: 2
 					id: "38539ED78E9EC036"
-					item: { count: 1, id: "aquaculture:jellyfish" }
+					item: {
+						count: 1
+						id: "aquaculture:jellyfish"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -47,45 +54,7 @@
 			]
 			tasks: [{
 				id: "2D014CA573D943E4"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									regeneration: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											max_health: { initialQuality: 9 }
-											regeneration: { }
-										}
-									}
-									shock: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											bounces: { initialQuality: 6 }
-											cooldown: { initialQuality: 6 }
-											damage: { initialQuality: 3 }
-											damage_modifier: { initialQuality: 7 }
-											distance: { initialQuality: 5 }
-											duration: { initialQuality: 8 }
-											knockback: { initialQuality: 10 }
-											paralysis: { initialQuality: 9 }
-											radius: { initialQuality: 7 }
-											rings: { initialQuality: 8 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "relics:jellyfish_necklace"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { regeneration: { lock: { breaks: 5 }, points: 0, stats: { max_health: { initialQuality: 9 }, regeneration: { } } }, shock: { lock: { breaks: 5 }, points: 0, stats: { bounces: { initialQuality: 6 }, cooldown: { initialQuality: 6 }, damage: { initialQuality: 3 }, damage_modifier: { initialQuality: 7 }, distance: { initialQuality: 5 }, duration: { initialQuality: 8 }, knockback: { initialQuality: 10 }, paralysis: { initialQuality: 9 }, radius: { initialQuality: 7 }, rings: { initialQuality: 8 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:jellyfish_necklace" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -112,7 +81,10 @@
 				{
 					count: 2
 					id: "37E320181435F2FE"
-					item: { count: 1, id: "minecraft:slime_ball" }
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -124,32 +96,7 @@
 			]
 			tasks: [{
 				id: "27614A2BE02A9C66"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									bounce: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											damage: { initialQuality: 1 }
-											damage_modifier: { initialQuality: 1 }
-											power: { initialQuality: 1 }
-											radius: { initialQuality: 8 }
-											stun: { initialQuality: 3 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "relics:springy_boot"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { bounce: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 1 }, damage_modifier: { initialQuality: 1 }, power: { initialQuality: 1 }, radius: { initialQuality: 8 }, stun: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:springy_boot" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -162,7 +109,9 @@
 					id: "5E99B50B47A12ADB"
 					item: {
 						components: {
-							"minecraft:potion_contents": { potion: "ars_nouveau:mana_regen_potion_long" }
+							"minecraft:potion_contents": {
+								potion: "ars_nouveau:mana_regen_potion_long"
+							}
 						}
 						count: 1
 						id: "minecraft:potion"
@@ -177,32 +126,7 @@
 			]
 			tasks: [{
 				id: "171D0C057FB8EF73"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									absorption: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											chain_damage_reduction: { initialQuality: 10 }
-											distribution_radius: { initialQuality: 7 }
-											healing_conversion: { initialQuality: 6 }
-											mana_per_damage: { initialQuality: 4 }
-											reflect_window: { initialQuality: 1 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:cloak_of_concealment"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { absorption: { lock: { breaks: 5 }, points: 0, stats: { chain_damage_reduction: { initialQuality: 10 }, distribution_radius: { initialQuality: 7 }, healing_conversion: { initialQuality: 6 }, mana_per_damage: { initialQuality: 4 }, reflect_window: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:cloak_of_concealment" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -241,32 +165,7 @@
 			]
 			tasks: [{
 				id: "65B8BE3F3E21202E"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									pyroclastic: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											fire_damage_bonus: { initialQuality: 10 }
-											fire_regeneration: { initialQuality: 2 }
-											magic_fire_damage: { initialQuality: 1 }
-											paralysis_chance: { initialQuality: 10 }
-											paralysis_duration: { initialQuality: 2 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:flaming_bracer"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { pyroclastic: { lock: { breaks: 5 }, points: 0, stats: { fire_damage_bonus: { initialQuality: 10 }, fire_regeneration: { initialQuality: 2 }, magic_fire_damage: { initialQuality: 1 }, paralysis_chance: { initialQuality: 10 }, paralysis_duration: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:flaming_bracer" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -278,7 +177,10 @@
 				{
 					count: 2
 					id: "54EA533C08BDC8DC"
-					item: { count: 1, id: "endermanoverhaul:bubble_pearl" }
+					item: {
+						count: 1
+						id: "endermanoverhaul:bubble_pearl"
+					}
 					type: "item"
 				}
 				{
@@ -289,32 +191,7 @@
 			]
 			tasks: [{
 				id: "44C4ECFA29DB4F48"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									stasis: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											blinding_duration: { initialQuality: 8 }
-											blinding_radius: { initialQuality: 10 }
-											charge_regen_time: { initialQuality: 8 }
-											max_charges: { initialQuality: 5 }
-											protection_radius: { initialQuality: 10 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:quantum_bubble"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { stasis: { lock: { breaks: 5 }, points: 0, stats: { blinding_duration: { initialQuality: 8 }, blinding_radius: { initialQuality: 10 }, charge_regen_time: { initialQuality: 8 }, max_charges: { initialQuality: 5 }, protection_radius: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:quantum_bubble" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -325,7 +202,10 @@
 			rewards: [
 				{
 					id: "66B277822BB2C629"
-					item: { count: 1, id: "mekanismtools:refined_glowstone_shield" }
+					item: {
+						count: 1
+						id: "mekanismtools:refined_glowstone_shield"
+					}
 					type: "item"
 				}
 				{
@@ -336,50 +216,7 @@
 			]
 			tasks: [{
 				id: "4BC46C2A338CA457"
-				item: {
-					components: {
-						"ars_nouveau:spell_caster": {
-							spells: {
-								0: {
-									color: {
-										b: 180
-										g: 25
-										id: "ars_nouveau:constant"
-										r: 255
-									}
-									name: ""
-									particleTimeline: { }
-									recipe: [ ]
-									sound: { }
-								}
-							}
-						}
-						"relics:data": {
-							abilities: {
-								abilities: {
-									sentinel: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											max_glyphs: { initialQuality: 1 }
-											propagation_chance: { initialQuality: 7 }
-											propagation_radius: { initialQuality: 9 }
-											propagation_targets: { initialQuality: 7 }
-											resistance_duration: { initialQuality: 6 }
-											resistance_reduction: { initialQuality: 9 }
-											trigger_chance: { initialQuality: 4 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:emblem_of_defense"
-				}
+				item: { components: { "ars_nouveau:spell_caster": { spells: { 0: { color: { b: 180, g: 25, id: "ars_nouveau:constant", r: 255 }, name: "", particleTimeline: { }, recipe: [ ], sound: { } } } }, "relics:data": { abilities: { abilities: { sentinel: { lock: { breaks: 5 }, points: 0, stats: { max_glyphs: { initialQuality: 1 }, propagation_chance: { initialQuality: 7 }, propagation_radius: { initialQuality: 9 }, propagation_targets: { initialQuality: 7 }, resistance_duration: { initialQuality: 6 }, resistance_reduction: { initialQuality: 9 }, trigger_chance: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:emblem_of_defense" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -392,7 +229,9 @@
 					id: "2D53EE7852741FCC"
 					item: {
 						components: {
-							"minecraft:potion_contents": { potion: "ars_nouveau:mana_regen_potion_long" }
+							"minecraft:potion_contents": {
+								potion: "ars_nouveau:mana_regen_potion_long"
+							}
 						}
 						count: 1
 						id: "minecraft:potion"
@@ -407,31 +246,7 @@
 			]
 			tasks: [{
 				id: "03B745F78BB150EA"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									resonance: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											debt_cost_increase: { initialQuality: 2 }
-											mana_per_health: { initialQuality: 2 }
-											mana_regen_bonus: { initialQuality: 1 }
-											max_mana_bonus: { initialQuality: 9 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:mana_ring"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { resonance: { lock: { breaks: 5 }, points: 0, stats: { debt_cost_increase: { initialQuality: 2 }, mana_per_health: { initialQuality: 2 }, mana_regen_bonus: { initialQuality: 1 }, max_mana_bonus: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:mana_ring" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -445,7 +260,9 @@
 					item: {
 						components: {
 							"minecraft:stored_enchantments": {
-								levels: { "minecraft:infinity": 1 }
+								levels: {
+									"minecraft:infinity": 1
+								}
 							}
 						}
 						count: 1
@@ -461,34 +278,7 @@
 			]
 			tasks: [{
 				id: "6AC809F6F6D57392"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									thrift: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											combo_duration: { initialQuality: 7 }
-											combo_max_stacks: { initialQuality: 4 }
-											combo_regen_bonus_per_cast: { initialQuality: 6 }
-											free_cast_chance: { initialQuality: 6 }
-											mana_cost_reduction: { initialQuality: 7 }
-											refund_delay: { initialQuality: 10 }
-											refund_percent: { initialQuality: 6 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:ring_of_thrift"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { thrift: { lock: { breaks: 5 }, points: 0, stats: { combo_duration: { initialQuality: 7 }, combo_max_stacks: { initialQuality: 4 }, combo_regen_bonus_per_cast: { initialQuality: 6 }, free_cast_chance: { initialQuality: 6 }, mana_cost_reduction: { initialQuality: 7 }, refund_delay: { initialQuality: 10 }, refund_percent: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:ring_of_thrift" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -499,7 +289,10 @@
 			rewards: [
 				{
 					id: "79DE7262CA949F3E"
-					item: { count: 1, id: "friendsandfoes:totem_of_illusion" }
+					item: {
+						count: 1
+						id: "friendsandfoes:totem_of_illusion"
+					}
 					type: "item"
 				}
 				{
@@ -510,33 +303,7 @@
 			]
 			tasks: [{
 				id: "45F70D6208902EEF"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									multicasted: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											failed_multicast_bonus: { initialQuality: 3 }
-											mana_refund_chance: { initialQuality: 3 }
-											mana_refund_percent: { initialQuality: 4 }
-											max_multicasts: { initialQuality: 1 }
-											multicast_chance: { initialQuality: 4 }
-											multicast_damage_reduction: { initialQuality: 7 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:archmage_glove"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { multicasted: { lock: { breaks: 5 }, points: 0, stats: { failed_multicast_bonus: { initialQuality: 3 }, mana_refund_chance: { initialQuality: 3 }, mana_refund_percent: { initialQuality: 4 }, max_multicasts: { initialQuality: 1 }, multicast_chance: { initialQuality: 4 }, multicast_damage_reduction: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:archmage_glove" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -547,7 +314,10 @@
 			rewards: [
 				{
 					id: "481D15A8AD5C58F4"
-					item: { count: 1, id: "ars_nouveau:whirlisprig_shards" }
+					item: {
+						count: 1
+						id: "ars_nouveau:whirlisprig_shards"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -559,31 +329,7 @@
 			]
 			tasks: [{
 				id: "61DC2FDB18DE23D4"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									petal_lift: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											charge_regen_time: { initialQuality: 7 }
-											lift_speed: { initialQuality: 9 }
-											max_charges: { initialQuality: 3 }
-											ranged_bonus_damage: { initialQuality: 4 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:whirlisprig_petals"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { petal_lift: { lock: { breaks: 5 }, points: 0, stats: { charge_regen_time: { initialQuality: 7 }, lift_speed: { initialQuality: 9 }, max_charges: { initialQuality: 3 }, ranged_bonus_damage: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:whirlisprig_petals" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -595,7 +341,10 @@
 				{
 					count: 6
 					id: "0C159389F7225A73"
-					item: { count: 1, id: "ars_nouveau:wilden_spike" }
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_spike"
+					}
 					random_bonus: 4
 					type: "item"
 				}
@@ -607,37 +356,7 @@
 			]
 			tasks: [{
 				id: "33AEA0DDA0796CE0"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									thorn_burst: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											bleeding_duration: { initialQuality: 8 }
-											bleeding_level: { initialQuality: 4 }
-											chain_chance: { initialQuality: 10 }
-											chain_max_spikes: { initialQuality: 7 }
-											damage_threshold_fraction: { initialQuality: 5 }
-											max_spikes: { initialQuality: 8 }
-											resistance_bonus: { initialQuality: 10 }
-											resistance_duration: { initialQuality: 8 }
-											spike_damage: { }
-											trigger_chance: { initialQuality: 3 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:spiked_cloak"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { thorn_burst: { lock: { breaks: 5 }, points: 0, stats: { bleeding_duration: { initialQuality: 8 }, bleeding_level: { initialQuality: 4 }, chain_chance: { initialQuality: 10 }, chain_max_spikes: { initialQuality: 7 }, damage_threshold_fraction: { initialQuality: 5 }, max_spikes: { initialQuality: 8 }, resistance_bonus: { initialQuality: 10 }, resistance_duration: { initialQuality: 8 }, spike_damage: { }, trigger_chance: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:spiked_cloak" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -649,7 +368,10 @@
 				{
 					count: 6
 					id: "042CA710C53F6851"
-					item: { count: 1, id: "ars_nouveau:wilden_horn" }
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_horn"
+					}
 					random_bonus: 4
 					type: "item"
 				}
@@ -661,36 +383,7 @@
 			]
 			tasks: [{
 				id: "1C286AB8D5CA7743"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									summoner: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											bleeding_duration: { initialQuality: 2 }
-											bleeding_level: { }
-											bone_drop_chance: { initialQuality: 2 }
-											bone_drop_max: { initialQuality: 7 }
-											extra_wolf_cap: { initialQuality: 10 }
-											extra_wolf_chance: { initialQuality: 2 }
-											extra_wolf_lifetime: { initialQuality: 2 }
-											max_wolves: { initialQuality: 10 }
-											wolf_damage: { initialQuality: 1 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:horn_of_the_wild_hunter"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { summoner: { lock: { breaks: 5 }, points: 0, stats: { bleeding_duration: { initialQuality: 2 }, bleeding_level: { }, bone_drop_chance: { initialQuality: 2 }, bone_drop_max: { initialQuality: 7 }, extra_wolf_cap: { initialQuality: 10 }, extra_wolf_chance: { initialQuality: 2 }, extra_wolf_lifetime: { initialQuality: 2 }, max_wolves: { initialQuality: 10 }, wolf_damage: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:horn_of_the_wild_hunter" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -702,7 +395,10 @@
 				{
 					count: 6
 					id: "485C30BD5B26A8F0"
-					item: { count: 1, id: "ars_nouveau:wilden_wing" }
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_wing"
+					}
 					random_bonus: 4
 					type: "item"
 				}
@@ -714,32 +410,7 @@
 			]
 			tasks: [{
 				id: "26E2B30728245FD0"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									wild_flight: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											dash_cooldown: { }
-											dash_strength: { initialQuality: 9 }
-											flight_attack_bonus: { initialQuality: 9 }
-											flight_damage_reduction: { initialQuality: 10 }
-											flight_duration: { }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:wing_of_the_wild_stalker"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { wild_flight: { lock: { breaks: 5 }, points: 0, stats: { dash_cooldown: { }, dash_strength: { initialQuality: 9 }, flight_attack_bonus: { initialQuality: 9 }, flight_damage_reduction: { initialQuality: 10 }, flight_duration: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:wing_of_the_wild_stalker" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -751,7 +422,10 @@
 				{
 					count: 4
 					id: "39291D92F17C95DC"
-					item: { count: 1, id: "ars_nouveau:whirlisprig_shards" }
+					item: {
+						count: 1
+						id: "ars_nouveau:whirlisprig_shards"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -763,35 +437,7 @@
 			]
 			tasks: [{
 				id: "5299022B3256DA37"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									broom: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											broom_health: { initialQuality: 6 }
-											damage_reduction: { }
-											health_regen_interval: { initialQuality: 2 }
-											max_height: { initialQuality: 5 }
-											revive_cooldown: { initialQuality: 4 }
-											speed: { initialQuality: 7 }
-											sprint_mana_per_second: { initialQuality: 3 }
-											sprint_speed_bonus: { initialQuality: 4 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:whirling_broom"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { broom: { lock: { breaks: 5 }, points: 0, stats: { broom_health: { initialQuality: 6 }, damage_reduction: { }, health_regen_interval: { initialQuality: 2 }, max_height: { initialQuality: 5 }, revive_cooldown: { initialQuality: 4 }, speed: { initialQuality: 7 }, sprint_mana_per_second: { initialQuality: 3 }, sprint_speed_bonus: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:whirling_broom" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -802,7 +448,10 @@
 			rewards: [
 				{
 					id: "478CD8207E168513"
-					item: { count: 1, id: "friendsandfoes:totem_of_illusion" }
+					item: {
+						count: 1
+						id: "friendsandfoes:totem_of_illusion"
+					}
 					type: "item"
 				}
 				{
@@ -813,32 +462,7 @@
 			]
 			tasks: [{
 				id: "1F4BFA394F45A5D7"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									deception: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											damage_reduction_per_illusion: { initialQuality: 2 }
-											illusion_duration: { initialQuality: 9 }
-											illusion_radius: { initialQuality: 7 }
-											paralysis_duration: { initialQuality: 7 }
-											trigger_chance: { initialQuality: 10 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:illusionists_mantle"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { deception: { lock: { breaks: 5 }, points: 0, stats: { damage_reduction_per_illusion: { initialQuality: 2 }, illusion_duration: { initialQuality: 9 }, illusion_radius: { initialQuality: 7 }, paralysis_duration: { initialQuality: 7 }, trigger_chance: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:illusionists_mantle" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -850,7 +474,10 @@
 				{
 					count: 4
 					id: "4A11BA5F702D9075"
-					item: { count: 1, id: "ars_nouveau:source_gem" }
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
 					type: "item"
 				}
 				{
@@ -861,34 +488,7 @@
 			]
 			tasks: [{
 				id: "69116A31508C6512"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									bridgecraft: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											bridge_duration: { initialQuality: 3 }
-											charge_regen_time: { initialQuality: 10 }
-											disappearance_action_lock_time: { initialQuality: 5 }
-											healing_bonus: { initialQuality: 4 }
-											max_bridge_length: { initialQuality: 4 }
-											max_charges: { initialQuality: 6 }
-											projectile_damage_bonus: { initialQuality: 9 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:architects_staff"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { bridgecraft: { lock: { breaks: 5 }, points: 0, stats: { bridge_duration: { initialQuality: 3 }, charge_regen_time: { initialQuality: 10 }, disappearance_action_lock_time: { initialQuality: 5 }, healing_bonus: { initialQuality: 4 }, max_bridge_length: { initialQuality: 4 }, max_charges: { initialQuality: 6 }, projectile_damage_bonus: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:architects_staff" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -903,36 +503,7 @@
 			}]
 			tasks: [{
 				id: "61AA512DD4714EF0"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									devotion: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											absorption_cap: { initialQuality: 8 }
-											absorption_hearts: { initialQuality: 6 }
-											max_glyphs: { initialQuality: 6 }
-											max_orbs: { initialQuality: 1 }
-											preservation_chance: { initialQuality: 4 }
-											propagation_chance: { initialQuality: 1 }
-											propagation_radius: { initialQuality: 4 }
-											propagation_targets: { initialQuality: 1 }
-											spawn_interval: { }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:emblem_of_devotion"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { devotion: { lock: { breaks: 5 }, points: 0, stats: { absorption_cap: { initialQuality: 8 }, absorption_hearts: { initialQuality: 6 }, max_glyphs: { initialQuality: 6 }, max_orbs: { initialQuality: 1 }, preservation_chance: { initialQuality: 4 }, propagation_chance: { initialQuality: 1 }, propagation_radius: { initialQuality: 4 }, propagation_targets: { initialQuality: 1 }, spawn_interval: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:emblem_of_devotion" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -946,7 +517,9 @@
 					item: {
 						components: {
 							"minecraft:enchantments": {
-								levels: { "minecraft:power": 4 }
+								levels: {
+									"minecraft:power": 4
+								}
 							}
 							"minecraft:repair_cost": 1
 						}
@@ -963,35 +536,7 @@
 			]
 			tasks: [{
 				id: "4D7CCB3A24D8202D"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									ballistary: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											absorption_on_kill: { initialQuality: 7 }
-											duplication_chance: { initialQuality: 6 }
-											duplication_radius: { initialQuality: 1 }
-											max_absorption: { initialQuality: 3 }
-											projectile_count: { }
-											projectile_damage: { initialQuality: 7 }
-											stun_duration: { initialQuality: 6 }
-											trigger_chance: { }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_ars_nouveau:ballistarian_bracer"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { ballistary: { lock: { breaks: 5 }, points: 0, stats: { absorption_on_kill: { initialQuality: 7 }, duplication_chance: { initialQuality: 6 }, duplication_radius: { initialQuality: 1 }, max_absorption: { initialQuality: 3 }, projectile_count: { }, projectile_damage: { initialQuality: 7 }, stun_duration: { initialQuality: 6 }, trigger_chance: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:ballistarian_bracer" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -1003,7 +548,10 @@
 				{
 					count: 8
 					id: "1923C20C781C2817"
-					item: { count: 1, id: "twilightforest:steeleaf_ingot" }
+					item: {
+						count: 1
+						id: "twilightforest:steeleaf_ingot"
+					}
 					type: "item"
 				}
 				{
@@ -1014,40 +562,7 @@
 			]
 			tasks: [{
 				id: "513A8F1671C0A95B"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									camouflage: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											absorption: { initialQuality: 4 }
-											cooldown: { initialQuality: 1 }
-											heal: { initialQuality: 6 }
-										}
-									}
-									revival: {
-										lock: { breaks: 0 }
-										points: 0
-										stats: {
-											damage: { initialQuality: 3 }
-											heal: { initialQuality: 9 }
-											paralysis: { initialQuality: 1 }
-											radius: { initialQuality: 8 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "relics:leafy_mantle"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { camouflage: { lock: { breaks: 5 }, points: 0, stats: { absorption: { initialQuality: 4 }, cooldown: { initialQuality: 1 }, heal: { initialQuality: 6 } } }, revival: { lock: { breaks: 0 }, points: 0, stats: { damage: { initialQuality: 3 }, heal: { initialQuality: 9 }, paralysis: { initialQuality: 1 }, radius: { initialQuality: 8 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:leafy_mantle" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -1060,7 +575,9 @@
 					id: "262DEE32932E2A06"
 					item: {
 						components: {
-							"minecraft:potion_contents": { potion: "minecraft:long_slow_falling" }
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_slow_falling"
+							}
 						}
 						count: 1
 						id: "minecraft:potion"
@@ -1075,41 +592,7 @@
 			]
 			tasks: [{
 				id: "09D57ACA8218A7D6"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									gliding: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											damage: { initialQuality: 8 }
-											efficiency: { initialQuality: 2 }
-											resistance: { initialQuality: 7 }
-										}
-									}
-									slots: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											amount: { initialQuality: 9 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 381.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:kinetic_belt"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { gliding: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 8 }, efficiency: { initialQuality: 2 }, resistance: { initialQuality: 7 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 381.0d } } } } }, count: 1, id: "relics:kinetic_belt" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -1124,37 +607,7 @@
 			}]
 			tasks: [{
 				id: "719141FCCC98A908"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									reflection: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											bounces: { initialQuality: 4 }
-											chance: { initialQuality: 3 }
-											damage: { initialQuality: 2 }
-											lifetime: { initialQuality: 7 }
-											piercings: { initialQuality: 9 }
-											stun: { initialQuality: 2 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 385.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:reflective_necklace"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { reflection: { lock: { breaks: 5 }, points: 0, stats: { bounces: { initialQuality: 4 }, chance: { initialQuality: 3 }, damage: { initialQuality: 2 }, lifetime: { initialQuality: 7 }, piercings: { initialQuality: 9 }, stun: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 385.0d } } } } }, count: 1, id: "relics:reflective_necklace" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1167,7 +620,9 @@
 					id: "61B51BFB765B769C"
 					item: {
 						components: {
-							"minecraft:potion_contents": { potion: "minecraft:strong_swiftness" }
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_swiftness"
+							}
 						}
 						count: 1
 						id: "minecraft:potion"
@@ -1182,70 +637,7 @@
 			]
 			tasks: [{
 				id: "47E4B6DCC96359EB"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									constellation: {
-										lock: { breaks: 0 }
-										points: 0
-										stats: {
-											constellation_radius: { }
-											explosion_damage: { initialQuality: 6 }
-											explosion_radius: { initialQuality: 7 }
-											star_chance: { initialQuality: 8 }
-											star_lifetime: { initialQuality: 5 }
-											stun_duration: { initialQuality: 10 }
-											tremor_duration: { initialQuality: 4 }
-										}
-									}
-									invisibility: {
-										lock: { breaks: 0 }
-										points: 0
-										stats: {
-											brightness: { initialQuality: 6 }
-											cooldown: { initialQuality: 7 }
-											damage: { initialQuality: 2 }
-										}
-									}
-									phase: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											attack_damage: { initialQuality: 1 }
-											attack_speed: { initialQuality: 6 }
-											duration: { initialQuality: 3 }
-											health_regeneration: { initialQuality: 1 }
-											max_health: { initialQuality: 7 }
-											modifier: { }
-										}
-									}
-									starfall: {
-										lock: { breaks: 0 }
-										points: 0
-										stats: {
-											bounce_chance: { initialQuality: 10 }
-											chance: { initialQuality: 10 }
-											damage: { initialQuality: 7 }
-											radius: { initialQuality: 10 }
-											stun: { initialQuality: 4 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 377.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:midnight_mantle"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { constellation: { lock: { breaks: 0 }, points: 0, stats: { constellation_radius: { }, explosion_damage: { initialQuality: 6 }, explosion_radius: { initialQuality: 7 }, star_chance: { initialQuality: 8 }, star_lifetime: { initialQuality: 5 }, stun_duration: { initialQuality: 10 }, tremor_duration: { initialQuality: 4 } } }, invisibility: { lock: { breaks: 0 }, points: 0, stats: { brightness: { initialQuality: 6 }, cooldown: { initialQuality: 7 }, damage: { initialQuality: 2 } } }, phase: { lock: { breaks: 5 }, points: 0, stats: { attack_damage: { initialQuality: 1 }, attack_speed: { initialQuality: 6 }, duration: { initialQuality: 3 }, health_regeneration: { initialQuality: 1 }, max_health: { initialQuality: 7 }, modifier: { } } }, starfall: { lock: { breaks: 0 }, points: 0, stats: { bounce_chance: { initialQuality: 10 }, chance: { initialQuality: 10 }, damage: { initialQuality: 7 }, radius: { initialQuality: 10 }, stun: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 377.0d } } } } }, count: 1, id: "relics:midnight_mantle" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -1257,7 +649,10 @@
 				{
 					count: 2
 					id: "5B14E2375AF657E4"
-					item: { count: 1, id: "minecraft:blue_ice" }
+					item: {
+						count: 1
+						id: "minecraft:blue_ice"
+					}
 					type: "item"
 				}
 				{
@@ -1268,36 +663,7 @@
 			]
 			tasks: [{
 				id: "08476EAD7411B81A"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									skating: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											damage: { initialQuality: 1 }
-											ignite: { initialQuality: 10 }
-											resistance: { initialQuality: 2 }
-											speed: { initialQuality: 6 }
-											step_height: { initialQuality: 2 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 376.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:roller_skate"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { skating: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 1 }, ignite: { initialQuality: 10 }, resistance: { initialQuality: 2 }, speed: { initialQuality: 6 }, step_height: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 376.0d } } } } }, count: 1, id: "relics:roller_skate" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -1309,13 +675,19 @@
 				{
 					count: 8
 					id: "1EF3BC6C74F2DBF4"
-					item: { count: 1, id: "minecraft:chorus_fruit" }
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
 					type: "item"
 				}
 				{
 					count: 2
 					id: "598D731727CA11EB"
-					item: { count: 1, id: "minecraft:ender_pearl" }
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1327,35 +699,7 @@
 			]
 			tasks: [{
 				id: "173A370E99D91A46"
-				item: {
-					components: {
-						"relics:chorus_staff/charge": 3
-						"relics:data": {
-							abilities: {
-								abilities: {
-									blink: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											cooldown: { initialQuality: 8 }
-											distance: { initialQuality: 10 }
-											max_charge: { initialQuality: 1 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 380.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:chorus_staff"
-				}
+				item: { components: { "relics:chorus_staff/charge": 3, "relics:data": { abilities: { abilities: { blink: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 8 }, distance: { initialQuality: 10 }, max_charge: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 380.0d } } } } }, count: 1, id: "relics:chorus_staff" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -1366,7 +710,10 @@
 			rewards: [
 				{
 					id: "5FEFE0BC4D64C035"
-					item: { count: 1, id: "gag:time_sand_pouch" }
+					item: {
+						count: 1
+						id: "gag:time_sand_pouch"
+					}
 					type: "item"
 				}
 				{
@@ -1377,32 +724,7 @@
 			]
 			tasks: [{
 				id: "6A9D11DB4D0A0525"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									rewind: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											time: { initialQuality: 7 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 376.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:clot_of_time"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { rewind: { lock: { breaks: 5 }, points: 0, stats: { time: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 376.0d } } } } }, count: 1, id: "relics:clot_of_time" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1413,7 +735,10 @@
 			rewards: [
 				{
 					id: "14ECAAE594372492"
-					item: { count: 1, id: "minecraft:gold_block" }
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1425,49 +750,7 @@
 			]
 			tasks: [{
 				id: "3D58DC3C31C9A9B6"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									barter: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											items_count: { initialQuality: 3 }
-											trades: { initialQuality: 2 }
-										}
-									}
-									looting: {
-										lock: { breaks: 0 }
-										points: 0
-										stats: {
-											attack_damage: { initialQuality: 8 }
-											attack_speed: { initialQuality: 3 }
-											chance: { initialQuality: 3 }
-											duration: { initialQuality: 5 }
-											health: { initialQuality: 9 }
-										}
-									}
-									neutrality: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: { }
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 381.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:piglin_mask"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { barter: { lock: { breaks: 5 }, points: 0, stats: { items_count: { initialQuality: 3 }, trades: { initialQuality: 2 } } }, looting: { lock: { breaks: 0 }, points: 0, stats: { attack_damage: { initialQuality: 8 }, attack_speed: { initialQuality: 3 }, chance: { initialQuality: 3 }, duration: { initialQuality: 5 }, health: { initialQuality: 9 } } }, neutrality: { lock: { breaks: 5 }, points: 0, stats: { } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 381.0d } } } } }, count: 1, id: "relics:piglin_mask" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -1479,7 +762,10 @@
 				{
 					count: 2
 					id: "70EA23C1E6B03567"
-					item: { count: 1, id: "farmersdelight:pasta_with_meatballs" }
+					item: {
+						count: 1
+						id: "farmersdelight:pasta_with_meatballs"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -1491,33 +777,7 @@
 			]
 			tasks: [{
 				id: "13AA7632AF70CD4D"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									satiety: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											chance: { initialQuality: 10 }
-											healing: { initialQuality: 2 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 386.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:chef_hat"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { satiety: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 10 }, healing: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 386.0d } } } } }, count: 1, id: "relics:chef_hat" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1532,34 +792,7 @@
 			}]
 			tasks: [{
 				id: "1B0965986C8C401B"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									glass: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											capacity: { initialQuality: 5 }
-											max_fluids: { initialQuality: 9 }
-											speed: { initialQuality: 3 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 393.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:cut_glass_boot"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { glass: { lock: { breaks: 5 }, points: 0, stats: { capacity: { initialQuality: 5 }, max_fluids: { initialQuality: 9 }, speed: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 393.0d } } } } }, count: 1, id: "relics:cut_glass_boot" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1570,7 +803,10 @@
 			rewards: [
 				{
 					id: "0F4B3FCDD8A444F6"
-					item: { count: 1, id: "minecraft:saddle" }
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
 					type: "item"
 				}
 				{
@@ -1581,34 +817,7 @@
 			]
 			tasks: [{
 				id: "6E8FEE1E1119F1C4"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									stable: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											heal: { initialQuality: 9 }
-											max_slots: { initialQuality: 10 }
-											resistance: { }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 393.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:rider_flute"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { stable: { lock: { breaks: 5 }, points: 0, stats: { heal: { initialQuality: 9 }, max_slots: { initialQuality: 10 }, resistance: { } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 393.0d } } } } }, count: 1, id: "relics:rider_flute" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -1622,7 +831,9 @@
 					id: "7A0F3BECCE7C2BBD"
 					item: {
 						components: {
-							"minecraft:potion_contents": { potion: "minecraft:strong_harming" }
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_harming"
+							}
 						}
 						count: 1
 						id: "minecraft:splash_potion"
@@ -1638,82 +849,7 @@
 			]
 			tasks: [{
 				id: "39A1355F057D14C1"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									envy: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											incoming_damage_multiplier: { }
-											outgoing_damage_multiplier: { initialQuality: 8 }
-										}
-									}
-									gluttony: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											early_multiplier: { initialQuality: 4 }
-											late_multiplier: { initialQuality: 5 }
-										}
-									}
-									greed: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											chance: { initialQuality: 9 }
-											looting: { initialQuality: 4 }
-											luck: { initialQuality: 1 }
-										}
-									}
-									lust: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											amount: { initialQuality: 1 }
-											time: { initialQuality: 4 }
-										}
-									}
-									pride: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											multiplier: { initialQuality: 1 }
-										}
-									}
-									sloth: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											speed: { initialQuality: 2 }
-											time: { initialQuality: 7 }
-										}
-									}
-									wrath: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											early_multiplier: { initialQuality: 8 }
-											late_multiplier: { initialQuality: 4 }
-											window: { initialQuality: 5 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 397.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:ring_of_the_seven_deadly_sins"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { envy: { lock: { breaks: 5 }, points: 0, stats: { incoming_damage_multiplier: { }, outgoing_damage_multiplier: { initialQuality: 8 } } }, gluttony: { lock: { breaks: 5 }, points: 0, stats: { early_multiplier: { initialQuality: 4 }, late_multiplier: { initialQuality: 5 } } }, greed: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 9 }, looting: { initialQuality: 4 }, luck: { initialQuality: 1 } } }, lust: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 1 }, time: { initialQuality: 4 } } }, pride: { lock: { breaks: 5 }, points: 0, stats: { multiplier: { initialQuality: 1 } } }, sloth: { lock: { breaks: 5 }, points: 0, stats: { speed: { initialQuality: 2 }, time: { initialQuality: 7 } } }, wrath: { lock: { breaks: 5 }, points: 0, stats: { early_multiplier: { initialQuality: 8 }, late_multiplier: { initialQuality: 4 }, window: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 397.0d } } } } }, count: 1, id: "relics:ring_of_the_seven_deadly_sins" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1728,33 +864,7 @@
 			}]
 			tasks: [{
 				id: "56E7A5017A638A70"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									sacrifice: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											resistance: { }
-											stacks: { initialQuality: 3 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 385.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:sphere_of_self_sacrifice"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { sacrifice: { lock: { breaks: 5 }, points: 0, stats: { resistance: { }, stacks: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 385.0d } } } } }, count: 1, id: "relics:sphere_of_self_sacrifice" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1769,42 +879,7 @@
 			}]
 			tasks: [{
 				id: "1008E9C040932586"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									pack: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											damage_modifier: { initialQuality: 8 }
-											pet_radius: { initialQuality: 2 }
-											resistance_per_pet: { initialQuality: 6 }
-											revival_cost: { initialQuality: 9 }
-										}
-									}
-									slots: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											amount: { }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 392.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:hunting_belt"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { pack: { lock: { breaks: 5 }, points: 0, stats: { damage_modifier: { initialQuality: 8 }, pet_radius: { initialQuality: 2 }, resistance_per_pet: { initialQuality: 6 }, revival_cost: { initialQuality: 9 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 392.0d } } } } }, count: 1, id: "relics:hunting_belt" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -1816,7 +891,10 @@
 				{
 					count: 16
 					id: "1A35E0AC065FA6A1"
-					item: { count: 1, id: "minecraft:experience_bottle" }
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
 					type: "item"
 				}
 				{
@@ -1827,34 +905,7 @@
 			]
 			tasks: [{
 				id: "073DB8F90DBFC5CD"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									dispersion: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											distribution_ratio: { initialQuality: 1 }
-											player_xp_ratio: { initialQuality: 6 }
-											same_item_bonus: { initialQuality: 10 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 399.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:experience_disperser"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { dispersion: { lock: { breaks: 5 }, points: 0, stats: { distribution_ratio: { initialQuality: 1 }, player_xp_ratio: { initialQuality: 6 }, same_item_bonus: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 399.0d } } } } }, count: 1, id: "relics:experience_disperser" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -1869,52 +920,7 @@
 			}]
 			tasks: [{
 				id: "7479664F108EF2D4"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									distortion: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											miss_chance: { initialQuality: 7 }
-										}
-									}
-									glitch: {
-										lock: { breaks: 0 }
-										points: 0
-										stats: {
-											fall_damage: { initialQuality: 7 }
-											phase_time: { initialQuality: 3 }
-											stability_time: { initialQuality: 1 }
-										}
-									}
-									illusion: {
-										lock: { breaks: 0 }
-										points: 0
-										stats: {
-											duration: { initialQuality: 9 }
-											echo_radius: { initialQuality: 9 }
-											interval: { initialQuality: 3 }
-											stun: { initialQuality: 5 }
-											stun_radius: { initialQuality: 4 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 400.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:glitchy_mantle"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { distortion: { lock: { breaks: 5 }, points: 0, stats: { miss_chance: { initialQuality: 7 } } }, glitch: { lock: { breaks: 0 }, points: 0, stats: { fall_damage: { initialQuality: 7 }, phase_time: { initialQuality: 3 }, stability_time: { initialQuality: 1 } } }, illusion: { lock: { breaks: 0 }, points: 0, stats: { duration: { initialQuality: 9 }, echo_radius: { initialQuality: 9 }, interval: { initialQuality: 3 }, stun: { initialQuality: 5 }, stun_radius: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 400.0d } } } } }, count: 1, id: "relics:glitchy_mantle" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1926,7 +932,10 @@
 				{
 					count: 2
 					id: "6603FE52630157B4"
-					item: { count: 1, id: "mcwholidays:ghost_balloon" }
+					item: {
+						count: 1
+						id: "mcwholidays:ghost_balloon"
+					}
 					type: "item"
 				}
 				{
@@ -1937,55 +946,7 @@
 			]
 			tasks: [{
 				id: "438D410AA9091940"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									fog: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											air_loss: { initialQuality: 10 }
-											duration: { initialQuality: 5 }
-											radius: { initialQuality: 4 }
-											suffocation_damage: { initialQuality: 3 }
-											tremor: { initialQuality: 6 }
-										}
-									}
-									gaze: {
-										lock: { breaks: 0 }
-										points: 0
-										stats: {
-											charges: { initialQuality: 3 }
-											damage: { initialQuality: 1 }
-											range: { initialQuality: 1 }
-											weakness: { initialQuality: 3 }
-										}
-									}
-									spectral_escape: {
-										lock: { breaks: 0 }
-										points: 0
-										stats: {
-											cooldown: { initialQuality: 1 }
-											damage: { initialQuality: 5 }
-											duration: { initialQuality: 7 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 409.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:ghostly_mantle"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { fog: { lock: { breaks: 5 }, points: 0, stats: { air_loss: { initialQuality: 10 }, duration: { initialQuality: 5 }, radius: { initialQuality: 4 }, suffocation_damage: { initialQuality: 3 }, tremor: { initialQuality: 6 } } }, gaze: { lock: { breaks: 0 }, points: 0, stats: { charges: { initialQuality: 3 }, damage: { initialQuality: 1 }, range: { initialQuality: 1 }, weakness: { initialQuality: 3 } } }, spectral_escape: { lock: { breaks: 0 }, points: 0, stats: { cooldown: { initialQuality: 1 }, damage: { initialQuality: 5 }, duration: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 409.0d } } } } }, count: 1, id: "relics:ghostly_mantle" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -1996,7 +957,10 @@
 			rewards: [
 				{
 					id: "5431F1EAC320928E"
-					item: { count: 1, id: "mekanismtools:refined_obsidian_shield" }
+					item: {
+						count: 1
+						id: "mekanismtools:refined_obsidian_shield"
+					}
 					type: "item"
 				}
 				{
@@ -2007,39 +971,7 @@
 			]
 			tasks: [{
 				id: "7F571E1B00EDE039"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									retaliation: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											cooldown: { initialQuality: 2 }
-											extension: { initialQuality: 10 }
-											miss_damage: { initialQuality: 4 }
-											miss_duration: { initialQuality: 7 }
-											projectile_damage: { initialQuality: 8 }
-											stun: { initialQuality: 5 }
-											stun_radius: { }
-											window: { initialQuality: 3 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: {
-								metrics: {
-									retention_time: { value: 411.0d }
-								}
-							}
-						}
-					}
-					count: 1
-					id: "relics:shield_of_retaliation"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { retaliation: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 2 }, extension: { initialQuality: 10 }, miss_damage: { initialQuality: 4 }, miss_duration: { initialQuality: 7 }, projectile_damage: { initialQuality: 8 }, stun: { initialQuality: 5 }, stun_radius: { }, window: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 411.0d } } } } }, count: 1, id: "relics:shield_of_retaliation" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -2054,35 +986,7 @@
 			}]
 			tasks: [{
 				id: "5395EEEBEFB233A4"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									voodoo_mark: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											death_burst_multicast_chance: { initialQuality: 5 }
-											death_burst_needles: { initialQuality: 6 }
-											mark_chance: { initialQuality: 5 }
-											max_needles: { initialQuality: 9 }
-											needle_damage: { initialQuality: 4 }
-											needle_heal: { initialQuality: 7 }
-											ricochet_chance: { initialQuality: 2 }
-											ricochet_range: { initialQuality: 9 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:bloody_voodoo_doll"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { voodoo_mark: { lock: { breaks: 5 }, points: 0, stats: { death_burst_multicast_chance: { initialQuality: 5 }, death_burst_needles: { initialQuality: 6 }, mark_chance: { initialQuality: 5 }, max_needles: { initialQuality: 9 }, needle_damage: { initialQuality: 4 }, needle_heal: { initialQuality: 7 }, ricochet_chance: { initialQuality: 2 }, ricochet_range: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:bloody_voodoo_doll" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -2096,7 +1000,9 @@
 					id: "7D694AE76B268503"
 					item: {
 						components: {
-							"minecraft:potion_contents": { potion: "minecraft:strong_healing" }
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
 						}
 						count: 1
 						id: "minecraft:potion"
@@ -2112,33 +1018,7 @@
 			]
 			tasks: [{
 				id: "5DEA54480C4D6A0C"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									cardiac_trap: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											cooldown: { initialQuality: 4 }
-											cooldown_skip_chance: { initialQuality: 7 }
-											heartstop_duration: { initialQuality: 5 }
-											paralysis_duration: { initialQuality: 4 }
-											paralysis_radius: { initialQuality: 7 }
-											regen_boost: { }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:cardiac_trap"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { cardiac_trap: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 4 }, cooldown_skip_chance: { initialQuality: 7 }, heartstop_duration: { initialQuality: 5 }, paralysis_duration: { initialQuality: 4 }, paralysis_radius: { initialQuality: 7 }, regen_boost: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:cardiac_trap" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -2150,7 +1030,10 @@
 				{
 					count: 3
 					id: "3A00F7C13B4A4389"
-					item: { count: 1, id: "minecraft:ender_pearl" }
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
 					random_bonus: 2
 					type: "item"
 				}
@@ -2162,32 +1045,7 @@
 			]
 			tasks: [{
 				id: "2EB722F9D10C52FF"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									red_mist: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											blindness_duration: { initialQuality: 1 }
-											cooldown: { initialQuality: 10 }
-											next_attack_bonus: { initialQuality: 10 }
-											next_attack_window: { initialQuality: 1 }
-											taunt_radius: { }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:flask_of_the_red_mist"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { red_mist: { lock: { breaks: 5 }, points: 0, stats: { blindness_duration: { initialQuality: 1 }, cooldown: { initialQuality: 10 }, next_attack_bonus: { initialQuality: 10 }, next_attack_window: { initialQuality: 1 }, taunt_radius: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:flask_of_the_red_mist" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -2199,7 +1057,10 @@
 				{
 					count: 6
 					id: "2A5867EC36265632"
-					item: { count: 1, id: "eternal_starlight:rotten_flesh_jerky" }
+					item: {
+						count: 1
+						id: "eternal_starlight:rotten_flesh_jerky"
+					}
 					type: "item"
 				}
 				{
@@ -2210,34 +1071,7 @@
 			]
 			tasks: [{
 				id: "65F80EFB872BB838"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									living_flesh: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											devour_damage: { initialQuality: 7 }
-											devour_food: { initialQuality: 10 }
-											devour_heal: { }
-											devour_saturation: { initialQuality: 7 }
-											mark_duration: { initialQuality: 8 }
-											repeat_chance: { initialQuality: 8 }
-											repeat_limit: { initialQuality: 10 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:living_flesh"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { living_flesh: { lock: { breaks: 5 }, points: 0, stats: { devour_damage: { initialQuality: 7 }, devour_food: { initialQuality: 10 }, devour_heal: { }, devour_saturation: { initialQuality: 7 }, mark_duration: { initialQuality: 8 }, repeat_chance: { initialQuality: 8 }, repeat_limit: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:living_flesh" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2248,7 +1082,10 @@
 			rewards: [
 				{
 					id: "28C170A904940C1D"
-					item: { count: 1, id: "friendsandfoes:wildfire_crown" }
+					item: {
+						count: 1
+						id: "friendsandfoes:wildfire_crown"
+					}
 					type: "item"
 				}
 				{
@@ -2259,32 +1096,7 @@
 			]
 			tasks: [{
 				id: "3ACB2878E83B6114"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									sinner_crown: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											explosion_damage: { initialQuality: 6 }
-											max_summons: { initialQuality: 10 }
-											shared_pain_radius: { initialQuality: 6 }
-											summon_damage: { }
-											summon_duration: { initialQuality: 5 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:sinner_crown"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { sinner_crown: { lock: { breaks: 5 }, points: 0, stats: { explosion_damage: { initialQuality: 6 }, max_summons: { initialQuality: 10 }, shared_pain_radius: { initialQuality: 6 }, summon_damage: { }, summon_duration: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:sinner_crown" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -2298,7 +1110,9 @@
 					item: {
 						components: {
 							"minecraft:stored_enchantments": {
-								levels: { "minecraft:sharpness": 3 }
+								levels: {
+									"minecraft:sharpness": 3
+								}
 							}
 						}
 						count: 1
@@ -2314,43 +1128,7 @@
 			]
 			tasks: [{
 				id: "007C5CC97F6C2BF3"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									slicer: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											attack_interval: { initialQuality: 6 }
-											cooldown: { initialQuality: 5 }
-											interval_reduction_on_kill: { initialQuality: 10 }
-											mark_ignore_chance: { initialQuality: 6 }
-											radius: { initialQuality: 2 }
-										}
-									}
-									slicer_weapon: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											charge_damage_bonus: { initialQuality: 6 }
-											combo_window: { initialQuality: 1 }
-											max_charges: { initialQuality: 5 }
-											weapon_attack_speed: { initialQuality: 4 }
-											weapon_damage: { initialQuality: 9 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:slicer"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { slicer: { lock: { breaks: 5 }, points: 0, stats: { attack_interval: { initialQuality: 6 }, cooldown: { initialQuality: 5 }, interval_reduction_on_kill: { initialQuality: 10 }, mark_ignore_chance: { initialQuality: 6 }, radius: { initialQuality: 2 } } }, slicer_weapon: { lock: { breaks: 5 }, points: 0, stats: { charge_damage_bonus: { initialQuality: 6 }, combo_window: { initialQuality: 1 }, max_charges: { initialQuality: 5 }, weapon_attack_speed: { initialQuality: 4 }, weapon_damage: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:slicer" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -2364,7 +1142,9 @@
 					item: {
 						components: {
 							"minecraft:stored_enchantments": {
-								levels: { "minecraft:knockback": 3 }
+								levels: {
+									"minecraft:knockback": 3
+								}
 							}
 						}
 						count: 1
@@ -2380,33 +1160,7 @@
 			]
 			tasks: [{
 				id: "260DA4AC43971FC0"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									blood_feather: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											bleeding_duration: { initialQuality: 6 }
-											bleeding_level: { initialQuality: 4 }
-											buffer_chance: { initialQuality: 4 }
-											buffered_needles: { }
-											kill_heal: { initialQuality: 2 }
-											needle_damage: { initialQuality: 9 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:cloak_of_the_bloody_feather"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { blood_feather: { lock: { breaks: 5 }, points: 0, stats: { bleeding_duration: { initialQuality: 6 }, bleeding_level: { initialQuality: 4 }, buffer_chance: { initialQuality: 4 }, buffered_needles: { }, kill_heal: { initialQuality: 2 }, needle_damage: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:cloak_of_the_bloody_feather" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -2418,7 +1172,10 @@
 				{
 					count: 8
 					id: "3903360372523A0C"
-					item: { count: 1, id: "minecraft:rotten_flesh" }
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
 					random_bonus: 8
 					type: "item"
 				}
@@ -2430,34 +1187,7 @@
 			]
 			tasks: [{
 				id: "7E389AAD72E83BE0"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									hunger_mask: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											cooldown: { initialQuality: 1 }
-											food_per_target: { initialQuality: 7 }
-											health_threshold: { initialQuality: 4 }
-											paralysis_duration: { initialQuality: 7 }
-											saturation_per_target: { initialQuality: 5 }
-											siphon_damage: { }
-											siphon_targets: { initialQuality: 3 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:mask_of_hunger"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { hunger_mask: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 1 }, food_per_target: { initialQuality: 7 }, health_threshold: { initialQuality: 4 }, paralysis_duration: { initialQuality: 7 }, saturation_per_target: { initialQuality: 5 }, siphon_damage: { }, siphon_targets: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:mask_of_hunger" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -2471,7 +1201,9 @@
 					item: {
 						components: {
 							"minecraft:stored_enchantments": {
-								levels: { "minecraft:sharpness": 2 }
+								levels: {
+									"minecraft:sharpness": 2
+								}
 							}
 						}
 						count: 1
@@ -2487,32 +1219,7 @@
 			]
 			tasks: [{
 				id: "47DB21FB002149D0"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									ring_of_blades: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											blade_heal: { initialQuality: 4 }
-											max_multicast_slashes: { initialQuality: 1 }
-											multicast_chance: { initialQuality: 4 }
-											ramping_damage_bonus: { initialQuality: 5 }
-											slash_damage: { initialQuality: 6 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:ring_of_blades"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { ring_of_blades: { lock: { breaks: 5 }, points: 0, stats: { blade_heal: { initialQuality: 4 }, max_multicast_slashes: { initialQuality: 1 }, multicast_chance: { initialQuality: 4 }, ramping_damage_bonus: { initialQuality: 5 }, slash_damage: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:ring_of_blades" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -2527,32 +1234,7 @@
 			}]
 			tasks: [{
 				id: "2C70BC4910543CC6"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									dimension_key: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											immortality_duration: { initialQuality: 4 }
-											portal_duration: { initialQuality: 7 }
-											regen_boost: { initialQuality: 3 }
-											tremor_duration: { initialQuality: 8 }
-											vital_gate_radius: { initialQuality: 8 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:dimension_key"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { dimension_key: { lock: { breaks: 5 }, points: 0, stats: { immortality_duration: { initialQuality: 4 }, portal_duration: { initialQuality: 7 }, regen_boost: { initialQuality: 3 }, tremor_duration: { initialQuality: 8 }, vital_gate_radius: { initialQuality: 8 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:dimension_key" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -2564,7 +1246,10 @@
 				{
 					count: 2
 					id: "3EE007AAF417F16B"
-					item: { count: 1, id: "minecraft:dragon_breath" }
+					item: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
 					type: "item"
 				}
 				{
@@ -2575,34 +1260,7 @@
 			]
 			tasks: [{
 				id: "0BD08D851C9841F3"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									dragon_blood: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											pool_damage: { initialQuality: 3 }
-											pool_radius: { initialQuality: 3 }
-											regeneration_per_second: { initialQuality: 4 }
-											split_chance: { initialQuality: 4 }
-											split_limit: { initialQuality: 5 }
-											split_power: { initialQuality: 4 }
-											trigger_chance: { initialQuality: 9 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:dragon_blood_vial"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { dragon_blood: { lock: { breaks: 5 }, points: 0, stats: { pool_damage: { initialQuality: 3 }, pool_radius: { initialQuality: 3 }, regeneration_per_second: { initialQuality: 4 }, split_chance: { initialQuality: 4 }, split_limit: { initialQuality: 5 }, split_power: { initialQuality: 4 }, trigger_chance: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:dragon_blood_vial" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -2614,7 +1272,10 @@
 				{
 					count: 5
 					id: "306CA1726AD8F430"
-					item: { count: 1, id: "minecraft:echo_shard" }
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
 					type: "item"
 				}
 				{
@@ -2625,33 +1286,7 @@
 			]
 			tasks: [{
 				id: "6731F2B04367F0F2"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									echo_glove: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											echo_chance: { initialQuality: 5 }
-											echo_damage: { initialQuality: 2 }
-											echo_radius: { initialQuality: 1 }
-											fall_damage_bonus: { initialQuality: 5 }
-											launch_height: { initialQuality: 2 }
-											stun_duration: { initialQuality: 5 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:echo_glove"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { echo_glove: { lock: { breaks: 5 }, points: 0, stats: { echo_chance: { initialQuality: 5 }, echo_damage: { initialQuality: 2 }, echo_radius: { initialQuality: 1 }, fall_damage_bonus: { initialQuality: 5 }, launch_height: { initialQuality: 2 }, stun_duration: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:echo_glove" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -2663,7 +1298,10 @@
 				{
 					count: 3
 					id: "6A0787CFBDDBF87F"
-					item: { count: 1, id: "minecraft:ender_eye" }
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
 					type: "item"
 				}
 				{
@@ -2674,35 +1312,7 @@
 			]
 			tasks: [{
 				id: "11E1EA08013F46CA"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									ender_bow: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											arrow_damage: { initialQuality: 10 }
-											bonus_duration: { initialQuality: 10 }
-											bonus_per_mark: { initialQuality: 9 }
-											max_extra_arrows: { initialQuality: 4 }
-											multicast_chance: { initialQuality: 1 }
-											reveal_path_radius: { initialQuality: 3 }
-											reveal_radius: { initialQuality: 4 }
-											stun_duration: { initialQuality: 5 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:ender_bow"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { ender_bow: { lock: { breaks: 5 }, points: 0, stats: { arrow_damage: { initialQuality: 10 }, bonus_duration: { initialQuality: 10 }, bonus_per_mark: { initialQuality: 9 }, max_extra_arrows: { initialQuality: 4 }, multicast_chance: { initialQuality: 1 }, reveal_path_radius: { initialQuality: 3 }, reveal_radius: { initialQuality: 4 }, stun_duration: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:ender_bow" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -2713,7 +1323,10 @@
 			rewards: [
 				{
 					id: "13630E98EBB19D06"
-					item: { count: 1, id: "mekanism:teleportation_core" }
+					item: {
+						count: 1
+						id: "mekanism:teleportation_core"
+					}
 					type: "item"
 				}
 				{
@@ -2724,35 +1337,7 @@
 			]
 			tasks: [{
 				id: "0B349865F36076F8"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									galaxy_devourer_diadem: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											black_hole_damage: { initialQuality: 5 }
-											black_hole_lifetime: { initialQuality: 4 }
-											black_hole_radius: { initialQuality: 3 }
-											collapse_damage: { initialQuality: 2 }
-											collapse_radius: { initialQuality: 6 }
-											fusion_transfer: { initialQuality: 10 }
-											lifetime_extension: { initialQuality: 7 }
-											spawn_chance: { initialQuality: 4 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:galaxy_devourer_diadem"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { galaxy_devourer_diadem: { lock: { breaks: 5 }, points: 0, stats: { black_hole_damage: { initialQuality: 5 }, black_hole_lifetime: { initialQuality: 4 }, black_hole_radius: { initialQuality: 3 }, collapse_damage: { initialQuality: 2 }, collapse_radius: { initialQuality: 6 }, fusion_transfer: { initialQuality: 10 }, lifetime_extension: { initialQuality: 7 }, spawn_chance: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:galaxy_devourer_diadem" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -2764,7 +1349,10 @@
 				{
 					count: 2
 					id: "6E35B5A0315A1B3E"
-					item: { count: 1, id: "minecraft:ender_pearl" }
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
 					type: "item"
 				}
 				{
@@ -2775,31 +1363,7 @@
 			]
 			tasks: [{
 				id: "3D296A9AE944C052"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									immaterial_disperser: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											dispel_chance: { }
-											mana_restore: { }
-											retaliation_bonus: { initialQuality: 2 }
-											retaliation_duration: { initialQuality: 10 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:immaterial_disperser"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { immaterial_disperser: { lock: { breaks: 5 }, points: 0, stats: { dispel_chance: { }, mana_restore: { }, retaliation_bonus: { initialQuality: 2 }, retaliation_duration: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:immaterial_disperser" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -2813,7 +1377,9 @@
 					item: {
 						components: {
 							"minecraft:stored_enchantments": {
-								levels: { "minecraft:sharpness": 3 }
+								levels: {
+									"minecraft:sharpness": 3
+								}
 							}
 						}
 						count: 1
@@ -2829,38 +1395,7 @@
 			]
 			tasks: [{
 				id: "04DCDF1754269C5C"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									sealed_sword: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											aura_radius: { initialQuality: 9 }
-											damage_per_sword: { initialQuality: 8 }
-											heal_on_hit: { initialQuality: 5 }
-											lose_target_chance: { initialQuality: 4 }
-											respawn_time: { initialQuality: 4 }
-											summon_count: { initialQuality: 10 }
-											summon_damage: { initialQuality: 10 }
-											summon_health: { initialQuality: 8 }
-											summon_knockback: { initialQuality: 4 }
-											summon_regen_amount: { initialQuality: 9 }
-											summon_regen_interval: { initialQuality: 1 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:sealed_sword"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { sealed_sword: { lock: { breaks: 5 }, points: 0, stats: { aura_radius: { initialQuality: 9 }, damage_per_sword: { initialQuality: 8 }, heal_on_hit: { initialQuality: 5 }, lose_target_chance: { initialQuality: 4 }, respawn_time: { initialQuality: 4 }, summon_count: { initialQuality: 10 }, summon_damage: { initialQuality: 10 }, summon_health: { initialQuality: 8 }, summon_knockback: { initialQuality: 4 }, summon_regen_amount: { initialQuality: 9 }, summon_regen_interval: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:sealed_sword" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2872,7 +1407,10 @@
 				{
 					count: 4
 					id: "7F9025C85CC5A609"
-					item: { count: 1, id: "minecraft:tnt" }
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
 					type: "item"
 				}
 				{
@@ -2883,30 +1421,7 @@
 			]
 			tasks: [{
 				id: "0E6FC36AE8C40A12"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									mirror_of_transgression: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											cast_time: { initialQuality: 3 }
-											channel_damage_reduction: { initialQuality: 6 }
-											focus_cast_speed: { }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:mirror_of_transgression"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { mirror_of_transgression: { lock: { breaks: 5 }, points: 0, stats: { cast_time: { initialQuality: 3 }, channel_damage_reduction: { initialQuality: 6 }, focus_cast_speed: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:mirror_of_transgression" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -2921,34 +1436,7 @@
 			}]
 			tasks: [{
 				id: "30DC097BB7778E12"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									pulsar_mantle: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											cooldown: { initialQuality: 8 }
-											heal_on_hit: { initialQuality: 5 }
-											health_threshold: { initialQuality: 2 }
-											missile_count: { initialQuality: 9 }
-											missile_damage: { }
-											pulse_push: { initialQuality: 3 }
-											pulse_radius: { initialQuality: 9 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:pulsar_mantle"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { pulsar_mantle: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 8 }, heal_on_hit: { initialQuality: 5 }, health_threshold: { initialQuality: 2 }, missile_count: { initialQuality: 9 }, missile_damage: { }, pulse_push: { initialQuality: 3 }, pulse_radius: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:pulsar_mantle" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -2963,33 +1451,7 @@
 			}]
 			tasks: [{
 				id: "1B05079FF3A80CD0"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									elusiveness: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											ambush_bonus: { initialQuality: 1 }
-											ambush_window: { initialQuality: 7 }
-											charge_regen_time: { }
-											heal_on_evasion: { initialQuality: 8 }
-											max_charges: { }
-											vanish_duration: { initialQuality: 9 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:ring_of_elusiveness"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { elusiveness: { lock: { breaks: 5 }, points: 0, stats: { ambush_bonus: { initialQuality: 1 }, ambush_window: { initialQuality: 7 }, charge_regen_time: { }, heal_on_evasion: { initialQuality: 8 }, max_charges: { }, vanish_duration: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:ring_of_elusiveness" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -3001,7 +1463,10 @@
 				{
 					count: 3
 					id: "269DCC39E08B1BE7"
-					item: { count: 1, id: "eternal_starlight:cooked_shadow_snail_meat" }
+					item: {
+						count: 1
+						id: "eternal_starlight:cooked_shadow_snail_meat"
+					}
 					type: "item"
 				}
 				{
@@ -3012,43 +1477,7 @@
 			]
 			tasks: [{
 				id: "742A38ABCC542531"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									shadow_claws: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											mana_less_damage_bonus: { initialQuality: 10 }
-											mana_steal: { initialQuality: 5 }
-											weapon_attack_speed: { initialQuality: 3 }
-											weapon_damage: { initialQuality: 2 }
-										}
-									}
-									shadow_slash: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											bleeding_duration: { }
-											bleeding_level: { initialQuality: 2 }
-											charge_refund_chance: { initialQuality: 4 }
-											charge_regen_time: { initialQuality: 9 }
-											max_charges: { initialQuality: 8 }
-											shadow_slash_damage: { initialQuality: 1 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:shadow_claws"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { shadow_claws: { lock: { breaks: 5 }, points: 0, stats: { mana_less_damage_bonus: { initialQuality: 10 }, mana_steal: { initialQuality: 5 }, weapon_attack_speed: { initialQuality: 3 }, weapon_damage: { initialQuality: 2 } } }, shadow_slash: { lock: { breaks: 5 }, points: 0, stats: { bleeding_duration: { }, bleeding_level: { initialQuality: 2 }, charge_refund_chance: { initialQuality: 4 }, charge_regen_time: { initialQuality: 9 }, max_charges: { initialQuality: 8 }, shadow_slash_damage: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:shadow_claws" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -3063,41 +1492,7 @@
 			}]
 			tasks: [{
 				id: "2F6CB9E650874111"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									sealed_rapier: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											attack_speed_per_rapier: { initialQuality: 7 }
-											aura_radius: { initialQuality: 6 }
-											bleed_chance: { initialQuality: 9 }
-											bleed_duration: { initialQuality: 5 }
-											bleed_level: { initialQuality: 5 }
-											mana_restore: { initialQuality: 8 }
-											rapier_sidestep_chance: { initialQuality: 2 }
-											respawn_time: { initialQuality: 4 }
-											summon_count: { }
-											summon_damage: { initialQuality: 9 }
-											summon_health: { initialQuality: 8 }
-											summon_knockback: { initialQuality: 10 }
-											summon_regen_amount: { initialQuality: 4 }
-											summon_regen_interval: { initialQuality: 7 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:sealed_rapier"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { sealed_rapier: { lock: { breaks: 5 }, points: 0, stats: { attack_speed_per_rapier: { initialQuality: 7 }, aura_radius: { initialQuality: 6 }, bleed_chance: { initialQuality: 9 }, bleed_duration: { initialQuality: 5 }, bleed_level: { initialQuality: 5 }, mana_restore: { initialQuality: 8 }, rapier_sidestep_chance: { initialQuality: 2 }, respawn_time: { initialQuality: 4 }, summon_count: { }, summon_damage: { initialQuality: 9 }, summon_health: { initialQuality: 8 }, summon_knockback: { initialQuality: 10 }, summon_regen_amount: { initialQuality: 4 }, summon_regen_interval: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:sealed_rapier" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -3112,44 +1507,7 @@
 			}]
 			tasks: [{
 				id: "5F08225C90309E21"
-				item: {
-					components: {
-						"relics:data": {
-							abilities: {
-								abilities: {
-									sealed_claymore: {
-										lock: { breaks: 5 }
-										points: 0
-										stats: {
-											absorption_cap: { initialQuality: 5 }
-											absorption_gain: { initialQuality: 10 }
-											aura_radius: { initialQuality: 6 }
-											claymore_taunt_cooldown: { initialQuality: 9 }
-											claymore_taunt_duration: { initialQuality: 5 }
-											claymore_taunt_min_targets: { initialQuality: 6 }
-											claymore_taunt_radius: { }
-											damage_reduction_per_claymore: { }
-											respawn_time: { initialQuality: 6 }
-											stun_chance: { }
-											stun_duration: { initialQuality: 10 }
-											summon_count: { initialQuality: 6 }
-											summon_damage: { initialQuality: 2 }
-											summon_health: { initialQuality: 7 }
-											summon_knockback: { initialQuality: 5 }
-											summon_regen_amount: { initialQuality: 1 }
-											summon_regen_interval: { initialQuality: 7 }
-										}
-									}
-								}
-								synergies: { }
-							}
-							leveling: { }
-							statistic: { }
-						}
-					}
-					count: 1
-					id: "reliquified_irons_spells_and_spellbooks:sealed_claymore"
-				}
+				item: { components: { "relics:data": { abilities: { abilities: { sealed_claymore: { lock: { breaks: 5 }, points: 0, stats: { absorption_cap: { initialQuality: 5 }, absorption_gain: { initialQuality: 10 }, aura_radius: { initialQuality: 6 }, claymore_taunt_cooldown: { initialQuality: 9 }, claymore_taunt_duration: { initialQuality: 5 }, claymore_taunt_min_targets: { initialQuality: 6 }, claymore_taunt_radius: { }, damage_reduction_per_claymore: { }, respawn_time: { initialQuality: 6 }, stun_chance: { }, stun_duration: { initialQuality: 10 }, summon_count: { initialQuality: 6 }, summon_damage: { initialQuality: 2 }, summon_health: { initialQuality: 7 }, summon_knockback: { initialQuality: 5 }, summon_regen_amount: { initialQuality: 1 }, summon_regen_interval: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:sealed_claymore" }
 				type: "item"
 			}]
 			x: -6.0d

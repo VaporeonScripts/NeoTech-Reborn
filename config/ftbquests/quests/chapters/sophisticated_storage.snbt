@@ -2,25 +2,23 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sophisticated_storage"
-	group: "2401AD943A650627"
+	group: ""
 	icon: {
-		components: { "sophisticatedstorage:wood_type": "cherry" }
+		components: {
+			"sophisticatedstorage:wood_type": "cherry"
+		}
 		id: "sophisticatedstorage:diamond_barrel"
 	}
 	id: "1DD06CDAAE292F70"
 	images: [ ]
-	order_index: 2
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
 			id: "383CF3C7858B7CA6"
 			tasks: [{
 				id: "65B7B22C33219D84"
-				item: {
-					components: { "sophisticatedstorage:wood_type": "oak" }
-					count: 1
-					id: "sophisticatedstorage:iron_barrel"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:iron_barrel" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -31,11 +29,7 @@
 			id: "33F1CFF65C16C509"
 			tasks: [{
 				id: "7727CEF61C0083E2"
-				item: {
-					components: { "sophisticatedstorage:wood_type": "oak" }
-					count: 1
-					id: "sophisticatedstorage:gold_barrel"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:gold_barrel" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -51,11 +45,7 @@
 			}]
 			tasks: [{
 				id: "54138D984656C87A"
-				item: {
-					components: { "sophisticatedstorage:wood_type": "oak" }
-					count: 1
-					id: "sophisticatedstorage:diamond_barrel"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:diamond_barrel" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -71,11 +61,7 @@
 			}]
 			tasks: [{
 				id: "7A6D83F3A9F5AFE1"
-				item: {
-					components: { "sophisticatedstorage:wood_type": "oak" }
-					count: 1
-					id: "sophisticatedstorage:netherite_barrel"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:netherite_barrel" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -85,11 +71,7 @@
 			id: "53F7C95E2F98E7FE"
 			tasks: [{
 				id: "315F9CC4707757AA"
-				item: {
-					components: { "sophisticatedstorage:wood_type": "oak" }
-					count: 1
-					id: "sophisticatedstorage:iron_chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:iron_chest" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -100,11 +82,7 @@
 			id: "0FD1FC62D1EFEDF9"
 			tasks: [{
 				id: "0C4FB7D67E001031"
-				item: {
-					components: { "sophisticatedstorage:wood_type": "oak" }
-					count: 1
-					id: "sophisticatedstorage:gold_chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:gold_chest" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -120,11 +98,7 @@
 			}]
 			tasks: [{
 				id: "320A0CC87D25C044"
-				item: {
-					components: { "sophisticatedstorage:wood_type": "oak" }
-					count: 1
-					id: "sophisticatedstorage:diamond_chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:diamond_chest" }
 				type: "item"
 			}]
 			x: 14.0d
@@ -140,11 +114,7 @@
 			}]
 			tasks: [{
 				id: "23007A149FC6B389"
-				item: {
-					components: { "sophisticatedstorage:wood_type": "oak" }
-					count: 1
-					id: "sophisticatedstorage:netherite_chest"
-				}
+				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:netherite_chest" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -208,7 +178,10 @@
 			rewards: [{
 				count: 2
 				id: "17C4024680755024"
-				item: { count: 1, id: "sophisticatedstorage:upgrade_base" }
+				item: {
+					count: 1
+					id: "sophisticatedstorage:upgrade_base"
+				}
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -514,7 +487,9 @@
 		}
 		{
 			dependencies: ["25A9152D76C456C9"]
-			icon: { id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+			icon: {
+				id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}
 			id: "3C4D234ED85FC063"
 			tasks: [
 				{
@@ -535,8 +510,19 @@
 		}
 		{
 			dependencies: ["3C4D234ED85FC063"]
-			icon: { id: "sophisticatedstorage:basic_to_gold_tier_upgrade" }
+			icon: {
+				id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+			}
 			id: "085D807883DA768C"
+			rewards: [{
+				id: "1A63CCCE9F3CADCE"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "78B42C847D955FD4"
@@ -559,17 +545,12 @@
 			]
 			x: -6.0d
 			y: 5.6d
-			rewards: [{
-				count: 1
-				id: "1A63CCCE9F3CADCE"
-				item: { count: 1, id: "randomore:random_ore" }
-				random_bonus: 1
-				type: "item"
-			}]
 		}
 		{
 			dependencies: ["085D807883DA768C"]
-			icon: { id: "sophisticatedstorage:basic_to_diamond_tier_upgrade" }
+			icon: {
+				id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+			}
 			id: "65CCF4B3E7A9F67D"
 			rewards: [
 				{
@@ -578,9 +559,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "7356AC85648428B9"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -616,7 +599,9 @@
 		}
 		{
 			dependencies: ["65CCF4B3E7A9F67D"]
-			icon: { id: "sophisticatedstorage:basic_to_netherite_tier_upgrade" }
+			icon: {
+				id: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+			}
 			id: "2CF23140C0FB9402"
 			rewards: [
 				{
@@ -625,9 +610,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "0E1FF6546D3DB571"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}
@@ -737,9 +724,11 @@
 					type: "random"
 				}
 				{
-					count: 1
 					id: "465811821877BD69"
-					item: { count: 1, id: "randomore:random_ore" }
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
 					random_bonus: 1
 					type: "item"
 				}

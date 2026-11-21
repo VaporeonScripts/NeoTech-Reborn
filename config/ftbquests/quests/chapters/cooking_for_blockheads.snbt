@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cooking_for_blockheads"
-	group: "5C913BC4F177E1BC"
-	icon: { id: "cookingforblockheads:white_oven" }
+	group: ""
+	icon: {
+		id: "cookingforblockheads:white_oven"
+	}
 	id: "02F58A9746B00BE8"
 	images: [ ]
-	order_index: 6
+	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{
@@ -24,7 +26,10 @@
 			id: "44ADE9005757637C"
 			rewards: [{
 				id: "50D5DD73AF8B8EA7"
-				item: { count: 1, id: "minecraft:cooked_porkchop" }
+				item: {
+					count: 1
+					id: "minecraft:cooked_porkchop"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -59,7 +64,10 @@
 			rewards: [{
 				count: 2
 				id: "14742A1A685BC390"
-				item: { count: 1, id: "minecraft:ice" }
+				item: {
+					count: 1
+					id: "minecraft:ice"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -76,7 +84,10 @@
 			id: "5F8A91444A82D83D"
 			rewards: [{
 				id: "11BA8DBE9B74B8A5"
-				item: { count: 1, id: "minecraft:water_bucket" }
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -92,7 +103,10 @@
 			id: "3EFF6E83AE509F6B"
 			rewards: [{
 				id: "31680217E04AD992"
-				item: { count: 1, id: "cookingforblockheads:connector" }
+				item: {
+					count: 1
+					id: "cookingforblockheads:connector"
+				}
 				random_bonus: 1
 				type: "item"
 			}]
@@ -111,7 +125,10 @@
 			rewards: [{
 				count: 2
 				id: "6594B720E501A3FC"
-				item: { count: 1, id: "minecraft:cooked_porkchop" }
+				item: {
+					count: 1
+					id: "minecraft:cooked_porkchop"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -128,7 +145,10 @@
 			rewards: [
 				{
 					id: "0515121543F0FB74"
-					item: { count: 1, id: "minecraft:milk_bucket" }
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
 					type: "item"
 				}
 				{
@@ -150,7 +170,10 @@
 			id: "2B4B4235D47A4111"
 			rewards: [{
 				id: "501515B31006688E"
-				item: { count: 1, id: "minecraft:bread" }
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -167,7 +190,10 @@
 			rewards: [{
 				count: 2
 				id: "26330E8031A0814C"
-				item: { count: 1, id: "minecraft:apple" }
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -190,7 +216,10 @@
 			rewards: [{
 				count: 2
 				id: "775DED293E18DA49"
-				item: { count: 1, id: "minecraft:emerald" }
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -207,7 +236,10 @@
 			rewards: [{
 				count: 2
 				id: "54664F35593B13F3"
-				item: { count: 1, id: "farmingforblockheads:green_fertilizer" }
+				item: {
+					count: 1
+					id: "farmingforblockheads:green_fertilizer"
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -225,7 +257,10 @@
 			rewards: [{
 				count: 2
 				id: "5A05FD3E2BCF9472"
-				item: { count: 1, id: "farmingforblockheads:red_fertilizer" }
+				item: {
+					count: 1
+					id: "farmingforblockheads:red_fertilizer"
+				}
 				type: "item"
 			}]
 			tasks: [{
