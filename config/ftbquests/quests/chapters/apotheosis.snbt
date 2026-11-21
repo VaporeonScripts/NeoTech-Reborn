@@ -2,26 +2,20 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "apotheosis"
-	group: ""
-	icon: {
-		id: "apotheosis:reforging_table"
-	}
+	group: "56A66C57DE55E953"
+	icon: { id: "apotheosis:reforging_table" }
 	id: "2BC34F165E8360DC"
 	images: [ ]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			icon: {
-				id: "apotheosis:boss_summoner"
-			}
+			icon: { id: "apotheosis:boss_summoner" }
 			id: "41C4CEED66FD93C0"
 			tasks: [{
 				advancement: "apotheosis:progression/haven"
 				criterion: ""
-				icon: {
-					id: "apotheosis:boss_summoner"
-				}
+				icon: { id: "apotheosis:boss_summoner" }
 				id: "1AB5B641B0AC45FF"
 				type: "advancement"
 			}]
@@ -51,7 +45,11 @@
 				}
 				{
 					id: "4B5A5E25A19C1176"
-					item: { components: { "ftbfiltersystem:filter": "or(item_tag(apotheosis:rarity_materials))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: {
+						components: { "ftbfiltersystem:filter": "or(item_tag(apotheosis:rarity_materials))" }
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
 					type: "item"
 				}
 			]
@@ -135,15 +133,6 @@
 		{
 			dependencies: ["1BD9B2B42C2A76A1"]
 			id: "3C0850C41E780C48"
-			rewards: [{
-				id: "0CC7B4D0138851B0"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				advancement: "apotheosis:progression/summit"
 				criterion: ""
@@ -152,19 +141,17 @@
 			}]
 			x: 10.0d
 			y: 19.2d
+			rewards: [{
+				count: 1
+				id: "0CC7B4D0138851B0"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["3C0850C41E780C48"]
 			id: "26FC791720C2AC14"
-			rewards: [{
-				id: "66946C32D6E89C6A"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				advancement: "apotheosis:progression/pinnacle"
 				criterion: ""
@@ -173,6 +160,13 @@
 			}]
 			x: 10.0d
 			y: 20.8d
+			rewards: [{
+				count: 1
+				id: "66946C32D6E89C6A"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["491CC7839C223077"]
@@ -197,7 +191,11 @@
 			id: "0945C7B89329C657"
 			tasks: [{
 				id: "315C6C1A81F09404"
-				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"apotheosis:purity\":\"flawless\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"apotheosis:purity\":\"flawless\"}))" }
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -206,33 +204,37 @@
 		{
 			dependencies: ["0945C7B89329C657"]
 			id: "51AD0B9A21D4FC9A"
-			rewards: [{
-				id: "5A8BED30FB69E070"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "6B45483CA9428436"
-				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"apotheosis:purity\":\"perfect\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"apotheosis:purity\":\"perfect\"}))" }
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
 				type: "item"
 			}]
 			x: 8.0d
 			y: 19.2d
+			rewards: [{
+				count: 1
+				id: "5A8BED30FB69E070"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
-			icon: {
-				id: "apothic_enchanting:apothic_enchanting_table"
-			}
+			icon: { id: "apothic_enchanting:apothic_enchanting_table" }
 			id: "059B625288CE656A"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "16D294DE9187FD0E"
-				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:enchanting_table)item(apothic_enchanting:apothic_enchanting_table))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					components: { "ftbfiltersystem:filter": "or(item(minecraft:enchanting_table)item(apothic_enchanting:apothic_enchanting_table))" }
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -240,9 +242,7 @@
 		}
 		{
 			dependencies: ["059B625288CE656A"]
-			icon: {
-				id: "apothic_enchanting:raven_enchanting_table"
-			}
+			icon: { id: "apothic_enchanting:raven_enchanting_table" }
 			id: "6B176850FD69337C"
 			tasks: [{
 				id: "4ED77E07EBCFFDCF"
@@ -254,13 +254,15 @@
 		}
 		{
 			dependencies: ["059B625288CE656A"]
-			icon: {
-				id: "apothic_enchanting:hellshelf"
-			}
+			icon: { id: "apothic_enchanting:hellshelf" }
 			id: "7308408DF2D17B69"
 			tasks: [{
 				id: "4C3319142B01AFD0"
-				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:basic_bookshelf)item(apothic_enchanting:hellshelf)item(apothic_enchanting:blazing_hellshelf)item(apothic_enchanting:glowing_hellshelf)item(apothic_enchanting:infused_hellshelf)item(apothic_enchanting:seashelf)item(apothic_enchanting:infused_seashelf)item(apothic_enchanting:crystal_seashelf)item(apothic_enchanting:heart_seashelf)item(apothic_enchanting:dormant_deepshelf)item(apothic_enchanting:deepshelf)item(apothic_enchanting:echoing_deepshelf)item(apothic_enchanting:soul_touched_deepshelf)item(apothic_enchanting:echoing_sculkshelf)item(apothic_enchanting:soul_touched_sculkshelf)item(apothic_enchanting:endshelf)item(apothic_enchanting:pearl_endshelf)item(apothic_enchanting:draconic_endshelf)item(apothic_enchanting:beeshelf)item(apothic_enchanting:melonshelf)item(apothic_enchanting:stoneshelf)item(apothic_enchanting:sightshelf)item(apothic_enchanting:sightshelf_t2)item(apothic_enchanting:treasure_shelf)item(apothic_enchanting:geode_shelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:basic_bookshelf)item(apothic_enchanting:hellshelf)item(apothic_enchanting:blazing_hellshelf)item(apothic_enchanting:glowing_hellshelf)item(apothic_enchanting:infused_hellshelf)item(apothic_enchanting:seashelf)item(apothic_enchanting:infused_seashelf)item(apothic_enchanting:crystal_seashelf)item(apothic_enchanting:heart_seashelf)item(apothic_enchanting:dormant_deepshelf)item(apothic_enchanting:deepshelf)item(apothic_enchanting:echoing_deepshelf)item(apothic_enchanting:soul_touched_deepshelf)item(apothic_enchanting:echoing_sculkshelf)item(apothic_enchanting:soul_touched_sculkshelf)item(apothic_enchanting:endshelf)item(apothic_enchanting:pearl_endshelf)item(apothic_enchanting:draconic_endshelf)item(apothic_enchanting:beeshelf)item(apothic_enchanting:melonshelf)item(apothic_enchanting:stoneshelf)item(apothic_enchanting:sightshelf)item(apothic_enchanting:sightshelf_t2)item(apothic_enchanting:treasure_shelf)item(apothic_enchanting:geode_shelf))" }
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
 				type: "item"
 			}]
 			x: 6.0d
@@ -268,9 +270,7 @@
 		}
 		{
 			dependencies: ["059B625288CE656A"]
-			icon: {
-				id: "apothic_enchanting:library"
-			}
+			icon: { id: "apothic_enchanting:library" }
 			id: "7107506BF772DD74"
 			tasks: [{
 				id: "6BF7CC0124B41B43"
@@ -282,9 +282,7 @@
 		}
 		{
 			dependencies: ["7107506BF772DD74"]
-			icon: {
-				id: "apothic_enchanting:ender_library"
-			}
+			icon: { id: "apothic_enchanting:ender_library" }
 			id: "6D39E8BD0BD78A8E"
 			tasks: [{
 				id: "5882F72A39FE174F"
@@ -296,13 +294,15 @@
 		}
 		{
 			dependencies: ["059B625288CE656A"]
-			icon: {
-				id: "apothic_enchanting:helmet_tome"
-			}
+			icon: { id: "apothic_enchanting:helmet_tome" }
 			id: "05334CEDD6D1FF3A"
 			tasks: [{
 				id: "45F1BAEA0D09C6DA"
-				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:helmet_tome)item(apothic_enchanting:chestplate_tome)item(apothic_enchanting:leggings_tome)item(apothic_enchanting:boots_tome))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:helmet_tome)item(apothic_enchanting:chestplate_tome)item(apothic_enchanting:leggings_tome)item(apothic_enchanting:boots_tome))" }
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
 				type: "item"
 			}]
 			x: 6.0d
@@ -310,9 +310,7 @@
 		}
 		{
 			dependencies: ["059B625288CE656A"]
-			icon: {
-				id: "apothic_enchanting:weapon_tome"
-			}
+			icon: { id: "apothic_enchanting:weapon_tome" }
 			id: "0F9F3967CD459DA6"
 			tasks: [
 				{
@@ -331,9 +329,7 @@
 		}
 		{
 			dependencies: ["059B625288CE656A"]
-			icon: {
-				id: "apothic_enchanting:pickaxe_tome"
-			}
+			icon: { id: "apothic_enchanting:pickaxe_tome" }
 			id: "1294E3322EFF5223"
 			tasks: [
 				{
@@ -357,9 +353,7 @@
 		}
 		{
 			dependencies: ["23FC33F83ACFC5C0"]
-			icon: {
-				id: "apothic_enchanting:improved_scrap_tome"
-			}
+			icon: { id: "apothic_enchanting:improved_scrap_tome" }
 			id: "36530CC20B0D2324"
 			tasks: [{
 				id: "306F1C5580C6A2B4"
@@ -371,9 +365,7 @@
 		}
 		{
 			dependencies: ["36530CC20B0D2324"]
-			icon: {
-				id: "apothic_enchanting:extraction_tome"
-			}
+			icon: { id: "apothic_enchanting:extraction_tome" }
 			id: "58F3A6DAABAC505E"
 			tasks: [{
 				id: "6CD478EA0DD63DCB"
@@ -399,7 +391,11 @@
 			id: "596EE214DE2D3ADB"
 			tasks: [{
 				id: "04399D7F6B91E05E"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:candles)item(minecraft:zombie_head)item(minecraft:creeper_head)item(minecraft:piglin_head)item(minecraft:wither_skeleton_skull))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:candles)item(minecraft:zombie_head)item(minecraft:creeper_head)item(minecraft:piglin_head)item(minecraft:wither_skeleton_skull))" }
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
 				type: "item"
 			}]
 			x: 6.0d
@@ -410,10 +406,7 @@
 			rewards: [
 				{
 					id: "595E44746F81A299"
-					item: {
-						count: 1
-						id: "apotheosis:spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:spawner_rune" }
 					type: "item"
 				}
 				{
@@ -438,10 +431,7 @@
 			rewards: [
 				{
 					id: "39DDDC6D84A39B15"
-					item: {
-						count: 1
-						id: "apotheosis:frontier_spawner_upgrade_rune"
-					}
+					item: { count: 1, id: "apotheosis:frontier_spawner_upgrade_rune" }
 					type: "item"
 				}
 				{
@@ -464,10 +454,7 @@
 			rewards: [
 				{
 					id: "4A5012B10CCC5552"
-					item: {
-						count: 1
-						id: "apotheosis:ascent_spawner_upgrade_rune"
-					}
+					item: { count: 1, id: "apotheosis:ascent_spawner_upgrade_rune" }
 					type: "item"
 				}
 				{
@@ -490,10 +477,7 @@
 			rewards: [
 				{
 					id: "73D0F5130D4B6A64"
-					item: {
-						count: 1
-						id: "apotheosis:summit_spawner_upgrade_rune"
-					}
+					item: { count: 1, id: "apotheosis:summit_spawner_upgrade_rune" }
 					type: "item"
 				}
 				{
@@ -516,10 +500,7 @@
 			rewards: [
 				{
 					id: "37CAF00F8BDE2372"
-					item: {
-						count: 1
-						id: "apotheosis:pinnacle_spawner_upgrade_rune"
-					}
+					item: { count: 1, id: "apotheosis:pinnacle_spawner_upgrade_rune" }
 					type: "item"
 				}
 				{
@@ -542,10 +523,7 @@
 			rewards: [
 				{
 					id: "2CBDA765AFAB7ACA"
-					item: {
-						count: 1
-						id: "apotheosis:youthful_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:youthful_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -568,10 +546,7 @@
 			rewards: [
 				{
 					id: "0145ECACB2AD5484"
-					item: {
-						count: 1
-						id: "apotheosis:spawn_range_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:spawn_range_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -594,10 +569,7 @@
 			rewards: [
 				{
 					id: "60C5DFD793D60EED"
-					item: {
-						count: 1
-						id: "apotheosis:silent_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:silent_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -620,10 +592,7 @@
 			rewards: [
 				{
 					id: "59F364303758B897"
-					item: {
-						count: 1
-						id: "apotheosis:redstone_control_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:redstone_control_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -646,10 +615,7 @@
 			rewards: [
 				{
 					id: "6F52899624FFA29B"
-					item: {
-						count: 1
-						id: "apotheosis:no_ai_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:no_ai_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -672,10 +638,7 @@
 			rewards: [
 				{
 					id: "160EAAFD6B2F07B7"
-					item: {
-						count: 1
-						id: "apotheosis:initial_health_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:initial_health_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -698,10 +661,7 @@
 			rewards: [
 				{
 					id: "1A81183CB122F969"
-					item: {
-						count: 1
-						id: "apotheosis:ignore_players_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:ignore_players_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -724,10 +684,7 @@
 			rewards: [
 				{
 					id: "6F585AAA8C19B718"
-					item: {
-						count: 1
-						id: "apotheosis:ignore_light_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:ignore_light_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -750,10 +707,7 @@
 			rewards: [
 				{
 					id: "30619606A0380AA2"
-					item: {
-						count: 1
-						id: "apotheosis:ignore_conditions_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:ignore_conditions_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -776,10 +730,7 @@
 			rewards: [
 				{
 					id: "734A8B86C8212BB3"
-					item: {
-						count: 1
-						id: "apotheosis:echoing_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:echoing_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -802,10 +753,7 @@
 			rewards: [
 				{
 					id: "3C67A81370103981"
-					item: {
-						count: 1
-						id: "apotheosis:burning_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:burning_spawner_rune" }
 					type: "item"
 				}
 				{
@@ -828,10 +776,7 @@
 			rewards: [
 				{
 					id: "6BC2DFE0BAFFE09B"
-					item: {
-						count: 1
-						id: "apotheosis:infused_spawner_rune"
-					}
+					item: { count: 1, id: "apotheosis:infused_spawner_rune" }
 					type: "item"
 				}
 				{

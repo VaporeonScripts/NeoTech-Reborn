@@ -2,21 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "applied_energistics_2"
-	group: ""
-	icon: {
-		id: "ae2:charged_certus_quartz_crystal"
-	}
+	group: "2401AD943A650627"
+	icon: { id: "ae2:charged_certus_quartz_crystal" }
 	id: "44E744AB981F6A55"
 	images: [ ]
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "1FD78504D48D3F65"
-			tasks: [{
-				id: "1562E21A3DD9FD83"
-				type: "checkmark"
-			}]
+			tasks: [{ id: "1562E21A3DD9FD83", type: "checkmark" }]
 			x: 3.0d
 			y: 0.5d
 		}
@@ -78,10 +73,7 @@
 			rewards: [{
 				count: 3
 				id: "69A58DF8A7C20C59"
-				item: {
-					count: 1
-					id: "ae2:printed_calculation_processor"
-				}
+				item: { count: 1, id: "ae2:printed_calculation_processor" }
 				type: "item"
 			}]
 			tasks: [{
@@ -98,10 +90,7 @@
 			rewards: [{
 				count: 3
 				id: "04058A08AD735A96"
-				item: {
-					count: 1
-					id: "ae2:printed_engineering_processor"
-				}
+				item: { count: 1, id: "ae2:printed_engineering_processor" }
 				type: "item"
 			}]
 			tasks: [{
@@ -118,10 +107,7 @@
 			rewards: [{
 				count: 3
 				id: "1B820C2D0A82691C"
-				item: {
-					count: 1
-					id: "ae2:printed_logic_processor"
-				}
+				item: { count: 1, id: "ae2:printed_logic_processor" }
 				type: "item"
 			}]
 			tasks: [{
@@ -139,19 +125,13 @@
 				{
 					count: 9
 					id: "1602C50160D14C36"
-					item: {
-						count: 1
-						id: "ae2:printed_silicon"
-					}
+					item: { count: 1, id: "ae2:printed_silicon" }
 					type: "item"
 				}
 				{
 					count: 9
 					id: "06EC325966274987"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
+					item: { count: 1, id: "minecraft:redstone" }
 					type: "item"
 				}
 			]
@@ -198,9 +178,7 @@
 		}
 		{
 			dependencies: ["7D0C5977BAFE0157"]
-			icon: {
-				id: "ae2:charged_certus_quartz_crystal"
-			}
+			icon: { id: "ae2:charged_certus_quartz_crystal" }
 			id: "51923E16358CAEA6"
 			tasks: [{
 				id: "4DE233F724B9DEC6"
@@ -212,9 +190,7 @@
 		}
 		{
 			dependencies: ["51923E16358CAEA6"]
-			icon: {
-				id: "ae2:fluix_crystal"
-			}
+			icon: { id: "ae2:fluix_crystal" }
 			id: "0A5D9A846FAFF859"
 			tasks: [{
 				id: "6850C13FCF7B7D39"
@@ -226,9 +202,7 @@
 		}
 		{
 			dependencies: ["7D0C5977BAFE0157"]
-			icon: {
-				id: "ae2:quartz_fiber"
-			}
+			icon: { id: "ae2:quartz_fiber" }
 			id: "5B836FFF1D589FB8"
 			tasks: [{
 				id: "6DA63097FE613DDA"
@@ -240,9 +214,7 @@
 		}
 		{
 			dependencies: ["0A5D9A846FAFF859"]
-			icon: {
-				id: "ae2:fluix_glass_cable"
-			}
+			icon: { id: "ae2:fluix_glass_cable" }
 			id: "007BAD376131FFB9"
 			tasks: [{
 				id: "006BF2F210F419DF"
@@ -254,9 +226,7 @@
 		}
 		{
 			dependencies: ["04F8E790B6B969C1"]
-			icon: {
-				id: "ae2:dense_energy_cell"
-			}
+			icon: { id: "ae2:dense_energy_cell" }
 			id: "539E860FE450D437"
 			tasks: [{
 				id: "519A14A160978E07"
@@ -268,9 +238,7 @@
 		}
 		{
 			dependencies: ["7D0C5977BAFE0157"]
-			icon: {
-				id: "ae2:item_cell_housing"
-			}
+			icon: { id: "ae2:item_cell_housing" }
 			id: "5E6531ACFF7B13EB"
 			tasks: [{
 				id: "114F93040A43BF95"
@@ -281,9 +249,7 @@
 			y: -1.0d
 		}
 		{
-			icon: {
-				id: "ae2:item_storage_cell_1k"
-			}
+			icon: { id: "ae2:item_storage_cell_1k" }
 			id: "5D91D93192325C15"
 			tasks: [{
 				id: "5E5FD672524F5816"
@@ -295,9 +261,7 @@
 		}
 		{
 			dependencies: ["007BAD376131FFB9"]
-			icon: {
-				id: "ae2:controller"
-			}
+			icon: { id: "ae2:controller" }
 			id: "64876E4A94758E1C"
 			tasks: [
 				{
@@ -336,9 +300,7 @@
 		}
 		{
 			dependencies: ["04F8E790B6B969C1"]
-			icon: {
-				id: "ae2:crafting_terminal"
-			}
+			icon: { id: "ae2:crafting_terminal" }
 			id: "25A3B35B337A45CB"
 			tasks: [{
 				id: "006EDA6317992985"
@@ -349,9 +311,7 @@
 			y: -1.5d
 		}
 		{
-			icon: {
-				id: "ae2:import_bus"
-			}
+			icon: { id: "ae2:import_bus" }
 			id: "5A7A1F75252F820E"
 			tasks: [{
 				id: "38EF9E6FD0C8BCED"
@@ -362,9 +322,7 @@
 			y: 2.0d
 		}
 		{
-			icon: {
-				id: "ae2:export_bus"
-			}
+			icon: { id: "ae2:export_bus" }
 			id: "46F11C259FC72F5D"
 			tasks: [{
 				id: "7D52423319C16F3A"
@@ -375,9 +333,7 @@
 			y: 3.5d
 		}
 		{
-			icon: {
-				id: "ae2:molecular_assembler"
-			}
+			icon: { id: "ae2:molecular_assembler" }
 			id: "2B8651AF164921EA"
 			tasks: [{
 				id: "21BCA41AE4439CCA"
@@ -388,9 +344,7 @@
 			y: 2.0d
 		}
 		{
-			icon: {
-				id: "ae2:pattern_provider"
-			}
+			icon: { id: "ae2:pattern_provider" }
 			id: "3101B52EA9E2145C"
 			tasks: [{
 				id: "402669416998C5EB"
@@ -401,13 +355,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"25A3B35B337A45CB"
-				"4373ED4700D90FC3"
-			]
-			icon: {
-				id: "ae2:pattern_encoding_terminal"
-			}
+			dependencies: ["25A3B35B337A45CB" "4373ED4700D90FC3"]
+			icon: { id: "ae2:pattern_encoding_terminal" }
 			id: "2271BF34DE180569"
 			tasks: [{
 				id: "6590F2C322955FF5"
@@ -419,9 +368,7 @@
 		}
 		{
 			dependencies: ["29DBDBD72FFB3B0A"]
-			icon: {
-				id: "ae2:crafting_unit"
-			}
+			icon: { id: "ae2:crafting_unit" }
 			id: "171D5D4D3055AB9A"
 			tasks: [
 				{
@@ -450,9 +397,7 @@
 		}
 		{
 			dependencies: ["0A5D9A846FAFF859"]
-			icon: {
-				id: "ae2:fluix_pearl"
-			}
+			icon: { id: "ae2:fluix_pearl" }
 			id: "2A60F513EF50520E"
 			tasks: [{
 				id: "296541FF575D0A0E"
@@ -464,9 +409,7 @@
 		}
 		{
 			dependencies: ["25A3B35B337A45CB"]
-			icon: {
-				id: "ae2:wireless_crafting_terminal"
-			}
+			icon: { id: "ae2:wireless_crafting_terminal" }
 			id: "0F222D07634017A9"
 			tasks: [{
 				id: "37885484FD9A8C10"
@@ -477,9 +420,7 @@
 			y: -3.5d
 		}
 		{
-			icon: {
-				id: "ae2:1k_crafting_storage"
-			}
+			icon: { id: "ae2:1k_crafting_storage" }
 			id: "29DBDBD72FFB3B0A"
 			tasks: [{
 				id: "3F745DC84BB68178"
@@ -600,10 +541,7 @@
 			rewards: [{
 				count: 2
 				id: "44B3A4BB5143A52F"
-				item: {
-					count: 1
-					id: "ae2:printed_silicon"
-				}
+				item: { count: 1, id: "ae2:printed_silicon" }
 				type: "item"
 			}]
 			tasks: [{
@@ -694,15 +632,6 @@
 		{
 			dependencies: ["413E8E13A187A52D"]
 			id: "187F2F47EDB2629E"
-			rewards: [{
-				id: "4AD3A6EC833CD88E"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -712,16 +641,20 @@
 			}]
 			x: 33.0d
 			y: 10.7d
+			rewards: [{
+				count: 1
+				id: "4AD3A6EC833CD88E"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			id: "70D80C15C1E42E9E"
 			rewards: [{
 				count: 3
 				id: "675849D1CADCD18A"
-				item: {
-					count: 1
-					id: "ae2:fluix_dust"
-				}
+				item: { count: 1, id: "ae2:fluix_dust" }
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -749,15 +682,6 @@
 		{
 			dependencies: ["187F2F47EDB2629E"]
 			id: "0E06644FC1B0D341"
-			rewards: [{
-				id: "11994B6C0706DD4D"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -767,6 +691,13 @@
 			}]
 			x: 35.0d
 			y: 12.3d
+			rewards: [{
+				count: 1
+				id: "11994B6C0706DD4D"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["0E06644FC1B0D341"]
@@ -787,15 +718,6 @@
 		{
 			dependencies: ["0E06644FC1B0D341"]
 			id: "285A43D3899B024F"
-			rewards: [{
-				id: "35D8606D4EDAC77A"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -805,19 +727,17 @@
 			}]
 			x: 39.0d
 			y: 10.7d
+			rewards: [{
+				count: 1
+				id: "35D8606D4EDAC77A"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["285A43D3899B024F"]
 			id: "6265515BFE6B5CC2"
-			rewards: [{
-				id: "398528471C1698E2"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "24373095F8AD6DF3"
 				item: { count: 1, id: "megacells:cell_component_4m" }
@@ -825,19 +745,17 @@
 			}]
 			x: 41.0d
 			y: 13.9d
+			rewards: [{
+				count: 1
+				id: "398528471C1698E2"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["6265515BFE6B5CC2"]
 			id: "655C0FBF1FB00D89"
-			rewards: [{
-				id: "4FA793BA466AA210"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "66ACB239A8907178"
 				item: { count: 1, id: "megacells:cell_component_16m" }
@@ -845,19 +763,17 @@
 			}]
 			x: 43.0d
 			y: 15.5d
+			rewards: [{
+				count: 1
+				id: "4FA793BA466AA210"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["655C0FBF1FB00D89"]
 			id: "38853BDD58F19B1F"
-			rewards: [{
-				id: "1EBA5B0421023A31"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "4C0632156030D90F"
 				item: { count: 1, id: "megacells:cell_component_64m" }
@@ -865,19 +781,17 @@
 			}]
 			x: 45.0d
 			y: 17.1d
+			rewards: [{
+				count: 1
+				id: "1EBA5B0421023A31"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["38853BDD58F19B1F"]
 			id: "323DC671CF4F16C8"
-			rewards: [{
-				id: "69E8FE85AE93F427"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "13BFCCCCF744E82B"
 				item: { count: 1, id: "megacells:cell_component_256m" }
@@ -885,6 +799,13 @@
 			}]
 			x: 47.0d
 			y: 15.5d
+			rewards: [{
+				count: 1
+				id: "69E8FE85AE93F427"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["285A43D3899B024F"]
@@ -896,11 +817,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1354861386F16AC4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -923,11 +842,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3F6B61AAC6207DE8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -950,11 +867,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0B031A8DCF94259D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -977,11 +892,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2B2705BDB5AF2EEA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1004,11 +917,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5DF8A65A9A7C1658"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1281,10 +1192,7 @@
 			rewards: [{
 				count: 4
 				id: "3D697FF59337F1D4"
-				item: {
-					count: 1
-					id: "ae2:basic_card"
-				}
+				item: { count: 1, id: "ae2:basic_card" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1300,10 +1208,7 @@
 			id: "0F4F8377906C86C4"
 			rewards: [{
 				id: "14DB0A1A7FF7D0D6"
-				item: {
-					count: 1
-					id: "ae2:capacity_card"
-				}
+				item: { count: 1, id: "ae2:capacity_card" }
 				type: "item"
 			}]
 			tasks: [
@@ -1337,55 +1242,37 @@
 				{
 					count: 16
 					id: "53E2D2A09C8931EB"
-					item: {
-						count: 1
-						id: "minecraft:red_dye"
-					}
+					item: { count: 1, id: "minecraft:red_dye" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "3C7B3CC3D221E9D6"
-					item: {
-						count: 1
-						id: "minecraft:black_dye"
-					}
+					item: { count: 1, id: "minecraft:black_dye" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "47C224FD0AE7EE37"
-					item: {
-						count: 1
-						id: "minecraft:pink_dye"
-					}
+					item: { count: 1, id: "minecraft:pink_dye" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "014BAD1ADE624DF4"
-					item: {
-						count: 1
-						id: "minecraft:purple_dye"
-					}
+					item: { count: 1, id: "minecraft:purple_dye" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "0B8701EDC10F1EE6"
-					item: {
-						count: 1
-						id: "minecraft:blue_dye"
-					}
+					item: { count: 1, id: "minecraft:blue_dye" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "69B363EB90B9EC97"
-					item: {
-						count: 1
-						id: "minecraft:orange_dye"
-					}
+					item: { count: 1, id: "minecraft:orange_dye" }
 					type: "item"
 				}
 			]
@@ -1414,10 +1301,7 @@
 			rewards: [{
 				count: 2
 				id: "2E4CA18EB4B2F7AF"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
+				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
 			tasks: [
@@ -1451,10 +1335,7 @@
 			rewards: [{
 				count: 32
 				id: "341F753EAA87438A"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
-				}
+				item: { count: 1, id: "minecraft:glowstone_dust" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1470,10 +1351,7 @@
 			rewards: [{
 				count: 8
 				id: "3122C8BD2332A0ED"
-				item: {
-					count: 1
-					id: "ae2:fluix_smart_cable"
-				}
+				item: { count: 1, id: "ae2:fluix_smart_cable" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1490,10 +1368,7 @@
 			rewards: [{
 				count: 6
 				id: "54910A3BB833A22B"
-				item: {
-					count: 1
-					id: "ae2:fluix_crystal"
-				}
+				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1510,10 +1385,7 @@
 			rewards: [{
 				count: 64
 				id: "7A23FA8949E58ECA"
-				item: {
-					count: 1
-					id: "minecraft:iron_nugget"
-				}
+				item: { count: 1, id: "minecraft:iron_nugget" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1530,10 +1402,7 @@
 			rewards: [{
 				count: 6
 				id: "73CA30E7A18D0BCD"
-				item: {
-					count: 1
-					id: "ae2:fluix_crystal"
-				}
+				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1564,10 +1433,7 @@
 			rewards: [{
 				count: 2
 				id: "6ED98A1440240809"
-				item: {
-					count: 1
-					id: "ae2:me_p2p_tunnel"
-				}
+				item: { count: 1, id: "ae2:me_p2p_tunnel" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1606,10 +1472,7 @@
 			rewards: [{
 				count: 8
 				id: "61BE22A85122686A"
-				item: {
-					count: 1
-					id: "ae2:tiny_tnt"
-				}
+				item: { count: 1, id: "ae2:tiny_tnt" }
 				type: "item"
 			}]
 			tasks: [
@@ -1633,10 +1496,7 @@
 			rewards: [{
 				count: 16
 				id: "4BE2DB574B3F2B48"
-				item: {
-					count: 1
-					id: "ae2:certus_quartz_dust"
-				}
+				item: { count: 1, id: "ae2:certus_quartz_dust" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1652,10 +1512,7 @@
 			id: "16CE82DED0F5AA55"
 			rewards: [{
 				id: "539C597DAB1C55EA"
-				item: {
-					count: 1
-					id: "minecraft:anvil"
-				}
+				item: { count: 1, id: "minecraft:anvil" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1672,10 +1529,7 @@
 			rewards: [{
 				count: 6
 				id: "53C070CCB20D9B57"
-				item: {
-					count: 1
-					id: "ae2:fluix_crystal"
-				}
+				item: { count: 1, id: "ae2:fluix_crystal" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1691,10 +1545,7 @@
 			rewards: [{
 				count: 4
 				id: "1854E352B5E80DEE"
-				item: {
-					count: 1
-					id: "ae2:engineering_processor"
-				}
+				item: { count: 1, id: "ae2:engineering_processor" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1710,10 +1561,7 @@
 			id: "027B0CC766DB4A9C"
 			rewards: [{
 				id: "19DDBC492A1021BF"
-				item: {
-					count: 1
-					id: "ae2:spatial_pylon"
-				}
+				item: { count: 1, id: "ae2:spatial_pylon" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1739,10 +1587,7 @@
 			rewards: [{
 				count: 2
 				id: "0157768A143EDD3C"
-				item: {
-					count: 1
-					id: "ae2:advanced_card"
-				}
+				item: { count: 1, id: "ae2:advanced_card" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1893,10 +1738,7 @@
 			y: 20.3d
 		}
 		{
-			dependencies: [
-				"2BBE038357B06D7F"
-				"79DBC6A0539ADA92"
-			]
+			dependencies: ["2BBE038357B06D7F" "79DBC6A0539ADA92"]
 			id: "0EFEB33A89BBD57D"
 			rewards: [{
 				id: "50C50E2F3D459E6B"
@@ -2225,15 +2067,6 @@
 		{
 			dependencies: ["1AD2134BF5DA9515"]
 			id: "13DF5B6A31ADB780"
-			rewards: [{
-				id: "1CEEEE4885A0EB70"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "0645BEBE4488F492"
@@ -2258,6 +2091,13 @@
 			]
 			x: 33.0d
 			y: 37.9d
+			rewards: [{
+				count: 1
+				id: "1CEEEE4885A0EB70"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["3C3F8AF9841A1D11"]
@@ -2341,10 +2181,7 @@
 			rewards: [{
 				count: 15
 				id: "01C88E1D11ED5094"
-				item: {
-					count: 1
-					id: "ae2:blank_pattern"
-				}
+				item: { count: 1, id: "ae2:blank_pattern" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2405,10 +2242,7 @@
 			rewards: [{
 				count: 8
 				id: "430B2F0E5FA070D1"
-				item: {
-					count: 1
-					id: "ae2:wireless_booster"
-				}
+				item: { count: 1, id: "ae2:wireless_booster" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2434,7 +2268,11 @@
 			id: "46FD132CE008A57A"
 			tasks: [{
 				id: "212A3A951417E128"
-				item: { components: { "ftbfiltersystem:filter": "or(item(advanced_ae:small_adv_pattern_provider)item(advanced_ae:adv_pattern_provider))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					components: { "ftbfiltersystem:filter": "or(item(advanced_ae:small_adv_pattern_provider)item(advanced_ae:adv_pattern_provider))" }
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
 				type: "item"
 			}]
 			x: 19.0d
@@ -2493,11 +2331,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5B64ECE2C53B4267"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2520,11 +2356,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "330A0C0F6E8806CE"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2540,15 +2374,6 @@
 		{
 			dependencies: ["3C80BA4CD4E3205B"]
 			id: "2BC96850FFA89420"
-			rewards: [{
-				id: "5AFA28D0615FF74B"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "6ED551C32476422F"
@@ -2563,6 +2388,13 @@
 			]
 			x: 39.0d
 			y: 7.5d
+			rewards: [{
+				count: 1
+				id: "5AFA28D0615FF74B"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["285A43D3899B024F"]
@@ -2574,11 +2406,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7D638BD165BE07AE"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2614,28 +2444,19 @@
 				{
 					count: 3
 					id: "06B124DE111C0D52"
-					item: {
-						count: 1
-						id: "ae2:fluid_cell_housing"
-					}
+					item: { count: 1, id: "ae2:fluid_cell_housing" }
 					type: "item"
 				}
 				{
 					count: 3
 					id: "3D51C1AF14558F08"
-					item: {
-						count: 1
-						id: "appmek:chemical_cell_housing"
-					}
+					item: { count: 1, id: "appmek:chemical_cell_housing" }
 					type: "item"
 				}
 				{
 					count: 3
 					id: "51CC265AC02FEBC3"
-					item: {
-						count: 1
-						id: "ae2:item_cell_housing"
-					}
+					item: { count: 1, id: "ae2:item_cell_housing" }
 					type: "item"
 				}
 			]
@@ -2669,11 +2490,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1992121206612FBE"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2709,12 +2528,7 @@
 			y: 17.1d
 		}
 		{
-			dependencies: [
-				"4E0540CE9D67DFF2"
-				"6AD21696A3A815C9"
-				"57C22655F8E5774D"
-				"63048F22F1981561"
-			]
+			dependencies: ["4E0540CE9D67DFF2" "6AD21696A3A815C9" "57C22655F8E5774D" "63048F22F1981561"]
 			hide_dependency_lines: true
 			id: "640052AE59DB4B84"
 			rewards: [
@@ -2724,11 +2538,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "04C18F5535847024"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2756,7 +2568,11 @@
 				}
 				{
 					id: "26EF7B4F0E09EF04"
-					item: { components: { "ftbfiltersystem:filter": "or(item(advanced_ae:quantum_storage_128)item(advanced_ae:quantum_storage_256))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: {
+						components: { "ftbfiltersystem:filter": "or(item(advanced_ae:quantum_storage_128)item(advanced_ae:quantum_storage_256))" }
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
 					type: "item"
 				}
 				{

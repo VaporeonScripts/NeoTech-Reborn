@@ -2,13 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aether"
-	group: ""
-	icon: {
-		id: "minecraft:glowstone"
-	}
+	group: "49288E17E9D90688"
+	icon: { id: "minecraft:glowstone" }
 	id: "3FD2CE58197FEEC5"
 	images: [ ]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,10 +14,7 @@
 			rewards: [{
 				count: 4
 				id: "68E74946A779AA1C"
-				item: {
-					count: 1
-					id: "minecraft:glowstone"
-				}
+				item: { count: 1, id: "minecraft:glowstone" }
 				type: "item"
 			}]
 			tasks: [{
@@ -35,10 +30,7 @@
 			id: "3DBEC2403FEA3077"
 			rewards: [{
 				id: "083EF6D9D203B1C4"
-				item: {
-					count: 1
-					id: "aether:zanite_gemstone"
-				}
+				item: { count: 1, id: "aether:zanite_gemstone" }
 				random_bonus: 1
 				type: "item"
 			}]
@@ -55,10 +47,7 @@
 			id: "6114372D527B5903"
 			rewards: [{
 				id: "14234AD8060AD603"
-				item: {
-					count: 1
-					id: "minecraft:book"
-				}
+				item: { count: 1, id: "minecraft:book" }
 				type: "item"
 			}]
 			tasks: [{
@@ -75,10 +64,7 @@
 			rewards: [{
 				count: 3
 				id: "3AB6F0508562D90B"
-				item: {
-					count: 1
-					id: "minecraft:book"
-				}
+				item: { count: 1, id: "minecraft:book" }
 				type: "item"
 			}]
 			tasks: [{
@@ -95,10 +81,7 @@
 			rewards: [{
 				count: 6
 				id: "3A2E905F7C0CFFE4"
-				item: {
-					count: 1
-					id: "aether:holystone"
-				}
+				item: { count: 1, id: "aether:holystone" }
 				type: "item"
 			}]
 			tasks: [{
@@ -114,10 +97,7 @@
 			rewards: [{
 				count: 2
 				id: "69AFFC7BF1826067"
-				item: {
-					count: 1
-					id: "minecraft:ice"
-				}
+				item: { count: 1, id: "minecraft:ice" }
 				random_bonus: 1
 				type: "item"
 			}]
@@ -135,19 +115,13 @@
 				{
 					count: 2
 					id: "52D9E546A8601BFB"
-					item: {
-						count: 1
-						id: "minecraft:packed_ice"
-					}
+					item: { count: 1, id: "minecraft:packed_ice" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "5CA9274187346BA1"
-					item: {
-						count: 1
-						id: "minecraft:gold_ingot"
-					}
+					item: { count: 1, id: "minecraft:gold_ingot" }
 					random_bonus: 3
 					type: "item"
 				}
@@ -172,10 +146,7 @@
 				{
 					count: 2
 					id: "2E26ABBF82FB490C"
-					item: {
-						count: 1
-						id: "mekanism:ingot_bronze"
-					}
+					item: { count: 1, id: "mekanism:ingot_bronze" }
 					type: "item"
 				}
 				{
@@ -194,9 +165,7 @@
 			y: 3.2d
 		}
 		{
-			icon: {
-				id: "aether:gravitite_chestplate"
-			}
+			icon: { id: "aether:gravitite_chestplate" }
 			id: "16A30377B0DB77A3"
 			rewards: [{
 				id: "539BB41D378D70C1"
@@ -269,10 +238,7 @@
 				{
 					count: 3
 					id: "7E15DCFAA2729803"
-					item: {
-						count: 1
-						id: "minecraft:snow_block"
-					}
+					item: { count: 1, id: "minecraft:snow_block" }
 					type: "item"
 				}
 				{
@@ -295,10 +261,7 @@
 			rewards: [
 				{
 					id: "7B1DE778B171216A"
-					item: {
-						count: 1
-						id: "occultism:silver_block"
-					}
+					item: { count: 1, id: "occultism:silver_block" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -324,9 +287,7 @@
 					id: "5132BD36219052B3"
 					item: {
 						components: {
-							"minecraft:potion_contents": {
-								potion: "minecraft:long_regeneration"
-							}
+							"minecraft:potion_contents": { potion: "minecraft:long_regeneration" }
 						}
 						count: 1
 						id: "minecraft:potion"
@@ -352,10 +313,7 @@
 			rewards: [
 				{
 					id: "468F791FB2162852"
-					item: {
-						count: 1
-						id: "ascended_quark:valkyrie_pickarang"
-					}
+					item: { count: 1, id: "ascended_quark:valkyrie_pickarang" }
 					type: "item"
 				}
 				{
@@ -378,10 +336,7 @@
 			rewards: [
 				{
 					id: "30EB9703D8A3C5CA"
-					item: {
-						count: 1
-						id: "minecraft:gold_block"
-					}
+					item: { count: 1, id: "minecraft:gold_block" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -405,10 +360,7 @@
 			rewards: [
 				{
 					id: "75DDC6C2E853B361"
-					item: {
-						count: 1
-						id: "mekanismtools:osmium_hoe"
-					}
+					item: { count: 1, id: "mekanismtools:osmium_hoe" }
 					type: "item"
 				}
 				{
@@ -430,10 +382,7 @@
 			id: "3192E33EC2F3001B"
 			rewards: [{
 				id: "54E6B970A587B319"
-				item: {
-					count: 1
-					id: "comforts:sleeping_bag_orange"
-				}
+				item: { count: 1, id: "comforts:sleeping_bag_orange" }
 				type: "item"
 			}]
 			tasks: [{
@@ -486,18 +435,13 @@
 			y: 1.6d
 		}
 		{
-			icon: {
-				id: "aether:obsidian_chestplate"
-			}
+			icon: { id: "aether:obsidian_chestplate" }
 			id: "4B415299FF7EA8B6"
 			optional: true
 			rewards: [
 				{
 					id: "5693239251D957D2"
-					item: {
-						count: 1
-						id: "aether:obsidian_gloves"
-					}
+					item: { count: 1, id: "aether:obsidian_gloves" }
 					type: "item"
 				}
 				{
@@ -536,10 +480,7 @@
 			rewards: [{
 				count: 3
 				id: "301B728ECC4BE892"
-				item: {
-					count: 1
-					id: "aether:blue_aercloud"
-				}
+				item: { count: 1, id: "aether:blue_aercloud" }
 				type: "item"
 			}]
 			tasks: [{
@@ -577,18 +518,13 @@
 						"minecraft:fireworks": {
 							explosions: [
 								{
-									colors: [I;
-										16351261
-										13464641
-									]
-									fade_colors: [I;16383998]
+									colors: [I; 16351261, 13464641]
+									fade_colors: [I; 16383998]
 									has_trail: 1b
 									has_twinkle: 1b
 									shape: "small_ball"
 								}
-								{
-									shape: "star"
-								}
+								{ shape: "star" }
 							]
 						}
 					}
@@ -610,10 +546,7 @@
 			id: "546A74F503A75C96"
 			rewards: [{
 				id: "47A68B85F550A15D"
-				item: {
-					count: 1
-					id: "aether:aechor_petal"
-				}
+				item: { count: 1, id: "aether:aechor_petal" }
 				type: "item"
 			}]
 			tasks: [{
@@ -630,10 +563,7 @@
 				{
 					count: 2
 					id: "23E7BCD4C5D8CC15"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
+					item: { count: 1, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
@@ -663,17 +593,12 @@
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "deep_aether:stratus_chestplate"
-			}
+			icon: { id: "deep_aether:stratus_chestplate" }
 			id: "421F14535BF99CEF"
 			rewards: [
 				{
 					id: "4E8896A08BB839A5"
-					item: {
-						count: 1
-						id: "deep_aether:stratus_sword"
-					}
+					item: { count: 1, id: "deep_aether:stratus_sword" }
 					type: "item"
 				}
 				{
@@ -718,9 +643,7 @@
 				id: "6975D819E1AA6921"
 				item: {
 					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:swiftness"
-						}
+						"minecraft:potion_contents": { potion: "minecraft:swiftness" }
 					}
 					count: 1
 					id: "apotheosis:potion_charm"
@@ -741,18 +664,12 @@
 			rewards: [
 				{
 					id: "0E7FDB51FC11711B"
-					item: {
-						count: 1
-						id: "aether:netherite_gloves"
-					}
+					item: { count: 1, id: "aether:netherite_gloves" }
 					type: "item"
 				}
 				{
 					id: "5EBD62BC5934AB0D"
-					item: {
-						count: 1
-						id: "mysticalagriculture:glowstone_seeds"
-					}
+					item: { count: 1, id: "mysticalagriculture:glowstone_seeds" }
 					type: "item"
 				}
 				{
@@ -776,9 +693,7 @@
 				id: "24482409473BE54D"
 				item: {
 					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:poison"
-						}
+						"minecraft:potion_contents": { potion: "minecraft:poison" }
 					}
 					count: 1
 					id: "minecraft:potion"
@@ -799,10 +714,7 @@
 			rewards: [{
 				count: 12
 				id: "256C48D528488C29"
-				item: {
-					count: 1
-					id: "minecraft:bone_meal"
-				}
+				item: { count: 1, id: "minecraft:bone_meal" }
 				type: "item"
 			}]
 			tasks: [{
@@ -819,10 +731,7 @@
 			rewards: [{
 				count: 2
 				id: "68441067AA9B373A"
-				item: {
-					count: 1
-					id: "aether:swet_ball"
-				}
+				item: { count: 1, id: "aether:swet_ball" }
 				type: "item"
 			}]
 			tasks: [{
@@ -838,10 +747,7 @@
 			id: "7D5AB924D152BDB8"
 			rewards: [{
 				id: "49762EBCF88F6D19"
-				item: {
-					count: 1
-					id: "aether:gravitite_ore"
-				}
+				item: { count: 1, id: "aether:gravitite_ore" }
 				type: "item"
 			}]
 			tasks: [{

@@ -2,10 +2,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_nouveau"
-	group: ""
-	icon: {
-		id: "ars_nouveau:magebloom"
-	}
+	group: "5BC1E3118B4BBBD9"
+	icon: { id: "ars_nouveau:magebloom" }
 	id: "2EB9F6203D4EE929"
 	images: [ ]
 	order_index: 0
@@ -18,19 +16,13 @@
 				{
 					count: 4
 					id: "2A9B171072E831DF"
-					item: {
-						count: 1
-						id: "minecraft:iron_ore"
-					}
+					item: { count: 1, id: "minecraft:iron_ore" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "3EE15762872733DF"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
+					item: { count: 1, id: "minecraft:diamond" }
 					type: "item"
 				}
 			]
@@ -51,10 +43,7 @@
 			rewards: [{
 				count: 8
 				id: "02EABE13FB55B3CD"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem"
-				}
+				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -73,18 +62,12 @@
 			rewards: [
 				{
 					id: "4C0EC1F84DFF96D9"
-					item: {
-						count: 1
-						id: "minecraft:amethyst_block"
-					}
+					item: { count: 1, id: "minecraft:amethyst_block" }
 					type: "item"
 				}
 				{
 					id: "145234B0C8AC45F0"
-					item: {
-						count: 1
-						id: "minecraft:lapis_block"
-					}
+					item: { count: 1, id: "minecraft:lapis_block" }
 					type: "item"
 				}
 			]
@@ -105,19 +88,13 @@
 				{
 					count: 8
 					id: "19D770584564F5BD"
-					item: {
-						count: 1
-						id: "minecraft:glass"
-					}
+					item: { count: 1, id: "minecraft:glass" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "10551448B23F1435"
-					item: {
-						count: 1
-						id: "minecraft:gold_ingot"
-					}
+					item: { count: 1, id: "minecraft:gold_ingot" }
 					type: "item"
 				}
 			]
@@ -137,10 +114,7 @@
 			rewards: [{
 				count: 6
 				id: "047C49CC29FD4EC3"
-				item: {
-					count: 1
-					id: "minecraft:iron_ore"
-				}
+				item: { count: 1, id: "minecraft:iron_ore" }
 				type: "item"
 			}]
 			tasks: [
@@ -172,10 +146,7 @@
 			id: "365250D4F5B19F71"
 			rewards: [{
 				id: "3275B79494ACDE30"
-				item: {
-					count: 1
-					id: "minecraft:book"
-				}
+				item: { count: 1, id: "minecraft:book" }
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -194,10 +165,7 @@
 			rewards: [{
 				count: 2
 				id: "16CAF7267CDE1AF1"
-				item: {
-					count: 1
-					id: "ars_nouveau:sourcestone"
-				}
+				item: { count: 1, id: "ars_nouveau:sourcestone" }
 				type: "item"
 			}]
 			tasks: [{
@@ -216,18 +184,12 @@
 				{
 					count: 8
 					id: "3E08B8E6A4960F45"
-					item: {
-						count: 1
-						id: "ars_nouveau:gilded_sourcestone_small_bricks"
-					}
+					item: { count: 1, id: "ars_nouveau:gilded_sourcestone_small_bricks" }
 					type: "item"
 				}
 				{
 					id: "5946991817CA6AF2"
-					item: {
-						count: 1
-						id: "minecraft:gold_ingot"
-					}
+					item: { count: 1, id: "minecraft:gold_ingot" }
 					type: "item"
 				}
 			]
@@ -247,18 +209,12 @@
 			rewards: [
 				{
 					id: "04BCE941B39B5BB1"
-					item: {
-						count: 1
-						id: "ars_nouveau:sconce"
-					}
+					item: { count: 1, id: "ars_nouveau:sconce" }
 					type: "item"
 				}
 				{
 					id: "0D75AA324235CF60"
-					item: {
-						count: 1
-						id: "minecraft:gold_ingot"
-					}
+					item: { count: 1, id: "minecraft:gold_ingot" }
 					type: "item"
 				}
 			]
@@ -275,10 +231,7 @@
 			id: "2F070A65778E6176"
 			rewards: [{
 				id: "6D83906F740F3FF9"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_crop"
-				}
+				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
 				type: "item"
 			}]
 			tasks: [{
@@ -296,10 +249,7 @@
 				{
 					count: 8
 					id: "063A27C2F9424C73"
-					item: {
-						count: 1
-						id: "ars_nouveau:sourcestone"
-					}
+					item: { count: 1, id: "ars_nouveau:sourcestone" }
 					type: "item"
 				}
 				{
@@ -324,10 +274,7 @@
 			rewards: [{
 				count: 2
 				id: "3BF485437A61AC32"
-				item: {
-					count: 1
-					id: "minecraft:gold_ingot"
-				}
+				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
 			tasks: [{
@@ -358,10 +305,7 @@
 				{
 					count: 2
 					id: "04DD3CB8905A71C1"
-					item: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
+					item: { count: 1, id: "minecraft:blaze_rod" }
 					type: "item"
 				}
 				{
@@ -387,19 +331,13 @@
 				{
 					count: 2
 					id: "7BA14BB0B03B8BDC"
-					item: {
-						count: 1
-						id: "minecraft:fermented_spider_eye"
-					}
+					item: { count: 1, id: "minecraft:fermented_spider_eye" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "3854A90CF226D5E6"
-					item: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
+					item: { count: 1, id: "minecraft:blaze_rod" }
 					type: "item"
 				}
 			]
@@ -418,19 +356,13 @@
 				{
 					count: 5
 					id: "2341F8B25A13392B"
-					item: {
-						count: 1
-						id: "minecraft:wheat_seeds"
-					}
+					item: { count: 1, id: "minecraft:wheat_seeds" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "2A97F7E66A2684F9"
-					item: {
-						count: 1
-						id: "ars_nouveau:blue_archwood_sapling"
-					}
+					item: { count: 1, id: "ars_nouveau:blue_archwood_sapling" }
 					type: "item"
 				}
 			]
@@ -449,18 +381,12 @@
 				{
 					count: 9
 					id: "1B724B1663B94387"
-					item: {
-						count: 1
-						id: "minecraft:grass_block"
-					}
+					item: { count: 1, id: "minecraft:grass_block" }
 					type: "item"
 				}
 				{
 					id: "6640FCADC582AD31"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_berry_pie"
-					}
+					item: { count: 1, id: "ars_nouveau:source_berry_pie" }
 					type: "item"
 				}
 			]
@@ -478,10 +404,7 @@
 			rewards: [{
 				count: 5
 				id: "23D304F83CDAAFD8"
-				item: {
-					count: 1
-					id: "ars_nouveau:red_archwood_log"
-				}
+				item: { count: 1, id: "ars_nouveau:red_archwood_log" }
 				type: "item"
 			}]
 			tasks: [{
@@ -498,10 +421,7 @@
 			rewards: [{
 				count: 2
 				id: "34F1698D9FC26D73"
-				item: {
-					count: 1
-					id: "minecraft:cow_spawn_egg"
-				}
+				item: { count: 1, id: "minecraft:cow_spawn_egg" }
 				type: "item"
 			}]
 			tasks: [{
@@ -518,10 +438,7 @@
 			rewards: [{
 				count: 2
 				id: "2889A7086A85A5EF"
-				item: {
-					count: 1
-					id: "minecraft:chest"
-				}
+				item: { count: 1, id: "minecraft:chest" }
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -540,10 +457,7 @@
 			rewards: [{
 				count: 2
 				id: "51D0490F4393262E"
-				item: {
-					count: 1
-					id: "minecraft:hopper"
-				}
+				item: { count: 1, id: "minecraft:hopper" }
 				type: "item"
 			}]
 			tasks: [{
@@ -561,19 +475,13 @@
 				{
 					count: 2
 					id: "37F54E9CB06A4E72"
-					item: {
-						count: 1
-						id: "minecraft:lapis_lazuli"
-					}
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "0C96A447664EE356"
-					item: {
-						count: 1
-						id: "minecraft:quartz"
-					}
+					item: { count: 1, id: "minecraft:quartz" }
 					type: "item"
 				}
 			]
@@ -592,19 +500,13 @@
 				{
 					count: 2
 					id: "3645D42051D43503"
-					item: {
-						count: 1
-						id: "minecraft:ender_pearl"
-					}
+					item: { count: 1, id: "minecraft:ender_pearl" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "1EEF4093BC306607"
-					item: {
-						count: 1
-						id: "minecraft:popped_chorus_fruit"
-					}
+					item: { count: 1, id: "minecraft:popped_chorus_fruit" }
 					type: "item"
 				}
 			]
@@ -623,19 +525,13 @@
 				{
 					count: 8
 					id: "725EAC05C40FB411"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 				{
 					count: 8
 					id: "27ACED1BC54BEA22"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_berry_roll"
-					}
+					item: { count: 1, id: "ars_nouveau:source_berry_roll" }
 					type: "item"
 				}
 			]
@@ -654,19 +550,13 @@
 				{
 					count: 2
 					id: "55CA57B1E393C9A8"
-					item: {
-						count: 1
-						id: "minecraft:gold_ingot"
-					}
+					item: { count: 1, id: "minecraft:gold_ingot" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "2A0E4AB5C59B3082"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 			]
@@ -685,19 +575,13 @@
 				{
 					count: 4
 					id: "57FFB9D6DE9D491D"
-					item: {
-						count: 1
-						id: "ars_nouveau:green_archwood_log"
-					}
+					item: { count: 1, id: "ars_nouveau:green_archwood_log" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "6722F6CE231BE2B5"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 			]
@@ -718,10 +602,7 @@
 				{
 					count: 8
 					id: "1F58709BC30CB97C"
-					item: {
-						count: 1
-						id: "minecraft:paper"
-					}
+					item: { count: 1, id: "minecraft:paper" }
 					type: "item"
 				}
 				{
@@ -730,11 +611,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "004F800B80289E32"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -756,26 +635,18 @@
 				{
 					count: 4
 					id: "505E73F1F49C8F9C"
-					item: {
-						count: 1
-						id: "minecraft:sugar_cane"
-					}
+					item: { count: 1, id: "minecraft:sugar_cane" }
 					type: "item"
 				}
 				{
 					id: "20B931604AE8461E"
-					item: {
-						count: 1
-						id: "ars_nouveau:magebloom_crop"
-					}
+					item: { count: 1, id: "ars_nouveau:magebloom_crop" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "23D516DDD9E2EC8D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -794,10 +665,7 @@
 			id: "4E72552F0B4702D2"
 			rewards: [{
 				id: "054B61353F3F3707"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
-				}
+				item: { count: 1, id: "minecraft:emerald" }
 				type: "item"
 			}]
 			tasks: [{
@@ -815,18 +683,12 @@
 				{
 					count: 8
 					id: "125AD4193FE25E67"
-					item: {
-						count: 1
-						id: "minecraft:glass_bottle"
-					}
+					item: { count: 1, id: "minecraft:glass_bottle" }
 					type: "item"
 				}
 				{
 					id: "49E18023147E556A"
-					item: {
-						count: 1
-						id: "minecraft:potion"
-					}
+					item: { count: 1, id: "minecraft:potion" }
 					type: "item"
 				}
 			]
@@ -843,10 +705,7 @@
 			rewards: [{
 				count: 9
 				id: "3919CB10B8F098B7"
-				item: {
-					count: 1
-					id: "minecraft:gold_nugget"
-				}
+				item: { count: 1, id: "minecraft:gold_nugget" }
 				type: "item"
 			}]
 			tasks: [{
@@ -863,10 +722,7 @@
 			rewards: [{
 				count: 2
 				id: "29B125B322375D32"
-				item: {
-					count: 1
-					id: "ars_nouveau:archwood_chest"
-				}
+				item: { count: 1, id: "ars_nouveau:archwood_chest" }
 				type: "item"
 			}]
 			tasks: [{
@@ -883,18 +739,12 @@
 				{
 					count: 8
 					id: "33D20E1C50FCF8DE"
-					item: {
-						count: 1
-						id: "minecraft:carrot"
-					}
+					item: { count: 1, id: "minecraft:carrot" }
 					type: "item"
 				}
 				{
 					id: "15632B2E6B05178F"
-					item: {
-						count: 1
-						id: "minecraft:golden_carrot"
-					}
+					item: { count: 1, id: "minecraft:golden_carrot" }
 					type: "item"
 				}
 			]
@@ -913,19 +763,13 @@
 				{
 					count: 2
 					id: "4AC6215CCF03BACA"
-					item: {
-						count: 1
-						id: "ars_nouveau:archwood_chest"
-					}
+					item: { count: 1, id: "ars_nouveau:archwood_chest" }
 					type: "item"
 				}
 				{
 					count: 8
 					id: "353BDA303D6523E6"
-					item: {
-						count: 1
-						id: "minecraft:mossy_cobblestone"
-					}
+					item: { count: 1, id: "minecraft:mossy_cobblestone" }
 					type: "item"
 				}
 			]
@@ -944,26 +788,18 @@
 				{
 					count: 8
 					id: "659973EE2D171EC8"
-					item: {
-						count: 1
-						id: "minecraft:paper"
-					}
+					item: { count: 1, id: "minecraft:paper" }
 					type: "item"
 				}
 				{
 					id: "1F14DDB1884C6264"
-					item: {
-						count: 1
-						id: "minecraft:redstone_block"
-					}
+					item: { count: 1, id: "minecraft:redstone_block" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "6AEF3748074206E2"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -985,26 +821,18 @@
 				{
 					count: 8
 					id: "0C7153A46043F080"
-					item: {
-						count: 1
-						id: "minecraft:paper"
-					}
+					item: { count: 1, id: "minecraft:paper" }
 					type: "item"
 				}
 				{
 					id: "49A7B0DE049404D9"
-					item: {
-						count: 1
-						id: "minecraft:bookshelf"
-					}
+					item: { count: 1, id: "minecraft:bookshelf" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "3FA29D07F5097B4F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1024,18 +852,13 @@
 				{
 					count: 2
 					id: "1A921FFC4A7951B0"
-					item: {
-						count: 1
-						id: "ars_nouveau:spell_parchment"
-					}
+					item: { count: 1, id: "ars_nouveau:spell_parchment" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "656EA0742C34BF1C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1054,19 +877,13 @@
 			rewards: [
 				{
 					id: "2AD501265C3A34F5"
-					item: {
-						count: 1
-						id: "minecraft:budding_amethyst"
-					}
+					item: { count: 1, id: "minecraft:budding_amethyst" }
 					type: "item"
 				}
 				{
 					count: 8
 					id: "01527BC3D6A754AA"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_berry_roll"
-					}
+					item: { count: 1, id: "ars_nouveau:source_berry_roll" }
 					type: "item"
 				}
 			]
@@ -1084,10 +901,7 @@
 			rewards: [{
 				count: 2
 				id: "12F5AD9902DA7E5D"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem_block"
-				}
+				item: { count: 1, id: "ars_nouveau:source_gem_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1105,26 +919,18 @@
 				{
 					count: 8
 					id: "0D97EDBCCE864060"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 				{
 					id: "239BCCA8BF3C10A7"
-					item: {
-						count: 1
-						id: "ars_nouveau:blank_glyph"
-					}
+					item: { count: 1, id: "ars_nouveau:blank_glyph" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "187A3F9AD0380CFB"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1144,19 +950,13 @@
 				{
 					count: 8
 					id: "493F0B8CE89ED3F9"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 				{
 					count: 8
 					id: "16BDF261775697B9"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_berry_pie"
-					}
+					item: { count: 1, id: "ars_nouveau:source_berry_pie" }
 					type: "item"
 				}
 			]
@@ -1175,27 +975,19 @@
 				{
 					count: 2
 					id: "191C8DFDC856CFD2"
-					item: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
+					item: { count: 1, id: "minecraft:blaze_rod" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "142FE96FB0C1CB8D"
-					item: {
-						count: 1
-						id: "ars_nouveau:magebloom_fiber"
-					}
+					item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "7FB57C5781DF6383"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1217,18 +1009,12 @@
 			rewards: [
 				{
 					id: "1C0E29CF61453438"
-					item: {
-						count: 1
-						id: "minecraft:ender_pearl"
-					}
+					item: { count: 1, id: "minecraft:ender_pearl" }
 					type: "item"
 				}
 				{
 					id: "53FA6805082682AF"
-					item: {
-						count: 1
-						id: "minecraft:emerald"
-					}
+					item: { count: 1, id: "minecraft:emerald" }
 					type: "item"
 				}
 			]
@@ -1257,10 +1043,7 @@
 			rewards: [{
 				count: 4
 				id: "7D75C3C53EE8D979"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_fiber"
-				}
+				item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1277,10 +1060,7 @@
 			rewards: [{
 				count: 4
 				id: "518F0CDA8010FB58"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_fiber"
-				}
+				item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1298,19 +1078,13 @@
 				{
 					count: 2
 					id: "7556110C285C266E"
-					item: {
-						count: 1
-						id: "ars_nouveau:archwood_chest"
-					}
+					item: { count: 1, id: "ars_nouveau:archwood_chest" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "3404FF7851D4569C"
-					item: {
-						count: 1
-						id: "ars_nouveau:magebloom_fiber"
-					}
+					item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
 					type: "item"
 				}
 			]
@@ -1327,19 +1101,13 @@
 			rewards: [
 				{
 					id: "6179127CA5E4357F"
-					item: {
-						count: 1
-						id: "minecraft:oak_sapling"
-					}
+					item: { count: 1, id: "minecraft:oak_sapling" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "1A8C59BB297F8ED4"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 			]
@@ -1356,10 +1124,7 @@
 			id: "36C2663C56364BE9"
 			rewards: [{
 				id: "02D04D07178177FC"
-				item: {
-					count: 1
-					id: "minecraft:potion"
-				}
+				item: { count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1375,18 +1140,12 @@
 			rewards: [
 				{
 					id: "0CA65D6A81B5B04B"
-					item: {
-						count: 1
-						id: "minecraft:lingering_potion"
-					}
+					item: { count: 1, id: "minecraft:lingering_potion" }
 					type: "item"
 				}
 				{
 					id: "0F238150DFB68C9B"
-					item: {
-						count: 1
-						id: "minecraft:stone_pressure_plate"
-					}
+					item: { count: 1, id: "minecraft:stone_pressure_plate" }
 					type: "item"
 				}
 			]
@@ -1412,10 +1171,7 @@
 			id: "3FFCACDBC7FDA173"
 			rewards: [{
 				id: "10AAA37C85BC7691"
-				item: {
-					count: 1
-					id: "minecraft:stone_pressure_plate"
-				}
+				item: { count: 1, id: "minecraft:stone_pressure_plate" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1431,10 +1187,7 @@
 			rewards: [{
 				count: 4
 				id: "3F53356C1059179F"
-				item: {
-					count: 1
-					id: "minecraft:cooked_cod"
-				}
+				item: { count: 1, id: "minecraft:cooked_cod" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1450,10 +1203,7 @@
 			rewards: [{
 				count: 2
 				id: "065F5F42F7A493FA"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1469,10 +1219,7 @@
 			rewards: [{
 				count: 4
 				id: "54E9DE29A5E3DF0A"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
+				item: { count: 1, id: "minecraft:glass" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1488,10 +1235,7 @@
 			rewards: [{
 				count: 8
 				id: "1D60EEA8CE4E1B01"
-				item: {
-					count: 1
-					id: "minecraft:torch"
-				}
+				item: { count: 1, id: "minecraft:torch" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1507,10 +1251,7 @@
 			rewards: [{
 				count: 8
 				id: "3B92D3B462229E15"
-				item: {
-					count: 1
-					id: "minecraft:dirt"
-				}
+				item: { count: 1, id: "minecraft:dirt" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1526,10 +1267,7 @@
 			rewards: [{
 				count: 4
 				id: "24912D0E2BC45C5B"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1544,10 +1282,7 @@
 			id: "301D72ED46635A99"
 			rewards: [{
 				id: "3DC17AEAFC1B8CB2"
-				item: {
-					count: 1
-					id: "minecraft:redstone_block"
-				}
+				item: { count: 1, id: "minecraft:redstone_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1562,10 +1297,7 @@
 			id: "5ED01C913DDE8FCB"
 			rewards: [{
 				id: "2A2A56E63B6BDA09"
-				item: {
-					count: 1
-					id: "minecraft:milk_bucket"
-				}
+				item: { count: 1, id: "minecraft:milk_bucket" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1580,10 +1312,7 @@
 			id: "6A57357AFB68EB68"
 			rewards: [{
 				id: "4E7E482CAD8E9BE7"
-				item: {
-					count: 1
-					id: "minecraft:sponge"
-				}
+				item: { count: 1, id: "minecraft:sponge" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1598,10 +1327,7 @@
 			id: "27DD33AE9F6D26B2"
 			rewards: [{
 				id: "13E2A03573A204C6"
-				item: {
-					count: 1
-					id: "minecraft:snow_block"
-				}
+				item: { count: 1, id: "minecraft:snow_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1616,10 +1342,7 @@
 			id: "2D9C8B320D9792C1"
 			rewards: [{
 				id: "70E42E3129A7A565"
-				item: {
-					count: 1
-					id: "minecraft:iron_sword"
-				}
+				item: { count: 1, id: "minecraft:iron_sword" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1635,10 +1358,7 @@
 			rewards: [{
 				count: 4
 				id: "19E17BACF319CB72"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1654,10 +1374,7 @@
 			rewards: [{
 				count: 8
 				id: "599E6D7C0C25AE96"
-				item: {
-					count: 1
-					id: "minecraft:coal"
-				}
+				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1673,10 +1390,7 @@
 			rewards: [{
 				count: 4
 				id: "1B51460FAA86B608"
-				item: {
-					count: 1
-					id: "minecraft:oak_log"
-				}
+				item: { count: 1, id: "minecraft:oak_log" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1691,10 +1405,7 @@
 			id: "2E84C8F00822E8E7"
 			rewards: [{
 				id: "622488065473E90E"
-				item: {
-					count: 1
-					id: "minecraft:hopper"
-				}
+				item: { count: 1, id: "minecraft:hopper" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1709,10 +1420,7 @@
 			id: "1BE1EF2602228D48"
 			rewards: [{
 				id: "500B4999B34FEB37"
-				item: {
-					count: 1
-					id: "minecraft:piston"
-				}
+				item: { count: 1, id: "minecraft:piston" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1727,10 +1435,7 @@
 			id: "4590F5422A848829"
 			rewards: [{
 				id: "29CF965EA98C53E4"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_hide"
-				}
+				item: { count: 1, id: "minecraft:rabbit_hide" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1746,10 +1451,7 @@
 			rewards: [{
 				count: 8
 				id: "6079A28EDB791D5D"
-				item: {
-					count: 1
-					id: "minecraft:cobblestone"
-				}
+				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1764,10 +1466,7 @@
 			id: "60CCE0548A624AC1"
 			rewards: [{
 				id: "2302F14FAB85AC7E"
-				item: {
-					count: 1
-					id: "ars_nouveau:wilden_wing"
-				}
+				item: { count: 1, id: "ars_nouveau:wilden_wing" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1783,10 +1482,7 @@
 			rewards: [{
 				count: 4
 				id: "6061C88BC1D8C14B"
-				item: {
-					count: 1
-					id: "minecraft:oak_log"
-				}
+				item: { count: 1, id: "minecraft:oak_log" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1801,10 +1497,7 @@
 			id: "26546192A8EB52F1"
 			rewards: [{
 				id: "0C7D34FED02EA8F7"
-				item: {
-					count: 1
-					id: "minecraft:redstone_block"
-				}
+				item: { count: 1, id: "minecraft:redstone_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1820,10 +1513,7 @@
 			rewards: [{
 				count: 8
 				id: "17420CCBB588F3A3"
-				item: {
-					count: 1
-					id: "minecraft:bone_meal"
-				}
+				item: { count: 1, id: "minecraft:bone_meal" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1839,10 +1529,7 @@
 			rewards: [{
 				count: 2
 				id: "4865CA572B58B54F"
-				item: {
-					count: 1
-					id: "minecraft:cobweb"
-				}
+				item: { count: 1, id: "minecraft:cobweb" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1858,10 +1545,7 @@
 			rewards: [{
 				count: 2
 				id: "6E05D0CADF0BFCF5"
-				item: {
-					count: 1
-					id: "minecraft:leather"
-				}
+				item: { count: 1, id: "minecraft:leather" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1877,10 +1561,7 @@
 			rewards: [{
 				count: 4
 				id: "145305163989B98C"
-				item: {
-					count: 1
-					id: "minecraft:bone"
-				}
+				item: { count: 1, id: "minecraft:bone" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1895,10 +1576,7 @@
 			id: "29B11DA9B93E295F"
 			rewards: [{
 				id: "23934752CD55D0D6"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
+				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1914,10 +1592,7 @@
 			rewards: [{
 				count: 8
 				id: "5B6634CF192CBAA2"
-				item: {
-					count: 1
-					id: "minecraft:cobblestone"
-				}
+				item: { count: 1, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1933,10 +1608,7 @@
 			rewards: [{
 				count: 8
 				id: "39639110803E9FC9"
-				item: {
-					count: 1
-					id: "minecraft:bamboo"
-				}
+				item: { count: 1, id: "minecraft:bamboo" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1952,10 +1624,7 @@
 			rewards: [{
 				count: 8
 				id: "591784C74ED31894"
-				item: {
-					count: 1
-					id: "minecraft:pumpkin_pie"
-				}
+				item: { count: 1, id: "minecraft:pumpkin_pie" }
 				type: "item"
 			}]
 			tasks: [{
@@ -1973,10 +1642,7 @@
 				{
 					count: 4
 					id: "5CED216BE1111D7A"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 				{
@@ -1999,10 +1665,7 @@
 			rewards: [{
 				count: 2
 				id: "6D5A2AF9009F46DF"
-				item: {
-					count: 1
-					id: "minecraft:wither_rose"
-				}
+				item: { count: 1, id: "minecraft:wither_rose" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2020,19 +1683,13 @@
 				{
 					count: 8
 					id: "25C44654792F5C17"
-					item: {
-						count: 1
-						id: "minecraft:grass_block"
-					}
+					item: { count: 1, id: "minecraft:grass_block" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "6B12F6F1F3AC284E"
-					item: {
-						count: 1
-						id: "ars_nouveau:air_essence"
-					}
+					item: { count: 1, id: "ars_nouveau:air_essence" }
 					type: "item"
 				}
 			]
@@ -2050,10 +1707,7 @@
 			rewards: [{
 				count: 8
 				id: "07C213273B632B9B"
-				item: {
-					count: 1
-					id: "minecraft:torch"
-				}
+				item: { count: 1, id: "minecraft:torch" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2069,10 +1723,7 @@
 			id: "54912D3E3E21B31D"
 			rewards: [{
 				id: "307F85AFF56B25BF"
-				item: {
-					count: 1
-					id: "minecraft:water_bucket"
-				}
+				item: { count: 1, id: "minecraft:water_bucket" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2089,10 +1740,7 @@
 			rewards: [{
 				count: 2
 				id: "4D244413BC1930A5"
-				item: {
-					count: 1
-					id: "ars_nouveau:manipulation_essence"
-				}
+				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2108,10 +1756,7 @@
 			id: "072E3000C6E5FF4D"
 			rewards: [{
 				id: "6069171A352E81E7"
-				item: {
-					count: 1
-					id: "minecraft:redstone_block"
-				}
+				item: { count: 1, id: "minecraft:redstone_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2126,10 +1771,7 @@
 			id: "4F350CA3D75762EF"
 			rewards: [{
 				id: "1FCEE57F57D7B723"
-				item: {
-					count: 1
-					id: "minecraft:cake"
-				}
+				item: { count: 1, id: "minecraft:cake" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2144,10 +1786,7 @@
 			id: "624035E8E15B72C2"
 			rewards: [{
 				id: "590C9B079700E05A"
-				item: {
-					count: 1
-					id: "minecraft:bucket"
-				}
+				item: { count: 1, id: "minecraft:bucket" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2162,10 +1801,7 @@
 			id: "2A546E1CBF76E314"
 			rewards: [{
 				id: "26088B5A70A8A7B2"
-				item: {
-					count: 1
-					id: "minecraft:piston"
-				}
+				item: { count: 1, id: "minecraft:piston" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2181,10 +1817,7 @@
 			rewards: [{
 				count: 4
 				id: "06101E0A42D07EC4"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
-				}
+				item: { count: 1, id: "minecraft:emerald" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2200,10 +1833,7 @@
 			rewards: [{
 				count: 2
 				id: "7CB33FE65C884F62"
-				item: {
-					count: 1
-					id: "minecraft:tnt"
-				}
+				item: { count: 1, id: "minecraft:tnt" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2218,10 +1848,7 @@
 			id: "7F0187ACE5E5B240"
 			rewards: [{
 				id: "10AA29E16A518371"
-				item: {
-					count: 1
-					id: "minecraft:diamond_ore"
-				}
+				item: { count: 1, id: "minecraft:diamond_ore" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2237,10 +1864,7 @@
 			rewards: [{
 				count: 2
 				id: "09EE042DA4A3907B"
-				item: {
-					count: 1
-					id: "minecraft:firework_star"
-				}
+				item: { count: 1, id: "minecraft:firework_star" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2256,10 +1880,7 @@
 			rewards: [{
 				count: 4
 				id: "2DED30711D45595D"
-				item: {
-					count: 1
-					id: "minecraft:fire_charge"
-				}
+				item: { count: 1, id: "minecraft:fire_charge" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2275,10 +1896,7 @@
 			rewards: [{
 				count: 8
 				id: "2B0D46C0E000D32E"
-				item: {
-					count: 1
-					id: "minecraft:feather"
-				}
+				item: { count: 1, id: "minecraft:feather" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2294,10 +1912,7 @@
 			rewards: [{
 				count: 4
 				id: "1032AC5D41C9FFB8"
-				item: {
-					count: 1
-					id: "minecraft:bone_block"
-				}
+				item: { count: 1, id: "minecraft:bone_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2313,10 +1928,7 @@
 			rewards: [{
 				count: 4
 				id: "0C1AA2BBFD16153D"
-				item: {
-					count: 1
-					id: "minecraft:glistering_melon_slice"
-				}
+				item: { count: 1, id: "minecraft:glistering_melon_slice" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2332,10 +1944,7 @@
 			rewards: [{
 				count: 4
 				id: "2CB1B8169559E4B0"
-				item: {
-					count: 1
-					id: "minecraft:fermented_spider_eye"
-				}
+				item: { count: 1, id: "minecraft:fermented_spider_eye" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2351,10 +1960,7 @@
 			rewards: [{
 				count: 4
 				id: "09D363E03827DF21"
-				item: {
-					count: 1
-					id: "minecraft:feather"
-				}
+				item: { count: 1, id: "minecraft:feather" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2370,10 +1976,7 @@
 			rewards: [{
 				count: 2
 				id: "558004F4F71A93E4"
-				item: {
-					count: 1
-					id: "minecraft:blast_furnace"
-				}
+				item: { count: 1, id: "minecraft:blast_furnace" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2389,10 +1992,7 @@
 			rewards: [{
 				count: 4
 				id: "6091DB67DA41E374"
-				item: {
-					count: 1
-					id: "minecraft:prismarine_shard"
-				}
+				item: { count: 1, id: "minecraft:prismarine_shard" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2407,10 +2007,7 @@
 			id: "6A1526D7FF35F810"
 			rewards: [{
 				id: "0CEA4F4A4A0ADE42"
-				item: {
-					count: 1
-					id: "minecraft:firework_star"
-				}
+				item: { count: 1, id: "minecraft:firework_star" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2426,10 +2023,7 @@
 			rewards: [{
 				count: 4
 				id: "5A838F1F80B4A67B"
-				item: {
-					count: 1
-					id: "minecraft:powered_rail"
-				}
+				item: { count: 1, id: "minecraft:powered_rail" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2445,10 +2039,7 @@
 			rewards: [{
 				count: 8
 				id: "20B44E17B40A7584"
-				item: {
-					count: 1
-					id: "minecraft:netherrack"
-				}
+				item: { count: 1, id: "minecraft:netherrack" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2464,10 +2055,7 @@
 			rewards: [{
 				count: 8
 				id: "6562D015298ABA0E"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
-				}
+				item: { count: 1, id: "minecraft:glowstone_dust" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2482,10 +2070,7 @@
 			id: "477AD8B1CEF350E7"
 			rewards: [{
 				id: "617FF3484110C86E"
-				item: {
-					count: 1
-					id: "minecraft:redstone_block"
-				}
+				item: { count: 1, id: "minecraft:redstone_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2500,10 +2085,7 @@
 			id: "50AF84E458B8413F"
 			rewards: [{
 				id: "29E52D3E224909A1"
-				item: {
-					count: 1
-					id: "minecraft:emerald_ore"
-				}
+				item: { count: 1, id: "minecraft:emerald_ore" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2518,10 +2100,7 @@
 			id: "5371AFA52B1522B8"
 			rewards: [{
 				id: "4E77ED8E19E519F7"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_spawn_egg"
-				}
+				item: { count: 1, id: "minecraft:rabbit_spawn_egg" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2537,10 +2116,7 @@
 			rewards: [{
 				count: 8
 				id: "606012A13D6A857F"
-				item: {
-					count: 1
-					id: "minecraft:arrow"
-				}
+				item: { count: 1, id: "minecraft:arrow" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2571,10 +2147,7 @@
 			rewards: [{
 				count: 2
 				id: "7AA121A14BEA8D30"
-				item: {
-					count: 1
-					id: "minecraft:ender_pearl"
-				}
+				item: { count: 1, id: "minecraft:ender_pearl" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2590,10 +2163,7 @@
 			rewards: [{
 				count: 4
 				id: "79C5BC354CAA0FA6"
-				item: {
-					count: 1
-					id: "minecraft:prismarine_shard"
-				}
+				item: { count: 1, id: "minecraft:prismarine_shard" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2608,10 +2178,7 @@
 			id: "22DAC79D807D2F89"
 			rewards: [{
 				id: "04B2A1124EE47C22"
-				item: {
-					count: 1
-					id: "minecraft:diamond_block"
-				}
+				item: { count: 1, id: "minecraft:diamond_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2627,10 +2194,7 @@
 			rewards: [{
 				count: 4
 				id: "55C5CC759E7385C6"
-				item: {
-					count: 1
-					id: "minecraft:blaze_rod"
-				}
+				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2646,10 +2210,7 @@
 			rewards: [{
 				count: 4
 				id: "6EE4EC1EE49D9826"
-				item: {
-					count: 1
-					id: "minecraft:ender_pearl"
-				}
+				item: { count: 1, id: "minecraft:ender_pearl" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2665,10 +2226,7 @@
 			rewards: [{
 				count: 4
 				id: "441A8DD1B3767612"
-				item: {
-					count: 1
-					id: "minecraft:fermented_spider_eye"
-				}
+				item: { count: 1, id: "minecraft:fermented_spider_eye" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2683,10 +2241,7 @@
 			id: "3F5689FFD66B4B4D"
 			rewards: [{
 				id: "14C9A232871481AA"
-				item: {
-					count: 1
-					id: "minecraft:diamond_block"
-				}
+				item: { count: 1, id: "minecraft:diamond_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2702,10 +2257,7 @@
 			rewards: [{
 				count: 2
 				id: "2F19B9F527139F22"
-				item: {
-					count: 1
-					id: "minecraft:armor_stand"
-				}
+				item: { count: 1, id: "minecraft:armor_stand" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2735,10 +2287,7 @@
 			id: "34D04E583B63CD5F"
 			rewards: [{
 				id: "743D8FF9A7DC3B51"
-				item: {
-					count: 1
-					id: "minecraft:wither_skeleton_skull"
-				}
+				item: { count: 1, id: "minecraft:wither_skeleton_skull" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2753,10 +2302,7 @@
 			id: "32AF9959AFE16F01"
 			rewards: [{
 				id: "2E19E2713B7D0CDE"
-				item: {
-					count: 1
-					id: "minecraft:stonecutter"
-				}
+				item: { count: 1, id: "minecraft:stonecutter" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2788,10 +2334,7 @@
 			rewards: [{
 				count: 4
 				id: "2FD02B8E078CC25A"
-				item: {
-					count: 1
-					id: "ars_nouveau:blank_parchment"
-				}
+				item: { count: 1, id: "ars_nouveau:blank_parchment" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2808,10 +2351,7 @@
 			rewards: [{
 				count: 8
 				id: "0CED87CAFFECD2FE"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem"
-				}
+				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2828,10 +2368,7 @@
 			rewards: [{
 				count: 4
 				id: "5361514FE39970D5"
-				item: {
-					count: 1
-					id: "minecraft:amethyst_block"
-				}
+				item: { count: 1, id: "minecraft:amethyst_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2849,19 +2386,13 @@
 				{
 					count: 4
 					id: "18F950D407C3BCDE"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "58FC404556DD4E8F"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
+					item: { count: 1, id: "minecraft:diamond" }
 					type: "item"
 				}
 			]
@@ -2895,10 +2426,7 @@
 			rewards: [{
 				count: 2
 				id: "14FFBA285E5DE16D"
-				item: {
-					count: 1
-					id: "minecraft:blaze_rod"
-				}
+				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2915,10 +2443,7 @@
 			rewards: [{
 				count: 4
 				id: "3B12B26AAE2B1ACB"
-				item: {
-					count: 1
-					id: "minecraft:leather"
-				}
+				item: { count: 1, id: "minecraft:leather" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2934,10 +2459,7 @@
 			id: "1698658107DDD33D"
 			rewards: [{
 				id: "2843350DF2EACD59"
-				item: {
-					count: 1
-					id: "minecraft:gold_block"
-				}
+				item: { count: 1, id: "minecraft:gold_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2955,10 +2477,7 @@
 				{
 					count: 4
 					id: "21EF5FAC71B98D8B"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 				{
@@ -2996,10 +2515,7 @@
 			id: "3F2021A5A184DB17"
 			rewards: [{
 				id: "48F4B4E88789460D"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem_block"
-				}
+				item: { count: 1, id: "ars_nouveau:source_gem_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3016,18 +2532,12 @@
 			rewards: [
 				{
 					id: "323126929B44AC6F"
-					item: {
-						count: 1
-						id: "minecraft:gold_block"
-					}
+					item: { count: 1, id: "minecraft:gold_block" }
 					type: "item"
 				}
 				{
 					id: "5DB753F24C3C282C"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem_block"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem_block" }
 					type: "item"
 				}
 			]
@@ -3045,18 +2555,12 @@
 			rewards: [
 				{
 					id: "11BA78F51FDE3B11"
-					item: {
-						count: 1
-						id: "minecraft:gold_block"
-					}
+					item: { count: 1, id: "minecraft:gold_block" }
 					type: "item"
 				}
 				{
 					id: "6592ABF4BB21A35C"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem_block"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem_block" }
 					type: "item"
 				}
 			]
@@ -3123,18 +2627,13 @@
 				{
 					count: 8
 					id: "2F130FCE83EB34BB"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "31BC1C99D5F00510"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3152,15 +2651,16 @@
 			id: "43EC58F58B7206DA"
 			rewards: [{
 				id: "5CC47182448D2B3A"
-				item: {
-					count: 1
-					id: "minecraft:potion"
-				}
+				item: { count: 1, id: "minecraft:potion" }
 				type: "item"
 			}]
 			tasks: [{
 				id: "3F1DB7808FFC6B2B"
-				item: { components: { "minecraft:damage": 8 }, count: 1, id: "ars_nouveau:potion_flask" }
+				item: {
+					components: { "minecraft:damage": 8 }
+					count: 1
+					id: "ars_nouveau:potion_flask"
+				}
 				type: "item"
 			}]
 			x: 50.0d
@@ -3171,10 +2671,7 @@
 			id: "7C3C26679DDAC466"
 			rewards: [{
 				id: "0B288ADDB66C847E"
-				item: {
-					count: 1
-					id: "minecraft:diamond_block"
-				}
+				item: { count: 1, id: "minecraft:diamond_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3190,10 +2687,7 @@
 			id: "13F949F9A2E8F6E0"
 			rewards: [{
 				id: "722578848AB5A7D0"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem_block"
-				}
+				item: { count: 1, id: "ars_nouveau:source_gem_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3210,10 +2704,7 @@
 			rewards: [
 				{
 					id: "6C4A11A7C4FFD7F7"
-					item: {
-						count: 1
-						id: "minecraft:amethyst_block"
-					}
+					item: { count: 1, id: "minecraft:amethyst_block" }
 					type: "item"
 				}
 				{
@@ -3236,10 +2727,7 @@
 			rewards: [{
 				count: 2
 				id: "39F435E3B1720964"
-				item: {
-					count: 1
-					id: "ars_nouveau:blank_parchment"
-				}
+				item: { count: 1, id: "ars_nouveau:blank_parchment" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3255,10 +2743,7 @@
 			id: "08509EC82C282FBC"
 			rewards: [{
 				id: "468F0432074D520D"
-				item: {
-					count: 1
-					id: "minecraft:iron_pickaxe"
-				}
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3274,10 +2759,7 @@
 			id: "7CAB3134D2EE78C5"
 			rewards: [{
 				id: "3DCD46196E03AAC1"
-				item: {
-					count: 1
-					id: "minecraft:lapis_block"
-				}
+				item: { count: 1, id: "minecraft:lapis_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3293,10 +2775,7 @@
 			id: "7A815B50256D0495"
 			rewards: [{
 				id: "409F815D75050C1B"
-				item: {
-					count: 1
-					id: "minecraft:emerald_block"
-				}
+				item: { count: 1, id: "minecraft:emerald_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3312,10 +2791,7 @@
 			id: "6337A88D3784E1FA"
 			rewards: [{
 				id: "37ED93020E0E11E5"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem_block"
-				}
+				item: { count: 1, id: "ars_nouveau:source_gem_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3332,10 +2808,7 @@
 			rewards: [{
 				count: 2
 				id: "7B32570183E2D139"
-				item: {
-					count: 1
-					id: "minecraft:golden_sword"
-				}
+				item: { count: 1, id: "minecraft:golden_sword" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3352,18 +2825,12 @@
 			rewards: [
 				{
 					id: "78D06139476CB60A"
-					item: {
-						count: 1
-						id: "minecraft:golden_apple"
-					}
+					item: { count: 1, id: "minecraft:golden_apple" }
 					type: "item"
 				}
 				{
 					id: "4F1E39874BEE955D"
-					item: {
-						count: 1
-						id: "minecraft:blaze_rod"
-					}
+					item: { count: 1, id: "minecraft:blaze_rod" }
 					type: "item"
 				}
 			]
@@ -3381,10 +2848,7 @@
 			rewards: [{
 				count: 3
 				id: "12E36240386DA44E"
-				item: {
-					count: 1
-					id: "ars_nouveau:wilden_wing"
-				}
+				item: { count: 1, id: "ars_nouveau:wilden_wing" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3400,10 +2864,7 @@
 			id: "07DFC9127AFA1571"
 			rewards: [{
 				id: "625A5C5E250AE614"
-				item: {
-					count: 1
-					id: "minecraft:clock"
-				}
+				item: { count: 1, id: "minecraft:clock" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3421,18 +2882,12 @@
 				{
 					count: 2
 					id: "5145E9EF973B4BA0"
-					item: {
-						count: 1
-						id: "ars_nouveau:magebloom"
-					}
+					item: { count: 1, id: "ars_nouveau:magebloom" }
 					type: "item"
 				}
 				{
 					id: "4CEDD64900EBC6CC"
-					item: {
-						count: 1
-						id: "ars_nouveau:earth_essence"
-					}
+					item: { count: 1, id: "ars_nouveau:earth_essence" }
 					type: "item"
 				}
 			]
@@ -3450,10 +2905,7 @@
 			rewards: [{
 				count: 2
 				id: "2858E65F7E4C4611"
-				item: {
-					count: 1
-					id: "ars_nouveau:abjuration_essence"
-				}
+				item: { count: 1, id: "ars_nouveau:abjuration_essence" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3470,10 +2922,7 @@
 			rewards: [{
 				count: 3
 				id: "73BFFF20A67D0F20"
-				item: {
-					count: 1
-					id: "minecraft:spider_eye"
-				}
+				item: { count: 1, id: "minecraft:spider_eye" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3490,10 +2939,7 @@
 			rewards: [{
 				count: 8
 				id: "015298380ECD9221"
-				item: {
-					count: 1
-					id: "ars_nouveau:red_archwood_log"
-				}
+				item: { count: 1, id: "ars_nouveau:red_archwood_log" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3510,18 +2956,12 @@
 			rewards: [
 				{
 					id: "4DBA8219163051A0"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem_block"
-					}
+					item: { count: 1, id: "ars_nouveau:source_gem_block" }
 					type: "item"
 				}
 				{
 					id: "4A96702D85C981F2"
-					item: {
-						count: 1
-						id: "ars_nouveau:blank_parchment"
-					}
+					item: { count: 1, id: "ars_nouveau:blank_parchment" }
 					type: "item"
 				}
 			]
@@ -3538,10 +2978,7 @@
 			id: "3D63CB521550EC46"
 			rewards: [{
 				id: "5B9BEBD216074A5F"
-				item: {
-					count: 1
-					id: "ars_nouveau:ritual_warping"
-				}
+				item: { count: 1, id: "ars_nouveau:ritual_warping" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3562,11 +2999,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2A6E3BD32ED0D50A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3606,11 +3041,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0F03F531524CA98F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3650,11 +3083,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4686C33516519537"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3691,18 +3122,13 @@
 				{
 					count: 2
 					id: "3F4C48A3FD5E7DCF"
-					item: {
-						count: 1
-						id: "ars_nouveau:blank_thread"
-					}
+					item: { count: 1, id: "ars_nouveau:blank_thread" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "215347F6C75A23C4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3739,10 +3165,7 @@
 			rewards: [{
 				count: 2
 				id: "764D40119622E743"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_fiber"
-				}
+				item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3759,10 +3182,7 @@
 			rewards: [{
 				count: 2
 				id: "455A016C5C7E85AC"
-				item: {
-					count: 1
-					id: "minecraft:phantom_membrane"
-				}
+				item: { count: 1, id: "minecraft:phantom_membrane" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3779,10 +3199,7 @@
 			rewards: [{
 				count: 3
 				id: "228CE91E5D6A3096"
-				item: {
-					count: 1
-					id: "minecraft:nether_wart"
-				}
+				item: { count: 1, id: "minecraft:nether_wart" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3799,10 +3216,7 @@
 			rewards: [{
 				count: 8
 				id: "3E0399F894BC1A5A"
-				item: {
-					count: 1
-					id: "ars_nouveau:sourceberry_bush"
-				}
+				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3819,10 +3233,7 @@
 			rewards: [{
 				count: 3
 				id: "546D8E0BD9B63D84"
-				item: {
-					count: 1
-					id: "minecraft:cooked_cod"
-				}
+				item: { count: 1, id: "minecraft:cooked_cod" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3839,10 +3250,7 @@
 			rewards: [{
 				count: 2
 				id: "1E638C258EEC7119"
-				item: {
-					count: 1
-					id: "ars_nouveau:air_essence"
-				}
+				item: { count: 1, id: "ars_nouveau:air_essence" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3859,10 +3267,7 @@
 			rewards: [{
 				count: 2
 				id: "5A934479A095A805"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_stew"
-				}
+				item: { count: 1, id: "minecraft:rabbit_stew" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3879,10 +3284,7 @@
 			rewards: [{
 				count: 2
 				id: "3A351CDE99A60533"
-				item: {
-					count: 1
-					id: "minecraft:golden_apple"
-				}
+				item: { count: 1, id: "minecraft:golden_apple" }
 				random_bonus: 1
 				type: "item"
 			}]
@@ -3900,10 +3302,7 @@
 			rewards: [{
 				count: 2
 				id: "03C0416A9EC15F09"
-				item: {
-					count: 1
-					id: "minecraft:sculk_catalyst"
-				}
+				item: { count: 1, id: "minecraft:sculk_catalyst" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3920,10 +3319,7 @@
 			rewards: [{
 				count: 4
 				id: "664933F8CF1A94DB"
-				item: {
-					count: 1
-					id: "minecraft:sugar"
-				}
+				item: { count: 1, id: "minecraft:sugar" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3940,10 +3336,7 @@
 			rewards: [{
 				count: 2
 				id: "0A0F11DBDEE62093"
-				item: {
-					count: 1
-					id: "minecraft:magma_cream"
-				}
+				item: { count: 1, id: "minecraft:magma_cream" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3959,10 +3352,7 @@
 			id: "0D30EF2224604075"
 			rewards: [{
 				id: "0B8E304419A359BF"
-				item: {
-					count: 1
-					id: "minecraft:chipped_anvil"
-				}
+				item: { count: 1, id: "minecraft:chipped_anvil" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3979,10 +3369,7 @@
 			rewards: [{
 				count: 3
 				id: "55E7F2B5CBDFB1B4"
-				item: {
-					count: 1
-					id: "minecraft:feather"
-				}
+				item: { count: 1, id: "minecraft:feather" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3999,10 +3386,7 @@
 			rewards: [{
 				count: 2
 				id: "4D40E8A0953A7798"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_foot"
-				}
+				item: { count: 1, id: "minecraft:rabbit_foot" }
 				type: "item"
 			}]
 			tasks: [{
@@ -4019,10 +3403,7 @@
 			rewards: [{
 				count: 3
 				id: "25EBD5D13D67FBF3"
-				item: {
-					count: 1
-					id: "minecraft:ice"
-				}
+				item: { count: 1, id: "minecraft:ice" }
 				type: "item"
 			}]
 			tasks: [{
@@ -4038,10 +3419,7 @@
 			id: "7E4D92A6BD9831D4"
 			rewards: [{
 				id: "2B28D427EF6C4766"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_berry_roll"
-				}
+				item: { count: 1, id: "ars_nouveau:source_berry_roll" }
 				type: "item"
 			}]
 			tasks: [{
@@ -4059,10 +3437,7 @@
 			rewards: [{
 				count: 4
 				id: "7296BD15447A79AE"
-				item: {
-					count: 1
-					id: "ars_nouveau:sourceberry_bush"
-				}
+				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
 				random_bonus: 2
 				type: "item"
 			}]
@@ -4080,40 +3455,32 @@
 			rewards: [
 				{
 					id: "69153726CB7D5D44"
-					item: {
-						count: 1
-						id: "ars_nouveau:blue_archwood_sapling"
-					}
+					item: { count: 1, id: "ars_nouveau:blue_archwood_sapling" }
 					type: "item"
 				}
 				{
 					id: "30660BEB733F3DD6"
-					item: {
-						count: 1
-						id: "ars_nouveau:red_archwood_sapling"
-					}
+					item: { count: 1, id: "ars_nouveau:red_archwood_sapling" }
 					type: "item"
 				}
 				{
 					id: "6884121D0D8C48D6"
-					item: {
-						count: 1
-						id: "ars_nouveau:purple_archwood_sapling"
-					}
+					item: { count: 1, id: "ars_nouveau:purple_archwood_sapling" }
 					type: "item"
 				}
 				{
 					id: "616CE07E91128DA5"
-					item: {
-						count: 1
-						id: "ars_nouveau:green_archwood_sapling"
-					}
+					item: { count: 1, id: "ars_nouveau:green_archwood_sapling" }
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "397D842BC9777C17"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
 				type: "item"
 			}]
 			x: 46.0d
@@ -4138,9 +3505,7 @@
 		{
 			dependencies: ["5D5148CE0DED97BB"]
 			dependency_requirement: "one_started"
-			icon: {
-				id: "ars_nouveau:glyph_amplify"
-			}
+			icon: { id: "ars_nouveau:glyph_amplify" }
 			id: "17ADFDBED5731221"
 			optional: true
 			rewards: [
@@ -4150,11 +3515,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3C1DF52E88B224F0"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4326,9 +3689,7 @@
 		}
 		{
 			dependencies: ["5D5148CE0DED97BB"]
-			icon: {
-				id: "ars_nouveau:glyph_aoe"
-			}
+			icon: { id: "ars_nouveau:glyph_aoe" }
 			id: "00C57AB8BDBF52E5"
 			optional: true
 			rewards: [
@@ -4338,11 +3699,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1CE0681934795347"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4495,9 +3854,7 @@
 		{
 			dependencies: ["5D5148CE0DED97BB"]
 			dependency_requirement: "one_completed"
-			icon: {
-				id: "ars_nouveau:glyph_split"
-			}
+			icon: { id: "ars_nouveau:glyph_split" }
 			id: "6FDEAD51DB6A6F36"
 			optional: true
 			rewards: [
@@ -4507,11 +3864,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "093377B2311275FC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4603,9 +3958,7 @@
 		}
 		{
 			dependencies: ["3F6064916ED91F2E"]
-			icon: {
-				id: "ars_nouveau:ritual_burrowing"
-			}
+			icon: { id: "ars_nouveau:ritual_burrowing" }
 			id: "456654B12D46BD13"
 			rewards: [
 				{
@@ -4614,11 +3967,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6C35D99714B91257"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4675,9 +4026,7 @@
 		}
 		{
 			dependencies: ["3F6064916ED91F2E"]
-			icon: {
-				id: "ars_nouveau:ritual_challenge"
-			}
+			icon: { id: "ars_nouveau:ritual_challenge" }
 			id: "741A2E8C7E2BC6FD"
 			rewards: [
 				{
@@ -4686,11 +4035,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "593ED8C9333BD939"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4748,17 +4095,12 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			hide_dependency_lines: false
-			icon: {
-				id: "ars_nouveau:ritual_disintegration"
-			}
+			icon: { id: "ars_nouveau:ritual_disintegration" }
 			id: "565C945151442FE0"
 			rewards: [
 				{
 					id: "2A2839398A0B427D"
-					item: {
-						count: 1
-						id: "ars_additions:lost_codex_entry"
-					}
+					item: { count: 1, id: "ars_additions:lost_codex_entry" }
 					type: "item"
 				}
 				{
@@ -4767,11 +4109,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7358F03E8F62FCD6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4806,11 +4146,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4C33782C70093D3E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4937,18 +4275,12 @@
 			rewards: [
 				{
 					id: "2E6F7AB878D9119B"
-					item: {
-						count: 1
-						id: "ars_additions:lost_codex_entry"
-					}
+					item: { count: 1, id: "ars_additions:lost_codex_entry" }
 					type: "item"
 				}
 				{
 					id: "03A8F429AE59B598"
-					item: {
-						count: 1
-						id: "ars_nouveau:warp_scroll"
-					}
+					item: { count: 1, id: "ars_nouveau:warp_scroll" }
 					type: "item"
 				}
 				{
@@ -5015,11 +4347,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "44F59830B44A724C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -5049,10 +4379,7 @@
 			rewards: [{
 				count: 5
 				id: "2DE6572B8ABDA419"
-				item: {
-					count: 1
-					id: "ars_additions:lost_codex_entry"
-				}
+				item: { count: 1, id: "ars_additions:lost_codex_entry" }
 				type: "item"
 			}]
 			tasks: [
@@ -5096,10 +4423,7 @@
 			rewards: [
 				{
 					id: "01901DB3332F3425"
-					item: {
-						count: 1
-						id: "ars_additions:codex_entry"
-					}
+					item: { count: 1, id: "ars_additions:codex_entry" }
 					type: "item"
 				}
 				{
@@ -5122,10 +4446,7 @@
 			rewards: [
 				{
 					id: "5CDE26176353160B"
-					item: {
-						count: 1
-						id: "ars_nouveau:spell_turret"
-					}
+					item: { count: 1, id: "ars_nouveau:spell_turret" }
 					type: "item"
 				}
 				{
@@ -5158,9 +4479,7 @@
 					item: {
 						components: {
 							"minecraft:stored_enchantments": {
-								levels: {
-									"ars_nouveau:reactive": 1
-								}
+								levels: { "ars_nouveau:reactive": 1 }
 							}
 						}
 						count: 1
@@ -5176,7 +4495,15 @@
 			]
 			tasks: [{
 				id: "5EA39A014502CA14"
-				item: { components: { "minecraft:stored_enchantments": { levels: { "ars_nouveau:reactive": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: { "ars_nouveau:reactive": 1 }
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
 				type: "item"
 			}]
 			x: 44.0d
@@ -5188,19 +4515,13 @@
 			rewards: [
 				{
 					id: "67BA6B8A8B046433"
-					item: {
-						count: 1
-						id: "ars_nouveau:bookwyrm_charm"
-					}
+					item: { count: 1, id: "ars_nouveau:bookwyrm_charm" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "61A20060F3D719F7"
-					item: {
-						count: 1
-						id: "minecraft:chest"
-					}
+					item: { count: 1, id: "minecraft:chest" }
 					type: "item"
 				}
 				{
@@ -5223,10 +4544,7 @@
 			rewards: [
 				{
 					id: "7F4583140F977F09"
-					item: {
-						count: 1
-						id: "ars_additions:lost_codex_entry"
-					}
+					item: { count: 1, id: "ars_additions:lost_codex_entry" }
 					type: "item"
 				}
 				{
@@ -5250,10 +4568,7 @@
 			rewards: [
 				{
 					id: "71C47351B7A991D9"
-					item: {
-						count: 1
-						id: "ars_nouveau:void_prism"
-					}
+					item: { count: 1, id: "ars_nouveau:void_prism" }
 					type: "item"
 				}
 				{
@@ -5276,18 +4591,12 @@
 			rewards: [
 				{
 					id: "05ED067FB9E371F3"
-					item: {
-						count: 1
-						id: "ars_additions:ritual_locate_structure"
-					}
+					item: { count: 1, id: "ars_additions:ritual_locate_structure" }
 					type: "item"
 				}
 				{
 					id: "22EA739B68501203"
-					item: {
-						count: 1
-						id: "ars_additions:codex_entry"
-					}
+					item: { count: 1, id: "ars_additions:codex_entry" }
 					type: "item"
 				}
 			]
@@ -5300,9 +4609,7 @@
 			y: 9.6d
 		}
 		{
-			icon: {
-				id: "ars_nouveau:enchanters_sword"
-			}
+			icon: { id: "ars_nouveau:enchanters_sword" }
 			id: "7EFD9AEF5DA3A64B"
 			tasks: [
 				{

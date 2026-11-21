@@ -2,13 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "repurposed_structures"
-	group: ""
-	icon: {
-		id: "minecraft:book"
-	}
+	group: "49288E17E9D90688"
+	icon: { id: "minecraft:book" }
 	id: "09F8CDA60923D6FC"
 	images: [ ]
-	order_index: 27
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -69,9 +67,7 @@
 			tasks: [{
 				advancement: "repurposed_structures:witch_huts"
 				criterion: ""
-				icon: {
-					id: "mcwholidays:witch_hat"
-				}
+				icon: { id: "mcwholidays:witch_hat" }
 				id: "52CAFEB8EB1E0ED8"
 				type: "advancement"
 			}]
@@ -88,9 +84,7 @@
 			tasks: [{
 				advancement: "repurposed_structures:mansions"
 				criterion: ""
-				icon: {
-					id: "minecraft:totem_of_undying"
-				}
+				icon: { id: "minecraft:totem_of_undying" }
 				id: "476A3C6E2457DD68"
 				type: "advancement"
 			}]
@@ -123,9 +117,7 @@
 			tasks: [{
 				advancement: "repurposed_structures:city_nether"
 				criterion: ""
-				icon: {
-					id: "minecraft:blaze_powder"
-				}
+				icon: { id: "minecraft:blaze_powder" }
 				id: "050247B8EC9FA02B"
 				type: "advancement"
 			}]
@@ -158,9 +150,7 @@
 			tasks: [{
 				advancement: "repurposed_structures:bastion_underground"
 				criterion: ""
-				icon: {
-					id: "mcwholidays:sitting_skeleton"
-				}
+				icon: { id: "mcwholidays:sitting_skeleton" }
 				id: "02FF7A886AE1EC85"
 				type: "advancement"
 			}]
@@ -241,9 +231,7 @@
 			tasks: [{
 				advancement: "repurposed_structures:temples"
 				criterion: ""
-				icon: {
-					id: "mcwholidays:gravestone"
-				}
+				icon: { id: "mcwholidays:gravestone" }
 				id: "543F5A1E4880AEC5"
 				type: "advancement"
 			}]

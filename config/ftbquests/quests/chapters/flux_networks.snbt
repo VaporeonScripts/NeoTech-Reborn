@@ -2,13 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "flux_networks"
-	group: ""
-	icon: {
-		id: "fluxnetworks:flux_core"
-	}
+	group: "2401AD943A650627"
+	icon: { id: "fluxnetworks:flux_core" }
 	id: "5058F614AE7DE039"
 	images: [ ]
-	order_index: 19
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,10 +14,7 @@
 			rewards: [{
 				count: 2
 				id: "008949B5DD3517F8"
-				item: {
-					count: 1
-					id: "fluxnetworks:flux_dust"
-				}
+				item: { count: 1, id: "fluxnetworks:flux_dust" }
 				type: "item"
 			}]
 			tasks: [{
@@ -36,10 +31,7 @@
 			rewards: [
 				{
 					id: "0863379C4DA9809E"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_block"
-					}
+					item: { count: 1, id: "fluxnetworks:flux_block" }
 					type: "item"
 				}
 				{
@@ -62,10 +54,7 @@
 			rewards: [
 				{
 					id: "741364779E16033C"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_core"
-					}
+					item: { count: 1, id: "fluxnetworks:flux_core" }
 					type: "item"
 				}
 				{
@@ -108,10 +97,7 @@
 				{
 					count: 2
 					id: "6FA3AECA178A3AD8"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_dust"
-					}
+					item: { count: 1, id: "fluxnetworks:flux_dust" }
 					type: "item"
 				}
 				{
@@ -135,10 +121,7 @@
 				{
 					count: 2
 					id: "6EF55B4E4CF70F25"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_dust"
-					}
+					item: { count: 1, id: "fluxnetworks:flux_dust" }
 					type: "item"
 				}
 				{
@@ -208,10 +191,7 @@
 				{
 					count: 2
 					id: "0E52D00B9EF7615E"
-					item: {
-						count: 1
-						id: "fluxnetworks:flux_dust"
-					}
+					item: { count: 1, id: "fluxnetworks:flux_dust" }
 					random_bonus: 1
 					type: "item"
 				}

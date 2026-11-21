@@ -2,13 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "powah"
-	group: ""
-	icon: {
-		id: "powah:uraninite"
-	}
+	group: "10788EC10FFABF2A"
+	icon: { id: "powah:uraninite" }
 	id: "3AEE67EEE419CC6B"
 	images: [ ]
-	order_index: 21
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -18,18 +16,12 @@
 				{
 					count: 16
 					id: "2F2A0677442910D9"
-					item: {
-						count: 1
-						id: "powah:dielectric_paste"
-					}
+					item: { count: 1, id: "powah:dielectric_paste" }
 					type: "item"
 				}
 				{
 					id: "4AA1350113670711"
-					item: {
-						count: 1
-						id: "powah:book"
-					}
+					item: { count: 1, id: "powah:book" }
 					type: "item"
 				}
 			]
@@ -50,19 +42,13 @@
 				{
 					count: 2
 					id: "6A05BAEF70D82570"
-					item: {
-						count: 1
-						id: "powah:dielectric_rod"
-					}
+					item: { count: 1, id: "powah:dielectric_rod" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "3A887C60ACD1F99B"
-					item: {
-						count: 1
-						id: "powah:dielectric_rod_horizontal"
-					}
+					item: { count: 1, id: "powah:dielectric_rod_horizontal" }
 					type: "item"
 				}
 			]
@@ -90,19 +76,13 @@
 				{
 					count: 4
 					id: "492CA6DA15884188"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
+					item: { count: 1, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "2ED31162BE6F7F06"
-					item: {
-						count: 1
-						id: "powah:dielectric_casing"
-					}
+					item: { count: 1, id: "powah:dielectric_casing" }
 					type: "item"
 				}
 			]
@@ -122,10 +102,7 @@
 			rewards: [{
 				count: 3
 				id: "5083FD340B312E1B"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic"
-				}
+				item: { count: 1, id: "powah:capacitor_basic" }
 				type: "item"
 			}]
 			tasks: [{
@@ -143,10 +120,7 @@
 			rewards: [{
 				count: 8
 				id: "5BBE3584784DA4D5"
-				item: {
-					count: 1
-					id: "minecraft:coal"
-				}
+				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
 			tasks: [{
@@ -163,10 +137,7 @@
 			rewards: [{
 				count: 2
 				id: "54D2F672A47C157E"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic_tiny"
-				}
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
 				type: "item"
 			}]
 			tasks: [{
@@ -178,10 +149,7 @@
 			y: 3.2d
 		}
 		{
-			dependencies: [
-				"6125C73CE0DA081B"
-				"36794E2B8C235CED"
-			]
+			dependencies: ["6125C73CE0DA081B" "36794E2B8C235CED"]
 			id: "4028177E437736A7"
 			tasks: [{
 				id: "14CCDA45E4FC6A44"
@@ -197,10 +165,7 @@
 			rewards: [{
 				count: 4
 				id: "42E23FB3CA72A694"
-				item: {
-					count: 1
-					id: "powah:energy_cable_starter"
-				}
+				item: { count: 1, id: "powah:energy_cable_starter" }
 				type: "item"
 			}]
 			tasks: [{
@@ -217,10 +182,7 @@
 			rewards: [{
 				count: 2
 				id: "05EC77BCEC613514"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic_tiny"
-				}
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
 				type: "item"
 			}]
 			tasks: [{
@@ -238,27 +200,19 @@
 				{
 					count: 2
 					id: "0652146058F7A718"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
+					item: { count: 1, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "7FA55A04234ACF7B"
-					item: {
-						count: 1
-						id: "minecraft:gold_ingot"
-					}
+					item: { count: 1, id: "minecraft:gold_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "1EA3ED6A22B84E20"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -279,10 +233,7 @@
 			rewards: [{
 				count: 2
 				id: "50B6E42B5A6980E4"
-				item: {
-					count: 1
-					id: "powah:energizing_rod_starter"
-				}
+				item: { count: 1, id: "powah:energizing_rod_starter" }
 				type: "item"
 			}]
 			tasks: [{
@@ -315,10 +266,7 @@
 			rewards: [
 				{
 					id: "5AB353D62F94F258"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -327,11 +275,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1ADF118442F37BCB"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -350,10 +296,7 @@
 			rewards: [
 				{
 					id: "01752A56287A2CC6"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -362,11 +305,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6B372AB5C59D18F6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -385,10 +326,7 @@
 			rewards: [
 				{
 					id: "22A012466987CBD6"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -397,11 +335,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "14ACD0C116016A07"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -420,10 +356,7 @@
 			rewards: [
 				{
 					id: "2A176697DD02B25F"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -432,11 +365,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "131795CC2A0C34AF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -455,10 +386,7 @@
 			rewards: [
 				{
 					id: "39CBD8E431443088"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -467,11 +395,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "067777A4066C9789"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -491,19 +417,13 @@
 				{
 					count: 2
 					id: "24681E3317C540F1"
-					item: {
-						count: 1
-						id: "minecraft:coal_block"
-					}
+					item: { count: 1, id: "minecraft:coal_block" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "29F287D00DBF2A7E"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -526,10 +446,7 @@
 			rewards: [{
 				count: 2
 				id: "2B0BC5ABCC77D3AE"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic_tiny"
-				}
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
 				type: "item"
 			}]
 			tasks: [{
@@ -546,10 +463,7 @@
 			rewards: [{
 				count: 2
 				id: "33F03CDA7F24D53B"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic_tiny"
-				}
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
 				type: "item"
 			}]
 			tasks: [{
@@ -561,10 +475,7 @@
 			y: 4.8d
 		}
 		{
-			dependencies: [
-				"6125C73CE0DA081B"
-				"053443DA1DDBC511"
-			]
+			dependencies: ["6125C73CE0DA081B" "053443DA1DDBC511"]
 			id: "29524EEE5B7B2F09"
 			rewards: [{
 				id: "62933A390BFD0678"
@@ -586,10 +497,7 @@
 			rewards: [{
 				count: 2
 				id: "74EB5C0FB63EBA3B"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic_tiny"
-				}
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
 				type: "item"
 			}]
 			tasks: [{
@@ -606,10 +514,7 @@
 			rewards: [{
 				count: 2
 				id: "3E0019114DE4B24A"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic_tiny"
-				}
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
 				type: "item"
 			}]
 			tasks: [{
@@ -626,10 +531,7 @@
 			rewards: [{
 				count: 2
 				id: "0C35388AC828EF0E"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic_tiny"
-				}
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
 				type: "item"
 			}]
 			tasks: [{
@@ -646,37 +548,25 @@
 				{
 					count: 8
 					id: "1B333BBF1F03D51E"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
+					item: { count: 1, id: "minecraft:coal" }
 					type: "item"
 				}
 				{
 					count: 8
 					id: "0C4E4770FE7B47C7"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
+					item: { count: 1, id: "minecraft:redstone" }
 					type: "item"
 				}
 				{
 					count: 8
 					id: "61A0B9FD62DD790C"
-					item: {
-						count: 1
-						id: "minecraft:ice"
-					}
+					item: { count: 1, id: "minecraft:ice" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "14DCFE98CBA4E588"
-					item: {
-						count: 1
-						id: "powah:uraninite"
-					}
+					item: { count: 1, id: "powah:uraninite" }
 					type: "item"
 				}
 			]
@@ -694,10 +584,7 @@
 			rewards: [
 				{
 					id: "5BD24FBEB5F8EA07"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -706,11 +593,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6F02142DF5502768"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -729,10 +614,7 @@
 			rewards: [
 				{
 					id: "50239A990A232180"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -741,11 +623,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "55D0459E3BBCAA3A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -764,10 +644,7 @@
 			rewards: [
 				{
 					id: "6AE0700095A51F0C"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -776,11 +653,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6282DF5E80631136"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -799,10 +674,7 @@
 			rewards: [
 				{
 					id: "4D5CB07F1AACC774"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -811,11 +683,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7BC44AB76110EE04"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -834,10 +704,7 @@
 			rewards: [
 				{
 					id: "215BAEC7834FE9FA"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -846,11 +713,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "49CCA345FB468597"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -869,10 +734,7 @@
 			rewards: [{
 				count: 2
 				id: "0486B20D8F996BCF"
-				item: {
-					count: 1
-					id: "powah:steel_energized"
-				}
+				item: { count: 1, id: "powah:steel_energized" }
 				type: "item"
 			}]
 			tasks: [{
@@ -890,10 +752,7 @@
 			rewards: [
 				{
 					id: "3172DA5F08B876D1"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -917,10 +776,7 @@
 				{
 					count: 2
 					id: "324A5D8B53A23EBF"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -943,10 +799,7 @@
 			rewards: [
 				{
 					id: "3270DD5037793D3F"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -970,10 +823,7 @@
 				{
 					count: 4
 					id: "38E93E6EAAEA5827"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -992,10 +842,7 @@
 			y: 14.4d
 		}
 		{
-			dependencies: [
-				"6125C73CE0DA081B"
-				"053443DA1DDBC511"
-			]
+			dependencies: ["6125C73CE0DA081B" "053443DA1DDBC511"]
 			id: "55DEBC832812CF8F"
 			rewards: [{
 				id: "37BFEB7283A0C879"
@@ -1017,10 +864,7 @@
 			rewards: [
 				{
 					id: "3453AF9AE1F1FA04"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1029,11 +873,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5DB9C35BB64902E5"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1052,10 +894,7 @@
 			rewards: [
 				{
 					id: "587A23EF0E8864F5"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1064,11 +903,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "356AA37399E237BF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1088,10 +925,7 @@
 			rewards: [
 				{
 					id: "73820DD2BAD221FB"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1100,11 +934,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "40D1667E7D513542"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1123,10 +955,7 @@
 			rewards: [
 				{
 					id: "32B557EB43519620"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1135,11 +964,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4C93EE61448EE771"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1158,10 +985,7 @@
 			rewards: [
 				{
 					id: "33DB969550E52C0E"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1170,11 +994,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7153BD3CD6D66E3A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1193,10 +1015,7 @@
 			rewards: [
 				{
 					id: "44BA8A217C5DFD61"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1205,11 +1024,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3C58C0831A61DBD0"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1228,10 +1045,7 @@
 			rewards: [
 				{
 					id: "502443A0561B54BA"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1240,11 +1054,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "351F38BB9F2D58F7"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1263,10 +1075,7 @@
 			rewards: [
 				{
 					id: "7A488933E012D5E1"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1275,11 +1084,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "453DFFAD4B87EC4C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1298,10 +1105,7 @@
 			rewards: [
 				{
 					id: "58E9818EB5DEF3D1"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1310,11 +1114,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "24D1314646B8C671"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1333,10 +1135,7 @@
 			rewards: [
 				{
 					id: "4DECDACD3CD9F110"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1345,11 +1144,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6FDBD0E1742826DC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1369,10 +1166,7 @@
 			rewards: [
 				{
 					id: "4964FA6DC4DE7F2F"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1381,11 +1175,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0257B4553069DE2C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1404,10 +1196,7 @@
 			rewards: [
 				{
 					id: "4D9A6DAEC4493F01"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1416,11 +1205,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3E45FD019782932E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1439,10 +1226,7 @@
 			rewards: [
 				{
 					id: "13966EDAC55F5CB9"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1451,11 +1235,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "04903CB0121CAE7A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1474,10 +1256,7 @@
 			rewards: [
 				{
 					id: "7B87675941043081"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1486,11 +1265,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5E186B6504D0D892"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1509,10 +1286,7 @@
 			rewards: [
 				{
 					id: "1EE69112D53F5BB0"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1521,11 +1295,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "01211371242DFB1F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1544,10 +1316,7 @@
 			rewards: [
 				{
 					id: "67C7758CE748D78B"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1556,11 +1325,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "544E396E17065CA6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1579,10 +1346,7 @@
 			rewards: [
 				{
 					id: "49602262A6376FF3"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1591,11 +1355,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0DFD3070E0D4A6AA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1614,10 +1376,7 @@
 			rewards: [
 				{
 					id: "66C531BEB753BCBE"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -1626,11 +1385,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1A1D9A6282A93CD6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1649,10 +1406,7 @@
 			rewards: [
 				{
 					id: "7EDEF39DB9488E65"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1661,11 +1415,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0AA28513ADC19706"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1684,10 +1436,7 @@
 			rewards: [
 				{
 					id: "4293BA036A528374"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1696,11 +1445,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "366BCC1EC76FF7AA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1719,10 +1466,7 @@
 			rewards: [
 				{
 					id: "0358D1B6A037DD94"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1731,11 +1475,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0DE2E5582A544488"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1754,10 +1496,7 @@
 			rewards: [
 				{
 					id: "64EEBDCE3C42C9F5"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -1766,11 +1505,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "55027988F38B6874"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1789,10 +1526,7 @@
 			rewards: [
 				{
 					id: "551025B85F4EA421"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -1801,11 +1535,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "245388F06261A75D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1825,10 +1557,7 @@
 			rewards: [
 				{
 					id: "2EE817821E121B89"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -1837,11 +1566,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "70494A6375D2EE81"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1860,10 +1587,7 @@
 			rewards: [
 				{
 					id: "6C01D6EF8600DD0A"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -1872,11 +1596,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4429E9DF7D028566"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1895,10 +1617,7 @@
 			rewards: [
 				{
 					id: "33DE63DA3660A925"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -1907,11 +1626,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "68B0B9F8B1FD721B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1930,10 +1647,7 @@
 			rewards: [
 				{
 					id: "0137DB794349B291"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -1942,11 +1656,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "337CF124C4B4A53A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1965,10 +1677,7 @@
 			rewards: [
 				{
 					id: "136B8F92271ACB69"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -1977,11 +1686,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "704AD9AF31A99BB9"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2000,10 +1707,7 @@
 			rewards: [
 				{
 					id: "73EB08E6B8C275F8"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -2012,11 +1716,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5331D776D40BBD0D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2035,10 +1737,7 @@
 			rewards: [
 				{
 					id: "4726F3F85CB884E8"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -2047,11 +1746,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6C378AA06D98B540"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2070,10 +1767,7 @@
 			rewards: [
 				{
 					id: "12B2485A4D48B859"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -2082,11 +1776,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "244A4C8E4043CF4B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2105,10 +1797,7 @@
 			rewards: [
 				{
 					id: "3CE60386956ABAD2"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -2117,11 +1806,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "731C94A4DD42F005"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2140,10 +1827,7 @@
 			rewards: [
 				{
 					id: "6734291F7BE4B88A"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -2152,11 +1836,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0B06A129DF3B9CCF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2175,10 +1857,7 @@
 			rewards: [
 				{
 					id: "0DC7D59444B6D9C1"
-					item: {
-						count: 1
-						id: "powah:steel_energized"
-					}
+					item: { count: 1, id: "powah:steel_energized" }
 					type: "item"
 				}
 				{
@@ -2187,11 +1866,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4305D91FDBA65A44"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2210,10 +1887,7 @@
 			rewards: [
 				{
 					id: "681D711FF8B8A163"
-					item: {
-						count: 1
-						id: "powah:crystal_blazing"
-					}
+					item: { count: 1, id: "powah:crystal_blazing" }
 					type: "item"
 				}
 				{
@@ -2222,11 +1896,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2852591052CF2B48"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2245,10 +1917,7 @@
 			rewards: [
 				{
 					id: "4E40F5F1D27F4F93"
-					item: {
-						count: 1
-						id: "powah:crystal_niotic"
-					}
+					item: { count: 1, id: "powah:crystal_niotic" }
 					type: "item"
 				}
 				{
@@ -2257,11 +1926,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "18CF54FCE9F3F15F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2280,18 +1947,13 @@
 			rewards: [
 				{
 					id: "662BF65AE50D57EE"
-					item: {
-						count: 1
-						id: "powah:capacitor_hardened"
-					}
+					item: { count: 1, id: "powah:capacitor_hardened" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "23F99717C69F64A3"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2313,10 +1975,7 @@
 			rewards: [
 				{
 					id: "7D6FB6634F4F542C"
-					item: {
-						count: 1
-						id: "powah:capacitor_blazing"
-					}
+					item: { count: 1, id: "powah:capacitor_blazing" }
 					type: "item"
 				}
 				{
@@ -2325,11 +1984,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2F202119F85C727C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2351,10 +2008,7 @@
 			rewards: [
 				{
 					id: "71FE913AC80201F4"
-					item: {
-						count: 1
-						id: "powah:capacitor_niotic"
-					}
+					item: { count: 1, id: "powah:capacitor_niotic" }
 					type: "item"
 				}
 				{
@@ -2363,11 +2017,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5CC00802C13E2E1A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2388,10 +2040,7 @@
 			rewards: [
 				{
 					id: "7C404233BAC2C1D2"
-					item: {
-						count: 1
-						id: "powah:capacitor_spirited"
-					}
+					item: { count: 1, id: "powah:capacitor_spirited" }
 					type: "item"
 				}
 				{
@@ -2400,11 +2049,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "572FF9E1FFF2776C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2425,10 +2072,7 @@
 			rewards: [
 				{
 					id: "24A76ED28459BB3A"
-					item: {
-						count: 1
-						id: "powah:capacitor_nitro"
-					}
+					item: { count: 1, id: "powah:capacitor_nitro" }
 					type: "item"
 				}
 				{
@@ -2437,11 +2081,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7E15310E7A62F70C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2462,10 +2104,7 @@
 			rewards: [
 				{
 					id: "6F99F209BBB6D3EE"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2474,11 +2113,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "624472CABFCE753F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2498,10 +2135,7 @@
 			rewards: [
 				{
 					id: "478AF3DE2B63CD01"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2510,11 +2144,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "53E685D0C7FBE4F7"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2533,10 +2165,7 @@
 			rewards: [
 				{
 					id: "7F4FB1C9A942A0D1"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2545,11 +2174,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "326A9D3F86402F8C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2568,10 +2195,7 @@
 			rewards: [
 				{
 					id: "2FA13AB7D61DE8F5"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2580,11 +2204,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "446A1344811B6C22"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2603,10 +2225,7 @@
 			rewards: [
 				{
 					id: "2981C66F4C8E37C7"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2615,11 +2234,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7C0E1420668162EE"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2638,10 +2255,7 @@
 			rewards: [
 				{
 					id: "4B61DD7FE5BEF855"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2650,11 +2264,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "20A0D3D2DE5799AC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2673,10 +2285,7 @@
 			rewards: [
 				{
 					id: "3E0617931F030985"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2685,11 +2294,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7C37163660E75E3C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2708,10 +2315,7 @@
 			rewards: [
 				{
 					id: "360DA6FB345FB411"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2720,11 +2324,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "700C6844BF1D11A0"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2743,10 +2345,7 @@
 			rewards: [
 				{
 					id: "0B63B5F5DF8CC839"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2755,11 +2354,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6BF62EB08FD5EFC1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2778,10 +2375,7 @@
 			rewards: [
 				{
 					id: "0C401C31D48179FA"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2790,11 +2384,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "54512299B4F88561"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2813,10 +2405,7 @@
 			rewards: [
 				{
 					id: "1FFA209E05C85A83"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2825,11 +2414,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "76632C964F26A37A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2848,10 +2435,7 @@
 			rewards: [
 				{
 					id: "77FB438D2F41E609"
-					item: {
-						count: 1
-						id: "powah:crystal_spirited"
-					}
+					item: { count: 1, id: "powah:crystal_spirited" }
 					type: "item"
 				}
 				{
@@ -2860,11 +2444,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "231B7F9314321C1C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2883,10 +2465,7 @@
 			rewards: [
 				{
 					id: "0599344C2AA5A39D"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -2895,11 +2474,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0D32D69BACD5DE1A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2919,10 +2496,7 @@
 			rewards: [
 				{
 					id: "3ED462E5BBC24E1D"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -2931,11 +2505,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "119BBD8E2521218D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2954,10 +2526,7 @@
 			rewards: [
 				{
 					id: "563E79827785719B"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -2966,11 +2535,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "76F9E6695C0C2A3D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2989,10 +2556,7 @@
 			rewards: [
 				{
 					id: "7199C7D124E8DAF8"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -3001,11 +2565,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5917A002C813FF1F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3024,10 +2586,7 @@
 			rewards: [
 				{
 					id: "536CB7E89ABCF526"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -3036,11 +2595,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1B2695B30C8B001F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3059,10 +2616,7 @@
 			rewards: [
 				{
 					id: "3E6FA47027FD7608"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -3071,11 +2625,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6980BD4CE938D813"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3094,10 +2646,7 @@
 			rewards: [
 				{
 					id: "7C1BB7C7769BF261"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -3106,11 +2655,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4FC3C8D096BFD8D6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3129,10 +2676,7 @@
 			rewards: [
 				{
 					id: "0A18A8AE4B579169"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -3141,11 +2685,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4D7491A58F9FA5EC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3164,10 +2706,7 @@
 			rewards: [
 				{
 					id: "66DBD03927B58364"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -3176,11 +2715,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4A357D40AD566E1E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3199,10 +2736,7 @@
 			rewards: [
 				{
 					id: "42280ECA2C3A88F7"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -3211,11 +2745,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "438BF7B60E950644"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3234,10 +2766,7 @@
 			rewards: [
 				{
 					id: "30342B8A53EAD55A"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -3246,11 +2775,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6D92289B05A94919"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3269,10 +2796,7 @@
 			rewards: [
 				{
 					id: "29A9646AF1ACB19C"
-					item: {
-						count: 1
-						id: "powah:crystal_nitro"
-					}
+					item: { count: 1, id: "powah:crystal_nitro" }
 					type: "item"
 				}
 				{
@@ -3281,11 +2805,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7B091D27B8774523"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3305,10 +2827,7 @@
 				{
 					count: 2
 					id: "4971AC8490D19300"
-					item: {
-						count: 1
-						id: "powah:ender_core"
-					}
+					item: { count: 1, id: "powah:ender_core" }
 					type: "item"
 				}
 				{
@@ -3331,10 +2850,7 @@
 			rewards: [{
 				count: 2
 				id: "07EB80239C0BFCE6"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic_tiny"
-				}
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3351,10 +2867,7 @@
 			rewards: [{
 				count: 2
 				id: "05815450B4E704FB"
-				item: {
-					count: 1
-					id: "powah:capacitor_basic_tiny"
-				}
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3372,10 +2885,7 @@
 				{
 					count: 2
 					id: "6776603E4B4848E6"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -3399,10 +2909,7 @@
 				{
 					count: 2
 					id: "79D59D158044C582"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -3426,10 +2933,7 @@
 				{
 					count: 2
 					id: "722B9695D1E45349"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -3469,10 +2973,7 @@
 				{
 					count: 2
 					id: "48C184FB7EE1FC21"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -3496,10 +2997,7 @@
 				{
 					count: 2
 					id: "0AE3861A5318D3D6"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -3523,10 +3021,7 @@
 				{
 					count: 2
 					id: "372F28C71D143B57"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -3550,10 +3045,7 @@
 				{
 					count: 2
 					id: "6C51B6AD9F07B4CA"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -3577,10 +3069,7 @@
 				{
 					count: 2
 					id: "380B301AA4267261"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -3620,10 +3109,7 @@
 				{
 					count: 2
 					id: "399292E3454177FA"
-					item: {
-						count: 1
-						id: "powah:capacitor_basic_tiny"
-					}
+					item: { count: 1, id: "powah:capacitor_basic_tiny" }
 					type: "item"
 				}
 				{
@@ -3647,10 +3133,7 @@
 			rewards: [{
 				count: 3
 				id: "523540323715C94B"
-				item: {
-					count: 1
-					id: "minecraft:blue_ice"
-				}
+				item: { count: 1, id: "minecraft:blue_ice" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3668,10 +3151,7 @@
 			rewards: [
 				{
 					id: "18FEC49543075464"
-					item: {
-						count: 1
-						id: "powah:charged_snowball"
-					}
+					item: { count: 1, id: "powah:charged_snowball" }
 					type: "item"
 				}
 				{
@@ -3695,10 +3175,7 @@
 			rewards: [{
 				count: 2
 				id: "6341CED88279A9BC"
-				item: {
-					count: 1
-					id: "powah:dielectric_paste"
-				}
+				item: { count: 1, id: "powah:dielectric_paste" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3715,10 +3192,7 @@
 			optional: true
 			rewards: [{
 				id: "48529253DC7EE24B"
-				item: {
-					count: 1
-					id: "powah:aerial_pearl"
-				}
+				item: { count: 1, id: "powah:aerial_pearl" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3753,10 +3227,7 @@
 			rewards: [{
 				count: 3
 				id: "1026A4A3D907FA90"
-				item: {
-					count: 1
-					id: "powah:blank_card"
-				}
+				item: { count: 1, id: "powah:blank_card" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3825,10 +3296,7 @@
 			rewards: [{
 				count: 2
 				id: "5F2521416BD91F5F"
-				item: {
-					count: 1
-					id: "powah:photoelectric_pane"
-				}
+				item: { count: 1, id: "powah:photoelectric_pane" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3846,10 +3314,7 @@
 			rewards: [{
 				count: 2
 				id: "14747B3C6965C5BB"
-				item: {
-					count: 1
-					id: "powah:thermoelectric_plate"
-				}
+				item: { count: 1, id: "powah:thermoelectric_plate" }
 				type: "item"
 			}]
 			tasks: [{

@@ -2,13 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "modern_industrialization"
-	group: ""
-	icon: {
-		id: "modern_industrialization:quantum_sword"
-	}
+	group: "10788EC10FFABF2A"
+	icon: { id: "modern_industrialization:quantum_sword" }
 	id: "284FF41E79048212"
 	images: [ ]
-	order_index: 15
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,10 +14,7 @@
 			rewards: [{
 				count: 4
 				id: "276995C231DA7A0D"
-				item: {
-					count: 1
-					id: "minecraft:raw_iron"
-				}
+				item: { count: 1, id: "minecraft:raw_iron" }
 				random_bonus: 4
 				type: "item"
 			}]
@@ -40,10 +35,7 @@
 				{
 					count: 3
 					id: "2B266BCDD37D2CBE"
-					item: {
-						count: 1
-						id: "minecraft:bricks"
-					}
+					item: { count: 1, id: "minecraft:bricks" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -68,10 +60,7 @@
 			rewards: [{
 				count: 2
 				id: "2261ECB9D9F95B43"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
+				item: { count: 1, id: "minecraft:diamond" }
 				random_bonus: 1
 				type: "item"
 			}]
@@ -90,10 +79,7 @@
 				{
 					count: 3
 					id: "365F28421AFFA767"
-					item: {
-						count: 1
-						id: "mekanism:ingot_bronze"
-					}
+					item: { count: 1, id: "mekanism:ingot_bronze" }
 					type: "item"
 				}
 				{
@@ -117,10 +103,7 @@
 				{
 					count: 2
 					id: "56D1B97B4A95CE3D"
-					item: {
-						count: 1
-						id: "mekanism:ingot_bronze"
-					}
+					item: { count: 1, id: "mekanism:ingot_bronze" }
 					type: "item"
 				}
 				{
@@ -143,10 +126,7 @@
 			rewards: [{
 				count: 2
 				id: "04CFBDD512914F06"
-				item: {
-					count: 1
-					id: "minecraft:fire_charge"
-				}
+				item: { count: 1, id: "minecraft:fire_charge" }
 				type: "item"
 			}]
 			tasks: [{
@@ -164,10 +144,7 @@
 				{
 					count: 3
 					id: "382E318E9BFFF7E9"
-					item: {
-						count: 1
-						id: "mekanism:ingot_bronze"
-					}
+					item: { count: 1, id: "mekanism:ingot_bronze" }
 					type: "item"
 				}
 				{
@@ -191,10 +168,7 @@
 				{
 					count: 3
 					id: "5A9A11FFA8F3A933"
-					item: {
-						count: 1
-						id: "mekanism:ingot_bronze"
-					}
+					item: { count: 1, id: "mekanism:ingot_bronze" }
 					type: "item"
 				}
 				{
@@ -218,10 +192,7 @@
 				{
 					count: 4
 					id: "4FF6DFD1CC7D1558"
-					item: {
-						count: 1
-						id: "modern_industrialization:fire_clay_brick"
-					}
+					item: { count: 1, id: "modern_industrialization:fire_clay_brick" }
 					random_bonus: 8
 					type: "item"
 				}
@@ -247,10 +218,7 @@
 				{
 					count: 2
 					id: "4F7B2B4227A89145"
-					item: {
-						count: 1
-						id: "mekanism:ingot_steel"
-					}
+					item: { count: 1, id: "mekanism:ingot_steel" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -260,11 +228,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0F58BB159626349E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -287,10 +253,7 @@
 				{
 					count: 2
 					id: "5F202BADB24837C5"
-					item: {
-						count: 1
-						id: "mekanism:ingot_steel"
-					}
+					item: { count: 1, id: "mekanism:ingot_steel" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -335,11 +298,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "588CC8E9A3B39216"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -363,11 +324,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "105CB8D7D2BB86BD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -389,10 +348,7 @@
 				{
 					count: 2
 					id: "23B8B7CC4CE7D961"
-					item: {
-						count: 1
-						id: "minecraft:gold_ingot"
-					}
+					item: { count: 1, id: "minecraft:gold_ingot" }
 					type: "item"
 				}
 				{
@@ -416,10 +372,7 @@
 				{
 					count: 5
 					id: "67B2F55A773EF053"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
+					item: { count: 1, id: "minecraft:copper_ingot" }
 					type: "item"
 				}
 				{
@@ -443,10 +396,7 @@
 				{
 					count: 3
 					id: "484E698D0E5B67DE"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
+					item: { count: 1, id: "minecraft:coal" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -470,10 +420,7 @@
 			rewards: [
 				{
 					id: "56C49935D05DCA3E"
-					item: {
-						count: 1
-						id: "modern_industrialization:capacitor"
-					}
+					item: { count: 1, id: "modern_industrialization:capacitor" }
 					type: "item"
 				}
 				{
@@ -482,11 +429,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "65AD0AFF455C376E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -507,10 +452,7 @@
 			rewards: [
 				{
 					id: "7E1A56922DCA033B"
-					item: {
-						count: 1
-						id: "modern_industrialization:analog_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
 					type: "item"
 				}
 				{
@@ -519,11 +461,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "538B6C602933CECC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -542,10 +482,7 @@
 			rewards: [
 				{
 					id: "27954C7B4A7373EB"
-					item: {
-						count: 1
-						id: "modern_industrialization:analog_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
 					type: "item"
 				}
 				{
@@ -554,11 +491,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2BE885A6F80B0123"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -577,10 +512,7 @@
 			rewards: [
 				{
 					id: "3F4DBD4C63C64B26"
-					item: {
-						count: 1
-						id: "modern_industrialization:analog_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
 					type: "item"
 				}
 				{
@@ -589,11 +521,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "56C6C4CF0F7B8468"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -612,10 +542,7 @@
 			rewards: [
 				{
 					id: "085E8F13034A57D2"
-					item: {
-						count: 1
-						id: "modern_industrialization:analog_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
 					type: "item"
 				}
 				{
@@ -624,11 +551,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5DBEEB278401DA7E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -648,18 +573,13 @@
 				{
 					count: 3
 					id: "5BEC5FD62329BE1E"
-					item: {
-						count: 1
-						id: "modern_industrialization:rubber_sheet"
-					}
+					item: { count: 1, id: "modern_industrialization:rubber_sheet" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "4A9C40E39FBC24CC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -678,10 +598,7 @@
 			rewards: [
 				{
 					id: "239D6150BCC55C36"
-					item: {
-						count: 1
-						id: "modern_industrialization:analog_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
 					type: "item"
 				}
 				{
@@ -690,11 +607,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "303E81C4F4823356"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -714,18 +629,12 @@
 			rewards: [
 				{
 					id: "2F2DE078AB5E5C67"
-					item: {
-						count: 1
-						id: "modern_industrialization:analog_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:analog_circuit" }
 					type: "item"
 				}
 				{
 					id: "312B3C226DAB4D13"
-					item: {
-						count: 1
-						id: "modern_industrialization:tin_wire"
-					}
+					item: { count: 1, id: "modern_industrialization:tin_wire" }
 					type: "item"
 				}
 				{
@@ -734,11 +643,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "709B4C73162E9092"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -757,10 +664,7 @@
 			rewards: [
 				{
 					id: "151A82E35D9C7CBE"
-					item: {
-						count: 1
-						id: "modern_industrialization:diode"
-					}
+					item: { count: 1, id: "modern_industrialization:diode" }
 					type: "item"
 				}
 				{
@@ -769,11 +673,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "26745277B3CE4C60"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -794,10 +696,7 @@
 			rewards: [
 				{
 					id: "0B47438ECE78D4E7"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:large_pump" }
 					type: "item"
 				}
 				{
@@ -806,11 +705,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2E0510EB142CFCF9"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -830,10 +727,7 @@
 				{
 					count: 2
 					id: "7B62337EDCE04B1E"
-					item: {
-						count: 1
-						id: "modern_industrialization:cupronickel_wire_magnetic"
-					}
+					item: { count: 1, id: "modern_industrialization:cupronickel_wire_magnetic" }
 					type: "item"
 				}
 				{
@@ -842,11 +736,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "52D662C7742C8401"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -866,10 +758,7 @@
 			rewards: [
 				{
 					id: "031224A371AE2959"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:large_motor" }
 					type: "item"
 				}
 				{
@@ -878,11 +767,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5E5118149EC3F830"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -901,10 +788,7 @@
 			rewards: [
 				{
 					id: "44A0F2885C5BC5E5"
-					item: {
-						count: 1
-						id: "modern_industrialization:advanced_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:advanced_motor" }
 					type: "item"
 				}
 				{
@@ -913,11 +797,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "00A69B11D94E6BB3"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -936,10 +818,7 @@
 			rewards: [
 				{
 					id: "1F17A965F7C706A6"
-					item: {
-						count: 1
-						id: "modern_industrialization:advanced_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:advanced_pump" }
 					type: "item"
 				}
 				{
@@ -948,11 +827,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3994A8E60C128705"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -971,10 +848,7 @@
 			rewards: [
 				{
 					id: "41C59C396330A1A0"
-					item: {
-						count: 1
-						id: "modern_industrialization:electronic_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 					type: "item"
 				}
 				{
@@ -983,11 +857,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6BF6A735BF9CF610"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1006,10 +878,7 @@
 			rewards: [
 				{
 					id: "4D57FE31C63B2624"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:large_pump" }
 					type: "item"
 				}
 				{
@@ -1018,11 +887,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3F6D4BDA261AA8F0"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1042,10 +909,7 @@
 				{
 					count: 2
 					id: "145A16E8CAA20E78"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:large_motor" }
 					type: "item"
 				}
 				{
@@ -1054,11 +918,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "64E66F106799ADF8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1078,10 +940,7 @@
 				{
 					count: 2
 					id: "55C645D8BE2D51C5"
-					item: {
-						count: 1
-						id: "modern_industrialization:electronic_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 					type: "item"
 				}
 				{
@@ -1090,11 +949,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "443D1AB1FB309CBA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -1116,10 +973,7 @@
 				{
 					count: 4
 					id: "5068988A396F7C6A"
-					item: {
-						count: 1
-						id: "modern_industrialization:advanced_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:advanced_motor" }
 					type: "item"
 				}
 				{
@@ -1128,11 +982,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "68F9CAB9D9B97C5C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1151,10 +1003,7 @@
 			rewards: [
 				{
 					id: "4282BE3D63FB5E40"
-					item: {
-						count: 1
-						id: "modern_industrialization:small_heat_exchanger"
-					}
+					item: { count: 1, id: "modern_industrialization:small_heat_exchanger" }
 					type: "item"
 				}
 				{
@@ -1163,11 +1012,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3705BBEE13A15832"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1187,10 +1034,7 @@
 				{
 					count: 2
 					id: "5D364B7676D8B816"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_advanced_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:large_advanced_pump" }
 					type: "item"
 				}
 				{
@@ -1199,11 +1043,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0E066743012C3591"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1222,10 +1064,7 @@
 			rewards: [
 				{
 					id: "553F26C3AFBA36BF"
-					item: {
-						count: 1
-						id: "modern_industrialization:electronic_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 					type: "item"
 				}
 				{
@@ -1234,11 +1073,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "301CAE7B080E2053"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1257,10 +1094,7 @@
 			rewards: [
 				{
 					id: "0EBB45BE4FAC9934"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:large_pump" }
 					type: "item"
 				}
 				{
@@ -1269,11 +1103,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "103535BBC7E6C596"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1292,10 +1124,7 @@
 			rewards: [
 				{
 					id: "0D5B0B9EB9598E2A"
-					item: {
-						count: 1
-						id: "modern_industrialization:advanced_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:advanced_pump" }
 					type: "item"
 				}
 				{
@@ -1304,11 +1133,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "75DF3E3F09D16EB0"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1322,26 +1149,17 @@
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"004DACCD4C920845"
-				"6F43A73447924D09"
-			]
+			dependencies: ["004DACCD4C920845" "6F43A73447924D09"]
 			id: "4BB45B2E57D2CDC7"
 			rewards: [
 				{
 					id: "78F4CCC422B2B352"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_advanced_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:large_advanced_pump" }
 					type: "item"
 				}
 				{
 					id: "0FB744D2D0239309"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_advanced_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:large_advanced_motor" }
 					type: "item"
 				}
 				{
@@ -1350,11 +1168,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "51821E26C8F15826"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1374,10 +1190,7 @@
 				{
 					count: 2
 					id: "78B5ADA30B60A66F"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:large_motor" }
 					type: "item"
 				}
 				{
@@ -1386,11 +1199,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "217E6230CEB0BC68"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1409,18 +1220,12 @@
 			rewards: [
 				{
 					id: "608FFF0D4605D53C"
-					item: {
-						count: 1
-						id: "modern_industrialization:electronic_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 					type: "item"
 				}
 				{
 					id: "77190002E212B3C0"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:large_motor" }
 					type: "item"
 				}
 				{
@@ -1429,11 +1234,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4CAF19B9D14E11A6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1452,18 +1255,12 @@
 			rewards: [
 				{
 					id: "46A69BD122B93568"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:large_pump" }
 					type: "item"
 				}
 				{
 					id: "47EDE3A4D25E0186"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:large_motor" }
 					type: "item"
 				}
 				{
@@ -1472,11 +1269,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "20A7252BEFC9BCFD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1495,18 +1290,12 @@
 			rewards: [
 				{
 					id: "5363F6C10E035E69"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:large_pump" }
 					type: "item"
 				}
 				{
 					id: "00C3FE1DA560012B"
-					item: {
-						count: 1
-						id: "modern_industrialization:electronic_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 					type: "item"
 				}
 				{
@@ -1515,11 +1304,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "74059EB7A217908C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1538,18 +1325,13 @@
 			rewards: [
 				{
 					id: "3AA3EA742FBA2289"
-					item: {
-						count: 1
-						id: "modern_industrialization:stainless_steel_hot_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:stainless_steel_hot_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "1654D010D332BAAC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1569,19 +1351,14 @@
 				{
 					count: 2
 					id: "7DB72B1EE59C0CA1"
-					item: {
-						count: 1
-						id: "modern_industrialization:kanthal_cable"
-					}
+					item: { count: 1, id: "modern_industrialization:kanthal_cable" }
 					random_bonus: 2
 					type: "item"
 				}
 				{
+					count: 1
 					id: "721E26498AF8AA7D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1600,10 +1377,7 @@
 			rewards: [
 				{
 					id: "6185757110A390E8"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:large_motor" }
 					type: "item"
 				}
 				{
@@ -1612,11 +1386,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0B3CE712AB1FF0D5"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1636,18 +1408,12 @@
 				{
 					count: 2
 					id: "75557F5955FF45ED"
-					item: {
-						count: 1
-						id: "modern_industrialization:digital_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:digital_circuit" }
 					type: "item"
 				}
 				{
 					id: "7CB931C1FE10E2BA"
-					item: {
-						count: 1
-						id: "modern_industrialization:random_access_memory"
-					}
+					item: { count: 1, id: "modern_industrialization:random_access_memory" }
 					type: "item"
 				}
 				{
@@ -1656,11 +1422,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "05C4BAB111D8BABD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1680,18 +1444,12 @@
 				{
 					count: 2
 					id: "12D8EB2795C89C5F"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_advanced_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:large_advanced_motor" }
 					type: "item"
 				}
 				{
 					id: "5855CD9E05153703"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_advanced_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:large_advanced_pump" }
 					type: "item"
 				}
 				{
@@ -1700,11 +1458,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7FDDF60B8CF72913"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1723,18 +1479,13 @@
 			rewards: [
 				{
 					id: "6A2BDEA9904F3888"
-					item: {
-						count: 1
-						id: "modern_industrialization:titanium_hot_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:titanium_hot_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "5D65D079FD85AFB8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -1756,18 +1507,12 @@
 				{
 					count: 2
 					id: "33397565F2058F5C"
-					item: {
-						count: 1
-						id: "modern_industrialization:advanced_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:advanced_pump" }
 					type: "item"
 				}
 				{
 					id: "1AC87994ECCFF422"
-					item: {
-						count: 1
-						id: "modern_industrialization:titanium_machine_casing_pipe"
-					}
+					item: { count: 1, id: "modern_industrialization:titanium_machine_casing_pipe" }
 					type: "item"
 				}
 				{
@@ -1776,11 +1521,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "417CA6A0635C8148"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1799,10 +1542,7 @@
 			rewards: [
 				{
 					id: "2C034A2D3F16D9B0"
-					item: {
-						count: 1
-						id: "modern_industrialization:raw_iridium"
-					}
+					item: { count: 1, id: "modern_industrialization:raw_iridium" }
 					type: "item"
 				}
 				{
@@ -1811,11 +1551,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "092861D6B6FACE89"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1835,18 +1573,12 @@
 				{
 					count: 2
 					id: "0FDD03207B63801C"
-					item: {
-						count: 1
-						id: "modern_industrialization:superconductor_wire"
-					}
+					item: { count: 1, id: "modern_industrialization:superconductor_wire" }
 					type: "item"
 				}
 				{
 					id: "60D5002F41DCFDBF"
-					item: {
-						count: 1
-						id: "modern_industrialization:cooling_cell"
-					}
+					item: { count: 1, id: "modern_industrialization:cooling_cell" }
 					type: "item"
 				}
 				{
@@ -1855,11 +1587,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5E68C6042DA80B82"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1879,19 +1609,13 @@
 				{
 					count: 2
 					id: "4F0464D4C199B6D8"
-					item: {
-						count: 1
-						id: "modern_industrialization:superconductor_plate"
-					}
+					item: { count: 1, id: "modern_industrialization:superconductor_plate" }
 					random_bonus: 1
 					type: "item"
 				}
 				{
 					id: "1EB2DEE6425E3FEE"
-					item: {
-						count: 1
-						id: "modern_industrialization:cooling_cell"
-					}
+					item: { count: 1, id: "modern_industrialization:cooling_cell" }
 					type: "item"
 				}
 				{
@@ -1900,11 +1624,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1A1C7D0D7B4CD6CD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1923,18 +1645,12 @@
 			rewards: [
 				{
 					id: "7B031345C8C68A88"
-					item: {
-						count: 1
-						id: "modern_industrialization:stainless_steel_hot_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:stainless_steel_hot_ingot" }
 					type: "item"
 				}
 				{
 					id: "54B6AC9D23BAC786"
-					item: {
-						count: 1
-						id: "modern_industrialization:titanium_hot_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:titanium_hot_ingot" }
 					type: "item"
 				}
 				{
@@ -1943,11 +1659,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "48ADD9C88A9FB148"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1966,27 +1680,18 @@
 			rewards: [
 				{
 					id: "4701D645011B7E7B"
-					item: {
-						count: 1
-						id: "modern_industrialization:advanced_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:advanced_motor" }
 					type: "item"
 				}
 				{
 					id: "09D2184A31ED61EA"
-					item: {
-						count: 1
-						id: "modern_industrialization:titanium_hot_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:titanium_hot_ingot" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "190D1E8175380E49"
-					item: {
-						count: 1
-						id: "modern_industrialization:blastproof_alloy_plate"
-					}
+					item: { count: 1, id: "modern_industrialization:blastproof_alloy_plate" }
 					type: "item"
 				}
 				{
@@ -1995,11 +1700,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5E5FFB18C4FA1A1C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -2020,27 +1723,18 @@
 			rewards: [
 				{
 					id: "3F266536A58A809C"
-					item: {
-						count: 1
-						id: "modern_industrialization:processing_unit"
-					}
+					item: { count: 1, id: "modern_industrialization:processing_unit" }
 					type: "item"
 				}
 				{
 					id: "7FEAFD0A30255F50"
-					item: {
-						count: 1
-						id: "modern_industrialization:nuclear_alloy_plate"
-					}
+					item: { count: 1, id: "modern_industrialization:nuclear_alloy_plate" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "033178E1F502EA78"
-					item: {
-						count: 1
-						id: "modern_industrialization:industrial_tnt"
-					}
+					item: { count: 1, id: "modern_industrialization:industrial_tnt" }
 					type: "item"
 				}
 				{
@@ -2049,11 +1743,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "298E5A8F528D6D88"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2072,10 +1764,7 @@
 			rewards: [
 				{
 					id: "10617F41A5E412C6"
-					item: {
-						count: 1
-						id: "modern_industrialization:blastproof_alloy_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:blastproof_alloy_ingot" }
 					type: "item"
 				}
 				{
@@ -2084,11 +1773,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1D65089B780132B5"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2108,18 +1795,12 @@
 				{
 					count: 2
 					id: "42A8FD17EB08CCC9"
-					item: {
-						count: 1
-						id: "modern_industrialization:processing_unit"
-					}
+					item: { count: 1, id: "modern_industrialization:processing_unit" }
 					type: "item"
 				}
 				{
 					id: "0A770D7033D2B57B"
-					item: {
-						count: 1
-						id: "modern_industrialization:qubit"
-					}
+					item: { count: 1, id: "modern_industrialization:qubit" }
 					type: "item"
 				}
 				{
@@ -2128,11 +1809,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3E358E32309C9B1E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -2153,19 +1832,13 @@
 			rewards: [
 				{
 					id: "022908B83BE3F30B"
-					item: {
-						count: 1
-						id: "modern_industrialization:quantum_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:quantum_circuit" }
 					type: "item"
 				}
 				{
 					count: 2
 					id: "1C50D31957232E51"
-					item: {
-						count: 1
-						id: "modern_industrialization:fusion_chamber"
-					}
+					item: { count: 1, id: "modern_industrialization:fusion_chamber" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2175,11 +1848,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "37D47F1F93D142F2"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2199,29 +1870,20 @@
 				{
 					count: 3
 					id: "0D782A6161192DB8"
-					item: {
-						count: 1
-						id: "modern_industrialization:quantum_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:quantum_circuit" }
 					random_bonus: 2
 					type: "item"
 				}
 				{
 					count: 3
 					id: "3F206B1C0FC1611F"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_advanced_pump"
-					}
+					item: { count: 1, id: "modern_industrialization:large_advanced_pump" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "27AF188C43B9832E"
-					item: {
-						count: 1
-						id: "modern_industrialization:large_advanced_motor"
-					}
+					item: { count: 1, id: "modern_industrialization:large_advanced_motor" }
 					type: "item"
 				}
 				{
@@ -2230,11 +1892,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4865A8AFF0966667"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -2255,18 +1915,12 @@
 			rewards: [
 				{
 					id: "213AE917A1B2A4DF"
-					item: {
-						count: 1
-						id: "modern_industrialization:quantum_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:quantum_circuit" }
 					type: "item"
 				}
 				{
 					id: "445B64FEA8C953FB"
-					item: {
-						count: 1
-						id: "modern_industrialization:plutonium_battery"
-					}
+					item: { count: 1, id: "modern_industrialization:plutonium_battery" }
 					type: "item"
 				}
 				{
@@ -2275,11 +1929,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5E67D35C62FBA05D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2299,10 +1951,7 @@
 				{
 					count: 2
 					id: "58A3E088AC0F4FCE"
-					item: {
-						count: 1
-						id: "modern_industrialization:quantum_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:quantum_circuit" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2312,11 +1961,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6F862D97A8C99E40"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2336,10 +1983,7 @@
 				{
 					count: 2
 					id: "21379FB7684B007C"
-					item: {
-						count: 1
-						id: "modern_industrialization:quantum_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:quantum_circuit" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2349,11 +1993,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "644E8E748E8547BF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2372,18 +2014,12 @@
 			rewards: [
 				{
 					id: "683D47F148C0526C"
-					item: {
-						count: 1
-						id: "modern_industrialization:processing_unit"
-					}
+					item: { count: 1, id: "modern_industrialization:processing_unit" }
 					type: "item"
 				}
 				{
 					id: "4E9AE4533749CDA8"
-					item: {
-						count: 1
-						id: "modern_industrialization:nuclear_alloy_large_plate"
-					}
+					item: { count: 1, id: "modern_industrialization:nuclear_alloy_large_plate" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2393,11 +2029,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3371D8EC321439F8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2417,10 +2051,7 @@
 				{
 					count: 2
 					id: "68A212D7164166F4"
-					item: {
-						count: 1
-						id: "modern_industrialization:ultradense_metal_ball"
-					}
+					item: { count: 1, id: "modern_industrialization:ultradense_metal_ball" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -2430,11 +2061,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0C578156B24555E9"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2456,9 +2085,7 @@
 					components: {
 						"modern_industrialization:fluid_storage": {
 							amount: 4000L
-							resource: {
-								id: "minecraft:water"
-							}
+							resource: { id: "minecraft:water" }
 						}
 					}
 					count: 1
@@ -2481,28 +2108,19 @@
 				{
 					count: 4
 					id: "5561DC7B344AA04C"
-					item: {
-						count: 1
-						id: "modern_industrialization:bronze_ring"
-					}
+					item: { count: 1, id: "modern_industrialization:bronze_ring" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "1581085DF639DBC0"
-					item: {
-						count: 1
-						id: "modern_industrialization:bronze_gear"
-					}
+					item: { count: 1, id: "modern_industrialization:bronze_gear" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "239CE9E80579EBA0"
-					item: {
-						count: 1
-						id: "modern_industrialization:bronze_rod"
-					}
+					item: { count: 1, id: "modern_industrialization:bronze_rod" }
 					type: "item"
 				}
 			]
@@ -2521,18 +2139,13 @@
 				{
 					count: 3
 					id: "5AF8A93C43054D09"
-					item: {
-						count: 1
-						id: "modern_industrialization:bronze_drill"
-					}
+					item: { count: 1, id: "modern_industrialization:bronze_drill" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "649D1E8D3631CB82"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2561,10 +2174,7 @@
 			id: "0085099CD93A5E68"
 			rewards: [{
 				id: "6878C82043D93F09"
-				item: {
-					count: 1
-					id: "modern_industrialization:coke_block"
-				}
+				item: { count: 1, id: "modern_industrialization:coke_block" }
 				type: "item"
 			}]
 			tasks: [
@@ -2584,17 +2194,12 @@
 		}
 		{
 			dependencies: ["7780ED6483FC9986"]
-			icon: {
-				id: "modern_industrialization:coke_oven"
-			}
+			icon: { id: "modern_industrialization:coke_oven" }
 			id: "1A611B8D50109E92"
 			rewards: [{
 				count: 32
 				id: "666301DA2B82BCBD"
-				item: {
-					count: 1
-					id: "minecraft:coal"
-				}
+				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
 			}]
 			tasks: [
@@ -2640,18 +2245,13 @@
 				{
 					count: 3
 					id: "4450CC977111429F"
-					item: {
-						count: 1
-						id: "modern_industrialization:copper_drill"
-					}
+					item: { count: 1, id: "modern_industrialization:copper_drill" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "53F8FB059D26E8D6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2671,18 +2271,13 @@
 				{
 					count: 16
 					id: "2D32033C4908A8EF"
-					item: {
-						count: 1
-						id: "minecraft:gunpowder"
-					}
+					item: { count: 1, id: "minecraft:gunpowder" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "52DA6CD3FE7BA90A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2702,10 +2297,7 @@
 			rewards: [{
 				count: 16
 				id: "36049EFD9AEA3364"
-				item: {
-					count: 1
-					id: "minecraft:clay_ball"
-				}
+				item: { count: 1, id: "minecraft:clay_ball" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2723,10 +2315,7 @@
 			rewards: [{
 				count: 8
 				id: "1CC38C7F3FF26D27"
-				item: {
-					count: 1
-					id: "minecraft:red_dye"
-				}
+				item: { count: 1, id: "minecraft:red_dye" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2740,71 +2329,49 @@
 		}
 		{
 			dependencies: ["31296273903A43C5"]
-			icon: {
-				id: "modern_industrialization:steam_quarry"
-			}
+			icon: { id: "modern_industrialization:steam_quarry" }
 			id: "239D9AC37AC5B8B2"
 			rewards: [
 				{
 					count: 16
 					id: "1D66578EFA8A4285"
-					item: {
-						count: 1
-						id: "minecraft:coal_ore"
-					}
+					item: { count: 1, id: "minecraft:coal_ore" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "52676143CDD475A0"
-					item: {
-						count: 1
-						id: "minecraft:copper_ore"
-					}
+					item: { count: 1, id: "minecraft:copper_ore" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "094091BF99D00804"
-					item: {
-						count: 1
-						id: "minecraft:iron_ore"
-					}
+					item: { count: 1, id: "minecraft:iron_ore" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "28E1B37790619BFA"
-					item: {
-						count: 1
-						id: "modern_industrialization:tin_ore"
-					}
+					item: { count: 1, id: "modern_industrialization:tin_ore" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "4728CD4F90B0F01D"
-					item: {
-						count: 1
-						id: "modern_industrialization:lead_ore"
-					}
+					item: { count: 1, id: "modern_industrialization:lead_ore" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "2A6F05A24C98F8CC"
-					item: {
-						count: 1
-						id: "minecraft:gold_ore"
-					}
+					item: { count: 1, id: "minecraft:gold_ore" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "525C7E314E84D753"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -2846,18 +2413,13 @@
 				{
 					count: 8
 					id: "4EBDA21614BB0E80"
-					item: {
-						count: 1
-						id: "minecraft:blue_dye"
-					}
+					item: { count: 1, id: "minecraft:blue_dye" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "2A54D9B2AB2B7988"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2877,10 +2439,7 @@
 			rewards: [{
 				count: 8
 				id: "5CA3DC9637084A74"
-				item: {
-					count: 1
-					id: "modern_industrialization:lignite_coal_block"
-				}
+				item: { count: 1, id: "modern_industrialization:lignite_coal_block" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2904,31 +2463,20 @@
 			y: 9.6d
 		}
 		{
-			dependencies: [
-				"1A535BEC9B5AEED7"
-				"0085099CD93A5E68"
-				"1CB7870C4167A8BF"
-			]
-			icon: {
-				id: "modern_industrialization:steam_blast_furnace"
-			}
+			dependencies: ["1A535BEC9B5AEED7" "0085099CD93A5E68" "1CB7870C4167A8BF"]
+			icon: { id: "modern_industrialization:steam_blast_furnace" }
 			id: "4533FE25145D8E82"
 			rewards: [
 				{
 					count: 8
 					id: "6B654BDEE0C4BCEF"
-					item: {
-						count: 1
-						id: "modern_industrialization:coke_dust"
-					}
+					item: { count: 1, id: "modern_industrialization:coke_dust" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "7B81510556EE8A7B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2970,18 +2518,13 @@
 			rewards: [
 				{
 					id: "4A357E69937B068F"
-					item: {
-						count: 1
-						id: "modern_industrialization:steel_fluid_output_hatch"
-					}
+					item: { count: 1, id: "modern_industrialization:steel_fluid_output_hatch" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "36F3F452A4EE527F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -3013,18 +2556,13 @@
 				{
 					count: 8
 					id: "11ED361DBF396B85"
-					item: {
-						count: 1
-						id: "modern_industrialization:steel_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:steel_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "406619BA30FA7879"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3043,10 +2581,7 @@
 			rewards: [{
 				count: 16
 				id: "185E043746845D4E"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_ingot"
-				}
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -3067,18 +2602,13 @@
 				{
 					count: 8
 					id: "25410D996662B49B"
-					item: {
-						count: 1
-						id: "modern_industrialization:steel_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:steel_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "2D398C57802C4984"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3100,10 +2630,7 @@
 			rewards: [{
 				count: 8
 				id: "2E173D4607FD8D3E"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_ingot"
-				}
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3116,9 +2643,7 @@
 		}
 		{
 			dependencies: ["1A535BEC9B5AEED7"]
-			icon: {
-				id: "extended_industrialization:large_steam_furnace"
-			}
+			icon: { id: "extended_industrialization:large_steam_furnace" }
 			id: "6EA8CCAF032487D3"
 			optional: true
 			rewards: [
@@ -3128,11 +2653,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "52425413C8F1603E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3171,18 +2694,13 @@
 		}
 		{
 			dependencies: ["0240EC7580B07F06"]
-			icon: {
-				id: "extended_industrialization:large_steam_macerator"
-			}
+			icon: { id: "extended_industrialization:large_steam_macerator" }
 			id: "18B0058041A66C36"
 			optional: true
 			rewards: [{
 				count: 16
 				id: "7729C10607EA6333"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_ingot"
-				}
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
 				type: "item"
 			}]
 			tasks: [
@@ -3217,10 +2735,7 @@
 			rewards: [{
 				count: 8
 				id: "1B3D4BC83690C540"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_ingot"
-				}
+				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3254,27 +2769,19 @@
 				{
 					count: 32
 					id: "1D858AFAD1D256D5"
-					item: {
-						count: 1
-						id: "modern_industrialization:nickel_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:nickel_ingot" }
 					type: "item"
 				}
 				{
 					count: 64
 					id: "603FAB99FEE14970"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
+					item: { count: 1, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "208A290436938222"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3290,15 +2797,6 @@
 		{
 			dependencies: ["31296273903A43C5"]
 			id: "1EAE47F9C0288679"
-			rewards: [{
-				id: "65F16FA75AC95568"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "36464899CA1B8CC3"
 				item: { count: 1, id: "extended_industrialization:steel_brewery" }
@@ -3306,19 +2804,17 @@
 			}]
 			x: 14.0d
 			y: 3.2d
+			rewards: [{
+				count: 1
+				id: "65F16FA75AC95568"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["31296273903A43C5"]
 			id: "2A863F800ECF8FC0"
-			rewards: [{
-				id: "7823FAE839C95FF4"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "76D9EE3C18CB8189"
 				item: { count: 1, id: "extended_industrialization:steel_honey_extractor" }
@@ -3326,6 +2822,13 @@
 			}]
 			x: 14.0d
 			y: 6.4d
+			rewards: [{
+				count: 1
+				id: "7823FAE839C95FF4"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["027479F050E443BF"]
@@ -3334,18 +2837,12 @@
 				{
 					count: 16
 					id: "115DD6736B4A5334"
-					item: {
-						count: 1
-						id: "modern_industrialization:coke"
-					}
+					item: { count: 1, id: "modern_industrialization:coke" }
 					type: "item"
 				}
 				{
 					id: "2046DFF10E3C3D38"
-					item: {
-						count: 1
-						id: "minecraft:water_bucket"
-					}
+					item: { count: 1, id: "minecraft:water_bucket" }
 					type: "item"
 				}
 			]
@@ -3363,10 +2860,7 @@
 			rewards: [{
 				count: 8
 				id: "22E5B157841F5F1B"
-				item: {
-					count: 1
-					id: "modern_industrialization:rubber_sheet"
-				}
+				item: { count: 1, id: "modern_industrialization:rubber_sheet" }
 				type: "item"
 			}]
 			tasks: [{
@@ -3384,18 +2878,13 @@
 				{
 					count: 64
 					id: "23552EECB66CEFFF"
-					item: {
-						count: 1
-						id: "modern_industrialization:coke_block"
-					}
+					item: { count: 1, id: "modern_industrialization:coke_block" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "2C203B41287951E1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3415,18 +2904,13 @@
 				{
 					count: 4
 					id: "6D012129B339126B"
-					item: {
-						count: 1
-						id: "modern_industrialization:aluminum_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:aluminum_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "12A09D99AB9038FC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3446,18 +2930,13 @@
 				{
 					count: 4
 					id: "0785E7341E009730"
-					item: {
-						count: 1
-						id: "modern_industrialization:aluminum_drill"
-					}
+					item: { count: 1, id: "modern_industrialization:aluminum_drill" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "21E84CC0D4D05190"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3477,18 +2956,13 @@
 			rewards: [
 				{
 					id: "2B3F1A9CB2272796"
-					item: {
-						count: 1
-						id: "modern_industrialization:conveyor"
-					}
+					item: { count: 1, id: "modern_industrialization:conveyor" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "7A37F9E086DC1522"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3503,26 +2977,19 @@
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
-			icon: {
-				id: "modern_industrialization:distillation_tower"
-			}
+			icon: { id: "modern_industrialization:distillation_tower" }
 			id: "30BF9815A29438B9"
 			rewards: [
 				{
 					count: 8
 					id: "3B02E14905F3327A"
-					item: {
-						count: 1
-						id: "modern_industrialization:clean_stainless_steel_machine_casing"
-					}
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "256E7C95726BD36C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -3550,33 +3017,23 @@
 		}
 		{
 			dependencies: ["78C4FC782DA6BB39"]
-			icon: {
-				id: "modern_industrialization:electric_blast_furnace"
-			}
+			icon: { id: "modern_industrialization:electric_blast_furnace" }
 			id: "2B41351F1A9D11A9"
 			rewards: [
 				{
 					id: "334673D888534DBC"
-					item: {
-						count: 1
-						id: "modern_industrialization:steel_item_output_hatch"
-					}
+					item: { count: 1, id: "modern_industrialization:steel_item_output_hatch" }
 					type: "item"
 				}
 				{
 					id: "5675FBD5A6528FD4"
-					item: {
-						count: 1
-						id: "modern_industrialization:steel_item_input_hatch"
-					}
+					item: { count: 1, id: "modern_industrialization:steel_item_input_hatch" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "3F0DE3EB4D6D9118"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -3610,18 +3067,13 @@
 				{
 					count: 16
 					id: "7C893BE329DDA9BF"
-					item: {
-						count: 1
-						id: "modern_industrialization:tin_cable"
-					}
+					item: { count: 1, id: "modern_industrialization:tin_cable" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "591657CB3D43E654"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3641,18 +3093,13 @@
 				{
 					count: 4
 					id: "2E92915CF17B431D"
-					item: {
-						count: 1
-						id: "modern_industrialization:gold_drill"
-					}
+					item: { count: 1, id: "modern_industrialization:gold_drill" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "0C08F6BDF13F1ABD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3668,35 +3115,25 @@
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
-			icon: {
-				id: "modern_industrialization:heat_exchanger"
-			}
+			icon: { id: "modern_industrialization:heat_exchanger" }
 			id: "2B54DC789F7EA9B2"
 			rewards: [
 				{
 					count: 6
 					id: "02309EB8BC3A80AA"
-					item: {
-						count: 1
-						id: "modern_industrialization:frostproof_machine_casing"
-					}
+					item: { count: 1, id: "modern_industrialization:frostproof_machine_casing" }
 					type: "item"
 				}
 				{
 					count: 6
 					id: "5A8F3D880A28C890"
-					item: {
-						count: 1
-						id: "modern_industrialization:heatproof_machine_casing"
-					}
+					item: { count: 1, id: "modern_industrialization:heatproof_machine_casing" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "4B3801E77AD78E73"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -3736,18 +3173,13 @@
 				{
 					count: 3
 					id: "30186F39D11B3B0E"
-					item: {
-						count: 1
-						id: "modern_industrialization:advanced_machine_hull"
-					}
+					item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "08B335C7AE880D4F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3762,26 +3194,19 @@
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
-			icon: {
-				id: "modern_industrialization:large_steam_boiler"
-			}
+			icon: { id: "modern_industrialization:large_steam_boiler" }
 			id: "368ED8B4B5670143"
 			rewards: [
 				{
 					count: 16
 					id: "53311D60A9C29133"
-					item: {
-						count: 1
-						id: "modern_industrialization:white_fluid_pipe"
-					}
+					item: { count: 1, id: "modern_industrialization:white_fluid_pipe" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "2506D40D477091D8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -3820,18 +3245,13 @@
 			rewards: [
 				{
 					id: "58AB121702D1782E"
-					item: {
-						count: 1
-						id: "modern_industrialization:basic_machine_hull"
-					}
+					item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "7B806FB52C4D912A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3850,18 +3270,13 @@
 			rewards: [
 				{
 					id: "4732A90039795985"
-					item: {
-						count: 1
-						id: "modern_industrialization:basic_machine_hull"
-					}
+					item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "74703A37025C3812"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3880,18 +3295,13 @@
 			rewards: [
 				{
 					id: "075C1F3EC9FF0ACC"
-					item: {
-						count: 1
-						id: "modern_industrialization:motor"
-					}
+					item: { count: 1, id: "modern_industrialization:motor" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "4A87F9014BBE399C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3910,18 +3320,13 @@
 			rewards: [
 				{
 					id: "0656C554E05C9E7D"
-					item: {
-						count: 1
-						id: "modern_industrialization:piston"
-					}
+					item: { count: 1, id: "modern_industrialization:piston" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "374B98656B45893B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3940,18 +3345,13 @@
 			rewards: [
 				{
 					id: "03F4F1389627B30A"
-					item: {
-						count: 1
-						id: "modern_industrialization:robot_arm"
-					}
+					item: { count: 1, id: "modern_industrialization:robot_arm" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "4331B61385711562"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3971,18 +3371,13 @@
 				{
 					count: 4
 					id: "7D0080721D09E238"
-					item: {
-						count: 1
-						id: "modern_industrialization:stainless_steel_drill"
-					}
+					item: { count: 1, id: "modern_industrialization:stainless_steel_drill" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "361041E59DE1F1FC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4003,18 +3398,13 @@
 				{
 					count: 4
 					id: "4D53AFBA039A6D10"
-					item: {
-						count: 1
-						id: "modern_industrialization:steel_drill"
-					}
+					item: { count: 1, id: "modern_industrialization:steel_drill" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "333550C7B0F6272F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4035,18 +3425,13 @@
 				{
 					count: 16
 					id: "3E6921E3DE471F79"
-					item: {
-						count: 1
-						id: "minecraft:blue_ice"
-					}
+					item: { count: 1, id: "minecraft:blue_ice" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "691935B2E065FC6C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4070,15 +3455,6 @@
 		{
 			dependencies: ["78C4FC782DA6BB39"]
 			id: "7574A64692A5C7A6"
-			rewards: [{
-				id: "0D151673CD4DA55B"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "6838557639E57048"
@@ -4093,29 +3469,29 @@
 			]
 			x: 22.0d
 			y: 17.6d
+			rewards: [{
+				count: 1
+				id: "0D151673CD4DA55B"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
-			icon: {
-				id: "extended_industrialization:steam_farmer"
-			}
+			icon: { id: "extended_industrialization:steam_farmer" }
 			id: "03DACD9B79FA1E57"
 			rewards: [
 				{
 					count: 8
 					id: "76A5115E01C13EB6"
-					item: {
-						count: 1
-						id: "modern_industrialization:steel_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:steel_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "385C452DAFE22DBF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4149,18 +3525,13 @@
 				{
 					count: 4
 					id: "600E0D2E176124F8"
-					item: {
-						count: 1
-						id: "extended_industrialization:lv_photovoltaic_cell"
-					}
+					item: { count: 1, id: "extended_industrialization:lv_photovoltaic_cell" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "6E50D1C9CE05CB84"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4180,18 +3551,13 @@
 				{
 					count: 16
 					id: "628C244F2ADA8951"
-					item: {
-						count: 1
-						id: "modern_industrialization:aluminum_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:aluminum_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "2D88A42D8AB55C75"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4213,26 +3579,19 @@
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
-			icon: {
-				id: "extended_industrialization:processing_array"
-			}
+			icon: { id: "extended_industrialization:processing_array" }
 			id: "7E66A8EEB887105F"
 			rewards: [
 				{
 					count: 8
 					id: "6F125B1CFA40D707"
-					item: {
-						count: 1
-						id: "modern_industrialization:clean_stainless_steel_machine_casing"
-					}
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "3EBCF9E2790577FD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4272,18 +3631,13 @@
 				{
 					count: 2
 					id: "1F48F98C29624F5D"
-					item: {
-						count: 1
-						id: "extended_industrialization:universal_transformer"
-					}
+					item: { count: 1, id: "extended_industrialization:universal_transformer" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "30FC0FCEEA4A88C4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4303,18 +3657,13 @@
 				{
 					count: 4
 					id: "688B6E6F7A6B284C"
-					item: {
-						count: 1
-						id: "extended_industrialization:machine_chainer"
-					}
+					item: { count: 1, id: "extended_industrialization:machine_chainer" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "15B3EEE5E4C45522"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4334,18 +3683,13 @@
 				{
 					count: 6
 					id: "5E67F3A6EA33F775"
-					item: {
-						count: 1
-						id: "modern_industrialization:electronic_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "31B33DB962CD61E2"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4378,15 +3722,6 @@
 		{
 			dependencies: ["19E76733C5413B31"]
 			id: "4725035EE888EDE4"
-			rewards: [{
-				id: "46F0247BDE0AFD93"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "08EEC74EF6558A2E"
 				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
@@ -4394,19 +3729,17 @@
 			}]
 			x: 20.0d
 			y: 14.4d
+			rewards: [{
+				count: 1
+				id: "46F0247BDE0AFD93"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
 			id: "61BC4DC8D08E44FE"
-			rewards: [{
-				id: "4E47D54A6DF9DC5C"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "7FEE2BA9E713906D"
 				item: { count: 1, id: "modern_industrialization:overdrive_module" }
@@ -4414,6 +3747,13 @@
 			}]
 			x: 30.0d
 			y: 20.8d
+			rewards: [{
+				count: 1
+				id: "4E47D54A6DF9DC5C"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -4421,27 +3761,19 @@
 			rewards: [
 				{
 					id: "117F9B3BBFE5F02A"
-					item: {
-						count: 1
-						id: "modern_industrialization:electronic_circuit"
-					}
+					item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 					type: "item"
 				}
 				{
 					count: 64
 					id: "54F48CD9EA83462D"
-					item: {
-						count: 1
-						id: "modern_industrialization:coal_dust"
-					}
+					item: { count: 1, id: "modern_industrialization:coal_dust" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "216C885FC071D701"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4461,18 +3793,13 @@
 				{
 					count: 3
 					id: "7D476A87BBEDAE13"
-					item: {
-						count: 1
-						id: "modern_industrialization:titanium_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:titanium_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "7BCF48170631360F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4492,18 +3819,13 @@
 				{
 					count: 4
 					id: "6EA0586B5B3AF9B1"
-					item: {
-						count: 1
-						id: "modern_industrialization:titanium_drill"
-					}
+					item: { count: 1, id: "modern_industrialization:titanium_drill" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "270E45BC983F7D1B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4523,18 +3845,13 @@
 			rewards: [
 				{
 					id: "5B6609194BDF6A3F"
-					item: {
-						count: 1
-						id: "modern_industrialization:air_intake"
-					}
+					item: { count: 1, id: "modern_industrialization:air_intake" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "24603BF8F261D498"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4568,18 +3885,13 @@
 				{
 					count: 6
 					id: "74B05995530027B4"
-					item: {
-						count: 1
-						id: "modern_industrialization:superconductor_ingot"
-					}
+					item: { count: 1, id: "modern_industrialization:superconductor_ingot" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "416F00A1704B8500"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4595,15 +3907,6 @@
 		{
 			dependencies: ["4E87637FF30936CD"]
 			id: "745C8130B75C03F6"
-			rewards: [{
-				id: "388D63F4DEE58DBF"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "6872C3DA998D0742"
 				item: { count: 1, id: "extended_industrialization:nano_gravichestplate" }
@@ -4611,6 +3914,13 @@
 			}]
 			x: 40.0d
 			y: 16.0d
+			rewards: [{
+				count: 1
+				id: "388D63F4DEE58DBF"
+				item: { count: 1, id: "randomore:random_ore" }
+				random_bonus: 1
+				type: "item"
+			}]
 		}
 		{
 			dependencies: ["798931F2FBCE7245"]
@@ -4619,26 +3929,18 @@
 				{
 					count: 4
 					id: "71AB8240ACB8D1E9"
-					item: {
-						count: 1
-						id: "modern_industrialization:small_heat_exchanger"
-					}
+					item: { count: 1, id: "modern_industrialization:small_heat_exchanger" }
 					type: "item"
 				}
 				{
 					id: "78C44759F63CB6E2"
-					item: {
-						count: 1
-						id: "modern_industrialization:uranium_fuel_rod_quad"
-					}
+					item: { count: 1, id: "modern_industrialization:uranium_fuel_rod_quad" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "48A0772DAE3E8374"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4672,18 +3974,13 @@
 				{
 					count: 2
 					id: "0B18A8BC0B91524D"
-					item: {
-						count: 1
-						id: "modern_industrialization:helium_3_bucket"
-					}
+					item: { count: 1, id: "modern_industrialization:helium_3_bucket" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "49C6E880053B0655"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4717,18 +4014,13 @@
 				{
 					count: 2
 					id: "4D8F9B874A748224"
-					item: {
-						count: 1
-						id: "modern_industrialization:helium_plasma_bucket"
-					}
+					item: { count: 1, id: "modern_industrialization:helium_plasma_bucket" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "31B3589F1394F736"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4761,18 +4053,13 @@
 			rewards: [
 				{
 					id: "23C4575F34C5E28D"
-					item: {
-						count: 1
-						id: "modern_industrialization:quantum_upgrade"
-					}
+					item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "74060AB154A25EF4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4814,18 +4101,13 @@
 				{
 					count: 2
 					id: "565A99479E5A64C2"
-					item: {
-						count: 1
-						id: "modern_industrialization:quantum_upgrade"
-					}
+					item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
 					type: "item"
 				}
 				{
+					count: 1
 					id: "2FC4431EF8AEB55C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}

@@ -2,13 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "starcatcher"
-	group: ""
-	icon: {
-		id: "starcatcher:starcatcher_rod"
-	}
+	group: "5C913BC4F177E1BC"
+	icon: { id: "starcatcher:starcatcher_rod" }
 	id: "542613A14F82C441"
 	images: [ ]
-	order_index: 24
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,10 +15,7 @@
 			rewards: [{
 				count: 16
 				id: "52FD7A9D18829FDC"
-				item: {
-					count: 1
-					id: "aquaculture:box"
-				}
+				item: { count: 1, id: "aquaculture:box" }
 				type: "item"
 			}]
 			tasks: [{
@@ -36,10 +31,7 @@
 			rewards: [{
 				count: 16
 				id: "643DC9C59282C237"
-				item: {
-					count: 1
-					id: "aquaculture:box"
-				}
+				item: { count: 1, id: "aquaculture:box" }
 				type: "item"
 			}]
 			tasks: [{
@@ -56,21 +48,26 @@
 			rewards: [{
 				count: 16
 				id: "6537A69E492ACAFD"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
-				}
+				item: { count: 1, id: "aquaculture:treasure_chest" }
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "70E618F480CEA234"
-					item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:hooks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: {
+						components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:hooks))" }
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
 					type: "item"
 				}
 				{
 					id: "4BFBEBBFCAAFF876"
-					item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:bobbers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: {
+						components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:bobbers))" }
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
 					type: "item"
 				}
 			]
@@ -83,15 +80,16 @@
 			rewards: [{
 				count: 16
 				id: "4AA4B5137EA3B53F"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
-				}
+				item: { count: 1, id: "aquaculture:treasure_chest" }
 				type: "item"
 			}]
 			tasks: [{
 				id: "5F415663A2FF6191"
-				item: { components: { "ftbfiltersystem:filter": "or(item(starcatcher:cherry_bait)item(starcatcher:lush_bait)item(starcatcher:sculk_bait)item(starcatcher:dripstone_bait)item(starcatcher:murkwater_bait)item(starcatcher:legendary_bait)item(starcatcher:meteorological_bait))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					components: { "ftbfiltersystem:filter": "or(item(starcatcher:cherry_bait)item(starcatcher:lush_bait)item(starcatcher:sculk_bait)item(starcatcher:dripstone_bait)item(starcatcher:murkwater_bait)item(starcatcher:legendary_bait)item(starcatcher:meteorological_bait))" }
+					count: 1
+					id: "ftbfiltersystem:smart_filter"
+				}
 				type: "item"
 			}]
 			x: 10.0d
@@ -103,10 +101,7 @@
 			rewards: [{
 				count: 16
 				id: "5E3962026FAA8436"
-				item: {
-					count: 1
-					id: "aquaculture:lockbox"
-				}
+				item: { count: 1, id: "aquaculture:lockbox" }
 				type: "item"
 			}]
 			tasks: [{
@@ -122,10 +117,7 @@
 			rewards: [{
 				count: 64
 				id: "073D408097BC4205"
-				item: {
-					count: 1
-					id: "aquaculture:box"
-				}
+				item: { count: 1, id: "aquaculture:box" }
 				type: "item"
 			}]
 			tasks: [{
@@ -143,10 +135,7 @@
 			rewards: [{
 				count: 64
 				id: "1AC87470CBAB0A4A"
-				item: {
-					count: 1
-					id: "aquaculture:lockbox"
-				}
+				item: { count: 1, id: "aquaculture:lockbox" }
 				type: "item"
 			}]
 			tasks: [{
@@ -164,10 +153,7 @@
 			rewards: [{
 				count: 64
 				id: "73FF1490429F0C1A"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
-				}
+				item: { count: 1, id: "aquaculture:treasure_chest" }
 				type: "item"
 			}]
 			tasks: [{
@@ -186,10 +172,7 @@
 			rewards: [{
 				count: 64
 				id: "39FECF808D584855"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
-				}
+				item: { count: 1, id: "aquaculture:treasure_chest" }
 				type: "item"
 			}]
 			tasks: [{
@@ -207,10 +190,7 @@
 			rewards: [{
 				count: 64
 				id: "4BCDBAA9A77FF5DE"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
-				}
+				item: { count: 1, id: "aquaculture:treasure_chest" }
 				type: "item"
 			}]
 			tasks: [{
@@ -228,10 +208,7 @@
 			rewards: [{
 				count: 64
 				id: "63EEAF0E3E2E593F"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
-				}
+				item: { count: 1, id: "aquaculture:treasure_chest" }
 				type: "item"
 			}]
 			tasks: [{

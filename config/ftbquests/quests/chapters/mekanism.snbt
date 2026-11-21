@@ -2,18 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mekanism"
-	group: ""
+	group: "10788EC10FFABF2A"
 	icon: {
 		components: {
 			"mekanism:energy": {
-				energy_containers: [L;1000000L]
+				energy_containers: [L; 1000000L]
 			}
 		}
 		id: "mekanism:atomic_disassembler"
 	}
 	id: "27BF3E699EF3C1C4"
 	images: [ ]
-	order_index: 17
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -23,10 +23,7 @@
 				{
 					count: 2
 					id: "14056C0A2A67D625"
-					item: {
-						count: 1
-						id: "mekanism:alloy_infused"
-					}
+					item: { count: 1, id: "mekanism:alloy_infused" }
 					type: "item"
 				}
 				{
@@ -64,10 +61,7 @@
 			y: 19.2d
 		}
 		{
-			dependencies: [
-				"6A331140E85EB0B4"
-				"57457A03BC29CD0F"
-			]
+			dependencies: ["6A331140E85EB0B4" "57457A03BC29CD0F"]
 			id: "119843CF554CA06A"
 			rewards: [
 				{
@@ -76,11 +70,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "65986A78A9CD1D18"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -101,10 +93,7 @@
 			rewards: [
 				{
 					id: "6FE14971573B8FFB"
-					item: {
-						count: 1
-						id: "mekanism:basic_control_circuit"
-					}
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
 					type: "item"
 				}
 				{
@@ -124,10 +113,7 @@
 			y: 11.2d
 		}
 		{
-			dependencies: [
-				"47CF20BA88F5854A"
-				"331A6E771DAB1B22"
-			]
+			dependencies: ["47CF20BA88F5854A" "331A6E771DAB1B22"]
 			id: "6F713004201B6207"
 			rewards: [{
 				id: "5D92A33CE0217C29"
@@ -145,10 +131,7 @@
 			y: 14.4d
 		}
 		{
-			dependencies: [
-				"6F713004201B6207"
-				"6A331140E85EB0B4"
-			]
+			dependencies: ["6F713004201B6207" "6A331140E85EB0B4"]
 			id: "39856E4272E859D3"
 			rewards: [
 				{
@@ -157,11 +140,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "79E79D08938BFC16"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -177,10 +158,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"39856E4272E859D3"
-				"119843CF554CA06A"
-			]
+			dependencies: ["39856E4272E859D3" "119843CF554CA06A"]
 			id: "5CFFCDBF3CE8BDBA"
 			rewards: [
 				{
@@ -189,11 +167,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5C11ECC1B75E01DA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -216,10 +192,7 @@
 				{
 					count: 2
 					id: "6BD623F9A7F93D60"
-					item: {
-						count: 1
-						id: "mekanism:enriched_carbon"
-					}
+					item: { count: 1, id: "mekanism:enriched_carbon" }
 					type: "item"
 				}
 				{
@@ -244,10 +217,7 @@
 				{
 					count: 2
 					id: "563648852F1D063C"
-					item: {
-						count: 1
-						id: "mekanism:enriched_redstone"
-					}
+					item: { count: 1, id: "mekanism:enriched_redstone" }
 					type: "item"
 				}
 				{
@@ -272,10 +242,7 @@
 				{
 					count: 2
 					id: "7B67D29DA787C03F"
-					item: {
-						count: 1
-						id: "mekanism:enriched_diamond"
-					}
+					item: { count: 1, id: "mekanism:enriched_diamond" }
 					type: "item"
 				}
 				{
@@ -293,20 +260,14 @@
 			y: 9.6d
 		}
 		{
-			dependencies: [
-				"57457A03BC29CD0F"
-				"4998F33B8C4E6757"
-			]
+			dependencies: ["57457A03BC29CD0F" "4998F33B8C4E6757"]
 			id: "22B4C8ECAD78BD45"
 			optional: true
 			rewards: [
 				{
 					count: 2
 					id: "5A28787737885DFA"
-					item: {
-						count: 1
-						id: "mekanism:enriched_refined_obsidian"
-					}
+					item: { count: 1, id: "mekanism:enriched_refined_obsidian" }
 					type: "item"
 				}
 				{
@@ -331,10 +292,7 @@
 				{
 					count: 2
 					id: "18183260EA5906DF"
-					item: {
-						count: 1
-						id: "mekanism:enriched_tin"
-					}
+					item: { count: 1, id: "mekanism:enriched_tin" }
 					type: "item"
 				}
 				{
@@ -357,10 +315,7 @@
 				{
 					count: 8
 					id: "3B0DEF2C58F36C89"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
+					item: { count: 1, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
@@ -378,10 +333,7 @@
 			y: 17.6d
 		}
 		{
-			dependencies: [
-				"433863879CFD076B"
-				"331A6E771DAB1B22"
-			]
+			dependencies: ["433863879CFD076B" "331A6E771DAB1B22"]
 			id: "64C0EB318F14295F"
 			rewards: [{
 				id: "3CD05A3D3EE4C2EC"
@@ -397,10 +349,7 @@
 			y: 20.8d
 		}
 		{
-			dependencies: [
-				"64C0EB318F14295F"
-				"6A331140E85EB0B4"
-			]
+			dependencies: ["64C0EB318F14295F" "6A331140E85EB0B4"]
 			id: "04546DD184DA76B1"
 			rewards: [{
 				id: "6579771D443C99B4"
@@ -416,10 +365,7 @@
 			y: 22.4d
 		}
 		{
-			dependencies: [
-				"04546DD184DA76B1"
-				"119843CF554CA06A"
-			]
+			dependencies: ["04546DD184DA76B1" "119843CF554CA06A"]
 			id: "16364894BEBAF285"
 			rewards: [{
 				id: "77144CD1AB774D5D"
@@ -440,10 +386,7 @@
 			rewards: [
 				{
 					id: "76F94D19A82FD7F4"
-					item: {
-						count: 1
-						id: "mekanism:energy_tablet"
-					}
+					item: { count: 1, id: "mekanism:energy_tablet" }
 					type: "item"
 				}
 				{
@@ -452,11 +395,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "16E98FA82A3443B7"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -472,10 +413,7 @@
 			y: 14.4d
 		}
 		{
-			dependencies: [
-				"702506FB0F4559A7"
-				"331A6E771DAB1B22"
-			]
+			dependencies: ["702506FB0F4559A7" "331A6E771DAB1B22"]
 			id: "528FA94494267B63"
 			rewards: [
 				{
@@ -484,11 +422,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "47B26833D4289E01"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -504,10 +440,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"528FA94494267B63"
-				"6A331140E85EB0B4"
-			]
+			dependencies: ["528FA94494267B63" "6A331140E85EB0B4"]
 			id: "1C92CA042AEB8D7A"
 			rewards: [
 				{
@@ -516,11 +449,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1B4346D0CB2973A6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -536,10 +467,7 @@
 			y: 17.6d
 		}
 		{
-			dependencies: [
-				"1C92CA042AEB8D7A"
-				"119843CF554CA06A"
-			]
+			dependencies: ["1C92CA042AEB8D7A" "119843CF554CA06A"]
 			id: "0646E9C66008AEC7"
 			rewards: [
 				{
@@ -548,11 +476,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2CE33FDB47021CF1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -566,18 +492,12 @@
 			y: 19.2d
 		}
 		{
-			dependencies: [
-				"4CC2965B839763F0"
-				"331A6E771DAB1B22"
-			]
+			dependencies: ["4CC2965B839763F0" "331A6E771DAB1B22"]
 			id: "31D65AD46BB61FCC"
 			rewards: [
 				{
 					id: "3244596DE725DD51"
-					item: {
-						count: 1
-						id: "mekanismgenerators:solar_generator"
-					}
+					item: { count: 1, id: "mekanismgenerators:solar_generator" }
 					type: "item"
 				}
 				{
@@ -611,11 +531,7 @@
 			y: 20.8d
 		}
 		{
-			dependencies: [
-				"4CC2965B839763F0"
-				"331A6E771DAB1B22"
-				"47CF20BA88F5854A"
-			]
+			dependencies: ["4CC2965B839763F0" "331A6E771DAB1B22" "47CF20BA88F5854A"]
 			id: "31D98C2CF9F82426"
 			rewards: [{
 				id: "2351D11BA134D2EA"
@@ -631,19 +547,13 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"7569E5A18129C681"
-				"6F713004201B6207"
-			]
+			dependencies: ["7569E5A18129C681" "6F713004201B6207"]
 			id: "48D5E5A84C84C94D"
 			optional: true
 			rewards: [
 				{
 					id: "4E09B62E93F67C61"
-					item: {
-						count: 1
-						id: "minecraft:flint_and_steel"
-					}
+					item: { count: 1, id: "minecraft:flint_and_steel" }
 					type: "item"
 				}
 				{
@@ -667,10 +577,7 @@
 			rewards: [
 				{
 					id: "04E817391016FFEA"
-					item: {
-						count: 1
-						id: "mekanism:alloy_atomic"
-					}
+					item: { count: 1, id: "mekanism:alloy_atomic" }
 					type: "item"
 				}
 				{
@@ -688,20 +595,14 @@
 			y: 20.8d
 		}
 		{
-			dependencies: [
-				"4CC2965B839763F0"
-				"331A6E771DAB1B22"
-			]
+			dependencies: ["4CC2965B839763F0" "331A6E771DAB1B22"]
 			id: "743FB39F466AD219"
 			optional: true
 			rewards: [
 				{
 					count: 24
 					id: "1B4B5E7BF1747082"
-					item: {
-						count: 1
-						id: "minecraft:spectral_arrow"
-					}
+					item: { count: 1, id: "minecraft:spectral_arrow" }
 					type: "item"
 				}
 				{
@@ -719,10 +620,7 @@
 			y: 19.2d
 		}
 		{
-			dependencies: [
-				"4CC2965B839763F0"
-				"331A6E771DAB1B22"
-			]
+			dependencies: ["4CC2965B839763F0" "331A6E771DAB1B22"]
 			id: "7944DB1550E8A68B"
 			optional: true
 			rewards: [{
@@ -745,10 +643,7 @@
 				{
 					count: 2
 					id: "6861D563991C92C2"
-					item: {
-						count: 1
-						id: "mekanism:alloy_infused"
-					}
+					item: { count: 1, id: "mekanism:alloy_infused" }
 					type: "item"
 				}
 				{
@@ -774,10 +669,7 @@
 				{
 					count: 2
 					id: "0A53192520A599BB"
-					item: {
-						count: 1
-						id: "mekanism:basic_control_circuit"
-					}
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
 					type: "item"
 				}
 				{
@@ -795,11 +687,7 @@
 			y: 11.2d
 		}
 		{
-			dependencies: [
-				"154BD7201A093AD0"
-				"331A6E771DAB1B22"
-				"6F713004201B6207"
-			]
+			dependencies: ["154BD7201A093AD0" "331A6E771DAB1B22" "6F713004201B6207"]
 			id: "65FA4A7FE399C79D"
 			rewards: [{
 				id: "3FCDC6C78E94FB94"
@@ -815,11 +703,7 @@
 			y: 14.4d
 		}
 		{
-			dependencies: [
-				"65FA4A7FE399C79D"
-				"6A331140E85EB0B4"
-				"39856E4272E859D3"
-			]
+			dependencies: ["65FA4A7FE399C79D" "6A331140E85EB0B4" "39856E4272E859D3"]
 			id: "4BFE4A17CDC64114"
 			rewards: [{
 				id: "264A1E9E48677B41"
@@ -835,11 +719,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"4BFE4A17CDC64114"
-				"119843CF554CA06A"
-				"5CFFCDBF3CE8BDBA"
-			]
+			dependencies: ["4BFE4A17CDC64114" "119843CF554CA06A" "5CFFCDBF3CE8BDBA"]
 			id: "4AB7420E4AC7D9EF"
 			rewards: [{
 				id: "6FA04A03FA72CEF7"
@@ -860,10 +740,7 @@
 				{
 					count: 4
 					id: "38089686C872EAA4"
-					item: {
-						count: 1
-						id: "mekanism:ingot_osmium"
-					}
+					item: { count: 1, id: "mekanism:ingot_osmium" }
 					type: "item"
 				}
 				{
@@ -883,10 +760,7 @@
 			y: 14.4d
 		}
 		{
-			dependencies: [
-				"7569E5A18129C681"
-				"331A6E771DAB1B22"
-			]
+			dependencies: ["7569E5A18129C681" "331A6E771DAB1B22"]
 			id: "7C341563D8014FB6"
 			rewards: [{
 				id: "456787BA0EDED098"
@@ -902,10 +776,7 @@
 			y: 19.2d
 		}
 		{
-			dependencies: [
-				"7C341563D8014FB6"
-				"6A331140E85EB0B4"
-			]
+			dependencies: ["7C341563D8014FB6" "6A331140E85EB0B4"]
 			id: "7E578D628F1DEBCB"
 			rewards: [{
 				id: "413FB9683D809CAE"
@@ -921,10 +792,7 @@
 			y: 19.2d
 		}
 		{
-			dependencies: [
-				"7E578D628F1DEBCB"
-				"119843CF554CA06A"
-			]
+			dependencies: ["7E578D628F1DEBCB" "119843CF554CA06A"]
 			id: "7505D3C0A8577B60"
 			rewards: [{
 				id: "5DE15E00FEAA8D56"
@@ -945,10 +813,7 @@
 				{
 					count: 6
 					id: "620C3EF30FB0CB26"
-					item: {
-						count: 1
-						id: "mekanism:ingot_steel"
-					}
+					item: { count: 1, id: "mekanism:ingot_steel" }
 					type: "item"
 				}
 				{
@@ -966,10 +831,7 @@
 			y: 25.6d
 		}
 		{
-			dependencies: [
-				"3F1CCB36D5B017CE"
-				"331A6E771DAB1B22"
-			]
+			dependencies: ["3F1CCB36D5B017CE" "331A6E771DAB1B22"]
 			id: "21119BCA97654F42"
 			rewards: [{
 				id: "60226AF208FA9D82"
@@ -985,10 +847,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"21119BCA97654F42"
-				"6A331140E85EB0B4"
-			]
+			dependencies: ["21119BCA97654F42" "6A331140E85EB0B4"]
 			id: "7C6FF2A1C1753EBB"
 			rewards: [{
 				id: "200EDB7F6EBF9119"
@@ -1004,10 +863,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"7C6FF2A1C1753EBB"
-				"119843CF554CA06A"
-			]
+			dependencies: ["7C6FF2A1C1753EBB" "119843CF554CA06A"]
 			id: "4F04486BB1B2D4E2"
 			rewards: [{
 				id: "026ACA86598E5059"
@@ -1437,11 +1293,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "26F4AE98F2B52A63"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1592,11 +1446,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5EF8E6540D748D59"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1651,11 +1503,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "448049998B9F6A40"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -1724,10 +1574,7 @@
 				{
 					count: 4
 					id: "512AD4CEC87828F5"
-					item: {
-						count: 1
-						id: "minecraft:diamond_ore"
-					}
+					item: { count: 1, id: "minecraft:diamond_ore" }
 					type: "item"
 				}
 				{
@@ -1751,10 +1598,7 @@
 				{
 					count: 4
 					id: "72B83F9841BAD836"
-					item: {
-						count: 1
-						id: "mekanism:dust_lead"
-					}
+					item: { count: 1, id: "mekanism:dust_lead" }
 					type: "item"
 				}
 				{
@@ -1777,10 +1621,7 @@
 				{
 					count: 16
 					id: "65EDBEBB266FC59D"
-					item: {
-						count: 1
-						id: "mekanism:ingot_osmium"
-					}
+					item: { count: 1, id: "mekanism:ingot_osmium" }
 					type: "item"
 				}
 				{
@@ -1806,10 +1647,7 @@
 				{
 					count: 4
 					id: "1BDC1C56E482BD82"
-					item: {
-						count: 1
-						id: "mekanism:clump_uranium"
-					}
+					item: { count: 1, id: "mekanism:clump_uranium" }
 					type: "item"
 				}
 				{
@@ -1833,10 +1671,7 @@
 				{
 					count: 4
 					id: "6DF2E819A9039102"
-					item: {
-						count: 1
-						id: "occultism:silver_ingot"
-					}
+					item: { count: 1, id: "occultism:silver_ingot" }
 					type: "item"
 				}
 				{
@@ -1854,12 +1689,7 @@
 			y: 35.2d
 		}
 		{
-			dependencies: [
-				"7569E5A18129C681"
-				"4CC2965B839763F0"
-				"433863879CFD076B"
-				"32A04231A48EA796"
-			]
+			dependencies: ["7569E5A18129C681" "4CC2965B839763F0" "433863879CFD076B" "32A04231A48EA796"]
 			id: "7F2E9B7E0F5AAFC8"
 			rewards: [{
 				id: "7C5B2CD4065FF521"
@@ -1930,10 +1760,7 @@
 				{
 					count: 16
 					id: "363A912345E8E108"
-					item: {
-						count: 1
-						id: "minecraft:oak_log"
-					}
+					item: { count: 1, id: "minecraft:oak_log" }
 					type: "item"
 				}
 				{
@@ -1999,10 +1826,7 @@
 			y: 38.4d
 		}
 		{
-			dependencies: [
-				"4998F33B8C4E6757"
-				"7569E5A18129C681"
-			]
+			dependencies: ["4998F33B8C4E6757" "7569E5A18129C681"]
 			id: "0C8FEAF343FC9CF5"
 			rewards: [{
 				id: "0E6C7E8AF7E2309E"
@@ -2023,10 +1847,7 @@
 			rewards: [{
 				count: 3
 				id: "1D0BC58B4E29B007"
-				item: {
-					count: 1
-					id: "mekanism:dust_obsidian"
-				}
+				item: { count: 1, id: "mekanism:dust_obsidian" }
 				type: "item"
 			}]
 			tasks: [{
@@ -2038,18 +1859,12 @@
 			y: 11.2d
 		}
 		{
-			dependencies: [
-				"52B649A4C67B36B5"
-				"01936EF64C8E165E"
-			]
+			dependencies: ["52B649A4C67B36B5" "01936EF64C8E165E"]
 			id: "57457A03BC29CD0F"
 			rewards: [
 				{
 					id: "0D819F78DD6ACDC0"
-					item: {
-						count: 1
-						id: "mekanism:dust_refined_obsidian"
-					}
+					item: { count: 1, id: "mekanism:dust_refined_obsidian" }
 					type: "item"
 				}
 				{
@@ -2069,19 +1884,13 @@
 			y: 12.8d
 		}
 		{
-			dependencies: [
-				"57457A03BC29CD0F"
-				"6F713004201B6207"
-			]
+			dependencies: ["57457A03BC29CD0F" "6F713004201B6207"]
 			id: "6E8BC6B8B1890312"
 			rewards: [
 				{
 					count: 8
 					id: "647CF4EBD773B6B5"
-					item: {
-						count: 1
-						id: "mekanism:ingot_osmium"
-					}
+					item: { count: 1, id: "mekanism:ingot_osmium" }
 					type: "item"
 				}
 				{
@@ -2090,11 +1899,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "42CF87A116245DAC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2115,10 +1922,7 @@
 			rewards: [
 				{
 					id: "10E8BEA84CA3161A"
-					item: {
-						count: 1
-						id: "mekanism:ingot_refined_obsidian"
-					}
+					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
 					type: "item"
 				}
 				{
@@ -2136,38 +1940,25 @@
 			y: 9.6d
 		}
 		{
-			dependencies: [
-				"596104C336DED4D8"
-				"46517FD86E76A766"
-				"119843CF554CA06A"
-			]
+			dependencies: ["596104C336DED4D8" "46517FD86E76A766" "119843CF554CA06A"]
 			id: "2369E85866998513"
 			rewards: [
 				{
 					count: 4
 					id: "0DF41430C28E24E6"
-					item: {
-						count: 1
-						id: "minecraft:gold_ore"
-					}
+					item: { count: 1, id: "minecraft:gold_ore" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "63BE24C2B4BCB3DC"
-					item: {
-						count: 1
-						id: "minecraft:emerald_ore"
-					}
+					item: { count: 1, id: "minecraft:emerald_ore" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "7541965A2D3E4596"
-					item: {
-						count: 1
-						id: "minecraft:iron_ore"
-					}
+					item: { count: 1, id: "minecraft:iron_ore" }
 					type: "item"
 				}
 				{
@@ -2176,11 +1967,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2EDC486D3044BFAF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2215,10 +2004,7 @@
 			rewards: [
 				{
 					id: "0D94CFBF29AFB741"
-					item: {
-						count: 1
-						id: "mekanism:teleportation_core"
-					}
+					item: { count: 1, id: "mekanism:teleportation_core" }
 					type: "item"
 				}
 				{
@@ -2227,11 +2013,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "399C2FC2A36E4EB8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2247,10 +2031,7 @@
 			y: 9.6d
 		}
 		{
-			dependencies: [
-				"27A213407DC5A9C1"
-				"119843CF554CA06A"
-			]
+			dependencies: ["27A213407DC5A9C1" "119843CF554CA06A"]
 			id: "46517FD86E76A766"
 			rewards: [{
 				id: "2381350C4CC49A05"
@@ -2272,10 +2053,7 @@
 				{
 					count: 6
 					id: "7BEC43603A1ACC5F"
-					item: {
-						count: 1
-						id: "mekanism:shard_uranium"
-					}
+					item: { count: 1, id: "mekanism:shard_uranium" }
 					type: "item"
 				}
 				{
@@ -2298,10 +2076,7 @@
 				{
 					count: 3
 					id: "5179B362400BB87C"
-					item: {
-						count: 1
-						id: "mekanism:steel_casing"
-					}
+					item: { count: 1, id: "mekanism:steel_casing" }
 					type: "item"
 				}
 				{
@@ -2357,11 +2132,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5449C86CB4968296"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2394,20 +2167,13 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"596104C336DED4D8"
-				"7C484AA252A54063"
-				"27A213407DC5A9C1"
-			]
+			dependencies: ["596104C336DED4D8" "7C484AA252A54063" "27A213407DC5A9C1"]
 			id: "0005C3D91F8DD316"
 			rewards: [
 				{
 					count: 4
 					id: "1270F558D082AF19"
-					item: {
-						count: 1
-						id: "minecraft:ender_eye"
-					}
+					item: { count: 1, id: "minecraft:ender_eye" }
 					type: "item"
 				}
 				{
@@ -2438,10 +2204,7 @@
 			rewards: [
 				{
 					id: "4F2AD8895FF2EBE7"
-					item: {
-						count: 1
-						id: "mekanism:ingot_refined_glowstone"
-					}
+					item: { count: 1, id: "mekanism:ingot_refined_glowstone" }
 					type: "item"
 				}
 				{
@@ -2465,10 +2228,7 @@
 			rewards: [
 				{
 					id: "618FCB8489AEEC65"
-					item: {
-						count: 1
-						id: "mekanism:basic_tier_installer"
-					}
+					item: { count: 1, id: "mekanism:basic_tier_installer" }
 					type: "item"
 				}
 				{
@@ -2486,11 +2246,7 @@
 			y: 14.4d
 		}
 		{
-			dependencies: [
-				"456DB9B6BF60ADA3"
-				"6F713004201B6207"
-				"331A6E771DAB1B22"
-			]
+			dependencies: ["456DB9B6BF60ADA3" "6F713004201B6207" "331A6E771DAB1B22"]
 			id: "42CF588A0AF75C45"
 			optional: true
 			rewards: [{
@@ -2507,11 +2263,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"42CF588A0AF75C45"
-				"39856E4272E859D3"
-				"6A331140E85EB0B4"
-			]
+			dependencies: ["42CF588A0AF75C45" "39856E4272E859D3" "6A331140E85EB0B4"]
 			id: "42181284A31A5165"
 			optional: true
 			rewards: [{
@@ -2528,10 +2280,7 @@
 			y: 17.6d
 		}
 		{
-			dependencies: [
-				"42181284A31A5165"
-				"119843CF554CA06A"
-			]
+			dependencies: ["42181284A31A5165" "119843CF554CA06A"]
 			id: "1917D159436BC120"
 			optional: true
 			rewards: [{
@@ -2548,10 +2297,7 @@
 			y: 17.6d
 		}
 		{
-			dependencies: [
-				"5CFFCDBF3CE8BDBA"
-				"61736104E96470BD"
-			]
+			dependencies: ["5CFFCDBF3CE8BDBA" "61736104E96470BD"]
 			id: "2B4BE453E6F5DC6B"
 			rewards: [
 				{
@@ -2560,11 +2306,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "78F859207AB0E583"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2578,10 +2322,7 @@
 			y: 11.2d
 		}
 		{
-			dependencies: [
-				"5CFFCDBF3CE8BDBA"
-				"61736104E96470BD"
-			]
+			dependencies: ["5CFFCDBF3CE8BDBA" "61736104E96470BD"]
 			id: "2AA73197149F232B"
 			rewards: [
 				{
@@ -2590,11 +2331,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0EA194123EC1E623"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2608,10 +2347,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"5CFFCDBF3CE8BDBA"
-				"61736104E96470BD"
-			]
+			dependencies: ["5CFFCDBF3CE8BDBA" "61736104E96470BD"]
 			id: "3310337281D0370D"
 			rewards: [
 				{
@@ -2620,11 +2356,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3D6058A68B85BE22"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2638,10 +2372,7 @@
 			y: 9.6d
 		}
 		{
-			dependencies: [
-				"5CFFCDBF3CE8BDBA"
-				"61736104E96470BD"
-			]
+			dependencies: ["5CFFCDBF3CE8BDBA" "61736104E96470BD"]
 			id: "700FCEDBE64F3313"
 			rewards: [
 				{
@@ -2650,11 +2381,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5DB92F8D72CDFE2E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2668,10 +2397,7 @@
 			y: 9.6d
 		}
 		{
-			dependencies: [
-				"5CFFCDBF3CE8BDBA"
-				"61736104E96470BD"
-			]
+			dependencies: ["5CFFCDBF3CE8BDBA" "61736104E96470BD"]
 			id: "313D8C953BAF5B2E"
 			rewards: [
 				{
@@ -2680,11 +2406,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5CF161E26233ACD6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2721,10 +2445,7 @@
 			rewards: [
 				{
 					id: "68E35395FF9E7F3B"
-					item: {
-						count: 1
-						id: "mekanism:hydrogen_bucket"
-					}
+					item: { count: 1, id: "mekanism:hydrogen_bucket" }
 					type: "item"
 				}
 				{
@@ -2759,18 +2480,12 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"5CFFCDBF3CE8BDBA"
-				"61736104E96470BD"
-			]
+			dependencies: ["5CFFCDBF3CE8BDBA" "61736104E96470BD"]
 			id: "22A31024A138B0F7"
 			rewards: [
 				{
 					id: "234C319E8CB475A0"
-					item: {
-						count: 1
-						id: "mekanism:ultimate_control_circuit"
-					}
+					item: { count: 1, id: "mekanism:ultimate_control_circuit" }
 					type: "item"
 				}
 				{
@@ -2779,11 +2494,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4B9B5FC9690B8CC1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -2831,19 +2544,13 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"6F713004201B6207"
-				"21FCD3C92ACB754D"
-			]
+			dependencies: ["6F713004201B6207" "21FCD3C92ACB754D"]
 			id: "32A04231A48EA796"
 			rewards: [
 				{
 					count: 8
 					id: "492DDFA3CD345BFD"
-					item: {
-						count: 1
-						id: "mekanism:basic_pressurized_tube"
-					}
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
 					type: "item"
 				}
 				{
@@ -2852,11 +2559,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0C4E4706764EF7BC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -2896,10 +2601,7 @@
 				{
 					count: 6
 					id: "4072E0C5C2728ED8"
-					item: {
-						count: 1
-						id: "mekanism:ingot_steel"
-					}
+					item: { count: 1, id: "mekanism:ingot_steel" }
 					type: "item"
 				}
 				{
@@ -2917,10 +2619,7 @@
 			y: 12.8d
 		}
 		{
-			dependencies: [
-				"331A6E771DAB1B22"
-				"21FCD3C92ACB754D"
-			]
+			dependencies: ["331A6E771DAB1B22" "21FCD3C92ACB754D"]
 			id: "7908B7140D3968AC"
 			rewards: [{
 				id: "193D20EF4A575172"
@@ -2936,10 +2635,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"6A331140E85EB0B4"
-				"7908B7140D3968AC"
-			]
+			dependencies: ["6A331140E85EB0B4" "7908B7140D3968AC"]
 			id: "49677C96B7800837"
 			rewards: [{
 				id: "20DFB127A7D92B80"
@@ -2955,10 +2651,7 @@
 			y: 19.2d
 		}
 		{
-			dependencies: [
-				"119843CF554CA06A"
-				"49677C96B7800837"
-			]
+			dependencies: ["119843CF554CA06A" "49677C96B7800837"]
 			id: "3FF3B795E82E89A2"
 			rewards: [{
 				id: "28EDFA5BD8550CEE"
@@ -2979,10 +2672,7 @@
 				{
 					count: 6
 					id: "0D357084CDE0E3DD"
-					item: {
-						count: 1
-						id: "mekanism:ingot_steel"
-					}
+					item: { count: 1, id: "mekanism:ingot_steel" }
 					type: "item"
 				}
 				{
@@ -3000,10 +2690,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"331A6E771DAB1B22"
-				"41B56DDD404A9E28"
-			]
+			dependencies: ["331A6E771DAB1B22" "41B56DDD404A9E28"]
 			id: "0E681418CD88F42B"
 			rewards: [{
 				id: "048E16E3F737C1ED"
@@ -3019,10 +2706,7 @@
 			y: 22.4d
 		}
 		{
-			dependencies: [
-				"6A331140E85EB0B4"
-				"0E681418CD88F42B"
-			]
+			dependencies: ["6A331140E85EB0B4" "0E681418CD88F42B"]
 			id: "0FEE3A403384225F"
 			rewards: [{
 				id: "43F3A7690283D5CD"
@@ -3038,10 +2722,7 @@
 			y: 22.4d
 		}
 		{
-			dependencies: [
-				"119843CF554CA06A"
-				"0FEE3A403384225F"
-			]
+			dependencies: ["119843CF554CA06A" "0FEE3A403384225F"]
 			id: "520117A4C0AB83B0"
 			rewards: [{
 				id: "21E922BB4358AE45"
@@ -3062,10 +2743,7 @@
 				{
 					count: 3
 					id: "3BC0233FDAB77869"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
+					item: { count: 1, id: "minecraft:copper_ingot" }
 					type: "item"
 				}
 				{
@@ -3083,10 +2761,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"331A6E771DAB1B22"
-				"6A8C1CAC247FA31E"
-			]
+			dependencies: ["331A6E771DAB1B22" "6A8C1CAC247FA31E"]
 			id: "63E4BEB3B88F6540"
 			rewards: [{
 				id: "3F6044A27E9E07C9"
@@ -3102,10 +2777,7 @@
 			y: 22.4d
 		}
 		{
-			dependencies: [
-				"6A331140E85EB0B4"
-				"63E4BEB3B88F6540"
-			]
+			dependencies: ["6A331140E85EB0B4" "63E4BEB3B88F6540"]
 			id: "3194F0186360E5DC"
 			rewards: [{
 				id: "60BCCA307CFEAFD2"
@@ -3121,10 +2793,7 @@
 			y: 20.8d
 		}
 		{
-			dependencies: [
-				"119843CF554CA06A"
-				"3194F0186360E5DC"
-			]
+			dependencies: ["119843CF554CA06A" "3194F0186360E5DC"]
 			id: "7ABBA78E7A372CF3"
 			rewards: [{
 				id: "4E449A18BF944F08"
@@ -3146,10 +2815,7 @@
 				{
 					count: 16
 					id: "033BF492874BFDE1"
-					item: {
-						count: 1
-						id: "mekanism:dust_lithium"
-					}
+					item: { count: 1, id: "mekanism:dust_lithium" }
 					type: "item"
 				}
 				{
@@ -3167,10 +2833,7 @@
 			y: 11.2d
 		}
 		{
-			dependencies: [
-				"32A04231A48EA796"
-				"61736104E96470BD"
-			]
+			dependencies: ["32A04231A48EA796" "61736104E96470BD"]
 			id: "071F381F40CB480E"
 			rewards: [
 				{
@@ -3179,11 +2842,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1580CAC15EA8675E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3202,10 +2863,7 @@
 			rewards: [
 				{
 					id: "1B9F9262C01071C7"
-					item: {
-						count: 1
-						id: "mekanism:energy_tablet"
-					}
+					item: { count: 1, id: "mekanism:energy_tablet" }
 					type: "item"
 				}
 				{
@@ -3214,11 +2872,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "51D64E651F55F09D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3246,20 +2902,13 @@
 			y: 14.4d
 		}
 		{
-			dependencies: [
-				"702506FB0F4559A7"
-				"761C32656BB95304"
-				"587BC74FBAD5C41D"
-			]
+			dependencies: ["702506FB0F4559A7" "761C32656BB95304" "587BC74FBAD5C41D"]
 			id: "03DA5DD590484294"
 			rewards: [
 				{
 					count: 8
 					id: "1D5CB2A8016435C9"
-					item: {
-						count: 1
-						id: "mekanism:dust_lithium"
-					}
+					item: { count: 1, id: "mekanism:dust_lithium" }
 					type: "item"
 				}
 				{
@@ -3277,20 +2926,13 @@
 			y: 11.2d
 		}
 		{
-			dependencies: [
-				"761C32656BB95304"
-				"587BC74FBAD5C41D"
-				"702506FB0F4559A7"
-			]
+			dependencies: ["761C32656BB95304" "587BC74FBAD5C41D" "702506FB0F4559A7"]
 			id: "3A654D389F1BE286"
 			rewards: [
 				{
 					count: 8
 					id: "2E200E77CDA4142C"
-					item: {
-						count: 1
-						id: "mekanism:dust_lithium"
-					}
+					item: { count: 1, id: "mekanism:dust_lithium" }
 					type: "item"
 				}
 				{
@@ -3308,10 +2950,7 @@
 			y: 12.8d
 		}
 		{
-			dependencies: [
-				"03DA5DD590484294"
-				"528FA94494267B63"
-			]
+			dependencies: ["03DA5DD590484294" "528FA94494267B63"]
 			id: "1759DCF48125657E"
 			rewards: [
 				{
@@ -3320,11 +2959,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1DE63E9D7F3440DC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3338,10 +2975,7 @@
 			y: 12.8d
 		}
 		{
-			dependencies: [
-				"1759DCF48125657E"
-				"1C92CA042AEB8D7A"
-			]
+			dependencies: ["1759DCF48125657E" "1C92CA042AEB8D7A"]
 			id: "0337113F58D9ED70"
 			rewards: [
 				{
@@ -3350,11 +2984,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6734A76F48AD48E1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3368,28 +3000,19 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"0337113F58D9ED70"
-				"0646E9C66008AEC7"
-			]
+			dependencies: ["0337113F58D9ED70" "0646E9C66008AEC7"]
 			id: "11F398086B33D1E4"
 			rewards: [
 				{
 					count: 32
 					id: "40C3E3F0D4A85474"
-					item: {
-						count: 1
-						id: "mekanism:ultimate_universal_cable"
-					}
+					item: { count: 1, id: "mekanism:ultimate_universal_cable" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "4CBBAFF351ECD99D"
-					item: {
-						count: 1
-						id: "mekanism:alloy_atomic"
-					}
+					item: { count: 1, id: "mekanism:alloy_atomic" }
 					type: "item"
 				}
 				{
@@ -3398,11 +3021,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "40F3B113CAFF0C18"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3416,10 +3037,7 @@
 			y: 19.2d
 		}
 		{
-			dependencies: [
-				"3A654D389F1BE286"
-				"528FA94494267B63"
-			]
+			dependencies: ["3A654D389F1BE286" "528FA94494267B63"]
 			id: "6A187DD8BA99E2A3"
 			rewards: [
 				{
@@ -3428,11 +3046,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "280A0AB7F499F98C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3446,10 +3062,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"6A187DD8BA99E2A3"
-				"1C92CA042AEB8D7A"
-			]
+			dependencies: ["6A187DD8BA99E2A3" "1C92CA042AEB8D7A"]
 			id: "4681D2BA66A2EBE4"
 			rewards: [
 				{
@@ -3458,11 +3071,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "21B50D5ABECE71A3"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3476,28 +3087,19 @@
 			y: 19.2d
 		}
 		{
-			dependencies: [
-				"4681D2BA66A2EBE4"
-				"0646E9C66008AEC7"
-			]
+			dependencies: ["4681D2BA66A2EBE4" "0646E9C66008AEC7"]
 			id: "0D48055EA367859C"
 			rewards: [
 				{
 					count: 32
 					id: "43A258CC09ECE059"
-					item: {
-						count: 1
-						id: "mekanism:ultimate_universal_cable"
-					}
+					item: { count: 1, id: "mekanism:ultimate_universal_cable" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "638D3AA7D4AFEB58"
-					item: {
-						count: 1
-						id: "mekanism:alloy_atomic"
-					}
+					item: { count: 1, id: "mekanism:alloy_atomic" }
 					type: "item"
 				}
 				{
@@ -3506,11 +3108,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "786CD00C546E3434"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3529,10 +3129,7 @@
 			rewards: [
 				{
 					id: "62326541D52C94BD"
-					item: {
-						count: 1
-						id: "mekanism:yellow_cake_uranium"
-					}
+					item: { count: 1, id: "mekanism:yellow_cake_uranium" }
 					type: "item"
 				}
 				{
@@ -3550,18 +3147,12 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"02212DBD7C402385"
-				"5CFFCDBF3CE8BDBA"
-			]
+			dependencies: ["02212DBD7C402385" "5CFFCDBF3CE8BDBA"]
 			id: "5FA03F32B08B10A8"
 			rewards: [
 				{
 					id: "6BC050ED6FB7BE4F"
-					item: {
-						count: 1
-						id: "mekanism:ultimate_control_circuit"
-					}
+					item: { count: 1, id: "mekanism:ultimate_control_circuit" }
 					type: "item"
 				}
 				{
@@ -3584,19 +3175,13 @@
 			rewards: [
 				{
 					id: "007DBC131A5A6081"
-					item: {
-						count: 1
-						id: "mekanism:basic_chemical_tank"
-					}
+					item: { count: 1, id: "mekanism:basic_chemical_tank" }
 					type: "item"
 				}
 				{
 					count: 16
 					id: "025D82735FC1EBB0"
-					item: {
-						count: 1
-						id: "mekanism:basic_pressurized_tube"
-					}
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
 					type: "item"
 				}
 				{
@@ -3605,11 +3190,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2EC82BFD7A03F9ED"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -3652,10 +3235,7 @@
 				{
 					count: 16
 					id: "6FD493AFB1130D4E"
-					item: {
-						count: 1
-						id: "mekanism:fluorite_gem"
-					}
+					item: { count: 1, id: "mekanism:fluorite_gem" }
 					type: "item"
 				}
 				{
@@ -3679,10 +3259,7 @@
 				{
 					count: 16
 					id: "65F3CB8659A98F8C"
-					item: {
-						count: 1
-						id: "mekanism:dust_sulfur"
-					}
+					item: { count: 1, id: "mekanism:dust_sulfur" }
 					type: "item"
 				}
 				{
@@ -3706,19 +3283,13 @@
 				{
 					count: 16
 					id: "412EF5B782CFDD14"
-					item: {
-						count: 1
-						id: "mekanism:basic_pressurized_tube"
-					}
+					item: { count: 1, id: "mekanism:basic_pressurized_tube" }
 					type: "item"
 				}
 				{
 					count: 3
 					id: "10DE314466C73035"
-					item: {
-						count: 1
-						id: "mekanism:ingot_steel"
-					}
+					item: { count: 1, id: "mekanism:ingot_steel" }
 					type: "item"
 				}
 				{
@@ -3727,11 +3298,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2846025ABD31E9D1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3751,10 +3320,7 @@
 				{
 					count: 4
 					id: "4111314FF7181E57"
-					item: {
-						count: 1
-						id: "mekanism:dust_fluorite"
-					}
+					item: { count: 1, id: "mekanism:dust_fluorite" }
 					type: "item"
 				}
 				{
@@ -3763,11 +3329,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "738008B13AA38594"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3787,10 +3351,7 @@
 				{
 					count: 16
 					id: "38C7A89CD281CC21"
-					item: {
-						count: 1
-						id: "mekanism:dust_fluorite"
-					}
+					item: { count: 1, id: "mekanism:dust_fluorite" }
 					type: "item"
 				}
 				{
@@ -3799,11 +3360,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "03C9CE7CCCA524C5"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -3824,10 +3383,7 @@
 			rewards: [
 				{
 					id: "66088943FE4AC4F4"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -3836,11 +3392,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "036C7A820B49C32B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3859,10 +3413,7 @@
 			rewards: [
 				{
 					id: "65CFB67036DE2336"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -3871,11 +3422,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7A1C565AF7BC3C79"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3894,10 +3443,7 @@
 			rewards: [
 				{
 					id: "7BDF74137B22A65E"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -3906,11 +3452,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1FFB02B68E94F7C5"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3929,10 +3473,7 @@
 			rewards: [
 				{
 					id: "27DC8C92B27359AB"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -3941,11 +3482,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7BAF76C2C6017F24"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -3959,28 +3498,19 @@
 			y: 4.8d
 		}
 		{
-			dependencies: [
-				"4F5E513AD04F8FBD"
-				"39A3E80396491DE6"
-			]
+			dependencies: ["4F5E513AD04F8FBD" "39A3E80396491DE6"]
 			id: "67EE4FAD164E2E9A"
 			rewards: [
 				{
 					count: 4
 					id: "3217F825CF66D9A4"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
 					count: 4
 					id: "651DE42A2EFBE7CD"
-					item: {
-						count: 1
-						id: "mekanism:ultimate_control_circuit"
-					}
+					item: { count: 1, id: "mekanism:ultimate_control_circuit" }
 					type: "item"
 				}
 				{
@@ -3989,11 +3519,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "69B8AEC299B9355B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4012,10 +3540,7 @@
 			rewards: [
 				{
 					id: "2469605C6C950A02"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -4024,11 +3549,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "03374766D95E428E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4049,10 +3572,7 @@
 			rewards: [
 				{
 					id: "6C33AC4CB92F0650"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -4061,11 +3581,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6E5E43666C51623F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4084,10 +3602,7 @@
 			rewards: [
 				{
 					id: "00DED42CC7A9C9DD"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -4096,11 +3611,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "79796BFF174DA7DC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4119,10 +3632,7 @@
 			rewards: [
 				{
 					id: "42FE390704519F66"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -4131,11 +3641,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5D700FB934B8F3C2"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4154,10 +3662,7 @@
 			rewards: [
 				{
 					id: "364B9A6E6EB613AD"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -4166,11 +3671,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "566B0B6FBEFCE025"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4184,11 +3687,7 @@
 			y: 9.6d
 		}
 		{
-			dependencies: [
-				"071F381F40CB480E"
-				"179059CFEABE9346"
-				"7F2E9B7E0F5AAFC8"
-			]
+			dependencies: ["071F381F40CB480E" "179059CFEABE9346" "7F2E9B7E0F5AAFC8"]
 			id: "42CAF522E640BE57"
 			rewards: [
 				{
@@ -4197,11 +3696,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "368976F3FBD0F22A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4257,11 +3754,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "4D08CA2E3A6230C0"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4325,10 +3820,7 @@
 			y: 19.2d
 		}
 		{
-			dependencies: [
-				"2D094F9F6979E457"
-				"42CAF522E640BE57"
-			]
+			dependencies: ["2D094F9F6979E457" "42CAF522E640BE57"]
 			id: "6A2F8461FEC2CB3A"
 			rewards: [
 				{
@@ -4337,11 +3829,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "5B8E36D27CA11D83"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4361,19 +3851,13 @@
 				{
 					count: 4
 					id: "42A4535EB82E6FF3"
-					item: {
-						count: 1
-						id: "mekanism:block_steel"
-					}
+					item: { count: 1, id: "mekanism:block_steel" }
 					type: "item"
 				}
 				{
 					count: 32
 					id: "0055922474904891"
-					item: {
-						count: 1
-						id: "mekanism:advanced_thermodynamic_conductor"
-					}
+					item: { count: 1, id: "mekanism:advanced_thermodynamic_conductor" }
 					type: "item"
 				}
 				{
@@ -4382,11 +3866,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "1FA04C1BC7E3287F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4433,11 +3915,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "2A5BCD784E0B9DCD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4468,10 +3948,7 @@
 			rewards: [
 				{
 					id: "160F1C49038AC927"
-					item: {
-						count: 1
-						id: "mekanism:pellet_plutonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_plutonium" }
 					type: "item"
 				}
 				{
@@ -4480,11 +3957,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "766155673C4B7D59"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4503,10 +3978,7 @@
 			rewards: [
 				{
 					id: "485A4C49B3AC945A"
-					item: {
-						count: 1
-						id: "mekanism:reprocessed_fissile_fragment"
-					}
+					item: { count: 1, id: "mekanism:reprocessed_fissile_fragment" }
 					type: "item"
 				}
 				{
@@ -4515,11 +3987,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7E88B1BEC3A269CC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4533,20 +4003,13 @@
 			y: 1.6d
 		}
 		{
-			dependencies: [
-				"179059CFEABE9346"
-				"76FE0ED2B314DE22"
-				"61736104E96470BD"
-			]
+			dependencies: ["179059CFEABE9346" "76FE0ED2B314DE22" "61736104E96470BD"]
 			id: "50F91BB8CC3D567C"
 			rewards: [
 				{
 					count: 4
 					id: "02915C5164450B8B"
-					item: {
-						count: 1
-						id: "mekanism:hdpe_sheet"
-					}
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
 					type: "item"
 				}
 				{
@@ -4555,11 +4018,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "52CFE8971DE0E5EB"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4587,10 +4048,7 @@
 				{
 					count: 4
 					id: "35F81271D81A9D32"
-					item: {
-						count: 1
-						id: "mekanism:pellet_polonium"
-					}
+					item: { count: 1, id: "mekanism:pellet_polonium" }
 					type: "item"
 				}
 				{
@@ -4599,11 +4057,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3E8E7D30556052E4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -4646,11 +4102,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "49DB99499836E66A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4673,11 +4127,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "172023047F2D5902"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4732,11 +4184,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3330FC42F2E6A08E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4775,11 +4225,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "797D67A87BD4E856"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4855,11 +4303,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "136B6D4268BE3B74"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4923,11 +4369,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "03D17FA82FF6C8C4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4964,11 +4408,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "0496AEC2D0FE381A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -4991,11 +4433,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "15C31B440CC5224C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -5018,11 +4458,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7C95D307041884F8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -5045,11 +4483,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7B384C7B5D8F3E2F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -5072,11 +4508,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "3ED06848CE0694D8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -5099,11 +4533,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "47B115154134375F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
@@ -5117,10 +4549,7 @@
 			y: 9.6d
 		}
 		{
-			dependencies: [
-				"313D8C953BAF5B2E"
-				"179059CFEABE9346"
-			]
+			dependencies: ["313D8C953BAF5B2E" "179059CFEABE9346"]
 			id: "06E649C796F00D82"
 			rewards: [
 				{
@@ -5129,11 +4558,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "41195CB377CCC28E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -5174,11 +4601,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "6A2D4EA8174D9349"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}
@@ -5452,11 +4877,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "361FA5E247A0E739"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 2
 					type: "item"
 				}

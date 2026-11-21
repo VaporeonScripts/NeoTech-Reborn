@@ -2,17 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sophisticated_backpacks"
-	group: ""
+	group: "2401AD943A650627"
 	icon: {
-		components: {
-			"sophisticatedcore:number_of_inventory_slots": 27
-			"sophisticatedcore:number_of_upgrade_slots": 1
-		}
+		components: { "sophisticatedcore:number_of_inventory_slots": 27, "sophisticatedcore:number_of_upgrade_slots": 1 }
 		id: "sophisticatedbackpacks:backpack"
 	}
 	id: "03E9158FD3E77039"
 	images: [ ]
-	order_index: 6
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -73,10 +70,7 @@
 			rewards: [{
 				count: 2
 				id: "5018D4235897F942"
-				item: {
-					count: 1
-					id: "sophisticatedbackpacks:upgrade_base"
-				}
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
 				type: "item"
 			}]
 			shape: "hexagon"
@@ -592,11 +586,9 @@
 					type: "random"
 				}
 				{
+					count: 1
 					id: "7383C139F087E1B3"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
+					item: { count: 1, id: "randomore:random_ore" }
 					random_bonus: 1
 					type: "item"
 				}
