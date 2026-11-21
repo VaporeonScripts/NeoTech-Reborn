@@ -12,16 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7D218F8A63B6CDFC"
-			tasks: [{
-				id: "4F1921B4A754CD70"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D218F8A63B6CDFC"]
 			id: "2F813EC1C3F612D3"
 			rewards: [{
 				count: 2
@@ -41,7 +31,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2F813EC1C3F612D3"]
@@ -68,8 +58,8 @@
 				item: { count: 1, id: "bankstorage:bank_2" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["32E04CBF495BBE0A"]
@@ -96,8 +86,8 @@
 				item: { count: 1, id: "bankstorage:bank_3" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 2.0d
+			y: -6.4d
 		}
 		{
 			dependencies: ["25BB0F8CD8EDB2F4"]
@@ -124,8 +114,8 @@
 				item: { count: 1, id: "bankstorage:bank_4" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 4.0d
+			y: -6.4d
 		}
 		{
 			dependencies: ["4A828CCE62DFEC66"]
@@ -152,8 +142,8 @@
 				item: { count: 1, id: "bankstorage:bank_5" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 6.0d
+			y: -6.4d
 		}
 		{
 			dependencies: ["406E9F07590956C9"]
@@ -174,23 +164,14 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
-				{
-					id: "1E62E6FD739F52A0"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "647D2572F845907D"
 				item: { count: 1, id: "bankstorage:bank_6" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["42A7EB8639B4BAD2"]
@@ -211,7 +192,7 @@
 					type: "random"
 				}
 				{
-					id: "7E437E2D9270ACD8"
+					id: "6EE38D9257D7FAC4"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -225,8 +206,8 @@
 				item: { count: 1, id: "bankstorage:bank_7" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 6.0d
+			y: -9.6d
 		}
 		{
 			dependencies: ["2F813EC1C3F612D3"]
@@ -237,8 +218,8 @@
 				item: { count: 1, id: "bankstorage:bank_dock" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 0.0d
+			y: -6.4d
 		}
 		{
 			dependencies: ["2F813EC1C3F612D3"]
@@ -249,8 +230,8 @@
 				item: { count: 1, id: "bankstorage:bank_link" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 0.0d
+			y: -9.6d
 		}
 	]
 }

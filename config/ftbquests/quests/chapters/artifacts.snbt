@@ -12,15 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "00E952987C1156B9"
-			tasks: [{
-				id: "6002D9D6D89C0C1F"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
 			id: "4B49E98292B1898F"
 			rewards: [
 				{
@@ -48,7 +39,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "536C62938DD74583"
@@ -74,7 +65,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "4D7B6CF67ED640D4"
@@ -99,7 +90,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 7.0d
+			y: 6.4d
 		}
 		{
 			id: "4D435CB53F9D6116"
@@ -129,7 +120,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 7.0d
+			y: 6.4d
 		}
 		{
 			id: "422038A57A98E578"
@@ -156,7 +147,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "336A11862BFBEB66"
@@ -181,7 +172,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "275B4FC2986FE260"
@@ -213,7 +204,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "4D352EBF712EBE6E"
@@ -243,7 +234,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 7.0d
+			y: 6.4d
 		}
 		{
 			id: "37F32EEFA9330F95"
@@ -258,7 +249,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "106C09B67CC6618F"
@@ -273,7 +264,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "1E99E55742762FD6"
@@ -288,7 +279,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "794E82A9D10A4F25"
@@ -318,7 +309,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "7C9A1D06EC6F7BD4"
@@ -333,7 +324,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "48F6C6EECCDC7986"
@@ -395,7 +386,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 7.0d
+			y: 6.4d
 		}
 		{
 			id: "5A58AFE2E7E6BE73"
@@ -410,7 +401,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "08464DBA29C215D1"
@@ -436,7 +427,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "21F5EB3F8F5D23F5"
@@ -466,7 +457,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "640A6C22B23AF91D"
@@ -481,7 +472,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "05BA3D6173F0EE61"
@@ -600,7 +591,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 7.0d
+			y: 6.4d
 		}
 		{
 			id: "765F1F306BC7545D"
@@ -626,7 +617,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 7.0d
+			y: 6.4d
 		}
 		{
 			id: "68BE861624099976"
@@ -658,7 +649,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.75d
+			y: 8.0d
 		}
 		{
 			id: "60E4B5A700DD6DB5"
@@ -688,7 +679,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "154C8033DEBECA8B"
@@ -703,7 +694,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "7C7C882001DA2B9F"
@@ -728,7 +719,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "4FE17CA304A1ACA5"
@@ -769,7 +760,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "7AFDBDA8E91A6750"
@@ -784,7 +775,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 7.0d
+			y: 6.4d
 		}
 		{
 			id: "5228BC5CD6332CB9"
@@ -816,7 +807,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "3D30505F0C58F0ED"
@@ -842,7 +833,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "41C610394B897796"
@@ -874,7 +865,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "05ED85843DEE1F69"
@@ -900,7 +891,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "5D043F46D43DBE4B"
@@ -926,7 +917,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "7D72B278D68E7B8C"
@@ -951,7 +942,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "71DBE4620D736352"
@@ -977,7 +968,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "097404D1662B6D1F"
@@ -992,7 +983,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 6.4d
 		}
 		{
 			id: "0859DD1482ADD6A8"
@@ -1007,7 +998,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.0d
+			y: 6.4d
 		}
 		{
 			id: "42A628C3153EBE1A"
@@ -1073,7 +1064,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.75d
+			y: 8.0d
 		}
 		{
 			id: "5D61DE361F0F9FEA"
@@ -1098,7 +1089,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.75d
+			y: 8.0d
 		}
 		{
 			id: "2AFA7666648A8747"
@@ -1138,7 +1129,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "0E99C24B57F91B69"
@@ -1165,7 +1156,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "08710F87B744144D"

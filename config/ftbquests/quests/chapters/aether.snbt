@@ -12,15 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "71AA3B05D8E43179"
-			tasks: [{
-				id: "396E6698FEFC208C"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
 			id: "6351CC7A32F8CD13"
 			rewards: [{
 				count: 4
@@ -58,7 +49,7 @@
 				type: "advancement"
 			}]
 			x: 16.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "6114372D527B5903"
@@ -116,7 +107,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "6FDB74D30B768032"
@@ -136,7 +127,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "630C7784CE9C7EAA"
@@ -173,7 +164,7 @@
 				type: "advancement"
 			}]
 			x: 8.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "0E88C241E6006C36"
@@ -200,7 +191,7 @@
 				type: "advancement"
 			}]
 			x: 2.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			icon: {
@@ -240,7 +231,7 @@
 				}
 			]
 			x: 4.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "25B9B8A5B2FCF4FC"
@@ -255,7 +246,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "52E582A995B952D6"
@@ -270,7 +261,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "418C389883C776A2"
@@ -297,7 +288,7 @@
 				type: "advancement"
 			}]
 			x: 8.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "135FD4B995F664FF"
@@ -324,7 +315,7 @@
 				type: "advancement"
 			}]
 			x: 6.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "67F7FAB96737DCE9"
@@ -354,7 +345,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "111DFE40731A6528"
@@ -380,7 +371,7 @@
 				type: "advancement"
 			}]
 			x: 16.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "29FA5DF916F12B75"
@@ -407,7 +398,7 @@
 				type: "advancement"
 			}]
 			x: 14.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "0C1CE44B24A01F1E"
@@ -433,7 +424,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "3192E33EC2F3001B"
@@ -452,7 +443,7 @@
 				type: "advancement"
 			}]
 			x: 10.0d
-			y: 3.5d
+			y: 3.2d
 		}
 		{
 			id: "4E76028E335C7AA1"
@@ -492,7 +483,7 @@
 				type: "advancement"
 			}]
 			x: 12.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			icon: {
@@ -538,7 +529,7 @@
 				}
 			]
 			x: 14.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "15D71004975A0E99"
@@ -574,7 +565,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "6BA4B719E5A64CAC"
@@ -631,7 +622,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "6A0AD1EDDED4F8F0"
@@ -719,7 +710,7 @@
 				}
 			]
 			x: 12.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "0C7F75FA3DD3A2CD"
@@ -777,7 +768,7 @@
 				type: "advancement"
 			}]
 			x: 10.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			id: "7B91CDC8202CB41F"
@@ -821,7 +812,7 @@
 				type: "advancement"
 			}]
 			x: 4.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "372F90BF0928F68D"
@@ -841,7 +832,7 @@
 				type: "advancement"
 			}]
 			x: 6.0d
-			y: 1.75d
+			y: 1.6d
 		}
 		{
 			id: "7D5AB924D152BDB8"
@@ -859,7 +850,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.25d
+			y: 4.8d
 		}
 		{
 			hide_until_deps_complete: false
@@ -876,7 +867,7 @@
 				type: "advancement"
 			}]
 			x: 10.0d
-			y: 1.75d
+			y: 1.6d
 		}
 	]
 }

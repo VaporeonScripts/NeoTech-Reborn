@@ -12,17 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			hide_until_deps_complete: true
-			id: "609929A2D0DCBD81"
-			tasks: [{
-				id: "261E0AB3C396C181"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["609929A2D0DCBD81"]
 			id: "027479F050E443BF"
 			rewards: [{
 				count: 4
@@ -41,8 +30,8 @@
 				item: { count: 1, id: "modern_industrialization:forge_hammer" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 4.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["027479F050E443BF"]
@@ -70,8 +59,8 @@
 				id: "4B7A9786466FD281"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["027479F050E443BF"]
@@ -91,8 +80,8 @@
 				item: { count: 1, id: "modern_industrialization:steam_mining_drill" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 4.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["027479F050E443BF"]
@@ -118,8 +107,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 9.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["027479F050E443BF"]
@@ -145,8 +134,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 6.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["027479F050E443BF"]
@@ -165,8 +154,8 @@
 				item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["027479F050E443BF"]
@@ -192,8 +181,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_mixer" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 10.5d
+			x: 2.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["145B79B6509C0830"]
@@ -219,8 +208,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_furnace" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 3.0d
+			x: 8.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["145B79B6509C0830"]
@@ -241,15 +230,6 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
-				{
-					id: "2A54D9B2AB2B7988"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
 			]
 			tasks: [{
 				advancement: "modern_industrialization:steam_blast_furnace"
@@ -257,8 +237,8 @@
 				id: "0024C327FF8CE8C5"
 				type: "advancement"
 			}]
-			x: 6.8d
-			y: 4.5d
+			x: 8.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["47CDF2F5E5F3BF4A"]
@@ -280,7 +260,7 @@
 					type: "random"
 				}
 				{
-					id: "7B81510556EE8A7B"
+					id: "0F58BB159626349E"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -297,8 +277,8 @@
 				id: "7C5E0A708D04550C"
 				type: "advancement"
 			}]
-			x: 9.3d
-			y: 6.0d
+			x: 12.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["1ED3465F0C3B958C"]
@@ -325,8 +305,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_packer" }
 				type: "item"
 			}]
-			x: 11.8d
-			y: 3.0d
+			x: 12.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["1ED3465F0C3B958C"]
@@ -342,8 +322,8 @@
 				item: { count: 1, id: "modern_industrialization:steam_quarry" }
 				type: "item"
 			}]
-			x: 11.8d
-			y: 1.5d
+			x: 10.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["1ED3465F0C3B958C"]
@@ -355,7 +335,7 @@
 					type: "random"
 				}
 				{
-					id: "36F3F452A4EE527F"
+					id: "588CC8E9A3B39216"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -370,8 +350,8 @@
 				id: "1F1451063870C029"
 				type: "advancement"
 			}]
-			x: 11.8d
-			y: 6.0d
+			x: 12.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["1ED3465F0C3B958C"]
@@ -383,7 +363,7 @@
 					type: "random"
 				}
 				{
-					id: "406619BA30FA7879"
+					id: "105CB8D7D2BB86BD"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -399,8 +379,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_wiremill" }
 				type: "item"
 			}]
-			x: 11.8d
-			y: 4.5d
+			x: 14.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["743D2FBBE95AE443"]
@@ -420,23 +400,14 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
-				{
-					id: "2D398C57802C4984"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "768BF6B417B6331A"
 				item: { count: 1, id: "modern_industrialization:capacitor" }
 				type: "item"
 			}]
-			x: 14.3d
-			y: 3.0d
+			x: 12.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["743D2FBBE95AE443"]
@@ -456,23 +427,14 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
-				{
-					id: "52425413C8F1603E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "3A369B861E632EEE"
 				item: { count: 1, id: "modern_industrialization:inductor" }
 				type: "item"
 			}]
-			x: 14.3d
-			y: 6.0d
+			x: 14.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["743D2FBBE95AE443"]
@@ -493,23 +455,14 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
-				{
-					id: "208A290436938222"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "167BD40891A609F5"
 				item: { count: 1, id: "modern_industrialization:resistor" }
 				type: "item"
 			}]
-			x: 14.3d
-			y: 4.5d
+			x: 16.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["54991AEF88B37ADD"]
@@ -529,7 +482,7 @@
 					type: "random"
 				}
 				{
-					id: "65F16FA75AC95568"
+					id: "65AD0AFF455C376E"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -545,8 +498,8 @@
 				item: { count: 1, id: "modern_industrialization:analog_circuit" }
 				type: "item"
 			}]
-			x: 16.8d
-			y: 10.5d
+			x: 18.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -566,7 +519,7 @@
 					type: "random"
 				}
 				{
-					id: "7823FAE839C95FF4"
+					id: "538B6C602933CECC"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -580,8 +533,8 @@
 				item: { count: 1, id: "modern_industrialization:assembler" }
 				type: "item"
 			}]
-			x: 21.1d
-			y: 1.5d
+			x: 16.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -601,7 +554,7 @@
 					type: "random"
 				}
 				{
-					id: "2C203B41287951E1"
+					id: "2BE885A6F80B0123"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -615,8 +568,8 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 21.1d
-			y: 4.5d
+			x: 22.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -636,7 +589,7 @@
 					type: "random"
 				}
 				{
-					id: "12A09D99AB9038FC"
+					id: "56C6C4CF0F7B8468"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -650,8 +603,8 @@
 				item: { count: 1, id: "modern_industrialization:large_steam_boiler" }
 				type: "item"
 			}]
-			x: 21.1d
-			y: 0.0d
+			x: 16.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -671,7 +624,7 @@
 					type: "random"
 				}
 				{
-					id: "21E84CC0D4D05190"
+					id: "5DBEEB278401DA7E"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -685,8 +638,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_lv_transformer" }
 				type: "item"
 			}]
-			x: 21.1d
-			y: 7.5d
+			x: 16.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["791FBB3174C61904"]
@@ -702,7 +655,7 @@
 					type: "item"
 				}
 				{
-					id: "7A37F9E086DC1522"
+					id: "4A9C40E39FBC24CC"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -716,8 +669,8 @@
 				item: { count: 1, id: "modern_industrialization:basic_upgrade" }
 				type: "item"
 			}]
-			x: 23.6d
-			y: 3.0d
+			x: 16.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["2C00296A5307B856"]
@@ -737,7 +690,7 @@
 					type: "random"
 				}
 				{
-					id: "256E7C95726BD36C"
+					id: "303E81C4F4823356"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -752,8 +705,8 @@
 				id: "0DFE0928594F7360"
 				type: "advancement"
 			}]
-			x: 23.6d
-			y: 4.5d
+			x: 26.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["2C00296A5307B856"]
@@ -781,7 +734,7 @@
 					type: "random"
 				}
 				{
-					id: "3F0DE3EB4D6D9118"
+					id: "709B4C73162E9092"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -795,8 +748,8 @@
 				item: { count: 1, id: "modern_industrialization:polarizer" }
 				type: "item"
 			}]
-			x: 23.6d
-			y: 6.0d
+			x: 20.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["31155A6522F0DC95"]
@@ -816,7 +769,7 @@
 					type: "random"
 				}
 				{
-					id: "591657CB3D43E654"
+					id: "26745277B3CE4C60"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -832,8 +785,8 @@
 				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
 				type: "item"
 			}]
-			x: 26.1d
-			y: 0.0d
+			x: 30.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -853,7 +806,7 @@
 					type: "random"
 				}
 				{
-					id: "0C08F6BDF13F1ABD"
+					id: "2E0510EB142CFCF9"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -867,8 +820,8 @@
 				item: { count: 1, id: "modern_industrialization:oil_drilling_rig" }
 				type: "item"
 			}]
-			x: 30.4d
-			y: 4.5d
+			x: 30.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -889,7 +842,7 @@
 					type: "random"
 				}
 				{
-					id: "4B3801E77AD78E73"
+					id: "52D662C7742C8401"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -903,8 +856,8 @@
 				item: { count: 1, id: "modern_industrialization:electrolyzer" }
 				type: "item"
 			}]
-			x: 28.6d
-			y: 6.0d
+			x: 26.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -925,7 +878,7 @@
 					type: "random"
 				}
 				{
-					id: "08B335C7AE880D4F"
+					id: "5E5118149EC3F830"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -939,8 +892,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
 				type: "item"
 			}]
-			x: 28.6d
-			y: 4.5d
+			x: 32.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["7080BBF387CF1381"]
@@ -960,7 +913,7 @@
 					type: "random"
 				}
 				{
-					id: "2506D40D477091D8"
+					id: "00A69B11D94E6BB3"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -974,8 +927,8 @@
 				item: { count: 1, id: "modern_industrialization:hv_steam_turbine" }
 				type: "item"
 			}]
-			x: 34.7d
-			y: 3.0d
+			x: 34.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["4CFCCF89C723D9D4"]
@@ -995,7 +948,7 @@
 					type: "random"
 				}
 				{
-					id: "7B806FB52C4D912A"
+					id: "3994A8E60C128705"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1009,8 +962,8 @@
 				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
 				type: "item"
 			}]
-			x: 39.0d
-			y: 3.0d
+			x: 36.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1030,7 +983,7 @@
 					type: "random"
 				}
 				{
-					id: "74703A37025C3812"
+					id: "6BF6A735BF9CF610"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1044,8 +997,8 @@
 				item: { count: 1, id: "modern_industrialization:chemical_reactor" }
 				type: "item"
 			}]
-			x: 28.6d
-			y: 1.5d
+			x: 26.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["0F0C3A0B887FA889"]
@@ -1065,7 +1018,7 @@
 					type: "random"
 				}
 				{
-					id: "4A87F9014BBE399C"
+					id: "3F6D4BDA261AA8F0"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1079,8 +1032,8 @@
 				item: { count: 1, id: "modern_industrialization:advanced_upgrade" }
 				type: "item"
 			}]
-			x: 34.7d
-			y: 0.0d
+			x: 24.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1101,7 +1054,7 @@
 					type: "random"
 				}
 				{
-					id: "374B98656B45893B"
+					id: "64E66F106799ADF8"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1115,8 +1068,8 @@
 				item: { count: 1, id: "modern_industrialization:electric_quarry" }
 				type: "item"
 			}]
-			x: 28.6d
-			y: 0.0d
+			x: 28.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1137,7 +1090,7 @@
 					type: "random"
 				}
 				{
-					id: "4331B61385711562"
+					id: "443D1AB1FB309CBA"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1153,8 +1106,8 @@
 				item: { count: 1, id: "modern_industrialization:digital_circuit" }
 				type: "item"
 			}]
-			x: 30.4d
-			y: 6.0d
+			x: 34.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
@@ -1175,7 +1128,7 @@
 					type: "random"
 				}
 				{
-					id: "361041E59DE1F1FC"
+					id: "68F9CAB9D9B97C5C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1189,8 +1142,8 @@
 				item: { count: 1, id: "modern_industrialization:turbo_upgrade" }
 				type: "item"
 			}]
-			x: 34.7d
-			y: 7.5d
+			x: 36.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
@@ -1210,7 +1163,7 @@
 					type: "random"
 				}
 				{
-					id: "333550C7B0F6272F"
+					id: "3705BBEE13A15832"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1224,8 +1177,8 @@
 				item: { count: 1, id: "modern_industrialization:heat_exchanger" }
 				type: "item"
 			}]
-			x: 34.7d
-			y: 6.0d
+			x: 36.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["723DFC38D29BBDC9"]
@@ -1246,7 +1199,7 @@
 					type: "random"
 				}
 				{
-					id: "691935B2E065FC6C"
+					id: "0E066743012C3591"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1260,8 +1213,8 @@
 				item: { count: 1, id: "modern_industrialization:distillation_tower" }
 				type: "item"
 			}]
-			x: 36.5d
-			y: 6.0d
+			x: 24.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1281,7 +1234,7 @@
 					type: "random"
 				}
 				{
-					id: "0D151673CD4DA55B"
+					id: "301CAE7B080E2053"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1295,8 +1248,8 @@
 				item: { count: 1, id: "modern_industrialization:distillery" }
 				type: "item"
 			}]
-			x: 30.4d
-			y: 9.0d
+			x: 26.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1316,7 +1269,7 @@
 					type: "random"
 				}
 				{
-					id: "385C452DAFE22DBF"
+					id: "103535BBC7E6C596"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1330,8 +1283,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_diesel_generator" }
 				type: "item"
 			}]
-			x: 32.2d
-			y: 0.0d
+			x: 32.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["61EA178AF98220E7"]
@@ -1351,7 +1304,7 @@
 					type: "random"
 				}
 				{
-					id: "6E50D1C9CE05CB84"
+					id: "75DF3E3F09D16EB0"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1365,8 +1318,8 @@
 				item: { count: 1, id: "modern_industrialization:hv_diesel_generator" }
 				type: "item"
 			}]
-			x: 36.5d
-			y: 7.5d
+			x: 36.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -1397,7 +1350,7 @@
 					type: "random"
 				}
 				{
-					id: "2D88A42D8AB55C75"
+					id: "51821E26C8F15826"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1411,8 +1364,8 @@
 				item: { count: 1, id: "modern_industrialization:large_diesel_generator" }
 				type: "item"
 			}]
-			x: 41.5d
-			y: 9.0d
+			x: 38.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1433,7 +1386,7 @@
 					type: "random"
 				}
 				{
-					id: "3EBCF9E2790577FD"
+					id: "217E6230CEB0BC68"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1447,8 +1400,8 @@
 				item: { count: 1, id: "modern_industrialization:centrifuge" }
 				type: "item"
 			}]
-			x: 30.4d
-			y: 0.0d
+			x: 30.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1476,7 +1429,7 @@
 					type: "random"
 				}
 				{
-					id: "30FC0FCEEA4A88C4"
+					id: "4CAF19B9D14E11A6"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1490,8 +1443,8 @@
 				item: { count: 1, id: "modern_industrialization:diesel_mining_drill" }
 				type: "item"
 			}]
-			x: 28.6d
-			y: 7.5d
+			x: 28.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1519,7 +1472,7 @@
 					type: "random"
 				}
 				{
-					id: "15B3EEE5E4C45522"
+					id: "20A7252BEFC9BCFD"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1533,8 +1486,8 @@
 				item: { count: 1, id: "modern_industrialization:diesel_jetpack" }
 				type: "item"
 			}]
-			x: 30.4d
-			y: 1.5d
+			x: 28.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1562,7 +1515,7 @@
 					type: "random"
 				}
 				{
-					id: "31B33DB962CD61E2"
+					id: "74059EB7A217908C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1576,8 +1529,8 @@
 				item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
 				type: "item"
 			}]
-			x: 28.6d
-			y: 3.0d
+			x: 32.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["1FB2EAFEA9A787AC"]
@@ -1592,7 +1545,7 @@
 					type: "item"
 				}
 				{
-					id: "46F0247BDE0AFD93"
+					id: "1654D010D332BAAC"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1606,8 +1559,8 @@
 				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
 				type: "item"
 			}]
-			x: 34.7d
-			y: 1.5d
+			x: 34.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["3C681A8671313F41"]
@@ -1624,7 +1577,7 @@
 					type: "item"
 				}
 				{
-					id: "4E47D54A6DF9DC5C"
+					id: "721E26498AF8AA7D"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1638,8 +1591,8 @@
 				item: { count: 1, id: "modern_industrialization:kanthal_coil" }
 				type: "item"
 			}]
-			x: 39.0d
-			y: 0.0d
+			x: 36.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -1659,7 +1612,7 @@
 					type: "random"
 				}
 				{
-					id: "216C885FC071D701"
+					id: "0B3CE712AB1FF0D5"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1673,8 +1626,8 @@
 				item: { count: 1, id: "modern_industrialization:diesel_chainsaw" }
 				type: "item"
 			}]
-			x: 28.6d
-			y: 9.0d
+			x: 28.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
@@ -1703,7 +1656,7 @@
 					type: "random"
 				}
 				{
-					id: "7BCF48170631360F"
+					id: "05C4BAB111D8BABD"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1717,8 +1670,8 @@
 				item: { count: 1, id: "modern_industrialization:processing_unit" }
 				type: "item"
 			}]
-			x: 34.7d
-			y: 9.0d
+			x: 32.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["3959498A55970754"]
@@ -1747,7 +1700,7 @@
 					type: "random"
 				}
 				{
-					id: "270E45BC983F7D1B"
+					id: "7FDDF60B8CF72913"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1761,8 +1714,8 @@
 				item: { count: 1, id: "modern_industrialization:highly_advanced_upgrade" }
 				type: "item"
 			}]
-			x: 39.0d
-			y: 6.0d
+			x: 32.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["5DC982042E0955E7"]
@@ -1777,7 +1730,7 @@
 					type: "item"
 				}
 				{
-					id: "24603BF8F261D498"
+					id: "5D65D079FD85AFB8"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1793,8 +1746,8 @@
 				item: { count: 1, id: "modern_industrialization:titanium_ingot" }
 				type: "item"
 			}]
-			x: 39.0d
-			y: 4.5d
+			x: 40.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["6F43A73447924D09"]
@@ -1823,7 +1776,7 @@
 					type: "random"
 				}
 				{
-					id: "416F00A1704B8500"
+					id: "417CA6A0635C8148"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1837,8 +1790,8 @@
 				item: { count: 1, id: "modern_industrialization:pressurizer" }
 				type: "item"
 			}]
-			x: 41.5d
-			y: 4.5d
+			x: 40.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["6F43A73447924D09"]
@@ -1858,7 +1811,7 @@
 					type: "random"
 				}
 				{
-					id: "388D63F4DEE58DBF"
+					id: "092861D6B6FACE89"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1872,8 +1825,8 @@
 				item: { count: 1, id: "modern_industrialization:raw_iridium" }
 				type: "item"
 			}]
-			x: 41.5d
-			y: 1.5d
+			x: 40.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["731E63F6EF9320ED"]
@@ -1902,7 +1855,7 @@
 					type: "random"
 				}
 				{
-					id: "48A0772DAE3E8374"
+					id: "5E68C6042DA80B82"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1916,8 +1869,8 @@
 				item: { count: 1, id: "modern_industrialization:superconductor_cable" }
 				type: "item"
 			}]
-			x: 44.0d
-			y: 0.0d
+			x: 40.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["5D9900CD4D01048A"]
@@ -1947,7 +1900,7 @@
 					type: "random"
 				}
 				{
-					id: "49C6E880053B0655"
+					id: "1A1C7D0D7B4CD6CD"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1961,8 +1914,8 @@
 				item: { count: 1, id: "modern_industrialization:gravichestplate" }
 				type: "item"
 			}]
-			x: 46.5d
-			y: 1.5d
+			x: 40.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["6F43A73447924D09"]
@@ -1990,7 +1943,7 @@
 					type: "random"
 				}
 				{
-					id: "31B3589F1394F736"
+					id: "48ADD9C88A9FB148"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2004,8 +1957,8 @@
 				item: { count: 1, id: "modern_industrialization:blastproof_alloy_plate" }
 				type: "item"
 			}]
-			x: 41.5d
-			y: 3.0d
+			x: 42.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["440EE63E20B0C52A"]
@@ -2042,7 +1995,7 @@
 					type: "random"
 				}
 				{
-					id: "74060AB154A25EF4"
+					id: "5E5FFB18C4FA1A1C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2058,8 +2011,8 @@
 				item: { count: 1, id: "modern_industrialization:implosion_compressor" }
 				type: "item"
 			}]
-			x: 44.0d
-			y: 1.5d
+			x: 46.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["79C48188CA2E69E5"]
@@ -2096,7 +2049,7 @@
 					type: "random"
 				}
 				{
-					id: "2FC4431EF8AEB55C"
+					id: "298E5A8F528D6D88"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2110,8 +2063,8 @@
 				item: { count: 1, id: "modern_industrialization:nuke" }
 				type: "item"
 			}]
-			x: 49.0d
-			y: 1.5d
+			x: 48.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["798931F2FBCE7245"]
@@ -2131,7 +2084,7 @@
 					type: "random"
 				}
 				{
-					id: "22072359A83051E3"
+					id: "1D65089B780132B5"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2145,8 +2098,8 @@
 				item: { count: 1, id: "modern_industrialization:mixed_ingot_iridium" }
 				type: "item"
 			}]
-			x: 46.5d
-			y: 4.5d
+			x: 48.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["42B6AC4E503E5F7F"]
@@ -2175,7 +2128,7 @@
 					type: "random"
 				}
 				{
-					id: "7FA154CB99062011"
+					id: "3E358E32309C9B1E"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2191,8 +2144,8 @@
 				item: { count: 1, id: "modern_industrialization:quantum_circuit" }
 				type: "item"
 			}]
-			x: 49.0d
-			y: 3.0d
+			x: 52.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["53D5219AFA6C0D60"]
@@ -2222,7 +2175,7 @@
 					type: "random"
 				}
 				{
-					id: "0E15B76BDC267BF5"
+					id: "37D47F1F93D142F2"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2236,8 +2189,8 @@
 				item: { count: 1, id: "modern_industrialization:fusion_reactor" }
 				type: "item"
 			}]
-			x: 51.5d
-			y: 1.5d
+			x: 52.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["53D5219AFA6C0D60"]
@@ -2277,7 +2230,7 @@
 					type: "random"
 				}
 				{
-					id: "2D9A135E59A71C17"
+					id: "4865A8AFF0966667"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2293,8 +2246,8 @@
 				item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
 				type: "item"
 			}]
-			x: 51.5d
-			y: 4.5d
+			x: 56.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["08C5ED76A219F76B"]
@@ -2322,7 +2275,7 @@
 					type: "random"
 				}
 				{
-					id: "0FC39C3E256A75DA"
+					id: "5E67D35C62FBA05D"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2336,8 +2289,8 @@
 				item: { count: 1, id: "modern_industrialization:plasma_turbine" }
 				type: "item"
 			}]
-			x: 54.0d
-			y: 0.0d
+			x: 52.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["60DF8D3D225B1EC6"]
@@ -2359,7 +2312,7 @@
 					type: "random"
 				}
 				{
-					id: "596E0AE3721ECCA3"
+					id: "6F862D97A8C99E40"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2373,8 +2326,8 @@
 				item: { count: 1, id: "modern_industrialization:quantum_chestplate" }
 				type: "item"
 			}]
-			x: 54.0d
-			y: 4.5d
+			x: 56.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["60DF8D3D225B1EC6"]
@@ -2396,7 +2349,7 @@
 					type: "random"
 				}
 				{
-					id: "12670C9DE87576E3"
+					id: "644E8E748E8547BF"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2410,8 +2363,8 @@
 				item: { count: 1, id: "modern_industrialization:quantum_sword" }
 				type: "item"
 			}]
-			x: 54.0d
-			y: 6.0d
+			x: 56.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["798931F2FBCE7245"]
@@ -2440,7 +2393,7 @@
 					type: "random"
 				}
 				{
-					id: "0620BCC92A5E69BD"
+					id: "3371D8EC321439F8"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2454,8 +2407,8 @@
 				item: { count: 1, id: "modern_industrialization:nuclear_reactor" }
 				type: "item"
 			}]
-			x: 46.5d
-			y: 3.0d
+			x: 48.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["0DBE8182B0394DE1"]
@@ -2477,7 +2430,7 @@
 					type: "random"
 				}
 				{
-					id: "49DF61FA7E28F108"
+					id: "0C578156B24555E9"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2491,8 +2444,8 @@
 				item: { count: 1, id: "modern_industrialization:singularity" }
 				type: "item"
 			}]
-			x: 51.5d
-			y: 0.0d
+			x: 48.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["7780ED6483FC9986"]
@@ -2518,8 +2471,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 4.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["7780ED6483FC9986"]
@@ -2558,8 +2511,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_cutting_machine" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 2.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["3473EB7AD69E5C5A"]
@@ -2575,7 +2528,7 @@
 					type: "item"
 				}
 				{
-					id: "2BF7B34F4B4701C6"
+					id: "649D1E8D3631CB82"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2589,8 +2542,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_drill" }
 				type: "item"
 			}]
-			x: 23.6d
-			y: 1.5d
+			x: 16.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["5C9D71668407484E"]
@@ -2600,8 +2553,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_water_pump" }
 				type: "item"
 			}]
-			x: 9.3d
-			y: 1.5d
+			x: 6.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["1A611B8D50109E92"]
@@ -2626,8 +2579,8 @@
 					type: "item"
 				}
 			]
-			x: 9.3d
-			y: 0.0d
+			x: 6.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["7780ED6483FC9986"]
@@ -2635,26 +2588,15 @@
 				id: "modern_industrialization:coke_oven"
 			}
 			id: "1A611B8D50109E92"
-			rewards: [
-				{
-					count: 32
-					id: "666301DA2B82BCBD"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					type: "item"
+			rewards: [{
+				count: 32
+				id: "666301DA2B82BCBD"
+				item: {
+					count: 1
+					id: "minecraft:coal"
 				}
-				{
-					id: "7950BC615B763874"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "045BCE371E37C5D2"
@@ -2688,8 +2630,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 4.5d
+			x: 6.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["3473EB7AD69E5C5A"]
@@ -2705,7 +2647,7 @@
 					type: "item"
 				}
 				{
-					id: "70FFA3ED17A972CB"
+					id: "53F8FB059D26E8D6"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2719,7 +2661,7 @@
 				item: { count: 1, id: "modern_industrialization:copper_drill" }
 				type: "item"
 			}]
-			x: 23.6d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -2736,7 +2678,7 @@
 					type: "item"
 				}
 				{
-					id: "54E215E5E840795E"
+					id: "52DA6CD3FE7BA90A"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2751,8 +2693,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
 				type: "item"
 			}]
-			x: 16.8d
-			y: 3.0d
+			x: 12.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["7780ED6483FC9986"]
@@ -2772,8 +2714,8 @@
 				item: { count: 1, id: "modern_industrialization:fire_clay_brick" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7780ED6483FC9986"]
@@ -2793,8 +2735,8 @@
 				item: { count: 1, id: "modern_industrialization:fluid_pipe" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.5d
+			x: 4.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["31296273903A43C5"]
@@ -2858,7 +2800,7 @@
 					type: "item"
 				}
 				{
-					id: "62E8C6C54184CA19"
+					id: "525C7E314E84D753"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2894,8 +2836,8 @@
 					type: "item"
 				}
 			]
-			x: 16.8d
-			y: 0.0d
+			x: 16.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["31296273903A43C5"]
@@ -2911,7 +2853,7 @@
 					type: "item"
 				}
 				{
-					id: "118515E2CA0321A4"
+					id: "2A54D9B2AB2B7988"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -2926,8 +2868,8 @@
 				item: { count: 1, id: "modern_industrialization:item_pipe" }
 				type: "item"
 			}]
-			x: 16.8d
-			y: 1.5d
+			x: 12.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["619CC2A5B57E2148"]
@@ -2947,8 +2889,8 @@
 				item: { count: 1, id: "modern_industrialization:lignite_coal" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 6.0d
+			x: 4.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["7780ED6483FC9986"]
@@ -2958,8 +2900,8 @@
 				item: { count: 1, id: "modern_industrialization:wrench" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 0.0d
+			x: 0.0d
+			y: 9.6d
 		}
 		{
 			dependencies: [
@@ -2967,7 +2909,6 @@
 				"0085099CD93A5E68"
 				"1CB7870C4167A8BF"
 			]
-			hide_dependency_lines: true
 			icon: {
 				id: "modern_industrialization:steam_blast_furnace"
 			}
@@ -2983,7 +2924,7 @@
 					type: "item"
 				}
 				{
-					id: "2A2205E32C49093B"
+					id: "7B81510556EE8A7B"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3020,8 +2961,8 @@
 					type: "item"
 				}
 			]
-			x: 11.8d
-			y: 0.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["239D9AC37AC5B8B2"]
@@ -3036,7 +2977,7 @@
 					type: "item"
 				}
 				{
-					id: "593C667A6D29D78B"
+					id: "36F3F452A4EE527F"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3062,8 +3003,8 @@
 					type: "item"
 				}
 			]
-			x: 19.3d
-			y: 3.0d
+			x: 18.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["31296273903A43C5"]
@@ -3079,7 +3020,7 @@
 					type: "item"
 				}
 				{
-					id: "3C90E68A063F9962"
+					id: "406619BA30FA7879"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3093,8 +3034,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_unpacker" }
 				type: "item"
 			}]
-			x: 16.8d
-			y: 7.5d
+			x: 14.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["027479F050E443BF"]
@@ -3116,8 +3057,8 @@
 				item: { count: 1, id: "modern_industrialization:bronze_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 2.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["4533FE25145D8E82"]
@@ -3133,12 +3074,12 @@
 					type: "item"
 				}
 				{
-					id: "0CE828CD96A4A078"
+					id: "2D398C57802C4984"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -3149,8 +3090,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_ingot" }
 				type: "item"
 			}]
-			x: 14.3d
-			y: 0.0d
+			x: 12.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["5C9D71668407484E"]
@@ -3170,8 +3111,8 @@
 				item: { count: 1, id: "extended_industrialization:bronze_solar_boiler" }
 				type: "item"
 			}]
-			x: 9.3d
-			y: 3.0d
+			x: 4.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["1A535BEC9B5AEED7"]
@@ -3187,7 +3128,7 @@
 					type: "random"
 				}
 				{
-					id: "5107D994827EB976"
+					id: "52425413C8F1603E"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3225,8 +3166,8 @@
 					type: "item"
 				}
 			]
-			x: 9.3d
-			y: 4.5d
+			x: 8.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["0240EC7580B07F06"]
@@ -3235,26 +3176,15 @@
 			}
 			id: "18B0058041A66C36"
 			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "7729C10607EA6333"
-					item: {
-						count: 1
-						id: "modern_industrialization:bronze_ingot"
-					}
-					type: "item"
+			rewards: [{
+				count: 16
+				id: "7729C10607EA6333"
+				item: {
+					count: 1
+					id: "modern_industrialization:bronze_ingot"
 				}
-				{
-					id: "1DA6C24E6E811B2C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "546BE806FD630BE7"
@@ -3278,8 +3208,8 @@
 					type: "item"
 				}
 			]
-			x: 6.8d
-			y: 7.5d
+			x: 2.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["7780ED6483FC9986"]
@@ -3298,8 +3228,8 @@
 				item: { count: 1, id: "extended_industrialization:bronze_bending_machine" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 0.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["7780ED6483FC9986"]
@@ -3314,8 +3244,8 @@
 				item: { count: 1, id: "extended_industrialization:bronze_composter" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 1.5d
+			x: 2.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["31296273903A43C5"]
@@ -3340,7 +3270,7 @@
 					type: "item"
 				}
 				{
-					id: "5C1FC874334CF35C"
+					id: "208A290436938222"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3354,14 +3284,14 @@
 				item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
 				type: "item"
 			}]
-			x: 16.8d
-			y: 9.0d
+			x: 10.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["31296273903A43C5"]
 			id: "1EAE47F9C0288679"
 			rewards: [{
-				id: "4B09FE93A3640FDE"
+				id: "65F16FA75AC95568"
 				item: {
 					count: 1
 					id: "randomore:random_ore"
@@ -3374,14 +3304,14 @@
 				item: { count: 1, id: "extended_industrialization:steel_brewery" }
 				type: "item"
 			}]
-			x: 16.8d
-			y: 6.0d
+			x: 14.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["31296273903A43C5"]
 			id: "2A863F800ECF8FC0"
 			rewards: [{
-				id: "7829A1E1091DEA25"
+				id: "7823FAE839C95FF4"
 				item: {
 					count: 1
 					id: "randomore:random_ore"
@@ -3394,8 +3324,8 @@
 				item: { count: 1, id: "extended_industrialization:steel_honey_extractor" }
 				type: "item"
 			}]
-			x: 16.8d
-			y: 4.5d
+			x: 14.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["027479F050E443BF"]
@@ -3424,39 +3354,28 @@
 				item: { count: 1, id: "extended_industrialization:steam_chainsaw" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 6.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["743D2FBBE95AE443"]
 			id: "64A6A68085FAFF36"
-			rewards: [
-				{
-					count: 8
-					id: "22E5B157841F5F1B"
-					item: {
-						count: 1
-						id: "modern_industrialization:rubber_sheet"
-					}
-					type: "item"
+			rewards: [{
+				count: 8
+				id: "22E5B157841F5F1B"
+				item: {
+					count: 1
+					id: "modern_industrialization:rubber_sheet"
 				}
-				{
-					id: "774363AFEEF2C49E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E7924AC93E7D64E"
 				item: { count: 1, id: "modern_industrialization:rubber_sheet" }
 				type: "item"
 			}]
-			x: 14.3d
-			y: 1.5d
+			x: 14.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -3472,7 +3391,7 @@
 					type: "item"
 				}
 				{
-					id: "0DB790667BA011F3"
+					id: "2C203B41287951E1"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3486,8 +3405,8 @@
 				item: { count: 1, id: "modern_industrialization:advanced_large_steam_boiler" }
 				type: "item"
 			}]
-			x: 32.2d
-			y: 6.0d
+			x: 28.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["2B41351F1A9D11A9"]
@@ -3503,7 +3422,7 @@
 					type: "item"
 				}
 				{
-					id: "7FAD70589C698D8C"
+					id: "12A09D99AB9038FC"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3517,8 +3436,8 @@
 				item: { count: 1, id: "modern_industrialization:aluminum_ingot" }
 				type: "item"
 			}]
-			x: 32.2d
-			y: 7.5d
+			x: 18.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["239D9AC37AC5B8B2"]
@@ -3534,7 +3453,7 @@
 					type: "item"
 				}
 				{
-					id: "741D03096CA5BFDC"
+					id: "21E84CC0D4D05190"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3549,8 +3468,8 @@
 				item: { count: 1, id: "modern_industrialization:aluminum_drill" }
 				type: "item"
 			}]
-			x: 19.3d
-			y: 0.0d
+			x: 18.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -3565,7 +3484,7 @@
 					type: "item"
 				}
 				{
-					id: "0B9F9D7605960689"
+					id: "7A37F9E086DC1522"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3579,8 +3498,8 @@
 				item: { count: 1, id: "modern_industrialization:conveyor" }
 				type: "item"
 			}]
-			x: 19.3d
-			y: 10.5d
+			x: 16.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
@@ -3599,7 +3518,7 @@
 					type: "item"
 				}
 				{
-					id: "076FC7AC07AFD0AB"
+					id: "256E7C95726BD36C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3626,8 +3545,8 @@
 					type: "item"
 				}
 			]
-			x: 36.5d
-			y: 1.5d
+			x: 36.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["78C4FC782DA6BB39"]
@@ -3653,7 +3572,7 @@
 					type: "item"
 				}
 				{
-					id: "2DE090B5B9C3C76B"
+					id: "3F0DE3EB4D6D9118"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3681,8 +3600,8 @@
 					type: "item"
 				}
 			]
-			x: 26.1d
-			y: 3.0d
+			x: 18.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -3698,7 +3617,7 @@
 					type: "item"
 				}
 				{
-					id: "3BDDE1107C900A51"
+					id: "591657CB3D43E654"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3712,8 +3631,8 @@
 				item: { count: 1, id: "modern_industrialization:tin_cable" }
 				type: "item"
 			}]
-			x: 21.1d
-			y: 3.0d
+			x: 18.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["239D9AC37AC5B8B2"]
@@ -3729,7 +3648,7 @@
 					type: "item"
 				}
 				{
-					id: "33F02C9047229D30"
+					id: "0C08F6BDF13F1ABD"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3744,8 +3663,8 @@
 				item: { count: 1, id: "modern_industrialization:gold_drill" }
 				type: "item"
 			}]
-			x: 19.3d
-			y: 4.5d
+			x: 16.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
@@ -3773,7 +3692,7 @@
 					type: "item"
 				}
 				{
-					id: "09D720BE89A7C947"
+					id: "4B3801E77AD78E73"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3807,8 +3726,8 @@
 					type: "item"
 				}
 			]
-			x: 36.5d
-			y: 0.0d
+			x: 34.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -3824,7 +3743,7 @@
 					type: "item"
 				}
 				{
-					id: "18D64019DEFE5E77"
+					id: "08B335C7AE880D4F"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3838,8 +3757,8 @@
 				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
 				type: "item"
 			}]
-			x: 32.2d
-			y: 1.5d
+			x: 30.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -3858,7 +3777,7 @@
 					type: "item"
 				}
 				{
-					id: "2E6D0720827F5D5F"
+					id: "2506D40D477091D8"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3892,8 +3811,8 @@
 					type: "item"
 				}
 			]
-			x: 21.1d
-			y: 9.0d
+			x: 18.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["2B41351F1A9D11A9"]
@@ -3908,7 +3827,7 @@
 					type: "item"
 				}
 				{
-					id: "1D8417C384B01C57"
+					id: "7B806FB52C4D912A"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3922,8 +3841,8 @@
 				item: { count: 1, id: "modern_industrialization:lv_energy_input_hatch" }
 				type: "item"
 			}]
-			x: 32.2d
-			y: 9.0d
+			x: 16.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -3938,7 +3857,7 @@
 					type: "item"
 				}
 				{
-					id: "70B280AA9592116B"
+					id: "74703A37025C3812"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3952,8 +3871,8 @@
 				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
 				type: "item"
 			}]
-			x: 19.3d
-			y: 12.0d
+			x: 20.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -3968,7 +3887,7 @@
 					type: "item"
 				}
 				{
-					id: "59DDBB22DFA35913"
+					id: "4A87F9014BBE399C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -3982,8 +3901,8 @@
 				item: { count: 1, id: "modern_industrialization:motor" }
 				type: "item"
 			}]
-			x: 19.3d
-			y: 7.5d
+			x: 20.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -3998,7 +3917,7 @@
 					type: "item"
 				}
 				{
-					id: "54D79EC208135E5C"
+					id: "374B98656B45893B"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4012,8 +3931,8 @@
 				item: { count: 1, id: "modern_industrialization:piston" }
 				type: "item"
 			}]
-			x: 19.3d
-			y: 6.0d
+			x: 18.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -4028,7 +3947,7 @@
 					type: "item"
 				}
 				{
-					id: "65986A78A9CD1D18"
+					id: "4331B61385711562"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4042,8 +3961,8 @@
 				item: { count: 1, id: "modern_industrialization:robot_arm" }
 				type: "item"
 			}]
-			x: 19.3d
-			y: 9.0d
+			x: 20.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
@@ -4059,7 +3978,7 @@
 					type: "item"
 				}
 				{
-					id: "79E79D08938BFC16"
+					id: "361041E59DE1F1FC"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4074,8 +3993,8 @@
 				item: { count: 1, id: "modern_industrialization:stainless_steel_drill" }
 				type: "item"
 			}]
-			x: 34.7d
-			y: 4.5d
+			x: 34.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["239D9AC37AC5B8B2"]
@@ -4091,7 +4010,7 @@
 					type: "item"
 				}
 				{
-					id: "5C11ECC1B75E01DA"
+					id: "333550C7B0F6272F"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4106,8 +4025,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_drill" }
 				type: "item"
 			}]
-			x: 19.3d
-			y: 1.5d
+			x: 16.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -4123,7 +4042,7 @@
 					type: "item"
 				}
 				{
-					id: "16E98FA82A3443B7"
+					id: "691935B2E065FC6C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4145,14 +4064,14 @@
 					type: "item"
 				}
 			]
-			x: 30.4d
-			y: 3.0d
+			x: 32.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["78C4FC782DA6BB39"]
 			id: "7574A64692A5C7A6"
 			rewards: [{
-				id: "47B26833D4289E01"
+				id: "0D151673CD4DA55B"
 				item: {
 					count: 1
 					id: "randomore:random_ore"
@@ -4172,8 +4091,8 @@
 					type: "item"
 				}
 			]
-			x: 26.1d
-			y: 1.5d
+			x: 22.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -4192,7 +4111,7 @@
 					type: "item"
 				}
 				{
-					id: "1B4346D0CB2973A6"
+					id: "385C452DAFE22DBF"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4220,8 +4139,8 @@
 					type: "item"
 				}
 			]
-			x: 21.1d
-			y: 12.0d
+			x: 20.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
@@ -4237,7 +4156,7 @@
 					type: "item"
 				}
 				{
-					id: "2CE33FDB47021CF1"
+					id: "6E50D1C9CE05CB84"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4251,8 +4170,8 @@
 				item: { count: 1, id: "extended_industrialization:lv_solar_panel" }
 				type: "item"
 			}]
-			x: 21.1d
-			y: 10.5d
+			x: 18.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["3C681A8671313F41"]
@@ -4268,7 +4187,7 @@
 					type: "item"
 				}
 				{
-					id: "26F4AE98F2B52A63"
+					id: "2D88A42D8AB55C75"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4289,8 +4208,8 @@
 					type: "item"
 				}
 			]
-			x: 39.0d
-			y: 1.5d
+			x: 34.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["3A636EC59F62BCAE"]
@@ -4309,7 +4228,7 @@
 					type: "item"
 				}
 				{
-					id: "5EF8E6540D748D59"
+					id: "3EBCF9E2790577FD"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4343,8 +4262,8 @@
 					type: "item"
 				}
 			]
-			x: 36.5d
-			y: 3.0d
+			x: 34.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["170FF5C56AFDC0D3"]
@@ -4360,7 +4279,7 @@
 					type: "item"
 				}
 				{
-					id: "448049998B9F6A40"
+					id: "30FC0FCEEA4A88C4"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4374,8 +4293,8 @@
 				item: { count: 1, id: "extended_industrialization:universal_transformer" }
 				type: "item"
 			}]
-			x: 36.5d
-			y: 9.0d
+			x: 18.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -4391,7 +4310,7 @@
 					type: "item"
 				}
 				{
-					id: "42CF87A116245DAC"
+					id: "15B3EEE5E4C45522"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4405,8 +4324,8 @@
 				item: { count: 1, id: "extended_industrialization:machine_chainer" }
 				type: "item"
 			}]
-			x: 32.2d
-			y: 3.0d
+			x: 32.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["723DFC38D29BBDC9"]
@@ -4422,7 +4341,7 @@
 					type: "item"
 				}
 				{
-					id: "2EDC486D3044BFAF"
+					id: "31B33DB962CD61E2"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4453,14 +4372,14 @@
 					type: "item"
 				}
 			]
-			x: 36.5d
-			y: 4.5d
+			x: 26.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
 			id: "4725035EE888EDE4"
 			rewards: [{
-				id: "399C2FC2A36E4EB8"
+				id: "46F0247BDE0AFD93"
 				item: {
 					count: 1
 					id: "randomore:random_ore"
@@ -4473,14 +4392,14 @@
 				item: { count: 1, id: "modern_industrialization:redstone_control_module" }
 				type: "item"
 			}]
-			x: 21.1d
-			y: 6.0d
+			x: 20.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
 			id: "61BC4DC8D08E44FE"
 			rewards: [{
-				id: "5449C86CB4968296"
+				id: "4E47D54A6DF9DC5C"
 				item: {
 					count: 1
 					id: "randomore:random_ore"
@@ -4493,8 +4412,8 @@
 				item: { count: 1, id: "modern_industrialization:overdrive_module" }
 				type: "item"
 			}]
-			x: 30.4d
-			y: 7.5d
+			x: 30.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["16B29FD743B12BBD"]
@@ -4518,7 +4437,7 @@
 					type: "item"
 				}
 				{
-					id: "78F859207AB0E583"
+					id: "216C885FC071D701"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4532,8 +4451,8 @@
 				item: { count: 1, id: "industrialization_overdrive:pyrolyse_oven" }
 				type: "item"
 			}]
-			x: 32.2d
-			y: 4.5d
+			x: 26.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["6F43A73447924D09"]
@@ -4549,7 +4468,7 @@
 					type: "item"
 				}
 				{
-					id: "0EA194123EC1E623"
+					id: "7BCF48170631360F"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4563,8 +4482,8 @@
 				item: { count: 1, id: "industrialization_overdrive:multi_processing_array" }
 				type: "item"
 			}]
-			x: 41.5d
-			y: 7.5d
+			x: 42.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["6F43A73447924D09"]
@@ -4580,7 +4499,7 @@
 					type: "item"
 				}
 				{
-					id: "3D6058A68B85BE22"
+					id: "270E45BC983F7D1B"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4595,8 +4514,8 @@
 				item: { count: 1, id: "modern_industrialization:titanium_drill" }
 				type: "item"
 			}]
-			x: 41.5d
-			y: 6.0d
+			x: 40.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["6F43A73447924D09"]
@@ -4611,7 +4530,7 @@
 					type: "item"
 				}
 				{
-					id: "5DB92F8D72CDFE2E"
+					id: "24603BF8F261D498"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4639,8 +4558,8 @@
 					type: "item"
 				}
 			]
-			x: 41.5d
-			y: 0.0d
+			x: 42.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["5D9900CD4D01048A"]
@@ -4656,7 +4575,7 @@
 					type: "item"
 				}
 				{
-					id: "5CF161E26233ACD6"
+					id: "416F00A1704B8500"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4670,14 +4589,14 @@
 				item: { count: 1, id: "extended_industrialization:ultimate_laser_drill" }
 				type: "item"
 			}]
-			x: 46.5d
-			y: 0.0d
+			x: 42.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["4E87637FF30936CD"]
 			id: "745C8130B75C03F6"
 			rewards: [{
-				id: "4B9B5FC9690B8CC1"
+				id: "388D63F4DEE58DBF"
 				item: {
 					count: 1
 					id: "randomore:random_ore"
@@ -4690,8 +4609,8 @@
 				item: { count: 1, id: "extended_industrialization:nano_gravichestplate" }
 				type: "item"
 			}]
-			x: 49.0d
-			y: 0.0d
+			x: 40.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["798931F2FBCE7245"]
@@ -4715,7 +4634,7 @@
 					type: "item"
 				}
 				{
-					id: "0C4E4706764EF7BC"
+					id: "48A0772DAE3E8374"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4743,8 +4662,8 @@
 					type: "item"
 				}
 			]
-			x: 46.5d
-			y: 6.0d
+			x: 46.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["53D5219AFA6C0D60"]
@@ -4760,7 +4679,7 @@
 					type: "item"
 				}
 				{
-					id: "1580CAC15EA8675E"
+					id: "49C6E880053B0655"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4788,8 +4707,8 @@
 					type: "item"
 				}
 			]
-			x: 51.5d
-			y: 3.0d
+			x: 54.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["0F58E19440A090F0"]
@@ -4805,7 +4724,7 @@
 					type: "item"
 				}
 				{
-					id: "51D64E651F55F09D"
+					id: "31B3589F1394F736"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4834,7 +4753,7 @@
 				}
 			]
 			x: 54.0d
-			y: 1.5d
+			y: 28.8d
 		}
 		{
 			dependencies: ["60DF8D3D225B1EC6"]
@@ -4849,7 +4768,7 @@
 					type: "item"
 				}
 				{
-					id: "1DE63E9D7F3440DC"
+					id: "74060AB154A25EF4"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4885,8 +4804,8 @@
 					type: "item"
 				}
 			]
-			x: 54.0d
-			y: 3.0d
+			x: 56.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["054D2D26D71D140A"]
@@ -4902,7 +4821,7 @@
 					type: "item"
 				}
 				{
-					id: "6734A76F48AD48E1"
+					id: "2FC4431EF8AEB55C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -4933,8 +4852,8 @@
 					type: "item"
 				}
 			]
-			x: 56.5d
-			y: 0.0d
+			x: 56.0d
+			y: 22.4d
 		}
 	]
 }

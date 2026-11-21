@@ -85,8 +85,6 @@
 	quest.000D896537822FF3.title: "Fluidic Plenisher"
 	quest.0017A61AF0AB3F9E.quest_desc: ["The Headless Ratman steals the heads of mobs killed near it. It, then, provides you with a damage bonus against that mob type."]
 	quest.0017A61AF0AB3F9E.quest_subtitle: "Earn the advancement: Familiar Headless"
-	quest.001A90D57A33197B.quest_desc: ["Cooking for Blockheads adds kitchen blocks that share their contents for recipes. Place them together, then use the cooking table to prepare food from the nearby ingredients."]
-	quest.001A90D57A33197B.title: "Getting Started"
 	quest.004DACCD4C920845.quest_desc: ["This quest asks for Hv Diesel Generator. EMI shows the recipe if you press R while hovering over it."]
 	quest.004DACCD4C920845.quest_subtitle: "Obtain Hv Diesel Generator"
 	quest.004DACCD4C920845.title: "Fast and Furious 2: Revenge"
@@ -122,8 +120,6 @@
 	quest.00DE07E191E60A98.quest_subtitle: "Obtain Configurable Honeycomb"
 	quest.00DED7DF03993708.quest_desc: ["This quest asks for Red Banana Sapling. EMI shows the recipe if you press R while hovering over it."]
 	quest.00DED7DF03993708.quest_subtitle: "Obtain Red Banana Sapling"
-	quest.00E952987C1156B9.quest_desc: ["Artifacts adds special accessories that provide unique effects when equipped. Search structures and loot for them, then try combinations that suit your playstyle."]
-	quest.00E952987C1156B9.title: "Getting Started"
 	quest.010841FCF11E807B.quest_desc: ["Bring Supremium Essence into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.010841FCF11E807B.quest_subtitle: "Obtain Supremium Essence"
 	quest.0126B80792E5B621.quest_desc: ["Load it with cages and it catches any bee that flies over it. Put a flower or feeding slab on top to attract bees."]
@@ -226,7 +222,7 @@
 	quest.033FDEA602740088.quest_subtitle: "Obtain Osage Orange Sapling"
 	quest.0367109A7050BA27.quest_desc: ["By simply placing down the Altar it will display how you need to place the pedestals."]
 	quest.0367109A7050BA27.quest_subtitle: "Obtain Infusion Altar and 8x Infusion Pedestal"
-	quest.0367109A7050BA27.title: "Infusion Altar \\& Pedestals"
+	quest.0367109A7050BA27.title: "Infusion Altar and Pedestals"
 	quest.0372F307B2B6D926.quest_desc: ["Simple redstone control for drive Shafts or Cogwheels."]
 	quest.0372F307B2B6D926.quest_subtitle: "Obtain Clutch"
 	quest.03A378D31005B99D.quest_desc: ["Archwood trees generate in every biome, most commonly in the Archwood Forest. The base mod has 4 archwood types."]
@@ -285,6 +281,7 @@
 	quest.04F28F76877D5CBB.quest_subtitle: "Obtain Mandarin Sapling"
 	quest.04F6758F8F06F5B0.quest_desc: ["Factories are advanced forms of the basic machines aimed to assist in large scale resource processing."]
 	quest.04F6758F8F06F5B0.quest_subtitle: "Obtain Elite Injecting Factory"
+	quest.04F8E790B6B969C1.quest_desc: ["The Calculation Processor is made in an Inscriber from a Printed Calculation Circuit, Printed Silicon and Redstone. It is used for storage cells, crafting storage and more."]
 	quest.04FBB7D8C2789148.quest_desc: ["The Advanced Solar Generator is a highly upgraded version of the basic Solar Generator. Construction of an Advanced Solar Generator requires four Solar Generators, but it produces six times the power of its smaller cousin. It also requires an area of 3x3x3 Blocks in order to be placed."]
 	quest.04FBB7D8C2789148.quest_subtitle: "Obtain Advanced Solar Generator"
 	quest.04FCE3DA39375B25.quest_desc: ["Compacts items into their compressed variants. Only 2x2 recipes."]
@@ -529,7 +526,7 @@
 	quest.0A40A667BCA84840.quest_subtitle: "Earn the advancement: Familiar Bat"
 	quest.0A4600B1656C8E50.quest_desc: ["Bring Inferium Sword, Inferium Pickaxe, Inferium Shovel and 2 more items into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.0A4600B1656C8E50.quest_subtitle: "Obtain Inferium Sword, Inferium Pickaxe, Inferium Shovel and 2 more items"
-	quest.0A4600B1656C8E50.title: "Inferium Tools \\& Weaponry"
+	quest.0A4600B1656C8E50.title: "Inferium Tools and Weaponry"
 	quest.0A533AED133E1E5F.quest_desc: ["Factories are advanced forms of the basic machines aimed to assist in large scale resource processing."]
 	quest.0A533AED133E1E5F.quest_subtitle: "Obtain Elite Sawing Factory"
 	quest.0A5D9A846FAFF859.quest_desc: ["Combine Charged Certus Quartz with Nether Quartz and Redstone using AE2 crystal transformation. Fluix is used throughout the network."]
@@ -812,8 +809,6 @@
 	quest.11291600CBFADF25.quest_subtitle: "Obtain Purple Crepe Myrtle Sapling"
 	quest.113A3FE6F78AA6BA.quest_desc: ["The Dictionary lets you look up the tags assigned to any item or block. Tags group similar items together, making them especially useful when setting up filters for your Logistical Sorters. Instead of adding every item individually, you can filter entire groups of items using their shared tags. When you're unsure which tag to use, check the Dictionary first."]
 	quest.113A3FE6F78AA6BA.quest_subtitle: "Obtain Dictionary"
-	quest.113E536A12D1FE5E.quest_desc: ["Ars Nouveau combines spellcraft, magical equipment, familiars, and automation. Begin with its guidebook and discover how to create and customize spells."]
-	quest.113E536A12D1FE5E.title: "Getting Started"
 	quest.1143A0D8D52E0C64.quest_desc: ["Enslave the Winter season in a supercooled aluminum frame. How does removing air cool something down?"]
 	quest.1143A0D8D52E0C64.quest_subtitle: "Obtain Vacuum Freezer and 30x Frostproof Machine Casing"
 	quest.1143A0D8D52E0C64.title: "Vacuum Freezer"
@@ -905,8 +900,6 @@
 	quest.13F76A0774D92858.quest_subtitle: "Obtain Speed Upgrade"
 	quest.13F949F9A2E8F6E0.quest_desc: ["Reduces cost of mana for a spell."]
 	quest.13F949F9A2E8F6E0.quest_subtitle: "Obtain Ring of Lesser Discount"
-	quest.140411C5983C3503.quest_desc: ["Productive Trees adds useful trees and ways to cultivate them. Discover the available varieties and learn how their growth can support resource production."]
-	quest.140411C5983C3503.title: "Getting Started"
 	quest.1411DEB6C8440EBD.quest_desc: ["Get hold of Enchanter. Hover over it in EMI and press R to see how it is made."]
 	quest.1411DEB6C8440EBD.quest_subtitle: "Obtain Enchanter"
 	quest.14550A7149BBD5F7.quest_desc: ["This metal can be found in the Nether, disguised as Netherrack. Seeing through the Third Eye reveals its true form. You might want to bring a Divination Rod."]
@@ -924,8 +917,6 @@
 	quest.149B5F0D54E66454.quest_subtitle: "Obtain Manipulation Essence"
 	quest.14C86C69BBC5FAB6.quest_desc: ["Get hold of Ash Sapling. Hover over it in EMI and press R to see how it is made."]
 	quest.14C86C69BBC5FAB6.quest_subtitle: "Obtain Ash Sapling"
-	quest.14CFB9B2689A8C4C.quest_desc: ["Repurposed Structures adds biome-themed variants of vanilla structures such as mineshafts, strongholds, shipwrecks, and ruined portals. Explore different biomes to discover them."]
-	quest.14CFB9B2689A8C4C.title: "Getting Started"
 	quest.14E0CD2112C11AE9.quest_desc: ["Earn the advancement: Brass Dungeon."]
 	quest.14E0CD2112C11AE9.quest_subtitle: "Defeat the Brass Dungeon boss"
 	quest.14ED7BC08D07EE4D.quest_desc: ["Get hold of Nitro Crystal Seeds. Hover over it in EMI and press R to see how it is made."]
@@ -1208,8 +1199,6 @@
 	quest.1C5D2A82B44E8B9C.quest_desc: ["Bring Oil Drilling Rig into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.1C5D2A82B44E8B9C.quest_subtitle: "Obtain Oil Drilling Rig"
 	quest.1C5D2A82B44E8B9C.title: "Bringing Freedom To Your Country"
-	quest.1C7BB7F7B546CAB9.quest_desc: ["Just Dire Things adds automation blocks, tools, and gadgets built from its own materials. Browse its items in EMI to see which machines and tools fit your base."]
-	quest.1C7BB7F7B546CAB9.title: "Getting Started"
 	quest.1C92CA042AEB8D7A.quest_desc: ["An Energy Cube is an advanced type of battery that is compatible with multiple energy systems. An upgraded version of the Advanced Energy Cube."]
 	quest.1C92CA042AEB8D7A.quest_subtitle: "Obtain Elite Energy Cube"
 	quest.1C9565B31D0A689A.quest_desc: ["Performs archaeology on normal sand and gravel within 3 blocks of its storage block. Bind it with the Dominion Wand. It needs source, and it consumes the blocks, so you have to place new sand or gravel."]
@@ -1220,7 +1209,7 @@
 	quest.1C9EBDFB533404A0.quest_subtitle: "Find all 3 Ancient City variants"
 	quest.1CAE6CEB81632ECF.quest_desc: ["Get hold of Prudentium Sword, Prudentium Pickaxe, Prudentium Shovel and 2 more items. Hover over it in EMI and press R to see how it is made."]
 	quest.1CAE6CEB81632ECF.quest_subtitle: "Obtain Prudentium Sword, Prudentium Pickaxe, Prudentium Shovel and 2 more items"
-	quest.1CAE6CEB81632ECF.title: "Prudentium Tools \\& Weaponry"
+	quest.1CAE6CEB81632ECF.title: "Prudentium Tools and Weaponry"
 	quest.1CB7870C4167A8BF.quest_desc: ["Wondering about automatic Water pumping are you? Good thing you can do nearly anything you want! A Water Pump will automatically collect Water and transfer it to adjacent blocks. Make sure to place water sources surrounding the pump horizontally, give it Steam, and it will start producing Water for 1 EU/t. The Bronze Water Pump will produce 125mb of Water for every adjacent water source every 5 seconds, allowing for a maximum output of 1000mb every 5 seconds."]
 	quest.1CB7870C4167A8BF.quest_subtitle: "Obtain Bronze Water Pump"
 	quest.1CB7870C4167A8BF.title: "Bronze Water Pump"
@@ -1418,6 +1407,7 @@
 	quest.22D9F2309203B2E1.quest_subtitle: "Obtain Slime Seeds"
 	quest.22DAC79D807D2F89.quest_desc: ["Tier 3 glyph. Craft it at the Scribe\'s Table."]
 	quest.22DAC79D807D2F89.quest_subtitle: "Obtain Glyph Fangs"
+	quest.22DCF5BE4DAC2742.quest_desc: ["The Silicon Press is used in an Inscriber to turn Silicon into Printed Silicon. Presses are found in meteorites, and the Inscriber can duplicate one with an Iron Block."]
 	quest.22E6E27E339F6336.quest_desc: ["Get hold of Wrench. Hover over it in EMI and press R to see how it is made."]
 	quest.22E6E27E339F6336.quest_subtitle: "Obtain Wrench"
 	quest.22E8397A2E00F3F3.quest_desc: ["Bring Energizing Rod Niotic into your inventory. Check EMI with R on the item if you are unsure how to get it."]
@@ -1432,7 +1422,7 @@
 	quest.23452C7E33F043EA.quest_subtitle: "Obtain Evasion Elixir"
 	quest.235CFE9AED85B1AB.quest_desc: ["Cleaning up Chalk can be somewhat of a chore by hand. Thankfully, this is a solved problem: use a Brush!"]
 	quest.235CFE9AED85B1AB.quest_subtitle: "Obtain Brush"
-	quest.2369E85866998513.quest_desc: ["The Digital Miner is the scale mining machine of Mekanism. However, this machine is like no other as it "magically-teleports" mined blocks to its inventory."]
+	quest.2369E85866998513.quest_desc: ["The Digital Miner is the scale mining machine of Mekanism. However, this machine is like no other as it \"magically-teleports\" mined blocks to its inventory."]
 	quest.2369E85866998513.quest_subtitle: "Obtain Digital Miner"
 	quest.236E10245B6308B5.quest_desc: ["Get hold of Slimy Nest. Hover over it in EMI and press R to see how it is made."]
 	quest.236E10245B6308B5.quest_subtitle: "Obtain Slimy Nest"
@@ -1549,8 +1539,6 @@
 	quest.265190C39B930E70.quest_subtitle: "Obtain Stressometer and Speedometer"
 	quest.26546192A8EB52F1.quest_desc: ["Tier 1 glyph. Craft it at the Scribe\'s Table."]
 	quest.26546192A8EB52F1.quest_subtitle: "Obtain Glyph Pull"
-	quest.2667E78AD0E7EF5F.quest_desc: ["Mystical Agriculture lets you grow resources using essence and special crops. Learn how seeds, essences, and infusion crafting fit together, then explore Mystical Agradditions for extensions."]
-	quest.2667E78AD0E7EF5F.title: "Getting Started"
 	quest.266AEBC814987316.quest_desc: ["Bring Balsa Sapling into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.266AEBC814987316.quest_subtitle: "Obtain Balsa Sapling"
 	quest.2670ABCD722E6B08.quest_desc: ["Immersive Engineering brings multiblock machines, treated wood, wires, and a distinctive industrial style. Look for its engineers manual and explore its machine structures and power network."]
@@ -1587,8 +1575,6 @@
 	quest.275D4238928C567C.quest_subtitle: "Obtain Carp"
 	quest.275EE3BD321248D8.quest_desc: ["Factories are advanced forms of the basic machines aimed to assist in large scale resource processing."]
 	quest.275EE3BD321248D8.quest_subtitle: "Obtain Elite Purifying Factory"
-	quest.27618E7CCDA4ED55.quest_desc: ["The Twilight Forest is a major adventure dimension with themed biomes, dungeons, and bosses. Explore its landmarks and follow the clues found throughout the forest."]
-	quest.27618E7CCDA4ED55.title: "Getting Started"
 	quest.276A9581F27678C8.quest_desc: ["This quest asks for Soulium Seeds. EMI shows the recipe if you press R while hovering over it."]
 	quest.276A9581F27678C8.quest_subtitle: "Obtain Soulium Seeds"
 	quest.2772596178EBED64.quest_desc: ["This quest asks for Blazing Crystal Seeds. EMI shows the recipe if you press R while hovering over it."]
@@ -1653,8 +1639,6 @@
 	quest.29259F3FA0002C4D.quest_subtitle: "Obtain Thread Heights"
 	quest.2928C01693842EA6.quest_desc: ["Provides a touch spell before damaging an entity."]
 	quest.2928C01693842EA6.quest_subtitle: "Obtain Enchanters Sword"
-	quest.292A049C42029627.quest_desc: ["Mekanism offers machinery, ore processing, power generation, and advanced resource production. Explore its machines and generators, then use EMI to follow processing chains."]
-	quest.292A049C42029627.title: "Getting Started"
 	quest.29310AD0FC5238D1.quest_desc: ["Get hold of Echo Glove. Hover over it in EMI and press R to see how it is made."]
 	quest.29310AD0FC5238D1.quest_subtitle: "Obtain Echo Glove"
 	quest.29345E31ADD5A560.quest_desc: ["Look for a natural entrance through a chasm or cave, or a small mound." "Eating some of his Meef Stroganoff after the fight lets you enter the Fire Swamp without burning."]
@@ -1811,7 +1795,7 @@
 	quest.2D12317C92E58AEC.quest_desc: ["This substance can be processed in a Thermopneumatic Processing Plant to produce Gasoline, which is a high-quality liquid fuel. It can also be placed in a Furnace."]
 	quest.2D12317C92E58AEC.quest_subtitle: "Obtain Kerosene Bucket"
 	quest.2D12317C92E58AEC.title: "Kerosene"
-	quest.2D12E9DA74DE5AEE.quest_desc: ["Craft a Soulium Dagger with 2 Soulium Ingots & 2 Soulium Dust, + a Gold Sword."]
+	quest.2D12E9DA74DE5AEE.quest_desc: ["Craft a Soulium Dagger with 2 Soulium Ingots and 2 Soulium Dust, + a Gold Sword."]
 	quest.2D12E9DA74DE5AEE.quest_subtitle: "Obtain Soulium Dagger"
 	quest.2D2118635BD72D8A.quest_desc: ["Cannon your build plans right into the world, block by block."]
 	quest.2D2118635BD72D8A.quest_subtitle: "Obtain Schematicannon"
@@ -1980,8 +1964,6 @@
 	quest.3187473363009CC3.quest_subtitle: "Obtain Mechanical Pump"
 	quest.3187B46018DB409A.quest_desc: ["The Productivity upgrade will increase the number of combs a bee produces per trip. Multiple productivity upgrades can be installed."]
 	quest.3187B46018DB409A.quest_subtitle: "Obtain Upgrade Productivity"
-	quest.3190039210A6240B.quest_desc: ["Sophisticated Backpacks provide portable storage with upgrade slots and useful automation features. Explore the available upgrades to tailor a backpack to gathering, travel, or building."]
-	quest.3190039210A6240B.title: "Getting Started"
 	quest.3190B245725F2518.quest_desc: ["Get hold of Spawn Egg Configurable Bee. Hover over it in EMI and press R to see how it is made."]
 	quest.3190B245725F2518.quest_subtitle: "Obtain Spawn Egg Configurable Bee"
 	quest.3191B05E172A7ED6.quest_desc: ["This quest asks for Pressurizer. EMI shows the recipe if you press R while hovering over it."]
@@ -2073,8 +2055,6 @@
 	quest.33025F7860C4A4F5.quest_subtitle: "Obtain Advanced Restock Upgrade"
 	quest.3310337281D0370D.quest_desc: ["MekaSuit can be upgraded with Modules that are installed with the Modification Station."]
 	quest.3310337281D0370D.quest_subtitle: "Obtain Mekasuit Pants"
-	quest.3317612046F44147.quest_desc: ["This chapter lists bosses found across the pack. Prepare your gear and food before each fight."]
-	quest.3317612046F44147.title: "Getting Started"
 	quest.331A6E771DAB1B22.quest_desc: ["The most basic item which most Mekanism machines and generators use. Crafted in the Metallurgic Infuser by infusing an Iron Ingot with Redstone, Redstone Blocks, or Compressed Redstone."]
 	quest.331A6E771DAB1B22.quest_subtitle: "Obtain Alloy Infused"
 	quest.33204911A3C82A1D.quest_desc: ["Bring Prudentium Essence into your inventory. Check EMI with R on the item if you are unsure how to get it."]
@@ -2105,8 +2085,6 @@
 	quest.33B436FF8B860782.quest_subtitle: "Obtain Glowstone Seeds"
 	quest.33B6251CF0B25772.quest_desc: ["Variants to find: Basalt, Birch, Crimson, Dark Forest, Desert, End, Icy, Jungle, Nether, Ocean, Savanna, Soul, Stone, Swamp, Taiga and Warped."]
 	quest.33B6251CF0B25772.quest_subtitle: "Find all 16 Mineshaft variants"
-	quest.33C5E9FE23AA99BF.quest_desc: ["Iron's Spells 'n Spellbooks focuses on spellcasting and magical combat. Explore spellbooks, scrolls, and the ways spells can shape your combat style."]
-	quest.33C5E9FE23AA99BF.title: "Getting Started"
 	quest.33E096F228450088.quest_desc: ["Feathers, Books, and Black Dye can be transformed in Spiritfire to obtain versions more receptive to working with Spirits."]
 	quest.33E096F228450088.quest_subtitle: "Obtain Taboo Book, Purified Ink and Awakened Feather"
 	quest.33E096F228450088.title: "Occult Writing Materials"
@@ -2138,14 +2116,14 @@
 	quest.344EBBBE464E0E8F.quest_desc: ["A variety of Sulfur types exist, split across many tiers."]
 	quest.344EBBBE464E0E8F.quest_subtitle: "Obtain Smart Filter"
 	quest.344EBBBE464E0E8F.title: "Sulfurs"
-	quest.3473EB7AD69E5C5A.quest_desc: ["Steel Hatches have double the capacity of bronze hatches, increasing one inventory slot to 2, and increasing a multi-block's max steam usage rate from 2 EU/t to 4 EU/t. As long as there is a single steel fluid input hatch receiving steam, your entire multi-block is upgraded to a "steel tier.". Allowing multiblocks to use 4 EU/t means exactly what you think it does, it doubles the top speed of the processes. A Steel Boiler will produce twice as much steam as a bronze one. That means it will max out at 16 EU/t instead of 8. The Steel Water Pump will also produce twice as much Water as it's bronze counterpart, so a max of 250mb of Water fro every adjacent water source for up to 2000mb of Water every 5 seconds."]
+	quest.3473EB7AD69E5C5A.quest_desc: ["Steel Hatches have double the capacity of bronze hatches, increasing one inventory slot to 2, and increasing a multi-block's max steam usage rate from 2 EU/t to 4 EU/t. As long as there is a single steel fluid input hatch receiving steam, your entire multi-block is upgraded to a \"steel tier.\". Allowing multiblocks to use 4 EU/t means exactly what you think it does, it doubles the top speed of the processes. A Steel Boiler will produce twice as much steam as a bronze one. That means it will max out at 16 EU/t instead of 8. The Steel Water Pump will also produce twice as much Water as it's bronze counterpart, so a max of 250mb of Water fro every adjacent water source for up to 2000mb of Water every 5 seconds."]
 	quest.3473EB7AD69E5C5A.quest_subtitle: "Obtain Steel Item Output Hatch, Steel Item Input Hatch and Steel Fluid Input Hatch"
 	quest.3473EB7AD69E5C5A.title: "Steel Hatches"
 	quest.3477ACB71980D035.quest_desc: ["Bring Apricot Sapling into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.3477ACB71980D035.quest_subtitle: "Obtain Apricot Sapling"
 	quest.3486BCAECB50B018.quest_desc: ["Once the phantoms in the Knights Tomb rest, the devices in the carminite towers obey you."]
 	quest.3486BCAECB50B018.quest_subtitle: "Settle the Knight Phantoms"
-	quest.34A2B6273E3DE229.quest_desc: ["The Chemical Washer turns Slurry into Clean Slurry using Water. The clean slurry then needs to be further refined by pumping it into a Chemical Crystallizer. Note that unlike most Mekanism machines this one has fixed "in" and "out" sides for the mineral flow. "In" will be on the left when first placed and "out" is on the right."]
+	quest.34A2B6273E3DE229.quest_desc: ["The Chemical Washer turns Slurry into Clean Slurry using Water. The clean slurry then needs to be further refined by pumping it into a Chemical Crystallizer. Note that unlike most Mekanism machines this one has fixed \"in\" and \"out\" sides for the mineral flow. \"In\" will be on the left when first placed and \"out\" is on the right."]
 	quest.34A2B6273E3DE229.quest_subtitle: "Obtain Chemical Washer"
 	quest.34C78427A24B86E3.quest_desc: ["Bring Iron Fishing Rod into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.34C78427A24B86E3.quest_subtitle: "Obtain Iron Fishing Rod"
@@ -2269,8 +2247,6 @@
 	quest.38853BDD58F19B1F.quest_subtitle: "Obtain Cell Component 64m"
 	quest.3895C493392514BF.quest_desc: ["Bring Configurable Honeycomb into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.3895C493392514BF.quest_subtitle: "Obtain Configurable Honeycomb"
-	quest.3896EA4050742B0F.quest_desc: ["Sophisticated Storage adds expandable chests, barrels, and storage upgrades. Learn how its tiers and upgrades can organize items and automate storage tasks."]
-	quest.3896EA4050742B0F.title: "Getting Started"
 	quest.38BDA4C04CE69387.quest_desc: ["Bring Ender Cell Basic into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.38BDA4C04CE69387.quest_subtitle: "Obtain Ender Cell Basic"
 	quest.38C3B0E3023E725B.quest_desc: ["Confluence Otherworld adds a separate world of exploration and content. Look for its route into the dimension and discover its unique environments and resources."]
@@ -2304,8 +2280,6 @@
 	quest.3976EFF2C816F2DC.quest_subtitle: "Obtain Andesite Casing"
 	quest.39856E4272E859D3.quest_desc: ["An upgraded Advanced Control Circuit, used in many tier 3 machines and items."]
 	quest.39856E4272E859D3.quest_subtitle: "Obtain Elite Control Circuit"
-	quest.3990249985A36A73.quest_desc: ["Aquaculture expands fishing with new catches, equipment, and uses for aquatic resources. Try fishing in different waters and check what the new catches can be used for."]
-	quest.3990249985A36A73.title: "Getting Started"
 	quest.39A3E80396491DE6.quest_desc: ["Your AntiMatter can be pumped out via pressurized tube and into a chemical crystalliser. There, it gets turned into pellets."]
 	quest.39A3E80396491DE6.quest_subtitle: "Obtain Pellet Antimatter"
 	quest.39B6DC70970412F2.quest_desc: ["Get hold of Compressed Iron Seeds. Hover over it in EMI and press R to see how it is made."]
@@ -2426,8 +2400,6 @@
 	quest.3D629369D4381551.quest_subtitle: "Obtain Starbuncle Charm"
 	quest.3D63CB521550EC46.quest_desc: ["A one-time warp to a specified location."]
 	quest.3D63CB521550EC46.quest_subtitle: "Obtain Ritual Warping"
-	quest.3D71F8CEEDE1EEEF.quest_desc: ["PneumaticCraft uses compressed air to power machines, drones, and gadgets. Learn how pressure and air handling work before expanding into its automation tools."]
-	quest.3D71F8CEEDE1EEEF.title: "Getting Started"
 	quest.3D7D5A7F91C9B7D5.quest_desc: ["Simple version: collects fluids, with speed and orientation controls and optional redstone sensitivity. Advanced version: adds filtering and offset AOE, and needs power."]
 	quest.3D7D5A7F91C9B7D5.quest_subtitle: "Obtain Smart Filter"
 	quest.3D8FE3E0F08AF1E6.quest_desc: ["Earn the advancement: Hill1."]
@@ -2488,8 +2460,6 @@
 	quest.3EBC5FA0600539F7.quest_subtitle: "Obtain 4x Fission Reactor Port, Fission Fuel Assembly, Control Rod Assembly and 2 more items"
 	quest.3EE23EFF33BD6FD3.quest_desc: ["This quest asks for Cow Seeds. EMI shows the recipe if you press R while hovering over it."]
 	quest.3EE23EFF33BD6FD3.quest_subtitle: "Obtain Cow Seeds"
-	quest.3EF028E3EBB91981.quest_desc: ["Flux Networks provides wireless energy transfer between connected points. Learn how to create a network and link it to your power generation and machines."]
-	quest.3EF028E3EBB91981.title: "Getting Started"
 	quest.3EFF6E83AE509F6B.quest_desc: ["Counters give your kitchen more working space and let you extend the layout."]
 	quest.3EFF6E83AE509F6B.quest_subtitle: "Extra space for your kitchen"
 	quest.3F0FBA9B295C00F7.quest_desc: ["This Rod can locate Rare materials."]
@@ -2550,8 +2520,6 @@
 	quest.40C846030D81AF22.quest_subtitle: "Obtain Energy Discharger Nitro"
 	quest.40CFAAA1E3F110F2.quest_desc: ["Get hold of Uranium Seeds. Hover over it in EMI and press R to see how it is made."]
 	quest.40CFAAA1E3F110F2.quest_subtitle: "Obtain Uranium Seeds"
-	quest.40D4D79D0056EDA6.quest_desc: ["Productive Bees adds resource-producing bees and ways to manage them. Explore bee habitats, breeding, and safe ways to collect their products."]
-	quest.40D4D79D0056EDA6.title: "Getting Started"
 	quest.40EF421A1673BED6.quest_desc: ["Bring Mithril Scrap into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.40EF421A1673BED6.quest_subtitle: "Obtain Mithril Scrap"
 	quest.4103A339CA4439F9.quest_desc: ["It needs a Raven Feather, Glowstone Dust and Torchberries."]
@@ -2663,10 +2631,11 @@
 	quest.434D23129E54AAB9.quest_subtitle: "Obtain Spawner Extractor"
 	quest.434DF25E6DD7ACB8.quest_desc: ["Get hold of Blue Yonder Sapling. Hover over it in EMI and press R to see how it is made."]
 	quest.434DF25E6DD7ACB8.quest_subtitle: "Obtain Blue Yonder Sapling"
-	quest.435187F5B5EB3963.quest_desc: ["Used to create different types of Processors. The inscriber can also "create" presses by duplicating an existing press with an Iron Block."]
+	quest.435187F5B5EB3963.quest_desc: ["Used to create different types of Processors. The inscriber can also \"create\" presses by duplicating an existing press with an Iron Block."]
 	quest.435187F5B5EB3963.quest_subtitle: "Obtain Inscriber"
 	quest.435BD89FA19787D3.quest_desc: ["Bring Soulium Ingot into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.435BD89FA19787D3.quest_subtitle: "Obtain Soulium Ingot"
+	quest.4373ED4700D90FC3.quest_desc: ["The Engineering Processor is made in an Inscriber from a Printed Engineering Circuit, Printed Silicon and Redstone. It is used for the ME Controller, Molecular Assembler and many other machines."]
 	quest.437C9CE5AC044541.quest_desc: ["Bring Canteen into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.437C9CE5AC044541.quest_subtitle: "Obtain Canteen"
 	quest.43884CC55F5D7DDD.quest_desc: ["This is used to copy and paste settings of ME Devices. This is also used to link P2P Tunnels."]
@@ -2711,7 +2680,8 @@
 	quest.44ADE9005757637C.quest_subtitle: "Cook straight from your inventory"
 	quest.44CC46E4EFDC509F.quest_desc: ["This quest asks for Eclipsealloy Shovel. EMI shows the recipe if you press R while hovering over it."]
 	quest.44CC46E4EFDC509F.quest_subtitle: "Obtain Eclipsealloy Shovel"
-	quest.44CFB3403E8D0BF6.title: "Compass \\& Meteorite"
+	quest.44CFB3403E8D0BF6.quest_desc: ["The Meteorite Compass points toward the nearest meteorite. Meteorites contain Sky Stone and other useful materials."]
+	quest.44CFB3403E8D0BF6.title: "Compass and Meteorite"
 	quest.44D4F624126DA371.quest_desc: ["Bring Soul Extractor into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.44D4F624126DA371.quest_subtitle: "Obtain Soul Extractor"
 	quest.44DB40AE52CB1D95.quest_desc: ["Enriched Diamond is used in the Metallurgic Infuser. Enriched Diamond yields 80 units of diamond in the Metallurgic Infuser, the same as 8 diamonds."]
@@ -2758,7 +2728,7 @@
 	quest.45EE0F13462F75B7.quest_subtitle: "Obtain Schedule"
 	quest.45F7B6D8B7FB411A.quest_desc: ["This quest asks for Tertium Sword, Tertium Pickaxe, Tertium Shovel and 2 more items. EMI shows the recipe if you press R while hovering over it."]
 	quest.45F7B6D8B7FB411A.quest_subtitle: "Obtain Tertium Sword, Tertium Pickaxe, Tertium Shovel and 2 more items"
-	quest.45F7B6D8B7FB411A.title: "Tertium Tools \\& Weaponry"
+	quest.45F7B6D8B7FB411A.title: "Tertium Tools and Weaponry"
 	quest.46053853A84567F9.quest_desc: ["The arcane core is to be placed beneath the enchanting apparatus to aid in magical endeavors."]
 	quest.46053853A84567F9.quest_subtitle: "Obtain Arcane Core"
 	quest.460573A814CB8315.quest_desc: ["BetterEnd transforms the End with new biomes, terrain, plants, and resources. Explore beyond the familiar islands to discover its altered landscapes."]
@@ -2797,7 +2767,7 @@
 	quest.46F11C259FC72F5D.quest_desc: ["An Export Bus pushes selected items from your network into an attached inventory. Use it to supply machines or keep blocks stocked."]
 	quest.46FD132CE008A57A.quest_desc: ["This quest asks for Smart Filter. EMI shows the recipe if you press R while hovering over it."]
 	quest.46FD132CE008A57A.quest_subtitle: "Obtain Smart Filter"
-	quest.470B9BBE473E4872.quest_desc: ["The "Quartz in Netherrack" block is an alternative recipe for the Quartz Nest. It is crafted with 1 Netherrack and 8 Nether Quartz."]
+	quest.470B9BBE473E4872.quest_desc: ["The \"Quartz in Netherrack\" block is an alternative recipe for the Quartz Nest. It is crafted with 1 Netherrack and 8 Nether Quartz."]
 	quest.470B9BBE473E4872.quest_subtitle: "Obtain Nether Quartz Nest"
 	quest.470C6BCB3EB14006.quest_desc: ["Will calcify and lose efficiency over time to a minimum of 33% efficiency when not using Distilled Water. Using an Axe on the Boiler will reset its calcification."]
 	quest.470C6BCB3EB14006.quest_subtitle: "Obtain Bronze Solar Boiler"
@@ -2895,6 +2865,7 @@
 	quest.4A1035A5566EB4A1.quest_desc: ["This spirit takes care of farming trees for you. It even attempts to replant them!"]
 	quest.4A1035A5566EB4A1.quest_subtitle: "Obtain Book of Binding Bound Foliot, Smart Filter and 4x Oak Sapling. Earn the advancement: Summon Foliot Lumberjack"
 	quest.4A1035A5566EB4A1.title: "Ritual: Summon Foliot Lumberjack"
+	quest.4A161F6CA84621D3.quest_desc: ["The Calculation Press is used in an Inscriber to turn Certus Quartz into a Printed Calculation Circuit. Presses are found in meteorites, and the Inscriber can duplicate one with an Iron Block."]
 	quest.4A18F79E859C2F35.quest_desc: ["Bring Piglin Mask into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.4A18F79E859C2F35.quest_subtitle: "Obtain Piglin Mask"
 	quest.4A1FC00E24064975.quest_desc: ["Bring Bow Celestigem into your inventory. Check EMI with R on the item if you are unsure how to get it."]
@@ -2944,12 +2915,12 @@
 	quest.4B804BC05BBA2E53.quest_desc: ["Using a Wrench, you can rotate almost any machine by right-clicking and pick up almost any pipe, fluid or not. You can shift-right-click on a machine to configure the output side. When you're holding the Wrench, you can hover over any face of the machine and you'll get a grid of sorts. Shift-rick-clicking on the middle square will set the output face to the side the grid is on. Doing so to the rectangles will place the output to the face 90 degrees relative to the corner elected to allow for configuration in hard to reach spaces. Finally the small squares in each corner will set the output to the opposite side of the grid. Remember, you cannot break the machine using the Wrench, it WILL destroy it and you will not get it back. Just use your trusty Pickaxe instead."]
 	quest.4B804BC05BBA2E53.quest_subtitle: "Obtain Wrench"
 	quest.4B804BC05BBA2E53.title: "Wrench"
-	quest.4B910D4EBC941ABC.quest_desc: ["We have a lot to cover. Cable networks have hard limitations on the amount of energy they will pull into the network depending on the tier. you can see a few stats below.. Max Transfer Rate: 256 EU/t. Material: Tin. Max Transfer Rate: 1024 EU/t. Material: Electrum. Max Transfer Rate: 8192 EU/t. Material: Aluminum. Max Transfer Rate: 65536 EU/t. Material: Annealed Copper. Now, the input and transfer rate is hard capped, but the discharge rate is infinite. This mean, for example, a LV cable network can provide more than 256 EU/t for a short amount of time. The larger the cable network, the larger the internal cable buffer. All this "stored" energy can be discharged almost instantaneously if given a place to go to. Do keep in mind that each tier of cable will only connect to it's respective tier electric machine. A LV cable will not connect to steam machines, MV machines, or HV machines. The method that each machine uses to process and use electricity is different depending on the strength of the power it receives. If you want to transfer more energy than the cable tier allows you to, you can either create multiple cable networks or use Transformers. Transformers allow you to step up or step down your power. This means, for example, you can take LV power and turn it into HV power and vice versa. As you'll see, an X to Y transformer will connect to Y cables on its output side and X cables on its 5 input sides. You can use your Wrench to configure which side the output is. Cables follow the same rules that fluid and item pipes follow. Using a Wrench on them will disconnect connections and shift right clicking will break them, this time losing the power in that specific section of cable network. P.S. Cables from Modern Industrialization, connected to any medium that accepts FE power, will 10x the power from EU to FE. There is an upgrade to this down the line, so look out for it!"]
+	quest.4B910D4EBC941ABC.quest_desc: ["We have a lot to cover. Cable networks have hard limitations on the amount of energy they will pull into the network depending on the tier. you can see a few stats below.. Max Transfer Rate: 256 EU/t. Material: Tin. Max Transfer Rate: 1024 EU/t. Material: Electrum. Max Transfer Rate: 8192 EU/t. Material: Aluminum. Max Transfer Rate: 65536 EU/t. Material: Annealed Copper. Now, the input and transfer rate is hard capped, but the discharge rate is infinite. This mean, for example, a LV cable network can provide more than 256 EU/t for a short amount of time. The larger the cable network, the larger the internal cable buffer. All this \"stored\" energy can be discharged almost instantaneously if given a place to go to. Do keep in mind that each tier of cable will only connect to it's respective tier electric machine. A LV cable will not connect to steam machines, MV machines, or HV machines. The method that each machine uses to process and use electricity is different depending on the strength of the power it receives. If you want to transfer more energy than the cable tier allows you to, you can either create multiple cable networks or use Transformers. Transformers allow you to step up or step down your power. This means, for example, you can take LV power and turn it into HV power and vice versa. As you'll see, an X to Y transformer will connect to Y cables on its output side and X cables on its 5 input sides. You can use your Wrench to configure which side the output is. Cables follow the same rules that fluid and item pipes follow. Using a Wrench on them will disconnect connections and shift right clicking will break them, this time losing the power in that specific section of cable network. P.S. Cables from Modern Industrialization, connected to any medium that accepts FE power, will 10x the power from EU to FE. There is an upgrade to this down the line, so look out for it!"]
 	quest.4B910D4EBC941ABC.quest_subtitle: "Obtain Tin Cable"
 	quest.4B910D4EBC941ABC.title: "Energy Transfer"
 	quest.4B9EC06C6CFC18CA.quest_desc: ["Get hold of Supremium Sword, Supremium Pickaxe, Supremium Shovel and 2 more items. Hover over it in EMI and press R to see how it is made."]
 	quest.4B9EC06C6CFC18CA.quest_subtitle: "Obtain Supremium Sword, Supremium Pickaxe, Supremium Shovel and 2 more items"
-	quest.4B9EC06C6CFC18CA.title: "Supremium Tools \\& Weaponry"
+	quest.4B9EC06C6CFC18CA.title: "Supremium Tools and Weaponry"
 	quest.4BA03A7BDA98F841.quest_desc: ["This quest asks for 4x Soulium Dust. EMI shows the recipe if you press R while hovering over it."]
 	quest.4BA03A7BDA98F841.quest_subtitle: "Obtain 4x Soulium Dust"
 	quest.4BA03A7BDA98F841.title: "Soulium Dust"
@@ -3122,8 +3093,6 @@
 	quest.5036A624A1FCB30E.quest_subtitle: "Obtain Treat on a Stick"
 	quest.503EAA79D946B3B9.quest_desc: ["The nature of a Sulfur is able to be changed. This is the basis for transmutation. This Vat, when given the right ingredients, is able to transform Sulfur into a much more malleable state - Alchemical Niter."]
 	quest.503EAA79D946B3B9.quest_subtitle: "Obtain Fermentation Vat"
-	quest.5041A256BA23DFA0.quest_desc: ["Apotheosis expands enchanting, equipment, affixes, spawners, and progression. Explore its different systems and use the in-game descriptions to understand the many available enchantments."]
-	quest.5041A256BA23DFA0.title: "Getting Started"
 	quest.5042EBFD483B3111.quest_desc: ["Bring Refined Glowstone Seeds into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.5042EBFD483B3111.quest_subtitle: "Obtain Refined Glowstone Seeds"
 	quest.5050338A941A4C43.quest_desc: ["Changes the produces output to comb blocks instead of honeycombs. Having this upgrade installed will increase the time bees spend in the hive by 100%."]
@@ -3217,8 +3186,6 @@
 	quest.528055FF0AF18D4E.title: "Refinery"
 	quest.528FA94494267B63.quest_desc: ["An Energy Cube is an advanced type of battery that is compatible with multiple energy systems. An upgraded version of the Basic Energy Cube."]
 	quest.528FA94494267B63.quest_subtitle: "Obtain Advanced Energy Cube"
-	quest.5298A8EB492CB885.quest_desc: ["Theurgy is an alchemy mod built around sulfur, mercury, and salt. Follow its guide to turn raw materials into refined ones and magical equipment."]
-	quest.5298A8EB492CB885.title: "Getting Started"
 	quest.529CF4A2148025ED.quest_desc: ["Not every item needs to go wherever the network sends it. Restrictive and Diversion Transporters give you more control over how items move through your Logistical Transporter network. Restrictive Transporter. Acts as an overflow route. Items will only enter it when they have nowhere else to go, making it useful for handling excess items or directing unwanted materials to a backup destination. Diversion Transporter. Acts as a priority route. It encourages items to pass through it before normal transporter paths, making it useful for directing specific items toward a preferred destination. Use both together to build organized item networks that know where your resources should - and shouldn't - go."]
 	quest.529CF4A2148025ED.quest_subtitle: "Obtain Restrictive Transporter and Diversion Transporter"
 	quest.529CF4A2148025ED.title: "Transporters"
@@ -3449,8 +3416,6 @@
 	quest.587BC74FBAD5C41D.quest_subtitle: "Obtain Dust Lithium"
 	quest.587E8746261103A4.quest_desc: ["Get hold of Granny Smith Apple Sapling. Hover over it in EMI and press R to see how it is made."]
 	quest.587E8746261103A4.quest_subtitle: "Obtain Granny Smith Apple Sapling"
-	quest.58B9C179438F6BA3.quest_desc: ["Powah adds power generation, energy storage, and wireless energy transfer. Compare its generators and energy cells as your base grows."]
-	quest.58B9C179438F6BA3.title: "Getting Started"
 	quest.58C45A8D5B5FE0CE.quest_desc: ["Transporter spirits, as one may expect, can transfer items between containers. That includes Dimensional Storage, and other spirits."]
 	quest.58C45A8D5B5FE0CE.quest_subtitle: "Obtain Book of Binding Bound Foliot, Minecart, Dispenser and Hopper. Earn the advancement: Summon Foliot Transport Items"
 	quest.58C45A8D5B5FE0CE.title: "Ritual: Summon Foliot Transporter"
@@ -3554,7 +3519,7 @@
 	quest.5BAB31083049E0D5.quest_subtitle: "Obtain Magmator Nitro"
 	quest.5BC08AC74035D855.quest_desc: ["Get hold of Catfish. Hover over it in EMI and press R to see how it is made."]
 	quest.5BC08AC74035D855.quest_subtitle: "Obtain Catfish"
-	quest.5BC3092941F3CF3E.quest_desc: ["Place the Altar to see a in-world preview for the vessels \& pedestal placements."]
+	quest.5BC3092941F3CF3E.quest_desc: ["Place the Altar to see a in-world preview for the vessels and pedestal placements."]
 	quest.5BC3092941F3CF3E.quest_subtitle: "Obtain Awakening Altar"
 	quest.5BC46158F3323CB4.quest_desc: ["This tablet is used to create daytime."]
 	quest.5BC46158F3323CB4.quest_subtitle: "Obtain Ritual Sunrise"
@@ -3695,8 +3660,6 @@
 	quest.5F3CF8C042B1EA0F.quest_subtitle: "Obtain Blackthorn Sapling"
 	quest.5F3D5CFDCAB77C5C.quest_desc: ["Demand-side drivers at the heart of the modern smart Create factory."]
 	quest.5F3D5CFDCAB77C5C.quest_subtitle: "Obtain Factory Gauge"
-	quest.5F3DDF6D6F66C496.quest_desc: ["Relics adds powerful equipment that can grow through use. Discover relics during exploration and learn how their experience and abilities develop."]
-	quest.5F3DDF6D6F66C496.title: "Getting Started"
 	quest.5F3EE79C401EB144.quest_desc: ["Get hold of Key Lime Sapling. Hover over it in EMI and press R to see how it is made."]
 	quest.5F3EE79C401EB144.quest_subtitle: "Obtain Key Lime Sapling"
 	quest.5F4CE2C211D3C196.quest_desc: ["Extended Pattern Provider holds quadruple the patterns compared to a regular. Extended Molecular Assembler does 8 crafting jobs at once at 2x the speed of a regular, totaling to a 16x increase in crafting speed."]
@@ -3758,8 +3721,6 @@
 	quest.6080BB6D642F98D6.quest_subtitle: "Obtain Solar Wafer"
 	quest.608A2E3B5C762AD7.quest_desc: ["Factories are advanced forms of the basic machines aimed to assist in large scale resource processing."]
 	quest.608A2E3B5C762AD7.quest_subtitle: "Obtain Elite Enriching Factory"
-	quest.609929A2D0DCBD81.quest_desc: ["Modern Industrialization is a large-scale machinery and processing system. Begin by exploring its early machines, power requirements, and production chains in EMI."]
-	quest.609929A2D0DCBD81.title: "Getting Started"
 	quest.609DB7F8B0684C8A.quest_desc: ["The Ink comes in different rarities and you will need higher tier Ink for the higher tier scrolls."]
 	quest.609DB7F8B0684C8A.quest_subtitle: "Obtain Smart Filter"
 	quest.609DB7F8B0684C8A.title: "Ink"
@@ -3824,7 +3785,7 @@
 	quest.61BDFE874D356920.quest_desc: ["The Simple Reforging Table replaces an item's Affixes with a new random combination. It is a cheaper alternative to the full Reforging Table."]
 	quest.61BDFE874D356920.quest_subtitle: "Obtain Simple Reforging Table"
 	quest.61BDFE874D356920.title: "Simple Reforging"
-	quest.61E515AF1B72B1FA.quest_desc: ["It's hover and SHIFT info says it all: "Unidirectional powered rail with variable speed controlled by the signal strength supplied to it."."]
+	quest.61E515AF1B72B1FA.quest_desc: ["It's hover and SHIFT info says it all: \"Unidirectional powered rail with variable speed controlled by the signal strength supplied to it.\"."]
 	quest.61E515AF1B72B1FA.quest_subtitle: "Obtain Controller Rail"
 	quest.61E727F68F8EA832.quest_desc: ["The Concurrent Press is used inside the Inscriber to craft the Concurrent Processor."]
 	quest.61E727F68F8EA832.quest_subtitle: "Obtain Concurrent Processor Press"
@@ -3966,7 +3927,7 @@
 	quest.663B52B7C99A8858.quest_subtitle: "Obtain Bio Fuel"
 	quest.663E618B3E57F6F6.quest_desc: ["Bring Imperium Sword, Imperium Pickaxe, Imperium Shovel and 2 more items into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.663E618B3E57F6F6.quest_subtitle: "Obtain Imperium Sword, Imperium Pickaxe, Imperium Shovel and 2 more items"
-	quest.663E618B3E57F6F6.title: "Imperium Tools \\& Weaponry"
+	quest.663E618B3E57F6F6.title: "Imperium Tools and Weaponry"
 	quest.667AEEA648FABA79.quest_desc: ["This quest asks for Ender Bow. EMI shows the recipe if you press R while hovering over it."]
 	quest.667AEEA648FABA79.quest_subtitle: "Obtain Ender Bow"
 	quest.66954C678B1B21A1.quest_desc: ["EMI may not show this recipe because of a bug. In a Smithing Table, combine a Celestigem Pickaxe, Axe and Shovel, in that order."]
@@ -4146,8 +4107,6 @@
 	quest.6C494F9D6CCE6111.title: "Making Celestigems"
 	quest.6C4A85F9A1C02D1D.quest_desc: ["This quest asks for Monkey Puzzle Sapling. EMI shows the recipe if you press R while hovering over it."]
 	quest.6C4A85F9A1C02D1D.quest_subtitle: "Obtain Monkey Puzzle Sapling"
-	quest.6C52D2F0CB0CC561.quest_desc: ["Create centers on rotational power and mechanical machines. Start with water wheels or another early power source, then explore shafts, cogwheels, belts, and contraptions."]
-	quest.6C52D2F0CB0CC561.title: "Getting Started"
 	quest.6C5729829DB3D863.quest_desc: ["The Ur-Ghast holds the top of the Dark Forest Tower, found in a small clearing in the middle of the Dark Forest. The area has reddish leaves and faded grass." "Defeating it completes the Dark Forest phase."]
 	quest.6C5729829DB3D863.quest_subtitle: "Defeat the Ur-Ghast"
 	quest.6C5729829DB3D863.title: "Ur-Ghast"
@@ -4287,8 +4246,6 @@
 	quest.6F9082A1F400E5D3.quest_desc: ["Upgrade those Large Steam Boilers already! This advanced version can quadruple the Steam production to 1024 mb/t of steam at full temperature. It's a little taller so remember to use the Wrench to see multiblock shape and block placement."]
 	quest.6F9082A1F400E5D3.quest_subtitle: "Obtain Advanced Large Steam Boiler"
 	quest.6F9082A1F400E5D3.title: "Advanced Large Steam Boiler"
-	quest.6F99765373711A07.quest_desc: ["Occultism explores ritual magic, spirits, storage, and summoned helpers. Consult its guidebook to learn how rituals and bindings work before attempting more advanced summons."]
-	quest.6F99765373711A07.title: "Getting Started"
 	quest.6F9AEFBE29744AE4.quest_desc: ["Get hold of Zebrano Sapling. Hover over it in EMI and press R to see how it is made."]
 	quest.6F9AEFBE29744AE4.quest_subtitle: "Obtain Zebrano Sapling"
 	quest.6FBFBC067DD3FD2A.quest_desc: ["Bring Pistachio Sapling into your inventory. Check EMI with R on the item if you are unsure how to get it."]
@@ -4305,10 +4262,9 @@
 	quest.6FDEAD51DB6A6F36.title: "Tier 3 Glyphs"
 	quest.6FF0A56C73DEA914.quest_desc: ["Get hold of Rowan Sapling. Hover over it in EMI and press R to see how it is made."]
 	quest.6FF0A56C73DEA914.quest_subtitle: "Obtain Rowan Sapling"
-	quest.6FFCB43004A63E68.quest_desc: ["Starcatcher adds a fishing system with its own rods, bait, and catches. Try different waters and check EMI to see what each setup can reel in."]
-	quest.6FFCB43004A63E68.title: "Getting Started"
 	quest.700FCEDBE64F3313.quest_desc: ["MekaSuit can be upgraded with Modules that are installed with the Modification Station."]
 	quest.700FCEDBE64F3313.quest_subtitle: "Obtain Mekasuit Boots"
+	quest.7014B2366D779AE2.quest_desc: ["The Charger turns Certus Quartz into Charged Certus Quartz and recharges tools and items that use AE power. The Crank powers it by hand, so you can use it before you have any other power."]
 	quest.7014B2366D779AE2.title: "Charger"
 	quest.70211D7B2E93E8DE.quest_desc: ["This quest asks for Solar Panel Starter. EMI shows the recipe if you press R while hovering over it."]
 	quest.70211D7B2E93E8DE.quest_subtitle: "Obtain Solar Panel Starter"
@@ -4366,8 +4322,6 @@
 	quest.715C6089ADFFA16B.quest_subtitle: "Obtain Energy Hopper Nitro"
 	quest.7195E352119B893E.quest_desc: ["This quest asks for Concentration Amulet. EMI shows the recipe if you press R while hovering over it."]
 	quest.7195E352119B893E.quest_subtitle: "Obtain Concentration Amulet"
-	quest.71AA3B05D8E43179.quest_desc: ["The Aether is a sky dimension with its own landscapes, creatures, resources, and progression. Discover how to reach it and explore its floating islands."]
-	quest.71AA3B05D8E43179.title: "Getting Started"
 	quest.71B13BEA19B4BCF8.quest_desc: ["This quest asks for Pecan Sapling. EMI shows the recipe if you press R while hovering over it."]
 	quest.71B13BEA19B4BCF8.quest_subtitle: "Obtain Pecan Sapling"
 	quest.71DBE4620D736352.quest_desc: ["Slowly restores hunger while walking on grass."]
@@ -4445,6 +4399,7 @@
 	quest.73B0D3914092EC3E.quest_subtitle: "Obtain Configurable Honeycomb"
 	quest.73D03096609B274E.quest_desc: ["Bring Eclipsealloy Leggings into your inventory. Check EMI with R on the item if you are unsure how to get it."]
 	quest.73D03096609B274E.quest_subtitle: "Obtain Eclipsealloy Leggings"
+	quest.73D44417EA546403.quest_desc: ["The Logic Press is used in an Inscriber to turn Gold into a Printed Logic Circuit. Presses are found in meteorites, and the Inscriber can duplicate one with an Iron Block."]
 	quest.73F1D97AF9D33D65.quest_desc: ["Rechiseled adds additional decorative block variants. Browse its crafting options to find coordinated textures for your builds."]
 	quest.73F1D97AF9D33D65.title: "Getting Started"
 	quest.740753C7869E8F16.quest_desc: ["This quest asks for Dragon Egg Seeds. EMI shows the recipe if you press R while hovering over it."]
@@ -4510,7 +4465,7 @@
 	quest.750AD0EAFD7AC8E6.quest_subtitle: "Obtain Pacific Halibut"
 	quest.751144D1292A6218.quest_desc: ["Crush a Gem with an Anvil in the world to turn it into Gem Dust. Once you have crushed a few, you can use the Salvaging Table instead."]
 	quest.751144D1292A6218.quest_subtitle: "Obtain Gem Dust and Anvil"
-	quest.752D6FA1C0B8E30F.quest_desc: ["Point 2 Point (P2P) Tunnels can be overwhelmingly complex, but at the same time extremely useful. These tunnels can be used to transfer up to 32 channels from one point to the other. But it's wildly inefficient. Those 32 channels get compacted into a single channel. This means, you can theoretically wire up 1,024 channels through a single dense cable, instead of only 32. You'll have to use the Memory Card to link up the tunnels together via frequencies. Shift-Right-Clicking on the "entrace" tunnel will set the memory card to that frequency. Right-Clicking on the "exit" tunnel with set the tunnel to the frequency of the "entrance" one. Keep in mind, you can have multiple "exit" tunnels so long as the total channels used between them don't go beyond the number of channels entered into the "entrance" tunnel. There are also different types of Point 2 Point Tunnels. Aside from one that carries ME Channels, there are ones that transfer raw power, fluids, items, light, and even redstone! They work the same way, aside from carrying channels. It takes some practice to use, so experiment with them first. Once you get the hang of it, your ME System will be looking more than professional!"]
+	quest.752D6FA1C0B8E30F.quest_desc: ["Point 2 Point (P2P) Tunnels can be overwhelmingly complex, but at the same time extremely useful. These tunnels can be used to transfer up to 32 channels from one point to the other. But it's wildly inefficient. Those 32 channels get compacted into a single channel. This means, you can theoretically wire up 1,024 channels through a single dense cable, instead of only 32. You'll have to use the Memory Card to link up the tunnels together via frequencies. Shift-Right-Clicking on the \"entrace\" tunnel will set the memory card to that frequency. Right-Clicking on the \"exit\" tunnel with set the tunnel to the frequency of the \"entrance\" one. Keep in mind, you can have multiple \"exit\" tunnels so long as the total channels used between them don't go beyond the number of channels entered into the \"entrance\" tunnel. There are also different types of Point 2 Point Tunnels. Aside from one that carries ME Channels, there are ones that transfer raw power, fluids, items, light, and even redstone! They work the same way, aside from carrying channels. It takes some practice to use, so experiment with them first. Once you get the hang of it, your ME System will be looking more than professional!"]
 	quest.752D6FA1C0B8E30F.quest_subtitle: "Obtain Me P2p Tunnel"
 	quest.752D6FA1C0B8E30F.title: "P2P"
 	quest.7569E5A18129C681.quest_desc: ["Chemical Tanks are Mekanism's batteries for storing Gases. They can be placed as a block and do interact with Pressurized Tubes. They come in the four levels, each increasing the storage capacity and output rate."]
@@ -4618,6 +4573,7 @@
 	quest.784334FD0614CDF0.quest_subtitle: "Obtain Gun Ammo"
 	quest.7867CF2DB8DC10A5.quest_desc: ["This quest asks for Almond Sapling. EMI shows the recipe if you press R while hovering over it."]
 	quest.7867CF2DB8DC10A5.quest_subtitle: "Obtain Almond Sapling"
+	quest.786D1CD2CAA19D15.quest_desc: ["The Logic Processor is made in an Inscriber from a Printed Logic Circuit, Printed Silicon and Redstone. It is used for buses, terminals and more."]
 	quest.787A726BEEC0BB74.quest_desc: ["Craft any Rune that goes best with the magic armor or upgrade orb that you want."]
 	quest.787A726BEEC0BB74.quest_subtitle: "Obtain Smart Filter"
 	quest.78940B88116D45F4.quest_desc: ["Bring Ceylon Ebony Sapling into your inventory. Check EMI with R on the item if you are unsure how to get it."]
@@ -4801,8 +4757,7 @@
 	quest.7D027650D0554AE8.quest_subtitle: "Obtain Tool Swapper Upgrade"
 	quest.7D074CDAA4B03FAE.quest_desc: ["Get hold of Supremium Watering Can. Hover over it in EMI and press R to see how it is made."]
 	quest.7D074CDAA4B03FAE.quest_subtitle: "Obtain Supremium Watering Can"
-	quest.7D218F8A63B6CDFC.quest_desc: ["Bank Storage adds portable storage banks in several tiers. Start with a basic bank and upgrade it as your storage needs grow."]
-	quest.7D218F8A63B6CDFC.title: "Getting Started"
+	quest.7D0C5977BAFE0157.quest_desc: ["Certus Quartz is found as ore underground and inside meteorites. Its crystals are the base of most AE2 materials."]
 	quest.7D313F28BBB47A6F.quest_desc: ["Like the Magnet Upgrade, with more filtering options."]
 	quest.7D313F28BBB47A6F.quest_subtitle: "Obtain Advanced Magnet Upgrade"
 	quest.7D3F97C5832AF3B7.quest_desc: ["This quest asks for Blank Thread. EMI shows the recipe if you press R while hovering over it."]
@@ -4899,7 +4854,7 @@
 	quest.7F167264C32900F9.quest_subtitle: "Obtain Purple Spiral Sapling"
 	quest.7F17DEB90BDCB5D3.quest_desc: ["Tier 1 glyph. Craft it at the Scribe\'s Table."]
 	quest.7F17DEB90BDCB5D3.quest_subtitle: "Obtain Glyph Self"
-	quest.7F2E9B7E0F5AAFC8.quest_desc: ["The Rotary Condensentrator (pronounced "con-DEN-sen-traitor") is used for converting substances between liquid and gaseous forms at a rate of 1:1. It has two modes: Decondensentrating, which turns Liquids into Gases, and Condensentrating, which turns Gases into Liquids."]
+	quest.7F2E9B7E0F5AAFC8.quest_desc: ["The Rotary Condensentrator (pronounced \"con-DEN-sen-traitor\") is used for converting substances between liquid and gaseous forms at a rate of 1:1. It has two modes: Decondensentrating, which turns Liquids into Gases, and Condensentrating, which turns Gases into Liquids."]
 	quest.7F2E9B7E0F5AAFC8.quest_subtitle: "Obtain Rotary Condensentrator"
 	quest.7F4F05267ACB5A78.quest_desc: ["This quest asks for Supremium Ingot. EMI shows the recipe if you press R while hovering over it."]
 	quest.7F4F05267ACB5A78.quest_subtitle: "Obtain Supremium Ingot"
@@ -4923,6 +4878,7 @@
 	quest.7FE51DF3CB943492.quest_subtitle: "Obtain Energy Cable Nitro"
 	quest.7FE84DDB0ADF827F.quest_desc: ["This quest asks for Assembly Platform, Assembly Laser, Assembly Io Unit Import and 3 more items. EMI shows the recipe if you press R while hovering over it."]
 	quest.7FE84DDB0ADF827F.quest_subtitle: "Obtain Assembly Platform, Assembly Laser, Assembly Io Unit Import and 3 more items"
+	quest.7FF560F3DCCC23BE.quest_desc: ["The Engineering Press is used in an Inscriber to turn Diamond into a Printed Engineering Circuit. Presses are found in meteorites, and the Inscriber can duplicate one with an Iron Block."]
 	quest.7FFB1CDFDA24C2EA.quest_desc: ["Factories are advanced forms of the basic machines aimed to assist in large scale resource processing."]
 	quest.7FFB1CDFDA24C2EA.quest_subtitle: "Obtain Ultimate Smelting Factory"
 	quest.811B5DBA9C3B6C69.quest_desc: ["Quantum Ring blocks create the frame around a Quantum Link Chamber. Their recipe requires Logic and Engineering Processors, an Energy Cell, iron, and Smart Dense Cable."]

@@ -12,15 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3990249985A36A73"
-			tasks: [{
-				id: "30E11212B9F981A7"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
 			id: "5257768CB9588EB9"
 			tasks: [{
 				id: "19FE4E76A407C7F1"
@@ -28,7 +19,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			id: "4CEA79B25D65F561"
@@ -38,7 +29,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 14.25d
+			y: 14.4d
 		}
 		{
 			id: "750AD0EAFD7AC8E6"
@@ -48,7 +39,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			id: "441E636144B67259"
@@ -58,7 +49,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			id: "4262215922348149"
@@ -68,7 +59,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			id: "7BC7CD1E1D7D2A99"
@@ -78,7 +69,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 17.75d
+			y: 17.6d
 		}
 		{
 			id: "5EC884935B631CDE"
@@ -88,7 +79,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 19.5d
+			y: 19.2d
 		}
 		{
 			id: "60ADB70BA2114BD3"
@@ -98,7 +89,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 19.5d
+			y: 19.2d
 		}
 		{
 			id: "16E1B07466047CD3"
@@ -108,7 +99,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 19.5d
+			y: 19.2d
 		}
 		{
 			id: "2D6C3A0B84ED63DE"
@@ -118,7 +109,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 19.5d
+			y: 19.2d
 		}
 		{
 			id: "70D9DF4A9E061CEB"
@@ -128,7 +119,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 21.25d
+			y: 20.8d
 		}
 		{
 			id: "2019219F3CEB6F63"
@@ -138,7 +129,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 19.5d
+			y: 19.2d
 		}
 		{
 			id: "0A8134FBEF8971F1"
@@ -148,7 +139,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 19.5d
+			y: 19.2d
 		}
 		{
 			id: "4A89C1C145646884"
@@ -158,7 +149,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 17.75d
+			y: 17.6d
 		}
 		{
 			id: "275D4238928C567C"
@@ -168,7 +159,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			id: "5BC08AC74035D855"
@@ -178,7 +169,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			id: "4A45135E97DBCE0B"
@@ -218,7 +209,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 17.75d
+			y: 17.6d
 		}
 		{
 			id: "1B6D8DC930F8EF54"
@@ -238,7 +229,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 21.25d
+			y: 20.8d
 		}
 		{
 			id: "11E773F7B05CC248"
@@ -248,7 +239,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 14.25d
+			y: 14.4d
 		}
 		{
 			id: "04DD255BCC082736"
@@ -258,7 +249,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 14.25d
+			y: 14.4d
 		}
 		{
 			id: "5ABE0839F7584525"
@@ -268,7 +259,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 14.25d
+			y: 14.4d
 		}
 		{
 			id: "182439CC27EEAC24"
@@ -278,7 +269,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			id: "1B860A210FF856FC"
@@ -288,7 +279,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			id: "006A684E67B965F5"
@@ -298,7 +289,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 14.25d
+			y: 14.4d
 		}
 		{
 			id: "41874A2107633936"
@@ -308,7 +299,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 19.5d
+			y: 19.2d
 		}
 		{
 			id: "41DC432CE80CB61F"
@@ -319,7 +310,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 14.25d
+			y: 14.4d
 		}
 		{
 			id: "01E95662DCCE792B"
@@ -340,7 +331,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 12.5d
+			y: 12.8d
 		}
 		{
 			id: "34C78427A24B86E3"
@@ -443,7 +434,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["3990249985A36A73"]
 			id: "0650B75F3E47F798"
 			rewards: [
 				{
@@ -470,8 +460,8 @@
 				item: { count: 1, id: "aquaculture:iron_hook" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 10.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -500,8 +490,8 @@
 				item: { count: 1, id: "aquaculture:gold_hook" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 8.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -526,8 +516,8 @@
 				item: { count: 1, id: "aquaculture:diamond_hook" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 12.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -556,8 +546,8 @@
 				item: { count: 1, id: "aquaculture:light_hook" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 8.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -586,8 +576,8 @@
 				item: { count: 1, id: "aquaculture:heavy_hook" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 9.0d
+			x: 10.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -617,8 +607,8 @@
 				item: { count: 1, id: "aquaculture:double_hook" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -647,8 +637,8 @@
 				item: { count: 1, id: "aquaculture:redstone_hook" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2A8AD3ECC97D43DF"]
@@ -663,8 +653,8 @@
 				item: { count: 1, id: "aquaculture:nether_star_hook" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 12.0d
+			y: -4.8d
 		}
 		{
 			id: "0BAB71CC13B3829B"
@@ -691,7 +681,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 14.25d
+			y: 14.4d
 		}
 		{
 			id: "5FFC4F9FA66E9BAA"
@@ -721,7 +711,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 14.25d
+			y: 14.4d
 		}
 		{
 			id: "40719DFBF30F672F"
@@ -750,7 +740,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 14.25d
+			y: 14.4d
 		}
 		{
 			id: "20ABBB37ABC4922E"
@@ -779,7 +769,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 17.75d
+			y: 17.6d
 		}
 		{
 			id: "3243ADA9881FFFBA"
@@ -810,7 +800,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 17.75d
+			y: 17.6d
 		}
 		{
 			id: "202FA9A77132A3EF"
@@ -840,7 +830,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 19.5d
+			y: 19.2d
 		}
 		{
 			id: "241D2F19426D33B4"
@@ -858,7 +848,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 19.5d
+			y: 19.2d
 		}
 		{
 			id: "6D68225D5481E46D"
@@ -883,7 +873,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 17.75d
+			y: 17.6d
 		}
 		{
 			id: "3330F696C0664DAC"
@@ -908,7 +898,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 17.75d
+			y: 17.6d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -936,8 +926,8 @@
 				item: { count: 1, id: "aquaculture:note_hook" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 12.0d
+			y: -1.6d
 		}
 		{
 			id: "23C553AD6AC611F8"
@@ -969,7 +959,7 @@
 				}
 			]
 			x: 0.0d
-			y: 17.75d
+			y: 17.6d
 		}
 		{
 			id: "1DA83C71DF20DB0D"
@@ -1006,7 +996,7 @@
 				}
 			]
 			x: 2.0d
-			y: 17.75d
+			y: 17.6d
 		}
 	]
 }

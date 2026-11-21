@@ -12,24 +12,14 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "001A90D57A33197B"
-			tasks: [{
-				id: "2D49158966D7EAC4"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["001A90D57A33197B"]
 			id: "25B43F14C8AFB5BE"
 			tasks: [{
 				id: "61988A20E62FC4F3"
 				item: { count: 1, id: "cookingforblockheads:recipe_book" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 12.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["25B43F14C8AFB5BE"]
@@ -47,28 +37,17 @@
 				item: { count: 1, id: "cookingforblockheads:crafting_book" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 12.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["44ADE9005757637C"]
 			id: "74922CD545618585"
-			rewards: [
-				{
-					id: "4CAF6905FFA436E5"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "092D777510302187"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4CAF6905FFA436E5"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -76,8 +55,8 @@
 				item: { count: 1, id: "cookingforblockheads:cooking_table" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 12.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -97,8 +76,8 @@
 				item: { count: 1, id: "cookingforblockheads:white_fridge" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 9.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -116,8 +95,8 @@
 				item: { count: 1, id: "cookingforblockheads:sink" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.5d
+			x: 14.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -137,8 +116,8 @@
 				item: { count: 1, id: "cookingforblockheads:counter" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -157,8 +136,8 @@
 				item: { count: 1, id: "cookingforblockheads:white_oven" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -183,8 +162,8 @@
 				item: { count: 1, id: "cookingforblockheads:cow_jar" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.5d
+			x: 14.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -202,8 +181,8 @@
 				item: { count: 1, id: "cookingforblockheads:toaster" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 10.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -229,8 +208,8 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 1.5d
+			x: 10.0d
+			y: 1.6d
 		}
 		{
 			id: "4A87B7CF8FFE9590"
@@ -249,7 +228,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.5d
+			y: 9.6d
 		}
 		{
 			dependencies: ["4A87B7CF8FFE9590"]
@@ -269,8 +248,8 @@
 				item: { count: 1, id: "farmingforblockheads:green_fertilizer" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 14.0d
+			x: 0.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["4A87B7CF8FFE9590"]
@@ -290,8 +269,8 @@
 				item: { count: 1, id: "farmingforblockheads:red_fertilizer" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 12.5d
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 }

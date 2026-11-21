@@ -12,16 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2667E78AD0E7EF5F"
-			tasks: [{
-				id: "0EC0E327F3F49ACB"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2667E78AD0E7EF5F"]
 			id: "61766197A58086E4"
 			shape: "hexagon"
 			size: 1.5d
@@ -31,8 +21,8 @@
 				item: { count: 1, id: "mysticalagriculture:prosperity_shard" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 18.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["61766197A58086E4"]
@@ -42,8 +32,8 @@
 				item: { count: 1, id: "mysticalagriculture:prosperity_seed_base" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 20.0d
+			y: 16.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -68,11 +58,10 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 7.5d
+			x: 24.0d
+			y: 25.6d
 		}
 		{
-			dependencies: ["2667E78AD0E7EF5F"]
 			id: "439455FDC9BD37E3"
 			shape: "hexagon"
 			size: 1.5d
@@ -82,8 +71,8 @@
 				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: 16.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["439455FDC9BD37E3"]
@@ -93,8 +82,8 @@
 				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
 				type: "item"
 			}]
-			x: 4.3d
-			y: 1.5d
+			x: 12.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["439455FDC9BD37E3"]
@@ -111,28 +100,17 @@
 				item: { count: 1, id: "mysticalagriculture:prudentium_essence" }
 				type: "item"
 			}]
-			x: 4.3d
-			y: 6.0d
+			x: 16.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["33204911A3C82A1D"]
 			id: "4F642CA17685D8AD"
-			rewards: [
-				{
-					id: "3502AA2AA9B8A232"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "362FCFD193CFAA3D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3502AA2AA9B8A232"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -140,8 +118,8 @@
 				item: { count: 1, id: "mysticalagriculture:tertium_essence" }
 				type: "item"
 			}]
-			x: 12.2d
-			y: 12.0d
+			x: 22.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["4F642CA17685D8AD"]
@@ -153,7 +131,7 @@
 					type: "random"
 				}
 				{
-					id: "185F3AF36FC54E07"
+					id: "430EDB5C2749B6FB"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -169,8 +147,8 @@
 				item: { count: 1, id: "mysticalagriculture:imperium_essence" }
 				type: "item"
 			}]
-			x: 20.1d
-			y: 9.0d
+			x: 30.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["6872683F564A1953"]
@@ -182,7 +160,7 @@
 					type: "random"
 				}
 				{
-					id: "4CB3AD8D02290688"
+					id: "4B19C733DFF4AF01"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -198,8 +176,8 @@
 				item: { count: 1, id: "mysticalagriculture:supremium_essence" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 10.5d
+			x: 34.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["4BA03A7BDA98F841"]
@@ -209,8 +187,8 @@
 				item: { count: 1, id: "mysticalagriculture:soulium_seed_base" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 14.0d
+			y: 11.2d
 		}
 		{
 			id: "60E221AB4714CED9"
@@ -219,8 +197,8 @@
 				item: { count: 1, id: "mysticalagriculture:tinkering_table" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: 20.0d
+			y: 35.2d
 		}
 		{
 			dependencies: [
@@ -233,8 +211,8 @@
 				item: { count: 1, id: "mysticalagriculture:unattuned_augment" }
 				type: "item"
 			}]
-			x: 6.1d
-			y: 9.0d
+			x: 20.0d
+			y: 33.6d
 		}
 		{
 			dependencies: ["33204911A3C82A1D"]
@@ -249,8 +227,8 @@
 				item: { count: 1, id: "mysticalagriculture:prudentium_farmland" }
 				type: "item"
 			}]
-			x: 12.2d
-			y: 10.5d
+			x: 12.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["4F642CA17685D8AD"]
@@ -265,8 +243,8 @@
 				item: { count: 1, id: "mysticalagriculture:tertium_farmland" }
 				type: "item"
 			}]
-			x: 20.1d
-			y: 7.5d
+			x: 20.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["6872683F564A1953"]
@@ -281,35 +259,24 @@
 				item: { count: 1, id: "mysticalagriculture:imperium_farmland" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 9.0d
+			x: 34.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["010841FCF11E807B"]
 			id: "0E1CF52CD717F600"
-			rewards: [
-				{
-					id: "643F29D40BE56B02"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "6BAE8DDADF824B33"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "643F29D40BE56B02"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7B3F06C154489E1A"
 				item: { count: 1, id: "mysticalagriculture:supremium_farmland" }
 				type: "item"
 			}]
-			x: 32.3d
-			y: 10.5d
+			x: 38.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["439455FDC9BD37E3"]
@@ -319,8 +286,8 @@
 				item: { count: 1, id: "mysticalagriculture:inferium_farmland" }
 				type: "item"
 			}]
-			x: 4.3d
-			y: 4.5d
+			x: 14.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["61766197A58086E4"]
@@ -330,8 +297,8 @@
 				item: { count: 1, id: "mysticalagriculture:prosperity_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.5d
+			x: 20.0d
+			y: 14.4d
 		}
 		{
 			dependencies: [
@@ -339,15 +306,6 @@
 				"439455FDC9BD37E3"
 			]
 			id: "1E4CB1835FA3CE58"
-			rewards: [{
-				id: "78F5E1400DF5E7E3"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -355,8 +313,8 @@
 				item: { count: 1, id: "mysticalagriculture:inferium_ingot" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 3.0d
+			x: 22.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -371,7 +329,7 @@
 					type: "random"
 				}
 				{
-					id: "0BEA19921B9207E6"
+					id: "77966F54CCE4FFF7"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -387,8 +345,8 @@
 				item: { count: 1, id: "mysticalagriculture:prudentium_ingot" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 9.0d
+			x: 26.0d
+			y: 17.6d
 		}
 		{
 			dependencies: [
@@ -403,7 +361,7 @@
 					type: "random"
 				}
 				{
-					id: "3C9778E8C6B16532"
+					id: "4D5845255BAAB711"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -419,8 +377,8 @@
 				item: { count: 1, id: "mysticalagriculture:tertium_ingot" }
 				type: "item"
 			}]
-			x: 22.6d
-			y: 6.0d
+			x: 28.0d
+			y: 17.6d
 		}
 		{
 			dependencies: [
@@ -435,12 +393,12 @@
 					type: "random"
 				}
 				{
-					id: "19E502A24B6A05A9"
+					id: "4093C90DEA5CF057"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -451,8 +409,8 @@
 				item: { count: 1, id: "mysticalagriculture:imperium_ingot" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 6.0d
+			x: 32.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -467,7 +425,7 @@
 					type: "random"
 				}
 				{
-					id: "2BB958A8568D9C69"
+					id: "42578C69924F1693"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -483,8 +441,8 @@
 				item: { count: 1, id: "mysticalagriculture:supremium_ingot" }
 				type: "item"
 			}]
-			x: 34.8d
-			y: 7.5d
+			x: 34.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["61766197A58086E4"]
@@ -494,8 +452,8 @@
 				item: { count: 1, id: "mysticalagriculture:prosperity_gemstone" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 18.0d
+			y: 17.6d
 		}
 		{
 			dependencies: [
@@ -503,15 +461,6 @@
 				"439455FDC9BD37E3"
 			]
 			id: "61017859BD7731C2"
-			rewards: [{
-				id: "1C13F80245E98A7F"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -519,8 +468,8 @@
 				item: { count: 1, id: "mysticalagriculture:inferium_gemstone" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 1.5d
+			x: 20.0d
+			y: 17.6d
 		}
 		{
 			dependencies: [
@@ -535,7 +484,7 @@
 					type: "random"
 				}
 				{
-					id: "461F2692778A4399"
+					id: "7D5DBE8ABFA9E104"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -551,8 +500,8 @@
 				item: { count: 1, id: "mysticalagriculture:prudentium_gemstone" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 7.5d
+			x: 24.0d
+			y: 19.2d
 		}
 		{
 			dependencies: [
@@ -567,7 +516,7 @@
 					type: "random"
 				}
 				{
-					id: "16C4BFBBC9EEF4A7"
+					id: "1530D6FE273AC987"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -583,8 +532,8 @@
 				item: { count: 1, id: "mysticalagriculture:tertium_gemstone" }
 				type: "item"
 			}]
-			x: 22.6d
-			y: 4.5d
+			x: 30.0d
+			y: 17.6d
 		}
 		{
 			dependencies: [
@@ -599,12 +548,12 @@
 					type: "random"
 				}
 				{
-					id: "7C56B0215523AF72"
+					id: "26A49614F4F00C48"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -615,8 +564,8 @@
 				item: { count: 1, id: "mysticalagriculture:imperium_gemstone" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 4.5d
+			x: 34.0d
+			y: 17.6d
 		}
 		{
 			dependencies: [
@@ -632,7 +581,7 @@
 					type: "random"
 				}
 				{
-					id: "636E36D0216C98F0"
+					id: "594AEB5373F9D3EB"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -646,8 +595,8 @@
 				item: { count: 1, id: "mysticalagriculture:supremium_gemstone" }
 				type: "item"
 			}]
-			x: 34.8d
-			y: 6.0d
+			x: 36.0d
+			y: 17.6d
 		}
 		{
 			dependencies: [
@@ -662,7 +611,7 @@
 					type: "random"
 				}
 				{
-					id: "2F4C79E18D01E14D"
+					id: "72F73F6B234E7EC5"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -698,8 +647,8 @@
 					type: "item"
 				}
 			]
-			x: 14.7d
-			y: 3.0d
+			x: 24.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -707,7 +656,6 @@
 				"40C0D603715533D4"
 				"0A4600B1656C8E50"
 			]
-			hide_dependency_lines: true
 			id: "1CAE6CEB81632ECF"
 			rewards: [
 				{
@@ -716,7 +664,7 @@
 					type: "random"
 				}
 				{
-					id: "4D988D405A6E4296"
+					id: "442F658711188C59"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -752,8 +700,8 @@
 					type: "item"
 				}
 			]
-			x: 22.6d
-			y: 0.0d
+			x: 28.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -761,7 +709,6 @@
 				"12BFB3A0042443C4"
 				"1CAE6CEB81632ECF"
 			]
-			hide_dependency_lines: true
 			id: "45F7B6D8B7FB411A"
 			rewards: [
 				{
@@ -770,12 +717,12 @@
 					type: "random"
 				}
 				{
-					id: "7311B679E5117C84"
+					id: "092D777510302187"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -806,8 +753,8 @@
 					type: "item"
 				}
 			]
-			x: 30.5d
-			y: 0.0d
+			x: 32.0d
+			y: 17.6d
 		}
 		{
 			dependencies: [
@@ -815,7 +762,6 @@
 				"171080B4FDD5AD85"
 				"45F7B6D8B7FB411A"
 			]
-			hide_dependency_lines: true
 			id: "663E618B3E57F6F6"
 			rewards: [
 				{
@@ -824,7 +770,7 @@
 					type: "random"
 				}
 				{
-					id: "144E92F90FFB35AE"
+					id: "3530F47E0042D8ED"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -860,8 +806,8 @@
 					type: "item"
 				}
 			]
-			x: 34.8d
-			y: 0.0d
+			x: 36.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -869,7 +815,6 @@
 				"7F4F05267ACB5A78"
 				"663E618B3E57F6F6"
 			]
-			hide_dependency_lines: true
 			id: "4B9EC06C6CFC18CA"
 			rewards: [
 				{
@@ -878,7 +823,7 @@
 					type: "random"
 				}
 				{
-					id: "110ECA2D6B2B561C"
+					id: "66B725F0C6DD375D"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -914,8 +859,8 @@
 					type: "item"
 				}
 			]
-			x: 37.3d
-			y: 0.0d
+			x: 38.0d
+			y: 14.4d
 		}
 		{
 			dependencies: [
@@ -923,7 +868,6 @@
 				"7F4F05267ACB5A78"
 				"69A8FEDB187F3F17"
 			]
-			hide_dependency_lines: true
 			id: "6ECF9993595C000E"
 			rewards: [
 				{
@@ -932,7 +876,7 @@
 					type: "random"
 				}
 				{
-					id: "30AB3F316C4EA68F"
+					id: "760DBB68CB5F6443"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -963,8 +907,8 @@
 					type: "item"
 				}
 			]
-			x: 37.3d
-			y: 4.5d
+			x: 32.0d
+			y: 14.4d
 		}
 		{
 			dependencies: [
@@ -972,7 +916,6 @@
 				"171080B4FDD5AD85"
 				"2B1C02522047CF1B"
 			]
-			hide_dependency_lines: true
 			id: "69A8FEDB187F3F17"
 			rewards: [
 				{
@@ -981,7 +924,7 @@
 					type: "random"
 				}
 				{
-					id: "339A96C4CF2B0077"
+					id: "324BF63644A54E0C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1012,8 +955,8 @@
 					type: "item"
 				}
 			]
-			x: 34.8d
-			y: 1.5d
+			x: 34.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -1021,7 +964,6 @@
 				"12BFB3A0042443C4"
 				"15360B319F422436"
 			]
-			hide_dependency_lines: true
 			id: "2B1C02522047CF1B"
 			rewards: [
 				{
@@ -1030,12 +972,12 @@
 					type: "random"
 				}
 				{
-					id: "0528A1DB2FFA160E"
+					id: "12A653164B86BF31"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -1061,8 +1003,8 @@
 					type: "item"
 				}
 			]
-			x: 30.5d
-			y: 1.5d
+			x: 30.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -1070,7 +1012,6 @@
 				"40C0D603715533D4"
 				"733E3A8C7B5AAC69"
 			]
-			hide_dependency_lines: true
 			id: "15360B319F422436"
 			rewards: [
 				{
@@ -1079,7 +1020,7 @@
 					type: "random"
 				}
 				{
-					id: "4ADDB821CA5E9EF8"
+					id: "432C50E0E9971BD0"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1110,8 +1051,8 @@
 					type: "item"
 				}
 			]
-			x: 22.6d
-			y: 1.5d
+			x: 26.0d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -1126,7 +1067,7 @@
 					type: "random"
 				}
 				{
-					id: "0C8CB01E8D274852"
+					id: "5E25800C3B77859F"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1157,8 +1098,8 @@
 					type: "item"
 				}
 			]
-			x: 14.7d
-			y: 4.5d
+			x: 24.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["439455FDC9BD37E3"]
@@ -1168,8 +1109,8 @@
 				item: { count: 1, id: "mysticalagradditions:inferium_coal" }
 				type: "item"
 			}]
-			x: 4.3d
-			y: 3.0d
+			x: 12.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["33204911A3C82A1D"]
@@ -1184,8 +1125,8 @@
 				item: { count: 1, id: "mysticalagradditions:prudentium_coal" }
 				type: "item"
 			}]
-			x: 12.2d
-			y: 9.0d
+			x: 12.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["4F642CA17685D8AD"]
@@ -1200,8 +1141,8 @@
 				item: { count: 1, id: "mysticalagradditions:tertium_coal" }
 				type: "item"
 			}]
-			x: 20.1d
-			y: 6.0d
+			x: 22.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["6872683F564A1953"]
@@ -1216,35 +1157,24 @@
 				item: { count: 1, id: "mysticalagradditions:imperium_coal" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 7.5d
+			x: 34.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["010841FCF11E807B"]
 			id: "184CD552981F91CF"
-			rewards: [
-				{
-					id: "7130CBDFACDC70F9"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "61D5F3C5D468E3BC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7130CBDFACDC70F9"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "027E5EB2A15C61C2"
 				item: { count: 1, id: "mysticalagradditions:supremium_coal" }
 				type: "item"
 			}]
-			x: 32.3d
-			y: 9.0d
+			x: 36.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["1E4CB1835FA3CE58"]
@@ -1255,8 +1185,8 @@
 				item: { count: 1, id: "mysticalagriculture:inferium_watering_can" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 6.0d
+			x: 24.0d
+			y: 14.4d
 		}
 		{
 			dependencies: [
@@ -1275,8 +1205,8 @@
 				item: { count: 1, id: "mysticalagriculture:prudentium_watering_can" }
 				type: "item"
 			}]
-			x: 22.6d
-			y: 3.0d
+			x: 26.0d
+			y: 14.4d
 		}
 		{
 			dependencies: [
@@ -1285,29 +1215,18 @@
 			]
 			id: "5388CE7578033C00"
 			optional: true
-			rewards: [
-				{
-					id: "6BDD920DEA202531"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "76762439CE7CD898"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6BDD920DEA202531"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "542FCBC67B71EA6E"
 				item: { count: 1, id: "mysticalagriculture:tertium_watering_can" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 3.0d
+			x: 28.0d
+			y: 14.4d
 		}
 		{
 			dependencies: [
@@ -1323,7 +1242,7 @@
 					type: "random"
 				}
 				{
-					id: "4BDD4AAC80AB98DD"
+					id: "3A346098E68FA5B4"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1337,8 +1256,8 @@
 				item: { count: 1, id: "mysticalagriculture:imperium_watering_can" }
 				type: "item"
 			}]
-			x: 34.8d
-			y: 3.0d
+			x: 32.0d
+			y: 12.8d
 		}
 		{
 			dependencies: [
@@ -1354,7 +1273,7 @@
 					type: "random"
 				}
 				{
-					id: "3617A6C6B8A433C0"
+					id: "0210D4F9D2D3656C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1368,8 +1287,8 @@
 				item: { count: 1, id: "mysticalagriculture:supremium_watering_can" }
 				type: "item"
 			}]
-			x: 37.3d
-			y: 6.0d
+			x: 34.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["439455FDC9BD37E3"]
@@ -1390,8 +1309,8 @@
 				item: { count: 1, id: "mysticalagriculture:mystical_fertilizer" }
 				type: "item"
 			}]
-			x: 4.3d
-			y: 0.0d
+			x: 14.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["435BD89FA19787D3"]
@@ -1406,8 +1325,8 @@
 				item: { count: 1, id: "mysticalagriculture:soulium_dagger" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 1.5d
+			x: 18.0d
+			y: 12.8d
 		}
 		{
 			id: "128A03AD4C248AC9"
@@ -1418,8 +1337,8 @@
 				item: { count: 1, id: "mysticalagriculture:machine_frame" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 17.0d
+			x: 2.0d
+			y: 41.6d
 		}
 		{
 			id: "4BA03A7BDA98F841"
@@ -1438,8 +1357,8 @@
 				item: { count: 1, id: "mysticalagriculture:soulium_dust" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 16.0d
+			y: 11.2d
 		}
 		{
 			dependencies: [
@@ -1452,8 +1371,8 @@
 				item: { count: 1, id: "mysticalagriculture:soulium_ingot" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 0.0d
+			x: 18.0d
+			y: 11.2d
 		}
 		{
 			dependencies: [
@@ -1461,29 +1380,18 @@
 				"010841FCF11E807B"
 			]
 			id: "24E1F72FD6958747"
-			rewards: [
-				{
-					id: "4448760F38023795"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "64C46C0B2292FA8C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4448760F38023795"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3882C5839DBFEE25"
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_block" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 7.5d
+			x: 36.0d
+			y: 14.4d
 		}
 		{
 			dependencies: [
@@ -1498,7 +1406,7 @@
 					type: "random"
 				}
 				{
-					id: "59F36F17C11429DB"
+					id: "6D1C7BA968CB4499"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1534,8 +1442,8 @@
 					type: "item"
 				}
 			]
-			x: 39.8d
-			y: 0.0d
+			x: 38.0d
+			y: 12.8d
 		}
 		{
 			dependencies: [
@@ -1550,7 +1458,7 @@
 					type: "random"
 				}
 				{
-					id: "4BA653E2364B7366"
+					id: "3406004774FE2F38"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1581,8 +1489,8 @@
 					type: "item"
 				}
 			]
-			x: 39.8d
-			y: 1.5d
+			x: 34.0d
+			y: 11.2d
 		}
 		{
 			dependencies: [
@@ -1598,7 +1506,7 @@
 					type: "random"
 				}
 				{
-					id: "6D6D9B508F21D38D"
+					id: "2098F7F96776B2B0"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1612,8 +1520,8 @@
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_watering_can" }
 				type: "item"
 			}]
-			x: 39.8d
-			y: 3.0d
+			x: 36.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["7DEB14F944374E25"]
@@ -1625,7 +1533,7 @@
 					type: "random"
 				}
 				{
-					id: "1090F8A02A848E43"
+					id: "6D9C8BAA5C350B28"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1639,8 +1547,8 @@
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_ingot" }
 				type: "item"
 			}]
-			x: 37.3d
-			y: 1.5d
+			x: 40.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["7DEB14F944374E25"]
@@ -1652,7 +1560,7 @@
 					type: "random"
 				}
 				{
-					id: "7F023D44F2932786"
+					id: "710DAB67B42C80BF"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1666,11 +1574,10 @@
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_gemstone" }
 				type: "item"
 			}]
-			x: 37.3d
-			y: 3.0d
+			x: 38.0d
+			y: 9.6d
 		}
 		{
-			dependencies: ["2667E78AD0E7EF5F"]
 			id: "5BC3092941F3CF3E"
 			rewards: [{
 				id: "0F5323EF4B3C81AB"
@@ -1684,8 +1591,8 @@
 				item: { count: 1, id: "mysticalagriculture:awakening_altar" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 36.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["5BC3092941F3CF3E"]
@@ -1696,8 +1603,8 @@
 				item: { count: 1, id: "mysticalagriculture:awakening_pedestal" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: 36.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["5BC3092941F3CF3E"]
@@ -1708,8 +1615,8 @@
 				item: { count: 1, id: "mysticalagriculture:essence_vessel" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.5d
+			x: 34.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["128A03AD4C248AC9"]
@@ -1719,8 +1626,8 @@
 				item: { count: 1, id: "mysticalagriculture:harvester" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 17.0d
+			x: 4.0d
+			y: 43.2d
 		}
 		{
 			dependencies: ["128A03AD4C248AC9"]
@@ -1730,8 +1637,8 @@
 				item: { count: 1, id: "mysticalagriculture:soulium_spawner" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 18.5d
+			x: 2.0d
+			y: 40.0d
 		}
 		{
 			dependencies: ["128A03AD4C248AC9"]
@@ -1741,8 +1648,8 @@
 				item: { count: 1, id: "mysticalagriculture:soul_extractor" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 20.0d
+			x: 0.0d
+			y: 41.6d
 		}
 		{
 			dependencies: ["128A03AD4C248AC9"]
@@ -1752,8 +1659,8 @@
 				item: { count: 1, id: "mysticalagriculture:seed_reprocessor" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 21.5d
+			x: 2.0d
+			y: 43.2d
 		}
 		{
 			dependencies: ["439455FDC9BD37E3"]
@@ -1763,8 +1670,8 @@
 				item: { count: 1, id: "mysticalagriculture:infusion_crystal" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 9.0d
+			x: 12.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["5EAE572EA1BFCE46"]
@@ -1779,8 +1686,8 @@
 				item: { count: 1, id: "mysticalagriculture:master_infusion_crystal" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 4.5d
+			x: 10.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["435BD89FA19787D3"]
@@ -1790,8 +1697,8 @@
 				item: { count: 1, id: "mysticalagriculture:enchanter" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 0.0d
+			x: 18.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["24E1F72FD6958747"]
@@ -1803,7 +1710,7 @@
 					type: "random"
 				}
 				{
-					id: "0F85999666BB8E4F"
+					id: "052E50FEADB94F3E"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1817,8 +1724,8 @@
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_essence" }
 				type: "item"
 			}]
-			x: 34.8d
-			y: 4.5d
+			x: 38.0d
+			y: 11.2d
 		}
 		{
 			dependencies: [
@@ -1831,8 +1738,8 @@
 				item: { count: 1, id: "mysticalagriculture:dirt_seeds" }
 				type: "item"
 			}]
-			x: 6.1d
-			y: 0.0d
+			x: 14.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -1845,8 +1752,8 @@
 				item: { count: 1, id: "mysticalagriculture:stone_seeds" }
 				type: "item"
 			}]
-			x: 6.1d
-			y: 1.5d
+			x: 16.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -1859,8 +1766,8 @@
 				item: { count: 1, id: "mysticalagriculture:wood_seeds" }
 				type: "item"
 			}]
-			x: 6.1d
-			y: 3.0d
+			x: 14.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -1873,8 +1780,8 @@
 				item: { count: 1, id: "mysticalagriculture:ice_seeds" }
 				type: "item"
 			}]
-			x: 4.3d
-			y: 7.5d
+			x: 18.0d
+			y: 19.2d
 		}
 		{
 			dependencies: [
@@ -1887,8 +1794,8 @@
 				item: { count: 1, id: "mysticalagriculture:deepslate_seeds" }
 				type: "item"
 			}]
-			x: 4.3d
-			y: 9.0d
+			x: 16.0d
+			y: 19.2d
 		}
 		{
 			dependencies: [
@@ -1901,8 +1808,8 @@
 				item: { count: 1, id: "mysticalagriculture:coral_seeds" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 1.5d
+			x: 16.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -1915,8 +1822,8 @@
 				item: { count: 1, id: "mysticalagriculture:coal_seeds" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 6.0d
+			x: 14.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -1929,8 +1836,8 @@
 				item: { count: 1, id: "mysticalagriculture:chicken_seeds" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 12.0d
+			x: 12.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -1943,8 +1850,8 @@
 				item: { count: 1, id: "mysticalagriculture:armadillo_seeds" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 9.0d
+			x: 18.0d
+			y: 32.0d
 		}
 		{
 			dependencies: [
@@ -1957,8 +1864,8 @@
 				item: { count: 1, id: "mysticalagriculture:amethyst_seeds" }
 				type: "item"
 			}]
-			x: 12.2d
-			y: 0.0d
+			x: 14.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -1971,8 +1878,8 @@
 				item: { count: 1, id: "mysticalagriculture:slime_seeds" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 10.5d
+			x: 18.0d
+			y: 33.6d
 		}
 		{
 			dependencies: [
@@ -1985,8 +1892,8 @@
 				item: { count: 1, id: "mysticalagriculture:squid_seeds" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 3.0d
+			x: 18.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -1999,8 +1906,8 @@
 				item: { count: 1, id: "mysticalagriculture:sulfur_seeds" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 7.5d
+			x: 14.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -2013,8 +1920,8 @@
 				item: { count: 1, id: "mysticalagriculture:turtle_seeds" }
 				type: "item"
 			}]
-			x: 12.2d
-			y: 1.5d
+			x: 20.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -2027,8 +1934,8 @@
 				item: { count: 1, id: "mysticalagriculture:silicon_seeds" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 7.5d
+			x: 12.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -2041,8 +1948,8 @@
 				item: { count: 1, id: "mysticalagriculture:sheep_seeds" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 4.5d
+			x: 16.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -2055,8 +1962,8 @@
 				item: { count: 1, id: "mysticalagriculture:pig_seeds" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 9.0d
+			x: 16.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -2069,8 +1976,8 @@
 				item: { count: 1, id: "mysticalagriculture:nether_seeds" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 0.0d
+			x: 18.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -2083,8 +1990,8 @@
 				item: { count: 1, id: "mysticalagriculture:nature_seeds" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 12.0d
+			x: 20.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -2097,8 +2004,8 @@
 				item: { count: 1, id: "mysticalagriculture:menril_seeds" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 6.0d
+			x: 16.0d
+			y: 32.0d
 		}
 		{
 			dependencies: [
@@ -2111,8 +2018,8 @@
 				item: { count: 1, id: "mysticalagriculture:honey_seeds" }
 				type: "item"
 			}]
-			x: 12.2d
-			y: 4.5d
+			x: 14.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -2125,8 +2032,8 @@
 				item: { count: 1, id: "mysticalagriculture:fish_seeds" }
 				type: "item"
 			}]
-			x: 12.2d
-			y: 6.0d
+			x: 18.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -2139,8 +2046,8 @@
 				item: { count: 1, id: "mysticalagriculture:dye_seeds" }
 				type: "item"
 			}]
-			x: 12.2d
-			y: 3.0d
+			x: 16.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -2153,8 +2060,8 @@
 				item: { count: 1, id: "mysticalagriculture:cow_seeds" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 10.5d
+			x: 14.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -2167,8 +2074,8 @@
 				item: { count: 1, id: "mysticalagriculture:bronze_seeds" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 10.5d
+			x: 20.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -2181,8 +2088,8 @@
 				item: { count: 1, id: "mysticalagriculture:certus_quartz_seeds" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.0d
+			x: 22.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -2195,8 +2102,8 @@
 				item: { count: 1, id: "mysticalagriculture:copper_seeds" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 3.0d
+			x: 22.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -2210,8 +2117,8 @@
 				item: { count: 1, id: "mysticalagriculture:creeper_seeds" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 4.5d
+			x: 22.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -2224,8 +2131,8 @@
 				item: { count: 1, id: "mysticalagriculture:glowstone_seeds" }
 				type: "item"
 			}]
-			x: 18.3d
-			y: 3.0d
+			x: 24.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -2238,8 +2145,8 @@
 				item: { count: 1, id: "mysticalagriculture:graphite_seeds" }
 				type: "item"
 			}]
-			x: 18.3d
-			y: 4.5d
+			x: 24.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -2252,8 +2159,8 @@
 				item: { count: 1, id: "mysticalagriculture:iron_seeds" }
 				type: "item"
 			}]
-			x: 18.3d
-			y: 0.0d
+			x: 18.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -2266,8 +2173,8 @@
 				item: { count: 1, id: "mysticalagriculture:lead_seeds" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 10.5d
+			x: 22.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -2280,8 +2187,8 @@
 				item: { count: 1, id: "mysticalagriculture:nether_quartz_seeds" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 6.0d
+			x: 24.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -2294,8 +2201,8 @@
 				item: { count: 1, id: "mysticalagriculture:obsidian_seeds" }
 				type: "item"
 			}]
-			x: 18.3d
-			y: 6.0d
+			x: 22.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -2308,8 +2215,8 @@
 				item: { count: 1, id: "mysticalagriculture:prismarine_seeds" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 9.0d
+			x: 24.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -2322,8 +2229,8 @@
 				item: { count: 1, id: "mysticalagriculture:rabbit_seeds" }
 				type: "item"
 			}]
-			x: 18.3d
-			y: 7.5d
+			x: 20.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -2336,8 +2243,8 @@
 				item: { count: 1, id: "mysticalagriculture:redstone_seeds" }
 				type: "item"
 			}]
-			x: 18.3d
-			y: 9.0d
+			x: 20.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -2350,8 +2257,8 @@
 				item: { count: 1, id: "mysticalagriculture:silver_seeds" }
 				type: "item"
 			}]
-			x: 18.3d
-			y: 10.5d
+			x: 26.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -2364,8 +2271,8 @@
 				item: { count: 1, id: "mysticalagriculture:skeleton_seeds" }
 				type: "item"
 			}]
-			x: 20.1d
-			y: 0.0d
+			x: 20.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -2378,8 +2285,8 @@
 				item: { count: 1, id: "mysticalagriculture:sky_stone_seeds" }
 				type: "item"
 			}]
-			x: 20.1d
-			y: 1.5d
+			x: 20.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -2392,8 +2299,8 @@
 				item: { count: 1, id: "mysticalagriculture:spider_seeds" }
 				type: "item"
 			}]
-			x: 18.3d
-			y: 1.5d
+			x: 22.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -2406,8 +2313,8 @@
 				item: { count: 1, id: "mysticalagriculture:tin_seeds" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 1.5d
+			x: 26.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -2420,8 +2327,8 @@
 				item: { count: 1, id: "mysticalagriculture:zombie_seeds" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 7.5d
+			x: 18.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -2434,8 +2341,8 @@
 				item: { count: 1, id: "mysticalagriculture:blaze_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 4.5d
+			x: 32.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -2448,8 +2355,8 @@
 				item: { count: 1, id: "mysticalagriculture:blazing_crystal_seeds" }
 				type: "item"
 			}]
-			x: 22.6d
-			y: 9.0d
+			x: 28.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -2462,8 +2369,8 @@
 				item: { count: 1, id: "mysticalagriculture:breeze_seeds" }
 				type: "item"
 			}]
-			x: 22.6d
-			y: 13.5d
+			x: 30.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -2476,8 +2383,8 @@
 				item: { count: 1, id: "mysticalagriculture:compressed_iron_seeds" }
 				type: "item"
 			}]
-			x: 22.6d
-			y: 12.0d
+			x: 28.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -2490,8 +2397,8 @@
 				item: { count: 1, id: "mysticalagriculture:end_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 12.0d
+			x: 26.0d
+			y: 32.0d
 		}
 		{
 			dependencies: [
@@ -2504,8 +2411,8 @@
 				item: { count: 1, id: "mysticalagriculture:enderman_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 0.0d
+			x: 32.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -2518,8 +2425,8 @@
 				item: { count: 1, id: "mysticalagriculture:energized_steel_seeds" }
 				type: "item"
 			}]
-			x: 22.6d
-			y: 10.5d
+			x: 30.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -2532,8 +2439,8 @@
 				item: { count: 1, id: "mysticalagriculture:experience_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 10.5d
+			x: 24.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -2546,8 +2453,8 @@
 				item: { count: 1, id: "mysticalagriculture:fluix_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 4.5d
+			x: 28.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -2560,8 +2467,8 @@
 				item: { count: 1, id: "mysticalagriculture:fluorite_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 3.0d
+			x: 30.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -2574,8 +2481,8 @@
 				item: { count: 1, id: "mysticalagriculture:ghast_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 1.5d
+			x: 32.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -2588,8 +2495,8 @@
 				item: { count: 1, id: "mysticalagriculture:gold_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 6.0d
+			x: 26.0d
+			y: 33.6d
 		}
 		{
 			dependencies: [
@@ -2602,8 +2509,8 @@
 				item: { count: 1, id: "mysticalagriculture:lapis_lazuli_seeds" }
 				type: "item"
 			}]
-			x: 22.6d
-			y: 7.5d
+			x: 28.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -2616,8 +2523,8 @@
 				item: { count: 1, id: "mysticalagriculture:osmium_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 6.0d
+			x: 30.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -2630,8 +2537,8 @@
 				item: { count: 1, id: "mysticalagriculture:refined_glowstone_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 7.5d
+			x: 32.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -2644,8 +2551,8 @@
 				item: { count: 1, id: "mysticalagriculture:refined_obsidian_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 7.5d
+			x: 26.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -2658,8 +2565,8 @@
 				item: { count: 1, id: "mysticalagriculture:soulium_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 9.0d
+			x: 26.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -2672,8 +2579,8 @@
 				item: { count: 1, id: "mysticalagriculture:steel_seeds" }
 				type: "item"
 			}]
-			x: 24.4d
-			y: 13.5d
+			x: 26.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -2686,8 +2593,8 @@
 				item: { count: 1, id: "mysticalagriculture:uranium_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 0.0d
+			x: 28.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -2695,22 +2602,13 @@
 				"0367109A7050BA27"
 			]
 			id: "3103720E88BE03C9"
-			rewards: [{
-				id: "13E0B926A7F8F375"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "4A358523E4C2BFBD"
 				item: { count: 1, id: "mysticalagriculture:cyanite_seeds" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 10.5d
+			x: 32.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -2718,22 +2616,13 @@
 				"0367109A7050BA27"
 			]
 			id: "17698BDFE2AEA5A5"
-			rewards: [{
-				id: "0229876F81EC9596"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "44C55818E75FCC21"
 				item: { count: 1, id: "mysticalagriculture:uraninite_seeds" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 9.0d
+			x: 30.0d
+			y: 19.2d
 		}
 		{
 			dependencies: [
@@ -2741,22 +2630,13 @@
 				"0367109A7050BA27"
 			]
 			id: "29DEE94E205B70FE"
-			rewards: [{
-				id: "2C9341F1B083B699"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "4FA4A567A4491CC2"
 				item: { count: 1, id: "mysticalagriculture:yellorium_seeds" }
 				type: "item"
 			}]
-			x: 32.3d
-			y: 0.0d
+			x: 30.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -2764,22 +2644,13 @@
 				"0367109A7050BA27"
 			]
 			id: "43F9DE0957530B96"
-			rewards: [{
-				id: "51B5DC0831CDBE23"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "3B5EA3F502620BB0"
 				item: { count: 1, id: "mysticalagriculture:wither_skeleton_seeds" }
 				type: "item"
 			}]
-			x: 32.3d
-			y: 1.5d
+			x: 34.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -2787,22 +2658,13 @@
 				"0367109A7050BA27"
 			]
 			id: "733E17B7A8D38AF8"
-			rewards: [{
-				id: "1E3849BBC5E3D6B7"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "5B5DED9E77E8CBB3"
 				item: { count: 1, id: "mysticalagriculture:emerald_seeds" }
 				type: "item"
 			}]
-			x: 32.3d
-			y: 4.5d
+			x: 36.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -2810,22 +2672,13 @@
 				"0367109A7050BA27"
 			]
 			id: "7B2FDB2133E9252D"
-			rewards: [{
-				id: "029DC3136394B804"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "76C0DAAEF00DD27F"
 				item: { count: 1, id: "mysticalagriculture:diamond_seeds" }
 				type: "item"
 			}]
-			x: 32.3d
-			y: 7.5d
+			x: 36.0d
+			y: 20.8d
 		}
 		{
 			dependencies: [
@@ -2833,22 +2686,13 @@
 				"0367109A7050BA27"
 			]
 			id: "28A2EC44C6BDAB77"
-			rewards: [{
-				id: "06A80FBDA455C1D8"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "453C2DB9E77D4365"
 				item: { count: 1, id: "mysticalagriculture:netherite_seeds" }
 				type: "item"
 			}]
-			x: 32.3d
-			y: 3.0d
+			x: 32.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -2856,22 +2700,13 @@
 				"0367109A7050BA27"
 			]
 			id: "2A181B2512B8B9E3"
-			rewards: [{
-				id: "6CA5D1F8EEB7976E"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "41D95A0B4825EE0B"
 				item: { count: 1, id: "mysticalagriculture:niotic_crystal_seeds" }
 				type: "item"
 			}]
-			x: 32.3d
-			y: 6.0d
+			x: 32.0d
+			y: 19.2d
 		}
 		{
 			dependencies: [
@@ -2879,25 +2714,15 @@
 				"0367109A7050BA27"
 			]
 			id: "3441B1B867AFBED3"
-			rewards: [{
-				id: "4F243A43A84C1100"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
-			}]
 			tasks: [{
 				id: "0C617F64D3836F2B"
 				item: { count: 1, id: "mysticalagriculture:spirited_crystal_seeds" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: 12.0d
+			x: 34.0d
+			y: 20.8d
 		}
 		{
-			dependencies: ["2667E78AD0E7EF5F"]
 			id: "1F3FAF8151DD596D"
 			rewards: [{
 				id: "7978298B7D4AFD3C"
@@ -2911,8 +2736,8 @@
 				item: { count: 1, id: "mysticalagradditions:insanium_essence" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 22.0d
+			y: 33.6d
 		}
 		{
 			id: "548ECF7E7EA642C5"
@@ -2926,8 +2751,8 @@
 				item: { count: 1, id: "mysticalagradditions:insanium_farmland" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 25.0d
+			x: 8.0d
+			y: 49.6d
 		}
 		{
 			id: "745A895DB39AB45F"
@@ -2941,8 +2766,8 @@
 				item: { count: 1, id: "mysticalagradditions:insanium_coal" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 25.0d
+			x: 10.0d
+			y: 44.8d
 		}
 		{
 			dependencies: [
@@ -2960,8 +2785,8 @@
 				item: { count: 1, id: "mysticalagriculture:dragon_egg_seeds" }
 				type: "item"
 			}]
-			x: 6.1d
-			y: 4.5d
+			x: 22.0d
+			y: 32.0d
 		}
 		{
 			dependencies: [
@@ -2979,8 +2804,8 @@
 				item: { count: 1, id: "mysticalagriculture:nether_star_seeds" }
 				type: "item"
 			}]
-			x: 6.1d
-			y: 7.5d
+			x: 20.0d
+			y: 32.0d
 		}
 		{
 			dependencies: [
@@ -2998,8 +2823,8 @@
 				item: { count: 1, id: "mysticalagriculture:nitro_crystal_seeds" }
 				type: "item"
 			}]
-			x: 6.1d
-			y: 6.0d
+			x: 24.0d
+			y: 33.6d
 		}
 		{
 			dependencies: [
@@ -3012,8 +2837,8 @@
 				item: { count: 1, id: "mysticalagriculture:dark_steel_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 1.5d
+			x: 26.0d
+			y: 30.4d
 		}
 		{
 			dependencies: [
@@ -3026,8 +2851,8 @@
 				item: { count: 1, id: "mysticalagriculture:electrum_seeds" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 0.0d
+			x: 34.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -3040,8 +2865,8 @@
 				item: { count: 1, id: "mysticalagriculture:energetic_alloy_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 3.0d
+			x: 30.0d
+			y: 32.0d
 		}
 		{
 			dependencies: [
@@ -3054,8 +2879,8 @@
 				item: { count: 1, id: "mysticalagriculture:fiery_ingot_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 10.5d
+			x: 32.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -3068,8 +2893,8 @@
 				item: { count: 1, id: "mysticalagriculture:invar_seeds" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 1.5d
+			x: 24.0d
+			y: 32.0d
 		}
 		{
 			dependencies: [
@@ -3082,8 +2907,8 @@
 				item: { count: 1, id: "mysticalagriculture:knightmetal_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 9.0d
+			x: 34.0d
+			y: 27.2d
 		}
 		{
 			dependencies: [
@@ -3096,8 +2921,8 @@
 				item: { count: 1, id: "mysticalagriculture:nickel_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 13.5d
+			x: 30.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -3110,8 +2935,8 @@
 				item: { count: 1, id: "mysticalagriculture:pulsating_alloy_seeds" }
 				type: "item"
 			}]
-			x: 26.2d
-			y: 12.0d
+			x: 26.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -3124,8 +2949,8 @@
 				item: { count: 1, id: "mysticalagriculture:steeleaf_seeds" }
 				type: "item"
 			}]
-			x: 20.1d
-			y: 4.5d
+			x: 24.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -3138,8 +2963,8 @@
 				item: { count: 1, id: "mysticalagriculture:ironwood_seeds" }
 				type: "item"
 			}]
-			x: 20.1d
-			y: 3.0d
+			x: 18.0d
+			y: 22.4d
 		}
 		{
 			dependencies: [
@@ -3152,8 +2977,8 @@
 				item: { count: 1, id: "mysticalagriculture:grains_of_infinity_seeds" }
 				type: "item"
 			}]
-			x: 12.2d
-			y: 7.5d
+			x: 18.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -3167,7 +2992,7 @@
 				type: "item"
 			}]
 			x: 28.0d
-			y: 6.0d
+			y: 28.8d
 		}
 		{
 			dependencies: [
@@ -3181,7 +3006,7 @@
 				type: "item"
 			}]
 			x: 28.0d
-			y: 3.0d
+			y: 25.6d
 		}
 		{
 			dependencies: [
@@ -3195,7 +3020,7 @@
 				type: "item"
 			}]
 			x: 28.0d
-			y: 4.5d
+			y: 32.0d
 		}
 	]
 }

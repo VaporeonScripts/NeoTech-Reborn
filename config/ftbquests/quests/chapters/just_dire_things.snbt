@@ -12,24 +12,14 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "1C7BB7F7B546CAB9"
-			tasks: [{
-				id: "6FB25BE7D2FB01DA"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1C7BB7F7B546CAB9"]
 			id: "476135F0C7C9EE87"
 			tasks: [{
 				id: "5538007A53F94020"
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 6.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["476135F0C7C9EE87"]
@@ -48,7 +38,7 @@
 					type: "item"
 				}
 				{
-					id: "245388F06261A75D"
+					id: "3BAE9159ECA19961"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -78,8 +68,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 0.0d
+			x: 6.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -94,8 +84,8 @@
 				item: { count: 1, id: "justdirethings:fuel_canister" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 3.0d
+			x: 10.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -114,12 +104,12 @@
 					type: "item"
 				}
 				{
-					id: "70494A6375D2EE81"
+					id: "6E9967F21D0B6D6D"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -144,8 +134,8 @@
 					type: "item"
 				}
 			]
-			x: 6.8d
-			y: 1.5d
+			x: 14.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -160,8 +150,8 @@
 				item: { count: 1, id: "justdirethings:portalgun" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 0.0d
+			x: 18.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -180,7 +170,7 @@
 					type: "item"
 				}
 				{
-					id: "4429E9DF7D028566"
+					id: "7CBB15FE63E7FCED"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -204,8 +194,8 @@
 					type: "item"
 				}
 			]
-			x: 12.9d
-			y: 10.5d
+			x: 22.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -220,8 +210,8 @@
 				item: { count: 1, id: "justdirethings:portalgun_v2" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 4.5d
+			x: 22.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -240,7 +230,7 @@
 					type: "item"
 				}
 				{
-					id: "68B0B9F8B1FD721B"
+					id: "0D32C41979D4A8B4"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -270,35 +260,24 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
-			y: 3.0d
+			x: 26.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			id: "57E7527B3AE717E0"
-			rewards: [
-				{
-					id: "22584F65230E24A7"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "337CF124C4B4A53A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "22584F65230E24A7"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2F226EB107D35510"
 				item: { count: 1, id: "justdirethings:time_wand" }
 				type: "item"
 			}]
-			x: 23.3d
-			y: 4.5d
+			x: 24.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -314,8 +293,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_helmet" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 4.5d
+			x: 4.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -331,8 +310,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_chestplate" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 10.5d
+			x: 8.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -348,8 +327,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_leggings" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 12.0d
+			x: 10.0d
+			y: 33.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -365,8 +344,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_boots" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 7.5d
+			x: 8.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -382,8 +361,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_sword" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 9.0d
+			x: 10.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -399,8 +378,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_pickaxe" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 1.5d
+			x: 8.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -416,8 +395,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_shovel" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 4.5d
+			x: 4.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -433,8 +412,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_axe" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 3.0d
+			x: 4.0d
+			y: 33.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -450,8 +429,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_hoe" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 0.0d
+			x: 6.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -467,8 +446,8 @@
 				item: { count: 1, id: "justdirethings:bow_ferricore" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 6.0d
+			x: 8.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -484,8 +463,8 @@
 				item: { count: 1, id: "justdirethings:bow_blazegold" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 3.0d
+			x: 14.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -501,8 +480,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_helmet" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 1.5d
+			x: 16.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -518,8 +497,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_chestplate" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 7.5d
+			x: 14.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -535,8 +514,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_leggings" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 9.0d
+			x: 14.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -552,8 +531,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_boots" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 4.5d
+			x: 16.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -569,8 +548,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_hoe" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 10.5d
+			x: 10.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -586,8 +565,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_shovel" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 3.0d
+			x: 18.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -603,8 +582,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_axe" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 1.5d
+			x: 18.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -620,8 +599,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_pickaxe" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.0d
+			x: 16.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -637,8 +616,8 @@
 				item: { count: 1, id: "justdirethings:blazegold_sword" }
 				type: "item"
 			}]
-			x: 14.7d
-			y: 6.0d
+			x: 10.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -654,8 +633,8 @@
 				item: { count: 1, id: "justdirethings:bow_celestigem" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 7.5d
+			x: 20.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -671,8 +650,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_helmet" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 6.0d
+			x: 22.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -688,8 +667,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_boots" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 9.0d
+			x: 20.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -705,8 +684,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_chestplate" }
 				type: "item"
 			}]
-			x: 20.8d
-			y: 0.0d
+			x: 22.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -722,8 +701,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_leggings" }
 				type: "item"
 			}]
-			x: 20.8d
-			y: 1.5d
+			x: 24.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -739,8 +718,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_hoe" }
 				type: "item"
 			}]
-			x: 20.8d
-			y: 3.0d
+			x: 20.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -756,8 +735,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_shovel" }
 				type: "item"
 			}]
-			x: 20.8d
-			y: 7.5d
+			x: 24.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -773,8 +752,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_axe" }
 				type: "item"
 			}]
-			x: 20.8d
-			y: 6.0d
+			x: 26.0d
+			y: 12.8d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -790,8 +769,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_pickaxe" }
 				type: "item"
 			}]
-			x: 20.8d
-			y: 4.5d
+			x: 26.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -807,8 +786,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_sword" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 10.5d
+			x: 20.0d
+			y: 9.6d
 		}
 		{
 			dependencies: [
@@ -816,311 +795,189 @@
 				"766ADA1FCA0604EC"
 				"2878FE5987B9D729"
 			]
-			hide_dependency_lines: true
 			id: "66954C678B1B21A1"
-			rewards: [
-				{
-					id: "7B86202903D4DDED"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "704AD9AF31A99BB9"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7B86202903D4DDED"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2492D5CD52A31BB6"
 				item: { count: 1, id: "justdirethings:celestigem_paxel" }
 				type: "item"
 			}]
-			x: 25.1d
-			y: 9.0d
+			x: 26.0d
+			y: 14.4d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "0B68D00CDAA58D3E"
-			rewards: [
-				{
-					id: "5A284E590541FE46"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "5331D776D40BBD0D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5A284E590541FE46"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4EF8E3014F669E5B"
 				item: { count: 1, id: "justdirethings:bow_eclipsealloy" }
 				type: "item"
 			}]
-			x: 23.3d
-			y: 7.5d
+			x: 24.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "5C05D1074390A539"
-			rewards: [
-				{
-					id: "398530DCF71F0C9C"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "6C378AA06D98B540"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "398530DCF71F0C9C"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "50E4D6D14568C507"
 				item: { count: 1, id: "justdirethings:eclipsealloy_boots" }
 				type: "item"
 			}]
-			x: 23.3d
-			y: 9.0d
+			x: 28.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "4CC303D7BFC987F4"
-			rewards: [
-				{
-					id: "101C4CC257C93B21"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "244A4C8E4043CF4B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "101C4CC257C93B21"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4A49857713EBE55F"
 				item: { count: 1, id: "justdirethings:eclipsealloy_helmet" }
 				type: "item"
 			}]
-			x: 23.3d
-			y: 6.0d
+			x: 22.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "5E02C9683D1CA756"
-			rewards: [
-				{
-					id: "59E0461F8FC82421"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "731C94A4DD42F005"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "59E0461F8FC82421"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "375AB603C977221F"
 				item: { count: 1, id: "justdirethings:eclipsealloy_chestplate" }
 				type: "item"
 			}]
-			x: 25.1d
-			y: 0.0d
+			x: 30.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "73D03096609B274E"
-			rewards: [
-				{
-					id: "76E398B7E2B7A95B"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "0B06A129DF3B9CCF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "76E398B7E2B7A95B"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "56F498E9FC9D3FC2"
 				item: { count: 1, id: "justdirethings:eclipsealloy_leggings" }
 				type: "item"
 			}]
-			x: 25.1d
-			y: 1.5d
+			x: 26.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "0B4BB6E8738DD48A"
-			rewards: [
-				{
-					id: "500D2C5EBD3CABD8"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "4305D91FDBA65A44"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "500D2C5EBD3CABD8"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "72BC234B9E2B9FD4"
 				item: { count: 1, id: "justdirethings:eclipsealloy_hoe" }
 				type: "item"
 			}]
-			x: 25.1d
-			y: 3.0d
+			x: 26.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "44CC46E4EFDC509F"
-			rewards: [
-				{
-					id: "67B1FAE524580494"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "2852591052CF2B48"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "67B1FAE524580494"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7A3471B5244A427D"
 				item: { count: 1, id: "justdirethings:eclipsealloy_shovel" }
 				type: "item"
 			}]
-			x: 25.1d
-			y: 7.5d
+			x: 26.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "1EDF214FFEE5173D"
-			rewards: [
-				{
-					id: "6A3D32F6FC4F6482"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "18CF54FCE9F3F15F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6A3D32F6FC4F6482"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "715884C81F263534"
 				item: { count: 1, id: "justdirethings:eclipsealloy_axe" }
 				type: "item"
 			}]
-			x: 25.1d
-			y: 6.0d
+			x: 28.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "5B6043B5A527D364"
-			rewards: [
-				{
-					id: "645587F809825669"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "23F99717C69F64A3"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "645587F809825669"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "527324C31EB3DCDA"
 				item: { count: 1, id: "justdirethings:eclipsealloy_pickaxe" }
 				type: "item"
 			}]
-			x: 25.1d
-			y: 4.5d
+			x: 28.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "33927409CD82B688"
-			rewards: [
-				{
-					id: "13C4B734706D737F"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "2F202119F85C727C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "13C4B734706D737F"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "26DFDAA04EA08F90"
 				item: { count: 1, id: "justdirethings:eclipsealloy_sword" }
 				type: "item"
 			}]
-			x: 23.3d
-			y: 10.5d
+			x: 28.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1128,7 +985,6 @@
 				"44CC46E4EFDC509F"
 				"5B6043B5A527D364"
 			]
-			hide_dependency_lines: true
 			id: "1DAA172754E4E1C3"
 			rewards: [
 				{
@@ -1137,7 +993,7 @@
 					type: "random"
 				}
 				{
-					id: "5CC00802C13E2E1A"
+					id: "6D77A5EAE23DF806"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -1151,8 +1007,8 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_paxel" }
 				type: "item"
 			}]
-			x: 27.6d
-			y: 0.0d
+			x: 26.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1168,8 +1024,8 @@
 				item: { count: 1, id: "justdirethings:itemcollector" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.5d
+			x: 8.0d
+			y: 35.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1185,8 +1041,8 @@
 				item: { count: 1, id: "justdirethings:blockbreakert1" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 0.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1202,8 +1058,8 @@
 				item: { count: 1, id: "justdirethings:blockplacert1" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 9.0d
+			x: 6.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1219,8 +1075,8 @@
 				item: { count: 1, id: "justdirethings:clickert1" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 2.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1236,8 +1092,8 @@
 				item: { count: 1, id: "justdirethings:sensort1" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 8.0d
+			y: 33.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1253,8 +1109,8 @@
 				item: { count: 1, id: "justdirethings:droppert1" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 4.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1270,8 +1126,8 @@
 				item: { count: 1, id: "justdirethings:blockswappert1" }
 				type: "item"
 			}]
-			x: 12.9d
-			y: 1.5d
+			x: 10.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1287,8 +1143,8 @@
 				item: { count: 1, id: "justdirethings:fluidplacert1" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 2.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1304,8 +1160,8 @@
 				item: { count: 1, id: "justdirethings:fluidcollectort1" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: 6.0d
+			y: 33.6d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1321,8 +1177,8 @@
 				item: { count: 1, id: "justdirethings:experienceholder" }
 				type: "item"
 			}]
-			x: 12.9d
-			y: 6.0d
+			x: 12.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1338,36 +1194,25 @@
 				item: { count: 1, id: "justdirethings:creaturecatcher" }
 				type: "item"
 			}]
-			x: 12.9d
-			y: 7.5d
+			x: 12.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: true
 			id: "5EEE5033B49668C3"
-			rewards: [
-				{
-					id: "7DD6FDB8484ACC8C"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "572FF9E1FFF2776C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7DD6FDB8484ACC8C"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "42949955153F7429"
 				item: { count: 1, id: "justdirethings:paradoxmachine" }
 				type: "item"
 			}]
-			x: 23.3d
-			y: 1.5d
+			x: 24.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1384,8 +1229,8 @@
 				item: { count: 1, id: "justdirethings:coal_t1" }
 				type: "item"
 			}]
-			x: 6.8d
-			y: 0.0d
+			x: 12.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1400,8 +1245,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blockplacert1)item(justdirethings:blockplacert2))", "minecraft:custom_name": "\"Block Placer\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 6.0d
+			x: 8.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1416,8 +1261,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:fluidplacert1)item(justdirethings:fluidplacert2))", "minecraft:custom_name": "\"Fluid Placer\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 9.0d
+			x: 6.0d
+			y: 25.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1432,8 +1277,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:fluidcollectort1)item(justdirethings:fluidcollectort2))", "minecraft:custom_name": "\"Fluid Collector\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 10.5d
+			x: 4.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1448,8 +1293,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:sensort1)item(justdirethings:sensort2))", "minecraft:custom_name": "\"Sensor\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 0.0d
+			x: 8.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1464,8 +1309,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blockswappert1)item(justdirethings:blockswappert2))", "minecraft:custom_name": "\"Swapper\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 6.0d
+			x: 16.0d
+			y: 17.6d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1480,8 +1325,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:portalgun)item(justdirethings:portalgun_v2))", "minecraft:custom_name": "\"Portal Gun\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 4.5d
+			x: 12.0d
+			y: 19.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1496,8 +1341,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blockbreakert1)item(justdirethings:blockbreakert2))", "minecraft:custom_name": "\"Block Breaker\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 7.5d
+			x: 2.0d
+			y: 35.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1513,8 +1358,8 @@
 				item: { count: 1, id: "justdirethings:blazejet_wand" }
 				type: "item"
 			}]
-			x: 12.9d
-			y: 3.0d
+			x: 16.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -1530,36 +1375,25 @@
 				item: { count: 1, id: "justdirethings:voidshift_wand" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 0.0d
+			x: 24.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: false
 			id: "6B9E34653D582016"
-			rewards: [
-				{
-					id: "73E4F186A64F8367"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "7E15310E7A62F70C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "73E4F186A64F8367"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "626056C20B5E7479"
 				item: { count: 1, id: "justdirethings:eclipsegate_wand" }
 				type: "item"
 			}]
-			x: 23.3d
-			y: 0.0d
+			x: 24.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1574,8 +1408,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:clickert1)item(justdirethings:clickert2))", "minecraft:custom_name": "\"Clicker\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 1.5d
+			x: 2.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -1590,8 +1424,8 @@
 				item: { count: 1, id: "justdirethings:energytransmitter" }
 				type: "item"
 			}]
-			x: 20.8d
-			y: 9.0d
+			x: 18.0d
+			y: 12.8d
 		}
 		{
 			dependencies: [
@@ -1609,8 +1443,8 @@
 				item: { count: 1, id: "justdirethings:machinesettingscopier" }
 				type: "item"
 			}]
-			x: 12.9d
-			y: 0.0d
+			x: 12.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1626,8 +1460,8 @@
 				item: { count: 1, id: "justdirethings:totem_of_death_recall" }
 				type: "item"
 			}]
-			x: 12.9d
-			y: 4.5d
+			x: 12.0d
+			y: 20.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1643,8 +1477,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_wrench" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.5d
+			x: 4.0d
+			y: 35.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1659,8 +1493,8 @@
 				item: { count: 1, id: "justdirethings:pocket_generator" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 6.0d
+			x: 10.0d
+			y: 27.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1675,8 +1509,8 @@
 				item: { count: 1, id: "justdirethings:fluid_canister" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 4.5d
+			x: 6.0d
+			y: 35.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1692,8 +1526,8 @@
 				item: { count: 1, id: "justdirethings:coal_t2" }
 				type: "item"
 			}]
-			x: 12.9d
-			y: 9.0d
+			x: 14.0d
+			y: 22.4d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -1709,36 +1543,25 @@
 				item: { count: 1, id: "justdirethings:coal_t3" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 1.5d
+			x: 22.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
 			hide_dependency_lines: false
 			id: "7BED617A7B733C23"
-			rewards: [
-				{
-					id: "759B5BDF98503EEA"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "624472CABFCE753F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "759B5BDF98503EEA"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2757E298AE9AFF48"
 				item: { count: 1, id: "justdirethings:coal_t4" }
 				type: "item"
 			}]
-			x: 23.3d
-			y: 3.0d
+			x: 28.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1753,8 +1576,8 @@
 				item: { count: 1, id: "justdirethings:playeraccessor" }
 				type: "item"
 			}]
-			x: 16.5d
-			y: 7.5d
+			x: 12.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1769,8 +1592,8 @@
 				item: { count: 1, id: "justdirethings:generatort1" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 7.5d
+			x: 6.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1785,8 +1608,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:upgrade_cauterizewounds)item(justdirethings:upgrade_deathprotection)item(justdirethings:upgrade_debuffremover)item(justdirethings:upgrade_decoy)item(justdirethings:upgrade_dropteleport)item(justdirethings:upgrade_earthquake)item(justdirethings:upgrade_elytra)item(justdirethings:upgrade_epicarrow)item(justdirethings:upgrade_extinguish)item(justdirethings:upgrade_flight)item(justdirethings:upgrade_glowing)item(justdirethings:upgrade_groundstomp)item(justdirethings:upgrade_hammer)item(justdirethings:upgrade_homing)item(justdirethings:upgrade_instabreak)item(justdirethings:upgrade_invulnerability)item(justdirethings:upgrade_jumpboost)item(justdirethings:upgrade_lavaimmunity)item(justdirethings:upgrade_lawnmower)item(justdirethings:upgrade_leafbreaker)item(justdirethings:upgrade_lingering)item(justdirethings:upgrade_mindfog)item(justdirethings:upgrade_mobscanner)item(justdirethings:upgrade_negatefalldamage)item(justdirethings:upgrade_nightvision)item(justdirethings:upgrade_noai)item(justdirethings:upgrade_oreminer)item(justdirethings:upgrade_orescanner)item(justdirethings:upgrade_orexray)item(justdirethings:upgrade_phase)item(justdirethings:upgrade_potionarrow)item(justdirethings:upgrade_runspeed)item(justdirethings:upgrade_skysweeper)item(justdirethings:upgrade_smelter)item(justdirethings:upgrade_smoker)item(justdirethings:upgrade_splash)item(justdirethings:upgrade_stepheight)item(justdirethings:upgrade_stupefy)item(justdirethings:upgrade_swimspeed)item(justdirethings:upgrade_treefeller)item(justdirethings:upgrade_walkspeed))", "minecraft:custom_name": "\"Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 10.4d
-			y: 3.0d
+			x: 2.0d
+			y: 33.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1808,28 +1631,17 @@
 					type: "item"
 				}
 			]
-			x: 8.6d
-			y: 9.0d
+			x: 12.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
 			id: "4B4D9BF973338300"
-			rewards: [
-				{
-					id: "569E5244EF6A57E0"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "53E685D0C7FBE4F7"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "569E5244EF6A57E0"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "57798BCFD9E67462"
@@ -1847,28 +1659,17 @@
 					type: "item"
 				}
 			]
-			x: 8.6d
-			y: 10.5d
+			x: 10.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
 			id: "36938B0CCC8BAAC2"
-			rewards: [
-				{
-					id: "7BC80E63FC3D5019"
-					table_id: 5394927797007602772L
-					type: "random"
-				}
-				{
-					id: "326A9D3F86402F8C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7BC80E63FC3D5019"
+				table_id: 5394927797007602772L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "1E9ED01ED8B107C8"
@@ -1886,8 +1687,8 @@
 					type: "item"
 				}
 			]
-			x: 10.4d
-			y: 12.0d
+			x: 4.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1902,8 +1703,8 @@
 				item: { count: 1, id: "justdirethings:generatorfluidt1" }
 				type: "item"
 			}]
-			x: 8.6d
-			y: 12.0d
+			x: 2.0d
+			y: 28.8d
 		}
 	]
 }

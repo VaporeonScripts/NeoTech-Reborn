@@ -12,15 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "27618E7CCDA4ED55"
-			tasks: [{
-				id: "6CE09ECEA9D01060"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
 			id: "173E3DA59859D23E"
 			tasks: [{
 				advancement: "twilightforest:root"
@@ -28,8 +19,8 @@
 				id: "42A181BCD7512726"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 30.25d
+			x: 28.0d
+			y: 30.4d
 		}
 		{
 			id: "448B91713475C5C3"
@@ -44,8 +35,8 @@
 				id: "1FDEB4BE90EEE62D"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 30.25d
+			x: 24.0d
+			y: 30.4d
 		}
 		{
 			id: "7E74EE5E4399496A"
@@ -55,7 +46,7 @@
 				id: "7069F2EF6022D940"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: 16.0d
 			y: 32.0d
 		}
 		{
@@ -66,8 +57,8 @@
 				id: "79F6ED5F4680C58E"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 28.5d
+			x: 30.0d
+			y: 28.8d
 		}
 		{
 			id: "3D8FE3E0F08AF1E6"
@@ -85,8 +76,8 @@
 				id: "22E5BBB3AD357BA5"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 28.5d
+			x: 20.0d
+			y: 28.8d
 		}
 		{
 			id: "7429C528F6279261"
@@ -101,7 +92,7 @@
 				id: "4144FBD871D6F4C0"
 				type: "advancement"
 			}]
-			x: 6.0d
+			x: 22.0d
 			y: 32.0d
 		}
 		{
@@ -117,7 +108,7 @@
 				id: "1D4C42C35292CC99"
 				type: "advancement"
 			}]
-			x: 14.0d
+			x: 30.0d
 			y: 32.0d
 		}
 		{
@@ -133,8 +124,8 @@
 				id: "52F505BBDEBDD92F"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 28.5d
+			x: 26.0d
+			y: 20.8d
 		}
 		{
 			id: "54969178967229F2"
@@ -149,8 +140,8 @@
 				id: "281AA9D8FEA8FE93"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 28.5d
+			x: 24.0d
+			y: 28.8d
 		}
 		{
 			id: "343A7FDDDB925282"
@@ -165,7 +156,7 @@
 				id: "0068EB9ACF9412C5"
 				type: "advancement"
 			}]
-			x: 12.0d
+			x: 28.0d
 			y: 32.0d
 		}
 		{
@@ -181,7 +172,7 @@
 				id: "1AD58B6E1EA0C3C9"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 24.0d
 			y: 32.0d
 		}
 		{
@@ -197,8 +188,8 @@
 				id: "75A464FEF52EDCC6"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 33.75d
+			x: 16.0d
+			y: 33.6d
 		}
 		{
 			id: "3B857E06EE698CB6"
@@ -213,8 +204,8 @@
 				id: "20F2222AFEADBF7E"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 33.75d
+			x: 18.0d
+			y: 33.6d
 		}
 		{
 			id: "6D0CEACDC47391CA"
@@ -229,7 +220,7 @@
 				id: "56076487071E887A"
 				type: "advancement"
 			}]
-			x: 16.0d
+			x: 32.0d
 			y: 32.0d
 		}
 		{
@@ -245,8 +236,8 @@
 				id: "5B203E6AEC103240"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 33.75d
+			x: 22.0d
+			y: 33.6d
 		}
 		{
 			hide_until_deps_visible: false
@@ -262,7 +253,7 @@
 				id: "6D3876B61CF8EB14"
 				type: "advancement"
 			}]
-			x: 10.0d
+			x: 26.0d
 			y: 32.0d
 		}
 		{
@@ -281,8 +272,8 @@
 				id: "62D42A412C8678AB"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 33.75d
+			x: 20.0d
+			y: 33.6d
 		}
 		{
 			id: "0407FABB1779DCE6"
@@ -297,8 +288,8 @@
 				id: "7DF428774FA34052"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 35.5d
+			x: 16.0d
+			y: 35.2d
 		}
 		{
 			id: "458A44D96BD7C86A"
@@ -316,8 +307,8 @@
 				id: "6E8855DEC1DD7606"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 35.5d
+			x: 22.0d
+			y: 35.2d
 		}
 		{
 			id: "03B6ED82B0291F4D"
@@ -331,8 +322,8 @@
 				item: { count: 1, id: "twilightforest:alpha_yeti_fur" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 21.5d
+			x: 46.0d
+			y: 43.2d
 		}
 		{
 			id: "1062434C1259F73F"
@@ -350,8 +341,8 @@
 				id: "1E72801F8F99AB45"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 35.5d
+			x: 24.0d
+			y: 35.2d
 		}
 		{
 			id: "35A6AB035CFF965E"
@@ -366,8 +357,8 @@
 				id: "0CC6FFA0F7960461"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 30.25d
+			x: 26.0d
+			y: 30.4d
 		}
 		{
 			id: "4E25B851C9445A57"
@@ -382,11 +373,10 @@
 				id: "455E14E32E820DE0"
 				type: "advancement"
 			}]
-			x: 2.0d
+			x: 18.0d
 			y: 32.0d
 		}
 		{
-			dependencies: ["27618E7CCDA4ED55"]
 			id: "3486BCAECB50B018"
 			rewards: [
 				{
@@ -395,7 +385,7 @@
 					type: "random"
 				}
 				{
-					id: "442F658711188C59"
+					id: "45C5FACEDC10F1B4"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
@@ -412,8 +402,8 @@
 				id: "113A5DBE9167A1EA"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 4.0d
+			y: 11.2d
 		}
 		{
 			id: "3166FB4E96BD4B34"
@@ -431,7 +421,7 @@
 				id: "1562E88D3BC1C35F"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 20.0d
 			y: 32.0d
 		}
 		{
@@ -447,8 +437,8 @@
 				id: "02FFC7E3EECC18A6"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 30.25d
+			x: 32.0d
+			y: 30.4d
 		}
 		{
 			id: "0D9B278A76570549"
@@ -463,8 +453,8 @@
 				id: "2F505C6C20E396E4"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 30.25d
+			x: 30.0d
+			y: 30.4d
 		}
 		{
 			id: "2F4604D007BADC7E"
@@ -479,8 +469,8 @@
 				id: "5B7020AFE7171BC1"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 30.25d
+			x: 20.0d
+			y: 30.4d
 		}
 		{
 			id: "017DEB45BBF95EF7"
@@ -496,8 +486,8 @@
 				id: "60991F0516ED4C62"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 28.5d
+			x: 26.0d
+			y: 28.8d
 		}
 		{
 			id: "1C009CF9C42CA222"
@@ -513,8 +503,8 @@
 				id: "7427046DF9F18D84"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 30.25d
+			x: 22.0d
+			y: 30.4d
 		}
 		{
 			dependencies: ["3A87C3D492AAC15B"]
@@ -547,8 +537,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 13.0d
+			x: 18.0d
+			y: 9.6d
 		}
 		{
 			id: "4103A339CA4439F9"
@@ -557,8 +547,8 @@
 				item: { count: 1, id: "twilightforest:magic_map_focus" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 28.5d
+			x: 32.0d
+			y: 28.8d
 		}
 		{
 			id: "4CABCB2DF637C9EC"
@@ -572,8 +562,8 @@
 				item: { count: 1, id: "twilightforest:magic_map" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 30.25d
+			x: 16.0d
+			y: 30.4d
 		}
 		{
 			id: "3E9B1C4C5D01971E"
@@ -587,8 +577,8 @@
 				item: { count: 1, id: "twilightforest:maze_map" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 30.25d
+			x: 18.0d
+			y: 30.4d
 		}
 		{
 			id: "1B80EFB16C1D818E"
@@ -602,8 +592,8 @@
 				item: { count: 1, id: "twilightforest:ore_map" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 28.5d
+			x: 28.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["3486BCAECB50B018"]
@@ -626,8 +616,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 1.5d
+			x: 2.0d
+			y: 11.2d
 		}
 		{
 			dependencies: ["03B6ED82B0291F4D"]
@@ -660,8 +650,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 21.5d
+			x: 46.0d
+			y: 41.6d
 		}
 		{
 			dependencies: ["3486BCAECB50B018"]
@@ -694,8 +684,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 0.0d
+			x: 4.0d
+			y: 12.8d
 		}
 		{
 			id: "357CF9A61FD926BC"
@@ -710,8 +700,8 @@
 				item: { count: 1, id: "twilightforest:ironwood_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 16.5d
+			x: 36.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["357CF9A61FD926BC"]
@@ -744,8 +734,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 16.5d
+			x: 36.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["0FFFFDC92B535E26"]
@@ -778,8 +768,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 25.0d
+			x: 0.0d
+			y: -32.0d
 		}
 		{
 			id: "6D6A8C839BA1FEBC"
@@ -794,8 +784,8 @@
 				item: { count: 1, id: "twilightforest:ender_bow" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 33.75d
+			x: 30.0d
+			y: 33.6d
 		}
 		{
 			id: "5DE5BB7D23290BE7"
@@ -810,8 +800,8 @@
 				item: { count: 1, id: "twilightforest:ice_bow" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 33.75d
+			x: 26.0d
+			y: 33.6d
 		}
 		{
 			id: "31F03335093C0F41"
@@ -826,8 +816,8 @@
 				item: { count: 1, id: "twilightforest:triple_bow" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 35.5d
+			x: 18.0d
+			y: 35.2d
 		}
 		{
 			id: "707123C855FC3A68"
@@ -842,11 +832,10 @@
 				item: { count: 1, id: "twilightforest:seeker_bow" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 33.75d
+			x: 32.0d
+			y: 33.6d
 		}
 		{
-			dependencies: ["27618E7CCDA4ED55"]
 			id: "7677C5A5173195DE"
 			optional: true
 			rewards: [{
@@ -860,7 +849,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: -6.4d
 		}
 		{
 			dependencies: ["7677C5A5173195DE"]
@@ -893,8 +882,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 6.5d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7677C5A5173195DE"]
@@ -927,8 +916,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 8.0d
+			x: 0.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["357CF9A61FD926BC"]
@@ -961,8 +950,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 18.0d
+			x: 36.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["3486BCAECB50B018"]
@@ -990,8 +979,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 3.0d
+			x: 4.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["3A87C3D492AAC15B"]
@@ -1014,8 +1003,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 11.5d
+			x: 16.0d
+			y: 8.0d
 		}
 		{
 			id: "3A87C3D492AAC15B"
@@ -1030,8 +1019,8 @@
 				item: { count: 1, id: "twilightforest:fiery_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.5d
+			x: 18.0d
+			y: 8.0d
 		}
 		{
 			id: "08491BDBC4418A41"
@@ -1046,8 +1035,8 @@
 				item: { count: 1, id: "twilightforest:ice_sword" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 33.75d
+			x: 28.0d
+			y: 33.6d
 		}
 		{
 			id: "74E85AA325F1FA7D"
@@ -1062,8 +1051,8 @@
 				item: { count: 1, id: "twilightforest:diamond_minotaur_axe" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 33.75d
+			x: 24.0d
+			y: 33.6d
 		}
 		{
 			id: "7BB09D3C9385785C"
@@ -1078,8 +1067,8 @@
 				item: { count: 1, id: "twilightforest:gold_minotaur_axe" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 35.5d
+			x: 20.0d
+			y: 35.2d
 		}
 		{
 			id: "1DFF153A2738BFE1"
@@ -1094,8 +1083,8 @@
 				item: { count: 1, id: "twilightforest:ore_magnet" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 28.5d
+			x: 18.0d
+			y: 28.8d
 		}
 		{
 			id: "0EFD61E82206E78E"
@@ -1110,8 +1099,8 @@
 				item: { count: 1, id: "twilightforest:charm_of_keeping_3" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 28.5d
+			x: 16.0d
+			y: 28.8d
 		}
 		{
 			id: "0FFFFDC92B535E26"
@@ -1126,7 +1115,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 25.0d
+			y: -33.6d
 		}
 	]
 }

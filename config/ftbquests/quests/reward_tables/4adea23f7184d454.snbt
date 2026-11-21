@@ -3,7 +3,7 @@
 	icon: {
 		id: "minecraft:ender_chest"
 	}
-	id: "1FE6F12DC6A6757A"
+	id: "07B241382E4A9C61"
 	loot_size: 1
 	order_index: 1
 	rewards: [

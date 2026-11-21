@@ -12,15 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "6FFCB43004A63E68"
-			tasks: [{
-				id: "7DAB5742BC838B06"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["7C27AA86443ED0F9"]
 			id: "421AFA4CE29C4436"
 			rewards: [{
@@ -37,11 +28,10 @@
 				item: { count: 1, id: "starcatcher:starcatcher_guide" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6FFCB43004A63E68"]
 			id: "7C27AA86443ED0F9"
 			rewards: [{
 				count: 16
@@ -57,8 +47,8 @@
 				item: { count: 1, id: "starcatcher:starcatcher_rod" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["421AFA4CE29C4436"]
@@ -84,8 +74,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 5.0d
+			x: 8.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["7C27AA86443ED0F9"]
@@ -104,8 +94,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(starcatcher:cherry_bait)item(starcatcher:lush_bait)item(starcatcher:sculk_bait)item(starcatcher:dripstone_bait)item(starcatcher:murkwater_bait)item(starcatcher:legendary_bait)item(starcatcher:meteorological_bait))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: 10.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["421AFA4CE29C4436"]
@@ -124,11 +114,10 @@
 				item: { count: 1, id: "starcatcher:fish_radar" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 8.0d
+			y: -1.6d
 		}
 		{
-			dependencies: ["6FFCB43004A63E68"]
 			id: "2FB679F6448E58BB"
 			rewards: [{
 				count: 64
@@ -146,7 +135,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: -14.4d
 		}
 		{
 			dependencies: ["2FB679F6448E58BB"]
@@ -166,8 +155,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 0.0d
+			y: -12.8d
 		}
 		{
 			dependencies: ["4D4B88AE8272D8F4"]
@@ -187,8 +176,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 0.0d
+			y: -11.2d
 		}
 		{
 			dependencies: ["780EF8B9FD6437F4"]
@@ -209,8 +198,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 2.0d
+			y: -11.2d
 		}
 		{
 			dependencies: ["22C064FC3CA2AA23"]
@@ -230,39 +219,28 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 2.0d
+			y: -9.6d
 		}
 		{
 			dependencies: ["1B26B5A7F0745D7E"]
 			id: "2B31535D5A9B99C8"
-			rewards: [
-				{
-					count: 64
-					id: "63EEAF0E3E2E593F"
-					item: {
-						count: 1
-						id: "aquaculture:treasure_chest"
-					}
-					type: "item"
+			rewards: [{
+				count: 64
+				id: "63EEAF0E3E2E593F"
+				item: {
+					count: 1
+					id: "aquaculture:treasure_chest"
 				}
-				{
-					id: "2BCE88BD83C4AA9A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "14D62F3305D6B52F"
 				item: { count: 1, id: "starcatcher:trophy_of_the_older_angler" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 2.0d
+			y: -8.0d
 		}
 	]
 }

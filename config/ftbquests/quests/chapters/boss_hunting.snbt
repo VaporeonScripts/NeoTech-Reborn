@@ -12,15 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3317612046F44147"
-			tasks: [{
-				id: "664136790970FAF4"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
 			icon: {
 				id: "twilightforest:naga_trophy"
 			}

@@ -12,16 +12,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3EF028E3EBB91981"
-			tasks: [{
-				id: "09274B44033AA449"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3EF028E3EBB91981"]
 			id: "462AB51D40A6902B"
 			rewards: [{
 				count: 2
@@ -37,8 +27,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_dust" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 4.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -63,8 +53,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_controller" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 6.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["462AB51D40A6902B"]
@@ -92,8 +82,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_core" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 4.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -108,8 +98,8 @@
 				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 2.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -135,8 +125,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_plug" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 4.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -162,8 +152,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_point" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 2.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["462AB51D40A6902B"]
@@ -174,7 +164,7 @@
 				item: { count: 1, id: "fluxnetworks:flux_configurator" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -191,8 +181,8 @@
 				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 0.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["15A593F96530A08A"]
@@ -208,8 +198,8 @@
 				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 0.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -236,8 +226,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_block" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 2.0d
+			y: -1.6d
 		}
 	]
 }
