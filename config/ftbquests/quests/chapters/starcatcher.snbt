@@ -6,26 +6,26 @@
 	icon: {
 		id: "starcatcher:starcatcher_rod"
 	}
-	id: "739B271EC11EC9D1"
+	id: "542613A14F82C441"
 	images: [ ]
 	order_index: 24
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3D17F65FD5323291"
+			id: "6FFCB43004A63E68"
 			tasks: [{
-				id: "534573B12097599C"
+				id: "7DAB5742BC838B06"
 				type: "checkmark"
 			}]
 			x: -3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5E3962026FAA8436"]
-			id: "4A0A1B9B85C5668C"
+			dependencies: ["7C27AA86443ED0F9"]
+			id: "421AFA4CE29C4436"
 			rewards: [{
 				count: 16
-				id: "14D62F3305D6B52F"
+				id: "52FD7A9D18829FDC"
 				item: {
 					count: 1
 					id: "aquaculture:box"
@@ -33,7 +33,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "4BCDBAA9A77FF5DE"
+				id: "5F6434568A73538F"
 				item: { count: 1, id: "starcatcher:starcatcher_guide" }
 				type: "item"
 			}]
@@ -41,11 +41,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["3D17F65FD5323291"]
-			id: "5E3962026FAA8436"
+			dependencies: ["6FFCB43004A63E68"]
+			id: "7C27AA86443ED0F9"
 			rewards: [{
 				count: 16
-				id: "542613A14F82C441"
+				id: "643DC9C59282C237"
 				item: {
 					count: 1
 					id: "aquaculture:box"
@@ -53,7 +53,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "63EEAF0E3E2E593F"
+				id: "09ECAA071216C084"
 				item: { count: 1, id: "starcatcher:starcatcher_rod" }
 				type: "item"
 			}]
@@ -61,11 +61,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4A0A1B9B85C5668C"]
-			id: "6FE5B7A0CAFF99F2"
+			dependencies: ["421AFA4CE29C4436"]
+			id: "1AD5B0A568507993"
 			rewards: [{
 				count: 16
-				id: "2596249D0CC9CEE1"
+				id: "6537A69E492ACAFD"
 				item: {
 					count: 1
 					id: "aquaculture:treasure_chest"
@@ -74,12 +74,12 @@
 			}]
 			tasks: [
 				{
-					id: "6FFCB43004A63E68"
+					id: "70E618F480CEA234"
 					item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:hooks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "7DAB5742BC838B06"
+					id: "4BFBEBBFCAAFF876"
 					item: { components: { "ftbfiltersystem:filter": "or(item_tag(starcatcher:bobbers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
@@ -88,11 +88,11 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["5E3962026FAA8436"]
-			id: "073D408097BC4205"
+			dependencies: ["7C27AA86443ED0F9"]
+			id: "0B49557F1950E99C"
 			rewards: [{
 				count: 16
-				id: "24DAC871074CC69F"
+				id: "4AA4B5137EA3B53F"
 				item: {
 					count: 1
 					id: "aquaculture:treasure_chest"
@@ -100,7 +100,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5211110B50732D75"
+				id: "5F415663A2FF6191"
 				item: { components: { "ftbfiltersystem:filter": "or(item(starcatcher:cherry_bait)item(starcatcher:lush_bait)item(starcatcher:sculk_bait)item(starcatcher:dripstone_bait)item(starcatcher:murkwater_bait)item(starcatcher:legendary_bait)item(starcatcher:meteorological_bait))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
@@ -108,11 +108,11 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["4A0A1B9B85C5668C"]
-			id: "1479FBCA8429CAAF"
+			dependencies: ["421AFA4CE29C4436"]
+			id: "34F04E98312B4F33"
 			rewards: [{
 				count: 16
-				id: "162289747D9A3F7A"
+				id: "5E3962026FAA8436"
 				item: {
 					count: 1
 					id: "aquaculture:lockbox"
@@ -120,7 +120,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6C5729829DB3D863"
+				id: "4A0A1B9B85C5668C"
 				item: { count: 1, id: "starcatcher:fish_radar" }
 				type: "item"
 			}]
@@ -128,11 +128,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["3D17F65FD5323291"]
-			id: "1AC87470CBAB0A4A"
+			dependencies: ["6FFCB43004A63E68"]
+			id: "2FB679F6448E58BB"
 			rewards: [{
 				count: 64
-				id: "17A9D6014754C3DF"
+				id: "073D408097BC4205"
 				item: {
 					count: 1
 					id: "aquaculture:box"
@@ -140,7 +140,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "29345E31ADD5A560"
+				id: "6FE5B7A0CAFF99F2"
 				item: { count: 1, id: "starcatcher:trophy_copper" }
 				match_components: "strict"
 				type: "item"
@@ -149,11 +149,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1AC87470CBAB0A4A"]
-			id: "73D613A73850F524"
+			dependencies: ["2FB679F6448E58BB"]
+			id: "4D4B88AE8272D8F4"
 			rewards: [{
 				count: 64
-				id: "6D8991B1B64AAF0F"
+				id: "1AC87470CBAB0A4A"
 				item: {
 					count: 1
 					id: "aquaculture:lockbox"
@@ -161,7 +161,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "09B93532C67F6F93"
+				id: "1479FBCA8429CAAF"
 				item: { count: 1, id: "starcatcher:trophy_iron" }
 				match_components: "strict"
 				type: "item"
@@ -170,11 +170,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["73D613A73850F524"]
-			id: "73FF1490429F0C1A"
+			dependencies: ["4D4B88AE8272D8F4"]
+			id: "780EF8B9FD6437F4"
 			rewards: [{
 				count: 64
-				id: "083E6BEC2FA4D29D"
+				id: "73FF1490429F0C1A"
 				item: {
 					count: 1
 					id: "aquaculture:treasure_chest"
@@ -182,7 +182,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0F532593E3343209"
+				id: "73D613A73850F524"
 				item: { count: 1, id: "starcatcher:trophy_gold" }
 				match_components: "strict"
 				type: "item"
@@ -191,12 +191,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["73FF1490429F0C1A"]
+			dependencies: ["780EF8B9FD6437F4"]
 			hide_dependency_lines: true
-			id: "0D2FFCDE73E0E243"
+			id: "22C064FC3CA2AA23"
 			rewards: [{
 				count: 64
-				id: "4254AB99C1A86A39"
+				id: "39FECF808D584855"
 				item: {
 					count: 1
 					id: "aquaculture:treasure_chest"
@@ -204,7 +204,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "71145C4C22EB2E0D"
+				id: "0D2FFCDE73E0E243"
 				item: { count: 1, id: "starcatcher:trophy_emerald" }
 				match_components: "strict"
 				type: "item"
@@ -213,11 +213,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0D2FFCDE73E0E243"]
-			id: "39FECF808D584855"
+			dependencies: ["22C064FC3CA2AA23"]
+			id: "1B26B5A7F0745D7E"
 			rewards: [{
 				count: 64
-				id: "6D7D2D27AC864961"
+				id: "4BCDBAA9A77FF5DE"
 				item: {
 					count: 1
 					id: "aquaculture:treasure_chest"
@@ -225,7 +225,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0DCE79C8EB51DC7E"
+				id: "6EF694A3D9B000F9"
 				item: { count: 1, id: "starcatcher:trophy_diamond" }
 				match_components: "strict"
 				type: "item"
@@ -234,19 +234,30 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["39FECF808D584855"]
-			id: "6EF694A3D9B000F9"
-			rewards: [{
-				count: 64
-				id: "432EC37A600EA6CF"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
+			dependencies: ["1B26B5A7F0745D7E"]
+			id: "2B31535D5A9B99C8"
+			rewards: [
+				{
+					count: 64
+					id: "63EEAF0E3E2E593F"
+					item: {
+						count: 1
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2BCE88BD83C4AA9A"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "45CAC890AB965B7A"
+				id: "14D62F3305D6B52F"
 				item: { count: 1, id: "starcatcher:trophy_of_the_older_angler" }
 				type: "item"
 			}]

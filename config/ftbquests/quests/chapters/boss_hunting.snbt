@@ -6,15 +6,15 @@
 	icon: {
 		id: "minecraft:book"
 	}
-	id: "6950AB287CDFB65B"
+	id: "7757FCF6C6C943B5"
 	images: [ ]
 	order_index: 26
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3803DF864FB67E36"
+			id: "3317612046F44147"
 			tasks: [{
-				id: "66E1C3E8377C64C0"
+				id: "664136790970FAF4"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -24,9 +24,9 @@
 			icon: {
 				id: "twilightforest:naga_trophy"
 			}
-			id: "2A058A2C33C2E781"
+			id: "2596249D0CC9CEE1"
 			rewards: [{
-				id: "25D18AEB0F3247E5"
+				id: "083E6BEC2FA4D29D"
 				item: {
 					count: 1
 					id: "twilightforest:trophy_pedestal"
@@ -35,7 +35,7 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:naga"
-				id: "664136790970FAF4"
+				id: "0F532593E3343209"
 				type: "kill"
 				value: 1L
 			}]
@@ -46,9 +46,9 @@
 			icon: {
 				id: "twilightforest:lich_trophy"
 			}
-			id: "3A9C29CA7EFF0164"
+			id: "5211110B50732D75"
 			rewards: [{
-				id: "3E6CF9EE620AB242"
+				id: "4254AB99C1A86A39"
 				item: {
 					count: 1
 					id: "twilightforest:trophy_pedestal"
@@ -57,7 +57,7 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:lich"
-				id: "267EF67CCDE6D2C6"
+				id: "71145C4C22EB2E0D"
 				type: "kill"
 				value: 1L
 			}]
@@ -68,9 +68,9 @@
 			icon: {
 				id: "twilightforest:hydra_trophy"
 			}
-			id: "1C2FE7811733B698"
+			id: "24DAC871074CC69F"
 			rewards: [{
-				id: "2553E9331113FD0A"
+				id: "6D7D2D27AC864961"
 				item: {
 					count: 1
 					id: "twilightforest:trophy_pedestal"
@@ -79,7 +79,7 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:hydra"
-				id: "313E5D7958A2BC77"
+				id: "0DCE79C8EB51DC7E"
 				type: "kill"
 				value: 1L
 			}]
@@ -90,9 +90,9 @@
 			icon: {
 				id: "twilightforest:ur_ghast_trophy"
 			}
-			id: "19C5DE80CD667F00"
+			id: "6C5729829DB3D863"
 			rewards: [{
-				id: "6EDAA5067E208646"
+				id: "432EC37A600EA6CF"
 				item: {
 					count: 1
 					id: "twilightforest:trophy_pedestal"
@@ -101,7 +101,7 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
-				id: "6C9E886CC1EE3D8A"
+				id: "45CAC890AB965B7A"
 				type: "kill"
 				value: 1L
 			}]
@@ -112,9 +112,9 @@
 			icon: {
 				id: "twilightforest:snow_queen_trophy"
 			}
-			id: "68A3EEE369AA1162"
+			id: "162289747D9A3F7A"
 			rewards: [{
-				id: "0561F734BC053E72"
+				id: "3D17F65FD5323291"
 				item: {
 					count: 1
 					id: "twilightforest:trophy_pedestal"
@@ -123,7 +123,7 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:snow_queen"
-				id: "5E67D21449700ED5"
+				id: "739B271EC11EC9D1"
 				type: "kill"
 				value: 1L
 			}]
@@ -134,9 +134,9 @@
 			icon: {
 				id: "twilightforest:minoshroom_trophy"
 			}
-			id: "4C1EA4A82A7DB249"
+			id: "29345E31ADD5A560"
 			rewards: [{
-				id: "29EE576A9AEB5847"
+				id: "2A058A2C33C2E781"
 				item: {
 					count: 1
 					id: "twilightforest:trophy_pedestal"
@@ -145,7 +145,7 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:minoshroom"
-				id: "7D76213346646EAD"
+				id: "534573B12097599C"
 				type: "kill"
 				value: 1L
 			}]
@@ -156,9 +156,9 @@
 			icon: {
 				id: "twilightforest:knight_phantom_trophy"
 			}
-			id: "3B18C16E95DF729F"
+			id: "17A9D6014754C3DF"
 			rewards: [{
-				id: "36ACC12F1A2913CD"
+				id: "1C2FE7811733B698"
 				item: {
 					count: 1
 					id: "twilightforest:trophy_pedestal"
@@ -167,7 +167,7 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:knight_phantom"
-				id: "2182E8C050BC18FC"
+				id: "3A9C29CA7EFF0164"
 				type: "kill"
 				value: 1L
 			}]
@@ -178,9 +178,9 @@
 			icon: {
 				id: "twilightforest:alpha_yeti_trophy"
 			}
-			id: "7757FCF6C6C943B5"
+			id: "09B93532C67F6F93"
 			rewards: [{
-				id: "05FD010B07B3C6C4"
+				id: "68A3EEE369AA1162"
 				item: {
 					count: 1
 					id: "twilightforest:trophy_pedestal"
@@ -189,7 +189,7 @@
 			}]
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
-				id: "5AB02C8BF55AB237"
+				id: "19C5DE80CD667F00"
 				type: "kill"
 				value: 1L
 			}]
@@ -200,9 +200,9 @@
 			icon: {
 				id: "twilightforest:quest_ram_trophy"
 			}
-			id: "3317612046F44147"
+			id: "6D8991B1B64AAF0F"
 			rewards: [{
-				id: "2D52722717950481"
+				id: "3B18C16E95DF729F"
 				item: {
 					count: 1
 					id: "twilightforest:trophy_pedestal"
@@ -210,7 +210,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2E5EB499D7FE1C18"
+				id: "4C1EA4A82A7DB249"
 				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
 				type: "item"
 			}]

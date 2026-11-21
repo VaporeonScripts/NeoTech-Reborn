@@ -8,7 +8,7 @@
 	}
 	id: "5A488E43A653F20F"
 	images: [ ]
-	order_index: 11
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
@@ -21,12 +21,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["18E4DC026F73EAA1"]
-			id: "5B67C1C37B62D3E0"
+			dependencies: ["470B9BBE473E4872"]
+			id: "19E8B2CABE3FAFF0"
 			rewards: [
 				{
 					count: 2
-					id: "48F6E30F4A9E42F0"
+					id: "2D6D7AA7283900D7"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:crystalline"
@@ -38,18 +38,27 @@
 				}
 				{
 					count: 16
-					id: "58432A575FB9F7A4"
+					id: "7DF9D9D39E246B92"
 					item: {
 						count: 1
 						id: "minecraft:quartz"
 					}
 					type: "item"
 				}
+				{
+					id: "585E64FAC1646A6D"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "6CBE6A0A3A76E592"
+				id: "241EC33AE77C4020"
 				item: { components: { "productivebees:bee_type": "productivebees:crystalline" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -58,11 +67,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5B67C1C37B62D3E0"]
-			id: "70AB7073F3E04EA6"
+			dependencies: ["19E8B2CABE3FAFF0"]
+			id: "00DE07E191E60A98"
 			rewards: [
 				{
-					id: "708B969F00897AF7"
+					id: "45E4D5CACCD3BDD8"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:iron"
@@ -74,18 +83,27 @@
 				}
 				{
 					count: 12
-					id: "7F6F413322DF3625"
+					id: "5EC3BC808F73B3EF"
 					item: {
 						count: 1
 						id: "minecraft:iron_ingot"
 					}
 					type: "item"
 				}
+				{
+					id: "6FAEC3D77D413DA3"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "5210E9FB3C319BD7"
+				id: "2A44F2C6CB314F6B"
 				item: { components: { "productivebees:bee_type": "productivebees:iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -94,12 +112,12 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["5B67C1C37B62D3E0"]
-			id: "17F30C290F27DC10"
+			dependencies: ["19E8B2CABE3FAFF0"]
+			id: "76E9C42F3D4011D0"
 			rewards: [
 				{
 					count: 2
-					id: "62E4661D6C63326F"
+					id: "311F8614C7BACC30"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:tin"
@@ -111,7 +129,7 @@
 				}
 				{
 					count: 4
-					id: "3EBB6DC1AF33F5E2"
+					id: "3C9FF9D9C2A39150"
 					item: {
 						count: 1
 						id: "mekanism:ingot_tin"
@@ -120,7 +138,7 @@
 				}
 			]
 			tasks: [{
-				id: "65C03A84B61A6EB8"
+				id: "675A9DEC503B892E"
 				item: { components: { "productivebees:bee_type": "productivebees:tin" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -129,12 +147,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["5B67C1C37B62D3E0"]
-			id: "03002257490538C8"
+			dependencies: ["19E8B2CABE3FAFF0"]
+			id: "7F6887517E63F6BE"
 			rewards: [
 				{
 					count: 3
-					id: "74EF6F8EEC7D2108"
+					id: "1BE56155A47E3912"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:copper"
@@ -146,7 +164,7 @@
 				}
 				{
 					count: 5
-					id: "7C798002A7FB9048"
+					id: "3E3898C34779105C"
 					item: {
 						count: 1
 						id: "minecraft:copper_ingot"
@@ -155,7 +173,7 @@
 				}
 			]
 			tasks: [{
-				id: "61ED44A22801D502"
+				id: "50477B52314B632D"
 				item: { components: { "productivebees:bee_type": "productivebees:copper" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -164,12 +182,12 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["5B67C1C37B62D3E0"]
-			id: "269349E72E941AEB"
+			dependencies: ["19E8B2CABE3FAFF0"]
+			id: "5FE73F232130E6A6"
 			rewards: [
 				{
 					count: 2
-					id: "11E68CDF643B33FF"
+					id: "2EDFA384D6D262F8"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:gold"
@@ -181,7 +199,7 @@
 				}
 				{
 					count: 12
-					id: "4AB50A38AFEA618E"
+					id: "1B69024CD6115018"
 					item: {
 						count: 1
 						id: "minecraft:gold_ingot"
@@ -190,7 +208,7 @@
 				}
 			]
 			tasks: [{
-				id: "4679B16FB869DEC4"
+				id: "1F74C1BB5B0EF999"
 				item: { components: { "productivebees:bee_type": "productivebees:gold" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -199,12 +217,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5B67C1C37B62D3E0"]
-			id: "470B9BBE473E4872"
+			dependencies: ["19E8B2CABE3FAFF0"]
+			id: "07F0E5F57BA7A176"
 			rewards: [
 				{
 					count: 2
-					id: "085B32360B04F450"
+					id: "3811A2CDC26469AB"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:prosperity"
@@ -216,7 +234,7 @@
 				}
 				{
 					count: 12
-					id: "0F1969B4297623E2"
+					id: "04281AB4E367D72B"
 					item: {
 						count: 1
 						id: "mysticalagriculture:prosperity_shard"
@@ -225,7 +243,7 @@
 				}
 			]
 			tasks: [{
-				id: "7DB4FAAC58C0AD81"
+				id: "4D564EFAA4F9467B"
 				item: { components: { "productivebees:bee_type": "productivebees:prosperity" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -234,19 +252,30 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1208B9E5426E4CD2"]
-			id: "68987C39EB057268"
-			rewards: [{
-				count: 8
-				id: "298D03D0E8022117"
-				item: {
-					count: 1
-					id: "mysticalagriculture:prosperity_shard"
+			dependencies: ["1E11E931FC1C2087"]
+			id: "72E31A9E5B6E8E20"
+			rewards: [
+				{
+					count: 8
+					id: "7528DDA523E546BC"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prosperity_shard"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "423D6DB578E4772B"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "4805FF764A74704E"
+				id: "317A8F2AB707B397"
 				item: { components: { "productivebees:bee_type": "productivebees:inferium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -255,12 +284,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["470B9BBE473E4872"]
-			id: "236E10245B6308B5"
+			dependencies: ["07F0E5F57BA7A176"]
+			id: "023E73E84E04E568"
 			rewards: [
 				{
 					count: 12
-					id: "55DD46A758EAB94E"
+					id: "48F6E30F4A9E42F0"
 					item: {
 						count: 1
 						id: "mysticalagriculture:prosperity_shard"
@@ -268,13 +297,22 @@
 					type: "item"
 				}
 				{
-					id: "73BC7E949EA6D06F"
+					id: "58432A575FB9F7A4"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "3EE3CBB5E9B79620"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "4D652A89757D3FEF"
+				id: "6CBE6A0A3A76E592"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:prosperity" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
@@ -283,12 +321,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["236E10245B6308B5"]
-			id: "1208B9E5426E4CD2"
+			dependencies: ["023E73E84E04E568"]
+			id: "1E11E931FC1C2087"
 			rewards: [
 				{
 					count: 12
-					id: "3F4E5EC72CEB8DB0"
+					id: "708B969F00897AF7"
 					item: {
 						count: 1
 						id: "mysticalagriculture:inferium_essence"
@@ -296,13 +334,22 @@
 					type: "item"
 				}
 				{
-					id: "2ED93958AEBF5C0A"
+					id: "7F6F413322DF3625"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0E22C16678A588B9"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "246C10D5FC47509B"
+				id: "5210E9FB3C319BD7"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:inferium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
@@ -311,12 +358,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7615DDC3B658B31C"]
-			id: "5B1297C2D45DD486"
+			dependencies: ["5B0E17C76F5F3F8A"]
+			id: "67671BD4A0BC0AAA"
 			rewards: [
 				{
 					count: 2
-					id: "2AFD3B044052C4D8"
+					id: "62E4661D6C63326F"
 					item: {
 						count: 1
 						id: "mysticalagriculture:imperium_essence"
@@ -324,13 +371,22 @@
 					type: "item"
 				}
 				{
-					id: "7CB9472DF05F6CCB"
+					id: "3EBB6DC1AF33F5E2"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "48C1F44A09DDAC61"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "1B507C70775FD379"
+				id: "65C03A84B61A6EB8"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:imperium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
@@ -339,12 +395,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["1208B9E5426E4CD2"]
-			id: "652DFD0F7CBF6A51"
+			dependencies: ["1E11E931FC1C2087"]
+			id: "652D5A92A02A8CAD"
 			rewards: [
 				{
 					count: 2
-					id: "5CC04ADDF41E7743"
+					id: "74EF6F8EEC7D2108"
 					item: {
 						count: 1
 						id: "mysticalagriculture:prudentium_essence"
@@ -352,13 +408,22 @@
 					type: "item"
 				}
 				{
-					id: "4ACF9139C96D99D0"
+					id: "7C798002A7FB9048"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "147F7FBE4FEAC6EA"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "3B4964D82970D834"
+				id: "61ED44A22801D502"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:prudentium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
@@ -367,12 +432,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["652DFD0F7CBF6A51"]
-			id: "7615DDC3B658B31C"
+			dependencies: ["652D5A92A02A8CAD"]
+			id: "5B0E17C76F5F3F8A"
 			rewards: [
 				{
 					count: 2
-					id: "2475C16E991AF021"
+					id: "11E68CDF643B33FF"
 					item: {
 						count: 1
 						id: "mysticalagriculture:tertium_essence"
@@ -380,13 +445,22 @@
 					type: "item"
 				}
 				{
-					id: "15CAD0C377AD0A48"
+					id: "4AB50A38AFEA618E"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "230543B87A001FBF"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "388583CC0912C43B"
+				id: "4679B16FB869DEC4"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:tertium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
@@ -395,12 +469,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5B1297C2D45DD486"]
-			id: "549A78E49047E439"
+			dependencies: ["67671BD4A0BC0AAA"]
+			id: "47F9ADAAF38A864D"
 			rewards: [
 				{
 					count: 2
-					id: "2DFB5B2EDC091F27"
+					id: "085B32360B04F450"
 					item: {
 						count: 1
 						id: "mysticalagriculture:supremium_essence"
@@ -408,13 +482,22 @@
 					type: "item"
 				}
 				{
-					id: "742E313A57F23D29"
+					id: "0F1969B4297623E2"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0786B24B043E4EEA"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "603AB3DF52D0F8BC"
+				id: "7DB4FAAC58C0AD81"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:supremium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
@@ -423,19 +506,30 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["549A78E49047E439"]
-			id: "3036BFDABC136E2B"
-			rewards: [{
-				count: 2
-				id: "4A56AEAA882B6F23"
-				item: {
-					count: 1
-					id: "mysticalagriculture:imperium_essence"
+			dependencies: ["47F9ADAAF38A864D"]
+			id: "7FAC2F1EF914698C"
+			rewards: [
+				{
+					count: 2
+					id: "298D03D0E8022117"
+					item: {
+						count: 1
+						id: "mysticalagriculture:imperium_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5E977439191F3E28"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "04F833E48C89EF88"
+				id: "4805FF764A74704E"
 				item: { components: { "productivebees:bee_type": "productivebees:supremium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
@@ -443,19 +537,30 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5B1297C2D45DD486"]
-			id: "49AD5BF5AA91F934"
-			rewards: [{
-				count: 2
-				id: "0A771B1609EFF327"
-				item: {
-					count: 1
-					id: "mysticalagriculture:tertium_essence"
+			dependencies: ["67671BD4A0BC0AAA"]
+			id: "6419797CDC6482E2"
+			rewards: [
+				{
+					count: 2
+					id: "55DD46A758EAB94E"
+					item: {
+						count: 1
+						id: "mysticalagriculture:tertium_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6976594A91CB81DC"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "5D209429ED85DD30"
+				id: "4D652A89757D3FEF"
 				item: { components: { "productivebees:bee_type": "productivebees:imperium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -464,19 +569,30 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7615DDC3B658B31C"]
-			id: "2BC867860E656705"
-			rewards: [{
-				count: 2
-				id: "04DE25752B8564C9"
-				item: {
-					count: 1
-					id: "mysticalagriculture:prudentium_essence"
+			dependencies: ["5B0E17C76F5F3F8A"]
+			id: "4549D908277481DB"
+			rewards: [
+				{
+					count: 2
+					id: "246C10D5FC47509B"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3D1471852C60642D"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "2651A79207CD920A"
+				id: "73BC7E949EA6D06F"
 				item: { components: { "productivebees:bee_type": "productivebees:tertium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -485,19 +601,30 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["652DFD0F7CBF6A51"]
-			id: "384A595713F8175C"
-			rewards: [{
-				count: 16
-				id: "107B7C1C107FD536"
-				item: {
-					count: 1
-					id: "mysticalagriculture:inferium_essence"
+			dependencies: ["652D5A92A02A8CAD"]
+			id: "516669F1F39CDFF3"
+			rewards: [
+				{
+					count: 16
+					id: "2ED93958AEBF5C0A"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7B8C1FBAF127C67E"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "7F645AED58C6A726"
+				id: "3F4E5EC72CEB8DB0"
 				item: { components: { "productivebees:bee_type": "productivebees:prudentium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -506,11 +633,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["49517AE7EE79586C"]
-			id: "60F9DAC7A6182643"
+			dependencies: ["49AD5BF5AA91F934"]
+			id: "3895C493392514BF"
 			rewards: [
 				{
-					id: "5A615322A52B16C1"
+					id: "2AFD3B044052C4D8"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:ender"
@@ -522,7 +649,7 @@
 				}
 				{
 					count: 2
-					id: "68A53D9E243AE29E"
+					id: "7CB9472DF05F6CCB"
 					item: {
 						count: 1
 						id: "minecraft:ender_pearl"
@@ -531,7 +658,7 @@
 				}
 			]
 			tasks: [{
-				id: "4D2D09BB342636C1"
+				id: "1B507C70775FD379"
 				item: { components: { "productivebees:bee_type": "productivebees:ender" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -540,12 +667,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["70AB7073F3E04EA6"]
-			id: "4AE6FFA9F0833787"
+			dependencies: ["00DE07E191E60A98"]
+			id: "2AAA0F80DE60239D"
 			rewards: [
 				{
 					count: 2
-					id: "5BAA6F91FDED9A8E"
+					id: "5CC04ADDF41E7743"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:silver"
@@ -557,16 +684,25 @@
 				}
 				{
 					count: 8
-					id: "2EDE2AC0FE380111"
+					id: "4ACF9139C96D99D0"
 					item: {
 						count: 1
 						id: "occultism:silver_ingot"
 					}
 					type: "item"
 				}
+				{
+					id: "2EBB82181EE572A5"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "5391AC99A23BD676"
+				id: "3B4964D82970D834"
 				item: { components: { "productivebees:bee_type": "productivebees:silver" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -575,12 +711,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4A9EE25B961AB116"]
-			id: "78B0C026C3A8AAEA"
+			dependencies: ["115B4B757C8A3E56"]
+			id: "5D1B2FB511D44AFD"
 			rewards: [
 				{
 					count: 2
-					id: "37D331F53F9E8668"
+					id: "2475C16E991AF021"
 					item: {
 						count: 1
 						id: "productivebees:honeycomb_powdery"
@@ -589,7 +725,7 @@
 				}
 				{
 					count: 6
-					id: "30CCC7D8254DB122"
+					id: "15CAD0C377AD0A48"
 					item: {
 						count: 1
 						id: "minecraft:gunpowder"
@@ -598,7 +734,7 @@
 				}
 			]
 			tasks: [{
-				id: "37BCA8D608CF4A3F"
+				id: "388583CC0912C43B"
 				item: { count: 1, id: "productivebees:honeycomb_powdery" }
 				type: "item"
 			}]
@@ -607,13 +743,13 @@
 		}
 		{
 			dependencies: [
+				"00DE07E191E60A98"
 				"70AB7073F3E04EA6"
-				"78399D60F97240DC"
 			]
-			id: "7781942B1A14BD68"
+			id: "5B67C1C37B62D3E0"
 			rewards: [
 				{
-					id: "045D4C52BE1D0AE2"
+					id: "2DFB5B2EDC091F27"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:steel"
@@ -625,16 +761,25 @@
 				}
 				{
 					count: 4
-					id: "1397E781EC65F36C"
+					id: "742E313A57F23D29"
 					item: {
 						count: 1
 						id: "mekanism:ingot_steel"
 					}
 					type: "item"
 				}
+				{
+					id: "7B43351F4E7545F0"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "570782AE35942A75"
+				id: "603AB3DF52D0F8BC"
 				item: { components: { "productivebees:bee_type": "productivebees:steel" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -643,12 +788,12 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3C4F9711592D2278"]
-			id: "78399D60F97240DC"
+			dependencies: ["17F30C290F27DC10"]
+			id: "70AB7073F3E04EA6"
 			rewards: [
 				{
 					count: 2
-					id: "56412A7ACA86EE5C"
+					id: "4A56AEAA882B6F23"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:coal"
@@ -660,16 +805,25 @@
 				}
 				{
 					count: 16
-					id: "6C18CAC6750CEB6C"
+					id: "5D209429ED85DD30"
 					item: {
 						count: 1
 						id: "minecraft:coal"
 					}
 					type: "item"
 				}
+				{
+					id: "5BF190B817F41D49"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "6BDD832FCF57F67A"
+				id: "04F833E48C89EF88"
 				item: { components: { "productivebees:bee_type": "productivebees:coal" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -678,12 +832,12 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3187B46018DB409A"]
+			dependencies: ["03002257490538C8"]
 			disable_toast: true
-			id: "3C4F9711592D2278"
+			id: "17F30C290F27DC10"
 			rewards: [
 				{
-					id: "3067C19B0C34078C"
+					id: "2651A79207CD920A"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:blazing"
@@ -695,7 +849,7 @@
 				}
 				{
 					count: 2
-					id: "7B59BD881C8ABA73"
+					id: "04DE25752B8564C9"
 					item: {
 						count: 1
 						id: "minecraft:blaze_rod"
@@ -704,7 +858,7 @@
 				}
 			]
 			tasks: [{
-				id: "739219B6CDA8921A"
+				id: "0A771B1609EFF327"
 				item: { components: { "productivebees:bee_type": "productivebees:blazing" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -713,11 +867,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["317BB6EF9816D31B"]
-			id: "3187B46018DB409A"
+			dependencies: ["269349E72E941AEB"]
+			id: "03002257490538C8"
 			rewards: [
 				{
-					id: "14CC1962F37BD94D"
+					id: "107B7C1C107FD536"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:magmatic"
@@ -729,7 +883,7 @@
 				}
 				{
 					count: 3
-					id: "451FDEB12500B377"
+					id: "4D2D09BB342636C1"
 					item: {
 						count: 1
 						id: "minecraft:magma_cream"
@@ -738,7 +892,7 @@
 				}
 			]
 			tasks: [{
-				id: "28AE09334A39BEAD"
+				id: "7F645AED58C6A726"
 				item: { components: { "productivebees:bee_type": "productivebees:magmatic" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -747,11 +901,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["33FE4F12360F4227"]
-			id: "317BB6EF9816D31B"
+			dependencies: ["77FDFD4FD5C46D39"]
+			id: "269349E72E941AEB"
 			rewards: [{
 				count: 32
-				id: "441CD2028A57B719"
+				id: "68A53D9E243AE29E"
 				item: {
 					count: 1
 					id: "minecraft:nether_brick"
@@ -759,7 +913,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3D9F6CBDCEE8ED43"
+				id: "5A615322A52B16C1"
 				item: { count: 1, id: "productivebees:nether_brick_nest" }
 				type: "item"
 			}]
@@ -767,11 +921,11 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["33FE4F12360F4227"]
-			id: "18E4DC026F73EAA1"
+			dependencies: ["77FDFD4FD5C46D39"]
+			id: "470B9BBE473E4872"
 			rewards: [{
 				count: 24
-				id: "2DDEB6318538A2FA"
+				id: "5BAA6F91FDED9A8E"
 				item: {
 					count: 1
 					id: "minecraft:quartz"
@@ -779,7 +933,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "61B9EBB6BDA34698"
+				id: "5391AC99A23BD676"
 				item: { count: 1, id: "productivebees:nether_quartz_nest" }
 				type: "item"
 			}]
@@ -787,12 +941,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0AA4F6566BC66B8A"]
-			id: "5050338A941A4C43"
+			dependencies: ["236E10245B6308B5"]
+			id: "68987C39EB057268"
 			rewards: [
 				{
 					count: 2
-					id: "7E74C860801991C7"
+					id: "37BCA8D608CF4A3F"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:slimy"
@@ -803,7 +957,7 @@
 					type: "item"
 				}
 				{
-					id: "3511FC1642BB61B7"
+					id: "37D331F53F9E8668"
 					item: {
 						count: 1
 						id: "minecraft:slime_block"
@@ -812,7 +966,7 @@
 				}
 			]
 			tasks: [{
-				id: "262CED18DDFFD6E0"
+				id: "2EDE2AC0FE380111"
 				item: { components: { "productivebees:bee_type": "productivebees:slimy" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -821,11 +975,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["33FE4F12360F4227"]
-			id: "0AA4F6566BC66B8A"
+			dependencies: ["77FDFD4FD5C46D39"]
+			id: "236E10245B6308B5"
 			rewards: [{
 				count: 2
-				id: "7A3F78688C38A031"
+				id: "570782AE35942A75"
 				item: {
 					count: 1
 					id: "minecraft:slime_ball"
@@ -833,7 +987,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "4E69D05873EEA733"
+				id: "30CCC7D8254DB122"
 				item: { count: 1, id: "productivebees:slimy_nest" }
 				type: "item"
 			}]
@@ -842,13 +996,13 @@
 		}
 		{
 			dependencies: [
-				"0590CC808954BB66"
-				"5050338A941A4C43"
+				"5B1297C2D45DD486"
+				"68987C39EB057268"
 			]
-			id: "2474E042D5328107"
+			id: "1208B9E5426E4CD2"
 			rewards: [
 				{
-					id: "11C5142455348E35"
+					id: "1397E781EC65F36C"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:emerald"
@@ -860,16 +1014,25 @@
 				}
 				{
 					count: 2
-					id: "040F227363B29B1F"
+					id: "6BDD832FCF57F67A"
 					item: {
 						count: 1
 						id: "minecraft:emerald"
 					}
 					type: "item"
 				}
+				{
+					id: "75F0A50061F68BE6"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "0FA17CEA6FB1A44E"
+				id: "045D4C52BE1D0AE2"
 				item: { components: { "productivebees:bee_type": "productivebees:emerald" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -879,13 +1042,13 @@
 		}
 		{
 			dependencies: [
-				"2F89C13D2217724A"
-				"60F9DAC7A6182643"
+				"652DFD0F7CBF6A51"
+				"3895C493392514BF"
 			]
-			id: "0590CC808954BB66"
+			id: "5B1297C2D45DD486"
 			rewards: [
 				{
-					id: "6A8480E660966BBE"
+					id: "6C18CAC6750CEB6C"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:diamond"
@@ -897,18 +1060,27 @@
 				}
 				{
 					count: 3
-					id: "2866BF6965CD5ECB"
+					id: "739219B6CDA8921A"
 					item: {
 						count: 1
 						id: "minecraft:diamond"
 					}
 					type: "item"
 				}
+				{
+					id: "43DDB273026AAED0"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "6A5A68A7291E3747"
+				id: "56412A7ACA86EE5C"
 				item: { components: { "productivebees:bee_type": "productivebees:diamond" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -917,12 +1089,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["115B4B757C8A3E56"]
-			id: "2F89C13D2217724A"
+			dependencies: ["7615DDC3B658B31C"]
+			id: "652DFD0F7CBF6A51"
 			rewards: [
 				{
 					count: 3
-					id: "0619CBC15F4193A3"
+					id: "7B59BD881C8ABA73"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:lapis"
@@ -933,16 +1105,25 @@
 					type: "item"
 				}
 				{
-					id: "6F72280C90199FC7"
+					id: "28AE09334A39BEAD"
 					item: {
 						count: 1
 						id: "minecraft:lapis_block"
 					}
 					type: "item"
 				}
+				{
+					id: "1D27F13E9CC0EFD9"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "7E7E1B5DA3813A27"
+				id: "3067C19B0C34078C"
 				item: { components: { "productivebees:bee_type": "productivebees:lapis" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -951,12 +1132,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["77FDFD4FD5C46D39"]
-			id: "115B4B757C8A3E56"
+			dependencies: ["549A78E49047E439"]
+			id: "7615DDC3B658B31C"
 			rewards: [
 				{
 					count: 3
-					id: "726A2F81B0139226"
+					id: "451FDEB12500B377"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:redstone"
@@ -967,7 +1148,7 @@
 					type: "item"
 				}
 				{
-					id: "131F7634FAFD01CE"
+					id: "3D9F6CBDCEE8ED43"
 					item: {
 						count: 1
 						id: "minecraft:redstone_block"
@@ -976,7 +1157,7 @@
 				}
 			]
 			tasks: [{
-				id: "236DA28DB9D91B71"
+				id: "14CC1962F37BD94D"
 				item: { components: { "productivebees:bee_type": "productivebees:redstone" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -985,13 +1166,13 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1B06483B9213DAE1"]
+			dependencies: ["3036BFDABC136E2B"]
 			hide_dependent_lines: true
-			id: "77FDFD4FD5C46D39"
+			id: "549A78E49047E439"
 			rewards: [
 				{
 					count: 2
-					id: "71D3B40E20D53090"
+					id: "61B9EBB6BDA34698"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:glowing"
@@ -1003,7 +1184,7 @@
 				}
 				{
 					count: 8
-					id: "7CC587468AC2475A"
+					id: "2DDEB6318538A2FA"
 					item: {
 						count: 1
 						id: "minecraft:glowstone_dust"
@@ -1012,7 +1193,7 @@
 				}
 			]
 			tasks: [{
-				id: "3B29B2560A6F8898"
+				id: "441CD2028A57B719"
 				item: { components: { "productivebees:bee_type": "productivebees:glowing" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1021,12 +1202,12 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["33FE4F12360F4227"]
-			id: "1B06483B9213DAE1"
+			dependencies: ["77FDFD4FD5C46D39"]
+			id: "3036BFDABC136E2B"
 			rewards: [
 				{
 					count: 8
-					id: "4165E1947883B1B7"
+					id: "7E74C860801991C7"
 					item: {
 						count: 1
 						id: "minecraft:glowstone"
@@ -1035,7 +1216,7 @@
 				}
 				{
 					count: 16
-					id: "6404339540DBDCBD"
+					id: "3511FC1642BB61B7"
 					item: {
 						count: 1
 						id: "minecraft:glowstone_dust"
@@ -1044,7 +1225,7 @@
 				}
 			]
 			tasks: [{
-				id: "50E543F48073F082"
+				id: "262CED18DDFFD6E0"
 				item: { count: 1, id: "productivebees:glowstone_nest" }
 				type: "item"
 			}]
@@ -1052,11 +1233,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["33FE4F12360F4227"]
-			id: "49517AE7EE79586C"
+			dependencies: ["77FDFD4FD5C46D39"]
+			id: "49AD5BF5AA91F934"
 			rewards: [{
 				count: 32
-				id: "4EAA19E69D8B74C3"
+				id: "7A3F78688C38A031"
 				item: {
 					count: 1
 					id: "minecraft:end_stone"
@@ -1064,7 +1245,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0C7F784C8A601A58"
+				id: "4E69D05873EEA733"
 				item: { count: 1, id: "productivebees:end_stone_nest" }
 				type: "item"
 			}]
@@ -1073,14 +1254,14 @@
 		}
 		{
 			dependencies: [
-				"2F89C13D2217724A"
-				"2474E042D5328107"
+				"652DFD0F7CBF6A51"
+				"1208B9E5426E4CD2"
 			]
-			id: "76189167938C3130"
+			id: "2BC867860E656705"
 			rewards: [
 				{
 					count: 8
-					id: "2E6C7317A0BC3571"
+					id: "11C5142455348E35"
 					item: {
 						count: 1
 						id: "minecraft:experience_bottle"
@@ -1089,7 +1270,7 @@
 				}
 				{
 					count: 2
-					id: "32CE7941640E0DE0"
+					id: "040F227363B29B1F"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:experience"
@@ -1099,9 +1280,18 @@
 					}
 					type: "item"
 				}
+				{
+					id: "08E6167123630343"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "36D1A0243C7E2771"
+				id: "0FA17CEA6FB1A44E"
 				item: { components: { "productivebees:bee_type": "productivebees:experience" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1110,11 +1300,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0590CC808954BB66"]
-			id: "0126B80792E5B621"
+			dependencies: ["5B1297C2D45DD486"]
+			id: "384A595713F8175C"
 			rewards: [
 				{
-					id: "74C36F6FC7220464"
+					id: "6A8480E660966BBE"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:amethyst"
@@ -1126,16 +1316,25 @@
 				}
 				{
 					count: 8
-					id: "5A1288B172478A01"
+					id: "2866BF6965CD5ECB"
 					item: {
 						count: 1
 						id: "minecraft:amethyst_shard"
 					}
 					type: "item"
 				}
+				{
+					id: "3D575FA61C515696"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "77D2A9471C9F1B47"
+				id: "6A5A68A7291E3747"
 				item: { components: { "productivebees:bee_type": "productivebees:amethyst" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1144,12 +1343,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4A9EE25B961AB116"]
-			id: "2ADBD3B1767199CE"
+			dependencies: ["115B4B757C8A3E56"]
+			id: "60F9DAC7A6182643"
 			rewards: [
 				{
 					count: 2
-					id: "04981DE2E5BB68B2"
+					id: "0619CBC15F4193A3"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:skeletal"
@@ -1161,7 +1360,7 @@
 				}
 				{
 					count: 12
-					id: "2ACC29CD1660A53A"
+					id: "6F72280C90199FC7"
 					item: {
 						count: 1
 						id: "minecraft:bone"
@@ -1170,7 +1369,7 @@
 				}
 			]
 			tasks: [{
-				id: "1CDBB19A2D92D77A"
+				id: "7E7E1B5DA3813A27"
 				item: { components: { "productivebees:bee_type": "productivebees:skeletal" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1179,12 +1378,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2ADBD3B1767199CE"]
-			id: "6E2020218315C399"
+			dependencies: ["60F9DAC7A6182643"]
+			id: "4AE6FFA9F0833787"
 			rewards: [
 				{
 					count: 2
-					id: "18A9DC9197D9001E"
+					id: "726A2F81B0139226"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:withered"
@@ -1196,7 +1395,7 @@
 				}
 				{
 					count: 4
-					id: "7D9AB68C66B262A8"
+					id: "131F7634FAFD01CE"
 					item: {
 						count: 1
 						id: "productivebees:wither_skull_chip"
@@ -1205,7 +1404,7 @@
 				}
 			]
 			tasks: [{
-				id: "29C9D259F2918758"
+				id: "236DA28DB9D91B71"
 				item: { components: { "productivebees:bee_type": "productivebees:withered" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1214,12 +1413,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4A9EE25B961AB116"]
-			id: "25F29894B20B4F91"
+			dependencies: ["115B4B757C8A3E56"]
+			id: "78B0C026C3A8AAEA"
 			rewards: [
 				{
 					count: 2
-					id: "323299A0D1F66AD0"
+					id: "71D3B40E20D53090"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:zombie"
@@ -1231,7 +1430,7 @@
 				}
 				{
 					count: 16
-					id: "3BF514A0ABC09B63"
+					id: "7CC587468AC2475A"
 					item: {
 						count: 1
 						id: "minecraft:rotten_flesh"
@@ -1240,7 +1439,7 @@
 				}
 			]
 			tasks: [{
-				id: "0186B8DD7C135285"
+				id: "3B29B2560A6F8898"
 				item: { components: { "productivebees:bee_type": "productivebees:zombie" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1249,11 +1448,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0590CC808954BB66"]
-			id: "016B64D15DB848A4"
+			dependencies: ["5B1297C2D45DD486"]
+			id: "7781942B1A14BD68"
 			rewards: [
 				{
-					id: "516DE5167AD68ACA"
+					id: "4165E1947883B1B7"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:netherite"
@@ -1265,16 +1464,25 @@
 				}
 				{
 					count: 2
-					id: "1596A5F086DAEB49"
+					id: "6404339540DBDCBD"
 					item: {
 						count: 1
 						id: "minecraft:netherite_scrap"
 					}
 					type: "item"
 				}
+				{
+					id: "4BCB6F635A52E663"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "04FFFCCA63EA0DCA"
+				id: "50E543F48073F082"
 				item: { components: { "productivebees:bee_type": "productivebees:netherite" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1283,11 +1491,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3187B46018DB409A"]
-			id: "7D80ADA71E6B6C65"
+			dependencies: ["03002257490538C8"]
+			id: "78399D60F97240DC"
 			rewards: [
 				{
-					id: "33FF74FC148D77A4"
+					id: "4EAA19E69D8B74C3"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:obsidian"
@@ -1299,7 +1507,7 @@
 				}
 				{
 					count: 3
-					id: "401F69FF4C371284"
+					id: "36D1A0243C7E2771"
 					item: {
 						count: 1
 						id: "mekanism:dust_obsidian"
@@ -1308,7 +1516,7 @@
 				}
 			]
 			tasks: [{
-				id: "04D29AE245CA031B"
+				id: "0C7F784C8A601A58"
 				item: { components: { "productivebees:bee_type": "productivebees:obsidian" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1317,11 +1525,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["4A9EE25B961AB116"]
-			id: "64730C62AE083D95"
+			dependencies: ["115B4B757C8A3E56"]
+			id: "3C4F9711592D2278"
 			rewards: [{
 				count: 2
-				id: "45A300FFDE4DF96A"
+				id: "32CE7941640E0DE0"
 				item: {
 					count: 1
 					id: "productivelib:upgrade_base"
@@ -1331,7 +1539,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "08938C01890E32A2"
+				id: "2E6C7317A0BC3571"
 				item: { count: 1, id: "productivelib:upgrade_base" }
 				type: "item"
 			}]
@@ -1339,11 +1547,11 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["64730C62AE083D95"]
-			id: "2DB4A833BB76A0B8"
+			dependencies: ["3C4F9711592D2278"]
+			id: "3187B46018DB409A"
 			rewards: [
 				{
-					id: "26E9BC34E51C070C"
+					id: "74C36F6FC7220464"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -1352,7 +1560,7 @@
 				}
 				{
 					count: 2
-					id: "7B2775B6ED2D7237"
+					id: "5A1288B172478A01"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -1361,7 +1569,7 @@
 				}
 			]
 			tasks: [{
-				id: "7D723B858D53758C"
+				id: "77D2A9471C9F1B47"
 				item: { count: 1, id: "productivelib:upgrade_productivity" }
 				type: "item"
 			}]
@@ -1369,11 +1577,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["64730C62AE083D95"]
-			id: "2D56054439A7F592"
+			dependencies: ["3C4F9711592D2278"]
+			id: "317BB6EF9816D31B"
 			rewards: [
 				{
-					id: "11B4D64EFDDDDFF4"
+					id: "04981DE2E5BB68B2"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -1382,7 +1590,7 @@
 				}
 				{
 					count: 2
-					id: "2DFAB09CC9168526"
+					id: "2ACC29CD1660A53A"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -1391,7 +1599,7 @@
 				}
 			]
 			tasks: [{
-				id: "132CF70E919673B4"
+				id: "1CDBB19A2D92D77A"
 				item: { count: 1, id: "productivelib:upgrade_time" }
 				type: "item"
 			}]
@@ -1399,11 +1607,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["64730C62AE083D95"]
-			id: "43F8875D2E24DED9"
+			dependencies: ["3C4F9711592D2278"]
+			id: "18E4DC026F73EAA1"
 			rewards: [
 				{
-					id: "20DF03A659244083"
+					id: "18A9DC9197D9001E"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -1412,7 +1620,7 @@
 				}
 				{
 					count: 2
-					id: "139C00344ABC1336"
+					id: "7D9AB68C66B262A8"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -1421,7 +1629,7 @@
 				}
 			]
 			tasks: [{
-				id: "661019A1E8679F28"
+				id: "29C9D259F2918758"
 				item: { count: 1, id: "productivelib:upgrade_child" }
 				type: "item"
 			}]
@@ -1429,11 +1637,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["64730C62AE083D95"]
-			id: "1E2CCB2E0D3633D2"
+			dependencies: ["3C4F9711592D2278"]
+			id: "5050338A941A4C43"
 			rewards: [
 				{
-					id: "773F49C78FBAFBA5"
+					id: "323299A0D1F66AD0"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -1442,7 +1650,7 @@
 				}
 				{
 					count: 2
-					id: "04785FB897588DDD"
+					id: "3BF514A0ABC09B63"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -1451,7 +1659,7 @@
 				}
 			]
 			tasks: [{
-				id: "3F96B4D1992A10F1"
+				id: "0186B8DD7C135285"
 				item: { count: 1, id: "productivelib:upgrade_block" }
 				type: "item"
 			}]
@@ -1459,12 +1667,12 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["64730C62AE083D95"]
+			dependencies: ["3C4F9711592D2278"]
 			hide_until_deps_complete: false
-			id: "5036A624A1FCB30E"
+			id: "0AA4F6566BC66B8A"
 			rewards: [
 				{
-					id: "740A081DC36E1350"
+					id: "516DE5167AD68ACA"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -1473,7 +1681,7 @@
 				}
 				{
 					count: 2
-					id: "03B926C311217A5F"
+					id: "1596A5F086DAEB49"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -1482,7 +1690,7 @@
 				}
 			]
 			tasks: [{
-				id: "0171E36FC6A2FD1C"
+				id: "04FFFCCA63EA0DCA"
 				item: { count: 1, id: "productivelib:upgrade_anti_teleport" }
 				type: "item"
 			}]
@@ -1490,11 +1698,11 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["64730C62AE083D95"]
-			id: "657A2F7D9D62CAB9"
+			dependencies: ["3C4F9711592D2278"]
+			id: "2474E042D5328107"
 			rewards: [
 				{
-					id: "3F83F14903025A0A"
+					id: "33FF74FC148D77A4"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -1503,7 +1711,7 @@
 				}
 				{
 					count: 2
-					id: "5B658513DA59ABCA"
+					id: "401F69FF4C371284"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -1512,7 +1720,7 @@
 				}
 			]
 			tasks: [{
-				id: "3E28C83D5DF606C0"
+				id: "04D29AE245CA031B"
 				item: { count: 1, id: "productivelib:upgrade_range" }
 				type: "item"
 			}]
@@ -1520,11 +1728,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["64730C62AE083D95"]
-			id: "35DBE69283017194"
+			dependencies: ["3C4F9711592D2278"]
+			id: "0590CC808954BB66"
 			rewards: [
 				{
-					id: "2D0F2C34236ECCDA"
+					id: "45A300FFDE4DF96A"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -1533,7 +1741,7 @@
 				}
 				{
 					count: 2
-					id: "27F1BA9AD02D3346"
+					id: "7D723B858D53758C"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -1542,7 +1750,7 @@
 				}
 			]
 			tasks: [{
-				id: "36853F44A0534D62"
+				id: "08938C01890E32A2"
 				item: { count: 1, id: "productivelib:upgrade_gene_sampler" }
 				type: "item"
 			}]
@@ -1550,11 +1758,11 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["64730C62AE083D95"]
-			id: "023FB2C5CD9D3FBD"
+			dependencies: ["3C4F9711592D2278"]
+			id: "2F89C13D2217724A"
 			rewards: [
 				{
-					id: "4B47D0FD0B8B3342"
+					id: "7B2775B6ED2D7237"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -1563,7 +1771,7 @@
 				}
 				{
 					count: 2
-					id: "2D8C538CD736802D"
+					id: "132CF70E919673B4"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -1572,7 +1780,7 @@
 				}
 			]
 			tasks: [{
-				id: "3D95B06BFAD8E70A"
+				id: "26E9BC34E51C070C"
 				item: { count: 1, id: "productivelib:upgrade_entity_filter" }
 				type: "item"
 			}]
@@ -1581,10 +1789,10 @@
 		}
 		{
 			dependencies: ["40D4D79D0056EDA6"]
-			id: "4A9EE25B961AB116"
+			id: "115B4B757C8A3E56"
 			rewards: [{
 				count: 5
-				id: "3C3428CF7F74CEB2"
+				id: "2DFAB09CC9168526"
 				item: {
 					count: 1
 					id: "minecraft:honeycomb"
@@ -1594,7 +1802,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "01FC63CBF1A9250D"
+				id: "11B4D64EFDDDDFF4"
 				item: { count: 1, id: "minecraft:honeycomb" }
 				type: "item"
 			}]
@@ -1602,11 +1810,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4A9EE25B961AB116"]
-			id: "33FE4F12360F4227"
+			dependencies: ["115B4B757C8A3E56"]
+			id: "77FDFD4FD5C46D39"
 			rewards: [{
 				count: 4
-				id: "239E587E863DC91E"
+				id: "20DF03A659244083"
 				item: {
 					count: 1
 					id: "productivebees:honey_treat"
@@ -1616,7 +1824,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "19F4D520D48929FC"
+				id: "661019A1E8679F28"
 				item: { count: 1, id: "productivebees:honey_treat" }
 				type: "item"
 			}]
@@ -1624,11 +1832,11 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["33FE4F12360F4227"]
-			id: "76D07EE5DAFEA90D"
+			dependencies: ["77FDFD4FD5C46D39"]
+			id: "1B06483B9213DAE1"
 			rewards: [{
 				count: 16
-				id: "07B0642C9A6E9106"
+				id: "3F96B4D1992A10F1"
 				item: {
 					count: 1
 					id: "minecraft:obsidian"
@@ -1636,7 +1844,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "4B4215B1B26D84CA"
+				id: "139C00344ABC1336"
 				item: { count: 1, id: "productivebees:obsidian_nest" }
 				type: "item"
 			}]
@@ -1644,11 +1852,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["76D07EE5DAFEA90D"]
-			id: "6E6DE23E9CCF1E39"
+			dependencies: ["1B06483B9213DAE1"]
+			id: "49517AE7EE79586C"
 			rewards: [
 				{
-					id: "5307651763DE2BD8"
+					id: "04785FB897588DDD"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:draconic"
@@ -1659,7 +1867,7 @@
 					type: "item"
 				}
 				{
-					id: "5A6D172E1BA1E618"
+					id: "0171E36FC6A2FD1C"
 					item: {
 						count: 1
 						id: "productivebees:draconic_dust"
@@ -1668,7 +1876,7 @@
 				}
 			]
 			tasks: [{
-				id: "24668F1DB215AE84"
+				id: "773F49C78FBAFBA5"
 				item: { components: { "productivebees:bee_type": "productivebees:draconic" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1677,11 +1885,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6AC612A16BB94AFB"]
-			id: "5FD811D4BCBB4E6E"
+			dependencies: ["25F29894B20B4F91"]
+			id: "76189167938C3130"
 			rewards: [{
 				count: 4
-				id: "02E2C35B0855FCD1"
+				id: "03B926C311217A5F"
 				item: {
 					count: 1
 					id: "minecraft:honey_bottle"
@@ -1689,7 +1897,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "31DB77E885C690C1"
+				id: "740A081DC36E1350"
 				item: { count: 1, id: "productivebees:honey_generator" }
 				type: "item"
 			}]
@@ -1697,10 +1905,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["5B81420F5B4091BA"]
-			id: "5925AD7C309A579B"
+			dependencies: ["43F8875D2E24DED9"]
+			id: "0126B80792E5B621"
 			rewards: [{
-				id: "532A627E8371C2B2"
+				id: "3F83F14903025A0A"
 				item: {
 					count: 1
 					id: "productivebees:feeder"
@@ -1708,7 +1916,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "4F01D5686AD3F591"
+				id: "3E28C83D5DF606C0"
 				item: { count: 1, id: "productivebees:catcher" }
 				type: "item"
 			}]
@@ -1716,9 +1924,9 @@
 			y: 18.5d
 		}
 		{
-			id: "69C69E412DC52FF7"
+			id: "2ADBD3B1767199CE"
 			rewards: [{
-				id: "06EC094E5667FCB5"
+				id: "36853F44A0534D62"
 				item: {
 					count: 1
 					id: "minecraft:honeycomb"
@@ -1726,7 +1934,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "366BCA329CD9EC7A"
+				id: "5B658513DA59ABCA"
 				item: { count: 1, id: "productivebees:nest_locator" }
 				type: "item"
 			}]
@@ -1734,11 +1942,11 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["4A9EE25B961AB116"]
-			id: "3190B245725F2518"
+			dependencies: ["115B4B757C8A3E56"]
+			id: "6E2020218315C399"
 			rewards: [{
 				count: 2
-				id: "4CD37236EBEEAEF5"
+				id: "27F1BA9AD02D3346"
 				item: {
 					count: 1
 					id: "minecraft:honey_bottle"
@@ -1746,7 +1954,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "16488890984DBE23"
+				id: "2D0F2C34236ECCDA"
 				item: { count: 1, id: "productivebees:centrifuge" }
 				type: "item"
 			}]
@@ -1754,11 +1962,11 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3190B245725F2518"]
-			id: "6AC612A16BB94AFB"
+			dependencies: ["6E2020218315C399"]
+			id: "25F29894B20B4F91"
 			rewards: [{
 				count: 2
-				id: "0239F9D364125A6E"
+				id: "4B47D0FD0B8B3342"
 				item: {
 					count: 1
 					id: "minecraft:honey_bottle"
@@ -1766,7 +1974,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "348D8EE1DA29A129"
+				id: "3D95B06BFAD8E70A"
 				item: { count: 1, id: "productivebees:powered_centrifuge" }
 				type: "item"
 			}]
@@ -1774,10 +1982,10 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["3190B245725F2518"]
-			id: "1D12464C569BFCC2"
+			dependencies: ["6E2020218315C399"]
+			id: "016B64D15DB848A4"
 			tasks: [{
-				id: "0FF9B168471BD3C9"
+				id: "2D8C538CD736802D"
 				item: { count: 1, id: "productivebees:bottler" }
 				type: "item"
 			}]
@@ -1785,11 +1993,11 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["4A9EE25B961AB116"]
-			id: "763EA2539F967175"
+			dependencies: ["115B4B757C8A3E56"]
+			id: "7D80ADA71E6B6C65"
 			rewards: [{
 				count: 3
-				id: "1E39006AE20D13E9"
+				id: "3C3428CF7F74CEB2"
 				item: {
 					count: 1
 					id: "productivebees:honey_treat"
@@ -1797,7 +2005,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "45EDDEA94B6D6A6E"
+				id: "01FC63CBF1A9250D"
 				item: { count: 1, id: "productivebees:feeder" }
 				type: "item"
 			}]
@@ -1805,10 +2013,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5925AD7C309A579B"]
-			id: "0568907D9675E7BA"
+			dependencies: ["0126B80792E5B621"]
+			id: "64730C62AE083D95"
 			rewards: [{
-				id: "5060394FF5248B0C"
+				id: "239E587E863DC91E"
 				item: {
 					count: 1
 					id: "productivelib:upgrade_child"
@@ -1816,7 +2024,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "36C9A2F3060B9522"
+				id: "19F4D520D48929FC"
 				item: { count: 1, id: "productivebees:incubator" }
 				type: "item"
 			}]
@@ -1824,10 +2032,10 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["1D12464C569BFCC2"]
-			id: "4DF6AB2247056E6F"
+			dependencies: ["016B64D15DB848A4"]
+			id: "2DB4A833BB76A0B8"
 			tasks: [{
-				id: "03BB895F901FE11A"
+				id: "4B4215B1B26D84CA"
 				item: { count: 1, id: "productivebees:gene_indexer" }
 				type: "item"
 			}]
@@ -1835,10 +2043,9 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["40D4D79D0056EDA6"]
-			id: "4170C53128395EC8"
+			id: "2D56054439A7F592"
 			rewards: [{
-				id: "44DC6DD11AC2F4AC"
+				id: "24668F1DB215AE84"
 				item: {
 					count: 1
 					id: "minecraft:honey_bottle"
@@ -1846,7 +2053,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "05B1F33CFADDEB82"
+				id: "07B0642C9A6E9106"
 				item: { count: 1, id: "minecraft:honey_bottle" }
 				type: "item"
 			}]
@@ -1854,11 +2061,11 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["4170C53128395EC8"]
-			id: "5B81420F5B4091BA"
+			dependencies: ["2D56054439A7F592"]
+			id: "43F8875D2E24DED9"
 			rewards: [{
 				count: 2
-				id: "02465E2D355FCCDF"
+				id: "5A6D172E1BA1E618"
 				item: {
 					count: 1
 					id: "productivebees:sturdy_bee_cage"
@@ -1866,7 +2073,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0C1DA135175B7E6D"
+				id: "5307651763DE2BD8"
 				item: { count: 1, id: "productivebees:bee_cage" }
 				type: "item"
 			}]
@@ -1874,10 +2081,10 @@
 			y: 17.0d
 		}
 		{
-			id: "0B38D94672907F38"
+			id: "1E2CCB2E0D3633D2"
 			rewards: [{
 				count: 8
-				id: "2A91072F34B1F37F"
+				id: "02E2C35B0855FCD1"
 				item: {
 					count: 1
 					id: "minecraft:grass_block"
@@ -1885,7 +2092,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "78CD853C3058E225"
+				id: "31DB77E885C690C1"
 				item: { count: 1, id: "productivebees:bumble_bee_nest" }
 				type: "item"
 			}]
@@ -1893,11 +2100,11 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["33FE4F12360F4227"]
-			id: "48857E853D866C67"
+			dependencies: ["77FDFD4FD5C46D39"]
+			id: "5036A624A1FCB30E"
 			rewards: [
 				{
-					id: "4CB01ECB3001DBB2"
+					id: "532A627E8371C2B2"
 					item: {
 						count: 1
 						id: "minecraft:saddle"
@@ -1905,7 +2112,7 @@
 					type: "item"
 				}
 				{
-					id: "60005518EE897791"
+					id: "366BCA329CD9EC7A"
 					item: {
 						count: 1
 						id: "productivebees:honey_treat"
@@ -1914,7 +2121,7 @@
 				}
 			]
 			tasks: [{
-				id: "0D7D88F41884EECA"
+				id: "4F01D5686AD3F591"
 				item: { count: 1, id: "productivebees:treat_on_a_stick" }
 				type: "item"
 			}]
@@ -1923,10 +2130,10 @@
 		}
 		{
 			hide_dependency_lines: true
-			id: "7E2522100BFBA8CB"
+			id: "657A2F7D9D62CAB9"
 			rewards: [{
 				count: 2
-				id: "4CB3EFE413D4D757"
+				id: "16488890984DBE23"
 				item: {
 					components: {
 						"productivebees:bee_type": "productivebees:salty"
@@ -1937,7 +2144,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "741D7CC30F9090B3"
+				id: "06EC094E5667FCB5"
 				item: { components: { "productivebees:bee_type": "productivebees:salty" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1946,11 +2153,11 @@
 			y: 27.0d
 		}
 		{
-			id: "2C98C57012256FC3"
+			id: "35DBE69283017194"
 			rewards: [
 				{
 					count: 2
-					id: "15874A494B9755F8"
+					id: "348D8EE1DA29A129"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:prismarine"
@@ -1962,7 +2169,7 @@
 				}
 				{
 					count: 6
-					id: "4DBC4BBE1F96F4DC"
+					id: "0239F9D364125A6E"
 					item: {
 						count: 1
 						id: "minecraft:prismarine_shard"
@@ -1971,7 +2178,7 @@
 				}
 				{
 					count: 4
-					id: "13E751679C3E2772"
+					id: "0FF9B168471BD3C9"
 					item: {
 						count: 1
 						id: "minecraft:prismarine_crystals"
@@ -1980,7 +2187,7 @@
 				}
 			]
 			tasks: [{
-				id: "1AE4F4135689E828"
+				id: "4CD37236EBEEAEF5"
 				item: { components: { "productivebees:bee_type": "productivebees:prismarine" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -1989,11 +2196,11 @@
 			y: 27.0d
 		}
 		{
-			id: "0B56104ADC34D802"
+			id: "023FB2C5CD9D3FBD"
 			rewards: [
 				{
 					count: 2
-					id: "1BD679D4E2768D09"
+					id: "1E39006AE20D13E9"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:frosty"
@@ -2005,7 +2212,7 @@
 				}
 				{
 					count: 8
-					id: "48FCFE00FAE28517"
+					id: "36C9A2F3060B9522"
 					item: {
 						count: 1
 						id: "minecraft:snowball"
@@ -2014,7 +2221,7 @@
 				}
 				{
 					count: 6
-					id: "1A6E1F0B6AB978D5"
+					id: "5060394FF5248B0C"
 					item: {
 						count: 1
 						id: "minecraft:ice"
@@ -2023,7 +2230,7 @@
 				}
 			]
 			tasks: [{
-				id: "2A74103E0A4283B6"
+				id: "45EDDEA94B6D6A6E"
 				item: { components: { "productivebees:bee_type": "productivebees:frosty" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2032,11 +2239,11 @@
 			y: 27.0d
 		}
 		{
-			id: "0098FA2F00CE1EF7"
+			id: "4A9EE25B961AB116"
 			rewards: [
 				{
 					count: 2
-					id: "4130D64B622173BD"
+					id: "05B1F33CFADDEB82"
 					item: {
 						count: 1
 						id: "productivebees:sugarbag_honeycomb"
@@ -2045,7 +2252,7 @@
 				}
 				{
 					count: 3
-					id: "245E2BC2C59B927F"
+					id: "44DC6DD11AC2F4AC"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -2054,7 +2261,7 @@
 				}
 			]
 			tasks: [{
-				id: "2E49C22D45A26864"
+				id: "03BB895F901FE11A"
 				item: { count: 1, id: "productivebees:sugarbag_honeycomb" }
 				type: "item"
 			}]
@@ -2062,10 +2269,10 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["5B81420F5B4091BA"]
-			id: "73B0D3914092EC3E"
+			dependencies: ["43F8875D2E24DED9"]
+			id: "33FE4F12360F4227"
 			tasks: [{
-				id: "62FF0B8A2EDCB1EE"
+				id: "0C1DA135175B7E6D"
 				item: { count: 1, id: "productivebees:jar_oak" }
 				type: "item"
 			}]
@@ -2074,14 +2281,14 @@
 		}
 		{
 			dependencies: [
-				"46A2949DFA16CC6E"
-				"25F29894B20B4F91"
+				"6E6DE23E9CCF1E39"
+				"78B0C026C3A8AAEA"
 			]
-			id: "156A2A1758D28D5C"
+			id: "76D07EE5DAFEA90D"
 			rewards: [
 				{
 					count: 2
-					id: "4BCEABD05CDBE105"
+					id: "78CD853C3058E225"
 					item: {
 						count: 1
 						id: "productivebees:honeycomb_ghostly"
@@ -2090,7 +2297,7 @@
 				}
 				{
 					count: 4
-					id: "2073998FAABDDB4D"
+					id: "2A91072F34B1F37F"
 					item: {
 						count: 1
 						id: "minecraft:ghast_tear"
@@ -2099,7 +2306,7 @@
 				}
 			]
 			tasks: [{
-				id: "58B4702E24BFD4CE"
+				id: "02465E2D355FCCDF"
 				item: { count: 1, id: "productivebees:honeycomb_ghostly" }
 				match_components: "strict"
 				type: "item"
@@ -2108,11 +2315,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["33FE4F12360F4227"]
-			id: "46A2949DFA16CC6E"
+			dependencies: ["77FDFD4FD5C46D39"]
+			id: "6E6DE23E9CCF1E39"
 			rewards: [{
 				count: 16
-				id: "16DEBB3404B2292B"
+				id: "4CB01ECB3001DBB2"
 				item: {
 					count: 1
 					id: "minecraft:soul_sand"
@@ -2120,7 +2327,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "216F9A1D80EEF69B"
+				id: "0D7D88F41884EECA"
 				item: { count: 1, id: "productivebees:soul_sand_nest" }
 				type: "item"
 			}]
@@ -2129,13 +2336,13 @@
 		}
 		{
 			dependencies: [
-				"60F9DAC7A6182643"
-				"5B67C1C37B62D3E0"
+				"3895C493392514BF"
+				"19E8B2CABE3FAFF0"
 			]
-			id: "4F048C94AB89CBA7"
+			id: "5FD811D4BCBB4E6E"
 			rewards: [
 				{
-					id: "0C66F330010F4709"
+					id: "741D7CC30F9090B3"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:spacial"
@@ -2147,7 +2354,7 @@
 				}
 				{
 					count: 2
-					id: "4D71DA68E39A8516"
+					id: "4CB3EFE413D4D757"
 					item: {
 						count: 1
 						id: "ae2:certus_quartz_crystal"
@@ -2156,7 +2363,7 @@
 				}
 			]
 			tasks: [{
-				id: "681F503F9E0FB873"
+				id: "60005518EE897791"
 				item: { components: { "productivebees:bee_type": "productivebees:spacial" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2165,11 +2372,11 @@
 			y: 1.5d
 		}
 		{
-			id: "24AE372E79093B56"
+			id: "5925AD7C309A579B"
 			rewards: [
 				{
 					count: 2
-					id: "3427AF630518266C"
+					id: "15874A494B9755F8"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:silicon"
@@ -2181,7 +2388,7 @@
 				}
 				{
 					count: 8
-					id: "3C4723AAE8F297AE"
+					id: "4DBC4BBE1F96F4DC"
 					item: {
 						count: 1
 						id: "ae2:silicon"
@@ -2190,7 +2397,7 @@
 				}
 			]
 			tasks: [{
-				id: "76C1024EDFD5625D"
+				id: "1AE4F4135689E828"
 				item: { components: { "productivebees:bee_type": "productivebees:silicon" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2199,11 +2406,11 @@
 			y: 27.0d
 		}
 		{
-			id: "2D691C127237602C"
+			id: "69C69E412DC52FF7"
 			rewards: [
 				{
 					count: 2
-					id: "4518B9F6306B99F4"
+					id: "2A74103E0A4283B6"
 					item: {
 						count: 1
 						id: "productivebees:honeycomb_milky"
@@ -2211,7 +2418,7 @@
 					type: "item"
 				}
 				{
-					id: "214B3860B454C15B"
+					id: "1BD679D4E2768D09"
 					item: {
 						count: 1
 						id: "minecraft:milk_bucket"
@@ -2220,7 +2427,7 @@
 				}
 			]
 			tasks: [{
-				id: "338232731EDF03B4"
+				id: "13E751679C3E2772"
 				item: { count: 1, id: "productivebees:honeycomb_milky" }
 				match_components: "strict"
 				type: "item"
@@ -2229,12 +2436,12 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["549A78E49047E439"]
-			id: "515E9B6FC30553FF"
+			dependencies: ["47F9ADAAF38A864D"]
+			id: "3190B245725F2518"
 			rewards: [
 				{
 					count: 3
-					id: "31C60332366EFE2A"
+					id: "1A6E1F0B6AB978D5"
 					item: {
 						count: 1
 						id: "mysticalagriculture:supremium_essence"
@@ -2242,13 +2449,22 @@
 					type: "item"
 				}
 				{
-					id: "2BB783C38A65E38A"
+					id: "2E49C22D45A26864"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "20CF59A61D228A7F"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "62D15ADE8879EB3A"
+				id: "48FCFE00FAE28517"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:awakened_supremium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
@@ -2257,19 +2473,30 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["515E9B6FC30553FF"]
-			id: "09F2BDF757E5CE6C"
-			rewards: [{
-				count: 2
-				id: "34722E593F217BC9"
-				item: {
-					count: 1
-					id: "mysticalagriculture:supremium_essence"
+			dependencies: ["3190B245725F2518"]
+			id: "6AC612A16BB94AFB"
+			rewards: [
+				{
+					count: 2
+					id: "245E2BC2C59B927F"
+					item: {
+						count: 1
+						id: "mysticalagriculture:supremium_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "35C2477140750CAF"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "0FDCD6D4A7B9F05B"
+				id: "4130D64B622173BD"
 				item: { components: { "productivebees:bee_type": "productivebees:awakened_supremium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
@@ -2277,11 +2504,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6AC612A16BB94AFB"]
-			id: "600E2ACA57353D2A"
+			dependencies: ["25F29894B20B4F91"]
+			id: "1D12464C569BFCC2"
 			rewards: [{
 				count: 3
-				id: "0C82A5C2A889B02D"
+				id: "58B4702E24BFD4CE"
 				item: {
 					count: 1
 					id: "minecraft:honeycomb"
@@ -2289,7 +2516,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "31C1A2F95AA82CDF"
+				id: "62FF0B8A2EDCB1EE"
 				item: { count: 1, id: "productivebees:heated_centrifuge" }
 				type: "item"
 			}]
@@ -2297,11 +2524,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2DB4A833BB76A0B8"]
-			id: "6576DB1AB024F726"
+			dependencies: ["3187B46018DB409A"]
+			id: "763EA2539F967175"
 			rewards: [
 				{
-					id: "4582B718760AE2D8"
+					id: "2073998FAABDDB4D"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -2310,7 +2537,7 @@
 				}
 				{
 					count: 2
-					id: "5EF96D696BFE4096"
+					id: "216F9A1D80EEF69B"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -2319,7 +2546,7 @@
 				}
 			]
 			tasks: [{
-				id: "121050DF12CEAED5"
+				id: "4BCEABD05CDBE105"
 				item: { count: 1, id: "productivelib:upgrade_productivity_2" }
 				type: "item"
 			}]
@@ -2328,13 +2555,13 @@
 		}
 		{
 			dependencies: [
-				"6576DB1AB024F726"
-				"241EC33AE77C4020"
+				"763EA2539F967175"
+				"4170C53128395EC8"
 			]
-			id: "08092F782620EAC0"
+			id: "0568907D9675E7BA"
 			rewards: [
 				{
-					id: "060B198C57530162"
+					id: "681F503F9E0FB873"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -2343,7 +2570,7 @@
 				}
 				{
 					count: 2
-					id: "6C7538D3ACA467AF"
+					id: "0C66F330010F4709"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -2352,7 +2579,7 @@
 				}
 			]
 			tasks: [{
-				id: "1DD80CEFF33665D9"
+				id: "16DEBB3404B2292B"
 				item: { count: 1, id: "productivelib:upgrade_productivity_3" }
 				type: "item"
 			}]
@@ -2361,13 +2588,13 @@
 		}
 		{
 			dependencies: [
-				"08092F782620EAC0"
-				"1E2CCB2E0D3633D2"
+				"0568907D9675E7BA"
+				"5050338A941A4C43"
 			]
-			id: "0AB9F427B4CBC993"
+			id: "4DF6AB2247056E6F"
 			rewards: [
 				{
-					id: "51EA9820C880B679"
+					id: "76C1024EDFD5625D"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -2376,16 +2603,25 @@
 				}
 				{
 					count: 2
-					id: "78F6ADB03D4543ED"
+					id: "3427AF630518266C"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
 					}
 					type: "item"
 				}
+				{
+					id: "3FBCA86DF0E03E70"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "29B80AD69CA070D9"
+				id: "4D71DA68E39A8516"
 				item: { count: 1, id: "productivelib:upgrade_productivity_4" }
 				type: "item"
 			}]
@@ -2393,11 +2629,11 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["64730C62AE083D95"]
-			id: "241EC33AE77C4020"
+			dependencies: ["3C4F9711592D2278"]
+			id: "4170C53128395EC8"
 			rewards: [
 				{
-					id: "2470EDED0192A0CA"
+					id: "338232731EDF03B4"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
@@ -2406,7 +2642,7 @@
 				}
 				{
 					count: 2
-					id: "022668E8C3AF4FC7"
+					id: "4518B9F6306B99F4"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -2415,7 +2651,7 @@
 				}
 			]
 			tasks: [{
-				id: "1BE40C794DE56FF2"
+				id: "3C4723AAE8F297AE"
 				item: { count: 1, id: "productivelib:upgrade_simulator" }
 				type: "item"
 			}]
@@ -2423,10 +2659,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["7DF9D9D39E246B92"]
-			id: "2D6D7AA7283900D7"
+			dependencies: ["0B38D94672907F38"]
+			id: "5B81420F5B4091BA"
 			rewards: [{
-				id: "67F5DF6FFF5D8F4D"
+				id: "62D15ADE8879EB3A"
 				item: {
 					count: 1
 					id: "productivebees:amber"
@@ -2434,7 +2670,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3AA945C7D2F277C2"
+				id: "214B3860B454C15B"
 				item: { count: 1, id: "productivebees:amber" }
 				type: "item"
 			}]
@@ -2442,10 +2678,9 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["40D4D79D0056EDA6"]
-			id: "7DF9D9D39E246B92"
+			id: "0B38D94672907F38"
 			tasks: [{
-				id: "6E59B2CD5480E7A2"
+				id: "31C60332366EFE2A"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:amber" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
@@ -2454,10 +2689,10 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["2D6D7AA7283900D7"]
-			id: "2A44F2C6CB314F6B"
+			dependencies: ["5B81420F5B4091BA"]
+			id: "48857E853D866C67"
 			tasks: [{
-				id: "41AE71A00EBA998F"
+				id: "2BB783C38A65E38A"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:sussy" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				type: "item"
@@ -2466,10 +2701,10 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["2D6D7AA7283900D7"]
-			id: "45E4D5CACCD3BDD8"
+			dependencies: ["5B81420F5B4091BA"]
+			id: "7E2522100BFBA8CB"
 			tasks: [{
-				id: "6684C5E6304602BF"
+				id: "0FDCD6D4A7B9F05B"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:wanna" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				match_components: "strict"
 				only_from_crafting: false
@@ -2479,12 +2714,12 @@
 			y: 23.5d
 		}
 		{
-			dependencies: ["70AB7073F3E04EA6"]
-			id: "5EC3BC808F73B3EF"
+			dependencies: ["00DE07E191E60A98"]
+			id: "2C98C57012256FC3"
 			rewards: [
 				{
 					count: 2
-					id: "0A654FC2F1F0568F"
+					id: "31C1A2F95AA82CDF"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:osmium"
@@ -2496,16 +2731,25 @@
 				}
 				{
 					count: 4
-					id: "155DFDAC7D70BB96"
+					id: "0C82A5C2A889B02D"
 					item: {
 						count: 1
 						id: "mekanism:ingot_osmium"
 					}
 					type: "item"
 				}
+				{
+					id: "279B7D03517E2412"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "0BB133E06EFDA8DF"
+				id: "34722E593F217BC9"
 				item: { components: { "productivebees:bee_type": "productivebees:osmium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2515,14 +2759,14 @@
 		}
 		{
 			dependencies: [
-				"7D80ADA71E6B6C65"
-				"5EC3BC808F73B3EF"
+				"78399D60F97240DC"
+				"2C98C57012256FC3"
 			]
-			id: "675A9DEC503B892E"
+			id: "0B56104ADC34D802"
 			rewards: [
 				{
 					count: 2
-					id: "4E4D2E47B27582D5"
+					id: "4582B718760AE2D8"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:refined_obsidian"
@@ -2534,16 +2778,25 @@
 				}
 				{
 					count: 2
-					id: "5D0511C129842BA3"
+					id: "5EF96D696BFE4096"
 					item: {
 						count: 1
 						id: "mekanism:dust_refined_obsidian"
 					}
 					type: "item"
 				}
+				{
+					id: "0EC01108B3176601"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "2EA3E23BE57A2D08"
+				id: "121050DF12CEAED5"
 				item: { components: { "productivebees:bee_type": "productivebees:refined_obsidian" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2552,11 +2805,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0590CC808954BB66"]
-			id: "311F8614C7BACC30"
+			dependencies: ["5B1297C2D45DD486"]
+			id: "0098FA2F00CE1EF7"
 			rewards: [
 				{
-					id: "3ACF047A9768068F"
+					id: "060B198C57530162"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:fluorite"
@@ -2568,16 +2821,25 @@
 				}
 				{
 					count: 4
-					id: "50BCF369D8E32F9A"
+					id: "6C7538D3ACA467AF"
 					item: {
 						count: 1
 						id: "mekanism:fluorite_gem"
 					}
 					type: "item"
 				}
+				{
+					id: "5F762873A82E59C1"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "033074F20EBD7C6E"
+				id: "1DD80CEFF33665D9"
 				item: { components: { "productivebees:bee_type": "productivebees:fluorite" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2586,11 +2848,11 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["0590CC808954BB66"]
-			id: "3C9FF9D9C2A39150"
+			dependencies: ["5B1297C2D45DD486"]
+			id: "73B0D3914092EC3E"
 			rewards: [
 				{
-					id: "1E6E32ECD3804A49"
+					id: "51EA9820C880B679"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:celestigem"
@@ -2601,16 +2863,25 @@
 					type: "item"
 				}
 				{
-					id: "090B61B7E46443C2"
+					id: "78F6ADB03D4543ED"
 					item: {
 						count: 1
 						id: "justdirethings:celestigem"
 					}
 					type: "item"
 				}
+				{
+					id: "6FCE2759AC4BE815"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "7857EA50FD3E3A9D"
+				id: "29B80AD69CA070D9"
 				item: { components: { "productivebees:bee_type": "productivebees:celestigem" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2619,11 +2890,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["70AB7073F3E04EA6"]
-			id: "50477B52314B632D"
+			dependencies: ["00DE07E191E60A98"]
+			id: "156A2A1758D28D5C"
 			rewards: [
 				{
-					id: "7C885C138A8D65F9"
+					id: "2470EDED0192A0CA"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:ferricore"
@@ -2634,16 +2905,25 @@
 					type: "item"
 				}
 				{
-					id: "2D1B29E5A3147CB4"
+					id: "022668E8C3AF4FC7"
 					item: {
 						count: 1
 						id: "justdirethings:ferricore_ingot"
 					}
 					type: "item"
 				}
+				{
+					id: "7FEE9F3E744C697F"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "0C3D7EEEC0290A57"
+				id: "1BE40C794DE56FF2"
 				item: { components: { "productivebees:bee_type": "productivebees:ferricore" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2652,11 +2932,11 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["016B64D15DB848A4"]
-			id: "1BE56155A47E3912"
+			dependencies: ["7781942B1A14BD68"]
+			id: "46A2949DFA16CC6E"
 			rewards: [
 				{
-					id: "786CDD8922D11654"
+					id: "67F5DF6FFF5D8F4D"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:eclipsealloy"
@@ -2667,16 +2947,25 @@
 					type: "item"
 				}
 				{
-					id: "473FAEC4DCF7A762"
+					id: "6E59B2CD5480E7A2"
 					item: {
 						count: 1
 						id: "justdirethings:raw_eclipsealloy"
 					}
 					type: "item"
 				}
+				{
+					id: "7BECD85D70D2C3B0"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "2EB0EC0617F325FF"
+				id: "3AA945C7D2F277C2"
 				item: { components: { "productivebees:bee_type": "productivebees:eclipsealloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2685,12 +2974,12 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["156A2A1758D28D5C"]
-			id: "3E3898C34779105C"
+			dependencies: ["76D07EE5DAFEA90D"]
+			id: "4F048C94AB89CBA7"
 			rewards: [
 				{
 					count: 2
-					id: "7D644623DFCD9996"
+					id: "6684C5E6304602BF"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:soulium"
@@ -2702,7 +2991,7 @@
 				}
 				{
 					count: 3
-					id: "5ACBA5DD5579EE02"
+					id: "0BB133E06EFDA8DF"
 					item: {
 						count: 1
 						id: "mysticalagriculture:soulium_dust"
@@ -2711,7 +3000,7 @@
 				}
 			]
 			tasks: [{
-				id: "4FA034843B335277"
+				id: "41AE71A00EBA998F"
 				item: { components: { "productivebees:bee_type": "productivebees:soulium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2721,14 +3010,14 @@
 		}
 		{
 			dependencies: [
-				"17F30C290F27DC10"
-				"03002257490538C8"
+				"76E9C42F3D4011D0"
+				"7F6887517E63F6BE"
 			]
-			id: "1F74C1BB5B0EF999"
+			id: "24AE372E79093B56"
 			rewards: [
 				{
 					count: 2
-					id: "137A5CE42D1415D8"
+					id: "155DFDAC7D70BB96"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:bronze"
@@ -2740,16 +3029,25 @@
 				}
 				{
 					count: 2
-					id: "7F0583338F9DBED1"
+					id: "2EA3E23BE57A2D08"
 					item: {
 						count: 1
 						id: "mekanism:ingot_bronze"
 					}
 					type: "item"
 				}
+				{
+					id: "0E8D0D90A6424466"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "2CE26C1ED31F1B6D"
+				id: "0A654FC2F1F0568F"
 				item: { components: { "productivebees:bee_type": "productivebees:bronze" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2758,12 +3056,12 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["70AB7073F3E04EA6"]
-			id: "2EDFA384D6D262F8"
+			dependencies: ["00DE07E191E60A98"]
+			id: "2D691C127237602C"
 			rewards: [
 				{
 					count: 2
-					id: "4CEA79B25D65F561"
+					id: "5D0511C129842BA3"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:radioactive"
@@ -2775,7 +3073,7 @@
 				}
 				{
 					count: 3
-					id: "750AD0EAFD7AC8E6"
+					id: "033074F20EBD7C6E"
 					item: {
 						count: 1
 						id: "mekanism:raw_uranium"
@@ -2783,9 +3081,18 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "6B3C1DE424EB94A2"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "5257768CB9588EB9"
+				id: "4E4D2E47B27582D5"
 				item: { components: { "productivebees:bee_type": "productivebees:radioactive" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2794,12 +3101,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["269349E72E941AEB"]
-			id: "1B69024CD6115018"
+			dependencies: ["5FE73F232130E6A6"]
+			id: "515E9B6FC30553FF"
 			rewards: [
 				{
 					count: 2
-					id: "4262215922348149"
+					id: "50BCF369D8E32F9A"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:blazegold"
@@ -2811,16 +3118,25 @@
 				}
 				{
 					count: 2
-					id: "7BC7CD1E1D7D2A99"
+					id: "7857EA50FD3E3A9D"
 					item: {
 						count: 1
 						id: "justdirethings:raw_blazegold"
 					}
 					type: "item"
 				}
+				{
+					id: "2657E9C70B7E6417"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "441E636144B67259"
+				id: "3ACF047A9768068F"
 				item: { components: { "productivebees:bee_type": "productivebees:blazegold" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2829,12 +3145,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["70AB7073F3E04EA6"]
-			id: "4D564EFAA4F9467B"
+			dependencies: ["00DE07E191E60A98"]
+			id: "09F2BDF757E5CE6C"
 			rewards: [
 				{
 					count: 2
-					id: "60ADB70BA2114BD3"
+					id: "090B61B7E46443C2"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:uraninite"
@@ -2846,16 +3162,25 @@
 				}
 				{
 					count: 4
-					id: "16E1B07466047CD3"
+					id: "0C3D7EEEC0290A57"
 					item: {
 						count: 1
 						id: "powah:uraninite"
 					}
 					type: "item"
 				}
+				{
+					id: "00FEC13D1B0C028C"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "5EC884935B631CDE"
+				id: "1E6E32ECD3804A49"
 				item: { components: { "productivebees:bee_type": "productivebees:uraninite" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2864,12 +3189,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0590CC808954BB66"]
-			id: "3811A2CDC26469AB"
+			dependencies: ["5B1297C2D45DD486"]
+			id: "600E2ACA57353D2A"
 			rewards: [
 				{
 					count: 2
-					id: "70D9DF4A9E061CEB"
+					id: "2D1B29E5A3147CB4"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:arcane_crystal"
@@ -2881,16 +3206,25 @@
 				}
 				{
 					count: 3
-					id: "2019219F3CEB6F63"
+					id: "2EB0EC0617F325FF"
 					item: {
 						count: 1
 						id: "forbidden_arcanus:arcane_crystal"
 					}
 					type: "item"
 				}
+				{
+					id: "28DC868206AF6885"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "2D6C3A0B84ED63DE"
+				id: "7C885C138A8D65F9"
 				item: { components: { "productivebees:bee_type": "productivebees:arcane_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2899,12 +3233,12 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["4F048C94AB89CBA7"]
-			id: "04281AB4E367D72B"
+			dependencies: ["5FD811D4BCBB4E6E"]
+			id: "6576DB1AB024F726"
 			rewards: [
 				{
 					count: 2
-					id: "4A89C1C145646884"
+					id: "473FAEC4DCF7A762"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:fluix"
@@ -2916,16 +3250,25 @@
 				}
 				{
 					count: 2
-					id: "275D4238928C567C"
+					id: "4FA034843B335277"
 					item: {
 						count: 1
 						id: "ae2:fluix_crystal"
 					}
 					type: "item"
 				}
+				{
+					id: "3490D96F76F17F8B"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "0A8134FBEF8971F1"
+				id: "786CDD8922D11654"
 				item: { components: { "productivebees:bee_type": "productivebees:fluix" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2935,14 +3278,14 @@
 		}
 		{
 			dependencies: [
-				"5EC3BC808F73B3EF"
-				"77FDFD4FD5C46D39"
+				"2C98C57012256FC3"
+				"549A78E49047E439"
 			]
-			id: "317A8F2AB707B397"
+			id: "08092F782620EAC0"
 			rewards: [
 				{
 					count: 2
-					id: "4A45135E97DBCE0B"
+					id: "5ACBA5DD5579EE02"
 					item: {
 						components: {
 							"productivebees:bee_type": "productivebees:refined_glowstone"
@@ -2953,16 +3296,25 @@
 					type: "item"
 				}
 				{
-					id: "6E43042D3CEE208D"
+					id: "2CE26C1ED31F1B6D"
 					item: {
 						count: 1
 						id: "mekanism:ingot_refined_glowstone"
 					}
 					type: "item"
 				}
+				{
+					id: "458C16031757B425"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "5BC08AC74035D855"
+				id: "7D644623DFCD9996"
 				item: { components: { "productivebees:bee_type": "productivebees:refined_glowstone" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"
@@ -2971,11 +3323,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5B67C1C37B62D3E0"]
-			id: "7528DDA523E546BC"
+			dependencies: ["19E8B2CABE3FAFF0"]
+			id: "0AB9F427B4CBC993"
 			rewards: [{
 				count: 2
-				id: "21D8A54F15202BE8"
+				id: "7F0583338F9DBED1"
 				item: {
 					components: {
 						"productivebees:bee_type": "productivebees:menril"
@@ -2986,7 +3338,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1D53EC19A2C4598D"
+				id: "137A5CE42D1415D8"
 				item: { components: { "productivebees:bee_type": "productivebees:menril" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "strict"
 				type: "item"

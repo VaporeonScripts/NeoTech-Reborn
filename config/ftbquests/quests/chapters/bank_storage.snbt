@@ -6,26 +6,26 @@
 	icon: {
 		id: "bankstorage:bank_dock"
 	}
-	id: "4CAF6905FFA436E5"
+	id: "5A47C9C05A4648CE"
 	images: [ ]
 	order_index: 25
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3EC5A791CDAFF357"
+			id: "7D218F8A63B6CDFC"
 			tasks: [{
-				id: "14742A1A685BC390"
+				id: "4F1921B4A754CD70"
 				type: "checkmark"
 			}]
 			x: -3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3EC5A791CDAFF357"]
-			id: "342FA8A924B9BD0C"
+			dependencies: ["7D218F8A63B6CDFC"]
+			id: "2F813EC1C3F612D3"
 			rewards: [{
 				count: 2
-				id: "6457EAD1EAE18DD6"
+				id: "4AC911A025FADA1C"
 				item: {
 					count: 1
 					id: "minecraft:coal_block"
@@ -36,7 +36,7 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "707905532C3E3A41"
+				id: "096AE0647E634927"
 				item: { count: 1, id: "bankstorage:bank_1" }
 				type: "item"
 			}]
@@ -44,12 +44,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["342FA8A924B9BD0C"]
-			id: "6DFBD4C3AAA520E0"
+			dependencies: ["2F813EC1C3F612D3"]
+			id: "32E04CBF495BBE0A"
 			rewards: [
 				{
 					count: 4
-					id: "7D218F8A63B6CDFC"
+					id: "55D9401BE22E19AD"
 					item: {
 						count: 1
 						id: "minecraft:copper_ingot"
@@ -58,13 +58,13 @@
 					type: "item"
 				}
 				{
-					id: "4F1921B4A754CD70"
+					id: "3A5DED37E18BD8A4"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "5A47C9C05A4648CE"
+				id: "02772FDCF3496F0A"
 				item: { count: 1, id: "bankstorage:bank_2" }
 				type: "item"
 			}]
@@ -72,12 +72,12 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6DFBD4C3AAA520E0"]
-			id: "1C6E502222B55021"
+			dependencies: ["32E04CBF495BBE0A"]
+			id: "25BB0F8CD8EDB2F4"
 			rewards: [
 				{
 					count: 8
-					id: "44ADE9005757637C"
+					id: "409F3E205FF22CA5"
 					item: {
 						count: 1
 						id: "minecraft:raw_iron"
@@ -86,13 +86,13 @@
 					type: "item"
 				}
 				{
-					id: "74922CD545618585"
+					id: "759DF6C96ABE423B"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "25B43F14C8AFB5BE"
+				id: "5E76E04E65D108D4"
 				item: { count: 1, id: "bankstorage:bank_3" }
 				type: "item"
 			}]
@@ -100,12 +100,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1C6E502222B55021"]
-			id: "647D2572F845907D"
+			dependencies: ["25BB0F8CD8EDB2F4"]
+			id: "4A828CCE62DFEC66"
 			rewards: [
 				{
 					count: 6
-					id: "5F8A91444A82D83D"
+					id: "7B55273F83BCF2A6"
 					item: {
 						count: 1
 						id: "minecraft:gold_ingot"
@@ -114,13 +114,13 @@
 					type: "item"
 				}
 				{
-					id: "3EFF6E83AE509F6B"
+					id: "2DEADD2A5038DFF8"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "53DC59B99AF4985C"
+				id: "7DFFBFFD6C230952"
 				item: { count: 1, id: "bankstorage:bank_4" }
 				type: "item"
 			}]
@@ -128,12 +128,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["647D2572F845907D"]
-			id: "69B5164BFF42729B"
+			dependencies: ["4A828CCE62DFEC66"]
+			id: "406E9F07590956C9"
 			rewards: [
 				{
 					count: 3
-					id: "0C491B59A9A1DB63"
+					id: "6DFBD4C3AAA520E0"
 					item: {
 						count: 1
 						id: "minecraft:emerald"
@@ -142,13 +142,13 @@
 					type: "item"
 				}
 				{
-					id: "2B4B4235D47A4111"
+					id: "1C6E502222B55021"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "7E5248111AE003B3"
+				id: "342FA8A924B9BD0C"
 				item: { count: 1, id: "bankstorage:bank_5" }
 				type: "item"
 			}]
@@ -156,12 +156,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["69B5164BFF42729B"]
-			id: "3AA5244FC802192D"
+			dependencies: ["406E9F07590956C9"]
+			id: "42A7EB8639B4BAD2"
 			rewards: [
 				{
 					count: 5
-					id: "4A87B7CF8FFE9590"
+					id: "69B5164BFF42729B"
 					item: {
 						count: 1
 						id: "minecraft:diamond"
@@ -170,13 +170,22 @@
 					type: "item"
 				}
 				{
-					id: "68F1C04B022F5BCA"
+					id: "3AA5244FC802192D"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "1E62E6FD739F52A0"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "2D899272A04E21C0"
+				id: "647D2572F845907D"
 				item: { count: 1, id: "bankstorage:bank_6" }
 				type: "item"
 			}]
@@ -184,11 +193,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3AA5244FC802192D"]
-			id: "77A4DDB6E1996EC8"
+			dependencies: ["42A7EB8639B4BAD2"]
+			id: "66CDD772F62C21B0"
 			rewards: [
 				{
-					id: "61988A20E62FC4F3"
+					id: "49D3EE3A9D8D9FB3"
 					item: {
 						count: 1
 						id: "minecraft:netherite_ingot"
@@ -197,13 +206,22 @@
 					type: "item"
 				}
 				{
-					id: "04F91E0E41161A1D"
+					id: "1AE1604B7B789D25"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "7E437E2D9270ACD8"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
-				id: "5A4A78398CB1737F"
+				id: "77A4DDB6E1996EC8"
 				item: { count: 1, id: "bankstorage:bank_7" }
 				type: "item"
 			}]
@@ -211,11 +229,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["342FA8A924B9BD0C"]
-			id: "49D3EE3A9D8D9FB3"
+			dependencies: ["2F813EC1C3F612D3"]
+			id: "6F3E82436B6DCD42"
 			optional: true
 			tasks: [{
-				id: "50D5DD73AF8B8EA7"
+				id: "707905532C3E3A41"
 				item: { count: 1, id: "bankstorage:bank_dock" }
 				type: "item"
 			}]
@@ -223,11 +241,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["342FA8A924B9BD0C"]
-			id: "1AE1604B7B789D25"
+			dependencies: ["2F813EC1C3F612D3"]
+			id: "49D28B33799B36AB"
 			optional: true
 			tasks: [{
-				id: "669BC5996FD3C54B"
+				id: "6457EAD1EAE18DD6"
 				item: { count: 1, id: "bankstorage:bank_link" }
 				type: "item"
 			}]

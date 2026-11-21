@@ -6,25 +6,25 @@
 	icon: {
 		id: "cookingforblockheads:white_oven"
 	}
-	id: "0CB9B52AAB455175"
+	id: "02F58A9746B00BE8"
 	images: [ ]
 	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{
-			id: "285A43D3899B024F"
+			id: "001A90D57A33197B"
 			tasks: [{
-				id: "6265515BFE6B5CC2"
+				id: "2D49158966D7EAC4"
 				type: "checkmark"
 			}]
 			x: -3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["285A43D3899B024F"]
-			id: "38C932D32FE99257"
+			dependencies: ["001A90D57A33197B"]
+			id: "25B43F14C8AFB5BE"
 			tasks: [{
-				id: "26330E8031A0814C"
+				id: "61988A20E62FC4F3"
 				item: { count: 1, id: "cookingforblockheads:recipe_book" }
 				type: "item"
 			}]
@@ -32,10 +32,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["38C932D32FE99257"]
-			id: "11BA8DBE9B74B8A5"
+			dependencies: ["25B43F14C8AFB5BE"]
+			id: "44ADE9005757637C"
 			rewards: [{
-				id: "775DED293E18DA49"
+				id: "50D5DD73AF8B8EA7"
 				item: {
 					count: 1
 					id: "minecraft:cooked_porkchop"
@@ -43,7 +43,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7D487C4B65874200"
+				id: "04F91E0E41161A1D"
 				item: { count: 1, id: "cookingforblockheads:crafting_book" }
 				type: "item"
 			}]
@@ -51,17 +51,28 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["11BA8DBE9B74B8A5"]
-			id: "615981D2CF4F5213"
-			rewards: [{
-				id: "54664F35593B13F3"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["44ADE9005757637C"]
+			id: "74922CD545618585"
+			rewards: [
+				{
+					id: "4CAF6905FFA436E5"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "092D777510302187"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "54047817A716017E"
+				id: "669BC5996FD3C54B"
 				item: { count: 1, id: "cookingforblockheads:cooking_table" }
 				type: "item"
 			}]
@@ -69,11 +80,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["615981D2CF4F5213"]
-			id: "31680217E04AD992"
+			dependencies: ["74922CD545618585"]
+			id: "53DC59B99AF4985C"
 			rewards: [{
 				count: 2
-				id: "5A05FD3E2BCF9472"
+				id: "14742A1A685BC390"
 				item: {
 					count: 1
 					id: "minecraft:ice"
@@ -82,7 +93,7 @@
 			}]
 			tasks: [{
 				count: 2L
-				id: "74117D9691AA0511"
+				id: "3EC5A791CDAFF357"
 				item: { count: 1, id: "cookingforblockheads:white_fridge" }
 				type: "item"
 			}]
@@ -90,10 +101,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["615981D2CF4F5213"]
-			id: "783AC361C86448CA"
+			dependencies: ["74922CD545618585"]
+			id: "5F8A91444A82D83D"
 			rewards: [{
-				id: "001A90D57A33197B"
+				id: "11BA8DBE9B74B8A5"
 				item: {
 					count: 1
 					id: "minecraft:water_bucket"
@@ -101,7 +112,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "02F58A9746B00BE8"
+				id: "38C932D32FE99257"
 				item: { count: 1, id: "cookingforblockheads:sink" }
 				type: "item"
 			}]
@@ -109,10 +120,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["615981D2CF4F5213"]
-			id: "6594B720E501A3FC"
+			dependencies: ["74922CD545618585"]
+			id: "3EFF6E83AE509F6B"
 			rewards: [{
-				id: "7F80CAF056A68482"
+				id: "31680217E04AD992"
 				item: {
 					count: 1
 					id: "cookingforblockheads:connector"
@@ -122,7 +133,7 @@
 			}]
 			tasks: [{
 				count: 2L
-				id: "2D49158966D7EAC4"
+				id: "615981D2CF4F5213"
 				item: { count: 1, id: "cookingforblockheads:counter" }
 				type: "item"
 			}]
@@ -130,11 +141,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["615981D2CF4F5213"]
-			id: "5A198ABD9228A19B"
+			dependencies: ["74922CD545618585"]
+			id: "7E5248111AE003B3"
 			rewards: [{
 				count: 2
-				id: "63048F22F1981561"
+				id: "6594B720E501A3FC"
 				item: {
 					count: 1
 					id: "minecraft:cooked_porkchop"
@@ -142,7 +153,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2F8E6FBA4F3E20E9"
+				id: "783AC361C86448CA"
 				item: { count: 1, id: "cookingforblockheads:white_oven" }
 				type: "item"
 			}]
@@ -150,11 +161,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["615981D2CF4F5213"]
-			id: "0515121543F0FB74"
+			dependencies: ["74922CD545618585"]
+			id: "0C491B59A9A1DB63"
 			rewards: [
 				{
-					id: "545436346CB1DFD6"
+					id: "0515121543F0FB74"
 					item: {
 						count: 1
 						id: "minecraft:milk_bucket"
@@ -162,13 +173,13 @@
 					type: "item"
 				}
 				{
-					id: "45C56FC46B501F99"
+					id: "59BA02668E09AD6F"
 					table_id: 5394927797007602772L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "18E813DEC361F52B"
+				id: "5A198ABD9228A19B"
 				item: { count: 1, id: "cookingforblockheads:cow_jar" }
 				type: "item"
 			}]
@@ -176,10 +187,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["615981D2CF4F5213"]
-			id: "59BA02668E09AD6F"
+			dependencies: ["74922CD545618585"]
+			id: "2B4B4235D47A4111"
 			rewards: [{
-				id: "4960CD87DDFD204E"
+				id: "501515B31006688E"
 				item: {
 					count: 1
 					id: "minecraft:bread"
@@ -187,7 +198,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "435187F5B5EB3963"
+				id: "716A69A16B16A3A2"
 				item: { count: 1, id: "cookingforblockheads:toaster" }
 				type: "item"
 			}]
@@ -195,11 +206,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["615981D2CF4F5213"]
-			id: "716A69A16B16A3A2"
+			dependencies: ["74922CD545618585"]
+			id: "2D899272A04E21C0"
 			rewards: [{
 				count: 2
-				id: "7C0184A29B8530EB"
+				id: "26330E8031A0814C"
 				item: {
 					count: 1
 					id: "minecraft:apple"
@@ -208,12 +219,12 @@
 			}]
 			tasks: [
 				{
-					id: "3DA2A4662C54DD98"
+					id: "389ECBBD4B60B6E3"
 					item: { count: 1, id: "cookingforblockheads:spice_rack" }
 					type: "item"
 				}
 				{
-					id: "3C3F8AF9841A1D11"
+					id: "34C495F2ABC45C0D"
 					item: { count: 1, id: "cookingforblockheads:fruit_basket" }
 					type: "item"
 				}
@@ -222,11 +233,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["285A43D3899B024F"]
-			id: "501515B31006688E"
+			id: "4A87B7CF8FFE9590"
 			rewards: [{
 				count: 2
-				id: "413E8E13A187A52D"
+				id: "775DED293E18DA49"
 				item: {
 					count: 1
 					id: "minecraft:emerald"
@@ -234,7 +244,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0E1DE23AB140B7D4"
+				id: "7D487C4B65874200"
 				item: { count: 1, id: "farmingforblockheads:market" }
 				type: "item"
 			}]
@@ -242,11 +252,11 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["501515B31006688E"]
-			id: "389ECBBD4B60B6E3"
+			dependencies: ["4A87B7CF8FFE9590"]
+			id: "68F1C04B022F5BCA"
 			rewards: [{
 				count: 2
-				id: "70D80C15C1E42E9E"
+				id: "54664F35593B13F3"
 				item: {
 					count: 1
 					id: "farmingforblockheads:green_fertilizer"
@@ -255,7 +265,7 @@
 			}]
 			tasks: [{
 				count: 4L
-				id: "187F2F47EDB2629E"
+				id: "54047817A716017E"
 				item: { count: 1, id: "farmingforblockheads:green_fertilizer" }
 				type: "item"
 			}]
@@ -263,11 +273,11 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["501515B31006688E"]
-			id: "34C495F2ABC45C0D"
+			dependencies: ["4A87B7CF8FFE9590"]
+			id: "5A4A78398CB1737F"
 			rewards: [{
 				count: 2
-				id: "0E06644FC1B0D341"
+				id: "5A05FD3E2BCF9472"
 				item: {
 					count: 1
 					id: "farmingforblockheads:red_fertilizer"
@@ -276,7 +286,7 @@
 			}]
 			tasks: [{
 				count: 4L
-				id: "489EB3838F3C864F"
+				id: "74117D9691AA0511"
 				item: { count: 1, id: "farmingforblockheads:red_fertilizer" }
 				type: "item"
 			}]

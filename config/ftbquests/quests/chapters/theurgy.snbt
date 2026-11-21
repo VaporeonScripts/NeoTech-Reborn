@@ -6,39 +6,39 @@
 	icon: {
 		id: "theurgy:liquefaction_cauldron"
 	}
-	id: "6537A69E492ACAFD"
+	id: "2143D2435BC071AF"
 	images: [ ]
-	order_index: 16
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
-			id: "5F415663A2FF6191"
+			id: "5298A8EB492CB885"
 			tasks: [{
-				id: "4AA4B5137EA3B53F"
+				id: "4A7A9E2CB787F120"
 				type: "checkmark"
 			}]
 			x: -3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3278039B863183CA"]
+			dependencies: ["3DD32E24F8A24FAD"]
 			icon: {
 				id: "theurgy:calcination_oven"
 			}
-			id: "0670493BA51AD712"
+			id: "533D9936392A7D45"
 			rewards: [{
-				id: "173E92504E4E2BDF"
+				id: "1F5F52CBD845B06D"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [
 				{
-					id: "3A50D3CD0E78E0E9"
+					id: "0333C544E667BF6B"
 					item: { count: 1, id: "theurgy:calcination_oven" }
 					type: "item"
 				}
 				{
-					id: "198ABC7456B155E0"
+					id: "1687A9AE95C72D3A"
 					item: { count: 1, id: "theurgy:pyromantic_brazier" }
 					type: "item"
 				}
@@ -47,18 +47,18 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2C03674F1F5C85BE"]
+			dependencies: ["01E03C6ADEAAE17C"]
 			icon: {
 				id: "theurgy:liquefaction_cauldron"
 			}
-			id: "3F0FBA9B295C00F7"
+			id: "79E0A15A0FBCD2CC"
 			rewards: [{
-				id: "659E3411F766882A"
+				id: "6A54A191FF0A2378"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "5948B0ED251F1C09"
+				id: "29BD479D1B327BD8"
 				item: { count: 1, id: "theurgy:liquefaction_cauldron" }
 				type: "item"
 			}]
@@ -67,41 +67,52 @@
 		}
 		{
 			dependencies: [
-				"0479BA53DFA3BCD2"
-				"7FBC827E26F5D2FC"
+				"249BA0F38C7AD688"
+				"6381EB59F371696B"
 			]
 			icon: {
 				id: "theurgy:incubator"
 			}
-			id: "1AFB83F956107321"
-			rewards: [{
-				id: "7D33A1D77E980C89"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			id: "5EB89B994640BB45"
+			rewards: [
+				{
+					id: "469D159A63593AEC"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "20596801CC92D33D"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
-					id: "0AC2512C9DF38193"
+					id: "113B6E166D892BF8"
 					item: { count: 1, id: "theurgy:incubator" }
 					type: "item"
 				}
 				{
-					id: "0B56816A2108965B"
+					id: "00702D33A83697B7"
 					item: { count: 1, id: "theurgy:incubator_mercury_vessel" }
 					type: "item"
 				}
 				{
-					id: "6E98459657EE958D"
+					id: "143F40D536E5FC25"
 					item: { count: 1, id: "theurgy:incubator_sulfur_vessel" }
 					type: "item"
 				}
 				{
-					id: "58E2A92C05E7F276"
+					id: "6067DD8092B14507"
 					item: { count: 1, id: "theurgy:incubator_salt_vessel" }
 					type: "item"
 				}
 				{
-					id: "7CEAA6E879F83775"
+					id: "2C03674F1F5C85BE"
 					item: { count: 1, id: "theurgy:pyromantic_brazier" }
 					type: "item"
 				}
@@ -110,24 +121,24 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3278039B863183CA"]
+			dependencies: ["3DD32E24F8A24FAD"]
 			icon: {
 				id: "theurgy:distiller"
 			}
-			id: "027A197AF3241F85"
+			id: "31A2BA9F565C32E3"
 			rewards: [{
-				id: "1A0E3AE8EAB887D8"
+				id: "1500002136F49836"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [
 				{
-					id: "6165E590F63E3A71"
+					id: "181C844CE76189AB"
 					item: { count: 1, id: "theurgy:distiller" }
 					type: "item"
 				}
 				{
-					id: "1CCF372E3A5A1883"
+					id: "26D5C6DCF8BC0AFF"
 					item: { count: 1, id: "theurgy:pyromantic_brazier" }
 					type: "item"
 				}
@@ -136,24 +147,24 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3278039B863183CA"]
+			dependencies: ["3DD32E24F8A24FAD"]
 			icon: {
 				id: "theurgy:sal_ammoniac_accumulator"
 			}
-			id: "5FD928205FF68580"
+			id: "0E6A77563BFCDAB3"
 			rewards: [{
-				id: "6A18DACA76BC3B07"
+				id: "2AB865F559ED26D9"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [
 				{
-					id: "2484A2B806E802E7"
+					id: "4814E0F336EB862C"
 					item: { count: 1, id: "theurgy:sal_ammoniac_accumulator" }
 					type: "item"
 				}
 				{
-					id: "117E8A228F52CC9E"
+					id: "643E3B86241F740F"
 					item: { count: 1, id: "theurgy:sal_ammoniac_tank" }
 					type: "item"
 				}
@@ -162,26 +173,37 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2AB865F559ED26D9"]
-			id: "01E03C6ADEAAE17C"
-			rewards: [{
-				id: "52910FAF29B45775"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["08E13926AE218017"]
+			id: "10F880BDA9F7883B"
+			rewards: [
+				{
+					id: "3A50D3CD0E78E0E9"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "19419883536E95DF"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [
 				{
-					id: "4B0DDB5A9B95C9FD"
+					id: "7BF7056C4E74891E"
 					item: { count: 1, id: "theurgy:reformation_result_pedestal" }
 					type: "item"
 				}
 				{
-					id: "2FC66E6149FFC838"
+					id: "7FBC827E26F5D2FC"
 					item: { count: 1, id: "theurgy:reformation_target_pedestal" }
 					type: "item"
 				}
 				{
-					id: "45BCF5B59BDCBB78"
+					id: "69D148A1DB8081EA"
 					item: { count: 1, id: "theurgy:reformation_source_pedestal" }
 					type: "item"
 				}
@@ -190,15 +212,26 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["643E3B86241F740F"]
-			id: "7D73F7A74981606A"
-			rewards: [{
-				id: "6F96EB4D424F428F"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["344EBBBE464E0E8F"]
+			id: "503EAA79D946B3B9"
+			rewards: [
+				{
+					id: "173E92504E4E2BDF"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "18B87D593D90FBAC"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "3BC326E4CF91AC58"
+				id: "198ABC7456B155E0"
 				item: { count: 1, id: "theurgy:fermentation_vat" }
 				type: "item"
 			}]
@@ -206,15 +239,15 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7FBC827E26F5D2FC"]
-			id: "05B01CBA4E4FF697"
+			dependencies: ["6381EB59F371696B"]
+			id: "0D81F9CC548BA96F"
 			rewards: [{
-				id: "5CEF312098DEC9E5"
+				id: "659E3411F766882A"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "0A1D5D07C0488682"
+				id: "5948B0ED251F1C09"
 				item: { count: 1, id: "theurgy:digestion_vat" }
 				type: "item"
 			}]
@@ -222,16 +255,16 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["027A197AF3241F85"]
-			id: "0479BA53DFA3BCD2"
+			dependencies: ["31A2BA9F565C32E3"]
+			id: "249BA0F38C7AD688"
 			rewards: [{
-				id: "61B8373392772AD5"
+				id: "0B56816A2108965B"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
 				count: 4L
-				id: "6D3FEDF3C8A044CC"
+				id: "0AC2512C9DF38193"
 				item: { count: 1, id: "theurgy:mercury_shard" }
 				type: "item"
 			}]
@@ -239,15 +272,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["344EBBBE464E0E8F"]
-			id: "747A44CBD0D9D80F"
+			dependencies: ["32E47300F57547A6"]
+			id: "5F5503976BB2D2E1"
 			rewards: [{
-				id: "4E0AFA165F1D16BF"
+				id: "58E2A92C05E7F276"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "34A96556213FA7B8"
+				id: "6E98459657EE958D"
 				item: { count: 1, id: "theurgy:caloric_flux_emitter" }
 				type: "item"
 			}]
@@ -255,15 +288,15 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["344EBBBE464E0E8F"]
-			id: "7067FBA480B8B646"
+			dependencies: ["32E47300F57547A6"]
+			id: "40057BD424CD6D99"
 			rewards: [{
-				id: "22D110CCA37ECCF7"
+				id: "7D33A1D77E980C89"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "71AB7DB964D6C33A"
+				id: "7CEAA6E879F83775"
 				item: { count: 1, id: "theurgy:mercury_catalyst" }
 				type: "item"
 			}]
@@ -271,17 +304,28 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0479BA53DFA3BCD2"]
-			id: "344EBBBE464E0E8F"
-			rewards: [{
-				id: "00714591DBFC62E9"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["249BA0F38C7AD688"]
+			id: "32E47300F57547A6"
+			rewards: [
+				{
+					id: "1CCF372E3A5A1883"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7846D917D293056A"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "543B0E4BA9A20298"
+				id: "6165E590F63E3A71"
 				item: { count: 1, id: "theurgy:mercurial_wand" }
 				type: "item"
 			}]
@@ -289,21 +333,21 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["344EBBBE464E0E8F"]
-			id: "08E13926AE218017"
+			dependencies: ["32E47300F57547A6"]
+			id: "60509B38B16DE593"
 			rewards: [{
-				id: "5FD4EC8C95BF35BB"
+				id: "117E8A228F52CC9E"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [
 				{
-					id: "12D06A595A16BCE5"
+					id: "1A0E3AE8EAB887D8"
 					item: { count: 1, id: "theurgy:logistics_item_inserter" }
 					type: "item"
 				}
 				{
-					id: "141935874000F374"
+					id: "2484A2B806E802E7"
 					item: { count: 1, id: "theurgy:logistics_item_extractor" }
 					type: "item"
 				}
@@ -312,15 +356,15 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["344EBBBE464E0E8F"]
-			id: "3A2B6439D1C6FF2F"
+			dependencies: ["32E47300F57547A6"]
+			id: "139F56D548244906"
 			rewards: [{
-				id: "77CCFCF42618D414"
+				id: "4B0DDB5A9B95C9FD"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "729E784D13DD8096"
+				id: "6A18DACA76BC3B07"
 				item: { count: 1, id: "theurgy:list_filter" }
 				type: "item"
 			}]
@@ -328,21 +372,21 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["344EBBBE464E0E8F"]
-			id: "6381EB59F371696B"
+			dependencies: ["32E47300F57547A6"]
+			id: "6F68802E3CECA25D"
 			rewards: [{
-				id: "3FB5297A552B3624"
+				id: "52910FAF29B45775"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [
 				{
-					id: "04AC00A4476C690A"
+					id: "2FC66E6149FFC838"
 					item: { count: 1, id: "theurgy:logistics_connector_node" }
 					type: "item"
 				}
 				{
-					id: "5C54510972311049"
+					id: "45BCF5B59BDCBB78"
 					item: { count: 1, id: "theurgy:copper_wire" }
 					type: "item"
 				}
@@ -351,17 +395,17 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5F415663A2FF6191"]
-			id: "3278039B863183CA"
+			dependencies: ["5298A8EB492CB885"]
+			id: "3DD32E24F8A24FAD"
 			rewards: [{
-				id: "2BB13A6312DE871A"
+				id: "6F96EB4D424F428F"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "3E3BB4CE8BBEBA5F"
+				id: "3BC326E4CF91AC58"
 				item: { count: 1, id: "theurgy:sal_ammoniac_crystal" }
 				type: "item"
 			}]
@@ -369,15 +413,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5F415663A2FF6191"]
-			id: "0333C544E667BF6B"
+			id: "1AC26146E6B66060"
 			rewards: [{
-				id: "60D0067A7B642413"
+				id: "5CEF312098DEC9E5"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "3F20F316490D1F05"
+				id: "0A1D5D07C0488682"
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_abundant" }
 				type: "item"
 			}]
@@ -385,15 +428,14 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["5F415663A2FF6191"]
-			id: "1687A9AE95C72D3A"
+			id: "3ACF0EAC5C5CEAB0"
 			rewards: [{
-				id: "08ED27461DD06834"
+				id: "61B8373392772AD5"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "0234106F717363AA"
+				id: "6D3FEDF3C8A044CC"
 				item: { count: 1, id: "theurgy:divination_rod_t1" }
 				type: "item"
 			}]
@@ -402,17 +444,17 @@
 		}
 		{
 			dependencies: [
-				"0333C544E667BF6B"
-				"1687A9AE95C72D3A"
+				"1AC26146E6B66060"
+				"3ACF0EAC5C5CEAB0"
 			]
-			id: "1F5F52CBD845B06D"
+			id: "7D9C263C62F23F27"
 			rewards: [{
-				id: "5C7DBAE06FA7BD6B"
+				id: "4E0AFA165F1D16BF"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "765BBB572DAD6E6E"
+				id: "34A96556213FA7B8"
 				item: { components: { "theurgy:divination_linked_block": "minecraft:budding_amethyst" }, count: 1, id: "theurgy:amethyst_divination_rod" }
 				type: "item"
 			}]
@@ -420,15 +462,15 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["6067DD8092B14507"]
-			id: "29BD479D1B327BD8"
+			dependencies: ["5FD928205FF68580"]
+			id: "3873C8BF436FA4DE"
 			rewards: [{
-				id: "01656B17EDD26E13"
+				id: "22D110CCA37ECCF7"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "1EB5B4815E70212E"
+				id: "71AB7DB964D6C33A"
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_rare" }
 				type: "item"
 			}]
@@ -436,15 +478,15 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["29BD479D1B327BD8"]
-			id: "6A54A191FF0A2378"
+			dependencies: ["3873C8BF436FA4DE"]
+			id: "0670493BA51AD712"
 			rewards: [{
-				id: "418DCAB02B62DE1B"
+				id: "00714591DBFC62E9"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "7F65E4D4A8C3F42E"
+				id: "543B0E4BA9A20298"
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_precious" }
 				type: "item"
 			}]
@@ -452,15 +494,15 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["1F5F52CBD845B06D"]
-			id: "113B6E166D892BF8"
+			dependencies: ["7D9C263C62F23F27"]
+			id: "3F0FBA9B295C00F7"
 			rewards: [{
-				id: "5CB4D64A97D564AC"
+				id: "141935874000F374"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "6DE8968812D252D0"
+				id: "12D06A595A16BCE5"
 				item: { count: 1, id: "theurgy:divination_rod_t2" }
 				type: "item"
 			}]
@@ -468,15 +510,15 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["113B6E166D892BF8"]
-			id: "00702D33A83697B7"
+			dependencies: ["3F0FBA9B295C00F7"]
+			id: "1AFB83F956107321"
 			rewards: [{
-				id: "359D56BAECDAE368"
+				id: "729E784D13DD8096"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "14A6540E5975A207"
+				id: "5FD4EC8C95BF35BB"
 				item: { count: 1, id: "theurgy:divination_rod_t3" }
 				type: "item"
 			}]
@@ -484,15 +526,15 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["00702D33A83697B7"]
-			id: "143F40D536E5FC25"
+			dependencies: ["1AFB83F956107321"]
+			id: "027A197AF3241F85"
 			rewards: [{
-				id: "13DA9EF032223675"
+				id: "04AC00A4476C690A"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "5DEA980840121A78"
+				id: "77CCFCF42618D414"
 				item: { count: 1, id: "theurgy:divination_rod_t4" }
 				type: "item"
 			}]
@@ -500,15 +542,15 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["1F5F52CBD845B06D"]
-			id: "6067DD8092B14507"
+			dependencies: ["7D9C263C62F23F27"]
+			id: "5FD928205FF68580"
 			rewards: [{
-				id: "6EB76BE2F1783995"
+				id: "3FB5297A552B3624"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "2B04DC277AD28B2B"
+				id: "5C54510972311049"
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_common" }
 				type: "item"
 			}]
@@ -516,15 +558,15 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["5FD928205FF68580"]
-			id: "2C03674F1F5C85BE"
+			dependencies: ["0E6A77563BFCDAB3"]
+			id: "01E03C6ADEAAE17C"
 			rewards: [{
-				id: "3EA4069E4CBA6161"
+				id: "2BB13A6312DE871A"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "33BC4B7561007C2F"
+				id: "3E3BB4CE8BBEBA5F"
 				item: { count: 1, id: "theurgy:sal_ammoniac_bucket" }
 				type: "item"
 			}]
@@ -533,17 +575,28 @@
 		}
 		{
 			dependencies: [
-				"7BF7056C4E74891E"
-				"69D148A1DB8081EA"
+				"3A2B6439D1C6FF2F"
+				"3278039B863183CA"
 			]
-			id: "469D159A63593AEC"
-			rewards: [{
-				id: "5C77C46490DCC313"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			id: "7D73F7A74981606A"
+			rewards: [
+				{
+					id: "60D0067A7B642413"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "256AE7DE1D74BD1C"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "7C61D992D87ED58B"
+				id: "3F20F316490D1F05"
 				item: { components: { "ftbfiltersystem:filter": "and(item_tag(theurgy:alchemical_niters))", "minecraft:custom_name": "\"All the Niters\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
@@ -551,36 +604,47 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["643E3B86241F740F"]
-			id: "181C844CE76189AB"
-			rewards: [{
-				id: "7BA32EF48ABE0DEA"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["344EBBBE464E0E8F"]
+			id: "05B01CBA4E4FF697"
+			rewards: [
+				{
+					id: "01656B17EDD26E13"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "79FD547479EAA723"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [
 				{
-					id: "10567DE9D4D8AA6B"
+					id: "0234106F717363AA"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_fluorite" }
 					type: "item"
 				}
 				{
-					id: "7E52183760CAC3FB"
+					id: "08ED27461DD06834"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_copper" }
 					type: "item"
 				}
 				{
-					id: "7B6D0F317F0D0353"
+					id: "765BBB572DAD6E6E"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_coals" }
 					type: "item"
 				}
 				{
-					id: "7B88A0987D849FCB"
+					id: "5C7DBAE06FA7BD6B"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_sal_ammoniac" }
 					type: "item"
 				}
 				{
-					id: "65A46C82F0E4D483"
+					id: "1EB5B4815E70212E"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_wheat" }
 					type: "item"
 				}
@@ -589,56 +653,67 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["643E3B86241F740F"]
-			id: "26D5C6DCF8BC0AFF"
-			rewards: [{
-				id: "595894A674A18E00"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["344EBBBE464E0E8F"]
+			id: "0479BA53DFA3BCD2"
+			rewards: [
+				{
+					id: "6EB76BE2F1783995"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7FF61FF78ED2305D"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [
 				{
-					id: "6C7CDAB0C635E568"
+					id: "7F65E4D4A8C3F42E"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_osmium" }
 					type: "item"
 				}
 				{
-					id: "0DF874B40BD92EB9"
+					id: "418DCAB02B62DE1B"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_nickel" }
 					type: "item"
 				}
 				{
-					id: "756445D7A9BC42B1"
+					id: "6DE8968812D252D0"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_lead" }
 					type: "item"
 				}
 				{
-					id: "1799397A4939D19B"
+					id: "5CB4D64A97D564AC"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_quartz" }
 					type: "item"
 				}
 				{
-					id: "4633AC2950624D1D"
+					id: "14A6540E5975A207"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_tin" }
 					type: "item"
 				}
 				{
-					id: "3524345579360852"
+					id: "359D56BAECDAE368"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_certus_quartz" }
 					type: "item"
 				}
 				{
-					id: "6DAA9C5564DC41B7"
+					id: "5DEA980840121A78"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_lapis" }
 					type: "item"
 				}
 				{
-					id: "3429ED10FB46F272"
+					id: "13DA9EF032223675"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_iron" }
 					type: "item"
 				}
 				{
-					id: "4F18F4A472A00ED7"
+					id: "2B04DC277AD28B2B"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_redstone" }
 					type: "item"
 				}
@@ -647,51 +722,62 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["643E3B86241F740F"]
-			id: "1500002136F49836"
-			rewards: [{
-				id: "5298A8EB492CB885"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["344EBBBE464E0E8F"]
+			id: "747A44CBD0D9D80F"
+			rewards: [
+				{
+					id: "65A46C82F0E4D483"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "1E7093469C8052E3"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [
 				{
-					id: "4EC4A63A4A0F2C38"
+					id: "33BC4B7561007C2F"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_platinum" }
 					type: "item"
 				}
 				{
-					id: "1EC5CF0FEA65FF41"
+					id: "3EA4069E4CBA6161"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_silver" }
 					type: "item"
 				}
 				{
-					id: "76C47E544D550F1A"
+					id: "7C61D992D87ED58B"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_uranium" }
 					type: "item"
 				}
 				{
-					id: "1C809AAC89785EED"
+					id: "5C77C46490DCC313"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_gold" }
 					type: "item"
 				}
 				{
-					id: "7429E621E94BDC11"
+					id: "10567DE9D4D8AA6B"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_iridium" }
 					type: "item"
 				}
 				{
-					id: "60BD39A4FCC07CE8"
+					id: "7E52183760CAC3FB"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_fluix" }
 					type: "item"
 				}
 				{
-					id: "2EF27BDD049E4881"
+					id: "7B6D0F317F0D0353"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_prismarine" }
 					type: "item"
 				}
 				{
-					id: "2143D2435BC071AF"
+					id: "7B88A0987D849FCB"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_amethyst" }
 					type: "item"
 				}
@@ -700,31 +786,42 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["643E3B86241F740F"]
-			id: "4814E0F336EB862C"
-			rewards: [{
-				id: "0B49557F1950E99C"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["344EBBBE464E0E8F"]
+			id: "7067FBA480B8B646"
+			rewards: [
+				{
+					id: "1799397A4939D19B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "47276E48253D9E30"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [
 				{
-					id: "4A7A9E2CB787F120"
+					id: "7BA32EF48ABE0DEA"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_iesnium" }
 					type: "item"
 				}
 				{
-					id: "421AFA4CE29C4436"
+					id: "6C7CDAB0C635E568"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_emerald" }
 					type: "item"
 				}
 				{
-					id: "7C27AA86443ED0F9"
+					id: "0DF874B40BD92EB9"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_diamond" }
 					type: "item"
 				}
 				{
-					id: "1AD5B0A568507993"
+					id: "756445D7A9BC42B1"
 					item: { count: 1, id: "theurgy:alchemical_sulfur_netherite" }
 					type: "item"
 				}
@@ -733,17 +830,28 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3F0FBA9B295C00F7"]
-			id: "643E3B86241F740F"
-			rewards: [{
-				id: "2FB679F6448E58BB"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["79E0A15A0FBCD2CC"]
+			id: "344EBBBE464E0E8F"
+			rewards: [
+				{
+					id: "3524345579360852"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "549F9954A1725102"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "34F04E98312B4F33"
+				id: "4633AC2950624D1D"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(theurgy:alchemical_sulfurs))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
@@ -751,15 +859,15 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["344EBBBE464E0E8F"]
-			id: "2AB865F559ED26D9"
+			dependencies: ["32E47300F57547A6"]
+			id: "08E13926AE218017"
 			rewards: [{
-				id: "780EF8B9FD6437F4"
+				id: "3429ED10FB46F272"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "4D4B88AE8272D8F4"
+				id: "6DAA9C5564DC41B7"
 				item: { count: 1, id: "theurgy:sulfuric_flux_emitter" }
 				type: "item"
 			}]
@@ -767,15 +875,26 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["7D73F7A74981606A"]
-			id: "7BF7056C4E74891E"
-			rewards: [{
-				id: "1B26B5A7F0745D7E"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["503EAA79D946B3B9"]
+			id: "3A2B6439D1C6FF2F"
+			rewards: [
+				{
+					id: "595894A674A18E00"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "004F800B80289E32"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "22C064FC3CA2AA23"
+				id: "4F18F4A472A00ED7"
 				item: { count: 1, id: "theurgy:fermentation_starter" }
 				type: "item"
 			}]
@@ -783,31 +902,42 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0670493BA51AD712"]
-			id: "7FBC827E26F5D2FC"
-			rewards: [{
-				id: "643DC9C59282C237"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			dependencies: ["533D9936392A7D45"]
+			id: "6381EB59F371696B"
+			rewards: [
+				{
+					id: "7429E621E94BDC11"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "23D516DDD9E2EC8D"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
-					id: "2B31535D5A9B99C8"
+					id: "4EC4A63A4A0F2C38"
 					item: { count: 1, id: "theurgy:alchemical_salt_strata" }
 					type: "item"
 				}
 				{
-					id: "5F6434568A73538F"
+					id: "1EC5CF0FEA65FF41"
 					item: { count: 1, id: "theurgy:alchemical_salt_mineral" }
 					type: "item"
 				}
 				{
-					id: "52FD7A9D18829FDC"
+					id: "76C47E544D550F1A"
 					item: { count: 1, id: "theurgy:alchemical_salt_plant" }
 					type: "item"
 				}
 				{
-					id: "09ECAA071216C084"
+					id: "1C809AAC89785EED"
 					item: { count: 1, id: "theurgy:alchemical_salt_creature" }
 					type: "item"
 				}
@@ -816,15 +946,15 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["05B01CBA4E4FF697"]
-			id: "69D148A1DB8081EA"
+			dependencies: ["0D81F9CC548BA96F"]
+			id: "3278039B863183CA"
 			rewards: [{
-				id: "4BFBEBBFCAAFF876"
+				id: "2EF27BDD049E4881"
 				table_id: 5394927797007602772L
 				type: "random"
 			}]
 			tasks: [{
-				id: "70E618F480CEA234"
+				id: "60BD39A4FCC07CE8"
 				item: { count: 1, id: "theurgy:purified_gold" }
 				type: "item"
 			}]

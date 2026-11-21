@@ -179,7 +179,6 @@
 			y: 18.5d
 		}
 		{
-			dependencies: ["113E536A12D1FE5E"]
 			id: "365250D4F5B19F71"
 			rewards: [{
 				id: "3275B79494ACDE30"
@@ -352,6 +351,15 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "46053853A84567F9"
+			rewards: [{
+				id: "6AEF3748074206E2"
+				item: {
+					count: 1
+					id: "randomore:random_ore"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -379,6 +387,15 @@
 					id: "229AD425B5304E20"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "3FA29D07F5097B4F"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -526,15 +543,26 @@
 		{
 			dependencies: ["3570964B2399D29D"]
 			id: "307636D95097C040"
-			rewards: [{
-				count: 2
-				id: "2889A7086A85A5EF"
-				item: {
-					count: 1
-					id: "minecraft:chest"
+			rewards: [
+				{
+					count: 2
+					id: "2889A7086A85A5EF"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "656EA0742C34BF1C"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -711,6 +739,15 @@
 					}
 					type: "item"
 				}
+				{
+					id: "187A3F9AD0380CFB"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -739,6 +776,15 @@
 					id: "42767993B0E8551D"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "7FB57C5781DF6383"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -772,6 +818,15 @@
 					}
 					type: "item"
 				}
+				{
+					id: "31BC1C99D5F00510"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -784,7 +839,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["113E536A12D1FE5E"]
 			id: "4E72552F0B4702D2"
 			rewards: [{
 				id: "054B61353F3F3707"
@@ -833,7 +887,6 @@
 			y: 27.0d
 		}
 		{
-			dependencies: ["113E536A12D1FE5E"]
 			id: "286803C3862A73DB"
 			rewards: [{
 				count: 9
@@ -873,7 +926,6 @@
 			y: 23.5d
 		}
 		{
-			dependencies: ["113E536A12D1FE5E"]
 			id: "3D46CE667582329F"
 			rewards: [
 				{
@@ -954,6 +1006,15 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2A6E3BD32ED0D50A"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -986,6 +1047,15 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0F03F531524CA98F"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "583EFBDB9056ACC6"
@@ -998,15 +1068,26 @@
 		{
 			dependencies: ["33862C4845D28C06"]
 			id: "5E70E59A00E287D7"
-			rewards: [{
-				count: 2
-				id: "1A921FFC4A7951B0"
-				item: {
-					count: 1
-					id: "ars_nouveau:spell_parchment"
+			rewards: [
+				{
+					count: 2
+					id: "1A921FFC4A7951B0"
+					item: {
+						count: 1
+						id: "ars_nouveau:spell_parchment"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4686C33516519537"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1CDA02881A5B7829"
 				item: { count: 1, id: "ars_nouveau:basic_spell_turret" }
@@ -1086,6 +1167,15 @@
 					}
 					type: "item"
 				}
+				{
+					id: "215347F6C75A23C4"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "4E266F08A9AD9A61"
@@ -1148,6 +1238,15 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3C1DF52E88B224F0"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -1203,15 +1302,26 @@
 		{
 			dependencies: ["2F02E4C86BE994F2"]
 			id: "0809BCE3D2AB5D67"
-			rewards: [{
-				count: 4
-				id: "7D75C3C53EE8D979"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_fiber"
+			rewards: [
+				{
+					count: 4
+					id: "7D75C3C53EE8D979"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1CE0681934795347"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "422BEE9E3B852844"
 				item: { count: 1, id: "ars_nouveau:allow_scroll" }
@@ -1223,15 +1333,26 @@
 		{
 			dependencies: ["2F02E4C86BE994F2"]
 			id: "6F67CAC027801375"
-			rewards: [{
-				count: 4
-				id: "518F0CDA8010FB58"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_fiber"
+			rewards: [
+				{
+					count: 4
+					id: "518F0CDA8010FB58"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "093377B2311275FC"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7472284B28DA675B"
 				item: { count: 1, id: "ars_nouveau:deny_scroll" }
@@ -1262,6 +1383,15 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6C35D99714B91257"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "68122C52B2CA20FC"
@@ -1272,7 +1402,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["113E536A12D1FE5E"]
 			id: "5C2CC9D34865D3EE"
 			rewards: [
 				{
@@ -2735,15 +2864,26 @@
 		{
 			dependencies: ["2F02E4C86BE994F2"]
 			id: "6076DF388C346FA1"
-			rewards: [{
-				count: 4
-				id: "2FD02B8E078CC25A"
-				item: {
-					count: 1
-					id: "ars_nouveau:blank_parchment"
+			rewards: [
+				{
+					count: 4
+					id: "2FD02B8E078CC25A"
+					item: {
+						count: 1
+						id: "ars_nouveau:blank_parchment"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "593ED8C9333BD939"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7CED1C8E79FA3F23"
 				item: { count: 1, id: "ars_nouveau:runic_chalk" }
@@ -3069,15 +3209,26 @@
 		{
 			dependencies: ["0809BCE3D2AB5D67"]
 			id: "23E56C60D6CA839B"
-			rewards: [{
-				count: 8
-				id: "2F130FCE83EB34BB"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem"
+			rewards: [
+				{
+					count: 8
+					id: "2F130FCE83EB34BB"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7358F03E8F62FCD6"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "25FA2F76BFC26316"
 				item: { count: 1, id: "ars_nouveau:void_jar" }
@@ -3172,15 +3323,26 @@
 		{
 			dependencies: ["2F02E4C86BE994F2"]
 			id: "7E16C414F4B39363"
-			rewards: [{
-				count: 2
-				id: "39F435E3B1720964"
-				item: {
-					count: 1
-					id: "ars_nouveau:blank_parchment"
+			rewards: [
+				{
+					count: 2
+					id: "39F435E3B1720964"
+					item: {
+						count: 1
+						id: "ars_nouveau:blank_parchment"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4C33782C70093D3E"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4AFFE98E50BBC5C5"
 				item: { count: 1, id: "ars_nouveau:warp_scroll" }
@@ -3494,11 +3656,22 @@
 		{
 			dependencies: ["0D920853F0AE1284"]
 			id: "2B79B6DC990E011E"
-			rewards: [{
-				id: "28A5BAB8B9B770F5"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "28A5BAB8B9B770F5"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "44F59830B44A724C"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0D85FDB421BEF55F"
@@ -3527,11 +3700,22 @@
 		{
 			dependencies: ["0D920853F0AE1284"]
 			id: "263674C310D18958"
-			rewards: [{
-				id: "11CA2BECF040F3E4"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "11CA2BECF040F3E4"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "0CC7B4D0138851B0"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "55E228BD64E770EC"
@@ -3560,11 +3744,22 @@
 		{
 			dependencies: ["0D920853F0AE1284"]
 			id: "04A8C232EA825D63"
-			rewards: [{
-				id: "5073E978F903E8A1"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5073E978F903E8A1"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "66946C32D6E89C6A"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "12D86971CBA7F863"
@@ -3593,15 +3788,26 @@
 		{
 			dependencies: ["0D920853F0AE1284"]
 			id: "7D3F97C5832AF3B7"
-			rewards: [{
-				count: 2
-				id: "3F4C48A3FD5E7DCF"
-				item: {
-					count: 1
-					id: "ars_nouveau:blank_thread"
+			rewards: [
+				{
+					count: 2
+					id: "3F4C48A3FD5E7DCF"
+					item: {
+						count: 1
+						id: "ars_nouveau:blank_thread"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5A8BED30FB69E070"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -3615,11 +3821,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "0685BB9C32DADAEB"
-			rewards: [{
-				id: "635E81B988A46872"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "635E81B988A46872"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "1B2406F1BD5CE366"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "363593F1B32332FE"
 				item: { count: 1, id: "ars_nouveau:thread_spellpower" }
@@ -3631,15 +3848,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "47A94E3465331798"
-			rewards: [{
-				count: 2
-				id: "764D40119622E743"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_fiber"
+			rewards: [
+				{
+					count: 2
+					id: "764D40119622E743"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2A189D1DBE3E00FC"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "103E377A3A6FAC74"
 				item: { count: 1, id: "ars_nouveau:thread_warding" }
@@ -3651,15 +3879,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "4FBA4CF59C8996AF"
-			rewards: [{
-				count: 2
-				id: "455A016C5C7E85AC"
-				item: {
-					count: 1
-					id: "minecraft:phantom_membrane"
+			rewards: [
+				{
+					count: 2
+					id: "455A016C5C7E85AC"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0B3BE7FED988D7C6"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "07AC2417AFA10631"
 				item: { count: 1, id: "ars_nouveau:thread_undying" }
@@ -3671,15 +3910,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "4DE42312B34F6F7B"
-			rewards: [{
-				count: 3
-				id: "228CE91E5D6A3096"
-				item: {
-					count: 1
-					id: "minecraft:nether_wart"
+			rewards: [
+				{
+					count: 3
+					id: "228CE91E5D6A3096"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "49D78239184CF29A"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0646046A534FE395"
 				item: { count: 1, id: "ars_nouveau:thread_wixie" }
@@ -3691,15 +3941,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "3EAF5695FAEB6E80"
-			rewards: [{
-				count: 8
-				id: "3E0399F894BC1A5A"
-				item: {
-					count: 1
-					id: "ars_nouveau:sourceberry_bush"
+			rewards: [
+				{
+					count: 8
+					id: "3E0399F894BC1A5A"
+					item: {
+						count: 1
+						id: "ars_nouveau:sourceberry_bush"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "69E6FD7B7613B8C0"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "27B5BDA59FE1A071"
 				item: { count: 1, id: "ars_nouveau:thread_magic_capacity" }
@@ -3711,15 +3972,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "4F7098D2509E257D"
-			rewards: [{
-				count: 3
-				id: "546D8E0BD9B63D84"
-				item: {
-					count: 1
-					id: "minecraft:cooked_cod"
+			rewards: [
+				{
+					count: 3
+					id: "546D8E0BD9B63D84"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "755BB2C6144F0B6A"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "50FC1898BEEBF13B"
 				item: { count: 1, id: "ars_nouveau:thread_depths" }
@@ -3731,15 +4003,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "702984EE8F429BEA"
-			rewards: [{
-				count: 2
-				id: "1E638C258EEC7119"
-				item: {
-					count: 1
-					id: "ars_nouveau:air_essence"
+			rewards: [
+				{
+					count: 2
+					id: "1E638C258EEC7119"
+					item: {
+						count: 1
+						id: "ars_nouveau:air_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "646040BEC814DB98"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0307DFD0204379"
 				item: { count: 1, id: "ars_nouveau:thread_gliding" }
@@ -3751,15 +4034,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "29259F3FA0002C4D"
-			rewards: [{
-				count: 2
-				id: "5A934479A095A805"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_stew"
+			rewards: [
+				{
+					count: 2
+					id: "5A934479A095A805"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_stew"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7C93516889B8A6A0"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5E995B1C1D276B7D"
 				item: { count: 1, id: "ars_nouveau:thread_heights" }
@@ -3771,16 +4065,27 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "02378152AD6064CF"
-			rewards: [{
-				count: 2
-				id: "3A351CDE99A60533"
-				item: {
-					count: 1
-					id: "minecraft:golden_apple"
+			rewards: [
+				{
+					count: 2
+					id: "3A351CDE99A60533"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "22CE65C11B420C79"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "45B776E90F4F3DA4"
 				item: { count: 1, id: "ars_nouveau:thread_whirlisprig" }
@@ -3792,15 +4097,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "39C96A0C6B300BE7"
-			rewards: [{
-				count: 2
-				id: "03C0416A9EC15F09"
-				item: {
-					count: 1
-					id: "minecraft:sculk_catalyst"
+			rewards: [
+				{
+					count: 2
+					id: "03C0416A9EC15F09"
+					item: {
+						count: 1
+						id: "minecraft:sculk_catalyst"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5043CD0A71DBADAB"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "329F609304EE23D1"
 				item: { count: 1, id: "ars_nouveau:thread_life_drain" }
@@ -3812,15 +4128,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "390A1E2CE9B27C69"
-			rewards: [{
-				count: 4
-				id: "664933F8CF1A94DB"
-				item: {
-					count: 1
-					id: "minecraft:sugar"
+			rewards: [
+				{
+					count: 4
+					id: "664933F8CF1A94DB"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "75B9B0F4C6DF1A56"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "512176FAEBA290AB"
 				item: { count: 1, id: "ars_nouveau:thread_starbuncle" }
@@ -3832,15 +4159,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "1A5EF42D42A67CD2"
-			rewards: [{
-				count: 2
-				id: "0A0F11DBDEE62093"
-				item: {
-					count: 1
-					id: "minecraft:magma_cream"
+			rewards: [
+				{
+					count: 2
+					id: "0A0F11DBDEE62093"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7CD2D27D8D53694C"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3DE38245E93F5DC1"
 				item: { count: 1, id: "ars_nouveau:thread_kindling" }
@@ -3852,14 +4190,25 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "0D30EF2224604075"
-			rewards: [{
-				id: "0B8E304419A359BF"
-				item: {
-					count: 1
-					id: "minecraft:chipped_anvil"
+			rewards: [
+				{
+					id: "0B8E304419A359BF"
+					item: {
+						count: 1
+						id: "minecraft:chipped_anvil"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2CFB1DBF1F1950D9"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3EB20977054E66B9"
 				item: { count: 1, id: "ars_nouveau:thread_repairing" }
@@ -3871,15 +4220,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "1DFD2E515F4BCE51"
-			rewards: [{
-				count: 3
-				id: "55E7F2B5CBDFB1B4"
-				item: {
-					count: 1
-					id: "minecraft:feather"
+			rewards: [
+				{
+					count: 3
+					id: "55E7F2B5CBDFB1B4"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "43CDF473EFD59629"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1667EC475DEC76E6"
 				item: { count: 1, id: "ars_nouveau:thread_feather" }
@@ -3891,15 +4251,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "5D6836138CED402F"
-			rewards: [{
-				count: 2
-				id: "4D40E8A0953A7798"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_foot"
+			rewards: [
+				{
+					count: 2
+					id: "4D40E8A0953A7798"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_foot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6A020BC80E6FD1C9"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "07B6F81093FF4840"
 				item: { count: 1, id: "ars_nouveau:thread_drygmy" }
@@ -3911,15 +4282,26 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "03B6F3FCD19E2413"
-			rewards: [{
-				count: 3
-				id: "25EBD5D13D67FBF3"
-				item: {
-					count: 1
-					id: "minecraft:ice"
+			rewards: [
+				{
+					count: 3
+					id: "25EBD5D13D67FBF3"
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "62C967E3D7D5C4A9"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5DF8D691E8FAFC36"
 				item: { count: 1, id: "ars_nouveau:thread_chilling" }
@@ -4038,11 +4420,22 @@
 			}
 			id: "17ADFDBED5731221"
 			optional: true
-			rewards: [{
-				id: "037126D791DD11F8"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "037126D791DD11F8"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "33B8A1A8F959567C"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1F9FC17877C8700C"
@@ -4215,11 +4608,22 @@
 			}
 			id: "00C57AB8BDBF52E5"
 			optional: true
-			rewards: [{
-				id: "6B2ACBD046EA43D6"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6B2ACBD046EA43D6"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "4A8FEA4EC045596E"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2132F493AB68FDCE"
@@ -4373,11 +4777,22 @@
 			}
 			id: "6FDEAD51DB6A6F36"
 			optional: true
-			rewards: [{
-				id: "4FF7563F4542EC0B"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4FF7563F4542EC0B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "4D840A7AF2245518"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0BFDB667447F5B37"
@@ -4469,11 +4884,22 @@
 				id: "ars_nouveau:ritual_burrowing"
 			}
 			id: "456654B12D46BD13"
-			rewards: [{
-				id: "44C629BED707B2D0"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "44C629BED707B2D0"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "1FB8153F87ED8C02"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "05AFA8602473552F"
@@ -4530,11 +4956,22 @@
 				id: "ars_nouveau:ritual_challenge"
 			}
 			id: "741A2E8C7E2BC6FD"
-			rewards: [{
-				id: "104E3C0A33BF0C65"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "104E3C0A33BF0C65"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "494D0872381AD120"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "282C327720F1603F"
@@ -4606,6 +5043,15 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "3389D62C78E7EC8C"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -4630,11 +5076,22 @@
 		{
 			dependencies: ["01FA083161D7DBD7"]
 			id: "46931846DB13F776"
-			rewards: [{
-				id: "08DAFC773259463F"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "08DAFC773259463F"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "11B53889BCF75D50"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "444500795088F378"
@@ -4776,6 +5233,15 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "66E4C3B3C4BD1F80"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -4828,11 +5294,22 @@
 		{
 			dependencies: ["46053853A84567F9"]
 			id: "28F86392E0F9B71B"
-			rewards: [{
-				id: "1639E2896B195923"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1639E2896B195923"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "01A32EF1626351BB"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1EE92B662642C3B3"
