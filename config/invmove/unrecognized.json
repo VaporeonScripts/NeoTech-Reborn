@@ -384,7 +384,11 @@
     "com.mrcrayfish.configured.client.screen.ChangeEnumScreen": true,
     "net.dndats.hackersandslashers.client.gui.HnSConfigScreen": true,
     "com.mrcrayfish.configured.client.screen.EditStringScreen": true,
-    "com.starskyxiii.collapsible_groups.client.config.GroupConfigScreen": true
+    "com.starskyxiii.collapsible_groups.client.config.GroupConfigScreen": true,
+    "com.alexthw.sauce.client.gui.GuiAlliesScreen": true,
+    "aztech.modern_industrialization.client.machines.gui.MachineScreen": true,
+    "org.confluence.mod.client.gui.screen.NPCDialogScreen": true,
+    "org.confluence.mod.client.gui.container.soulcerer.SoulOverviewScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
@@ -584,6 +588,9 @@
     "org.confluence.terra_curio.client.gui.WorkshopScreen": true,
     "net.mehvahdjukaar.supplementaries.client.screens.TrappedPresentScreen": true,
     "ironfurnaces.gui.furnaces.BlockMillionFurnaceScreen": true,
-    "org.confluence.mod.client.gui.AskForSoftcoreScreen": true
+    "org.confluence.mod.client.gui.AskForSoftcoreScreen": true,
+    "com.alexthw.sauce.client.gui.GuiAlliesScreen": true,
+    "aztech.modern_industrialization.client.machines.gui.MachineScreen": true,
+    "org.confluence.mod.client.gui.screen.NPCDialogScreen": true
   }
 }

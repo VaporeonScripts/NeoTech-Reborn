@@ -1,0 +1,7 @@
+[Client]
+	#How far away a trophy still draws, in blocks. Trophies are drawn even when the chunk they sit in is hidden, so every trophy within this range costs frames.
+	# Default: 256
+	# Range: 16 ~ 1024
+	renderDistance = 256
+	#Skip trophies that fall outside the camera view. They cannot be seen, so this only saves frames. Shadows cast by a shader pack are drawn in a separate pass and are not affected.
+	cullOffScreen = true
