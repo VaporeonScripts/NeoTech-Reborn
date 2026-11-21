@@ -24,8 +24,8 @@
 				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.8d
+			x: -18.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["55A7FB72B95316C1"]
@@ -71,8 +71,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 8.0d
+			x: -10.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["2247E5459B5D4301"]
@@ -87,8 +87,8 @@
 				item: { count: 1, id: "pneumaticcraft:air_compressor" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.6d
+			x: -16.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["3E4A7158F4BBBFEB"]
@@ -105,8 +105,8 @@
 				item: { count: 1, id: "pneumaticcraft:pressure_tube" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: -18.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["3E4A7158F4BBBFEB"]
@@ -121,8 +121,8 @@
 				item: { count: 1, id: "pneumaticcraft:vortex_tube" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.8d
+			x: -16.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["37C1777A017654F8"]
@@ -161,8 +161,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 4.8d
+			x: -10.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["2D12317C92E58AEC" "09101C58F5EA5242" "4E84C807543AFBA3" "560B2C83B7DE350D"]
@@ -186,8 +186,8 @@
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.2d
+			x: -8.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["528055FF0AF18D4E"]
@@ -202,8 +202,8 @@
 				item: { count: 1, id: "pneumaticcraft:lpg_bucket" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.2d
+			x: -10.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["528055FF0AF18D4E"]
@@ -218,8 +218,8 @@
 				item: { count: 1, id: "pneumaticcraft:diesel_bucket" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.6d
+			x: -8.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["528055FF0AF18D4E"]
@@ -234,8 +234,8 @@
 				item: { count: 1, id: "pneumaticcraft:kerosene_bucket" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.8d
+			x: -8.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["528055FF0AF18D4E"]
@@ -250,8 +250,8 @@
 				item: { count: 1, id: "pneumaticcraft:gasoline_bucket" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.4d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6699ADB734C1C57B"]
@@ -275,8 +275,8 @@
 				item: { count: 1, id: "pneumaticcraft:plastic_bucket" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 4.8d
+			x: -6.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["59CB785ED2B137B4"]
@@ -307,8 +307,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 4.8d
+			x: -4.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["6699ADB734C1C57B"]
@@ -332,8 +332,8 @@
 				item: { count: 1, id: "modern_industrialization:lubricant_bucket" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.2d
+			x: -6.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["0084C7098005FAA9"]
@@ -357,8 +357,8 @@
 				item: { count: 1, id: "pneumaticcraft:speed_upgrade" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.6d
+			x: -6.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["539A534A7273297F"]
@@ -384,8 +384,8 @@
 				item: { count: 1, id: "pneumaticcraft:plastic" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 4.8d
+			x: -2.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["673526545A09C2CC"]
@@ -400,8 +400,8 @@
 				item: { count: 1, id: "pneumaticcraft:small_tank" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.8d
+			x: -14.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["3B400A10672B862B"]
@@ -425,8 +425,8 @@
 				item: { count: 1, id: "pneumaticcraft:etching_acid_bucket" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 8.0d
+			x: 2.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["5C92808D99179762" "121FCAED80755032"]
@@ -450,8 +450,8 @@
 				item: { count: 1, id: "pneumaticcraft:uv_light_box" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 8.0d
+			x: -4.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["60B8E8055DEBAC2A"]
@@ -466,8 +466,8 @@
 				item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.4d
+			x: -12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2247E5459B5D4301"]
@@ -489,8 +489,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 8.0d
+			x: -16.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["576B2CCE6BAA4A0D"]
@@ -505,8 +505,8 @@
 				item: { count: 1, id: "pneumaticcraft:pcb_blueprint" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: -8.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["50A6BEFF620EE480"]
@@ -532,8 +532,8 @@
 				item: { count: 1, id: "pneumaticcraft:etching_tank" }
 				type: "item"
 			}]
-			x: 30.0d
-			y: 8.0d
+			x: 8.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["241A984254DF5706" "0C99C6407AC3FA74"]
@@ -557,8 +557,8 @@
 				item: { count: 1, id: "pneumaticcraft:empty_pcb" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 6.4d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27946D911EAB2C01"]
@@ -582,8 +582,8 @@
 				item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
 				type: "item"
 			}]
-			x: 32.0d
-			y: 8.0d
+			x: 10.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["27946D911EAB2C01"]
@@ -607,8 +607,8 @@
 				item: { count: 1, id: "pneumaticcraft:capacitor" }
 				type: "item"
 			}]
-			x: 30.0d
-			y: 6.4d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27946D911EAB2C01"]
@@ -632,8 +632,8 @@
 				item: { count: 1, id: "pneumaticcraft:transistor" }
 				type: "item"
 			}]
-			x: 32.0d
-			y: 9.6d
+			x: 10.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["025B973C8F1C68E1" "1DA176B61FC02FF5" "7B8CBE1F84888E6F"]
@@ -659,8 +659,8 @@
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
 				type: "item"
 			}]
-			x: 34.0d
-			y: 8.0d
+			x: 12.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["23C5DE3C94652080"]
@@ -711,8 +711,8 @@
 					type: "item"
 				}
 			]
-			x: 36.0d
-			y: 6.4d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7FE84DDB0ADF827F"]
@@ -736,8 +736,8 @@
 				item: { count: 1, id: "pneumaticcraft:assembly_program_drill_laser" }
 				type: "item"
 			}]
-			x: 38.0d
-			y: 6.4d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0C99C6407AC3FA74"]
@@ -761,8 +761,8 @@
 				item: { count: 1, id: "pneumaticcraft:pneumatic_cylinder" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 6.4d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["61EFF94B2CBDACCF"]
@@ -777,8 +777,8 @@
 				item: { count: 1, id: "pneumaticcraft:charging_station" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.8d
+			x: -22.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["7A4B0862BC8E8B44"]
@@ -793,8 +793,8 @@
 				item: { count: 1, id: "pneumaticcraft:safety_tube_module" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.6d
+			x: -22.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["67CDDDAC88A5EB7F"]
@@ -809,8 +809,8 @@
 				item: { count: 1, id: "pneumaticcraft:pneumatic_wrench" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.8d
+			x: -20.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["3E4A7158F4BBBFEB"]
@@ -825,8 +825,8 @@
 				item: { count: 1, id: "pneumaticcraft:pressure_gauge" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.2d
+			x: -20.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["67CDDDAC88A5EB7F"]
@@ -841,8 +841,8 @@
 				item: { count: 1, id: "pneumaticcraft:pressure_gauge_module" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.2d
+			x: -22.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["7D9CEC4EB58A7E23"]
@@ -868,8 +868,8 @@
 				item: { count: 1, id: "pneumaticcraft:advanced_pressure_tube" }
 				type: "item"
 			}]
-			x: 42.0d
-			y: 6.4d
+			x: 20.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["55A7FB72B95316C1"]
@@ -884,8 +884,8 @@
 				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.2d
+			x: -16.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["0AE5A5160961B9CE"]
@@ -909,8 +909,8 @@
 				item: { count: 1, id: "pneumaticcraft:flux_compressor" }
 				type: "item"
 			}]
-			x: 44.0d
-			y: 4.8d
+			x: 22.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["0AE5A5160961B9CE"]
@@ -934,8 +934,8 @@
 				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
 				type: "item"
 			}]
-			x: 42.0d
-			y: 8.0d
+			x: 20.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["0AE5A5160961B9CE"]
@@ -959,8 +959,8 @@
 				item: { count: 1, id: "pneumaticcraft:advanced_air_compressor" }
 				type: "item"
 			}]
-			x: 40.0d
-			y: 8.0d
+			x: 18.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["0AE5A5160961B9CE"]
@@ -984,8 +984,8 @@
 				item: { count: 1, id: "pneumaticcraft:solar_compressor" }
 				type: "item"
 			}]
-			x: 40.0d
-			y: 4.8d
+			x: 18.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["5095DD4AED24B2EE"]
@@ -1000,8 +1000,8 @@
 				item: { count: 1, id: "pneumaticcraft:thermal_compressor" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.8d
+			x: -16.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["0AE5A5160961B9CE"]
@@ -1025,8 +1025,8 @@
 				item: { count: 1, id: "pneumaticcraft:aerial_interface" }
 				type: "item"
 			}]
-			x: 40.0d
-			y: 6.4d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0AE5A5160961B9CE"]
@@ -1050,8 +1050,8 @@
 				item: { count: 1, id: "pneumaticcraft:pneumatic_dynamo" }
 				type: "item"
 			}]
-			x: 44.0d
-			y: 8.0d
+			x: 22.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["23C5DE3C94652080"]
@@ -1075,8 +1075,8 @@
 				item: { count: 1, id: "pneumaticcraft:programmer" }
 				type: "item"
 			}]
-			x: 34.0d
-			y: 9.6d
+			x: 12.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["241A984254DF5706"]
@@ -1091,8 +1091,8 @@
 				item: { count: 1, id: "pneumaticcraft:turbine_blade" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: -12.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["00C0D036F47A20A3"]
@@ -1107,8 +1107,8 @@
 				item: { count: 1, id: "pneumaticcraft:turbine_rotor" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 9.6d
+			x: -12.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["241A984254DF5706"]
@@ -1123,8 +1123,8 @@
 				item: { count: 1, id: "pneumaticcraft:solar_wafer" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.6d
+			x: -10.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["4E87CDA4312CA1F5"]
@@ -1148,8 +1148,8 @@
 				item: { count: 1, id: "pneumaticcraft:programming_puzzle" }
 				type: "item"
 			}]
-			x: 36.0d
-			y: 11.2d
+			x: 14.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["23C5DE3C94652080"]
@@ -1173,8 +1173,8 @@
 				item: { count: 1, id: "pneumaticcraft:collector_drone" }
 				type: "item"
 			}]
-			x: 36.0d
-			y: 9.6d
+			x: 14.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["2E801E4A1F6C5E8B"]
@@ -1198,8 +1198,8 @@
 				item: { count: 1, id: "pneumaticcraft:drone" }
 				type: "item"
 			}]
-			x: 36.0d
-			y: 12.8d
+			x: 14.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["23C5DE3C94652080"]
@@ -1223,8 +1223,8 @@
 				item: { count: 1, id: "pneumaticcraft:guard_drone" }
 				type: "item"
 			}]
-			x: 34.0d
-			y: 6.4d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["23C5DE3C94652080"]
@@ -1248,8 +1248,8 @@
 				item: { count: 1, id: "pneumaticcraft:harvesting_drone" }
 				type: "item"
 			}]
-			x: 34.0d
-			y: 11.2d
+			x: 12.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["23C5DE3C94652080"]
@@ -1273,8 +1273,8 @@
 				item: { count: 1, id: "pneumaticcraft:logistics_drone" }
 				type: "item"
 			}]
-			x: 36.0d
-			y: 8.0d
+			x: 14.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["0AE5A5160961B9CE"]
@@ -1298,8 +1298,8 @@
 				item: { count: 1, id: "pneumaticcraft:pressurized_spawner" }
 				type: "item"
 			}]
-			x: 42.0d
-			y: 4.8d
+			x: 20.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["2247E5459B5D4301"]
@@ -1314,8 +1314,8 @@
 				item: { count: 1, id: "pneumaticcraft:spawner_extractor" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.2d
+			x: -20.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["2247E5459B5D4301"]
@@ -1330,8 +1330,8 @@
 				item: { count: 1, id: "pneumaticcraft:spawner_core" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: -20.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["2247E5459B5D4301"]
@@ -1346,8 +1346,8 @@
 				item: { count: 1, id: "pneumaticcraft:vacuum_pump" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.6d
+			x: -18.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["2247E5459B5D4301"]
@@ -1362,8 +1362,8 @@
 				item: { count: 1, id: "pneumaticcraft:vacuum_trap" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.4d
+			x: -18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1ACFC934783F0741"]
@@ -1402,8 +1402,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 8.0d
+			x: -2.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["0C99C6407AC3FA74"]
@@ -1427,8 +1427,8 @@
 				item: { count: 1, id: "pneumaticcraft:memory_stick" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 4.8d
+			x: 0.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["184D200F7ECB219A"]
@@ -1452,8 +1452,8 @@
 				item: { count: 1, id: "pneumaticcraft:minigun" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 4.8d
+			x: 2.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["6EA2495260EAC420"]
@@ -1477,8 +1477,8 @@
 				item: { count: 1, id: "pneumaticcraft:sentry_turret" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 3.2d
+			x: 2.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["784334FD0614CDF0"]
@@ -1502,8 +1502,8 @@
 				item: { count: 1, id: "pneumaticcraft:gun_ammo_ap" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 0.0d
+			x: 6.0d
+			y: -6.4d
 		}
 		{
 			dependencies: ["784334FD0614CDF0"]
@@ -1527,8 +1527,8 @@
 				item: { count: 1, id: "pneumaticcraft:gun_ammo_explosive" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 3.2d
+			x: 4.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["784334FD0614CDF0"]
@@ -1552,8 +1552,8 @@
 				item: { count: 1, id: "pneumaticcraft:gun_ammo_freezing" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 0.0d
+			x: 4.0d
+			y: -6.4d
 		}
 		{
 			dependencies: ["784334FD0614CDF0"]
@@ -1577,8 +1577,8 @@
 				item: { count: 1, id: "pneumaticcraft:gun_ammo_incendiary" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 1.6d
+			x: 2.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["0E1E7687D2B4C6BD"]
@@ -1604,8 +1604,8 @@
 				item: { count: 1, id: "pneumaticcraft:gun_ammo" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 1.6d
+			x: 4.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["784334FD0614CDF0"]
@@ -1629,8 +1629,8 @@
 				item: { count: 1, id: "pneumaticcraft:gun_ammo_weighted" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 1.6d
+			x: 6.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["0AE5A5160961B9CE"]
@@ -1654,8 +1654,8 @@
 				item: { count: 1, id: "pneumaticcraft:electrostatic_compressor" }
 				type: "item"
 			}]
-			x: 44.0d
-			y: 6.4d
+			x: 22.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["59CB785ED2B137B4"]
@@ -1679,8 +1679,8 @@
 				item: { count: 1, id: "pneumaticcraft:reinforced_pressure_tube" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.4d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2DAF9989EF84E6A5"]
@@ -1695,8 +1695,8 @@
 				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.8d
+			x: -12.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["6386B9D6B0829708"]
@@ -1742,8 +1742,8 @@
 					type: "item"
 				}
 			]
-			x: 38.0d
-			y: 8.0d
+			x: 16.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["7AA203EE4AC1BDC6"]
@@ -1767,8 +1767,8 @@
 				item: { count: 1, id: "pneumaticcraft:programmable_controller" }
 				type: "item"
 			}]
-			x: 38.0d
-			y: 12.8d
+			x: 16.0d
+			y: 6.4d
 		}
 	]
 }

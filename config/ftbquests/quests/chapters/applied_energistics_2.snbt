@@ -442,8 +442,8 @@
 				item: { count: 1, id: "ae2:growth_accelerator" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 87.5d
+			x: 45.0d
+			y: 21.9d
 		}
 		{
 			id: "2F8E6FBA4F3E20E9"
@@ -453,8 +453,8 @@
 				item: { count: 1, id: "ae2:network_tool" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 85.9d
+			x: 45.0d
+			y: 20.3d
 		}
 		{
 			id: "63048F22F1981561"
@@ -469,8 +469,8 @@
 				item: { count: 1, id: "ae2:crafting_unit" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 23.5d
+			x: 13.0d
+			y: 20.3d
 		}
 		{
 			dependencies: ["0E1DE23AB140B7D4"]
@@ -485,8 +485,8 @@
 				item: { count: 1, id: "ae2:item_storage_cell_4k" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 13.9d
+			x: 11.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["413E8E13A187A52D"]
@@ -501,8 +501,8 @@
 				item: { count: 1, id: "ae2:item_storage_cell_16k" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 10.7d
+			x: 13.0d
+			y: 13.9d
 		}
 		{
 			dependencies: ["187F2F47EDB2629E"]
@@ -517,8 +517,8 @@
 				item: { count: 1, id: "ae2:item_storage_cell_64k" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 12.3d
+			x: 15.0d
+			y: 15.5d
 		}
 		{
 			id: "435187F5B5EB3963"
@@ -532,8 +532,8 @@
 				item: { count: 1, id: "ae2:inscriber" }
 				type: "item"
 			}]
-			x: 45.0d
-			y: 82.7d
+			x: 43.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["435187F5B5EB3963"]
@@ -549,8 +549,8 @@
 				item: { count: 1, id: "ae2:printed_silicon" }
 				type: "item"
 			}]
-			x: 45.0d
-			y: 81.1d
+			x: 47.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["70D80C15C1E42E9E"]
@@ -565,8 +565,8 @@
 				item: { count: 1, id: "ae2:energy_cell" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 33.1d
+			x: 7.0d
+			y: 37.9d
 		}
 		{
 			dependencies: ["70D80C15C1E42E9E"]
@@ -590,7 +590,7 @@
 					type: "item"
 				}
 			]
-			x: 31.0d
+			x: 5.0d
 			y: 34.7d
 		}
 		{
@@ -600,8 +600,8 @@
 				item: { count: 1, id: "ae2:cell_component_1k" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 12.3d
+			x: 7.0d
+			y: 9.1d
 		}
 		{
 			dependencies: ["7C0184A29B8530EB"]
@@ -613,8 +613,8 @@
 				item: { count: 1, id: "ae2:cell_component_4k" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 13.9d
+			x: 9.0d
+			y: 9.1d
 		}
 		{
 			dependencies: ["0E1DE23AB140B7D4"]
@@ -626,8 +626,8 @@
 				item: { count: 1, id: "ae2:cell_component_16k" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 10.7d
+			x: 13.0d
+			y: 12.3d
 		}
 		{
 			dependencies: ["413E8E13A187A52D"]
@@ -639,8 +639,8 @@
 				item: { count: 1, id: "ae2:cell_component_64k" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 10.7d
+			x: 15.0d
+			y: 17.1d
 			rewards: [{
 				count: 1
 				id: "4AD3A6EC833CD88E"
@@ -664,8 +664,8 @@
 				item: { count: 1, id: "ae2:fluix_dust" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 33.1d
+			x: 5.0d
+			y: 37.9d
 		}
 		{
 			dependencies: ["70D80C15C1E42E9E"]
@@ -676,8 +676,8 @@
 				item: { count: 1, id: "ae2:wireless_booster" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 31.5d
+			x: 5.0d
+			y: 39.5d
 		}
 		{
 			dependencies: ["187F2F47EDB2629E"]
@@ -689,8 +689,8 @@
 				item: { count: 1, id: "ae2:cell_component_256k" }
 				type: "item"
 			}]
-			x: 35.0d
-			y: 12.3d
+			x: 19.0d
+			y: 18.7d
 			rewards: [{
 				count: 1
 				id: "11994B6C0706DD4D"
@@ -712,8 +712,8 @@
 				item: { count: 1, id: "ae2:item_storage_cell_256k" }
 				type: "item"
 			}]
-			x: 35.0d
-			y: 10.7d
+			x: 19.0d
+			y: 20.3d
 		}
 		{
 			dependencies: ["0E06644FC1B0D341"]
@@ -725,8 +725,8 @@
 				item: { count: 1, id: "megacells:cell_component_1m" }
 				type: "item"
 			}]
-			x: 39.0d
-			y: 10.7d
+			x: 21.0d
+			y: 17.1d
 			rewards: [{
 				count: 1
 				id: "35D8606D4EDAC77A"
@@ -743,8 +743,8 @@
 				item: { count: 1, id: "megacells:cell_component_4m" }
 				type: "item"
 			}]
-			x: 41.0d
-			y: 13.9d
+			x: 21.0d
+			y: 18.7d
 			rewards: [{
 				count: 1
 				id: "398528471C1698E2"
@@ -761,8 +761,8 @@
 				item: { count: 1, id: "megacells:cell_component_16m" }
 				type: "item"
 			}]
-			x: 43.0d
-			y: 15.5d
+			x: 19.0d
+			y: 21.9d
 			rewards: [{
 				count: 1
 				id: "4FA793BA466AA210"
@@ -779,8 +779,8 @@
 				item: { count: 1, id: "megacells:cell_component_64m" }
 				type: "item"
 			}]
-			x: 45.0d
-			y: 17.1d
+			x: 21.0d
+			y: 23.5d
 			rewards: [{
 				count: 1
 				id: "1EBA5B0421023A31"
@@ -797,8 +797,8 @@
 				item: { count: 1, id: "megacells:cell_component_256m" }
 				type: "item"
 			}]
-			x: 47.0d
-			y: 15.5d
+			x: 21.0d
+			y: 25.1d
 			rewards: [{
 				count: 1
 				id: "69E8FE85AE93F427"
@@ -829,8 +829,8 @@
 				item: { count: 1, id: "megacells:item_storage_cell_1m" }
 				type: "item"
 			}]
-			x: 41.0d
-			y: 10.7d
+			x: 19.0d
+			y: 17.1d
 		}
 		{
 			dependencies: ["6265515BFE6B5CC2"]
@@ -854,8 +854,8 @@
 				item: { count: 1, id: "megacells:item_storage_cell_4m" }
 				type: "item"
 			}]
-			x: 43.0d
-			y: 12.3d
+			x: 21.0d
+			y: 20.3d
 		}
 		{
 			dependencies: ["655C0FBF1FB00D89"]
@@ -879,8 +879,8 @@
 				item: { count: 1, id: "megacells:item_storage_cell_16m" }
 				type: "item"
 			}]
-			x: 43.0d
-			y: 13.9d
+			x: 19.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["38853BDD58F19B1F"]
@@ -904,8 +904,8 @@
 				item: { count: 1, id: "megacells:item_storage_cell_64m" }
 				type: "item"
 			}]
-			x: 45.0d
-			y: 18.7d
+			x: 21.0d
+			y: 21.9d
 		}
 		{
 			dependencies: ["323DC671CF4F16C8"]
@@ -929,8 +929,8 @@
 				item: { count: 1, id: "megacells:item_storage_cell_256m" }
 				type: "item"
 			}]
-			x: 45.0d
-			y: 15.5d
+			x: 21.0d
+			y: 26.7d
 		}
 		{
 			id: "51F2C82D9D23C8B6"
@@ -947,8 +947,8 @@
 				item: { count: 1, id: "extendedae:crystal_assembler" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: 21.9d
+			x: 9.0d
+			y: 26.7d
 		}
 		{
 			dependencies: ["51F2C82D9D23C8B6"]
@@ -964,8 +964,8 @@
 				item: { count: 1, id: "extendedae:ex_drive" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 23.5d
+			x: 7.0d
+			y: 26.7d
 		}
 		{
 			dependencies: ["51F2C82D9D23C8B6"]
@@ -981,8 +981,8 @@
 				item: { count: 1, id: "extendedae:ex_inscriber" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 21.9d
+			x: 9.0d
+			y: 28.3d
 		}
 		{
 			dependencies: ["51F2C82D9D23C8B6"]
@@ -998,8 +998,8 @@
 				item: { count: 1, id: "extendedae:ex_charger" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: 23.5d
+			x: 11.0d
+			y: 26.7d
 		}
 		{
 			id: "2A02F235E7D16773"
@@ -1014,8 +1014,8 @@
 				item: { count: 1, id: "megacells:mega_energy_cell" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 87.5d
+			x: 47.0d
+			y: 21.9d
 		}
 		{
 			dependencies: ["51F2C82D9D23C8B6"]
@@ -1031,8 +1031,8 @@
 				item: { count: 1, id: "extendedae:circuit_cutter" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: 23.5d
+			x: 9.0d
+			y: 25.1d
 		}
 		{
 			id: "29CD44313F7C8890"
@@ -1047,8 +1047,8 @@
 				item: { count: 1, id: "extendedae:machine_frame" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 84.3d
+			x: 49.0d
+			y: 21.9d
 		}
 		{
 			dependencies: ["51F2C82D9D23C8B6"]
@@ -1064,8 +1064,8 @@
 				item: { count: 1, id: "extendedae:crystal_fixer" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: 20.3d
+			x: 11.0d
+			y: 28.3d
 		}
 		{
 			dependencies: ["70D80C15C1E42E9E"]
@@ -1076,8 +1076,8 @@
 				item: { count: 1, id: "extendedae:me_packing_tape" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 34.7d
+			x: 5.0d
+			y: 36.3d
 		}
 		{
 			dependencies: ["7C0184A29B8530EB"]
@@ -1093,8 +1093,8 @@
 				item: { count: 1, id: "ae2things:disk_drive_1k" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 12.3d
+			x: 7.0d
+			y: 10.7d
 		}
 		{
 			dependencies: ["0E1DE23AB140B7D4"]
@@ -1110,8 +1110,8 @@
 				item: { count: 1, id: "ae2things:disk_drive_4k" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 15.5d
+			x: 9.0d
+			y: 10.7d
 		}
 		{
 			dependencies: ["413E8E13A187A52D"]
@@ -1127,8 +1127,8 @@
 				item: { count: 1, id: "ae2things:disk_drive_16k" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 9.1d
+			x: 13.0d
+			y: 10.7d
 		}
 		{
 			dependencies: ["187F2F47EDB2629E"]
@@ -1144,8 +1144,8 @@
 				item: { count: 1, id: "ae2things:disk_drive_64k" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 12.3d
+			x: 15.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["0E06644FC1B0D341"]
@@ -1161,8 +1161,8 @@
 				item: { count: 1, id: "ae2things:disk_drive_256k" }
 				type: "item"
 			}]
-			x: 35.0d
-			y: 13.9d
+			x: 17.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["3C3F8AF9841A1D11"]
@@ -1184,8 +1184,8 @@
 					type: "item"
 				}
 			]
-			x: 31.0d
-			y: 36.3d
+			x: 7.0d
+			y: 34.7d
 		}
 		{
 			id: "4BFE77077C798033"
@@ -1200,8 +1200,8 @@
 				item: { count: 1, id: "ae2:basic_card" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 34.7d
+			x: 47.0d
+			y: 17.1d
 		}
 		{
 			dependencies: ["4BFE77077C798033"]
@@ -1233,8 +1233,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 36.3d
+			x: 49.0d
+			y: 17.1d
 		}
 		{
 			id: "4C7E231442DC94DF"
@@ -1281,8 +1281,8 @@
 				item: { count: 1, id: "ae2:color_applicator" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: 89.1d
+			x: 41.0d
+			y: 20.3d
 		}
 		{
 			dependencies: ["63048F22F1981561"]
@@ -1292,8 +1292,8 @@
 				item: { count: 1, id: "ae2:crafting_accelerator" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 26.7d
+			x: 13.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["31A0C98EA03E4641"]
@@ -1326,8 +1326,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: 65.1d
+			x: 37.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["421F73A5E2956E4E"]
@@ -1343,8 +1343,8 @@
 				item: { count: 1, id: "ae2:fluix_smart_dense_cable" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 81.1d
+			x: 37.0d
+			y: 20.3d
 		}
 		{
 			id: "421F73A5E2956E4E"
@@ -1359,8 +1359,8 @@
 				item: { count: 1, id: "ae2:fluix_smart_cable" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 82.7d
+			x: 35.0d
+			y: 20.3d
 		}
 		{
 			dependencies: ["772AD8376DD7E3DE"]
@@ -1376,8 +1376,8 @@
 				item: { count: 1, id: "ae2:spatial_cell_component_128" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 44.3d
+			x: 43.0d
+			y: 12.3d
 		}
 		{
 			id: "63CB2C4A3B28C05D"
@@ -1393,8 +1393,8 @@
 				item: { count: 1, id: "ae2:matter_cannon" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: 85.9d
+			x: 39.0d
+			y: 20.3d
 		}
 		{
 			dependencies: ["338C7768B4D676D3"]
@@ -1410,8 +1410,8 @@
 				item: { count: 1, id: "ae2:spatial_cell_component_16" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 45.9d
+			x: 39.0d
+			y: 12.3d
 		}
 		{
 			id: "43884CC55F5D7DDD"
@@ -1425,8 +1425,8 @@
 				item: { count: 1, id: "ae2:memory_card" }
 				type: "item"
 			}]
-			x: 39.0d
-			y: 90.7d
+			x: 37.0d
+			y: 21.9d
 		}
 		{
 			id: "752D6FA1C0B8E30F"
@@ -1442,7 +1442,7 @@
 				type: "item"
 			}]
 			x: 35.0d
-			y: 85.9d
+			y: 21.9d
 		}
 		{
 			id: "6EABD47309F354DD"
@@ -1463,8 +1463,8 @@
 					type: "item"
 				}
 			]
-			x: 25.0d
-			y: 45.9d
+			x: 41.0d
+			y: 13.9d
 		}
 		{
 			dependencies: ["16CE82DED0F5AA55"]
@@ -1488,8 +1488,8 @@
 					type: "item"
 				}
 			]
-			x: 31.0d
-			y: 15.5d
+			x: 5.0d
+			y: 17.1d
 		}
 		{
 			id: "5E854D7F1348255B"
@@ -1504,8 +1504,8 @@
 				item: { count: 1, id: "ae2:silicon" }
 				type: "item"
 			}]
-			x: 35.0d
-			y: 90.7d
+			x: 47.0d
+			y: 20.3d
 		}
 		{
 			dependencies: ["712331CFE1AA1774"]
@@ -1520,7 +1520,7 @@
 				item: { count: 1, id: "ae2:singularity" }
 				type: "item"
 			}]
-			x: 31.0d
+			x: 7.0d
 			y: 17.1d
 		}
 		{
@@ -1537,8 +1537,8 @@
 				item: { count: 1, id: "ae2:spatial_cell_component_2" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 47.5d
+			x: 37.0d
+			y: 12.3d
 		}
 		{
 			id: "1BFBBAAD6B587649"
@@ -1553,8 +1553,8 @@
 				item: { count: 1, id: "ae2:spatial_io_port" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 49.1d
+			x: 35.0d
+			y: 10.7d
 		}
 		{
 			dependencies: ["1BFBBAAD6B587649"]
@@ -1569,8 +1569,8 @@
 				item: { count: 1, id: "ae2:spatial_pylon" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 50.7d
+			x: 37.0d
+			y: 10.7d
 		}
 		{
 			id: "3BEB56F2EFDF553C"
@@ -1579,8 +1579,8 @@
 				item: { count: 1, id: "ae2:toggle_bus" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 74.7d
+			x: 51.0d
+			y: 21.9d
 		}
 		{
 			id: "31A0C98EA03E4641"
@@ -1595,8 +1595,8 @@
 				item: { count: 1, id: "ae2:advanced_card" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: 63.5d
+			x: 35.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["5E4BDB19F93334A1"]
@@ -1611,8 +1611,8 @@
 				item: { count: 1, id: "ae2:wireless_terminal" }
 				type: "item"
 			}]
-			x: 57.0d
-			y: 26.7d
+			x: 43.0d
+			y: 17.1d
 		}
 		{
 			id: "186759DBB2AA89CD"
@@ -1626,8 +1626,8 @@
 				item: { count: 1, id: "megacells:1m_crafting_storage" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 87.5d
+			x: 43.0d
+			y: 21.9d
 		}
 		{
 			id: "6D593EE9664927ED"
@@ -1641,8 +1641,8 @@
 				item: { count: 1, id: "appflux:insulating_resin" }
 				type: "item"
 			}]
-			x: 43.0d
-			y: 41.1d
+			x: 35.0d
+			y: 17.1d
 		}
 		{
 			dependencies: ["6D593EE9664927ED"]
@@ -1657,8 +1657,8 @@
 				item: { count: 1, id: "appflux:harden_insulating_resin" }
 				type: "item"
 			}]
-			x: 43.0d
-			y: 42.7d
+			x: 37.0d
+			y: 17.1d
 		}
 		{
 			id: "635D2EAFF7FA5E7E"
@@ -1672,8 +1672,8 @@
 				item: { count: 1, id: "appflux:redstone_crystal" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 26.7d
+			x: 13.0d
+			y: 29.9d
 		}
 		{
 			dependencies: ["635D2EAFF7FA5E7E"]
@@ -1688,8 +1688,8 @@
 				item: { count: 1, id: "appflux:charged_redstone" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 28.3d
+			x: 13.0d
+			y: 31.5d
 		}
 		{
 			id: "2BBE038357B06D7F"
@@ -1703,8 +1703,8 @@
 				item: { count: 1, id: "appflux:energy_processor_press" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 28.3d
+			x: 11.0d
+			y: 33.1d
 		}
 		{
 			id: "1DB25C56BA9B49D7"
@@ -1718,8 +1718,8 @@
 				item: { count: 1, id: "megacells:accumulation_processor_press" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 20.3d
+			x: 11.0d
+			y: 17.1d
 		}
 		{
 			dependencies: ["51F2C82D9D23C8B6"]
@@ -1734,8 +1734,8 @@
 				item: { count: 1, id: "extendedae:concurrent_processor_press" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 20.3d
+			x: 11.0d
+			y: 25.1d
 		}
 		{
 			dependencies: ["2BBE038357B06D7F" "79DBC6A0539ADA92"]
@@ -1750,8 +1750,8 @@
 				item: { count: 1, id: "appflux:energy_processor" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 29.9d
+			x: 11.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["61E727F68F8EA832"]
@@ -1768,8 +1768,8 @@
 				item: { count: 1, id: "extendedae:concurrent_processor" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 20.3d
+			x: 13.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["1DB25C56BA9B49D7"]
@@ -1784,8 +1784,8 @@
 				item: { count: 1, id: "megacells:accumulation_processor" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 21.9d
+			x: 11.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["0EFEB33A89BBD57D"]
@@ -1800,8 +1800,8 @@
 				item: { count: 1, id: "appflux:flux_accessor" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: 29.9d
+			x: 9.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["09EE008BC420EF8A"]
@@ -1816,8 +1816,8 @@
 				item: { count: 1, id: "appflux:fe_cell_housing" }
 				type: "item"
 			}]
-			x: 45.0d
-			y: 42.7d
+			x: 39.0d
+			y: 17.1d
 		}
 		{
 			dependencies: ["0EFEB33A89BBD57D"]
@@ -1832,8 +1832,8 @@
 				item: { count: 1, id: "appflux:core_1k" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 29.9d
+			x: 9.0d
+			y: 33.1d
 		}
 		{
 			id: "6E6A0D502DFCC952"
@@ -1859,8 +1859,8 @@
 					type: "item"
 				}
 			]
-			x: 27.0d
-			y: 65.1d
+			x: 45.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["6E6A0D502DFCC952"]
@@ -1887,8 +1887,8 @@
 					type: "item"
 				}
 			]
-			x: 27.0d
-			y: 63.5d
+			x: 51.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["244CD83573C73850"]
@@ -1903,8 +1903,8 @@
 				item: { count: 1, id: "extendedae:entro_ingot" }
 				type: "item"
 			}]
-			x: 41.0d
-			y: 49.1d
+			x: 43.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["244CD83573C73850"]
@@ -1920,7 +1920,7 @@
 				type: "item"
 			}]
 			x: 43.0d
-			y: 47.5d
+			y: 13.9d
 		}
 		{
 			dependencies: ["02EB96EA4A64DA01"]
@@ -1935,8 +1935,8 @@
 				item: { count: 1, id: "extendedae:entro_dust" }
 				type: "item"
 			}]
-			x: 43.0d
-			y: 49.1d
+			x: 39.0d
+			y: 13.9d
 		}
 		{
 			dependencies: ["21A467F02AB070DC"]
@@ -1951,8 +1951,8 @@
 				item: { count: 1, id: "ae2:fluix_block" }
 				type: "item"
 			}]
-			x: 45.0d
-			y: 50.7d
+			x: 37.0d
+			y: 13.9d
 		}
 		{
 			id: "21A467F02AB070DC"
@@ -1966,8 +1966,8 @@
 				item: { count: 1, id: "extendedae:entro_seed" }
 				type: "item"
 			}]
-			x: 45.0d
-			y: 49.1d
+			x: 35.0d
+			y: 13.9d
 		}
 		{
 			dependencies: ["6AD21696A3A815C9"]
@@ -1989,8 +1989,8 @@
 					type: "item"
 				}
 			]
-			x: 27.0d
-			y: 18.7d
+			x: 15.0d
+			y: 23.5d
 		}
 		{
 			id: "3D611D08691AF5FF"
@@ -1999,8 +1999,8 @@
 				item: { count: 1, id: "ae2:io_port" }
 				type: "item"
 			}]
-			x: 27.0d
-			y: 85.9d
+			x: 43.0d
+			y: 20.3d
 		}
 		{
 			dependencies: ["6AD21696A3A815C9"]
@@ -2022,7 +2022,7 @@
 					type: "item"
 				}
 			]
-			x: 27.0d
+			x: 13.0d
 			y: 21.9d
 		}
 		{
@@ -2045,8 +2045,8 @@
 					type: "item"
 				}
 			]
-			x: 23.0d
-			y: 45.9d
+			x: 47.0d
+			y: 13.9d
 		}
 		{
 			dependencies: ["046BAD21D9397B5C"]
@@ -2061,8 +2061,8 @@
 				item: { count: 1, id: "extendedae:active_formation_plane" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 37.9d
+			x: 7.0d
+			y: 36.3d
 		}
 		{
 			dependencies: ["1AD2134BF5DA9515"]
@@ -2089,8 +2089,8 @@
 					type: "item"
 				}
 			]
-			x: 33.0d
-			y: 37.9d
+			x: 3.0d
+			y: 31.5d
 			rewards: [{
 				count: 1
 				id: "1CEEEE4885A0EB70"
@@ -2107,8 +2107,8 @@
 				item: { count: 1, id: "ae2:interface" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 36.3d
+			x: 3.0d
+			y: 33.1d
 		}
 		{
 			dependencies: ["6AD21696A3A815C9"]
@@ -2125,8 +2125,8 @@
 					type: "item"
 				}
 			]
-			x: 29.0d
-			y: 21.9d
+			x: 13.0d
+			y: 25.1d
 		}
 		{
 			dependencies: ["51F2C82D9D23C8B6"]
@@ -2141,8 +2141,8 @@
 				item: { count: 1, id: "extendedae:caner" }
 				type: "item"
 			}]
-			x: 21.0d
-			y: 21.9d
+			x: 7.0d
+			y: 25.1d
 		}
 		{
 			id: "712331CFE1AA1774"
@@ -2156,7 +2156,7 @@
 				item: { count: 1, id: "ae2:condenser" }
 				type: "item"
 			}]
-			x: 31.0d
+			x: 7.0d
 			y: 18.7d
 		}
 		{
@@ -2172,8 +2172,8 @@
 				item: { count: 1, id: "advanced_ae:reaction_chamber" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 20.3d
+			x: 9.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["6EABD47309F354DD"]
@@ -2189,8 +2189,8 @@
 				item: { count: 1, id: "ae2:blank_pattern" }
 				type: "item"
 			}]
-			x: 25.0d
-			y: 44.3d
+			x: 47.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["46FD132CE008A57A"]
@@ -2205,8 +2205,8 @@
 				item: { count: 1, id: "advanced_ae:adv_pattern_encoder" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 76.3d
+			x: 41.0d
+			y: 18.7d
 		}
 		{
 			id: "468FA0F4EEF3ED46"
@@ -2222,8 +2222,8 @@
 					type: "item"
 				}
 			]
-			x: 31.0d
-			y: 82.7d
+			x: 41.0d
+			y: 21.9d
 		}
 		{
 			dependencies: ["154D78C1C61DDB21"]
@@ -2233,11 +2233,10 @@
 				item: { count: 1, id: "ae2wtlib:quantum_bridge_card" }
 				type: "item"
 			}]
-			x: 31.0d
-			y: 13.9d
+			x: 3.0d
+			y: 17.1d
 		}
 		{
-			hide_dependency_lines: true
 			id: "5E4BDB19F93334A1"
 			rewards: [{
 				count: 8
@@ -2250,8 +2249,8 @@
 				item: { count: 1, id: "ae2:wireless_access_point" }
 				type: "item"
 			}]
-			x: 57.0d
-			y: 25.1d
+			x: 41.0d
+			y: 17.1d
 		}
 		{
 			id: "69BAA907D762FFD7"
@@ -2261,8 +2260,8 @@
 				item: { count: 1, id: "extendedae:pattern_modifier" }
 				type: "item"
 			}]
-			x: 35.0d
-			y: 87.5d
+			x: 49.0d
+			y: 20.3d
 		}
 		{
 			id: "46FD132CE008A57A"
@@ -2275,8 +2274,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
-			y: 74.7d
+			x: 39.0d
+			y: 18.7d
 		}
 		{
 			dependencies: ["117F757D5D09D747"]
@@ -2286,7 +2285,7 @@
 				item: { count: 1, id: "appflux:induction_card" }
 				type: "item"
 			}]
-			x: 27.0d
+			x: 9.0d
 			y: 29.9d
 		}
 		{
@@ -2302,8 +2301,8 @@
 				item: { count: 1, id: "appflux:core_4k" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 31.5d
+			x: 9.0d
+			y: 34.7d
 		}
 		{
 			dependencies: ["47B79E9F1154361E"]
@@ -2318,8 +2317,8 @@
 				item: { count: 1, id: "appflux:core_16k" }
 				type: "item"
 			}]
-			x: 35.0d
-			y: 29.9d
+			x: 11.0d
+			y: 34.7d
 		}
 		{
 			dependencies: ["6ACD4EBCFC3477E4"]
@@ -2343,8 +2342,8 @@
 				item: { count: 1, id: "appflux:core_64k" }
 				type: "item"
 			}]
-			x: 37.0d
-			y: 29.9d
+			x: 13.0d
+			y: 34.7d
 		}
 		{
 			dependencies: ["35A6B43CE99A7691"]
@@ -2368,8 +2367,8 @@
 				item: { count: 1, id: "appflux:core_256k" }
 				type: "item"
 			}]
-			x: 37.0d
-			y: 31.5d
+			x: 13.0d
+			y: 36.3d
 		}
 		{
 			dependencies: ["3C80BA4CD4E3205B"]
@@ -2386,8 +2385,8 @@
 					type: "item"
 				}
 			]
-			x: 39.0d
-			y: 7.5d
+			x: 23.0d
+			y: 15.5d
 			rewards: [{
 				count: 1
 				id: "5AFA28D0615FF74B"
@@ -2418,8 +2417,8 @@
 				item: { count: 1, id: "megacells:bulk_item_cell" }
 				type: "item"
 			}]
-			x: 39.0d
-			y: 9.1d
+			x: 23.0d
+			y: 17.1d
 		}
 		{
 			dependencies: ["57C22655F8E5774D"]
@@ -2435,8 +2434,8 @@
 				item: { count: 1, id: "megacells:radioactive_chemical_cell" }
 				type: "item"
 			}]
-			x: 33.0d
-			y: 23.5d
+			x: 9.0d
+			y: 20.3d
 		}
 		{
 			id: "5C27BB16E2310B9F"
@@ -2477,8 +2476,8 @@
 					type: "item"
 				}
 			]
-			x: 33.0d
-			y: 85.9d
+			x: 35.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["5F4CE2C211D3C196"]
@@ -2524,12 +2523,11 @@
 					type: "item"
 				}
 			]
-			x: 27.0d
-			y: 17.1d
+			x: 17.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["4E0540CE9D67DFF2" "6AD21696A3A815C9" "57C22655F8E5774D" "63048F22F1981561"]
-			hide_dependency_lines: true
 			id: "640052AE59DB4B84"
 			rewards: [
 				{
@@ -2581,8 +2579,8 @@
 					type: "item"
 				}
 			]
-			x: 31.0d
-			y: 21.9d
+			x: 11.0d
+			y: 20.3d
 		}
 		{
 			id: "05169AACAFD296C7"
@@ -2608,8 +2606,8 @@
 					type: "item"
 				}
 			]
-			x: 37.0d
-			y: 87.5d
+			x: 39.0d
+			y: 21.9d
 		}
 	]
 }

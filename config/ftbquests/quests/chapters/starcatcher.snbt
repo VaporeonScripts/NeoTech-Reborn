@@ -23,7 +23,7 @@
 				item: { count: 1, id: "starcatcher:starcatcher_guide" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -39,7 +39,7 @@
 				item: { count: 1, id: "starcatcher:starcatcher_rod" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -71,7 +71,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: -2.0d
 			y: 1.6d
 		}
 		{
@@ -92,7 +92,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: -4.0d
 			y: 1.6d
 		}
 		{
@@ -109,8 +109,8 @@
 				item: { count: 1, id: "starcatcher:fish_radar" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.6d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			id: "2FB679F6448E58BB"
@@ -126,8 +126,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -14.4d
+			x: -6.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["2FB679F6448E58BB"]
@@ -144,8 +144,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -12.8d
+			x: -4.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["4D4B88AE8272D8F4"]
@@ -162,12 +162,11 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -11.2d
+			x: -2.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["780EF8B9FD6437F4"]
-			hide_dependency_lines: true
 			id: "22C064FC3CA2AA23"
 			rewards: [{
 				count: 64
@@ -182,7 +181,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -11.2d
+			y: -1.6d
 		}
 		{
 			dependencies: ["22C064FC3CA2AA23"]
@@ -199,8 +198,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.6d
+			x: 4.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["1B26B5A7F0745D7E"]
@@ -216,8 +215,8 @@
 				item: { count: 1, id: "starcatcher:trophy_of_the_older_angler" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -8.0d
+			x: 6.0d
+			y: -1.6d
 		}
 	]
 }

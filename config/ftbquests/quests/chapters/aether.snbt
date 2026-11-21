@@ -23,8 +23,8 @@
 				id: "414997D27FB2024D"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 0.0d
+			y: -2.4d
 		}
 		{
 			id: "3DBEC2403FEA3077"
@@ -40,8 +40,8 @@
 				id: "149628006FAF96E5"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 3.2d
+			x: 8.0d
+			y: 0.8d
 		}
 		{
 			id: "6114372D527B5903"
@@ -56,8 +56,8 @@
 				id: "2FE39A0DD9DA8631"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -6.0d
+			y: -2.4d
 		}
 		{
 			id: "6B87EFBA4CAD37D8"
@@ -73,8 +73,8 @@
 				id: "7F7656C435574901"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -4.0d
+			y: -2.4d
 		}
 		{
 			id: "0E5FC8E3D917C59E"
@@ -89,8 +89,8 @@
 				item: { count: 1, id: "aether:altar" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.8d
+			x: -8.0d
+			y: 2.4d
 		}
 		{
 			id: "6FDB74D30B768032"
@@ -106,8 +106,8 @@
 				item: { count: 1, id: "aether:icestone" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.2d
+			x: 0.0d
+			y: 0.8d
 		}
 		{
 			id: "630C7784CE9C7EAA"
@@ -137,8 +137,8 @@
 				id: "6D00516005D13123"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 1.6d
+			x: 0.0d
+			y: -0.8d
 		}
 		{
 			id: "0E88C241E6006C36"
@@ -161,8 +161,8 @@
 				id: "2E73C00970FBCFE4"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 3.2d
+			x: -6.0d
+			y: 0.8d
 		}
 		{
 			icon: { id: "aether:gravitite_chestplate" }
@@ -199,8 +199,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 4.8d
+			x: -4.0d
+			y: 2.4d
 		}
 		{
 			id: "25B9B8A5B2FCF4FC"
@@ -214,8 +214,8 @@
 				item: { count: 1, id: "aether:hammer_of_kingbdogz" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.8d
+			x: -2.0d
+			y: 2.4d
 		}
 		{
 			id: "52E582A995B952D6"
@@ -229,8 +229,8 @@
 				item: { count: 1, id: "aether:valkyrie_lance" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.2d
+			x: -4.0d
+			y: 0.8d
 		}
 		{
 			id: "418C389883C776A2"
@@ -253,8 +253,8 @@
 				id: "61BC2DB8A5797C7F"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 4.8d
+			x: 0.0d
+			y: 2.4d
 		}
 		{
 			id: "135FD4B995F664FF"
@@ -277,8 +277,8 @@
 				id: "510AB7D1ED6AC362"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 3.2d
+			x: -2.0d
+			y: 0.8d
 		}
 		{
 			id: "67F7FAB96737DCE9"
@@ -305,8 +305,8 @@
 				item: { count: 1, id: "aether:regeneration_stone" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.2d
+			x: 4.0d
+			y: 0.8d
 		}
 		{
 			id: "111DFE40731A6528"
@@ -328,8 +328,8 @@
 				id: "71070049222B5F9E"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 1.6d
+			x: 8.0d
+			y: -0.8d
 		}
 		{
 			id: "29FA5DF916F12B75"
@@ -352,8 +352,8 @@
 				id: "2AC8BCDA71C7DABF"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 3.2d
+			x: 6.0d
+			y: 0.8d
 		}
 		{
 			id: "0C1CE44B24A01F1E"
@@ -375,8 +375,8 @@
 				id: "3CE2FF607FFE6E0C"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 3.2d
+			x: -8.0d
+			y: 0.8d
 		}
 		{
 			id: "3192E33EC2F3001B"
@@ -391,8 +391,8 @@
 				id: "5BC363F35AD395F2"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 3.2d
+			x: 2.0d
+			y: 0.8d
 		}
 		{
 			id: "4E76028E335C7AA1"
@@ -431,8 +431,8 @@
 				id: "37D12DEC621053A3"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 1.6d
+			x: 4.0d
+			y: -0.8d
 		}
 		{
 			icon: { id: "aether:obsidian_chestplate" }
@@ -472,8 +472,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 1.6d
+			x: 6.0d
+			y: -0.8d
 		}
 		{
 			id: "15D71004975A0E99"
@@ -489,8 +489,8 @@
 				id: "62BDC9A00DE6BCDA"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 4.0d
+			y: -2.4d
 		}
 		{
 			id: "31FC442BAEF7FE35"
@@ -505,8 +505,8 @@
 				id: "165C4992FC34DE40"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 1.6d
+			x: -8.0d
+			y: -0.8d
 		}
 		{
 			id: "6BA4B719E5A64CAC"
@@ -539,8 +539,8 @@
 				id: "539141EDA9367384"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 2.0d
+			y: -2.4d
 		}
 		{
 			id: "546A74F503A75C96"
@@ -554,8 +554,8 @@
 				item: { count: 1, id: "aether:aechor_petal" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.6d
+			x: -6.0d
+			y: -0.8d
 		}
 		{
 			id: "6A0AD1EDDED4F8F0"
@@ -578,8 +578,8 @@
 				id: "49E306FE7745299B"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 6.0d
+			y: -2.4d
 		}
 		{
 			id: "72E0EC631DAC1513"
@@ -589,8 +589,8 @@
 				id: "2530976CC479D0FF"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 0.0d
+			x: 8.0d
+			y: -2.4d
 		}
 		{
 			icon: { id: "deep_aether:stratus_chestplate" }
@@ -634,8 +634,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 4.8d
+			x: 4.0d
+			y: 2.4d
 		}
 		{
 			id: "0C7F75FA3DD3A2CD"
@@ -656,8 +656,8 @@
 				id: "690C3BE5047E10F3"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: -2.0d
+			y: -2.4d
 		}
 		{
 			id: "721EBB4B78B425A7"
@@ -684,8 +684,8 @@
 				id: "4E21E12C3A49FC15"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 4.8d
+			x: 2.0d
+			y: 2.4d
 		}
 		{
 			id: "7B91CDC8202CB41F"
@@ -706,8 +706,8 @@
 				id: "3665BB6559651DFD"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -8.0d
+			y: -2.4d
 		}
 		{
 			id: "2226A5E598BA2684"
@@ -723,8 +723,8 @@
 				id: "7B29FF30604B12BB"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 1.6d
+			x: -4.0d
+			y: -0.8d
 		}
 		{
 			id: "372F90BF0928F68D"
@@ -740,8 +740,8 @@
 				id: "699AF4DBA3A8E66A"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 1.6d
+			x: -2.0d
+			y: -0.8d
 		}
 		{
 			id: "7D5AB924D152BDB8"
@@ -755,8 +755,8 @@
 				item: { count: 1, id: "aether:enchanted_gravitite" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.8d
+			x: -6.0d
+			y: 2.4d
 		}
 		{
 			hide_until_deps_complete: false
@@ -772,8 +772,8 @@
 				id: "629422122DA6F159"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 1.6d
+			x: 2.0d
+			y: -0.8d
 		}
 	]
 }

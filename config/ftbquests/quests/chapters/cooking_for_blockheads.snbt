@@ -16,8 +16,8 @@
 				item: { count: 1, id: "cookingforblockheads:recipe_book" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.8d
+			x: -2.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["25B43F14C8AFB5BE"]
@@ -32,8 +32,8 @@
 				item: { count: 1, id: "cookingforblockheads:crafting_book" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.2d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["44ADE9005757637C"]
@@ -50,8 +50,8 @@
 				item: { count: 1, id: "cookingforblockheads:cooking_table" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.6d
+			x: 0.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -68,8 +68,8 @@
 				item: { count: 1, id: "cookingforblockheads:white_fridge" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 2.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -84,8 +84,8 @@
 				item: { count: 1, id: "cookingforblockheads:sink" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.2d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -102,8 +102,8 @@
 				item: { count: 1, id: "cookingforblockheads:counter" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -119,8 +119,8 @@
 				item: { count: 1, id: "cookingforblockheads:white_oven" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: -2.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -142,8 +142,8 @@
 				item: { count: 1, id: "cookingforblockheads:cow_jar" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.6d
+			x: 0.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -158,8 +158,8 @@
 				item: { count: 1, id: "cookingforblockheads:toaster" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.2d
+			x: 2.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["74922CD545618585"]
@@ -182,8 +182,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 1.6d
+			x: -2.0d
+			y: -2.4d
 		}
 		{
 			id: "4A87B7CF8FFE9590"
@@ -199,7 +199,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.6d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4A87B7CF8FFE9590"]
@@ -216,8 +216,8 @@
 				item: { count: 1, id: "farmingforblockheads:green_fertilizer" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.2d
+			x: 2.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["4A87B7CF8FFE9590"]
@@ -234,8 +234,8 @@
 				item: { count: 1, id: "farmingforblockheads:red_fertilizer" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 2.0d
+			y: 4.0d
 		}
 	]
 }

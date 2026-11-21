@@ -23,7 +23,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -40,7 +40,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -57,7 +57,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -74,7 +74,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 16.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -91,7 +91,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -108,7 +108,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -125,7 +125,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -142,7 +142,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -158,7 +158,7 @@
 				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: -6.0d
 			y: 0.0d
 		}
 	]

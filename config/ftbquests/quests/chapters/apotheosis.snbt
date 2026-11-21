@@ -19,8 +19,8 @@
 				id: "1AB5B641B0AC45FF"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 20.8d
+			x: 6.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["41C4CEED66FD93C0"]
@@ -31,8 +31,8 @@
 				id: "1382FCFCA5A86FE0"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 19.2d
+			x: 6.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["751144D1292A6218"]
@@ -53,8 +53,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 17.6d
+			x: 8.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["751144D1292A6218"]
@@ -64,8 +64,8 @@
 				item: { count: 1, id: "apotheosis:simple_reforging_table" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 20.8d
+			x: 6.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["189C761B83F6E852"]
@@ -82,8 +82,8 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
-			y: 19.2d
+			x: 6.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["23734E69D74BA281"]
@@ -94,7 +94,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 17.6d
+			y: 1.6d
 		}
 		{
 			dependencies: ["5360FBB4DEBA2DFB"]
@@ -105,7 +105,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["61BDFE874D356920"]
@@ -115,8 +115,8 @@
 				item: { count: 1, id: "apotheosis:reforging_table" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 20.8d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["189C761B83F6E852"]
@@ -127,8 +127,8 @@
 				id: "7C1722999ED2C106"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 19.2d
+			x: 4.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["1BD9B2B42C2A76A1"]
@@ -139,8 +139,8 @@
 				id: "5A14EB1D6DE8B511"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 19.2d
+			x: 4.0d
+			y: 4.8d
 			rewards: [{
 				count: 1
 				id: "0CC7B4D0138851B0"
@@ -158,8 +158,8 @@
 				id: "2839EF3CC77128C5"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 20.8d
+			x: 2.0d
+			y: 4.8d
 			rewards: [{
 				count: 1
 				id: "66946C32D6E89C6A"
@@ -183,8 +183,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 20.8d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5360FBB4DEBA2DFB"]
@@ -198,8 +198,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 17.6d
+			x: 10.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["0945C7B89329C657"]
@@ -213,8 +213,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 19.2d
+			x: 10.0d
+			y: 4.8d
 			rewards: [{
 				count: 1
 				id: "5A8BED30FB69E070"
@@ -237,8 +237,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 24.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["059B625288CE656A"]
@@ -249,8 +249,8 @@
 				item: { count: 1, id: "apothic_enchanting:raven_enchanting_table" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 25.6d
+			x: -6.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["059B625288CE656A"]
@@ -265,8 +265,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 24.0d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["059B625288CE656A"]
@@ -277,8 +277,8 @@
 				item: { count: 1, id: "apothic_enchanting:library" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 25.6d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7107506BF772DD74"]
@@ -289,8 +289,8 @@
 				item: { count: 1, id: "apothic_enchanting:ender_library" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 27.2d
+			x: -4.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["059B625288CE656A"]
@@ -305,8 +305,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 25.6d
+			x: -8.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["059B625288CE656A"]
@@ -324,8 +324,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 22.4d
+			x: -8.0d
+			y: 1.6d
 		}
 		{
 			dependencies: ["059B625288CE656A"]
@@ -348,8 +348,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 22.4d
+			x: -6.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["23FC33F83ACFC5C0"]
@@ -360,8 +360,8 @@
 				item: { count: 1, id: "apothic_enchanting:improved_scrap_tome" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 24.0d
+			x: -4.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["36530CC20B0D2324"]
@@ -372,8 +372,8 @@
 				item: { count: 1, id: "apothic_enchanting:extraction_tome" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 25.6d
+			x: -4.0d
+			y: 6.4d
 		}
 		{
 			dependencies: ["059B625288CE656A"]
@@ -383,8 +383,8 @@
 				item: { count: 1, id: "apothic_enchanting:scrap_tome" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 24.0d
+			x: -6.0d
+			y: 3.2d
 		}
 		{
 			dependencies: ["7308408DF2D17B69"]
@@ -398,8 +398,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 22.4d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			id: "2982D24B3875C074"
@@ -422,8 +422,8 @@
 				item: { count: 1, id: "minecraft:spawner" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 0.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -445,8 +445,8 @@
 				item: { count: 1, id: "apotheosis:frontier_spawner_upgrade_rune" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.4d
+			x: -4.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -468,8 +468,8 @@
 				item: { count: 1, id: "apotheosis:ascent_spawner_upgrade_rune" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.2d
+			x: -4.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -492,7 +492,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 9.6d
+			y: -4.8d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -515,7 +515,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 11.2d
+			y: -6.4d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -537,8 +537,8 @@
 				item: { count: 1, id: "apotheosis:youthful_spawner_rune" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.8d
+			x: -2.0d
+			y: -6.4d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -560,8 +560,8 @@
 				item: { count: 1, id: "apotheosis:spawn_range_spawner_rune" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.2d
+			x: 2.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -583,8 +583,8 @@
 				item: { count: 1, id: "apotheosis:silent_spawner_rune" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: 2.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -606,8 +606,8 @@
 				item: { count: 1, id: "apotheosis:redstone_control_spawner_rune" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.4d
+			x: 0.0d
+			y: -1.6d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -629,8 +629,8 @@
 				item: { count: 1, id: "apotheosis:no_ai_spawner_rune" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -2.0d
+			y: -4.8d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -652,8 +652,8 @@
 				item: { count: 1, id: "apotheosis:initial_health_spawner_rune" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -675,8 +675,8 @@
 				item: { count: 1, id: "apotheosis:ignore_players_spawner_rune" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 9.6d
+			x: 0.0d
+			y: -6.4d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -698,8 +698,8 @@
 				item: { count: 1, id: "apotheosis:ignore_light_spawner_rune" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.6d
+			x: -2.0d
+			y: -3.2d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -721,8 +721,8 @@
 				item: { count: 1, id: "apotheosis:ignore_conditions_spawner_rune" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -744,8 +744,8 @@
 				item: { count: 1, id: "apotheosis:echoing_spawner_rune" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.4d
+			x: 0.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -768,7 +768,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 9.6d
+			y: -3.2d
 		}
 		{
 			dependencies: ["2982D24B3875C074"]
@@ -790,8 +790,8 @@
 				item: { count: 1, id: "apotheosis:infused_spawner_rune" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.8d
+			x: 0.0d
+			y: -3.2d
 		}
 	]
 }

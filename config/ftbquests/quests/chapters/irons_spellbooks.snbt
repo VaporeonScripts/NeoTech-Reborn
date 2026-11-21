@@ -17,8 +17,8 @@
 				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 14.4d
+			x: -3.0d
+			y: 5.6d
 		}
 		{
 			id: "61743EF197A17A12"
@@ -35,8 +35,8 @@
 				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.2d
+			x: -13.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["191F435488BD2758"]
@@ -46,8 +46,8 @@
 				item: { count: 1, id: "irons_spellbooks:inscription_table" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: -9.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["188395E73A18E2D2"]
@@ -59,8 +59,8 @@
 				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 16.0d
+			x: 11.0d
+			y: 7.2d
 			rewards: [{
 				count: 1
 				id: "1B2406F1BD5CE366"
@@ -88,8 +88,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.4d
+			x: -9.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["191F435488BD2758"]
@@ -103,8 +103,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 12.8d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -120,20 +120,19 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 11.2d
+			x: -9.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			hide_dependency_lines: true
 			id: "409B92FD77AB5C18"
 			tasks: [{
 				id: "49D3427503DF3A6A"
 				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: -5.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["409B92FD77AB5C18"]
@@ -145,8 +144,8 @@
 				item: { count: 1, id: "irons_spellbooks:magic_cloth" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: -3.0d
+			y: -0.8d
 			rewards: [{
 				count: 1
 				id: "2A189D1DBE3E00FC"
@@ -165,8 +164,8 @@
 				item: { count: 1, id: "irons_spellbooks:cinder_essence" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 16.0d
+			x: 7.0d
+			y: 7.2d
 			rewards: [{
 				count: 1
 				id: "0B3BE7FED988D7C6"
@@ -177,7 +176,6 @@
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			hide_dependency_lines: true
 			id: "619E60387DC202AD"
 			tasks: [{
 				entity: "irons_spellbooks:cryomancer"
@@ -185,12 +183,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: 11.2d
+			x: -11.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			hide_dependency_lines: true
 			id: "4EE3B453CA3577F2"
 			rewards: [{
 				id: "1061D9F6EDDA5A22"
@@ -233,12 +230,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
-			y: 9.6d
+			x: -9.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			hide_dependency_lines: true
 			id: "68383D89E14C4816"
 			tasks: [{
 				entity: "irons_spellbooks:pyromancer"
@@ -246,8 +242,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 8.0d
-			y: 12.8d
+			x: -9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["18EF44843CA54DFF"]
@@ -273,8 +269,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 12.0d
-			y: 16.0d
+			x: -5.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["4C185C574ADE6333"]
@@ -310,12 +306,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 14.0d
-			y: 12.8d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			hide_dependency_lines: true
 			id: "7752170CD763C9D9"
 			tasks: [{
 				entity: "irons_spellbooks:apothecarist"
@@ -323,8 +318,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 10.0d
-			y: 11.2d
+			x: -7.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["102263463081F75B"]
@@ -334,8 +329,8 @@
 				item: { count: 1, id: "irons_spellbooks:blank_rune" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 8.0d
+			x: -1.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["5DCAC60D8B46EBA0"]
@@ -351,8 +346,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: 6.4d
+			x: 3.0d
+			y: -2.4d
 			rewards: [{
 				count: 1
 				id: "755BB2C6144F0B6A"
@@ -369,8 +364,8 @@
 				item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 17.6d
+			x: 9.0d
+			y: 8.8d
 			rewards: [{
 				count: 1
 				id: "646040BEC814DB98"
@@ -391,8 +386,8 @@
 				}
 				type: "item"
 			}]
-			x: 26.0d
-			y: 19.2d
+			x: 9.0d
+			y: 10.4d
 			rewards: [{
 				count: 1
 				id: "7C93516889B8A6A0"
@@ -403,15 +398,14 @@
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			hide_dependency_lines: true
 			id: "18EF44843CA54DFF"
 			tasks: [{
 				id: "7FA4ABB62F842D14"
 				item: { count: 1, id: "irons_spellbooks:wayward_compass" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 14.4d
+			x: -7.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -421,8 +415,8 @@
 				item: { count: 1, id: "irons_spellbooks:ancient_knowledge_fragment" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.4d
+			x: -13.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["4B232DF6258697A6"]
@@ -432,8 +426,8 @@
 				item: { count: 1, id: "irons_spellbooks:eldritch_manuscript" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.2d
+			x: -11.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["569AAE39DE56597A"]
@@ -459,8 +453,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.6d
+			x: -9.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["569AAE39DE56597A"]
@@ -486,8 +480,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.6d
+			x: -7.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["569AAE39DE56597A"]
@@ -513,8 +507,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: -11.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["569AAE39DE56597A"]
@@ -540,8 +534,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.6d
+			x: -7.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["569AAE39DE56597A"]
@@ -567,8 +561,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: -7.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["569AAE39DE56597A"]
@@ -594,8 +588,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.6d
+			x: -9.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["787A726BEEC0BB74"]
@@ -609,8 +603,8 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
-			y: 8.0d
+			x: 5.0d
+			y: -0.8d
 			rewards: [{
 				count: 1
 				id: "22CE65C11B420C79"
@@ -631,8 +625,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: 4.8d
+			x: 3.0d
+			y: -4.0d
 			rewards: [{
 				count: 1
 				id: "5043CD0A71DBADAB"
@@ -653,8 +647,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 6.4d
+			x: 1.0d
+			y: -2.4d
 			rewards: [{
 				count: 1
 				id: "75B9B0F4C6DF1A56"
@@ -675,8 +669,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: 8.0d
+			x: 3.0d
+			y: -0.8d
 			rewards: [{
 				count: 1
 				id: "7CD2D27D8D53694C"
@@ -704,8 +698,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.8d
+			x: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["356CA5DB72734326" "409B92FD77AB5C18" "34EDB874318340F6"]
@@ -726,8 +720,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.4d
+			x: -5.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["6D8BE79061F0CC20" "102263463081F75B"]
@@ -748,8 +742,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.4d
+			x: -3.0d
+			y: -2.4d
 			rewards: [{
 				count: 1
 				id: "2CFB1DBF1F1950D9"
@@ -770,8 +764,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.8d
+			x: -3.0d
+			y: -4.0d
 			rewards: [{
 				count: 1
 				id: "43CDF473EFD59629"
@@ -799,8 +793,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.4d
+			x: -7.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["74FEE5E4E73AE4D8"]
@@ -821,12 +815,11 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: -7.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			hide_dependency_lines: true
 			icon: { id: "irons_spellbooks:priest_spawn_egg" }
 			id: "2FEE2E40891D99EB"
 			tasks: [{
@@ -837,8 +830,8 @@
 				to_observe: "irons_spellbooks:priest"
 				type: "observation"
 			}]
-			x: 12.0d
-			y: 11.2d
+			x: -5.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["28CF75BB46B75616"]
@@ -848,8 +841,8 @@
 				item: { count: 1, id: "irons_spellbooks:oakskin_elixir" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 17.6d
+			x: 11.0d
+			y: 8.8d
 			rewards: [{
 				count: 1
 				id: "6A020BC80E6FD1C9"
@@ -866,8 +859,8 @@
 				item: { count: 1, id: "irons_spellbooks:invisibility_elixir" }
 				type: "item"
 			}]
-			x: 30.0d
-			y: 17.6d
+			x: 13.0d
+			y: 8.8d
 			rewards: [{
 				count: 1
 				id: "62C967E3D7D5C4A9"
@@ -884,8 +877,8 @@
 				item: { count: 1, id: "irons_spellbooks:evasion_elixir" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 16.0d
+			x: 9.0d
+			y: 7.2d
 			rewards: [{
 				count: 1
 				id: "33B8A1A8F959567C"
@@ -902,8 +895,8 @@
 				item: { count: 1, id: "irons_spellbooks:greater_healing_potion" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 14.4d
+			x: 11.0d
+			y: 5.6d
 			rewards: [{
 				count: 1
 				id: "4A8FEA4EC045596E"
@@ -927,8 +920,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 12.8d
+			x: -11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["35E6404B7ABD257A"]
@@ -938,8 +931,8 @@
 				structure: "irons_spellbooks:ancient_battleground"
 				type: "structure"
 			}]
-			x: 20.0d
-			y: 12.8d
+			x: 3.0d
+			y: 4.0d
 			rewards: [{
 				count: 1
 				id: "4D840A7AF2245518"
@@ -957,8 +950,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 22.0d
-			y: 14.4d
+			x: 5.0d
+			y: 5.6d
 			rewards: [{
 				count: 1
 				id: "1FB8153F87ED8C02"
@@ -974,8 +967,8 @@
 				item: { count: 1, id: "irons_spellbooks:artificer_cane" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 24.0d
+			x: 17.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -985,8 +978,8 @@
 				item: { count: 1, id: "irons_spellbooks:lightning_rod" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.2d
+			x: -15.0d
+			y: 2.4d
 		}
 		{
 			id: "091F769995DFC257"
@@ -995,8 +988,8 @@
 				item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 24.0d
+			x: 15.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["2A2B1C7AA042DD8C"]
@@ -1022,8 +1015,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: 9.6d
+			x: -1.0d
+			y: 0.8d
 			rewards: [{
 				count: 1
 				id: "494D0872381AD120"
@@ -1040,8 +1033,8 @@
 				item: { count: 1, id: "irons_spellbooks:portal_frame" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 16.0d
+			x: 3.0d
+			y: 7.2d
 			rewards: [{
 				count: 1
 				id: "3389D62C78E7EC8C"
@@ -1060,8 +1053,8 @@
 				item: { count: 1, id: "irons_spellbooks:arcane_ingot" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 11.2d
+			x: 1.0d
+			y: 2.4d
 			rewards: [{
 				count: 1
 				id: "11B53889BCF75D50"
@@ -1078,8 +1071,8 @@
 				item: { count: 1, id: "irons_spellbooks:mana_ring" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 9.6d
+			x: 1.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["40EF421A1673BED6"]
@@ -1089,8 +1082,8 @@
 				item: { count: 1, id: "irons_spellbooks:cooldown_ring" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 11.2d
+			x: 7.0d
+			y: 2.4d
 			rewards: [{
 				count: 1
 				id: "66E4C3B3C4BD1F80"
@@ -1107,8 +1100,8 @@
 				item: { count: 1, id: "irons_spellbooks:cast_time_ring" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 12.8d
+			x: 5.0d
+			y: 4.0d
 			rewards: [{
 				count: 1
 				id: "01A32EF1626351BB"
@@ -1125,8 +1118,8 @@
 				item: { count: 1, id: "irons_spellbooks:affinity_ring" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 14.4d
+			x: 9.0d
+			y: 5.6d
 			rewards: [{
 				count: 1
 				id: "7E0EF10FF27E7761"
@@ -1143,8 +1136,8 @@
 				item: { count: 1, id: "irons_spellbooks:expulsion_ring" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 9.6d
+			x: 7.0d
+			y: 0.8d
 			rewards: [{
 				count: 1
 				id: "06AF8E4108FC1DB7"
@@ -1161,8 +1154,8 @@
 				item: { count: 1, id: "irons_spellbooks:visibility_ring" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 11.2d
+			x: 5.0d
+			y: 2.4d
 			rewards: [{
 				count: 1
 				id: "50F4CF327EED8E76"
@@ -1179,8 +1172,8 @@
 				item: { count: 1, id: "irons_spellbooks:emerald_stoneplate_ring" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 12.8d
+			x: 9.0d
+			y: 4.0d
 			rewards: [{
 				count: 1
 				id: "5F7794720A19DEAC"
@@ -1197,8 +1190,8 @@
 				item: { count: 1, id: "irons_spellbooks:fireward_ring" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 16.0d
+			x: 5.0d
+			y: 7.2d
 			rewards: [{
 				count: 1
 				id: "614CD6475BA9468B"
@@ -1215,8 +1208,8 @@
 				item: { count: 1, id: "irons_spellbooks:poisonward_ring" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 14.4d
+			x: 7.0d
+			y: 5.6d
 			rewards: [{
 				count: 1
 				id: "37662E5BFD42CBF8"
@@ -1233,8 +1226,8 @@
 				item: { count: 1, id: "irons_spellbooks:heavy_chain_necklace" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 11.2d
+			x: 9.0d
+			y: 2.4d
 			rewards: [{
 				count: 1
 				id: "20C5E6561E2E8B1B"
@@ -1251,8 +1244,8 @@
 				item: { count: 1, id: "irons_spellbooks:conjurers_talisman" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 9.6d
+			x: 9.0d
+			y: 0.8d
 			rewards: [{
 				count: 1
 				id: "40838BF3FC520FDE"
@@ -1269,8 +1262,8 @@
 				item: { count: 1, id: "irons_spellbooks:concentration_amulet" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 9.6d
+			x: 5.0d
+			y: 0.8d
 			rewards: [{
 				count: 1
 				id: "480A7877E7B5D71C"
@@ -1281,15 +1274,14 @@
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			hide_dependency_lines: true
 			id: "16B949AA9C525115"
 			tasks: [{
 				id: "36653D7AA60833FE"
 				item: { count: 1, id: "irons_spellbooks:amethyst_resonance_charm" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 12.8d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["102263463081F75B" "34EDB874318340F6"]
@@ -1299,8 +1291,8 @@
 				item: { count: 1, id: "irons_spellbooks:lesser_spell_slot_upgrade" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 9.6d
+			x: -3.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["35E6404B7ABD257A"]
@@ -1312,8 +1304,8 @@
 				item: { count: 1, id: "irons_spellbooks:mithril_ingot" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 14.4d
+			x: 3.0d
+			y: 5.6d
 			rewards: [{
 				count: 1
 				id: "3E937141B032B1E1"
@@ -1330,8 +1322,8 @@
 				item: { count: 1, id: "irons_spellbooks:lightning_bottle" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.6d
+			x: -13.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -1341,8 +1333,8 @@
 				item: { count: 1, id: "irons_spellbooks:divine_pearl" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.6d
+			x: -11.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -1352,8 +1344,8 @@
 				item: { count: 1, id: "irons_spellbooks:blood_vial" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 16.0d
+			x: -13.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -1363,8 +1355,8 @@
 				item: { count: 1, id: "irons_spellbooks:frozen_bone" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.8d
+			x: -13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4594A8C1E81F7D37"]
@@ -1376,8 +1368,8 @@
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: -9.0d
+			y: -8.8d
 			rewards: [{
 				count: 1
 				id: "53488F820E532388"
@@ -1394,8 +1386,8 @@
 				item: { count: 1, id: "minecraft:poisonous_potato" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.6d
+			x: -15.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -1405,8 +1397,8 @@
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 14.4d
+			x: -11.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -1416,8 +1408,8 @@
 				item: { count: 1, id: "minecraft:ender_pearl" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: -15.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["61743EF197A17A12"]
@@ -1427,8 +1419,8 @@
 				item: { count: 1, id: "minecraft:emerald" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.8d
+			x: -15.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3F9305C8DF6F929A"]
@@ -1454,8 +1446,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 16.0d
+			x: -11.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["495611D83A45B8B7"]
@@ -1481,8 +1473,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 14.4d
+			x: -13.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["62A978B0A256B155"]
@@ -1508,8 +1500,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -17.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["7C80C8D1FCBB98AB"]
@@ -1535,8 +1527,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 14.4d
+			x: -15.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["3B8BC6CC1B02ED7E"]
@@ -1562,8 +1554,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 16.0d
+			x: -15.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["43DA96FDDA24D10F"]
@@ -1589,8 +1581,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: -11.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["2494ADFB9F5BDF09"]
@@ -1616,8 +1608,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.4d
+			x: -15.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["707E0F4AC4A3468F"]
@@ -1643,8 +1635,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: -13.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["604330BFCBF3E6E5"]
@@ -1670,8 +1662,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 12.8d
+			x: 1.0d
+			y: 4.0d
 			rewards: [{
 				count: 1
 				id: "694AD73478B5559D"
@@ -1690,8 +1682,8 @@
 				item: { count: 1, id: "irons_spellbooks:mithril_scrap" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 12.8d
+			x: 7.0d
+			y: 4.0d
 			rewards: [{
 				count: 1
 				id: "53C7442EB123FC33"
@@ -1702,7 +1694,6 @@
 		}
 		{
 			dependencies: ["191F435488BD2758"]
-			hide_dependency_lines: true
 			id: "6E45DE5B628038D1"
 			tasks: [{
 				entity: "minecraft:hoglin"
@@ -1710,8 +1701,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 10.0d
-			y: 9.6d
+			x: -7.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["2FEE2E40891D99EB"]
@@ -1732,8 +1723,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: 11.2d
+			x: -3.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["0F48B06DB4108F29"]
@@ -1789,8 +1780,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 16.0d
+			x: -3.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["6E45DE5B628038D1"]
@@ -1800,8 +1791,8 @@
 				item: { count: 1, id: "irons_spellbooks:hogskin" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.6d
+			x: -5.0d
+			y: 0.8d
 		}
 	]
 }

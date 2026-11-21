@@ -30,8 +30,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 9.6d
+			x: 7.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["01E03C6ADEAAE17C"]
@@ -47,8 +47,8 @@
 				item: { count: 1, id: "theurgy:liquefaction_cauldron" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 8.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["249BA0F38C7AD688" "6381EB59F371696B"]
@@ -95,8 +95,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 8.0d
+			x: 7.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["3DD32E24F8A24FAD"]
@@ -119,8 +119,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 9.6d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3DD32E24F8A24FAD"]
@@ -143,8 +143,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 9.6d
+			x: 5.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["08E13926AE218017"]
@@ -180,8 +180,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 6.4d
+			x: 5.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["344EBBBE464E0E8F"]
@@ -196,8 +196,8 @@
 				item: { count: 1, id: "theurgy:fermentation_vat" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 6.4d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6381EB59F371696B"]
@@ -212,8 +212,8 @@
 				item: { count: 1, id: "theurgy:digestion_vat" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.4d
+			x: 9.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["31A2BA9F565C32E3"]
@@ -229,8 +229,8 @@
 				item: { count: 1, id: "theurgy:mercury_shard" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["32E47300F57547A6"]
@@ -245,8 +245,8 @@
 				item: { count: 1, id: "theurgy:caloric_flux_emitter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 1.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["32E47300F57547A6"]
@@ -261,8 +261,8 @@
 				item: { count: 1, id: "theurgy:mercury_catalyst" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.6d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["249BA0F38C7AD688"]
@@ -288,8 +288,8 @@
 				item: { count: 1, id: "theurgy:mercurial_wand" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 3.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["32E47300F57547A6"]
@@ -311,8 +311,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 9.6d
+			x: 3.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["32E47300F57547A6"]
@@ -327,8 +327,8 @@
 				item: { count: 1, id: "theurgy:list_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.4d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["32E47300F57547A6"]
@@ -350,8 +350,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 6.4d
+			x: 1.0d
+			y: -7.2d
 		}
 		{
 			id: "3DD32E24F8A24FAD"
@@ -367,8 +367,8 @@
 				item: { count: 1, id: "theurgy:sal_ammoniac_crystal" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 11.2d
+			x: 5.0d
+			y: -2.4d
 		}
 		{
 			id: "1AC26146E6B66060"
@@ -382,8 +382,8 @@
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_abundant" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 16.0d
+			x: -9.0d
+			y: 4.0d
 		}
 		{
 			id: "3ACF0EAC5C5CEAB0"
@@ -397,8 +397,8 @@
 				item: { count: 1, id: "theurgy:divination_rod_t1" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 19.2d
+			x: -5.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["1AC26146E6B66060" "3ACF0EAC5C5CEAB0"]
@@ -417,8 +417,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 17.6d
+			x: -7.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["5FD928205FF68580"]
@@ -433,8 +433,8 @@
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_rare" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 16.0d
+			x: -7.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["3873C8BF436FA4DE"]
@@ -449,8 +449,8 @@
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_precious" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 14.4d
+			x: -7.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["7D9C263C62F23F27"]
@@ -465,8 +465,8 @@
 				item: { count: 1, id: "theurgy:divination_rod_t2" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 19.2d
+			x: -7.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["3F0FBA9B295C00F7"]
@@ -481,8 +481,8 @@
 				item: { count: 1, id: "theurgy:divination_rod_t3" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 19.2d
+			x: -9.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["1AFB83F956107321"]
@@ -497,8 +497,8 @@
 				item: { count: 1, id: "theurgy:divination_rod_t4" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 17.6d
+			x: -9.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["7D9C263C62F23F27"]
@@ -513,8 +513,8 @@
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_common" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 17.6d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0E6A77563BFCDAB3"]
@@ -529,8 +529,8 @@
 				item: { count: 1, id: "theurgy:sal_ammoniac_bucket" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: 5.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["3A2B6439D1C6FF2F" "3278039B863183CA"]
@@ -558,8 +558,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.4d
+			x: 9.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["344EBBBE464E0E8F"]
@@ -605,8 +605,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 8.0d
+			x: 5.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["344EBBBE464E0E8F"]
@@ -672,8 +672,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 9.6d
+			x: 7.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["344EBBBE464E0E8F"]
@@ -734,8 +734,8 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
-			y: 9.6d
+			x: 5.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["344EBBBE464E0E8F"]
@@ -776,8 +776,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 6.4d
+			x: 9.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["79E0A15A0FBCD2CC"]
@@ -807,8 +807,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.0d
-			y: 8.0d
+			x: 7.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["32E47300F57547A6"]
@@ -823,8 +823,8 @@
 				item: { count: 1, id: "theurgy:sulfuric_flux_emitter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 5.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["503EAA79D946B3B9"]
@@ -848,8 +848,8 @@
 				item: { count: 1, id: "theurgy:fermentation_starter" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 4.8d
+			x: 7.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["533D9936392A7D45"]
@@ -881,8 +881,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 8.0d
+			x: 7.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["0D81F9CC548BA96F"]
@@ -897,8 +897,8 @@
 				item: { count: 1, id: "theurgy:purified_gold" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.8d
+			x: 9.0d
+			y: 0.8d
 		}
 	]
 }

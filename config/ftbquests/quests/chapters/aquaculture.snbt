@@ -16,8 +16,8 @@
 				item: { count: 1, id: "aquaculture:atlantic_cod" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.8d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			id: "4CEA79B25D65F561"
@@ -26,8 +26,8 @@
 				item: { count: 1, id: "aquaculture:blackfish" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 14.4d
+			x: -2.0d
+			y: -2.4d
 		}
 		{
 			id: "750AD0EAFD7AC8E6"
@@ -36,8 +36,8 @@
 				item: { count: 1, id: "aquaculture:pacific_halibut" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.8d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			id: "441E636144B67259"
@@ -46,8 +46,8 @@
 				item: { count: 1, id: "aquaculture:atlantic_halibut" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.8d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			id: "4262215922348149"
@@ -56,8 +56,8 @@
 				item: { count: 1, id: "aquaculture:atlantic_herring" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 12.8d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			id: "7BC7CD1E1D7D2A99"
@@ -66,8 +66,8 @@
 				item: { count: 1, id: "aquaculture:pink_salmon" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 17.6d
+			x: 12.0d
+			y: 0.8d
 		}
 		{
 			id: "5EC884935B631CDE"
@@ -76,8 +76,8 @@
 				item: { count: 1, id: "aquaculture:pollock" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 19.2d
+			x: 2.0d
+			y: 2.4d
 		}
 		{
 			id: "60ADB70BA2114BD3"
@@ -86,8 +86,8 @@
 				item: { count: 1, id: "aquaculture:rainbow_trout" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 19.2d
+			x: 8.0d
+			y: 2.4d
 		}
 		{
 			id: "16E1B07466047CD3"
@@ -96,8 +96,8 @@
 				item: { count: 1, id: "aquaculture:bayad" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 19.2d
+			x: 10.0d
+			y: 2.4d
 		}
 		{
 			id: "2D6C3A0B84ED63DE"
@@ -106,8 +106,8 @@
 				item: { count: 1, id: "aquaculture:capitaine" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 19.2d
+			x: 12.0d
+			y: 2.4d
 		}
 		{
 			id: "70D9DF4A9E061CEB"
@@ -116,8 +116,8 @@
 				item: { count: 1, id: "aquaculture:synodontis" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 20.8d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			id: "2019219F3CEB6F63"
@@ -126,8 +126,8 @@
 				item: { count: 1, id: "aquaculture:smallmouth_bass" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 19.2d
+			x: 4.0d
+			y: 2.4d
 		}
 		{
 			id: "0A8134FBEF8971F1"
@@ -136,8 +136,8 @@
 				item: { count: 1, id: "aquaculture:bluegill" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 19.2d
+			x: -4.0d
+			y: 2.4d
 		}
 		{
 			id: "4A89C1C145646884"
@@ -146,8 +146,8 @@
 				item: { count: 1, id: "aquaculture:brown_trout" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 17.6d
+			x: 6.0d
+			y: 0.8d
 		}
 		{
 			id: "275D4238928C567C"
@@ -156,8 +156,8 @@
 				item: { count: 1, id: "aquaculture:carp" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 12.8d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			id: "5BC08AC74035D855"
@@ -166,8 +166,8 @@
 				item: { count: 1, id: "aquaculture:catfish" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 12.8d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			id: "4A45135E97DBCE0B"
@@ -176,8 +176,8 @@
 				item: { count: 1, id: "aquaculture:gar" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 16.0d
+			x: 12.0d
+			y: -0.8d
 		}
 		{
 			id: "6E43042D3CEE208D"
@@ -186,8 +186,8 @@
 				item: { count: 1, id: "aquaculture:minnow" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 16.0d
+			x: 8.0d
+			y: -0.8d
 		}
 		{
 			id: "1D53EC19A2C4598D"
@@ -196,8 +196,8 @@
 				item: { count: 1, id: "aquaculture:muskellunge" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 16.0d
+			x: -4.0d
+			y: -0.8d
 		}
 		{
 			id: "21D8A54F15202BE8"
@@ -206,8 +206,8 @@
 				item: { count: 1, id: "aquaculture:perch" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 17.6d
+			x: 0.0d
+			y: 0.8d
 		}
 		{
 			id: "1B6D8DC930F8EF54"
@@ -216,8 +216,8 @@
 				item: { count: 1, id: "aquaculture:arapaima" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 16.0d
+			x: 10.0d
+			y: -0.8d
 		}
 		{
 			id: "218411D5E4987463"
@@ -226,8 +226,8 @@
 				item: { count: 1, id: "aquaculture:piranha" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 20.8d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			id: "11E773F7B05CC248"
@@ -236,8 +236,8 @@
 				item: { count: 1, id: "aquaculture:tambaqui" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 14.4d
+			x: 2.0d
+			y: -2.4d
 		}
 		{
 			id: "04DD255BCC082736"
@@ -246,8 +246,8 @@
 				item: { count: 1, id: "aquaculture:brown_shrooma" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 14.4d
+			x: 4.0d
+			y: -2.4d
 		}
 		{
 			id: "5ABE0839F7584525"
@@ -256,8 +256,8 @@
 				item: { count: 1, id: "aquaculture:red_shrooma" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 14.4d
+			x: -4.0d
+			y: -2.4d
 		}
 		{
 			id: "182439CC27EEAC24"
@@ -266,8 +266,8 @@
 				item: { count: 1, id: "aquaculture:jellyfish" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.8d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			id: "1B860A210FF856FC"
@@ -276,8 +276,8 @@
 				item: { count: 1, id: "aquaculture:red_grouper" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 12.8d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			id: "006A684E67B965F5"
@@ -286,8 +286,8 @@
 				item: { count: 1, id: "aquaculture:tuna" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 14.4d
+			x: 0.0d
+			y: -2.4d
 		}
 		{
 			id: "41874A2107633936"
@@ -296,8 +296,8 @@
 				item: { count: 1, id: "aquaculture:leech" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 19.2d
+			x: 6.0d
+			y: 2.4d
 		}
 		{
 			id: "41DC432CE80CB61F"
@@ -307,8 +307,8 @@
 				item: { count: 1, id: "aquaculture:box_turtle" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 14.4d
+			x: 12.0d
+			y: -2.4d
 		}
 		{
 			id: "01E95662DCCE792B"
@@ -318,8 +318,8 @@
 				item: { count: 1, id: "aquaculture:arrau_turtle" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 16.0d
+			x: 6.0d
+			y: -0.8d
 		}
 		{
 			id: "3D30DE240B488D3A"
@@ -328,8 +328,8 @@
 				item: { count: 1, id: "aquaculture:goldfish" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 12.8d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			id: "34C78427A24B86E3"
@@ -350,8 +350,8 @@
 				item: { count: 1, id: "aquaculture:iron_fishing_rod" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 16.0d
+			x: -2.0d
+			y: -0.8d
 		}
 		{
 			id: "15AE2E07125474FA"
@@ -372,8 +372,8 @@
 				item: { count: 1, id: "aquaculture:gold_fishing_rod" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 16.0d
+			x: 0.0d
+			y: -0.8d
 		}
 		{
 			id: "4FF54BF5B48FCC3E"
@@ -394,8 +394,8 @@
 				item: { count: 1, id: "aquaculture:diamond_fishing_rod" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 16.0d
+			x: 2.0d
+			y: -0.8d
 		}
 		{
 			id: "6EB8725CD38955BC"
@@ -416,8 +416,8 @@
 				item: { count: 1, id: "aquaculture:neptunium_fishing_rod" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 16.0d
+			x: 4.0d
+			y: -0.8d
 		}
 		{
 			id: "0650B75F3E47F798"
@@ -440,8 +440,8 @@
 				item: { count: 1, id: "aquaculture:iron_hook" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.6d
+			x: -10.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -464,8 +464,8 @@
 				item: { count: 1, id: "aquaculture:gold_hook" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.6d
+			x: -10.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -487,8 +487,8 @@
 				item: { count: 1, id: "aquaculture:diamond_hook" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.2d
+			x: -12.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -511,8 +511,8 @@
 				item: { count: 1, id: "aquaculture:light_hook" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.2d
+			x: -12.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -535,8 +535,8 @@
 				item: { count: 1, id: "aquaculture:heavy_hook" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -3.2d
+			x: -10.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -560,8 +560,8 @@
 				item: { count: 1, id: "aquaculture:double_hook" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: -8.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -584,8 +584,8 @@
 				item: { count: 1, id: "aquaculture:redstone_hook" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: -8.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["2A8AD3ECC97D43DF"]
@@ -600,8 +600,8 @@
 				item: { count: 1, id: "aquaculture:nether_star_hook" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.8d
+			x: -12.0d
+			y: 2.4d
 		}
 		{
 			id: "0BAB71CC13B3829B"
@@ -624,8 +624,8 @@
 				item: { count: 1, id: "aquaculture:tackle_box" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 14.4d
+			x: 10.0d
+			y: -2.4d
 		}
 		{
 			id: "5FFC4F9FA66E9BAA"
@@ -648,8 +648,8 @@
 				item: { count: 1, id: "aquaculture:fishing_line" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 14.4d
+			x: 6.0d
+			y: -2.4d
 		}
 		{
 			id: "40719DFBF30F672F"
@@ -671,8 +671,8 @@
 				item: { count: 1, id: "aquaculture:bobber" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 14.4d
+			x: 8.0d
+			y: -2.4d
 		}
 		{
 			id: "20ABBB37ABC4922E"
@@ -694,8 +694,8 @@
 				item: { count: 1, id: "aquaculture:wooden_fillet_knife" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 17.6d
+			x: 2.0d
+			y: 0.8d
 		}
 		{
 			id: "3243ADA9881FFFBA"
@@ -719,8 +719,8 @@
 				item: { count: 1, id: "aquaculture:stone_fillet_knife" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 17.6d
+			x: 8.0d
+			y: 0.8d
 		}
 		{
 			id: "202FA9A77132A3EF"
@@ -743,8 +743,8 @@
 				item: { count: 1, id: "aquaculture:iron_fillet_knife" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 19.2d
+			x: -2.0d
+			y: 2.4d
 		}
 		{
 			id: "241D2F19426D33B4"
@@ -758,8 +758,8 @@
 				item: { count: 1, id: "aquaculture:gold_fillet_knife" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 19.2d
+			x: 0.0d
+			y: 2.4d
 		}
 		{
 			id: "6D68225D5481E46D"
@@ -780,8 +780,8 @@
 				item: { count: 1, id: "aquaculture:diamond_fillet_knife" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 17.6d
+			x: 10.0d
+			y: 0.8d
 		}
 		{
 			id: "3330F696C0664DAC"
@@ -802,8 +802,8 @@
 				item: { count: 1, id: "aquaculture:neptunium_fillet_knife" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 17.6d
+			x: 4.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["0650B75F3E47F798"]
@@ -825,8 +825,8 @@
 				item: { count: 1, id: "aquaculture:note_hook" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -1.6d
+			x: -8.0d
+			y: -0.8d
 		}
 		{
 			id: "23C553AD6AC611F8"
@@ -857,8 +857,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 17.6d
+			x: -4.0d
+			y: 0.8d
 		}
 		{
 			id: "1DA83C71DF20DB0D"
@@ -894,8 +894,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 17.6d
+			x: -2.0d
+			y: 0.8d
 		}
 	]
 }

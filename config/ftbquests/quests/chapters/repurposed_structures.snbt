@@ -22,8 +22,8 @@
 				id: "3CD29E2E35330AF7"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 1.6d
+			x: -4.0d
+			y: 0.8d
 		}
 		{
 			id: "36400D26EEABD70C"
@@ -38,8 +38,8 @@
 				id: "338A062A43604480"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 0.0d
+			x: 8.0d
+			y: -0.8d
 		}
 		{
 			id: "272D38871F3F739A"
@@ -54,8 +54,8 @@
 				id: "6D2EC6B6C7E17675"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 1.6d
+			x: -8.0d
+			y: 0.8d
 		}
 		{
 			id: "632B8206B3F33C7C"
@@ -71,8 +71,8 @@
 				id: "52CAFEB8EB1E0ED8"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 2.0d
+			y: -0.8d
 		}
 		{
 			id: "425CEAA9CA5DA690"
@@ -88,8 +88,8 @@
 				id: "476A3C6E2457DD68"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -6.0d
+			y: -0.8d
 		}
 		{
 			id: "33B6251CF0B25772"
@@ -104,8 +104,8 @@
 				id: "1932ECB2DBF7DB8D"
 				type: "advancement"
 			}]
-			x: 2.0d
-			y: 1.6d
+			x: -6.0d
+			y: 0.8d
 		}
 		{
 			id: "675291ECEC4EAE0B"
@@ -121,8 +121,8 @@
 				id: "050247B8EC9FA02B"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -8.0d
+			y: -0.8d
 		}
 		{
 			id: "32A5E703872CCE2B"
@@ -137,8 +137,8 @@
 				id: "7FEFB85C3DC442D2"
 				type: "advancement"
 			}]
-			x: 16.0d
-			y: 1.6d
+			x: 8.0d
+			y: 0.8d
 		}
 		{
 			id: "017668074C954596"
@@ -154,8 +154,8 @@
 				id: "02FF7A886AE1EC85"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 1.6d
+			x: -2.0d
+			y: 0.8d
 		}
 		{
 			id: "52242A836ECF9338"
@@ -170,8 +170,8 @@
 				id: "1669297B82347096"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 0.0d
+			y: -0.8d
 		}
 		{
 			id: "57FC1DFC6D27AA44"
@@ -186,8 +186,8 @@
 				id: "6834EFD305C1230D"
 				type: "advancement"
 			}]
-			x: 10.0d
-			y: 1.6d
+			x: 2.0d
+			y: 0.8d
 		}
 		{
 			id: "0E36306ACCB3D643"
@@ -202,8 +202,8 @@
 				id: "7CAEFC3EC2F99010"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 1.6d
+			x: 0.0d
+			y: 0.8d
 		}
 		{
 			id: "7EC392D4AD679DB5"
@@ -218,8 +218,8 @@
 				id: "77074067815AFA74"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: -2.0d
+			y: -0.8d
 		}
 		{
 			id: "1B64462F0212E519"
@@ -235,8 +235,8 @@
 				id: "543F5A1E4880AEC5"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 1.6d
+			x: 6.0d
+			y: 0.8d
 		}
 		{
 			id: "47FD673F259F1C85"
@@ -251,8 +251,8 @@
 				id: "2825E7AB2B7D0DF6"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 6.0d
+			y: -0.8d
 		}
 		{
 			id: "7B29A14775280AF9"
@@ -267,8 +267,8 @@
 				id: "18BC81DF35B43CA0"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 4.0d
+			y: -0.8d
 		}
 		{
 			id: "1C9EBDFB533404A0"
@@ -283,8 +283,8 @@
 				id: "6D9FFD076CFC74A4"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -4.0d
+			y: -0.8d
 		}
 		{
 			id: "73893F32A771FD27"
@@ -299,8 +299,8 @@
 				id: "77E815512AFBB5C6"
 				type: "advancement"
 			}]
-			x: 12.0d
-			y: 1.6d
+			x: 4.0d
+			y: 0.8d
 		}
 	]
 }

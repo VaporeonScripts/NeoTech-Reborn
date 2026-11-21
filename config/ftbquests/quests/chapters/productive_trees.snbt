@@ -70,8 +70,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 9.6d
+			x: -6.0d
+			y: 2.4d
 		}
 		{
 			id: "1F2E8A17A11EA9D1"
@@ -87,8 +87,8 @@
 				item: { count: 1, id: "productivetrees:beech_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.2d
+			x: -12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F2E8A17A11EA9D1"]
@@ -105,8 +105,8 @@
 				item: { count: 1, id: "productivetrees:alder_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.2d
+			x: -10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["591DFC78708CC956"]
@@ -123,8 +123,8 @@
 				item: { count: 1, id: "productivetrees:aspen_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: -6.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["32EE703372CE14AD"]
@@ -139,8 +139,8 @@
 				item: { count: 1, id: "productivetrees:elderberry_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.6d
+			x: -8.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["32EE703372CE14AD"]
@@ -155,8 +155,8 @@
 				item: { count: 1, id: "productivetrees:hazel_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.6d
+			x: -6.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["32EE703372CE14AD"]
@@ -182,8 +182,8 @@
 				item: { count: 1, id: "productivetrees:rowan_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.6d
+			x: -4.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["6FF0A56C73DEA914"]
@@ -198,8 +198,8 @@
 				item: { count: 1, id: "productivetrees:hawthorn_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: -2.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["6FF0A56C73DEA914"]
@@ -225,8 +225,8 @@
 				item: { count: 1, id: "productivetrees:holly_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -1.6d
+			x: -2.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["6F810D21904F00B6"]
@@ -241,8 +241,8 @@
 				item: { count: 1, id: "productivetrees:boxwood_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.2d
+			x: -2.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["1F2E8A17A11EA9D1"]
@@ -257,8 +257,8 @@
 				item: { count: 1, id: "productivetrees:pecan_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.8d
+			x: -12.0d
+			y: -2.4d
 		}
 		{
 			id: "09EDB43447A28FA4"
@@ -272,8 +272,8 @@
 				item: { count: 1, id: "productivetrees:cacao_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 17.6d
+			x: -4.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["1F2E8A17A11EA9D1"]
@@ -288,8 +288,8 @@
 				item: { count: 1, id: "productivetrees:brazil_nut_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.6d
+			x: -12.0d
+			y: -5.6d
 		}
 		{
 			id: "26B9A1BD247ACE9B"
@@ -305,8 +305,8 @@
 				item: { count: 1, id: "productivetrees:teak_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 11.2d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["26B9A1BD247ACE9B"]
@@ -323,8 +323,8 @@
 				item: { count: 1, id: "productivetrees:balsa_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 12.8d
+			x: 2.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["266AEBC814987316"]
@@ -339,8 +339,8 @@
 				item: { count: 1, id: "productivetrees:blue_mahoe_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 11.2d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["26B9A1BD247ACE9B"]
@@ -355,8 +355,8 @@
 				item: { count: 1, id: "productivetrees:cashew_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 11.2d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["26B9A1BD247ACE9B"]
@@ -373,8 +373,8 @@
 				item: { count: 1, id: "productivetrees:ipe_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 14.4d
+			x: -4.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["26B9A1BD247ACE9B"]
@@ -389,8 +389,8 @@
 				item: { count: 1, id: "productivetrees:kapok_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 9.6d
+			x: 4.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["0E016264AC71BD8C"]
@@ -405,8 +405,8 @@
 				item: { count: 1, id: "productivetrees:aquilaria_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 12.8d
+			x: -4.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["0E016264AC71BD8C"]
@@ -422,8 +422,8 @@
 				item: { count: 1, id: "productivetrees:white_ipe_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 12.8d
+			x: -6.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["01CE35D4A147F2A0"]
@@ -439,8 +439,8 @@
 				item: { count: 1, id: "productivetrees:pink_ipe_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 16.0d
+			x: -6.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["63BBBD09FE89D89D"]
@@ -456,8 +456,8 @@
 				item: { count: 1, id: "productivetrees:purple_ipe_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 16.0d
+			x: -4.0d
+			y: 8.8d
 		}
 		{
 			id: "1F599AED12C40EB7"
@@ -473,8 +473,8 @@
 				item: { count: 1, id: "productivetrees:silver_lime_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.4d
+			x: -6.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["1F599AED12C40EB7"]
@@ -491,8 +491,8 @@
 				item: { count: 1, id: "productivetrees:wild_cherry_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.4d
+			x: -10.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["71B13BEA19B4BCF8" "2F6A5150A6659166"]
@@ -507,8 +507,8 @@
 				item: { count: 1, id: "productivetrees:sugar_apple_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: -12.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["2F6A5150A6659166" "591DFC78708CC956"]
@@ -523,8 +523,8 @@
 				item: { count: 1, id: "productivetrees:olive_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.8d
+			x: -10.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["09EDB43447A28FA4"]
@@ -539,8 +539,8 @@
 				item: { count: 1, id: "productivetrees:papaya_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 16.0d
+			x: -2.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["00CFCAE410123AA1"]
@@ -555,8 +555,8 @@
 				item: { count: 1, id: "productivetrees:date_palm_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 12.8d
+			x: -2.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["1F599AED12C40EB7"]
@@ -571,8 +571,8 @@
 				item: { count: 1, id: "productivetrees:dogwood_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.8d
+			x: -6.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["1F599AED12C40EB7"]
@@ -589,8 +589,8 @@
 				item: { count: 1, id: "productivetrees:walnut_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.2d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1F599AED12C40EB7"]
@@ -607,8 +607,8 @@
 				item: { count: 1, id: "productivetrees:white_willow_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.8d
+			x: -4.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["678BC8459EA2CB5E"]
@@ -623,8 +623,8 @@
 				item: { count: 1, id: "productivetrees:white_poplar_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.4d
+			x: -4.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["1F599AED12C40EB7"]
@@ -641,8 +641,8 @@
 				item: { count: 1, id: "productivetrees:ash_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: -2.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["266AEBC814987316"]
@@ -659,8 +659,8 @@
 				item: { count: 1, id: "productivetrees:banana_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 11.2d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7DB66A8913111410"]
@@ -675,8 +675,8 @@
 				item: { count: 1, id: "productivetrees:butternut_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.2d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["266AEBC814987316"]
@@ -691,8 +691,8 @@
 				item: { count: 1, id: "productivetrees:cocobolo_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 14.4d
+			x: 4.0d
+			y: 7.2d
 		}
 		{
 			id: "6D33F52AB5E994BA"
@@ -708,8 +708,8 @@
 				item: { count: 1, id: "productivetrees:european_larch_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.2d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6D33F52AB5E994BA"]
@@ -726,8 +726,8 @@
 				item: { count: 1, id: "productivetrees:bull_pine_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.8d
+			x: -8.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["678BC8459EA2CB5E"]
@@ -744,8 +744,8 @@
 				item: { count: 1, id: "productivetrees:sour_cherry_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.2d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["122B94203B3C597F"]
@@ -762,8 +762,8 @@
 				item: { count: 1, id: "productivetrees:sugar_maple_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 6.4d
+			x: 2.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["7DB66A8913111410"]
@@ -778,8 +778,8 @@
 				item: { count: 1, id: "productivetrees:sweet_chestnut_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.2d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["44099EBC6A0E5A64"]
@@ -794,8 +794,8 @@
 				item: { count: 1, id: "productivetrees:sweetgum_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: 0.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["7C5B17F127E7784B"]
@@ -821,8 +821,8 @@
 				item: { count: 1, id: "productivetrees:wenge_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 16.0d
+			x: 4.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["3F93A3134DEBD500"]
@@ -837,8 +837,8 @@
 				item: { count: 1, id: "productivetrees:sequoia_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.4d
+			x: -8.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["591DFC78708CC956" "6D33F52AB5E994BA"]
@@ -853,8 +853,8 @@
 				item: { count: 1, id: "productivetrees:balsam_fir_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.2d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["64AEB967047B14B1"]
@@ -869,8 +869,8 @@
 				item: { count: 1, id: "productivetrees:avocado_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 16.0d
+			x: 2.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["3F93A3134DEBD500" "74EC653C3DFF15EB"]
@@ -896,8 +896,8 @@
 				item: { count: 1, id: "productivetrees:silver_fir_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.6d
+			x: -8.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["1F599AED12C40EB7" "266AEBC814987316"]
@@ -912,8 +912,8 @@
 				item: { count: 1, id: "productivetrees:black_locust_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.6d
+			x: -2.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["2F59CE1A4C5472E9"]
@@ -928,8 +928,8 @@
 				item: { count: 1, id: "productivetrees:cedar_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.6d
+			x: -10.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["60368BCBBFEC07E5"]
@@ -946,8 +946,8 @@
 				item: { count: 1, id: "productivetrees:ceylon_ebony_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 9.6d
+			x: 8.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["7B225E82C291C495"]
@@ -973,8 +973,8 @@
 				item: { count: 1, id: "productivetrees:citron_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 4.8d
+			x: 6.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["266AEBC814987316"]
@@ -989,8 +989,8 @@
 				item: { count: 1, id: "productivetrees:coconut_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 12.8d
+			x: 0.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["64AEB967047B14B1"]
@@ -1005,8 +1005,8 @@
 				item: { count: 1, id: "productivetrees:grandidiers_baobab_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 17.6d
+			x: 2.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["32EE703372CE14AD" "678BC8459EA2CB5E"]
@@ -1021,8 +1021,8 @@
 				item: { count: 1, id: "productivetrees:great_sallow_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.6d
+			x: -4.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["794841B00C233CDE"]
@@ -1037,8 +1037,8 @@
 				item: { count: 1, id: "productivetrees:hornbeam_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 6.4d
+			x: 4.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["266AEBC814987316"]
@@ -1053,8 +1053,8 @@
 				item: { count: 1, id: "productivetrees:iroko_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 12.8d
+			x: 4.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["7C0A1B83C10124DA"]
@@ -1080,8 +1080,8 @@
 				item: { count: 1, id: "productivetrees:key_lime_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 8.0d
+			x: 6.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["3F93A3134DEBD500"]
@@ -1096,8 +1096,8 @@
 				item: { count: 1, id: "productivetrees:lawson_cypress_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.6d
+			x: -6.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["3F93A3134DEBD500"]
@@ -1112,8 +1112,8 @@
 				item: { count: 1, id: "productivetrees:loblolly_pine_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: -6.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["3F93A3134DEBD500"]
@@ -1128,8 +1128,8 @@
 				item: { count: 1, id: "productivetrees:western_hemlock_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: -8.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["3E1D3B3F78067D3F"]
@@ -1144,8 +1144,8 @@
 				item: { count: 1, id: "productivetrees:monkey_puzzle_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.6d
+			x: -8.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["5B563B6A8ED067A5"]
@@ -1160,8 +1160,8 @@
 				item: { count: 1, id: "productivetrees:cork_oak_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: -4.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["64AEB967047B14B1"]
@@ -1176,8 +1176,8 @@
 				item: { count: 1, id: "productivetrees:socotra_dragon_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 14.4d
+			x: 6.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["6D33F52AB5E994BA"]
@@ -1192,8 +1192,8 @@
 				item: { count: 1, id: "productivetrees:yew_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: -8.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["78940B88116D45F4"]
@@ -1208,8 +1208,8 @@
 				item: { count: 1, id: "productivetrees:yellow_meranti_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 11.2d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["78940B88116D45F4"]
@@ -1224,8 +1224,8 @@
 				item: { count: 1, id: "productivetrees:zebrano_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 11.2d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["14C86C69BBC5FAB6"]
@@ -1240,8 +1240,8 @@
 				item: { count: 1, id: "productivetrees:whitebeam_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 8.0d
+			x: 2.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["44099EBC6A0E5A64"]
@@ -1256,8 +1256,8 @@
 				item: { count: 1, id: "productivetrees:sycamore_fig_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 4.8d
+			x: 4.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["266AEBC814987316"]
@@ -1272,8 +1272,8 @@
 				item: { count: 1, id: "productivetrees:rose_gum_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 14.4d
+			x: 0.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["4247CEF103B52481"]
@@ -1299,8 +1299,8 @@
 				item: { count: 1, id: "productivetrees:mahogany_sapling" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 11.2d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			id: "70CEB03E6D7FD326"
@@ -1316,8 +1316,8 @@
 				item: { count: 1, id: "productivetrees:red_delicious_apple_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -1.6d
+			x: 0.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["70CEB03E6D7FD326"]
@@ -1332,8 +1332,8 @@
 				item: { count: 1, id: "productivetrees:prairie_crabapple_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -3.2d
+			x: 0.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["7C0A1B83C10124DA"]
@@ -1359,8 +1359,8 @@
 				item: { count: 1, id: "productivetrees:pomelo_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 6.4d
+			x: 6.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["7C0A1B83C10124DA"]
@@ -1386,8 +1386,8 @@
 				item: { count: 1, id: "productivetrees:plum_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.6d
+			x: 2.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["539337A980A33EB0" "5485831755DDF5D5"]
@@ -1413,8 +1413,8 @@
 				item: { count: 1, id: "productivetrees:peach_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.8d
+			x: 0.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["4C71BF1C683BE2DB"]
@@ -1440,8 +1440,8 @@
 				item: { count: 1, id: "productivetrees:rosewood_sapling" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 9.6d
+			x: 12.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["133D89725EC765B5" "39C414E363FED29F"]
@@ -1456,8 +1456,8 @@
 				item: { count: 1, id: "productivetrees:rubber_tree_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 9.6d
+			x: -4.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["6D33F52AB5E994BA"]
@@ -1474,8 +1474,8 @@
 				item: { count: 1, id: "productivetrees:red_maple_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.8d
+			x: -2.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["70CEB03E6D7FD326"]
@@ -1490,8 +1490,8 @@
 				item: { count: 1, id: "productivetrees:sand_pear_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 0.0d
+			x: 2.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["3AAAB9DF50064EA9"]
@@ -1506,8 +1506,8 @@
 				item: { count: 1, id: "productivetrees:cultivated_pear_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 0.0d
+			x: 4.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["64AEB967047B14B1"]
@@ -1522,8 +1522,8 @@
 				item: { count: 1, id: "productivetrees:ginkgo_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 16.0d
+			x: 8.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["0E19F5FF76E6BE19"]
@@ -1538,8 +1538,8 @@
 				item: { count: 1, id: "productivetrees:candlenut_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 14.4d
+			x: 8.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["5E0A66C2017FB163" "44099EBC6A0E5A64"]
@@ -1554,8 +1554,8 @@
 				item: { count: 1, id: "productivetrees:breadfruit_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 3.2d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4C71BF1C683BE2DB"]
@@ -1581,8 +1581,8 @@
 				item: { count: 1, id: "productivetrees:brazilwood_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 9.6d
+			x: 10.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["2DECE1CAF2767EAF"]
@@ -1597,8 +1597,8 @@
 				item: { count: 1, id: "productivetrees:cempedak_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 3.2d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5485831755DDF5D5"]
@@ -1613,8 +1613,8 @@
 				item: { count: 1, id: "productivetrees:cherry_plum_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 1.6d
+			x: 4.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["3F3FB417B1559B1B"]
@@ -1638,8 +1638,8 @@
 				item: { count: 1, id: "productivetrees:cinnamon_sapling" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 9.6d
+			x: 14.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["4CBAAA8963F41194"]
@@ -1663,8 +1663,8 @@
 				item: { count: 1, id: "productivetrees:copoazu_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 12.8d
+			x: 8.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["226F89C92F5D504E"]
@@ -1688,8 +1688,8 @@
 				item: { count: 1, id: "productivetrees:carob_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 12.8d
+			x: 6.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["2F59CE1A4C5472E9"]
@@ -1704,8 +1704,8 @@
 				item: { count: 1, id: "productivetrees:douglas_fir_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -10.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["14C86C69BBC5FAB6"]
@@ -1720,8 +1720,8 @@
 				item: { count: 1, id: "productivetrees:elm_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 9.6d
+			x: 0.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["5F3EE79C401EB144"]
@@ -1736,8 +1736,8 @@
 				item: { count: 1, id: "productivetrees:finger_lime_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 8.0d
+			x: 4.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["70CEB03E6D7FD326"]
@@ -1752,8 +1752,8 @@
 				item: { count: 1, id: "productivetrees:sweet_crabapple_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: -3.2d
+			x: -4.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["09DCEDB89818C313"]
@@ -1768,8 +1768,8 @@
 				item: { count: 1, id: "productivetrees:flowering_crabapple_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.2d
+			x: -6.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["7B225E82C291C495"]
@@ -1784,8 +1784,8 @@
 				item: { count: 1, id: "productivetrees:black_cherry_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 3.2d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["70CEB03E6D7FD326" "5485831755DDF5D5"]
@@ -1800,8 +1800,8 @@
 				item: { count: 1, id: "productivetrees:blackthorn_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.6d
+			x: 0.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["5A7B2AA840270C1B"]
@@ -1816,8 +1816,8 @@
 				item: { count: 1, id: "productivetrees:asai_palm_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 14.4d
+			x: -2.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["36F00C19255A6B37"]
@@ -1841,8 +1841,8 @@
 				item: { count: 1, id: "productivetrees:apricot_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 4.8d
+			x: 2.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["18D84E57DFADA4A2"]
@@ -1857,8 +1857,8 @@
 				item: { count: 1, id: "productivetrees:plantain_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 9.6d
+			x: 2.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["4168B09940D238C6"]
@@ -1882,8 +1882,8 @@
 				item: { count: 1, id: "productivetrees:pink_ivory_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 12.8d
+			x: 10.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["4C71BF1C683BE2DB"]
@@ -1898,8 +1898,8 @@
 				item: { count: 1, id: "productivetrees:old_fustic_sapling" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 12.8d
+			x: 12.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["36F00C19255A6B37"]
@@ -1923,8 +1923,8 @@
 				item: { count: 1, id: "productivetrees:nectarine_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.4d
+			x: -2.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["11291600CBFADF25"]
@@ -1939,8 +1939,8 @@
 				item: { count: 1, id: "productivetrees:persimmon_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 8.0d
+			x: 10.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["78940B88116D45F4"]
@@ -1966,8 +1966,8 @@
 				item: { count: 1, id: "productivetrees:purple_crepe_myrtle_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 6.4d
+			x: 8.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["5FE7580EFCAA5541"]
@@ -1982,8 +1982,8 @@
 				item: { count: 1, id: "productivetrees:myrtle_ebony_sapling" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 8.0d
+			x: 12.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["11291600CBFADF25"]
@@ -2010,8 +2010,8 @@
 				item: { count: 1, id: "productivetrees:red_crepe_myrtle_sapling" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 3.2d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["72D18B947FE41BE3"]
@@ -2027,8 +2027,8 @@
 				item: { count: 1, id: "productivetrees:tuscarora_crepe_myrtle_sapling" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 1.6d
+			x: 14.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["72D18B947FE41BE3"]
@@ -2043,8 +2043,8 @@
 				item: { count: 1, id: "productivetrees:moonlight_magic_crepe_myrtle_sapling" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 0.0d
+			x: 12.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["53A7C8397B068371"]
@@ -2059,8 +2059,8 @@
 				item: { count: 1, id: "productivetrees:lemon_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 4.8d
+			x: 8.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["53A7C8397B068371" "5F3EE79C401EB144"]
@@ -2075,8 +2075,8 @@
 				item: { count: 1, id: "productivetrees:lime_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 9.6d
+			x: 6.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["69C30CDF2E40F86C"]
@@ -2091,8 +2091,8 @@
 				item: { count: 1, id: "productivetrees:juniper_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.2d
+			x: -8.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["41A912492A3C9A8E"]
@@ -2116,8 +2116,8 @@
 				item: { count: 1, id: "productivetrees:jackfruit_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 1.6d
+			x: 8.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["4C71BF1C683BE2DB"]
@@ -2132,8 +2132,8 @@
 				item: { count: 1, id: "productivetrees:greenheart_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 14.4d
+			x: 10.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["70CEB03E6D7FD326"]
@@ -2148,8 +2148,8 @@
 				item: { count: 1, id: "productivetrees:granny_smith_apple_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: -1.6d
+			x: 2.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["587E8746261103A4"]
@@ -2164,8 +2164,8 @@
 				item: { count: 1, id: "productivetrees:golden_delicious_apple_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: -1.6d
+			x: 4.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["554166DF244AE6DC"]
@@ -2180,8 +2180,8 @@
 				item: { count: 1, id: "productivetrees:coffea_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 1.6d
+			x: 6.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["47A34AA5D80EC039"]
@@ -2207,8 +2207,8 @@
 				item: { count: 1, id: "productivetrees:clove_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 6.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["47E3BE49B4A74BF0"]
@@ -2232,8 +2232,8 @@
 				item: { count: 1, id: "productivetrees:allspice_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: -1.6d
+			x: 8.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["53A7C8397B068371"]
@@ -2259,8 +2259,8 @@
 				item: { count: 1, id: "productivetrees:mandarin_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 4.8d
+			x: 10.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["04F28F76877D5CBB"]
@@ -2284,8 +2284,8 @@
 				item: { count: 1, id: "productivetrees:buddhas_hand_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 6.4d
+			x: 10.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["60CB5D832D9891C5"]
@@ -2300,8 +2300,8 @@
 				item: { count: 1, id: "productivetrees:beliy_naliv_apple_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: -3.2d
+			x: 4.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["04F28F76877D5CBB"]
@@ -2327,8 +2327,8 @@
 				item: { count: 1, id: "productivetrees:orange_sapling" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 4.8d
+			x: 14.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["47E3BE49B4A74BF0"]
@@ -2352,8 +2352,8 @@
 				item: { count: 1, id: "productivetrees:nutmeg_sapling" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -1.6d
+			x: 6.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["3F3FB417B1559B1B"]
@@ -2377,8 +2377,8 @@
 				item: { count: 1, id: "productivetrees:logwood_sapling" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 8.0d
+			x: 14.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["04F28F76877D5CBB"]
@@ -2404,8 +2404,8 @@
 				item: { count: 1, id: "productivetrees:kumquat_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 1.6d
+			x: 10.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["593D941609297E5A"]
@@ -2429,8 +2429,8 @@
 				item: { count: 1, id: "productivetrees:mango_sapling" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 1.6d
+			x: 12.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["54F40B7042EB8A98"]
@@ -2454,8 +2454,8 @@
 				item: { count: 1, id: "productivetrees:osage_orange_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 16.0d
+			x: 10.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["593D941609297E5A"]
@@ -2479,8 +2479,8 @@
 				item: { count: 1, id: "productivetrees:grapefruit_sapling" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 4.8d
+			x: 12.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["6F810D21904F00B6"]
@@ -2495,8 +2495,8 @@
 				item: { count: 1, id: "productivetrees:pomegranate_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: -3.2d
+			x: 2.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["4168B09940D238C6"]
@@ -2520,8 +2520,8 @@
 				item: { count: 1, id: "productivetrees:purpleheart_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 8.0d
+			x: 8.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["51D1ABEB17EE7C28"]
@@ -2545,8 +2545,8 @@
 				item: { count: 1, id: "productivetrees:satsuma_sapling" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 0.0d
+			x: 8.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["4168B09940D238C6"]
@@ -2570,8 +2570,8 @@
 				item: { count: 1, id: "productivetrees:sandalwood_sapling" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 6.4d
+			x: 12.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["43369AE8C8A4A347"]
@@ -2595,8 +2595,8 @@
 				item: { count: 1, id: "productivetrees:star_anise_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: -1.6d
+			x: 10.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["6DCD49C382DB1C9C" "0C5DBFFFB2F59CB1"]
@@ -2620,8 +2620,8 @@
 				item: { count: 1, id: "productivetrees:star_fruit_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 0.0d
+			x: 10.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["744BA04736CC3AA9"]
@@ -2636,8 +2636,8 @@
 				item: { count: 1, id: "productivetrees:swamp_gum_sapling" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 14.4d
+			x: 2.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["5485831755DDF5D5" "7DB66A8913111410"]
@@ -2652,8 +2652,8 @@
 				item: { count: 1, id: "productivetrees:almond_sapling" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.6d
+			x: -2.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["4776A81A79761BC5"]
@@ -2668,8 +2668,8 @@
 				item: { count: 1, id: "productivetrees:pistachio_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 11.2d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2F03AA4B82241628"]
@@ -2684,8 +2684,8 @@
 				item: { count: 1, id: "productivetrees:pandanus_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 16.0d
+			x: 0.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["5C744C31AC3CC5AB"]
@@ -2700,8 +2700,8 @@
 				item: { count: 1, id: "productivetrees:salak_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 17.6d
+			x: 0.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["51D1ABEB17EE7C28"]
@@ -2725,8 +2725,8 @@
 				item: { count: 1, id: "productivetrees:tangerine_sapling" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 3.2d
+			x: 10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["27BC33EE0CF97657"]
@@ -2741,8 +2741,8 @@
 				item: { count: 1, id: "productivetrees:soursop_sapling" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -14.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["18D84E57DFADA4A2"]
@@ -2757,8 +2757,8 @@
 				item: { count: 1, id: "productivetrees:red_banana_sapling" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 11.2d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["122B94203B3C597F"]
@@ -2773,8 +2773,8 @@
 				item: { count: 1, id: "productivetrees:padauk_sapling" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: -4.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["1F2E8A17A11EA9D1"]
@@ -2790,8 +2790,8 @@
 				item: { count: 1, id: "productivetrees:copper_beech_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -12.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["5F3CF8C042B1EA0F"]
@@ -2816,8 +2816,8 @@
 				item: { count: 1, id: "productivetrees:purple_blackthorn_sapling" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 0.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["0D16D625FDD4AF58" "434DF25E6DD7ACB8"]
@@ -2832,8 +2832,8 @@
 				item: { count: 1, id: "productivetrees:water_wonder_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.2d
+			x: -12.0d
+			y: 4.0d
 		}
 		{
 			id: "434DF25E6DD7ACB8"
@@ -2849,8 +2849,8 @@
 				item: { count: 1, id: "productivetrees:blue_yonder_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.8d
+			x: -10.0d
+			y: 5.6d
 		}
 		{
 			id: "0991A158078981DA"
@@ -2866,8 +2866,8 @@
 				item: { count: 1, id: "productivetrees:firecracker_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 14.4d
+			x: -6.0d
+			y: 7.2d
 		}
 		{
 			id: "5FFB3B0D15EAF602"
@@ -2881,8 +2881,8 @@
 				item: { count: 1, id: "productivetrees:black_ember_sapling" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.4d
+			x: -14.0d
+			y: -0.8d
 		}
 		{
 			id: "5B6C41D511701B5A"
@@ -2898,8 +2898,8 @@
 				item: { count: 1, id: "productivetrees:flickering_sun_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 14.4d
+			x: -8.0d
+			y: 7.2d
 		}
 		{
 			id: "0D16D625FDD4AF58"
@@ -2915,8 +2915,8 @@
 				item: { count: 1, id: "productivetrees:soul_tree_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 9.6d
+			x: -10.0d
+			y: 2.4d
 		}
 		{
 			id: "77C87D1B3D283583"
@@ -2930,8 +2930,8 @@
 				item: { count: 1, id: "productivetrees:brown_amber_sapling" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.8d
+			x: -14.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["0D16D625FDD4AF58" "5FFB3B0D15EAF602"]
@@ -2946,8 +2946,8 @@
 				item: { count: 1, id: "productivetrees:cave_dweller_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.4d
+			x: -12.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["7E2A26EC8946F384" "0D16D625FDD4AF58"]
@@ -2962,8 +2962,8 @@
 				item: { count: 1, id: "productivetrees:foggy_blast_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: -10.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["434DF25E6DD7ACB8" "0991A158078981DA"]
@@ -2978,8 +2978,8 @@
 				item: { count: 1, id: "productivetrees:purple_spiral_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.8d
+			x: -8.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["434DF25E6DD7ACB8" "5B6C41D511701B5A"]
@@ -2996,8 +2996,8 @@
 				item: { count: 1, id: "productivetrees:rippling_willow_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.2d
+			x: -10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2016B1C6E0384703" "0D16D625FDD4AF58"]
@@ -3012,8 +3012,8 @@
 				item: { count: 1, id: "productivetrees:slimy_delight_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.6d
+			x: -12.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["0D16D625FDD4AF58" "0991A158078981DA"]
@@ -3028,8 +3028,8 @@
 				item: { count: 1, id: "productivetrees:sparkle_cherry_sapling" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 11.2d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0991A158078981DA" "5B6C41D511701B5A"]
@@ -3044,8 +3044,8 @@
 				item: { count: 1, id: "productivetrees:thunder_bolt_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 16.0d
+			x: -8.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["2016B1C6E0384703" "434DF25E6DD7ACB8"]
@@ -3060,8 +3060,8 @@
 				item: { count: 1, id: "productivetrees:time_traveller_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.8d
+			x: -12.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["7F167264C32900F9" "54D0D040DA21A329"]
@@ -3076,8 +3076,8 @@
 				item: { count: 1, id: "productivetrees:night_fuchsia_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.2d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3F3FB417B1559B1B" "2D63780DCA9A1181" "6F810D21904F00B6" "1FA6F802D3054074" "2F59CE1A4C5472E9" "794841B00C233CDE" "44099EBC6A0E5A64" "1F2E8A17A11EA9D1" "3477ACB71980D035" "0914A0697C92659E" "72D18B947FE41BE3" "712DC413A1DABC9F" "166A7343ACB26F03" "418617D0F5FA46A1" "7DB66A8913111410" "00DED7DF03993708" "5FFB3B0D15EAF602" "00CFCAE410123AA1" "5F2AADF7E4E410A1" "4168B09940D238C6" "5F3CF8C042B1EA0F" "5E0A66C2017FB163" "744BA04736CC3AA9" "32EE703372CE14AD" "3C6CC2168711B897" "6D33F52AB5E994BA" "59E79D81F69C5C45" "5563212C7059C690" "47A34AA5D80EC039" "0991A158078981DA" "32F20E0D4E865922" "27BC33EE0CF97657" "298B31EEE9A6CA80" "7EECE4B9127EB096" "14C86C69BBC5FAB6" "299F3ADB39580F09" "5C744C31AC3CC5AB" "63068E939646FE7A" "3E7028558A5513C6" "7D92ED988DF486ED" "5FE7580EFCAA5541" "46753DE03E5ECFB9" "54828FDA9808FD99" "6B072654AF8B4EC4" "4E0D814162BE2F3A" "43369AE8C8A4A347" "076855CC603B3A6F" "184BC23123526D9E" "0C5DBFFFB2F59CB1" "53A7C8397B068371" "5485831755DDF5D5" "54D0D040DA21A329" "06E87EA3BF94C5A1" "77C87D1B3D283583" "7B225E82C291C495" "68C6F3B563E6F104" "11291600CBFADF25" "122B94203B3C597F" "226F89C92F5D504E" "0E19F5FF76E6BE19" "5F6D2504DB8572FD" "282D59A55A7CC317" "5FDD0DEDD188DC2A" "2F03AA4B82241628" "361C0D7B160F5779" "51D1ABEB17EE7C28" "5B8CD701C9465BD5" "7230F1A546BEEB0B" "554166DF244AE6DC" "6DCD49C382DB1C9C" "582D3D0E840593DC" "539337A980A33EB0" "6FF0A56C73DEA914" "5A7B2AA840270C1B" "70CEB03E6D7FD326" "0993EFBA59B7CE81" "3AAAB9DF50064EA9" "5F3EE79C401EB144" "09DCEDB89818C313" "0F838133F0BAB941" "2DECE1CAF2767EAF" "3E7DAF1A83243373" "0C6DFBDDBF8E3E7F" "556B6540231D5D2A" "266AEBC814987316" "7C5B17F127E7784B" "232F056CF68F37C7" "3C3AEFEE03F702F2" "74EC653C3DFF15EB" "6CCC0C85FD188EB8" "6E0AFC4F93A709DE" "596FB815E5EE5183" "0E016264AC71BD8C" "4B23784649F94B08" "56395334C532D306" "591DFC78708CC956" "678BC8459EA2CB5E" "7949F86C9FF11AE1" "7F167264C32900F9" "60368BCBBFEC07E5" "18D84E57DFADA4A2" "4247CEF103B52481" "593D941609297E5A" "4C71BF1C683BE2DB" "3C05948D3A02D4BA" "69FB4C1FF6EDAFCB" "4D96034CD8297FD6" "5B563B6A8ED067A5" "6C4A85F9A1C02D1D" "033FDEA602740088" "3F93A3134DEBD500" "25ABEB94E3FA8B8A" "66BCA7F7CE25650E" "64AEB967047B14B1" "7E2A26EC8946F384" "6026BE73E182679F" "04F28F76877D5CBB" "36F00C19255A6B37" "41A912492A3C9A8E" "39C414E363FED29F" "5B6C41D511701B5A" "10753FFC625F9579" "4776A81A79761BC5" "249948CE9F29AFA5" "2B2D9F3C796D1809" "63BBBD09FE89D89D" "4C05BB9DDAD2583A" "26B9A1BD247ACE9B" "3E1D3B3F78067D3F" "2F6A5150A6659166" "7867CF2DB8DC10A5" "0D16D625FDD4AF58" "5760FD83AC802D74" "133D89725EC765B5" "2016B1C6E0384703" "6F9AEFBE29744AE4" "7C0A1B83C10124DA" "54F40B7042EB8A98" "71B13BEA19B4BCF8" "1F599AED12C40EB7" "362CDD23E712D82C" "09EDB43447A28FA4" "4F68437E1E7FBE59" "08CBA700A535DB64" "47E3BE49B4A74BF0" "48F52EC19F0A2F07" "1AC1508C74720853" "78940B88116D45F4" "45D60F041613F241" "434DF25E6DD7ACB8" "7B793700836BA897" "60CB5D832D9891C5" "69C30CDF2E40F86C" "6FBFBC067DD3FD2A" "693E7A746445C115" "4CBAAA8963F41194" "378C1E8A428D2B58" "3CB1EA7659B5A4A7" "01CE35D4A147F2A0" "1B54F62B4DC22C0D" "587E8746261103A4" "017F85DF6DA4CBFA"]
@@ -3090,8 +3090,8 @@
 				id: "335DCE519C7F89B9"
 				type: "dimension"
 			}]
-			x: 14.0d
-			y: 6.4d
+			x: 0.0d
+			y: -0.8d
 			rewards: [{
 				count: 1
 				id: "54D79EC208135E5C"

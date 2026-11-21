@@ -16,8 +16,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 24.0d
+			x: -9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["476135F0C7C9EE87"]
@@ -59,8 +59,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 30.4d
+			x: -9.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -75,8 +75,8 @@
 				item: { count: 1, id: "justdirethings:fuel_canister" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 28.8d
+			x: -5.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -118,8 +118,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 19.2d
+			x: -1.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -134,8 +134,8 @@
 				item: { count: 1, id: "justdirethings:portalgun" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 17.6d
+			x: 3.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -171,8 +171,8 @@
 					type: "item"
 				}
 			]
-			x: 22.0d
-			y: 12.8d
+			x: 7.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -187,8 +187,8 @@
 				item: { count: 1, id: "justdirethings:portalgun_v2" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 14.4d
+			x: 7.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -230,8 +230,8 @@
 					type: "item"
 				}
 			]
-			x: 26.0d
-			y: 8.0d
+			x: 11.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
@@ -246,12 +246,11 @@
 				item: { count: 1, id: "justdirethings:time_wand" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 8.0d
+			x: 9.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "01D4383E529DE476"
 			rewards: [{
 				id: "11217D96ED0F545B"
@@ -263,12 +262,11 @@
 				item: { count: 1, id: "justdirethings:ferricore_helmet" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 25.6d
+			x: -11.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "16B81DBB1E02C13D"
 			rewards: [{
 				id: "7C68C8ECA9CBF28B"
@@ -280,12 +278,11 @@
 				item: { count: 1, id: "justdirethings:ferricore_chestplate" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 24.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "762E163EFBE44BBF"
 			rewards: [{
 				id: "6FE1EF3034997D23"
@@ -297,12 +294,11 @@
 				item: { count: 1, id: "justdirethings:ferricore_leggings" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 33.6d
+			x: -5.0d
+			y: 13.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "02963979BBAA3050"
 			rewards: [{
 				id: "2048D01C127A6562"
@@ -314,12 +310,11 @@
 				item: { count: 1, id: "justdirethings:ferricore_boots" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 30.4d
+			x: -7.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "30E377E1346D2C28"
 			rewards: [{
 				id: "384129828866B9B6"
@@ -331,12 +326,11 @@
 				item: { count: 1, id: "justdirethings:ferricore_sword" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 32.0d
+			x: -5.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "4C4F3DAA367281E1"
 			rewards: [{
 				id: "1BCA38DB167A39E0"
@@ -348,12 +342,11 @@
 				item: { count: 1, id: "justdirethings:ferricore_pickaxe" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 25.6d
+			x: -7.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "527EB36537EAF0E1"
 			rewards: [{
 				id: "03DE69594B593738"
@@ -365,12 +358,11 @@
 				item: { count: 1, id: "justdirethings:ferricore_shovel" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 28.8d
+			x: -11.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "61059F7A62620351"
 			rewards: [{
 				id: "252FC9DC3886E762"
@@ -382,12 +374,11 @@
 				item: { count: 1, id: "justdirethings:ferricore_axe" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 33.6d
+			x: -11.0d
+			y: 13.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "22B23DCCC5E5C225"
 			rewards: [{
 				id: "48408D78FC10F142"
@@ -399,12 +390,11 @@
 				item: { count: 1, id: "justdirethings:ferricore_hoe" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 32.0d
+			x: -9.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "68128312E6B71D7A"
 			rewards: [{
 				id: "3BC063D5E6B4BEA5"
@@ -416,12 +406,11 @@
 				item: { count: 1, id: "justdirethings:bow_ferricore" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 32.0d
+			x: -7.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "3E77595FE3410515"
 			rewards: [{
 				id: "116E03B82B95C366"
@@ -433,12 +422,11 @@
 				item: { count: 1, id: "justdirethings:bow_blazegold" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 20.8d
+			x: -1.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "0854F496E96C0268"
 			rewards: [{
 				id: "2F21758145722AC3"
@@ -450,12 +438,11 @@
 				item: { count: 1, id: "justdirethings:blazegold_helmet" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 22.4d
+			x: 1.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "5F38264AC01FB036"
 			rewards: [{
 				id: "3ADC77E96B9E6C0F"
@@ -467,12 +454,11 @@
 				item: { count: 1, id: "justdirethings:blazegold_chestplate" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 17.6d
+			x: -1.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "6CEFF519AC0F4981"
 			rewards: [{
 				id: "0FDF8DE5A511BB11"
@@ -484,12 +470,11 @@
 				item: { count: 1, id: "justdirethings:blazegold_leggings" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 16.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "43149151A5354233"
 			rewards: [{
 				id: "6C24C890D937A6F8"
@@ -501,12 +486,11 @@
 				item: { count: 1, id: "justdirethings:blazegold_boots" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 16.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "51E1D9A455E35136"
 			rewards: [{
 				id: "08800419559BC989"
@@ -518,12 +502,11 @@
 				item: { count: 1, id: "justdirethings:blazegold_hoe" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 17.6d
+			x: -5.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "285A8EBB0EE1213C"
 			rewards: [{
 				id: "2DAEBD4939EDF7A2"
@@ -535,12 +518,11 @@
 				item: { count: 1, id: "justdirethings:blazegold_shovel" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 20.8d
+			x: 3.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "3382EC0219E6261C"
 			rewards: [{
 				id: "2647E9B197D1FE9B"
@@ -552,12 +534,11 @@
 				item: { count: 1, id: "justdirethings:blazegold_axe" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 19.2d
+			x: 3.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "59B1143FF8336A1F"
 			rewards: [{
 				id: "5670B686C2321D20"
@@ -569,12 +550,11 @@
 				item: { count: 1, id: "justdirethings:blazegold_pickaxe" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 19.2d
+			x: 1.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "06CF2064C1A7E199"
 			rewards: [{
 				id: "2C3CA0372E1B1A99"
@@ -586,12 +566,11 @@
 				item: { count: 1, id: "justdirethings:blazegold_sword" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 19.2d
+			x: -5.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "4A1FC00E24064975"
 			rewards: [{
 				id: "7F01F3F3D8CF9834"
@@ -603,12 +582,11 @@
 				item: { count: 1, id: "justdirethings:bow_celestigem" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 11.2d
+			x: 5.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "3FBD660E5BB9E1C6"
 			rewards: [{
 				id: "774427E3C954B7C4"
@@ -620,12 +598,11 @@
 				item: { count: 1, id: "justdirethings:celestigem_helmet" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 9.6d
+			x: 7.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "568AFFD1946E87E4"
 			rewards: [{
 				id: "12899E9F506F10A3"
@@ -637,12 +614,11 @@
 				item: { count: 1, id: "justdirethings:celestigem_boots" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 12.8d
+			x: 5.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "779AE73897718D2F"
 			rewards: [{
 				id: "7957129E7FEA2D89"
@@ -654,12 +630,11 @@
 				item: { count: 1, id: "justdirethings:celestigem_chestplate" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 16.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "34F9077D00F4549F"
 			rewards: [{
 				id: "3FE2A0DCBC0D1DB8"
@@ -671,12 +646,11 @@
 				item: { count: 1, id: "justdirethings:celestigem_leggings" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 12.8d
+			x: 9.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "6D12982E206076B3"
 			rewards: [{
 				id: "1E034525930E7984"
@@ -688,12 +662,11 @@
 				item: { count: 1, id: "justdirethings:celestigem_hoe" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 14.4d
+			x: 5.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "2878FE5987B9D729"
 			rewards: [{
 				id: "787BC01A692E0A15"
@@ -705,12 +678,11 @@
 				item: { count: 1, id: "justdirethings:celestigem_shovel" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 14.4d
+			x: 9.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "074B1638C84A8B76"
 			rewards: [{
 				id: "34DBEA6FAE33BC67"
@@ -722,12 +694,11 @@
 				item: { count: 1, id: "justdirethings:celestigem_axe" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 12.8d
+			x: 11.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "766ADA1FCA0604EC"
 			rewards: [{
 				id: "5DDF07B253390982"
@@ -739,12 +710,11 @@
 				item: { count: 1, id: "justdirethings:celestigem_pickaxe" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 16.0d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: true
 			id: "4486D8B84EE7D81E"
 			rewards: [{
 				id: "6DD168D3E04E3EA8"
@@ -756,8 +726,8 @@
 				item: { count: 1, id: "justdirethings:celestigem_sword" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 9.6d
+			x: 5.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["074B1638C84A8B76" "766ADA1FCA0604EC" "2878FE5987B9D729"]
@@ -772,12 +742,11 @@
 				item: { count: 1, id: "justdirethings:celestigem_paxel" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 14.4d
+			x: 11.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "0B68D00CDAA58D3E"
 			rewards: [{
 				id: "5A284E590541FE46"
@@ -789,12 +758,11 @@
 				item: { count: 1, id: "justdirethings:bow_eclipsealloy" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 4.8d
+			x: 9.0d
+			y: -15.2d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "5C05D1074390A539"
 			rewards: [{
 				id: "398530DCF71F0C9C"
@@ -806,12 +774,11 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_boots" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 6.4d
+			x: 13.0d
+			y: -13.6d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "4CC303D7BFC987F4"
 			rewards: [{
 				id: "101C4CC257C93B21"
@@ -823,12 +790,11 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_helmet" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 8.0d
+			x: 7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "5E02C9683D1CA756"
 			rewards: [{
 				id: "59E0461F8FC82421"
@@ -840,12 +806,11 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_chestplate" }
 				type: "item"
 			}]
-			x: 30.0d
-			y: 9.6d
+			x: 15.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "73D03096609B274E"
 			rewards: [{
 				id: "76E398B7E2B7A95B"
@@ -857,12 +822,11 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_leggings" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 4.8d
+			x: 11.0d
+			y: -15.2d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "0B4BB6E8738DD48A"
 			rewards: [{
 				id: "500D2C5EBD3CABD8"
@@ -874,12 +838,11 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_hoe" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 6.4d
+			x: 11.0d
+			y: -13.6d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "44CC46E4EFDC509F"
 			rewards: [{
 				id: "67B1FAE524580494"
@@ -891,12 +854,11 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_shovel" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 9.6d
+			x: 11.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "1EDF214FFEE5173D"
 			rewards: [{
 				id: "6A3D32F6FC4F6482"
@@ -908,12 +870,11 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_axe" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 9.6d
+			x: 13.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "5B6043B5A527D364"
 			rewards: [{
 				id: "645587F809825669"
@@ -925,12 +886,11 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_pickaxe" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 11.2d
+			x: 13.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "33927409CD82B688"
 			rewards: [{
 				id: "13C4B734706D737F"
@@ -942,8 +902,8 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_sword" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 8.0d
+			x: 13.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["1EDF214FFEE5173D" "44CC46E4EFDC509F" "5B6043B5A527D364"]
@@ -967,12 +927,11 @@
 				item: { count: 1, id: "justdirethings:eclipsealloy_paxel" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: 11.2d
+			x: 11.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "6CA786134D0DA32B"
 			rewards: [{
 				id: "4393A28B689E031A"
@@ -984,12 +943,11 @@
 				item: { count: 1, id: "justdirethings:itemcollector" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 35.2d
+			x: -7.0d
+			y: 15.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "3AC89BD7683ED8D1"
 			rewards: [{
 				id: "062A1F69E9C57913"
@@ -1001,12 +959,11 @@
 				item: { count: 1, id: "justdirethings:blockbreakert1" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 30.4d
+			x: -15.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "6332C7EE9A88D842"
 			rewards: [{
 				id: "17EAA846CF94A48B"
@@ -1018,12 +975,11 @@
 				item: { count: 1, id: "justdirethings:blockplacert1" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 27.2d
+			x: -9.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "09AA5E135B3F3B24"
 			rewards: [{
 				id: "3C4EEC69E4E75C32"
@@ -1035,12 +991,11 @@
 				item: { count: 1, id: "justdirethings:clickert1" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 32.0d
+			x: -13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "6BB594CD94381638"
 			rewards: [{
 				id: "6F36CDB94EEEE8C7"
@@ -1052,12 +1007,11 @@
 				item: { count: 1, id: "justdirethings:sensort1" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 33.6d
+			x: -7.0d
+			y: 13.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "59A6A9C1DD04C53A"
 			rewards: [{
 				id: "7DFE72C45E07FE6B"
@@ -1069,12 +1023,11 @@
 				item: { count: 1, id: "justdirethings:droppert1" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 27.2d
+			x: -11.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "6461D4F6C50DEA4C"
 			rewards: [{
 				id: "0A28EBC4F8AFBDDA"
@@ -1086,12 +1039,11 @@
 				item: { count: 1, id: "justdirethings:blockswappert1" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 20.8d
+			x: -5.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "463E9EA378DD2604"
 			rewards: [{
 				id: "0EBFD6E4A6F7CAA6"
@@ -1103,12 +1055,11 @@
 				item: { count: 1, id: "justdirethings:fluidplacert1" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 27.2d
+			x: -13.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: true
 			id: "616C40032A91B84D"
 			rewards: [{
 				id: "6CC0287925F4D7C2"
@@ -1120,12 +1071,11 @@
 				item: { count: 1, id: "justdirethings:fluidcollectort1" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 33.6d
+			x: -9.0d
+			y: 13.6d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "30AFA497560FB721"
 			rewards: [{
 				id: "57C980AC15A661D1"
@@ -1137,12 +1087,11 @@
 				item: { count: 1, id: "justdirethings:experienceholder" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 22.4d
+			x: -3.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: true
 			id: "56B33BEA6CD9F2E9"
 			rewards: [{
 				id: "4F5693933733309C"
@@ -1154,12 +1103,11 @@
 				item: { count: 1, id: "justdirethings:creaturecatcher" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 17.6d
+			x: -3.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: true
 			id: "5EEE5033B49668C3"
 			rewards: [{
 				id: "7DD6FDB8484ACC8C"
@@ -1171,12 +1119,11 @@
 				item: { count: 1, id: "justdirethings:paradoxmachine" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 9.6d
+			x: 9.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: false
 			id: "0CA153DAC3A0965F"
 			rewards: [{
 				id: "6C08411D8055C5A6"
@@ -1189,8 +1136,8 @@
 				item: { count: 1, id: "justdirethings:coal_t1" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 30.4d
+			x: -3.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1209,8 +1156,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 27.2d
+			x: -7.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1229,8 +1176,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 25.6d
+			x: -9.0d
+			y: 5.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1249,8 +1196,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 32.0d
+			x: -11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1269,8 +1216,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 28.8d
+			x: -7.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1289,8 +1236,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
-			y: 17.6d
+			x: 1.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1309,8 +1256,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 19.2d
+			x: -3.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1329,12 +1276,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 35.2d
+			x: -13.0d
+			y: 15.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: false
 			id: "08532DB1F9710D23"
 			rewards: [{
 				id: "73ABAF4C565A0468"
@@ -1346,12 +1292,11 @@
 				item: { count: 1, id: "justdirethings:blazejet_wand" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 20.8d
+			x: 1.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: false
 			id: "77F510BC1BD66741"
 			rewards: [{
 				id: "322D682DA8B66652"
@@ -1363,12 +1308,11 @@
 				item: { count: 1, id: "justdirethings:voidshift_wand" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 11.2d
+			x: 9.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: false
 			id: "6B9E34653D582016"
 			rewards: [{
 				id: "73E4F186A64F8367"
@@ -1380,8 +1324,8 @@
 				item: { count: 1, id: "justdirethings:eclipsegate_wand" }
 				type: "item"
 			}]
-			x: 24.0d
-			y: 6.4d
+			x: 9.0d
+			y: -13.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1400,8 +1344,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 30.4d
+			x: -13.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
@@ -1416,8 +1360,8 @@
 				item: { count: 1, id: "justdirethings:energytransmitter" }
 				type: "item"
 			}]
-			x: 18.0d
-			y: 12.8d
+			x: 3.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44" "0CA153DAC3A0965F"]
@@ -1432,12 +1376,11 @@
 				item: { count: 1, id: "justdirethings:machinesettingscopier" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 28.8d
+			x: -3.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: false
 			id: "5862FD2BB97DBBEF"
 			rewards: [{
 				id: "76A891B0F91DBA40"
@@ -1449,12 +1392,11 @@
 				item: { count: 1, id: "justdirethings:totem_of_death_recall" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 20.8d
+			x: -3.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
-			hide_dependency_lines: false
 			id: "3C74CE1EA5F15362"
 			rewards: [{
 				id: "60794B6F0A8BEACD"
@@ -1466,8 +1408,8 @@
 				item: { count: 1, id: "justdirethings:ferricore_wrench" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 35.2d
+			x: -11.0d
+			y: 15.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1482,8 +1424,8 @@
 				item: { count: 1, id: "justdirethings:pocket_generator" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 27.2d
+			x: -5.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1498,12 +1440,11 @@
 				item: { count: 1, id: "justdirethings:fluid_canister" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 35.2d
+			x: -9.0d
+			y: 15.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
-			hide_dependency_lines: false
 			id: "281BDD88E98AB6C4"
 			rewards: [{
 				id: "7D573FA2AFC79750"
@@ -1515,12 +1456,11 @@
 				item: { count: 1, id: "justdirethings:coal_t2" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 22.4d
+			x: -1.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["6C494F9D6CCE6111"]
-			hide_dependency_lines: false
 			id: "31EA548BE2CEA33C"
 			rewards: [{
 				id: "77A35E03AE7486A9"
@@ -1532,12 +1472,11 @@
 				item: { count: 1, id: "justdirethings:coal_t3" }
 				type: "item"
 			}]
-			x: 22.0d
-			y: 11.2d
+			x: 7.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["47515072B948EB9E"]
-			hide_dependency_lines: false
 			id: "7BED617A7B733C23"
 			rewards: [{
 				id: "759B5BDF98503EEA"
@@ -1549,8 +1488,8 @@
 				item: { count: 1, id: "justdirethings:coal_t4" }
 				type: "item"
 			}]
-			x: 28.0d
-			y: 4.8d
+			x: 13.0d
+			y: -15.2d
 		}
 		{
 			dependencies: ["50F5BF288092DA4C"]
@@ -1565,8 +1504,8 @@
 				item: { count: 1, id: "justdirethings:playeraccessor" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 16.0d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1581,8 +1520,8 @@
 				item: { count: 1, id: "justdirethings:generatort1" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 28.8d
+			x: -9.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1601,8 +1540,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 33.6d
+			x: -13.0d
+			y: 13.6d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1624,8 +1563,8 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 32.0d
+			x: -3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1652,8 +1591,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 30.4d
+			x: -5.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1680,8 +1619,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 30.4d
+			x: -11.0d
+			y: 10.4d
 		}
 		{
 			dependencies: ["792702F585B4AC44"]
@@ -1696,8 +1635,8 @@
 				item: { count: 1, id: "justdirethings:generatorfluidt1" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 28.8d
+			x: -13.0d
+			y: 8.8d
 		}
 	]
 }

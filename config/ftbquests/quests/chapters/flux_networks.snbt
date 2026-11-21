@@ -22,8 +22,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_dust" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.6d
+			x: 1.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -45,8 +45,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_controller" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.2d
+			x: 3.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["462AB51D40A6902B"]
@@ -71,8 +71,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_core" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.2d
+			x: 1.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -87,8 +87,8 @@
 				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.8d
+			x: -1.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -111,8 +111,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_plug" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.8d
+			x: 1.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -135,8 +135,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_point" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.2d
+			x: -1.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["462AB51D40A6902B"]
@@ -147,8 +147,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_configurator" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 1.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["3D61DBC728EC482D"]
@@ -164,8 +164,8 @@
 				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.8d
+			x: -3.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["15A593F96530A08A"]
@@ -181,8 +181,8 @@
 				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.2d
+			x: -3.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["326C6166A14D641E"]
@@ -206,8 +206,8 @@
 				item: { count: 1, id: "fluxnetworks:flux_block" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.6d
+			x: -1.0d
+			y: 0.8d
 		}
 	]
 }

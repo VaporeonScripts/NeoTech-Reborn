@@ -19,8 +19,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 22.4d
+			x: 8.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["4ED254864CD92A25"]
@@ -30,8 +30,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:gold_backpack" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 24.0d
+			x: 12.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["240F20C12C771975"]
@@ -46,8 +46,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 25.6d
+			x: 14.0d
+			y: -7.2d
 		}
 		{
 			dependencies: ["5C16B8E0C3AC4D6D"]
@@ -62,8 +62,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 27.2d
+			x: 16.0d
+			y: -7.2d
 		}
 		{
 			id: "5C4E3F69BE5E7C86"
@@ -80,8 +80,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.8d
+			x: -10.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -91,8 +91,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:stonecutter_upgrade" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.4d
+			x: -12.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -102,8 +102,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:blasting_upgrade" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.6d
+			x: -14.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["76D2482C90266C3D"]
@@ -113,8 +113,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:auto_blasting_upgrade" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -16.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -124,8 +124,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:smoking_upgrade" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: -6.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["37E8DD20B7F8288A"]
@@ -135,8 +135,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:auto_smoking_upgrade" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.6d
+			x: -6.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -146,8 +146,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:smelting_upgrade" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.2d
+			x: -6.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["18602E98C88BBCB3"]
@@ -157,8 +157,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:auto_smelting_upgrade" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: -4.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -168,8 +168,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: -14.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["1B1083EE0C7C685D"]
@@ -179,8 +179,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_feeding_upgrade" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -16.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -190,8 +190,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.8d
+			x: -14.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["05A3F4A64EC4B268"]
@@ -201,8 +201,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_magnet_upgrade" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.2d
+			x: -14.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["46535886413DEE2A"]
@@ -212,8 +212,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 9.6d
+			x: -8.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["5B6E54D22404B035"]
@@ -223,8 +223,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_2" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.6d
+			x: -6.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["565971DD1DC0ECD4"]
@@ -239,8 +239,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_3" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 9.6d
+			x: -6.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["16C4BD183D4ACD12"]
@@ -255,8 +255,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_4" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 11.2d
+			x: -4.0d
+			y: 8.8d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -266,8 +266,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:filter_upgrade" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: -6.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["0A047C9350F91338"]
@@ -277,8 +277,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_filter_upgrade" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.6d
+			x: -4.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -288,8 +288,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:void_upgrade" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.8d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2289C9AAEC281148"]
@@ -299,8 +299,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_void_upgrade" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.8d
+			x: -8.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -310,8 +310,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:compacting_upgrade" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: -12.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["36A5438EABF3E9B1"]
@@ -321,8 +321,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_compacting_upgrade" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.6d
+			x: -12.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -332,8 +332,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: -14.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["46C76FD0C9D0F414"]
@@ -343,8 +343,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_pickup_upgrade" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: -14.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -354,8 +354,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.2d
+			x: -10.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -365,8 +365,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:jukebox_upgrade" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: -10.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -376,8 +376,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:restock_upgrade" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.6d
+			x: -8.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["332ED2065BDCF54F"]
@@ -387,8 +387,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_restock_upgrade" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.6d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -398,8 +398,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.6d
+			x: -8.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["5181194EE635D762"]
@@ -409,8 +409,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_deposit_upgrade" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: -8.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -420,8 +420,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:refill_upgrade" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.4d
+			x: -14.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -436,8 +436,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.8d
+			x: -8.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -447,8 +447,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:tool_swapper_upgrade" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.2d
+			x: -10.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7D027650D0554AE8"]
@@ -458,8 +458,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.6d
+			x: -10.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -469,8 +469,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:tank_upgrade" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.8d
+			x: -10.0d
+			y: 0.8d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -480,8 +480,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:battery_upgrade" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.2d
+			x: -12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -491,8 +491,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:pump_upgrade" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.4d
+			x: -12.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["72750076B9971EC5"]
@@ -502,8 +502,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_pump_upgrade" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: -12.0d
+			y: -8.8d
 		}
 		{
 			dependencies: ["264D4CDC6A0D788B"]
@@ -518,8 +518,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:xp_pump_upgrade" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: -12.0d
+			y: -10.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -529,8 +529,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:inception_upgrade" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.2d
+			x: -12.0d
+			y: -0.8d
 		}
 		{
 			dependencies: ["4E46519EFA48FECC"]
@@ -540,8 +540,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_refill_upgrade" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.4d
+			x: -16.0d
+			y: -2.4d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -551,8 +551,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_starter_tier" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.4d
+			x: -10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5C4E3F69BE5E7C86"]
@@ -562,8 +562,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:alchemy_upgrade" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.8d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["248EDD67A7CE50B9"]
@@ -573,8 +573,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:advanced_alchemy_upgrade" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.8d
+			x: -4.0d
+			y: -5.6d
 		}
 		{
 			dependencies: ["361CEF92D5D53467"]
@@ -598,8 +598,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_omega_tier" }
 				type: "item"
 			}]
-			x: 16.0d
-			y: 12.8d
+			x: -4.0d
+			y: 10.4d
 		}
 	]
 }
