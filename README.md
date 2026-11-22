@@ -21,4 +21,4 @@ Want to host your own NeoTech Reborn server? Kinetic Hosting is my recommended h
 
 Open an issue in this repo. There's a bug report template that'll ask for your modpack version, launcher, Java version, RAM allocated, and a log link if you have one.
 
-Owner & developer: kurotsuki
+Owner & developer: Kurotsuki
