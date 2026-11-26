@@ -1,0 +1,438 @@
+{
+	autofocus_id: "0FB941C49B31912E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "00_start_here"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "neotechreborn:textures/quests/pack_icon.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "157C96B65D357389"
+	images: [
+		{
+			click_action: "none:"
+			height: 4.0d
+			id: "27F6FC9DFB867457"
+			image: "neotechreborn:textures/quests/pack_icon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: -6.3d
+		}
+		{
+			click_action: "none:"
+			height: 2.42d
+			id: "2EE7102D4239A2FC"
+			image: "neotechreborn:textures/quests/pack_banner.png"
+			rotation: 0.0d
+			width: 22.0d
+			x: 6.0d
+			y: -6.3d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "neotechreborn:textures/quests/pack_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0FB941C49B31912E"
+			size: 2.0d
+			tasks: [{
+				id: "09B2A9D972674E7D"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FB941C49B31912E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "fancytoasts:textures/gui/sprites/links/discord_hover.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "367FFB447D28B83B"
+			tasks: [{
+				id: "440CB6B3417382DD"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FB941C49B31912E"]
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "5BD202341683BEAA"
+			tasks: [{
+				id: "656B747D3C264A6F"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FB941C49B31912E"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "6B902C0B6CE683CA"
+			tasks: [{
+				id: "4161F319EEBDDE5B"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FB941C49B31912E"]
+			icon: {
+				id: "eccentrictome:tome"
+			}
+			id: "39116B943AB5A383"
+			rewards: [
+				{
+					id: "49AA45C85E5C7474"
+					item: {
+						components: {
+							"eccentrictome:tome_data": {
+								books: {
+									actuallyadditions: [{
+										count: 1
+										id: "actuallyadditions:booklet"
+									}]
+									ae2: [{
+										count: 1
+										id: "ae2:guide"
+									}]
+									aether: [{
+										count: 1
+										id: "aether:book_of_lore"
+									}]
+									ars_nouveau: [{
+										count: 1
+										id: "ars_nouveau:worn_notebook"
+									}]
+									crystalcraft_unlimited_java: [{
+										count: 1
+										id: "crystalcraft_unlimited_java:crystalopedia"
+									}]
+									eternal_starlight: [{
+										count: 1
+										id: "eternal_starlight:book"
+									}]
+									ftbquests: [{
+										count: 1
+										id: "ftbquests:book"
+									}]
+									immersiveengineering: [{
+										count: 1
+										id: "immersiveengineering:manual"
+									}]
+									irons_jewelry: [{
+										count: 1
+										id: "irons_jewelry:jewelcrafting_guide"
+									}]
+									modern_industrialization: [{
+										count: 1
+										id: "modern_industrialization:guidebook"
+									}]
+									modonomicon: [{
+										components: {
+											"modonomicon:book_id": "theurgy:the_hermetica"
+										}
+										count: 1
+										id: "modonomicon:modonomicon"
+									}]
+									moresnifferflowers: [{
+										count: 1
+										id: "moresnifferflowers:beroot_cook_book"
+									}]
+									occultism: [{
+										count: 1
+										id: "occultism:dictionary_of_spirits"
+									}]
+									patchouli: [
+										{
+											components: {
+												"patchouli:book": "divinerpg:divine"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "l2hostility:hostility_guide"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "animal_pen:guide_book"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "twilightdelight:twilight_guide"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "justdirethings:justdirethingsbook"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "apotheosis:apoth_chronicle"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "productivebees:guide"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "productivetrees:guide"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "modularrouters:book"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "pneumaticcraft:book"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "irons_spellbooks:iss_guide_book"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "mysticalagriculture:guide"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "simplyswords:runic_grimoire"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "l2artifacts:artifact_guide"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+										{
+											components: {
+												"patchouli:book": "betternether:betternether_book"
+											}
+											count: 1
+											id: "patchouli:guide_book"
+										}
+									]
+									powah: [{
+										count: 1
+										id: "powah:book"
+									}]
+									solcarrot: [{
+										count: 1
+										id: "solcarrot:food_book"
+									}]
+									starcatcher: [{
+										count: 1
+										id: "starcatcher:starcatcher_guide"
+									}]
+									tide: [{
+										count: 1
+										id: "tide:fishing_journal"
+									}]
+									wildex: [{
+										count: 1
+										id: "wildex:wildex_book"
+									}]
+								}
+								tome_id: "00000000-0000-0000-0000-000000000000"
+							}
+						}
+						count: 1
+						id: "eccentrictome:tome"
+					}
+					type: "item"
+				}
+				{
+					id: "6A6A4A884513E9A4"
+					item: {
+						count: 1
+						id: "prefab:item_house"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7EF632FF72129737"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39116B943AB5A383"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "44D2D8EC560D8297"
+			tasks: [{
+				id: "051DFA6CC097CE13"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39116B943AB5A383"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "390C6837EC35BEA1"
+			tasks: [{
+				id: "5580651FE9896E77"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39116B943AB5A383"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "460D439B9F4B56D2"
+			tasks: [{
+				id: "4CFDB76363BC45C1"
+				type: "checkmark"
+			}]
+			x: 5.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39116B943AB5A383"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:note_block"
+			}
+			id: "7037E44B49F9B43A"
+			tasks: [{
+				id: "0F77DAE0FE3F7F14"
+				type: "checkmark"
+			}]
+			x: 7.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39116B943AB5A383"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "0E9FABC6EDE15FF1"
+			tasks: [{
+				id: "09FB50F3B1243C1B"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39116B943AB5A383"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "2AA4A4F7E35FED0D"
+			tasks: [{
+				id: "6DAC4DEE1A845F0D"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39116B943AB5A383"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:comparator"
+			}
+			id: "7F0399FABD72F56D"
+			tasks: [{
+				id: "74CB3156EEFE4237"
+				type: "checkmark"
+			}]
+			x: 5.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39116B943AB5A383"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "6B1BEC79005075E8"
+			tasks: [{
+				id: "49D4DD3AA4AE0B71"
+				type: "checkmark"
+			}]
+			x: 7.25d
+			y: 5.0d
+		}
+	]
+}

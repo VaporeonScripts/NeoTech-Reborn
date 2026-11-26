@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "music_discs"
+	group: "7E64D61002F15440"
+	icon: {
+		id: "minecraft:jukebox"
+	}
+	id: "6E5D34238268F0C2"
+	images: [{
+		height: 3.8d
+		id: "3519679C876D6038"
+		image: "neotechreborn:textures/quests/music_discs_title.png"
+		rotation: 0.0d
+		width: 16.8d
+		x: 0.0d
+		y: -4.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "37136D3A987DA7C6"
+			rewards: [{
+				id: "13824F0BD7381745"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "03B63D3B6807EFA8"
+				item: { count: 1, id: "minecraft:music_disc_13" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.6d
+		}
+		{
+			id: "45F61C0596335D0F"
+			rewards: [{
+				id: "536E7E67D1DFA499"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "13526077CC2DE1CD"
+				item: { count: 1, id: "minecraft:music_disc_cat" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.6d
+		}
+		{
+			id: "21B9DE3FF594FA45"
+			rewards: [{
+				id: "7ABEC93FECE6703E"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "66039A4009C6725E"
+				item: { count: 1, id: "minecraft:music_disc_blocks" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.6d
+		}
+		{
+			id: "30D6B1F91FB638C1"
+			rewards: [{
+				id: "16EE2A0D4637857F"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "6B6F94B9C9D468ED"
+				item: { count: 1, id: "minecraft:music_disc_chirp" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.6d
+		}
+		{
+			id: "001240F3EF282471"
+			rewards: [{
+				id: "498F052004CBD8A4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C707A3EBBD2A6DF"
+				item: { count: 1, id: "minecraft:music_disc_far" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.6d
+		}
+		{
+			id: "2E2ED2FB6F533318"
+			rewards: [{
+				id: "34DB716D0E19FB68"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "015D6514B729D362"
+				item: { count: 1, id: "minecraft:music_disc_mall" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.6d
+		}
+		{
+			id: "3694E18A5BECA7CB"
+			rewards: [{
+				id: "49D0A247561FC44E"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "11A24E2EBF4E5CDE"
+				item: { count: 1, id: "minecraft:music_disc_mellohi" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			id: "1F51BCEA863D8050"
+			rewards: [{
+				id: "52DFF69FFFCF1B54"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "0DC721DDDF5AADBD"
+				item: { count: 1, id: "minecraft:music_disc_stal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.6d
+		}
+		{
+			id: "4ED13E43CA6A963D"
+			rewards: [{
+				id: "7098F238A0F453C7"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "5B1502662E2C492E"
+				item: { count: 1, id: "minecraft:music_disc_strad" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.6d
+		}
+		{
+			id: "52CB38CAD6FC7C19"
+			rewards: [{
+				id: "2C78348D9810066D"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "1B8FE0FDAD60D8EF"
+				item: { count: 1, id: "minecraft:music_disc_ward" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "15A266FD3813B256"
+			rewards: [{
+				id: "354C1A34DF8BB9D1"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "261571E6887ED869"
+				item: { count: 1, id: "minecraft:music_disc_11" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "2F8863FE62B8F318"
+			rewards: [{
+				id: "06EC272564BA507D"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "5A3150995591C5F0"
+				item: { count: 1, id: "minecraft:music_disc_creator_music_box" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "03D230EA5473B03F"
+			rewards: [{
+				id: "2632B4F5B934447E"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "15C4138A31528CED"
+				item: { count: 1, id: "minecraft:music_disc_wait" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "4E1CA3E48BAD2888"
+			rewards: [{
+				id: "467AE92A3D60CEB6"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7333B805ED662A9D"
+				item: { count: 1, id: "minecraft:music_disc_creator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0BD209565833C2E2"
+			rewards: [{
+				id: "7606BCD487892B33"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0E70C6AE0151A7BC"
+				item: { count: 1, id: "minecraft:music_disc_precipice" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "1CE9C0DAE7FC637E"
+			rewards: [{
+				id: "20EDE4654F933548"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "394523816A974804"
+				item: { count: 1, id: "minecraft:music_disc_otherside" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "2D256ACB9F5023CA"
+			rewards: [{
+				id: "7ABE61073D2A7AE5"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "1A8325CE24CC0A5C"
+				item: { count: 1, id: "minecraft:music_disc_relic" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "04E52A67D5351CFD"
+			rewards: [{
+				id: "1F15AD5AE3184A85"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "5F594B45C5AFC055"
+				item: { count: 1, id: "minecraft:music_disc_5" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "505ACD03E11564C3"
+			rewards: [{
+				id: "51958DAA782A6F19"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "64B1E5D5034FD512"
+				item: { count: 1, id: "minecraft:music_disc_pigstep" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.6d
+		}
+	]
+}

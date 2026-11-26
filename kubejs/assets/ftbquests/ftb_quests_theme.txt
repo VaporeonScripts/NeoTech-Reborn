@@ -1,0 +1,38 @@
+[*]
+background:                 color:#00000000
+chapter_panel_background:   color:#FF1B2B45
+key_reference_background:   color:#E61B2B45
+
+text_color:          #E8F8FF
+hover_text_color:    #7FFFEA
+disabled_text_color: #8497A6
+
+widget_border:     #6650A8D0
+widget_background: #331E3A5A
+symbol_in:         #00D9FF
+symbol_out:        #00A8C8
+
+button:                hollow_rectangle:{{widget_border}}; round_edges + {{widget_background}}; round_edges
+panel:                 {{container_slot}}
+disabled_button:       hollow_rectangle:#334A7090; round_edges
+hover_button:          {{button}} + #3340B8D8; round_edges; padding=1
+context_menu:          hollow_rectangle:{{widget_border}}; round_edges + color:#F01E2E48; round_edges; padding=1
+scroll_bar_background: {{widget_background}}
+scroll_bar:            {{button}} + #4000D9FF; padding=1
+container_slot:        {{button}}; padding=-1
+
+quest_view_background: color:#E61B2B45; round_edges
+quest_view_border:     #8850A8D0
+quest_view_title:      #FFFFFF
+tasks_text_color:      #CFEFFF
+rewards_text_color:    #FFD27A
+
+quest_completed_color:   #00D9AA
+quest_started_color:     #00D9FF
+quest_not_started_color: #B3DCE8F0
+quest_locked_color:      #66889AA8
+
+dependency_line_completed_color:    #00D9AA
+dependency_line_uncompleted_color:  #669FB4CC
+dependency_line_requires_color:     #FFA500
+dependency_line_required_for_color: #00D9FF

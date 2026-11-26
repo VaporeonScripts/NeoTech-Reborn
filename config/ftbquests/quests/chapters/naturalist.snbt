@@ -1,0 +1,313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "naturalist"
+	group: "3F9A7C21D5B80E46"
+	icon: {
+		id: "naturalist:capture_net"
+	}
+	id: "5876748D48B088F8"
+	images: [{
+		height: 3.8d
+		id: "1A77EBFE15255EB7"
+		image: "neotechreborn:textures/quests/naturalist_title.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 6.0d
+		y: -10.1d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4DEA189D0E8FA603"
+			rewards: [{
+				id: "0045C2D0FB1AAF69"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "68DC952EF155CF61"
+				item: { count: 1, id: "naturalist:capture_net" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DEA189D0E8FA603"]
+			id: "458A3FAB0F83652D"
+			rewards: [{
+				id: "013EC3167B27FEAA"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "721CFDB9D256D923"
+				item: { components: { "minecraft:bucket_entity_data": { Variant: "naturalist:blue" }, "minecraft:custom_data": { Variant: "naturalist:blue" } }, count: 1, id: "naturalist:crab" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.6d
+		}
+		{
+			dependencies: ["4DEA189D0E8FA603"]
+			id: "524BF2ADF436A2C8"
+			rewards: [{
+				id: "72F7CF51377C3FDF"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2C3EFE51BFEB5209"
+				item: { components: { "minecraft:bucket_entity_data": { Variant: "naturalist:monarch" }, "minecraft:custom_data": { Variant: "naturalist:monarch" } }, count: 1, id: "naturalist:butterfly" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["4DEA189D0E8FA603"]
+			id: "325684F0DECF5279"
+			rewards: [{
+				id: "2081ABE6659EC3B0"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "1EAA288B414FD27D"
+				item: { count: 1, id: "naturalist:ant" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.6d
+		}
+		{
+			dependencies: ["4DEA189D0E8FA603"]
+			id: "0DF9E4FC7641D7EC"
+			rewards: [{
+				id: "2BFD8650985D5477"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "3B7C0CFBFFD7C288"
+				item: { count: 1, id: "naturalist:bee" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.6d
+		}
+		{
+			dependencies: ["4DEA189D0E8FA603"]
+			id: "72932C84DB6B31BF"
+			rewards: [{
+				id: "11D24B291BA4FE8F"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "31D04F084A85F53F"
+				item: { count: 1, id: "naturalist:silverfish" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DEA189D0E8FA603"]
+			id: "634D71B683337622"
+			rewards: [{
+				id: "18694B4F955158EB"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "1F4DAC9D1914C4EB"
+				item: { count: 1, id: "naturalist:firefly" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4DEA189D0E8FA603"]
+			id: "14030A18523919B2"
+			rewards: [{
+				id: "3DB9F2B838F399B0"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "5E1FB3CDD1385C36"
+				item: { components: { "minecraft:bucket_entity_data": { Variant: "naturalist:blue" }, "minecraft:custom_data": { Variant: "naturalist:blue" } }, count: 1, id: "naturalist:dragonfly" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.2d
+		}
+		{
+			dependencies: ["4DEA189D0E8FA603"]
+			id: "0715D941E2F684C1"
+			rewards: [{
+				id: "05068306626C451A"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "5773079BCE8D6B77"
+				item: { components: { "minecraft:bucket_entity_data": { Color: 0 }, "minecraft:custom_data": { Color: 0 } }, count: 1, id: "naturalist:snail" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["22F624120228DA3E"]
+			id: "6A4F2178F4E09456"
+			rewards: [{
+				id: "0D8C5430BC6A9D1E"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "019EB88FA8A13318"
+				item: { components: { "minecraft:bucket_entity_data": { Variant: "naturalist:red" }, "minecraft:custom_data": { Variant: "naturalist:red" } }, count: 1, id: "naturalist:starfish_bucket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.6d
+		}
+		{
+			id: "22F624120228DA3E"
+			rewards: [{
+				id: "63D08D3609511753"
+				type: "xp"
+				xp: 36
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5F8AC533861EFEFB"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.6d
+		}
+		{
+			dependencies: ["22F624120228DA3E"]
+			id: "3294B8900265CCA9"
+			rewards: [{
+				id: "34BC3C678053308C"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "6FB0B25DF3348B75"
+				item: { components: { "minecraft:bucket_entity_data": { Variant: "naturalist:brown" }, "minecraft:custom_data": { Variant: "naturalist:brown" } }, count: 1, id: "naturalist:giant_isopod_bucket" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22F624120228DA3E"]
+			id: "050589083FF5E743"
+			rewards: [{
+				id: "4A6105815D993C59"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "20E641033E15C281"
+				item: { components: { "minecraft:bucket_entity_data": { Variant: "naturalist:red" }, "minecraft:custom_data": { Variant: "naturalist:red" } }, count: 1, id: "naturalist:anglerfish_bucket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.2d
+		}
+		{
+			dependencies: ["22F624120228DA3E"]
+			id: "1F428A4E81D19351"
+			rewards: [{
+				id: "7203FFFC14DCBC2F"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "68CAC55D3482E17F"
+				item: { components: { "minecraft:bucket_entity_data": { Variant: "naturalist:white" }, "minecraft:custom_data": { Variant: "naturalist:white" } }, count: 1, id: "naturalist:jellyfish_bucket" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.2d
+		}
+		{
+			dependencies: ["22F624120228DA3E"]
+			id: "5B8026F5E505444C"
+			rewards: [{
+				id: "5C1A43385847D2CD"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "6C9C5612F74B3966"
+				item: { components: { "minecraft:bucket_entity_data": { Variant: "naturalist:eagle_ray" }, "minecraft:custom_data": { Variant: "naturalist:eagle_ray" } }, count: 1, id: "naturalist:ray_bucket" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22F624120228DA3E"]
+			id: "0ACFCA35DE306525"
+			rewards: [{
+				id: "0A160AF683BDC67A"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "7E8B2F6D01ACEC1C"
+				item: { count: 1, id: "naturalist:blobfish_bucket" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.2d
+		}
+		{
+			dependencies: ["22F624120228DA3E"]
+			id: "041C6B1A87A4492E"
+			rewards: [{
+				id: "1B4A6FCE8557A939"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "65FDFEF447A5A081"
+				item: { count: 1, id: "naturalist:piranha_bucket" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22F624120228DA3E"]
+			id: "2E5691C67FA084DA"
+			rewards: [{
+				id: "235D0BCD6F0C43F9"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "4D226A9D01AE8258"
+				item: { count: 1, id: "minecraft:axolotl_bucket" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.6d
+		}
+	]
+}

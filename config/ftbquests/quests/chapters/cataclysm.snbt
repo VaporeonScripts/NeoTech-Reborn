@@ -1,0 +1,1673 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "6B63167E1B82FEE2"
+	icon: {
+		id: "cataclysm:essence_of_the_storm"
+	}
+	id: "6DED6BD983D714A0"
+	images: [{
+		height: 3.8d
+		id: "5614C6FFDBD63945"
+		image: "neotechreborn:textures/quests/cataclysm_title.png"
+		rotation: 0.0d
+		width: 14.8d
+		x: -13.0d
+		y: -22.1d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BB7D2717E73C5EE"
+			rewards: [{
+				id: "01E639C6CFF1F155"
+				type: "xp"
+				xp: 48
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "cataclysm:sandstone_poison_dart_trap"
+				}
+				id: "68670832422D7D08"
+				structure: "cataclysm:desert_site"
+				type: "structure"
+			}]
+			x: -19.0d
+			y: -12.8d
+		}
+		{
+			dependencies: ["6BB7D2717E73C5EE"]
+			id: "2364038D77077F2F"
+			rewards: [{
+				id: "77875D859A09CD4F"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				icon: {
+					id: "cataclysm:modern_remnant_bucket"
+				}
+				id: "7E2BD2E6762823C4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.0d
+			y: -14.4d
+		}
+		{
+			dependencies: ["2364038D77077F2F"]
+			id: "2EF5B5BBFC3960D1"
+			rewards: [{
+				id: "6D12755E2D6183AD"
+				type: "xp"
+				xp: 46
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "cataclysm:desert_eye"
+				}
+				id: "4DEC06D3921F3037"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["2EF5B5BBFC3960D1"]
+			id: "5C9FC7FFEF293D53"
+			rewards: [
+				{
+					id: "065441E1CD9B9887"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "04651DCBBA31A9EB"
+					type: "xp"
+					xp: 45
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					id: "cataclysm:remnant_skull"
+				}
+				id: "4FD9A23AF64373A5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -12.8d
+		}
+		{
+			dependencies: ["4D8FBCA57F8C473D"]
+			id: "11E03734F1E47AB9"
+			rewards: [{
+				id: "436B86B784193741"
+				type: "xp"
+				xp: 43
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "cataclysm:flame_eye"
+				}
+				id: "1DCBC322AE8D0685"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: -17.0d
+			y: -4.8d
+		}
+		{
+			dependencies: ["11E03734F1E47AB9"]
+			id: "7B5F67022FD04EF1"
+			rewards: [{
+				id: "70453A17B85D8B34"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					id: "cataclysm:altar_of_fire"
+				}
+				id: "6FD3EAA43F45B6F9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: -6.4d
+		}
+		{
+			dependencies: ["2EF5B5BBFC3960D1"]
+			id: "00ECBBFDDF81560E"
+			rewards: [{
+				id: "087CA9404C0882AB"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "1E85AAF21E9C4D95"
+				item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -17.6d
+		}
+		{
+			dependencies: ["6BB7D2717E73C5EE"]
+			id: "11DC66CFEF894DAD"
+			rewards: [{
+				id: "213E1B050DB122D4"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				icon: {
+					id: "cataclysm:koboleton_bone"
+				}
+				id: "3A882595072FF381"
+				type: "kill"
+				value: 15L
+			}]
+			x: -19.0d
+			y: -14.4d
+		}
+		{
+			dependencies: ["2EF5B5BBFC3960D1"]
+			id: "55964C3EF312FCC3"
+			rewards: [{
+				id: "27AAD1EBAD42E177"
+				type: "xp"
+				xp: 46
+			}]
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				icon: {
+					id: "cataclysm:kobolediator_skull"
+				}
+				id: "199432D021D49244"
+				type: "kill"
+				value: 1L
+			}]
+			x: -15.0d
+			y: -12.8d
+		}
+		{
+			dependencies: ["55964C3EF312FCC3"]
+			id: "5D7CDDA1E072DCE6"
+			rewards: [{
+				id: "70BC45FDF102AC90"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "54137FEB5C84822A"
+				item: { count: 1, id: "cataclysm:bone_reptile_helmet" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -14.4d
+		}
+		{
+			dependencies: ["55964C3EF312FCC3"]
+			id: "6E1C7AD61242989D"
+			rewards: [{
+				id: "0A742805A2F04BC3"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "3C433B84D40E39EE"
+				item: { count: 1, id: "cataclysm:bone_reptile_chestplate" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -11.2d
+		}
+		{
+			dependencies: ["5C9FC7FFEF293D53"]
+			id: "23542AE6ED642245"
+			rewards: [{
+				id: "08737DA58DF105AA"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "7993D47A1B6D0568"
+				item: { count: 1, id: "cataclysm:sandstorm_in_a_bottle" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -11.2d
+		}
+		{
+			dependencies: ["5C9FC7FFEF293D53"]
+			id: "251E00BBEC2EDCFA"
+			rewards: [{
+				id: "6D5DD0F9F76929B8"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6E6CBDF0FBFA1F48"
+				item: { count: 1, id: "cataclysm:music_disc_ancient_remnant" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -12.8d
+		}
+		{
+			dependencies: ["11DC66CFEF894DAD"]
+			id: "1931EC7F74EC86E4"
+			rewards: [{
+				id: "57A74202CB3D4DDE"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "0625AF74A9B27CD4"
+				item: { count: 1, id: "cataclysm:khopesh" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6BB7D2717E73C5EE"]
+			id: "29F87D3B2A3FE110"
+			rewards: [{
+				id: "3AA89BCDC76954F8"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "1230829FBB4663E5"
+				item: { count: 1, id: "cataclysm:ancient_metal_nugget" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -12.8d
+		}
+		{
+			dependencies: ["6BB7D2717E73C5EE"]
+			id: "118598E0C12F5E86"
+			rewards: [{
+				id: "7070D1E16B58988C"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "1976502F1991351F"
+				item: { count: 1, id: "cataclysm:ancient_metal_ingot" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -11.2d
+		}
+		{
+			dependencies: ["5C9FC7FFEF293D53"]
+			id: "5B33FAF0B6FB9231"
+			rewards: [{
+				id: "4454365D468ACAFA"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "4AAACF176D1FA60F"
+				item: { count: 1, id: "cataclysm:ancient_metal_block" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -14.4d
+		}
+		{
+			dependencies: ["2364038D77077F2F"]
+			id: "392460E022982817"
+			rewards: [{
+				id: "315FBD862F9D9403"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "58C5CD5098FDA150"
+				item: { count: 1, id: "cataclysm:ancient_spear" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["23542AE6ED642245"]
+			id: "198969864EE843A8"
+			rewards: [{
+				id: "2B36108241994F9B"
+				type: "xp"
+				xp: 29
+			}]
+			tasks: [{
+				id: "3C8BB1F9CE5DFA23"
+				item: { count: 1, id: "cataclysm:wrath_of_the_desert" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -9.6d
+		}
+		{
+			dependencies: ["23542AE6ED642245"]
+			id: "255CB19132A69AF6"
+			rewards: [{
+				id: "659962DAD289BEB5"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "5E9DAE4AF11DF98B"
+				item: { count: 1, id: "cataclysm:gauntlet_of_maelstrom" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.2d
+		}
+		{
+			dependencies: ["00ECBBFDDF81560E"]
+			id: "2711A6E34164DAE2"
+			rewards: [{
+				id: "56702B7C25FAB75F"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "6936DF74687EE219"
+				item: { count: 1, id: "cataclysm:vitality_ankh" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -17.6d
+		}
+		{
+			dependencies: ["00ECBBFDDF81560E"]
+			id: "4313C74A109377D7"
+			rewards: [{
+				id: "7D2993D110173F53"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "15846114A9267693"
+				item: { count: 1, id: "cataclysm:unbreakable_skull" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -19.2d
+		}
+		{
+			dependencies: ["7B5F67022FD04EF1"]
+			id: "289135A3C02884B6"
+			rewards: [{
+				id: "50A055ABB185A6A7"
+				type: "xp"
+				xp: 42
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "21F9FDB5DA47469C"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["289135A3C02884B6"]
+			id: "0F98517792836FCF"
+			rewards: [{
+				id: "2755377223A37793"
+				type: "xp"
+				xp: 36
+			}]
+			tasks: [{
+				id: "3EC96664759CAB12"
+				item: { count: 1, id: "cataclysm:ignitium_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.6d
+		}
+		{
+			dependencies: ["4223BF97E3C79811"]
+			id: "7C74D653429D7DE9"
+			rewards: [{
+				id: "3639EE93ABCCB660"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "194D58656AC151E6"
+				item: { count: 1, id: "cataclysm:ignitium_helmet" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.6d
+		}
+		{
+			dependencies: ["0F98517792836FCF"]
+			id: "4223BF97E3C79811"
+			rewards: [{
+				id: "2F504B0AB6B5E5D1"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [
+				{
+					id: "6665A7647785652B"
+					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "26E63D672BB8E2C1"
+					item: { count: 1, id: "cataclysm:ignitium_elytra_chestplate" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4223BF97E3C79811"]
+			id: "7A26B9373A0083F6"
+			rewards: [{
+				id: "4E943E64413A5565"
+				type: "xp"
+				xp: 39
+			}]
+			tasks: [{
+				id: "0779D8ECD33F270D"
+				item: { count: 1, id: "cataclysm:ignitium_boots" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.6d
+		}
+		{
+			dependencies: [
+				"7C74D653429D7DE9"
+				"7A26B9373A0083F6"
+			]
+			id: "01815C80D8764A47"
+			rewards: [
+				{
+					id: "0EA704D29C69E3F6"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "76899328635ED058"
+					type: "xp"
+					xp: 37
+				}
+			]
+			tasks: [{
+				id: "22A830B0A82B9E3A"
+				item: { count: 1, id: "cataclysm:ignitium_leggings" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.2d
+		}
+		{
+			dependencies: ["289135A3C02884B6"]
+			id: "2B3A54ACD04DE476"
+			rewards: [{
+				id: "2BC773D3575A9AF7"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "7F571C3B4685F801"
+				item: { count: 1, id: "cataclysm:the_immolator" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.4d
+		}
+		{
+			dependencies: ["289135A3C02884B6"]
+			id: "526AB0635FE0C56A"
+			rewards: [{
+				id: "1E1050FBF9E5E5A4"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "2D3528BC6E63D57B"
+				item: { count: 1, id: "cataclysm:gauntlet_of_bulwark" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4307DE422770452B"]
+			id: "23F1DD9F400D7972"
+			rewards: [
+				{
+					id: "274FB7E7AB343AD5"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1EFD129FE2144D71"
+					type: "xp"
+					xp: 37
+				}
+			]
+			tasks: [{
+				id: "6D5253C0983FC46C"
+				item: { count: 1, id: "cataclysm:the_incinerator" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.8d
+		}
+		{
+			dependencies: [
+				"01815C80D8764A47"
+				"0F98517792836FCF"
+			]
+			id: "4307DE422770452B"
+			rewards: [
+				{
+					id: "692250DF22995DA5"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4EA743C65FC313C4"
+					type: "xp"
+					xp: 38
+				}
+			]
+			tasks: [{
+				id: "1C1318B10E53CC96"
+				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.2d
+		}
+		{
+			dependencies: ["11E03734F1E47AB9"]
+			icon: {
+				id: "cataclysm:dying_ember"
+			}
+			id: "22364C78859FA367"
+			rewards: [{
+				id: "22ACEF4792FD42FD"
+				type: "xp"
+				xp: 37
+			}]
+			tasks: [{
+				entity: "cataclysm:ignited_berserker"
+				icon: {
+					id: "cataclysm:dying_ember"
+				}
+				id: "21CA68DC461BD08F"
+				type: "kill"
+				value: 4L
+			}]
+			x: -15.0d
+			y: -3.2d
+		}
+		{
+			dependencies: ["22364C78859FA367"]
+			id: "5D9EDEBA88805F6D"
+			rewards: [{
+				id: "746ED43061D6CFCD"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "69FEF2F18F524366"
+				item: { count: 1, id: "cataclysm:burning_ashes" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["02DC100ACB25CBA8"]
+			id: "5885BA8CA0DBFD3D"
+			rewards: [{
+				id: "47D8433C2CF46461"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "12AA55D247DA9B20"
+				item: { count: 1, id: "cataclysm:blazing_grips" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.4d
+		}
+		{
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "4D8FBCA57F8C473D"
+			rewards: [{
+				id: "6F83B363BEB4F265"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "0FA0C8664991AC4A"
+				type: "advancement"
+			}]
+			x: -17.0d
+			y: -3.2d
+		}
+		{
+			dependencies: ["11E03734F1E47AB9"]
+			id: "02DC100ACB25CBA8"
+			rewards: [{
+				id: "1A669B6CEC4E1F96"
+				type: "xp"
+				xp: 29
+			}]
+			tasks: [{
+				id: "2D0439BAFAC7AA33"
+				item: { count: 1, id: "cataclysm:music_disc_ignis" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.8d
+		}
+		{
+			dependencies: ["02DC100ACB25CBA8"]
+			id: "652564CDB1B4370B"
+			rewards: [{
+				id: "274BE8C5A35C6914"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "13D7932A0E1BF25D"
+				item: { count: 1, id: "cataclysm:belt_of_beginner" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -3.2d
+		}
+		{
+			hide_until_deps_complete: true
+			id: "7CDF5893EB316BD7"
+			rewards: [{
+				id: "55EA7B2775AD82A4"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				icon: {
+					id: "cataclysm:polished_azure_seastone"
+				}
+				id: "7EBF116A020902BE"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: -13.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["7CDF5893EB316BD7"]
+			id: "6FF8077A77706421"
+			rewards: [{
+				id: "58E33FC77F613EE2"
+				type: "xp"
+				xp: 45
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:clawdian"
+				icon: {
+					id: "cataclysm:chitin_claw"
+				}
+				id: "390B2C4EF47F5637"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: 11.2d
+		}
+		{
+			dependencies: ["6FF8077A77706421"]
+			id: "2D61722043555825"
+			rewards: [{
+				id: "7B8C4854C9915466"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: {
+					id: "cataclysm:storm_eye"
+				}
+				id: "7F3DF8731C5262DD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.0d
+			y: 11.2d
+		}
+		{
+			dependencies: ["2D61722043555825"]
+			id: "4E89DF5098AF2720"
+			rewards: [{
+				id: "74851932268F5658"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "686E2D125D4BCEB9"
+				item: { count: 1, id: "cataclysm:lacrima" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["2D61722043555825"]
+			id: "06F13E1509E696C9"
+			rewards: [{
+				id: "6EF2DA3F9B77D05A"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "45672978510A4007"
+				item: { count: 1, id: "cataclysm:essence_of_the_storm" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 14.4d
+		}
+		{
+			dependencies: [
+				"06F13E1509E696C9"
+				"4E89DF5098AF2720"
+			]
+			id: "57C2497A99C83C03"
+			rewards: [{
+				id: "0C269FE16E1E0C72"
+				type: "xp"
+				xp: 32
+			}]
+			tasks: [{
+				id: "069EB9D8C118E542"
+				item: { count: 1, id: "cataclysm:astrape" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 14.4d
+		}
+		{
+			dependencies: ["57C2497A99C83C03"]
+			id: "4636111DB885DDB0"
+			rewards: [{
+				id: "67CF85B8494E8087"
+				type: "xp"
+				xp: 32
+			}]
+			tasks: [{
+				id: "6D7518EE685802E9"
+				item: { count: 1, id: "cataclysm:brontes" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["06F13E1509E696C9"]
+			id: "2CD15A00D4882907"
+			rewards: [{
+				id: "777D6BB4F5DB7EDB"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "51E78D0EE5FA1102"
+				item: { count: 1, id: "cataclysm:ceraunus" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["4E89DF5098AF2720"]
+			id: "34784AD607BB3907"
+			rewards: [{
+				id: "716BDA7FA43DEA8D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "730994349723EC2F"
+				item: { count: 1, id: "cataclysm:azure_sea_shield" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.2d
+		}
+		{
+			dependencies: ["4636111DB885DDB0"]
+			id: "77299101A3B86FAD"
+			rewards: [{
+				id: "2FFF567A55F615AB"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "096A3C35ED69B741"
+				item: { count: 1, id: "cataclysm:music_disc_scylla" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 17.6d
+		}
+		{
+			dependencies: ["6FF8077A77706421"]
+			id: "14B9D1356F52B2BF"
+			rewards: [{
+				id: "2DCC2E2ADDCD20A9"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				entity: "cataclysm:cindaria"
+				id: "34A2AC4B3635E95F"
+				type: "kill"
+				value: 5L
+			}]
+			x: -13.0d
+			y: 9.6d
+		}
+		{
+			dependencies: ["6FF8077A77706421"]
+			id: "52E87C7AF1EB20C6"
+			rewards: [{
+				id: "34FD59AC2BD3DD97"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "cataclysm:urchinkin"
+				id: "3D8A90A58524D670"
+				type: "kill"
+				value: 5L
+			}]
+			x: -15.0d
+			y: 11.2d
+		}
+		{
+			hide_until_deps_complete: true
+			id: "22544EB8EE0604A0"
+			rewards: [{
+				id: "5187C99750AFE062"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:amethyst_block"
+				}
+				id: "3D07AFBA33764DC5"
+				structure: "cataclysm:amethyst_nest"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -20.8d
+		}
+		{
+			dependencies: ["22544EB8EE0604A0"]
+			id: "308BEF9DEAC0126E"
+			rewards: [{
+				id: "202BF3C4F938F114"
+				type: "xp"
+				xp: 42
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: {
+					id: "minecraft:amethyst_shard"
+				}
+				id: "5033EA913CC2A6CF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -20.8d
+		}
+		{
+			dependencies: ["308BEF9DEAC0126E"]
+			id: "5CAD9B88DEA90278"
+			rewards: [{
+				id: "248FD4503A847D34"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "1C3DEB36539C1713"
+				item: { count: 1, id: "cataclysm:amethyst_crab_shell" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -19.2d
+		}
+		{
+			dependencies: ["308BEF9DEAC0126E"]
+			id: "6BFC8DB5E2F62F5F"
+			rewards: [{
+				id: "26A53DB60518EFA3"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "5FD1CE1B631549C4"
+				item: { count: 1, id: "cataclysm:amethyst_crab_meat" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -22.4d
+		}
+		{
+			dependencies: ["308BEF9DEAC0126E"]
+			id: "18A92E1070F9B46A"
+			rewards: [{
+				id: "754C16BAE47687D9"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "618D1AD67ED22541"
+				item: { count: 1, id: "cataclysm:blessed_amethyst_crab_meat" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -20.8d
+		}
+		{
+			dependencies: ["5CAD9B88DEA90278"]
+			id: "4930F1ACA3F96E7E"
+			rewards: [{
+				id: "165E9DE0D5F3DD7E"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "199B46703F50AB28"
+				item: { count: 1, id: "cataclysm:bloom_stone_pauldrons" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -19.2d
+		}
+		{
+			hide_until_deps_complete: true
+			id: "001CED1FF4A8E30D"
+			rewards: [{
+				id: "64E3C8F2E52067E6"
+				type: "xp"
+				xp: 40
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "cataclysm:witherite_block"
+				}
+				id: "25BA43DC362992DA"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: -15.0d
+			y: 20.8d
+		}
+		{
+			dependencies: ["001CED1FF4A8E30D"]
+			id: "3445CC7147DCF47E"
+			rewards: [{
+				id: "3FFDD6079BB0761B"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					id: "cataclysm:mech_eye"
+				}
+				id: "6A945BFB46B223F0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.0d
+			y: 20.8d
+		}
+		{
+			dependencies: ["3445CC7147DCF47E"]
+			id: "24F78DA0E1A26044"
+			rewards: [{
+				id: "5756EA1511B46085"
+				type: "xp"
+				xp: 44
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6A6DBC7BC7FE232B"
+				item: { count: 1, id: "cataclysm:witherite_ingot" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 20.8d
+		}
+		{
+			dependencies: ["24F78DA0E1A26044"]
+			id: "30CF6161090C4235"
+			rewards: [{
+				id: "2F4C897DE2DBF2B9"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "0ADFD75C4BCBA26B"
+				item: { count: 1, id: "cataclysm:mechanical_fusion_anvil" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 22.4d
+		}
+		{
+			dependencies: ["24F78DA0E1A26044"]
+			id: "78F90F3D296FE242"
+			rewards: [{
+				id: "463CB0888BAC2EDD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "52FE34CBF3595AB6"
+				item: { count: 1, id: "cataclysm:meat_shredder" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 17.6d
+		}
+		{
+			dependencies: ["24F78DA0E1A26044"]
+			id: "2D9ECE4FFDD55C5C"
+			rewards: [{
+				id: "437A282E95D9200C"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "16542215E9F443D2"
+				item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: 20.8d
+		}
+		{
+			dependencies: ["24F78DA0E1A26044"]
+			id: "59766A965BB25104"
+			rewards: [{
+				id: "753EE8C7B1B9B20F"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "00F849B09A412111"
+				item: { count: 1, id: "cataclysm:music_disc_the_harbinger" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 19.2d
+		}
+		{
+			dependencies: ["24F78DA0E1A26044"]
+			id: "28A030D3FB585CF0"
+			rewards: [{
+				id: "11F0CE7EFD6FF63C"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "545C6ECB93CBC173"
+				item: { components: { "cataclysm:laser_gatling": 0b }, count: 1, id: "cataclysm:laser_gatling" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 19.2d
+		}
+		{
+			dependencies: ["001CED1FF4A8E30D"]
+			id: "45A9CD4D5ADD0A3E"
+			rewards: [{
+				id: "477026BDD6BEF719"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				icon: {
+					id: "minecraft:iron_ingot"
+				}
+				id: "5637F37ABF60D43E"
+				type: "kill"
+				value: 3L
+			}]
+			x: -15.0d
+			y: 22.4d
+		}
+		{
+			dependencies: ["001CED1FF4A8E30D"]
+			id: "332FD1AAE25ADA32"
+			rewards: [{
+				id: "056DFFCE431086A8"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				icon: {
+					id: "minecraft:redstone"
+				}
+				id: "64FF967846B9F6EC"
+				type: "kill"
+				value: 10L
+			}]
+			x: -15.0d
+			y: 19.2d
+		}
+		{
+			id: "22FFE46A22C609E4"
+			rewards: [{
+				id: "1593CF2865CE9F83"
+				type: "xp"
+				xp: 29
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "24DCD98FF733E190"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -20.8d
+		}
+		{
+			id: "6608848EC38ED912"
+			rewards: [{
+				id: "4B43EC953BF02A59"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "7EE5A7B33815078B"
+				item: { count: 1, id: "cataclysm:coral_chunk" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -17.6d
+		}
+		{
+			dependencies: ["22FFE46A22C609E4"]
+			id: "20F9A5F14B342761"
+			rewards: [{
+				id: "41F35127C035BA94"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "7DE5E272B17CFCC9"
+				item: { count: 1, id: "cataclysm:coral_bardiche" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -19.2d
+		}
+		{
+			dependencies: ["22FFE46A22C609E4"]
+			id: "4EC1F886368398E0"
+			rewards: [{
+				id: "386DFBE32F7011C4"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "6D2F67C35D3D7E9B"
+				item: { count: 1, id: "cataclysm:athame" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -22.4d
+		}
+		{
+			dependencies: ["22FFE46A22C609E4"]
+			id: "627926A7677D452B"
+			rewards: [{
+				id: "724EA95B8C279D55"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "7A7D9A21C43DB8C0"
+				item: { count: 1, id: "cataclysm:coral_spear" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -20.8d
+		}
+		{
+			id: "0062DB7D59ABA882"
+			rewards: [{
+				id: "336CA0A03DCE2896"
+				type: "xp"
+				xp: 34
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7708DCEF183C1612"
+				item: { count: 1, id: "cataclysm:black_steel_ingot" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FEE5D7DF1072157"]
+			id: "5FD345FA75B8AE3F"
+			rewards: [
+				{
+					count: 5
+					id: "5BE026E5DE014C24"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "4015AA4B187B9B7A"
+					type: "xp"
+					xp: 27
+				}
+			]
+			tasks: [{
+				id: "66F4B3C2078CBEA3"
+				item: { count: 1, id: "cataclysm:cursium_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["0062DB7D59ABA882"]
+			id: "6FEE5D7DF1072157"
+			rewards: [{
+				id: "2A0286BC8D811029"
+				type: "xp"
+				xp: 35
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "77EFBE768807CAB8"
+				item: { count: 1, id: "cataclysm:cursium_ingot" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["0062DB7D59ABA882"]
+			id: "03AFD7996A27511C"
+			rewards: [{
+				id: "0AF24D284E1D0537"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "08EA97C318C8F7D5"
+				item: { count: 1, id: "cataclysm:black_steel_sword" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0062DB7D59ABA882"]
+			id: "777D3B19A9CC26E9"
+			rewards: [{
+				id: "03431A49343A2167"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "4ADF8B807C5DA50D"
+				item: { count: 1, id: "cataclysm:black_steel_targe" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["0062DB7D59ABA882"]
+			id: "145017C20C780244"
+			rewards: [{
+				id: "1263BF46F5EDA480"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "73FEAEA8ECB99024"
+				item: { count: 1, id: "cataclysm:black_steel_shovel" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0062DB7D59ABA882"]
+			id: "69788511382BAB82"
+			rewards: [{
+				id: "39821DFDF04A0374"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "4EA193126BBB17D4"
+				item: { count: 1, id: "cataclysm:black_steel_pickaxe" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["0062DB7D59ABA882"]
+			id: "207D39F607C6E3D8"
+			rewards: [{
+				id: "6B79172606AD3F15"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "0DE5ACD30A9773F4"
+				item: { count: 1, id: "cataclysm:black_steel_axe" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["0062DB7D59ABA882"]
+			id: "531AA88962E0DDB5"
+			rewards: [{
+				id: "1624E9B674E4C472"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "2A64F1A876242217"
+				item: { count: 1, id: "cataclysm:black_steel_hoe" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.6d
+		}
+		{
+			dependencies: ["538C72A1FA160C25"]
+			id: "561AF9843D55966C"
+			rewards: [{
+				id: "6D31655B06725D0F"
+				type: "xp"
+				xp: 29
+			}]
+			tasks: [{
+				id: "2AD364D27494EA82"
+				item: { count: 1, id: "cataclysm:cursium_helmet" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["5FD345FA75B8AE3F"]
+			id: "538C72A1FA160C25"
+			rewards: [{
+				id: "2FBF283D85A9F576"
+				type: "xp"
+				xp: 33
+			}]
+			tasks: [{
+				id: "433F0501AFC3BC88"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"291C23C4D79B0B97"
+				"561AF9843D55966C"
+			]
+			id: "6842A82A93D9E0AF"
+			rewards: [{
+				id: "59B03EE1820524DA"
+				type: "xp"
+				xp: 34
+			}]
+			tasks: [{
+				id: "0CF58799B5ADFB4C"
+				item: { count: 1, id: "cataclysm:cursium_leggings" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["538C72A1FA160C25"]
+			id: "291C23C4D79B0B97"
+			rewards: [{
+				id: "21B311A0CB6ABADF"
+				type: "xp"
+				xp: 31
+			}]
+			tasks: [{
+				id: "2760DC4375788042"
+				item: { count: 1, id: "cataclysm:cursium_boots" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["6FEE5D7DF1072157"]
+			id: "11B3C21FE1A67A50"
+			rewards: [{
+				id: "5EE74FB167AAEE1D"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "38472199F50D0D34"
+				item: { count: 1, id: "cataclysm:soul_render" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["6FEE5D7DF1072157"]
+			id: "2B67B8D212905618"
+			rewards: [{
+				id: "34FAEF8DB54998D8"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "1ABD6C09A05E7F51"
+				item: { count: 1, id: "cataclysm:the_annihilator" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"6842A82A93D9E0AF"
+				"5FD345FA75B8AE3F"
+			]
+			id: "23A36856E4ECDEEF"
+			rewards: [
+				{
+					id: "27DBE3DE5E375F79"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5C40A37DA88A0790"
+					type: "xp"
+					xp: 27
+				}
+			]
+			tasks: [{
+				id: "5843CD65CD2AD524"
+				item: { count: 1, id: "cataclysm:cursed_bow" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.6d
+		}
+		{
+			id: "632D1610BEBF4E27"
+			rewards: [{
+				id: "0C35868F7114705B"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "3673D673F14515A3"
+				item: { count: 1, id: "cataclysm:ring_of_grudged" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -17.6d
+		}
+		{
+			id: "1C215B42BE451EAD"
+			rewards: [{
+				id: "7D813DE27BC5FBA1"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "2A981D6FCBEFD789"
+				item: { count: 1, id: "cataclysm:berserker_soul_amulet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -17.6d
+		}
+		{
+			id: "1859AB76684AFFFC"
+			rewards: [{
+				id: "6E1707B88C8BDD5D"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "2A1EC6855BA645FE"
+				item: { count: 1, id: "cataclysm:tidal_claws" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -22.4d
+		}
+		{
+			id: "2495F42B39D6C3EE"
+			rewards: [{
+				id: "68FC06306357D987"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "69F6B4E692664691"
+				item: { count: 1, id: "cataclysm:music_disc_the_leviathan" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -22.4d
+		}
+		{
+			id: "1973AECBD83C5D88"
+			rewards: [{
+				id: "7B1D65D5FDFA0563"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "694FA26004EE1691"
+				item: { count: 1, id: "cataclysm:abyssal_egg" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -17.6d
+		}
+	]
+}

@@ -1,0 +1,493 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_dreams_n_desires"
+	group: "10788EC10FFABF2A"
+	icon: {
+		id: "dndesires:hydraulic_press"
+	}
+	id: "62D4B7C473EBEBE7"
+	images: [{
+		height: 5.38d
+		id: "7F17D20EE257527E"
+		image: "neotechreborn:textures/quests/create_dreams_n_desires_title.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: -4.0d
+		y: -7.74d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "09D1591109655EDE"
+			rewards: [{
+				id: "4DE0FCC1E0D0ACCD"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "50CE37595977A5F2"
+				item: { count: 1, id: "dndesires:chocolate_milkshake_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.4d
+		}
+		{
+			id: "03820542940AABD6"
+			rewards: [{
+				id: "3DB3FD6FBB93315D"
+				type: "xp"
+				xp: 19
+			}]
+			tasks: [{
+				id: "2E65F43785B656D2"
+				item: { count: 1, id: "dndesires:vanilla_milkshake_bucket" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			id: "39E75FE928CCE4D1"
+			rewards: [{
+				id: "6405229681C76B83"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "23CC4C237C5711E7"
+				item: { count: 1, id: "dndesires:strawberry_milkshake_bucket" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "1025DE4B1FA4A63A"
+			rewards: [{
+				id: "1F76AD7111D95D45"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "2E5E370E59B87649"
+				item: { count: 1, id: "dndesires:glowberry_milkshake_bucket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "4D5DD939E3B0E80D"
+			rewards: [{
+				id: "28FEE156CAC01318"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "329628FE028A414A"
+				item: { count: 1, id: "dndesires:pumpkin_milkshake_bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09D1591109655EDE"]
+			id: "7C9FEE11E99162DD"
+			rewards: [{
+				id: "4369899A3F2DF756"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "430BCD6E641AB09E"
+				item: { count: 1, id: "dndesires:chocolate_milkshake" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["03820542940AABD6"]
+			id: "763FC9996A56D0AC"
+			rewards: [{
+				id: "0FC9015515AC0549"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "4728C1687626E507"
+				item: { count: 1, id: "dndesires:vanilla_milkshake" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39E75FE928CCE4D1"]
+			id: "780CD81B1FCC5D06"
+			rewards: [{
+				id: "3F61EFF4F8380B04"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "5AD64AB0FDC2315B"
+				item: { count: 1, id: "dndesires:strawberry_milkshake" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1025DE4B1FA4A63A"]
+			id: "6F2CDCF53BDD5F0D"
+			rewards: [{
+				id: "0381B24D44829661"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "5C2791B3312B1BC2"
+				item: { count: 1, id: "dndesires:glowberry_milkshake" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D5DD939E3B0E80D"]
+			id: "644D11CAA593EB55"
+			rewards: [{
+				id: "3EC5CF9EADC319FD"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "0879F19259B3A5C4"
+				item: { count: 1, id: "dndesires:pumpkin_milkshake" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DB11BF6A99F7F6C"]
+			id: "49FED56FA740215E"
+			rewards: [{
+				id: "22352953374FA43C"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				id: "4BD99F3FA493B6F2"
+				item: { count: 1, id: "dndesires:omni_gearbox" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["49FED56FA740215E"]
+			id: "376F5EE5E3C32048"
+			rewards: [{
+				id: "56C6FD5D23B27BA7"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "53BF1FAD9A2B8E6B"
+				item: { count: 1, id: "dndesires:omni_speed_controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["64F322D0A5CD3973"]
+			id: "0DB11BF6A99F7F6C"
+			rewards: [{
+				id: "2894A8D80CB84353"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "044E9B3AAE4074FF"
+				item: { count: 1, id: "dndesires:smart_hopper" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["73569C57D2719DF4"]
+			id: "656B2EB771061568"
+			rewards: [{
+				id: "79C495DDB09FB36C"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "221C3F56BCC956C7"
+				item: { count: 1, id: "dndesires:inverse_gearshift" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.4d
+		}
+		{
+			id: "64F322D0A5CD3973"
+			rewards: [{
+				id: "2CE96041C0EE0DE5"
+				type: "xp"
+				xp: 17
+			}]
+			tasks: [{
+				id: "4968BA1E21564D5B"
+				item: { count: 1, id: "dndesires:gold_mixer" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["171500CC6AA946ED"]
+			id: "73569C57D2719DF4"
+			rewards: [{
+				id: "315DC861FDFD98F8"
+				type: "xp"
+				xp: 26
+			}]
+			tasks: [{
+				id: "5BB56470D10E6541"
+				item: { count: 1, id: "dndesires:multimeter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["580B7447D8DAE769"]
+			id: "12E1196AD5974EFA"
+			rewards: [{
+				id: "4E1FADFDB79E2C10"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "20090F9F08C5E6FA"
+				item: { count: 1, id: "dndesires:industrial_fan" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "19C30AA67FE4CF1C"
+			rewards: [{
+				id: "775CAC68B2963F13"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0CEF07DE12B1C367"
+				item: { count: 1, id: "dndesires:cog_crank" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.4d
+		}
+		{
+			dependencies: ["19C30AA67FE4CF1C"]
+			id: "171500CC6AA946ED"
+			rewards: [{
+				id: "7BF5A1E9DDB3C332"
+				type: "xp"
+				xp: 24
+			}]
+			tasks: [{
+				id: "71D1B5EEAE6D6C50"
+				item: { count: 1, id: "dndesires:large_cog_crank" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.4d
+		}
+		{
+			id: "06BA5A44D6F83E79"
+			rewards: [{
+				id: "3BE66BDE165D00CD"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				id: "4B51166EAFF7CDFC"
+				item: { count: 1, id: "dndesires:spud_sentry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["06BA5A44D6F83E79"]
+			id: "42F88B4FEBBDA6FE"
+			rewards: [{
+				id: "415762CE2FC4A9D9"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "6862D4D2A1B157F5"
+				item: { count: 1, id: "dndesires:hydraulic_press" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["42F88B4FEBBDA6FE"]
+			id: "604DE6C9DB5D3375"
+			rewards: [{
+				id: "13D08EA8D94B61E5"
+				type: "xp"
+				xp: 27
+			}]
+			tasks: [{
+				id: "52259EF071DF60CF"
+				item: { count: 1, id: "dndesires:fluid_gauge" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["12E1196AD5974EFA"]
+			id: "301F789B908303AE"
+			rewards: [{
+				id: "31EDF6BAC2157FD8"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5103999C26FB7E99"
+				item: { count: 1, id: "dndesires:stirling_engine" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["301F789B908303AE"]
+			id: "7C6DF17082075063"
+			rewards: [{
+				id: "29D9995B2757B654"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "2240B58C0187186D"
+				item: { count: 1, id: "dndesires:roll_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "446D191A2628E5BB"
+			rewards: [{
+				id: "11FA5EA735B659C7"
+				type: "xp"
+				xp: 18
+			}]
+			tasks: [{
+				id: "0855B31F40A6231C"
+				item: { count: 1, id: "dndesires:handheld_saw" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["446D191A2628E5BB"]
+			id: "27EF30AD84A37B69"
+			rewards: [{
+				id: "4EACEDF1C609D301"
+				type: "xp"
+				xp: 22
+			}]
+			tasks: [{
+				id: "145D597D0A7D1379"
+				item: { count: 1, id: "dndesires:handheld_drill" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["27EF30AD84A37B69"]
+			id: "665DFCA333D7FB39"
+			rewards: [{
+				id: "67E4712744BE1ADF"
+				type: "xp"
+				xp: 23
+			}]
+			tasks: [{
+				id: "0F1E685DD07BCED0"
+				item: { count: 1, id: "dndesires:gatling_breaker" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.8d
+		}
+		{
+			id: "580B7447D8DAE769"
+			rewards: [{
+				id: "1C9B3DDC05177098"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "0CF197418D2D61FF"
+				item: { count: 1, id: "dndesires:industrial_casing" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["665DFCA333D7FB39"]
+			id: "307849B01B174A88"
+			rewards: [{
+				id: "3A831D2F22290D94"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "642D48BB4961A846"
+				item: { count: 1, id: "dndesires:burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["604DE6C9DB5D3375"]
+			id: "35E288DBD1B1381B"
+			rewards: [{
+				id: "7C9CD0225720C6F3"
+				type: "xp"
+				xp: 21
+			}]
+			tasks: [{
+				id: "5C1C52861796ACA7"
+				item: { count: 1, id: "dndesires:fluid_hatch" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+	]
+}

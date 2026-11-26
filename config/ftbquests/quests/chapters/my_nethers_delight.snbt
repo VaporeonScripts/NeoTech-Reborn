@@ -1,0 +1,1013 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "my_nethers_delight"
+	group: "5C913BC4F177E1BC"
+	icon: {
+		id: "mynethersdelight:nether_bricks_stove"
+	}
+	id: "58E94688C2670E13"
+	images: [{
+		height: 3.02d
+		id: "0E9C1F4200FB879D"
+		image: "neotechreborn:textures/quests/my_nethers_delight_title.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: 0.0d
+		y: -8.36d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28C4E37E68DAFAA9"
+			rewards: [{
+				id: "53A5E1BCEEA584C8"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "383B5E124BCAA824"
+				item: { count: 1, id: "mynethersdelight:nether_bricks_stove" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.6d
+		}
+		{
+			id: "1B445753B3FB4395"
+			rewards: [{
+				id: "432B3E93CD0BEEA9"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "638C240B2B1F1D97"
+				item: { count: 1, id: "mynethersdelight:golden_trophy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.6d
+		}
+		{
+			id: "54E97DF9649B0954"
+			rewards: [{
+				id: "142530C47D055602"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "2FC9AA11862CB034"
+				item: { count: 1, id: "mynethersdelight:hoglin_trophy" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.6d
+		}
+		{
+			id: "29CB1AB88816993E"
+			rewards: [{
+				id: "4F8C4C78335E3BD0"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "5F07E538834D48E3"
+				item: { count: 1, id: "mynethersdelight:zoglin_trophy" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.6d
+		}
+		{
+			id: "15D1EBC09A6C236F"
+			rewards: [{
+				id: "33E8ADCF2131619F"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "7D80ED92B202F52B"
+				item: { count: 1, id: "mynethersdelight:skoglin_trophy" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.6d
+		}
+		{
+			id: "025B156068AD8570"
+			rewards: [{
+				id: "51B6C51B6FF87C25"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "04BCD51F83CAC6E0"
+				item: { count: 1, id: "mynethersdelight:waxed_hoglin_trophy" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.6d
+		}
+		{
+			id: "2B7662026F1ABA0F"
+			rewards: [{
+				id: "0B288023B3B7F644"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "0AAF04807A986D9A"
+				item: { count: 1, id: "mynethersdelight:hotdog" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.6d
+		}
+		{
+			id: "2DAAA8C550817CC3"
+			rewards: [{
+				id: "5FF218833B2E645D"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "04A3D48308FEE6E2"
+				item: { count: 1, id: "mynethersdelight:hotdog_with_mixed_salad" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.6d
+		}
+		{
+			id: "7AB6C567359CD276"
+			rewards: [{
+				id: "3F935D6CFE4BA0B9"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "375D0390E1B2BFD2"
+				item: { count: 1, id: "mynethersdelight:hotdog_with_nether_salad" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.6d
+		}
+		{
+			id: "4F425C565D7379B4"
+			rewards: [{
+				id: "0558B9A0BC55FAE2"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "138AD9C22EFFB839"
+				item: { count: 1, id: "mynethersdelight:sausage_and_potatoes" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "136DEEEFAB0C08D2"
+			rewards: [{
+				id: "1ABA66F62063BD95"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "1F762B050DA8A7E0"
+				item: { count: 1, id: "mynethersdelight:breakfast_sampler" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "15E211D921345353"
+			rewards: [{
+				id: "3984D95950D24F8D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "4515FBB0A02B8028"
+				item: { count: 1, id: "mynethersdelight:cooked_loin" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "193B63300EBF4ADE"
+			rewards: [{
+				id: "547AE2953DCEC79E"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "3C6E610801AAF655"
+				item: { count: 1, id: "mynethersdelight:nether_burger" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "65B8D316605D1A0B"
+			rewards: [{
+				id: "21617CACE3D22CEF"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "3896A4BB8A7F96CE"
+				item: { count: 1, id: "mynethersdelight:blue_tenderloin_steak" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "365770482E8AB3B3"
+			rewards: [{
+				id: "38B2BF4FF12B194C"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "342CA989E695FBE9"
+				item: { count: 1, id: "mynethersdelight:fried_hoglin_chop" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "50A55424E2E6F062"
+			rewards: [{
+				id: "3CC24D02FD8883DE"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2C12FDBD99DE14DF"
+				item: { count: 1, id: "mynethersdelight:red_loin_on_a_stick" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "36B231BC87B41E01"
+			rewards: [{
+				id: "698FB8BB1C65C58B"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "09647C04F8772D67"
+				item: { count: 1, id: "mynethersdelight:bacon-wrapped_sausage_on_a_stick" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "362649F35397D659"
+			rewards: [{
+				id: "1B36BB7E7AC0D82C"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "320017300BC7E3D7"
+				item: { count: 1, id: "mynethersdelight:raw_stuffed_hoglin" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "7B4950940EE127E2"
+			rewards: [{
+				id: "5F798EAE6866D3DB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "594E67C9E505D253"
+				item: { count: 1, id: "mynethersdelight:roast_stuffed_hoglin" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.4d
+		}
+		{
+			id: "194B527D9EF162D9"
+			rewards: [{
+				id: "28252DB9FFCE6D4C"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "7247CED11BD86ACE"
+				item: { count: 1, id: "mynethersdelight:plate_of_stuffed_hoglin_snout" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.4d
+		}
+		{
+			id: "7E4BC32E8DCAA415"
+			rewards: [{
+				id: "47BEA594D930D0C1"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "70A3AC872DCEA8CD"
+				item: { count: 1, id: "mynethersdelight:plate_of_stuffed_hoglin_ham" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.4d
+		}
+		{
+			id: "08BDF067A6F94F07"
+			rewards: [{
+				id: "7B7965899B5D63E6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "68BD0454253A4EAF"
+				item: { count: 1, id: "mynethersdelight:plate_of_stuffed_hoglin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.4d
+		}
+		{
+			id: "209976DE099D716A"
+			rewards: [{
+				id: "25DD4D82CAB49C27"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "64F76DCE7AFD56E0"
+				item: { count: 1, id: "mynethersdelight:strider_rock" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.4d
+		}
+		{
+			id: "7F50B5CF478E4BEB"
+			rewards: [{
+				id: "405FEC9FFDEF8740"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "1D040ACF06516E3B"
+				item: { count: 1, id: "mynethersdelight:strider_egg" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.4d
+		}
+		{
+			id: "46FE1E29B6F9B0DE"
+			rewards: [{
+				id: "54A57CE1054FCB9B"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "1B49F1BF624974C2"
+				item: { count: 1, id: "mynethersdelight:golden_egg" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.4d
+		}
+		{
+			id: "1454B24C3A787D2E"
+			rewards: [{
+				id: "2FA13034048AFF6A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5F4AB1DD2D0CB0D3"
+				item: { count: 1, id: "mynethersdelight:enchanted_golden_egg" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.4d
+		}
+		{
+			id: "4FC4E2F0CDBA12AF"
+			rewards: [{
+				id: "306F058E67938A93"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "65A95CFBBADC76C4"
+				item: { count: 1, id: "mynethersdelight:deviled_egg" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.4d
+		}
+		{
+			id: "4E27A44D21DB0508"
+			rewards: [{
+				id: "2BBC43B72DBF8CF3"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "1B72EAE4996156D8"
+				item: { count: 1, id: "mynethersdelight:scotch_eggs" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.8d
+		}
+		{
+			id: "5F3D089B84D1F005"
+			rewards: [{
+				id: "191C1144FC51E925"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "3624C7E4A30AD829"
+				item: { count: 1, id: "mynethersdelight:egg_soup" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.8d
+		}
+		{
+			id: "589D884468EFC2E8"
+			rewards: [{
+				id: "48B6FD5275791F34"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "5A7D96602CB4C826"
+				item: { count: 1, id: "mynethersdelight:strider_slice" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.8d
+		}
+		{
+			id: "729846289E25C493"
+			rewards: [{
+				id: "17127FAE4556543C"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "0D4503AC1BBD40BB"
+				item: { count: 1, id: "mynethersdelight:minced_strider" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.8d
+		}
+		{
+			id: "0EEA93644B17C281"
+			rewards: [{
+				id: "412D08444CFF77C7"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "270948A6A943E722"
+				item: { count: 1, id: "mynethersdelight:bleeding_tartar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.8d
+		}
+		{
+			id: "13760E36E4F2DCA8"
+			rewards: [{
+				id: "6AC130E01213425F"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "0CED2937F0C01E49"
+				item: { count: 1, id: "mynethersdelight:strider_with_grilled_fungus" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			id: "5EA9356560930826"
+			rewards: [{
+				id: "3EC63F73AA8397B7"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "41BC3BD123757772"
+				item: { count: 1, id: "mynethersdelight:strider_stew" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			id: "27458EDF5F854368"
+			rewards: [{
+				id: "172941D8D45EC4FF"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "35E1CEAEAFEB8BFC"
+				item: { count: 1, id: "mynethersdelight:striderloaf" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			id: "43DE94A09F886107"
+			rewards: [{
+				id: "5D26531253676FDC"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "41A7FF7B6CB13456"
+				item: { count: 1, id: "mynethersdelight:cold_striderloaf" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.8d
+		}
+		{
+			id: "67324038300F58ED"
+			rewards: [{
+				id: "1BE80114B0D2217E"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "53B7D34602EDE251"
+				item: { count: 1, id: "mynethersdelight:plate_of_striderloaf" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.8d
+		}
+		{
+			id: "6E9DEBC2D6333DFE"
+			rewards: [{
+				id: "6B9BA5339F62EDB2"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "52DB12DDB71B9E3E"
+				item: { count: 1, id: "mynethersdelight:plate_of_cold_striderloaf" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.8d
+		}
+		{
+			id: "53E90A223D5B12C3"
+			rewards: [{
+				id: "1AB4AC95764D7C06"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "5349CEC8D3ADEDE1"
+				item: { count: 1, id: "mynethersdelight:tear_popsicle" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.8d
+		}
+		{
+			id: "15C77383F356A0DD"
+			rewards: [{
+				id: "2496C2BFE79ACAF9"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "6CB2F74D09FD9761"
+				item: { count: 1, id: "mynethersdelight:ghasta" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.8d
+		}
+		{
+			id: "45922831D24638C0"
+			rewards: [{
+				id: "00A0E8EED15BFE2E"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "5EF0D0DE6BC6C3FC"
+				item: { count: 1, id: "mynethersdelight:twisted_ghasta" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			id: "4D1C1392569392BD"
+			rewards: [{
+				id: "398875CD8DC68E4B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "09DE290DBE2F3E14"
+				item: { count: 1, id: "mynethersdelight:spicy_noodle_soup" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			id: "40909FDAB0C1DCBC"
+			rewards: [{
+				id: "3442F3FDB93D633B"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "6E2158CC78874DEA"
+				item: { count: 1, id: "mynethersdelight:fries_ghasta" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			id: "50F703A1F6C58861"
+			rewards: [{
+				id: "66D461346FBA5377"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "0C76C161EE24F56D"
+				item: { count: 1, id: "mynethersdelight:spicy_cotton" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			id: "46BC1669476A046C"
+			rewards: [{
+				id: "0B639835D2AEB747"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "763C6001DEF1BB73"
+				item: { count: 1, id: "mynethersdelight:ghast_salad" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.8d
+		}
+		{
+			id: "176E5316582F715A"
+			rewards: [{
+				id: "416A1A942C4C27DA"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "42A1A00D9F3D6AF7"
+				item: { count: 1, id: "mynethersdelight:dried_ghast_with_milk" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.4d
+		}
+		{
+			id: "39E08B6E69041551"
+			rewards: [{
+				id: "6E9A9BC1FF82506E"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "0E78925A75E6CA73"
+				item: { count: 1, id: "mynethersdelight:sizzling_pudding" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.4d
+		}
+		{
+			id: "17808416F8C42937"
+			rewards: [{
+				id: "211A7F9C8773402D"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "4C44530796A3A54E"
+				item: { count: 1, id: "mynethersdelight:plate_of_ghasta_with_cream" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.4d
+		}
+		{
+			id: "74CE4975DD8CAE61"
+			rewards: [{
+				id: "79EA0EAC0630E423"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "18EB51EA3CF326D9"
+				item: { count: 1, id: "mynethersdelight:giant_takoyaki" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.4d
+		}
+		{
+			id: "0EB84C6DFB1A060C"
+			rewards: [{
+				id: "036D6AD35C0741E1"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "63A1547689FC6AB5"
+				item: { count: 1, id: "mynethersdelight:slices_of_bread" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.4d
+		}
+		{
+			id: "00DCC771ACBC2D58"
+			rewards: [{
+				id: "533BFC0978AA9B68"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "205D952364972F09"
+				item: { count: 1, id: "mynethersdelight:toasts" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.4d
+		}
+		{
+			id: "7B92826F31BC4FB5"
+			rewards: [{
+				id: "6C201811D66531B8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "271A0E606C616BEE"
+				item: { count: 1, id: "mynethersdelight:stuffed_pepper" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "31678122A7EAF3CE"
+			rewards: [{
+				id: "12FA110F1FFCF507"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7CF7F46179C111DC"
+				item: { count: 1, id: "mynethersdelight:chilidog" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "22865F8986707CF0"
+			rewards: [{
+				id: "0F6137D237AD274D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "3C5671AEB5436ED0"
+				item: { count: 1, id: "mynethersdelight:spicy_hoglin_stew" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "1BE3DA30FCCB988C"
+			rewards: [{
+				id: "75F71814B20CD3C7"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "343526E36EFFBD9F"
+				item: { count: 1, id: "mynethersdelight:hot_wings" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "23977A87FEE832CC"
+			rewards: [{
+				id: "2BFA96A5E9694726"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "3755F547C4234667"
+				item: { count: 1, id: "mynethersdelight:hot_wings_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "149D94556CE25DE2"
+			rewards: [{
+				id: "6C84488BE35A15E6"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "1B8DEA0872C8FF09"
+				item: { count: 1, id: "mynethersdelight:rock_soup" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "64076EB04BF0AC2B"
+			rewards: [{
+				id: "63FCD40448DEBB7F"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "64945FE5DF5236BB"
+				item: { count: 1, id: "mynethersdelight:burnt_roll" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "1F486D8E2EC696A1"
+			rewards: [{
+				id: "2A5956AEEAEA6228"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "653D39E7E6F4D027"
+				item: { count: 1, id: "mynethersdelight:magma_cake_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "5D6289D558C4A039"
+			rewards: [{
+				id: "30BFA9FE3E807020"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "60263B111B5C7AC0"
+				item: { count: 1, id: "mynethersdelight:magma_cake_slice" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.6d
+		}
+		{
+			id: "0249793B5D44AFE6"
+			rewards: [{
+				id: "531BDB153E881762"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "2DC5412C113D0D35"
+				item: { count: 1, id: "mynethersdelight:hot_cream" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.6d
+		}
+		{
+			id: "03CB77A6DA0228B2"
+			rewards: [{
+				id: "122441E3C0F77F2E"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "6560E72BC6EB79A6"
+				item: { count: 1, id: "mynethersdelight:hot_cream_cone" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.6d
+		}
+		{
+			id: "16FB9BA0A5DE939F"
+			rewards: [{
+				id: "2E0AB38188258BFA"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "162CA49849410058"
+				item: { count: 1, id: "mynethersdelight:pepper_powder" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			id: "4305A8C0E0E954C6"
+			rewards: [{
+				id: "28B51E587F9A71FF"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "6F531AF57919D156"
+				item: { count: 1, id: "mynethersdelight:bullet_pepper" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.4d
+		}
+		{
+			id: "7B395003600EFF43"
+			rewards: [{
+				id: "07C9FE9959263529"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "4BE5C4A85ED889F2"
+				item: { count: 1, id: "mynethersdelight:bread_loaf" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.4d
+		}
+		{
+			id: "2F0063EFF941FA8A"
+			rewards: [{
+				id: "03D1CAB353A4D966"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "49AD364EA76780AF"
+				item: { count: 1, id: "mynethersdelight:ghast_sourdough" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+	]
+}

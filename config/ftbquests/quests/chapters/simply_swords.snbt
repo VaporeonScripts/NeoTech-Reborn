@@ -1,0 +1,818 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simply_swords"
+	group: "56A66C57DE55E953"
+	icon: {
+		id: "simplyswords:gold_sai"
+	}
+	id: "628CFF96901FD096"
+	images: [{
+		height: 3.8d
+		id: "7B67DC42E673E875"
+		image: "neotechreborn:textures/quests/simply_swords_title.png"
+		rotation: 0.0d
+		width: 19.2d
+		x: 0.0d
+		y: -6.9d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "76038E770204018C"
+			rewards: [{
+				id: "46A89CCF0ECC7F47"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6073E7D050F77FE2"
+				item: { count: 1, id: "simplyswords:brimstone_claymore" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "29A2417BC7C4CF22"
+			rewards: [{
+				id: "439CD477DE2A36EF"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "39B24F97FD8F90BA"
+				item: { count: 1, id: "simplyswords:watcher_claymore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "4C927526150D82C2"
+			rewards: [{
+				id: "14717781E301188E"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "0765ED796CB71AD6"
+				item: { count: 1, id: "simplyswords:storms_edge" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "410DB468506EA566"
+			rewards: [{
+				id: "138D0F8F92A30D6D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "6CB7469DAD9AA1E8"
+				item: { count: 1, id: "simplyswords:stormbringer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "313AC630F7B7BCAA"
+			rewards: [{
+				id: "5A50BD6AFC4E0CBC"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "639F8DE5A0B80497"
+				item: { count: 1, id: "simplyswords:sword_on_a_stick" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "60BC50AD613C919D"
+			rewards: [{
+				id: "4C1459F86D06F12B"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "068C41492B07C3B2"
+				item: { count: 1, id: "simplyswords:bramblethorn" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "74686F4B403A0336"
+			rewards: [{
+				id: "3CAB7D368B794A71"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "618BFD5BFEF9625E"
+				item: { count: 1, id: "simplyswords:watching_warglaive" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.4d
+		}
+		{
+			id: "3BF23B530B3EB7B1"
+			rewards: [{
+				id: "113F77A4FF24F8CD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "329715762F8951E2"
+				item: { count: 1, id: "simplyswords:toxic_longsword" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.4d
+		}
+		{
+			id: "721D739DB60501AE"
+			rewards: [{
+				id: "3E9EACF0003450E4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4EEDBC5FFF255929"
+				item: { count: 1, id: "simplyswords:emberblade" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.4d
+		}
+		{
+			id: "06B1240564793C36"
+			rewards: [{
+				id: "2DE9E4C38D8DD9F5"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "03067C37303076DC"
+				item: { count: 1, id: "simplyswords:hearthflame" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.4d
+		}
+		{
+			id: "515537F876D9FDF2"
+			rewards: [{
+				id: "4AD9DDA383A6B36C"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "5ABD599CE2BE4DFE"
+				item: { count: 1, id: "simplyswords:soulkeeper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.4d
+		}
+		{
+			id: "3A9A280E0A3EF818"
+			rewards: [{
+				id: "49D8E95BB6EEF486"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "222FDB6A981BC364"
+				item: { count: 1, id: "simplyswords:twisted_blade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.4d
+		}
+		{
+			id: "0BFFD8BB50CDF55F"
+			rewards: [{
+				id: "2B244556F0141BA2"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "48D010FBF37D375D"
+				item: { count: 1, id: "simplyswords:soulstealer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.4d
+		}
+		{
+			id: "610CA03AB78E0470"
+			rewards: [{
+				id: "29C4BF004FBB70BA"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "043D772313F52011"
+				item: { count: 1, id: "simplyswords:soulrender" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.4d
+		}
+		{
+			id: "794C2D0B1870C833"
+			rewards: [{
+				id: "7E7295FB42AFD20E"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "12F17B3EBC85C7AA"
+				item: { count: 1, id: "simplyswords:soulpyre" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.4d
+		}
+		{
+			id: "3AA4B3BA0698AD26"
+			rewards: [{
+				id: "500BD5A526D0B4E9"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "38ABBE9A40F05A9B"
+				item: { count: 1, id: "simplyswords:frostfall" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.8d
+		}
+		{
+			id: "5A70F71BC20CB82D"
+			rewards: [{
+				id: "0AFFECD013FD3171"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3C3A71FA84198716"
+				item: { count: 1, id: "simplyswords:molten_edge" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.8d
+		}
+		{
+			id: "0F90C6ADE1B5887B"
+			rewards: [{
+				id: "4804194188DD2285"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "0FE7CFBA74D75FCF"
+				item: { count: 1, id: "simplyswords:livyatan" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.8d
+		}
+		{
+			id: "1EF3F77676A93FE7"
+			rewards: [{
+				id: "4D3395AC09096A9F"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "13C9182AB9548C67"
+				item: { count: 1, id: "simplyswords:icewhisper" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.8d
+		}
+		{
+			id: "47BD4D89EE0EECEA"
+			rewards: [{
+				id: "21CAA6686F61D41D"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "47830A1610815113"
+				item: { count: 1, id: "simplyswords:arcanethyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.8d
+		}
+		{
+			id: "02262D9884D5488A"
+			rewards: [{
+				id: "4F3513E67291905A"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "73C06F89560A6CD7"
+				item: { count: 1, id: "simplyswords:thunderbrand" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			id: "47E472ECCFC6B98D"
+			rewards: [{
+				id: "3229723F0F4D982D"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "609ED72967E6072D"
+				item: { count: 1, id: "simplyswords:mjolnir" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			id: "2AF2F3EC474594A0"
+			rewards: [{
+				id: "7DA9169B4B1E95BA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1574958BE970E049"
+				item: { count: 1, id: "simplyswords:slumbering_lichblade" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			id: "025E6B68BB357C2A"
+			rewards: [{
+				id: "3E7757C6B2B4F721"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "53104031B1D2360C"
+				item: { count: 1, id: "simplyswords:shadowsting" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.8d
+		}
+		{
+			id: "2D367D77B2FCE2EC"
+			rewards: [{
+				id: "4A946EEC723E234B"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "34B964C95D1E1113"
+				item: { count: 1, id: "simplyswords:dormant_relic" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.8d
+		}
+		{
+			id: "3E6D77B5161E00B4"
+			rewards: [{
+				id: "02A413404DCA0C7B"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "0D9ED584C205EAC5"
+				item: { count: 1, id: "simplyswords:righteous_relic" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.8d
+		}
+		{
+			id: "10AF192DD964CB39"
+			rewards: [{
+				id: "33D5C8144CF4DB32"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "12F59E2814C0D68F"
+				item: { count: 1, id: "simplyswords:tainted_relic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			id: "31E3A018A97F5817"
+			rewards: [{
+				id: "039AE7A66A290687"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2354240230C0F032"
+				item: { count: 1, id: "simplyswords:sunfire" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			id: "6B636C89BD920956"
+			rewards: [{
+				id: "644F020A7FC3BFB0"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "2C6B57739D08E1EE"
+				item: { count: 1, id: "simplyswords:harbinger" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			id: "3122DA2A0A19B66B"
+			rewards: [{
+				id: "11BE6CA46EE3B1C5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1976DD5B1A5247AD"
+				item: { count: 1, id: "simplyswords:whisperwind" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			id: "0E80099434B1617C"
+			rewards: [{
+				id: "1B58534E189B27C4"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "7FC784D7B2BE21FC"
+				item: { count: 1, id: "simplyswords:emberlash" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.8d
+		}
+		{
+			id: "3D7FFDF4548AE546"
+			rewards: [{
+				id: "09692FD27AB9CE02"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "221CC4698CDED082"
+				item: { count: 1, id: "simplyswords:waxweaver" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.4d
+		}
+		{
+			id: "1837B1BC0388E050"
+			rewards: [{
+				id: "4ECC9DB557272762"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "14890E61BB9B94D0"
+				item: { count: 1, id: "simplyswords:hiveheart" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.4d
+		}
+		{
+			id: "551573CBF238C6EC"
+			rewards: [{
+				id: "3E77E58E3509A1EC"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "2E51ACA7D006A51F"
+				item: { count: 1, id: "simplyswords:stars_edge" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.4d
+		}
+		{
+			id: "222DB2CA1F81B96B"
+			rewards: [{
+				id: "6BA6DB50BFBD72A9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "61B55A700ED41212"
+				item: { count: 1, id: "simplyswords:wickpiercer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.4d
+		}
+		{
+			id: "6618C74E0BA18AEA"
+			rewards: [{
+				id: "73BCFBBE5A810CB3"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "090E18090955287D"
+				item: { count: 1, id: "simplyswords:tempest" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			id: "39584D8D8FF6C258"
+			rewards: [{
+				id: "39F309B9A38FA545"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "16CF558B4748E193"
+				item: { count: 1, id: "simplyswords:flamewind" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.4d
+		}
+		{
+			id: "2123669F8025A966"
+			rewards: [{
+				id: "68041D12B87C49C3"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "58F8E49C6042D94A"
+				item: { count: 1, id: "simplyswords:ribboncleaver" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.4d
+		}
+		{
+			id: "6107790F6E5B8CB0"
+			rewards: [{
+				id: "228FC283AF46B65E"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "475CD9527025932B"
+				item: { count: 1, id: "simplyswords:decaying_relic" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.4d
+		}
+		{
+			id: "648457225C137DDD"
+			rewards: [{
+				id: "3D4BB21711E06CF3"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "30816A3959EB75E2"
+				item: { count: 1, id: "simplyswords:magiscythe" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.4d
+		}
+		{
+			id: "2915EA2D06CCD0BA"
+			rewards: [{
+				id: "22ECD429D4383969"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "2F9E49C2B020090C"
+				item: { count: 1, id: "simplyswords:enigma" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			id: "11C082A2B85F7F4E"
+			rewards: [{
+				id: "242BE2F3AB6F9A56"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "37F3B4BAB9EE558F"
+				item: { count: 1, id: "simplyswords:magispear" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "337A07751D9BDBD3"
+			rewards: [{
+				id: "367E38F932E7F477"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "211F8BB493A6E9A9"
+				item: { count: 1, id: "simplyswords:magiblade" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "48A955140CAE34CE"
+			rewards: [{
+				id: "3D8FEC56C02E364E"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "2E872AC1D3D1FF2B"
+				item: { count: 1, id: "simplyswords:caelestis" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "305EFC585DACDFAE"
+			rewards: [{
+				id: "1B7CB22BA761C46E"
+				type: "xp"
+				xp: 11
+			}]
+			tasks: [{
+				id: "150A963083D6E4AD"
+				item: { count: 1, id: "simplyswords:wraithfang" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "7A0B0655724B1A23"
+			rewards: [{
+				id: "384FE2370DF7E301"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "09B6E381E9FA0C7F"
+				item: { count: 1, id: "simplyswords:chompolotl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "02674667B7D47E42"
+			rewards: [{
+				id: "0400DE987FED210F"
+				type: "xp"
+				xp: 14
+			}]
+			tasks: [{
+				id: "0C762255AC921909"
+				item: { count: 1, id: "simplyswords:runic_tablet" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "4A4287D52B617086"
+			rewards: [{
+				id: "44E0A453359B5A35"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "511568F9E1C6CD15"
+				item: { count: 1, id: "simplyswords:contained_remnant" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "620AC078F80866B3"
+			rewards: [{
+				id: "61AA1B91E39648A6"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "68D93E055EB2237A"
+				item: { count: 1, id: "simplyswords:tampered_remnant" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "34CC359F82940541"
+			rewards: [{
+				id: "1D126AF047C4152F"
+				type: "xp"
+				xp: 13
+			}]
+			tasks: [{
+				id: "68E023B292BC3EB8"
+				item: { count: 1, id: "simplyswords:dawnquiver" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.8d
+		}
+		{
+			id: "276B220CA49DBE53"
+			rewards: [{
+				id: "5497AAFAA82E1940"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4CB8EC155FA63F3E"
+				item: { count: 1, id: "simplyswords:riftmane" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.8d
+		}
+		{
+			id: "433AADDE5F53343F"
+			rewards: [{
+				id: "74B8A9FDD16652E5"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [{
+				id: "56F3233E9F00DED5"
+				item: { count: 1, id: "simplyswords:bloodwake" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "7C728225DD7116CB"
+			rewards: [{
+				id: "46B0456037235335"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2A6762C527C50D60"
+				item: { count: 1, id: "simplyswords:stormscale" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+}
