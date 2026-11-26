@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "relics"
-	group: ""
+	group: "56A66C57DE55E953"
 	icon: {
 		components: {
 			"relics:data": {
@@ -29,8 +29,16 @@
 		id: "relics:clot_of_time"
 	}
 	id: "775FD9662F4BD788"
-	images: [ ]
-	order_index: 13
+	images: [{
+		height: 3.8d
+		id: "76E176ADC7D0910A"
+		image: "neotechreborn:textures/quests/relics_title.png"
+		rotation: 0.0d
+		width: 11.2d
+		x: 0.0d
+		y: -7.7d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -51,6 +59,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "365F239E97F3C18F"
+					type: "xp"
+					xp: 7
+				}
 			]
 			tasks: [{
 				id: "2D014CA573D943E4"
@@ -62,11 +75,18 @@
 		}
 		{
 			id: "3B0687AFEC997D89"
-			rewards: [{
-				id: "38F0E6D186581298"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "38F0E6D186581298"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "6B1E9980306EC623"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "4D5B41331CFD14CA"
 				item: { count: 1, id: "relics:relic_experience_bottle" }
@@ -92,6 +112,11 @@
 					id: "1ED87FCCB2ACA053"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "74E7DEB360DD3494"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -122,6 +147,11 @@
 					id: "3F59DA3E79E1925B"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "541202A4704A8126"
+					type: "xp"
+					xp: 7
 				}
 			]
 			tasks: [{
@@ -162,6 +192,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "66105E8C6393E15F"
+					type: "xp"
+					xp: 8
+				}
 			]
 			tasks: [{
 				id: "65B8BE3F3E21202E"
@@ -188,6 +223,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "07CCF08D73B06D26"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "44C4ECFA29DB4F48"
@@ -212,6 +252,11 @@
 					id: "28233D50EB6D19BE"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "5B12FFF1B6B5FA5D"
+					type: "xp"
+					xp: 8
 				}
 			]
 			tasks: [{
@@ -242,6 +287,11 @@
 					id: "593EAB084BE91552"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "04EB1B509EEC51DF"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -275,6 +325,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "01221426C46DA038"
+					type: "xp"
+					xp: 7
+				}
 			]
 			tasks: [{
 				id: "6AC809F6F6D57392"
@@ -299,6 +354,11 @@
 					id: "5B087A45D04B0A35"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "77BADB39147CDEED"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -325,6 +385,11 @@
 					id: "3328F9999125B919"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "1BDE734DF927153D"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -353,6 +418,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0F7A6D08603BBEBD"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "33AEA0DDA0796CE0"
@@ -379,6 +449,11 @@
 					id: "1C2CC7E1554DC7B4"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "15852927ED6910E2"
+					type: "xp"
+					xp: 8
 				}
 			]
 			tasks: [{
@@ -407,6 +482,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "1CFB4F5675856D9B"
+					type: "xp"
+					xp: 7
+				}
 			]
 			tasks: [{
 				id: "26E2B30728245FD0"
@@ -434,6 +514,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0C25369FF31EF828"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "5299022B3256DA37"
@@ -458,6 +543,11 @@
 					id: "3EAD3C5310ADBF8E"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "477006C42EAD760B"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -485,6 +575,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "1A14B9CF63088A94"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "69116A31508C6512"
@@ -496,11 +591,18 @@
 		}
 		{
 			id: "0FB0368599AD2547"
-			rewards: [{
-				id: "5E7BA099EE88A1B4"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5E7BA099EE88A1B4"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "28673A56A4E7398C"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "61AA512DD4714EF0"
 				item: { components: { "relics:data": { abilities: { abilities: { devotion: { lock: { breaks: 5 }, points: 0, stats: { absorption_cap: { initialQuality: 8 }, absorption_hearts: { initialQuality: 6 }, max_glyphs: { initialQuality: 6 }, max_orbs: { initialQuality: 1 }, preservation_chance: { initialQuality: 4 }, propagation_chance: { initialQuality: 1 }, propagation_radius: { initialQuality: 4 }, propagation_targets: { initialQuality: 1 }, spawn_interval: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:emblem_of_devotion" }
@@ -533,6 +635,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "5D75999B004D5317"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "4D7CCB3A24D8202D"
@@ -558,6 +665,11 @@
 					id: "16F07C931F3721FD"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "6B7D85EEEDA76FC2"
+					type: "xp"
+					xp: 7
 				}
 			]
 			tasks: [{
@@ -589,6 +701,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "4DC2AA69EBF71A04"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "09D57ACA8218A7D6"
@@ -600,11 +717,18 @@
 		}
 		{
 			id: "5E61271F6FF6C12B"
-			rewards: [{
-				id: "32708B6604ADDCB0"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "32708B6604ADDCB0"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "160C6B9396CC012F"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "719141FCCC98A908"
 				item: { components: { "relics:data": { abilities: { abilities: { reflection: { lock: { breaks: 5 }, points: 0, stats: { bounces: { initialQuality: 4 }, chance: { initialQuality: 3 }, damage: { initialQuality: 2 }, lifetime: { initialQuality: 7 }, piercings: { initialQuality: 9 }, stun: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 385.0d } } } } }, count: 1, id: "relics:reflective_necklace" }
@@ -634,6 +758,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "58086DBAF5F4FEC2"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "47E4B6DCC96359EB"
@@ -659,6 +788,11 @@
 					id: "326B5D4A29363566"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "13B2D27D54732B9D"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -696,6 +830,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "2662AAA65127B605"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "173A370E99D91A46"
@@ -720,6 +859,11 @@
 					id: "5586F12DFE5031F8"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "633143DB4C2918D8"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -746,6 +890,11 @@
 					id: "0CF5C9110BC58955"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "0EB80F60B8CA8594"
+					type: "xp"
+					xp: 7
 				}
 			]
 			tasks: [{
@@ -774,6 +923,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "1757192F98CBAA69"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "13AA7632AF70CD4D"
@@ -785,11 +939,18 @@
 		}
 		{
 			id: "0DDDDA3A335E2EC2"
-			rewards: [{
-				id: "432FB5A9DF25BBCA"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "432FB5A9DF25BBCA"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2740A5FADD6D010D"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "1B0965986C8C401B"
 				item: { components: { "relics:data": { abilities: { abilities: { glass: { lock: { breaks: 5 }, points: 0, stats: { capacity: { initialQuality: 5 }, max_fluids: { initialQuality: 9 }, speed: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 393.0d } } } } }, count: 1, id: "relics:cut_glass_boot" }
@@ -813,6 +974,11 @@
 					id: "55AF0BC37D1AA485"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "76A676D58F929D45"
+					type: "xp"
+					xp: 11
 				}
 			]
 			tasks: [{
@@ -846,6 +1012,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "75D41F68E691FC4D"
+					type: "xp"
+					xp: 7
+				}
 			]
 			tasks: [{
 				id: "39A1355F057D14C1"
@@ -857,11 +1028,18 @@
 		}
 		{
 			id: "2EF1323B1718D92A"
-			rewards: [{
-				id: "0A126AD75D90FB0E"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "0A126AD75D90FB0E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "28C137697648A221"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "56E7A5017A638A70"
 				item: { components: { "relics:data": { abilities: { abilities: { sacrifice: { lock: { breaks: 5 }, points: 0, stats: { resistance: { }, stacks: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 385.0d } } } } }, count: 1, id: "relics:sphere_of_self_sacrifice" }
@@ -872,11 +1050,18 @@
 		}
 		{
 			id: "7CDC197CBB934198"
-			rewards: [{
-				id: "711D798ADBB9D52B"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "711D798ADBB9D52B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "6BAE99416A2EC5E0"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "1008E9C040932586"
 				item: { components: { "relics:data": { abilities: { abilities: { pack: { lock: { breaks: 5 }, points: 0, stats: { damage_modifier: { initialQuality: 8 }, pet_radius: { initialQuality: 2 }, resistance_per_pet: { initialQuality: 6 }, revival_cost: { initialQuality: 9 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 392.0d } } } } }, count: 1, id: "relics:hunting_belt" }
@@ -902,6 +1087,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "6C65977F0C0119A0"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "073DB8F90DBFC5CD"
@@ -913,11 +1103,18 @@
 		}
 		{
 			id: "092E3543805AC6E8"
-			rewards: [{
-				id: "727512E76D880980"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "727512E76D880980"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "4BCDC1C78F6B8E2B"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "7479664F108EF2D4"
 				item: { components: { "relics:data": { abilities: { abilities: { distortion: { lock: { breaks: 5 }, points: 0, stats: { miss_chance: { initialQuality: 7 } } }, glitch: { lock: { breaks: 0 }, points: 0, stats: { fall_damage: { initialQuality: 7 }, phase_time: { initialQuality: 3 }, stability_time: { initialQuality: 1 } } }, illusion: { lock: { breaks: 0 }, points: 0, stats: { duration: { initialQuality: 9 }, echo_radius: { initialQuality: 9 }, interval: { initialQuality: 3 }, stun: { initialQuality: 5 }, stun_radius: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { metrics: { retention_time: { value: 400.0d } } } } }, count: 1, id: "relics:glitchy_mantle" }
@@ -942,6 +1139,11 @@
 					id: "360645168A9CC535"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "7E6C9BCA6E4211E5"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -968,6 +1170,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "4D7D30D9AF3E6D4C"
+					type: "xp"
+					xp: 8
+				}
 			]
 			tasks: [{
 				id: "7F571E1B00EDE039"
@@ -979,11 +1186,18 @@
 		}
 		{
 			id: "2328F563FE287CB7"
-			rewards: [{
-				id: "6041BAC00779E897"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6041BAC00779E897"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "75F3B469D30A85BB"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "5395EEEBEFB233A4"
 				item: { components: { "relics:data": { abilities: { abilities: { voodoo_mark: { lock: { breaks: 5 }, points: 0, stats: { death_burst_multicast_chance: { initialQuality: 5 }, death_burst_needles: { initialQuality: 6 }, mark_chance: { initialQuality: 5 }, max_needles: { initialQuality: 9 }, needle_damage: { initialQuality: 4 }, needle_heal: { initialQuality: 7 }, ricochet_chance: { initialQuality: 2 }, ricochet_range: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:bloody_voodoo_doll" }
@@ -1015,6 +1229,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "2B7EA63BA28F3D8B"
+					type: "xp"
+					xp: 8
+				}
 			]
 			tasks: [{
 				id: "5DEA54480C4D6A0C"
@@ -1042,6 +1261,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "23F4F1998C9FB056"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "2EB722F9D10C52FF"
@@ -1068,6 +1292,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "7C6D01337B3DB4A6"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "65F80EFB872BB838"
@@ -1092,6 +1321,11 @@
 					id: "0D90C467C6D3149F"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "12C68960B3567AFC"
+					type: "xp"
+					xp: 11
 				}
 			]
 			tasks: [{
@@ -1125,6 +1359,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "4B20BC34085C5077"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "007C5CC97F6C2BF3"
@@ -1157,6 +1396,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "3384753F6D70058D"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "260DA4AC43971FC0"
@@ -1183,6 +1427,11 @@
 					id: "4C58C7CD4C457AC1"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "7B7F28E23D7E9E66"
+					type: "xp"
+					xp: 6
 				}
 			]
 			tasks: [{
@@ -1216,6 +1465,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0ABBEC9EC60FE2AF"
+					type: "xp"
+					xp: 7
+				}
 			]
 			tasks: [{
 				id: "47DB21FB002149D0"
@@ -1227,11 +1481,18 @@
 		}
 		{
 			id: "254B230173E70CD9"
-			rewards: [{
-				id: "2D20CEA154D35FD0"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "2D20CEA154D35FD0"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "65F0179536DE866A"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "2C70BC4910543CC6"
 				item: { components: { "relics:data": { abilities: { abilities: { dimension_key: { lock: { breaks: 5 }, points: 0, stats: { immortality_duration: { initialQuality: 4 }, portal_duration: { initialQuality: 7 }, regen_boost: { initialQuality: 3 }, tremor_duration: { initialQuality: 8 }, vital_gate_radius: { initialQuality: 8 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:dimension_key" }
@@ -1256,6 +1517,11 @@
 					id: "17D7F3BD9BAAF99F"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "0F5BC535E6F5A4C2"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -1283,6 +1549,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "65E87F6018A03B4A"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "6731F2B04367F0F2"
@@ -1309,6 +1580,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "6B50C70F7FAFB436"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "11E1EA08013F46CA"
@@ -1333,6 +1609,11 @@
 					id: "1B980B2543231719"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "5CBB068840F6CDC7"
+					type: "xp"
+					xp: 11
 				}
 			]
 			tasks: [{
@@ -1359,6 +1640,11 @@
 					id: "75F44C74E973F33F"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "45600F72A058BD79"
+					type: "xp"
+					xp: 8
 				}
 			]
 			tasks: [{
@@ -1392,6 +1678,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "5F5B5EE8364E91B7"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "04DCDF1754269C5C"
@@ -1418,6 +1709,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "1BFB97BF561FF8C0"
+					type: "xp"
+					xp: 8
+				}
 			]
 			tasks: [{
 				id: "0E6FC36AE8C40A12"
@@ -1429,11 +1725,18 @@
 		}
 		{
 			id: "7ADC323CDD2E4AE9"
-			rewards: [{
-				id: "39310D752A8A6B1D"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "39310D752A8A6B1D"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3EC970A860DBFB90"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "30DC097BB7778E12"
 				item: { components: { "relics:data": { abilities: { abilities: { pulsar_mantle: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 8 }, heal_on_hit: { initialQuality: 5 }, health_threshold: { initialQuality: 2 }, missile_count: { initialQuality: 9 }, missile_damage: { }, pulse_push: { initialQuality: 3 }, pulse_radius: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:pulsar_mantle" }
@@ -1444,11 +1747,18 @@
 		}
 		{
 			id: "7E7DBC9818076878"
-			rewards: [{
-				id: "45CAEABDCBB318F1"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "45CAEABDCBB318F1"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "674C48C267177548"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "1B05079FF3A80CD0"
 				item: { components: { "relics:data": { abilities: { abilities: { elusiveness: { lock: { breaks: 5 }, points: 0, stats: { ambush_bonus: { initialQuality: 1 }, ambush_window: { initialQuality: 7 }, charge_regen_time: { }, heal_on_evasion: { initialQuality: 8 }, max_charges: { }, vanish_duration: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:ring_of_elusiveness" }
@@ -1474,6 +1784,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "4CE3E5D633844276"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "742A38ABCC542531"
@@ -1485,11 +1800,18 @@
 		}
 		{
 			id: "44F0EF0D7B03A5E2"
-			rewards: [{
-				id: "531933EFA96ACE84"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "531933EFA96ACE84"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "6C3EF4006E84E713"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "2F6CB9E650874111"
 				item: { components: { "relics:data": { abilities: { abilities: { sealed_rapier: { lock: { breaks: 5 }, points: 0, stats: { attack_speed_per_rapier: { initialQuality: 7 }, aura_radius: { initialQuality: 6 }, bleed_chance: { initialQuality: 9 }, bleed_duration: { initialQuality: 5 }, bleed_level: { initialQuality: 5 }, mana_restore: { initialQuality: 8 }, rapier_sidestep_chance: { initialQuality: 2 }, respawn_time: { initialQuality: 4 }, summon_count: { }, summon_damage: { initialQuality: 9 }, summon_health: { initialQuality: 8 }, summon_knockback: { initialQuality: 10 }, summon_regen_amount: { initialQuality: 4 }, summon_regen_interval: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:sealed_rapier" }
@@ -1500,11 +1822,18 @@
 		}
 		{
 			id: "481148E497D80C70"
-			rewards: [{
-				id: "2F5AAE7F7AB6C04D"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "2F5AAE7F7AB6C04D"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2F0519280EE17C99"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "5F08225C90309E21"
 				item: { components: { "relics:data": { abilities: { abilities: { sealed_claymore: { lock: { breaks: 5 }, points: 0, stats: { absorption_cap: { initialQuality: 5 }, absorption_gain: { initialQuality: 10 }, aura_radius: { initialQuality: 6 }, claymore_taunt_cooldown: { initialQuality: 9 }, claymore_taunt_duration: { initialQuality: 5 }, claymore_taunt_min_targets: { initialQuality: 6 }, claymore_taunt_radius: { }, damage_reduction_per_claymore: { }, respawn_time: { initialQuality: 6 }, stun_chance: { }, stun_duration: { initialQuality: 10 }, summon_count: { initialQuality: 6 }, summon_damage: { initialQuality: 2 }, summon_health: { initialQuality: 7 }, summon_knockback: { initialQuality: 5 }, summon_regen_amount: { initialQuality: 1 }, summon_regen_interval: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_irons_spells_and_spellbooks:sealed_claymore" }

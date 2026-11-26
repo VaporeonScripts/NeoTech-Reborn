@@ -3,13 +3,13 @@
 	icon: {
 		id: "minecraft:ender_chest"
 	}
-	id: "07B241382E4A9C61"
+	id: "4ADEA23F7184D454"
 	loot_size: 1
-	order_index: 1
+	order_index: 0
 	rewards: [
 		{
 			count: 8
-			id: "25D18AEB0F3247E5"
+			id: "2CDDC718FB70B5FC"
 			item: {
 				count: 1
 				id: "minecraft:emerald"
@@ -18,7 +18,7 @@
 		}
 		{
 			count: 6
-			id: "267EF67CCDE6D2C6"
+			id: "16EE8EF9118871ED"
 			item: {
 				count: 1
 				id: "minecraft:diamond"
@@ -27,7 +27,7 @@
 		}
 		{
 			count: 16
-			id: "3E6CF9EE620AB242"
+			id: "79198A7B5C8276FC"
 			item: {
 				count: 1
 				id: "minecraft:gold_ingot"
@@ -36,7 +36,7 @@
 		}
 		{
 			count: 12
-			id: "313E5D7958A2BC77"
+			id: "1DF3552807996313"
 			item: {
 				count: 1
 				id: "minecraft:iron_ingot"
@@ -45,7 +45,7 @@
 		}
 		{
 			count: 12
-			id: "2553E9331113FD0A"
+			id: "47F6004D355FF01A"
 			item: {
 				count: 1
 				id: "minecraft:copper_ingot"
@@ -54,7 +54,7 @@
 		}
 		{
 			count: 16
-			id: "6C9E886CC1EE3D8A"
+			id: "7CF39879F5C9C925"
 			item: {
 				count: 1
 				id: "minecraft:lapis_lazuli"
@@ -63,7 +63,7 @@
 		}
 		{
 			count: 8
-			id: "6EDAA5067E208646"
+			id: "38A1E26F9DA99508"
 			item: {
 				count: 1
 				id: "minecraft:experience_bottle"
@@ -72,7 +72,7 @@
 		}
 		{
 			count: 2
-			id: "5E67D21449700ED5"
+			id: "2D8D6E0C67A0FA41"
 			item: {
 				count: 1
 				id: "minecraft:golden_apple"
@@ -81,7 +81,7 @@
 		}
 		{
 			count: 16
-			id: "0561F734BC053E72"
+			id: "634529CE4B07F256"
 			item: {
 				count: 1
 				id: "minecraft:golden_carrot"
@@ -90,7 +90,7 @@
 		}
 		{
 			count: 4
-			id: "7D76213346646EAD"
+			id: "30913B6C77708D73"
 			item: {
 				count: 1
 				id: "minecraft:ender_pearl"
@@ -98,7 +98,7 @@
 			weight: 300.0f
 		}
 		{
-			id: "29EE576A9AEB5847"
+			id: "20FE8F6E3DA273E2"
 			item: {
 				count: 1
 				id: "minecraft:netherite_scrap"
@@ -106,7 +106,7 @@
 			weight: 60.0f
 		}
 		{
-			id: "2182E8C050BC18FC"
+			id: "17C18983B29F9E8D"
 			item: {
 				count: 1
 				id: "randomore:random_ore"

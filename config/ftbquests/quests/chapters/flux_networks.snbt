@@ -2,26 +2,41 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "flux_networks"
-	group: ""
+	group: "2401AD943A650627"
 	icon: {
 		id: "fluxnetworks:flux_core"
 	}
 	id: "5058F614AE7DE039"
-	images: [ ]
-	order_index: 19
+	images: [{
+		height: 3.8d
+		id: "4379C39B7F64457B"
+		image: "neotechreborn:textures/quests/flux_networks_title.png"
+		rotation: 0.0d
+		width: 19.2d
+		x: 1.0d
+		y: -5.3d
+	}]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			id: "462AB51D40A6902B"
-			rewards: [{
-				count: 2
-				id: "008949B5DD3517F8"
-				item: {
-					count: 1
-					id: "fluxnetworks:flux_dust"
+			rewards: [
+				{
+					count: 2
+					id: "008949B5DD3517F8"
+					item: {
+						count: 1
+						id: "fluxnetworks:flux_dust"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "19587C2131467D83"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "4A03697389ED95B8"
 				item: { count: 1, id: "fluxnetworks:flux_dust" }
@@ -46,6 +61,11 @@
 					id: "1DF7CFDA97A7DA74"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "0C2A15ECFECDACC4"
+					type: "xp"
+					xp: 15
 				}
 			]
 			tasks: [{
@@ -73,6 +93,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "34240B78730BF232"
+					type: "xp"
+					xp: 36
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -88,11 +113,18 @@
 		{
 			dependencies: ["326C6166A14D641E"]
 			id: "3D61DBC728EC482D"
-			rewards: [{
-				id: "1F3C35C2499E1A1D"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1F3C35C2499E1A1D"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "665CD4F13B7E877C"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "0C1C4C62C2B6B35E"
 				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
@@ -118,6 +150,11 @@
 					id: "287FB78E5E3B073A"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "75AA6D1F82F1BEFE"
+					type: "xp"
+					xp: 16
 				}
 			]
 			tasks: [{
@@ -146,6 +183,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "1A9BE6FE10CF6EFC"
+					type: "xp"
+					xp: 13
+				}
 			]
 			tasks: [{
 				id: "203E0A14A01B84F8"
@@ -159,6 +201,11 @@
 			dependencies: ["462AB51D40A6902B"]
 			id: "567EBD733A7FE49A"
 			optional: true
+			rewards: [{
+				id: "607C12B2321B8B98"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "45C5895081E343C2"
 				item: { count: 1, id: "fluxnetworks:flux_configurator" }
@@ -171,11 +218,18 @@
 			dependencies: ["3D61DBC728EC482D"]
 			id: "15A593F96530A08A"
 			optional: true
-			rewards: [{
-				id: "362E35816CFBCB0E"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "362E35816CFBCB0E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "0C978EC99875A4B8"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "4811FD38927BD4B5"
 				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
@@ -188,11 +242,18 @@
 			dependencies: ["15A593F96530A08A"]
 			id: "1E756592BDE0C97B"
 			optional: true
-			rewards: [{
-				id: "7CEF0A8A53BE4D2B"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7CEF0A8A53BE4D2B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3527B037F8752246"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "7AF0975AAAD37A47"
 				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
@@ -219,6 +280,11 @@
 					id: "351212C0207B4DC2"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "35B88F9E7DFFC444"
+					type: "xp"
+					xp: 14
 				}
 			]
 			tasks: [{

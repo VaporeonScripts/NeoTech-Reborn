@@ -2,27 +2,42 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "modern_industrialization"
-	group: ""
+	group: "10788EC10FFABF2A"
 	icon: {
 		id: "modern_industrialization:quantum_sword"
 	}
 	id: "284FF41E79048212"
-	images: [ ]
-	order_index: 15
+	images: [{
+		height: 4.31d
+		id: "5D036900223AA011"
+		image: "neotechreborn:textures/quests/modern_industrialization_title.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: -4.0d
+		y: -18.63d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			id: "027479F050E443BF"
-			rewards: [{
-				count: 4
-				id: "276995C231DA7A0D"
-				item: {
-					count: 1
-					id: "minecraft:raw_iron"
+			rewards: [
+				{
+					count: 4
+					id: "276995C231DA7A0D"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron"
+					}
+					random_bonus: 4
+					type: "item"
 				}
-				random_bonus: 4
-				type: "item"
-			}]
+				{
+					id: "19E82710CA812B6E"
+					type: "xp"
+					xp: 33
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -52,6 +67,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "180CB3A6A6DAC851"
+					type: "xp"
+					xp: 19
+				}
 			]
 			tasks: [{
 				advancement: "modern_industrialization:coke_oven"
@@ -65,16 +85,23 @@
 		{
 			dependencies: ["027479F050E443BF"]
 			id: "619CC2A5B57E2148"
-			rewards: [{
-				count: 2
-				id: "2261ECB9D9F95B43"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
+			rewards: [
+				{
+					count: 2
+					id: "2261ECB9D9F95B43"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "5C3D4C073EF97E97"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "76EE5608463A4D19"
 				item: { count: 1, id: "modern_industrialization:steam_mining_drill" }
@@ -100,6 +127,11 @@
 					id: "4A97C8C3E70E159F"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "6C33A6D6ED9DD86B"
+					type: "xp"
+					xp: 17
 				}
 			]
 			tasks: [{
@@ -128,6 +160,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "22F3482F104768EF"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "0EAEB89B7EA968E4"
@@ -140,15 +177,22 @@
 		{
 			dependencies: ["027479F050E443BF"]
 			id: "145B79B6509C0830"
-			rewards: [{
-				count: 2
-				id: "04CFBDD512914F06"
-				item: {
-					count: 1
-					id: "minecraft:fire_charge"
+			rewards: [
+				{
+					count: 2
+					id: "04CFBDD512914F06"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7566BE8F2551371A"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "0D545679570FE399"
 				item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
@@ -174,6 +218,11 @@
 					id: "7050608590BD611A"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "37D3714D4E51DD50"
+					type: "xp"
+					xp: 12
 				}
 			]
 			tasks: [{
@@ -202,6 +251,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "66E02BDEEC271297"
+					type: "xp"
+					xp: 28
+				}
 			]
 			tasks: [{
 				id: "7FA7AB9A8E6B6FFB"
@@ -229,6 +283,11 @@
 					id: "1E2F301077E11813"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "6C394249B98C11B1"
+					type: "xp"
+					xp: 33
 				}
 			]
 			tasks: [{
@@ -260,13 +319,9 @@
 					type: "random"
 				}
 				{
-					id: "0F58BB159626349E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "0C99A42B705D44F5"
+					type: "xp"
+					xp: 54
 				}
 			]
 			shape: "hexagon"
@@ -299,6 +354,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "1C52DC30A4C7930F"
+					type: "xp"
+					xp: 21
+				}
 			]
 			tasks: [{
 				id: "67AE8930388F8FBF"
@@ -312,11 +372,18 @@
 			dependencies: ["1ED3465F0C3B958C"]
 			hide_until_deps_complete: false
 			id: "2CEE93E5F727C96D"
-			rewards: [{
-				id: "71A973B27E7F8402"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "71A973B27E7F8402"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "0AB8A729B7DF0BC2"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "7ECD3CF2F08A7474"
 				item: { count: 1, id: "modern_industrialization:steam_quarry" }
@@ -335,13 +402,9 @@
 					type: "random"
 				}
 				{
-					id: "588CC8E9A3B39216"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5209739A10F2E2FB"
+					type: "xp"
+					xp: 29
 				}
 			]
 			tasks: [{
@@ -363,13 +426,9 @@
 					type: "random"
 				}
 				{
-					id: "105CB8D7D2BB86BD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "00437E03209CC634"
+					type: "xp"
+					xp: 43
 				}
 			]
 			shape: "hexagon"
@@ -400,6 +459,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "79435E7DB3ECABE8"
+					type: "xp"
+					xp: 24
+				}
 			]
 			tasks: [{
 				id: "768BF6B417B6331A"
@@ -426,6 +490,11 @@
 					id: "2ABFD38D357ECABD"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "3855D13C0AECB7B0"
+					type: "xp"
+					xp: 22
 				}
 			]
 			tasks: [{
@@ -455,6 +524,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "35CAD6F4AE1202E8"
+					type: "xp"
+					xp: 27
+				}
 			]
 			tasks: [{
 				id: "167BD40891A609F5"
@@ -482,13 +556,9 @@
 					type: "random"
 				}
 				{
-					id: "65AD0AFF455C376E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "1382023D17B6956A"
+					type: "xp"
+					xp: 51
 				}
 			]
 			shape: "hexagon"
@@ -519,13 +589,9 @@
 					type: "random"
 				}
 				{
-					id: "538B6C602933CECC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5754A90F120B39C8"
+					type: "xp"
+					xp: 36
 				}
 			]
 			tasks: [{
@@ -554,13 +620,9 @@
 					type: "random"
 				}
 				{
-					id: "2BE885A6F80B0123"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "71AEEB8A1AFC2A3D"
+					type: "xp"
+					xp: 40
 				}
 			]
 			tasks: [{
@@ -589,13 +651,9 @@
 					type: "random"
 				}
 				{
-					id: "56C6C4CF0F7B8468"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4C2176892AF729AA"
+					type: "xp"
+					xp: 29
 				}
 			]
 			tasks: [{
@@ -624,13 +682,9 @@
 					type: "random"
 				}
 				{
-					id: "5DBEEB278401DA7E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "48987FD4E877CCC7"
+					type: "xp"
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -655,13 +709,9 @@
 					type: "item"
 				}
 				{
-					id: "4A9C40E39FBC24CC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5CEA2C87E48BE354"
+					type: "xp"
+					xp: 35
 				}
 			]
 			tasks: [{
@@ -690,13 +740,9 @@
 					type: "random"
 				}
 				{
-					id: "303E81C4F4823356"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "0BB24CADAF597B1C"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [{
@@ -734,13 +780,9 @@
 					type: "random"
 				}
 				{
-					id: "709B4C73162E9092"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5757044C09E5F799"
+					type: "xp"
+					xp: 46
 				}
 			]
 			tasks: [{
@@ -769,13 +811,9 @@
 					type: "random"
 				}
 				{
-					id: "26745277B3CE4C60"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "7B7E3F682D4A2AC5"
+					type: "xp"
+					xp: 59
 				}
 			]
 			shape: "hexagon"
@@ -806,13 +844,9 @@
 					type: "random"
 				}
 				{
-					id: "2E0510EB142CFCF9"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "47E1F3F458CDACFF"
+					type: "xp"
+					xp: 37
 				}
 			]
 			tasks: [{
@@ -842,13 +876,9 @@
 					type: "random"
 				}
 				{
-					id: "52D662C7742C8401"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4451B598C647A5A7"
+					type: "xp"
+					xp: 41
 				}
 			]
 			tasks: [{
@@ -878,13 +908,9 @@
 					type: "random"
 				}
 				{
-					id: "5E5118149EC3F830"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "412DB814A007D5B3"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [{
@@ -913,13 +939,9 @@
 					type: "random"
 				}
 				{
-					id: "00A69B11D94E6BB3"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "7DF3C318C1906B00"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [{
@@ -948,13 +970,9 @@
 					type: "random"
 				}
 				{
-					id: "3994A8E60C128705"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "29249A71B5320380"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [{
@@ -983,13 +1001,9 @@
 					type: "random"
 				}
 				{
-					id: "6BF6A735BF9CF610"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4398025E4895EED3"
+					type: "xp"
+					xp: 44
 				}
 			]
 			tasks: [{
@@ -1018,13 +1032,9 @@
 					type: "random"
 				}
 				{
-					id: "3F6D4BDA261AA8F0"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4BCC1A204F49A4B0"
+					type: "xp"
+					xp: 43
 				}
 			]
 			tasks: [{
@@ -1054,13 +1064,9 @@
 					type: "random"
 				}
 				{
-					id: "64E66F106799ADF8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4D739073D958BDE3"
+					type: "xp"
+					xp: 37
 				}
 			]
 			tasks: [{
@@ -1090,13 +1096,9 @@
 					type: "random"
 				}
 				{
-					id: "443D1AB1FB309CBA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "75C61E2B37A0D54D"
+					type: "xp"
+					xp: 60
 				}
 			]
 			shape: "hexagon"
@@ -1128,13 +1130,9 @@
 					type: "random"
 				}
 				{
-					id: "68F9CAB9D9B97C5C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "414F22394330324F"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [{
@@ -1163,13 +1161,9 @@
 					type: "random"
 				}
 				{
-					id: "3705BBEE13A15832"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "1E3BB8C54AC53907"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -1199,13 +1193,9 @@
 					type: "random"
 				}
 				{
-					id: "0E066743012C3591"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "11FFC27C8A3B5988"
+					type: "xp"
+					xp: 39
 				}
 			]
 			tasks: [{
@@ -1234,13 +1224,9 @@
 					type: "random"
 				}
 				{
-					id: "301CAE7B080E2053"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "14B1364A6E1958B1"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -1269,13 +1255,9 @@
 					type: "random"
 				}
 				{
-					id: "103535BBC7E6C596"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "28C9FC60125D4545"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [{
@@ -1304,13 +1286,9 @@
 					type: "random"
 				}
 				{
-					id: "75DF3E3F09D16EB0"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "1B52E91739231668"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [{
@@ -1350,13 +1328,9 @@
 					type: "random"
 				}
 				{
-					id: "51821E26C8F15826"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "0897D38C0B0A4D4A"
+					type: "xp"
+					xp: 46
 				}
 			]
 			tasks: [{
@@ -1386,13 +1360,9 @@
 					type: "random"
 				}
 				{
-					id: "217E6230CEB0BC68"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5DC92DBF108F68E9"
+					type: "xp"
+					xp: 39
 				}
 			]
 			tasks: [{
@@ -1429,13 +1399,9 @@
 					type: "random"
 				}
 				{
-					id: "4CAF19B9D14E11A6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4286F8140C217576"
+					type: "xp"
+					xp: 37
 				}
 			]
 			tasks: [{
@@ -1472,13 +1438,9 @@
 					type: "random"
 				}
 				{
-					id: "20A7252BEFC9BCFD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5694B7F043C52FBE"
+					type: "xp"
+					xp: 36
 				}
 			]
 			tasks: [{
@@ -1515,13 +1477,9 @@
 					type: "random"
 				}
 				{
-					id: "74059EB7A217908C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "65E6C47DA0ECBA9D"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [{
@@ -1545,13 +1503,9 @@
 					type: "item"
 				}
 				{
-					id: "1654D010D332BAAC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "077961C6E79A0C35"
+					type: "xp"
+					xp: 53
 				}
 			]
 			tasks: [{
@@ -1577,13 +1531,9 @@
 					type: "item"
 				}
 				{
-					id: "721E26498AF8AA7D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "2BD023F81617D31D"
+					type: "xp"
+					xp: 44
 				}
 			]
 			tasks: [{
@@ -1612,13 +1562,9 @@
 					type: "random"
 				}
 				{
-					id: "0B3CE712AB1FF0D5"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4AE278FBEA3AC0C4"
+					type: "xp"
+					xp: 36
 				}
 			]
 			tasks: [{
@@ -1656,13 +1602,9 @@
 					type: "random"
 				}
 				{
-					id: "05C4BAB111D8BABD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "679B9EF579299841"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -1700,13 +1642,9 @@
 					type: "random"
 				}
 				{
-					id: "7FDDF60B8CF72913"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "10D8F0778494BD5E"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [{
@@ -1730,13 +1668,9 @@
 					type: "item"
 				}
 				{
-					id: "5D65D079FD85AFB8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "7664A6D207E0C983"
+					type: "xp"
+					xp: 66
 				}
 			]
 			shape: "hexagon"
@@ -1776,13 +1710,9 @@
 					type: "random"
 				}
 				{
-					id: "417CA6A0635C8148"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "399FE13FD13C2012"
+					type: "xp"
+					xp: 46
 				}
 			]
 			tasks: [{
@@ -1811,13 +1741,9 @@
 					type: "random"
 				}
 				{
-					id: "092861D6B6FACE89"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "3310F0B888600042"
+					type: "xp"
+					xp: 48
 				}
 			]
 			tasks: [{
@@ -1855,13 +1781,9 @@
 					type: "random"
 				}
 				{
-					id: "5E68C6042DA80B82"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "413F27EBCEDE147F"
+					type: "xp"
+					xp: 56
 				}
 			]
 			tasks: [{
@@ -1900,13 +1822,9 @@
 					type: "random"
 				}
 				{
-					id: "1A1C7D0D7B4CD6CD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "53AE2CDDBA0EC22D"
+					type: "xp"
+					xp: 51
 				}
 			]
 			tasks: [{
@@ -1943,13 +1861,9 @@
 					type: "random"
 				}
 				{
-					id: "48ADD9C88A9FB148"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "7ED69DF5703CDC8C"
+					type: "xp"
+					xp: 51
 				}
 			]
 			tasks: [{
@@ -1995,13 +1909,9 @@
 					type: "random"
 				}
 				{
-					id: "5E5FFB18C4FA1A1C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "1383ADE3E0A51B7F"
+					type: "xp"
+					xp: 62
 				}
 			]
 			shape: "hexagon"
@@ -2049,13 +1959,9 @@
 					type: "random"
 				}
 				{
-					id: "298E5A8F528D6D88"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5BA7A91E090BED33"
+					type: "xp"
+					xp: 48
 				}
 			]
 			tasks: [{
@@ -2084,13 +1990,9 @@
 					type: "random"
 				}
 				{
-					id: "1D65089B780132B5"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "132602BE78E21178"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -2128,13 +2030,18 @@
 					type: "random"
 				}
 				{
-					id: "3E358E32309C9B1E"
+					id: "612240C0C9D89C61"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "44F1E0735545C7E0"
+					type: "xp"
+					xp: 65
 				}
 			]
 			shape: "hexagon"
@@ -2175,13 +2082,9 @@
 					type: "random"
 				}
 				{
-					id: "37D47F1F93D142F2"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "1961CEEB743DC65E"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -2230,13 +2133,18 @@
 					type: "random"
 				}
 				{
-					id: "4865A8AFF0966667"
+					id: "56575340C498E540"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "0C3AF170D50EBA89"
+					type: "xp"
+					xp: 65
 				}
 			]
 			shape: "hexagon"
@@ -2275,13 +2183,9 @@
 					type: "random"
 				}
 				{
-					id: "5E67D35C62FBA05D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "188E153FE2DFC2F4"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [{
@@ -2312,13 +2216,9 @@
 					type: "random"
 				}
 				{
-					id: "6F862D97A8C99E40"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "477E18932A6245C8"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [{
@@ -2349,13 +2249,9 @@
 					type: "random"
 				}
 				{
-					id: "644E8E748E8547BF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "30F68D2A7F7AD0CB"
+					type: "xp"
+					xp: 44
 				}
 			]
 			tasks: [{
@@ -2393,13 +2289,9 @@
 					type: "random"
 				}
 				{
-					id: "3371D8EC321439F8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5AC26345836375B6"
+					type: "xp"
+					xp: 53
 				}
 			]
 			tasks: [{
@@ -2430,13 +2322,9 @@
 					type: "random"
 				}
 				{
-					id: "0C578156B24555E9"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "00195EF254FFD1ED"
+					type: "xp"
+					xp: 43
 				}
 			]
 			tasks: [{
@@ -2450,22 +2338,29 @@
 		{
 			dependencies: ["7780ED6483FC9986"]
 			id: "5C9D71668407484E"
-			rewards: [{
-				id: "12745D4F4908484D"
-				item: {
-					components: {
-						"modern_industrialization:fluid_storage": {
-							amount: 4000L
-							resource: {
-								id: "minecraft:water"
+			rewards: [
+				{
+					id: "12745D4F4908484D"
+					item: {
+						components: {
+							"modern_industrialization:fluid_storage": {
+								amount: 4000L
+								resource: {
+									id: "minecraft:water"
+								}
 							}
 						}
+						count: 1
+						id: "modern_industrialization:bronze_tank"
 					}
-					count: 1
-					id: "modern_industrialization:bronze_tank"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "31D5B38E29A9557A"
+					type: "xp"
+					xp: 27
+				}
+			]
 			tasks: [{
 				id: "1A57645A9AEB8FE9"
 				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
@@ -2505,6 +2400,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2D48B2F065DA5F72"
+					type: "xp"
+					xp: 12
+				}
 			]
 			tasks: [{
 				id: "224F7F49D81D6DD6"
@@ -2528,13 +2428,9 @@
 					type: "item"
 				}
 				{
-					id: "649D1E8D3631CB82"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "6E33DD45E7A20A72"
+					type: "xp"
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -2548,6 +2444,11 @@
 		{
 			dependencies: ["5C9D71668407484E"]
 			id: "1CB7870C4167A8BF"
+			rewards: [{
+				id: "50B833120A3AF94C"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "24E70C9E2BFD8CD8"
 				item: { count: 1, id: "modern_industrialization:bronze_water_pump" }
@@ -2559,14 +2460,21 @@
 		{
 			dependencies: ["1A611B8D50109E92"]
 			id: "0085099CD93A5E68"
-			rewards: [{
-				id: "6878C82043D93F09"
-				item: {
-					count: 1
-					id: "modern_industrialization:coke_block"
+			rewards: [
+				{
+					id: "6878C82043D93F09"
+					item: {
+						count: 1
+						id: "modern_industrialization:coke_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7E536FAD35E9D903"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [
 				{
 					id: "443DED0A64F790F8"
@@ -2588,15 +2496,22 @@
 				id: "modern_industrialization:coke_oven"
 			}
 			id: "1A611B8D50109E92"
-			rewards: [{
-				count: 32
-				id: "666301DA2B82BCBD"
-				item: {
-					count: 1
-					id: "minecraft:coal"
+			rewards: [
+				{
+					count: 32
+					id: "666301DA2B82BCBD"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7223D7B4A7064E6F"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [
 				{
 					id: "045BCE371E37C5D2"
@@ -2647,13 +2562,9 @@
 					type: "item"
 				}
 				{
-					id: "53F8FB059D26E8D6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "73DE1038BE703766"
+					type: "xp"
+					xp: 35
 				}
 			]
 			tasks: [{
@@ -2678,13 +2589,9 @@
 					type: "item"
 				}
 				{
-					id: "52DA6CD3FE7BA90A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "35ADE20C6AC64808"
+					type: "xp"
+					xp: 29
 				}
 			]
 			tasks: [{
@@ -2699,15 +2606,22 @@
 		{
 			dependencies: ["7780ED6483FC9986"]
 			id: "20071FDDBB407198"
-			rewards: [{
-				count: 16
-				id: "36049EFD9AEA3364"
-				item: {
-					count: 1
-					id: "minecraft:clay_ball"
+			rewards: [
+				{
+					count: 16
+					id: "36049EFD9AEA3364"
+					item: {
+						count: 1
+						id: "minecraft:clay_ball"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "67E5BCCC7250228F"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				count: 12L
 				id: "10B97BD4EEB4DDF4"
@@ -2720,15 +2634,22 @@
 		{
 			dependencies: ["7780ED6483FC9986"]
 			id: "4E5F290E8EE80DFE"
-			rewards: [{
-				count: 8
-				id: "1CC38C7F3FF26D27"
-				item: {
-					count: 1
-					id: "minecraft:red_dye"
+			rewards: [
+				{
+					count: 8
+					id: "1CC38C7F3FF26D27"
+					item: {
+						count: 1
+						id: "minecraft:red_dye"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3A0AA728A133EA18"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "1249E05E245F50A0"
@@ -2800,13 +2721,18 @@
 					type: "item"
 				}
 				{
-					id: "525C7E314E84D753"
+					id: "7AD0409F2B2F5E2C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "03A95E8968CF1344"
+					type: "xp"
+					xp: 56
 				}
 			]
 			shape: "hexagon"
@@ -2853,13 +2779,9 @@
 					type: "item"
 				}
 				{
-					id: "2A54D9B2AB2B7988"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5CC9F0DFDBA6FE0C"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -2874,15 +2796,22 @@
 		{
 			dependencies: ["619CC2A5B57E2148"]
 			id: "70B98506E050EED0"
-			rewards: [{
-				count: 8
-				id: "5CA3DC9637084A74"
-				item: {
-					count: 1
-					id: "modern_industrialization:lignite_coal_block"
+			rewards: [
+				{
+					count: 8
+					id: "5CA3DC9637084A74"
+					item: {
+						count: 1
+						id: "modern_industrialization:lignite_coal_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7DE936771DE72075"
+					type: "xp"
+					xp: 14
+				}
+			]
 			tasks: [{
 				count: 64L
 				id: "7634C0C1BBCE6249"
@@ -2895,6 +2824,11 @@
 		{
 			dependencies: ["7780ED6483FC9986"]
 			id: "4B804BC05BBA2E53"
+			rewards: [{
+				id: "3BB61163C146BD58"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "3CDD3B90C6D726B8"
 				item: { count: 1, id: "modern_industrialization:wrench" }
@@ -2924,13 +2858,9 @@
 					type: "item"
 				}
 				{
-					id: "7B81510556EE8A7B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "59F46FC545E81062"
+					type: "xp"
+					xp: 31
 				}
 			]
 			tasks: [
@@ -2977,13 +2907,9 @@
 					type: "item"
 				}
 				{
-					id: "36F3F452A4EE527F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "53ED97C07FC9707F"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [
@@ -3020,13 +2946,9 @@
 					type: "item"
 				}
 				{
-					id: "406619BA30FA7879"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "6195625C88DA187B"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -3040,15 +2962,22 @@
 		{
 			dependencies: ["027479F050E443BF"]
 			id: "7780ED6483FC9986"
-			rewards: [{
-				count: 16
-				id: "185E043746845D4E"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_ingot"
+			rewards: [
+				{
+					count: 16
+					id: "185E043746845D4E"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "48BF1E1E3606E8C7"
+					type: "xp"
+					xp: 36
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -3074,13 +3003,9 @@
 					type: "item"
 				}
 				{
-					id: "2D398C57802C4984"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "3B702452DCA0518B"
+					type: "xp"
+					xp: 48
 				}
 			]
 			shape: "hexagon"
@@ -3097,15 +3022,22 @@
 			dependencies: ["5C9D71668407484E"]
 			id: "470C6BCB3EB14006"
 			optional: true
-			rewards: [{
-				count: 8
-				id: "2E173D4607FD8D3E"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_ingot"
+			rewards: [
+				{
+					count: 8
+					id: "2E173D4607FD8D3E"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "225B5D5D6060BF5B"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "2968CB39E898DA45"
 				item: { count: 1, id: "extended_industrialization:bronze_solar_boiler" }
@@ -3128,13 +3060,9 @@
 					type: "random"
 				}
 				{
-					id: "52425413C8F1603E"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "774D7A74FB45E45F"
+					type: "xp"
+					xp: 26
 				}
 			]
 			tasks: [
@@ -3176,15 +3104,22 @@
 			}
 			id: "18B0058041A66C36"
 			optional: true
-			rewards: [{
-				count: 16
-				id: "7729C10607EA6333"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_ingot"
+			rewards: [
+				{
+					count: 16
+					id: "7729C10607EA6333"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "05D0120255B870A8"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [
 				{
 					id: "546BE806FD630BE7"
@@ -3214,15 +3149,22 @@
 		{
 			dependencies: ["7780ED6483FC9986"]
 			id: "4EC12D56648EFF7C"
-			rewards: [{
-				count: 8
-				id: "1B3D4BC83690C540"
-				item: {
-					count: 1
-					id: "modern_industrialization:bronze_ingot"
+			rewards: [
+				{
+					count: 8
+					id: "1B3D4BC83690C540"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4C8E3738009B211F"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "7DD2B57A57558885"
 				item: { count: 1, id: "extended_industrialization:bronze_bending_machine" }
@@ -3234,11 +3176,18 @@
 		{
 			dependencies: ["7780ED6483FC9986"]
 			id: "2444B671B3068D77"
-			rewards: [{
-				id: "39EC8978E014CBBA"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "39EC8978E014CBBA"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "320E4B469D52AB53"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "65BA360C465F3BAD"
 				item: { count: 1, id: "extended_industrialization:bronze_composter" }
@@ -3270,13 +3219,9 @@
 					type: "item"
 				}
 				{
-					id: "208A290436938222"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "337F8381246E1137"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -3291,13 +3236,9 @@
 			dependencies: ["31296273903A43C5"]
 			id: "1EAE47F9C0288679"
 			rewards: [{
-				id: "65F16FA75AC95568"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "0AA4DE61D014A702"
+				type: "xp"
+				xp: 29
 			}]
 			tasks: [{
 				id: "36464899CA1B8CC3"
@@ -3311,13 +3252,9 @@
 			dependencies: ["31296273903A43C5"]
 			id: "2A863F800ECF8FC0"
 			rewards: [{
-				id: "7823FAE839C95FF4"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "253DD8C97ABE9635"
+				type: "xp"
+				xp: 30
 			}]
 			tasks: [{
 				id: "76D9EE3C18CB8189"
@@ -3348,6 +3285,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "462AAF2C4CD25497"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "2464A2969073544C"
@@ -3360,15 +3302,22 @@
 		{
 			dependencies: ["743D2FBBE95AE443"]
 			id: "64A6A68085FAFF36"
-			rewards: [{
-				count: 8
-				id: "22E5B157841F5F1B"
-				item: {
-					count: 1
-					id: "modern_industrialization:rubber_sheet"
+			rewards: [
+				{
+					count: 8
+					id: "22E5B157841F5F1B"
+					item: {
+						count: 1
+						id: "modern_industrialization:rubber_sheet"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4E637D21EC5604DC"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [{
 				id: "0E7924AC93E7D64E"
 				item: { count: 1, id: "modern_industrialization:rubber_sheet" }
@@ -3391,13 +3340,9 @@
 					type: "item"
 				}
 				{
-					id: "2C203B41287951E1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "74CDE7AB778F7C32"
+					type: "xp"
+					xp: 41
 				}
 			]
 			tasks: [{
@@ -3422,13 +3367,9 @@
 					type: "item"
 				}
 				{
-					id: "12A09D99AB9038FC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "3FD5EE58E9164C1A"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [{
@@ -3453,13 +3394,9 @@
 					type: "item"
 				}
 				{
-					id: "21E84CC0D4D05190"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "6418CBF9A185C01C"
+					type: "xp"
+					xp: 32
 				}
 			]
 			tasks: [{
@@ -3484,13 +3421,9 @@
 					type: "item"
 				}
 				{
-					id: "7A37F9E086DC1522"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "0F3E8674FF0CCD95"
+					type: "xp"
+					xp: 27
 				}
 			]
 			tasks: [{
@@ -3518,13 +3451,9 @@
 					type: "item"
 				}
 				{
-					id: "256E7C95726BD36C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "1B8D45B8689CD29A"
+					type: "xp"
+					xp: 49
 				}
 			]
 			tasks: [
@@ -3572,13 +3501,9 @@
 					type: "item"
 				}
 				{
-					id: "3F0DE3EB4D6D9118"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "78B2CD118D3DA35E"
+					type: "xp"
+					xp: 51
 				}
 			]
 			tasks: [
@@ -3617,13 +3542,9 @@
 					type: "item"
 				}
 				{
-					id: "591657CB3D43E654"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "1FA6F9C54E0F91A8"
+					type: "xp"
+					xp: 29
 				}
 			]
 			tasks: [{
@@ -3648,13 +3569,9 @@
 					type: "item"
 				}
 				{
-					id: "0C08F6BDF13F1ABD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4A6C2D04D9782DD7"
+					type: "xp"
+					xp: 28
 				}
 			]
 			tasks: [{
@@ -3692,13 +3609,9 @@
 					type: "item"
 				}
 				{
-					id: "4B3801E77AD78E73"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "76FE3A5E4F66A54A"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [
@@ -3743,13 +3656,9 @@
 					type: "item"
 				}
 				{
-					id: "08B335C7AE880D4F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "6262881626F189C5"
+					type: "xp"
+					xp: 36
 				}
 			]
 			tasks: [{
@@ -3777,13 +3686,9 @@
 					type: "item"
 				}
 				{
-					id: "2506D40D477091D8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "0CF74D2A9697FCFF"
+					type: "xp"
+					xp: 37
 				}
 			]
 			tasks: [
@@ -3827,13 +3732,9 @@
 					type: "item"
 				}
 				{
-					id: "7B806FB52C4D912A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "3725B7591FB0D5F9"
+					type: "xp"
+					xp: 40
 				}
 			]
 			tasks: [{
@@ -3857,13 +3758,9 @@
 					type: "item"
 				}
 				{
-					id: "74703A37025C3812"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "664111675F4C3485"
+					type: "xp"
+					xp: 28
 				}
 			]
 			tasks: [{
@@ -3887,13 +3784,9 @@
 					type: "item"
 				}
 				{
-					id: "4A87F9014BBE399C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "2DA8908FC1F49FF4"
+					type: "xp"
+					xp: 27
 				}
 			]
 			tasks: [{
@@ -3917,13 +3810,9 @@
 					type: "item"
 				}
 				{
-					id: "374B98656B45893B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "225F6EBC1DCDF196"
+					type: "xp"
+					xp: 31
 				}
 			]
 			tasks: [{
@@ -3947,13 +3836,9 @@
 					type: "item"
 				}
 				{
-					id: "4331B61385711562"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "17F505C8CA53D091"
+					type: "xp"
+					xp: 28
 				}
 			]
 			tasks: [{
@@ -3978,13 +3863,9 @@
 					type: "item"
 				}
 				{
-					id: "361041E59DE1F1FC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "12DEE1BE52ED9527"
+					type: "xp"
+					xp: 39
 				}
 			]
 			tasks: [{
@@ -4010,13 +3891,9 @@
 					type: "item"
 				}
 				{
-					id: "333550C7B0F6272F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "1FCE5C6528776F3E"
+					type: "xp"
+					xp: 32
 				}
 			]
 			tasks: [{
@@ -4042,13 +3919,9 @@
 					type: "item"
 				}
 				{
-					id: "691935B2E065FC6C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "283F329A2734B071"
+					type: "xp"
+					xp: 40
 				}
 			]
 			tasks: [
@@ -4071,13 +3944,9 @@
 			dependencies: ["78C4FC782DA6BB39"]
 			id: "7574A64692A5C7A6"
 			rewards: [{
-				id: "0D151673CD4DA55B"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "2AC963EEF7AAA27C"
+				type: "xp"
+				xp: 42
 			}]
 			tasks: [
 				{
@@ -4111,13 +3980,9 @@
 					type: "item"
 				}
 				{
-					id: "385C452DAFE22DBF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "17F0DCE1E3D9F4D8"
+					type: "xp"
+					xp: 38
 				}
 			]
 			tasks: [
@@ -4156,13 +4021,9 @@
 					type: "item"
 				}
 				{
-					id: "6E50D1C9CE05CB84"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "566B17E101620171"
+					type: "xp"
+					xp: 29
 				}
 			]
 			tasks: [{
@@ -4187,13 +4048,9 @@
 					type: "item"
 				}
 				{
-					id: "2D88A42D8AB55C75"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "7D767043CA378DF9"
+					type: "xp"
+					xp: 43
 				}
 			]
 			tasks: [
@@ -4228,13 +4085,9 @@
 					type: "item"
 				}
 				{
-					id: "3EBCF9E2790577FD"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "4EA8D9B8CF659E10"
+					type: "xp"
+					xp: 48
 				}
 			]
 			tasks: [
@@ -4279,13 +4132,9 @@
 					type: "item"
 				}
 				{
-					id: "30FC0FCEEA4A88C4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5443863BD965021B"
+					type: "xp"
+					xp: 44
 				}
 			]
 			tasks: [{
@@ -4310,13 +4159,9 @@
 					type: "item"
 				}
 				{
-					id: "15B3EEE5E4C45522"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4843C934274239B3"
+					type: "xp"
+					xp: 37
 				}
 			]
 			tasks: [{
@@ -4329,6 +4174,60 @@
 		}
 		{
 			dependencies: ["723DFC38D29BBDC9"]
+			id: "7FCA2AA5096B3346"
+			rewards: [{
+				id: "5C497A8BFD513560"
+				type: "xp"
+				xp: 16
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7158686FE5F011C3"
+				item: { count: 1, id: "extended_industrialization:nano_boots" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.1d
+		}
+		{
+			dependencies: ["7FCA2AA5096B3346"]
+			id: "666D6DE84597DA56"
+			rewards: [{
+				id: "2BF4A53226BAC8D5"
+				type: "xp"
+				xp: 16
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0816BCB525A3F81B"
+				item: { count: 1, id: "extended_industrialization:nano_chestplate" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.6d
+		}
+		{
+			dependencies: ["7FCA2AA5096B3346"]
+			id: "3C9F95FEDD54A449"
+			rewards: [{
+				id: "17992B4123973CCF"
+				type: "xp"
+				xp: 16
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6041CAFA9280CB8E"
+				item: { count: 1, id: "extended_industrialization:nano_leggings" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.6d
+		}
+		{
+			dependencies: [
+				"666D6DE84597DA56"
+				"3C9F95FEDD54A449"
+			]
 			id: "42DFB47A9BF08F29"
 			rewards: [
 				{
@@ -4341,51 +4240,27 @@
 					type: "item"
 				}
 				{
-					id: "31B33DB962CD61E2"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "0E50A080B6544074"
+					type: "xp"
+					xp: 49
 				}
 			]
-			tasks: [
-				{
-					id: "5E34B1D45655D4EA"
-					item: { count: 1, id: "extended_industrialization:nano_helmet" }
-					type: "item"
-				}
-				{
-					id: "0816BCB525A3F81B"
-					item: { count: 1, id: "extended_industrialization:nano_chestplate" }
-					type: "item"
-				}
-				{
-					id: "6041CAFA9280CB8E"
-					item: { count: 1, id: "extended_industrialization:nano_leggings" }
-					type: "item"
-				}
-				{
-					id: "7158686FE5F011C3"
-					item: { count: 1, id: "extended_industrialization:nano_boots" }
-					type: "item"
-				}
-			]
+			shape: "diamond"
+			tasks: [{
+				id: "5E34B1D45655D4EA"
+				item: { count: 1, id: "extended_industrialization:nano_helmet" }
+				type: "item"
+			}]
 			x: -2.0d
-			y: 13.6d
+			y: 13.1d
 		}
 		{
 			dependencies: ["19E76733C5413B31"]
 			id: "4725035EE888EDE4"
 			rewards: [{
-				id: "46F0247BDE0AFD93"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "5CB0918BB4E37B65"
+				type: "xp"
+				xp: 31
 			}]
 			tasks: [{
 				id: "08EEC74EF6558A2E"
@@ -4399,13 +4274,9 @@
 			dependencies: ["16B29FD743B12BBD"]
 			id: "61BC4DC8D08E44FE"
 			rewards: [{
-				id: "4E47D54A6DF9DC5C"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "27DA89CB147DC61F"
+				type: "xp"
+				xp: 41
 			}]
 			tasks: [{
 				id: "7FEE2BA9E713906D"
@@ -4437,13 +4308,9 @@
 					type: "item"
 				}
 				{
-					id: "216C885FC071D701"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "73594185616CAA94"
+					type: "xp"
+					xp: 37
 				}
 			]
 			tasks: [{
@@ -4468,13 +4335,9 @@
 					type: "item"
 				}
 				{
-					id: "7BCF48170631360F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "37784267667A0EFD"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [{
@@ -4499,13 +4362,9 @@
 					type: "item"
 				}
 				{
-					id: "270E45BC983F7D1B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "42D81111C7FAFC8A"
+					type: "xp"
+					xp: 43
 				}
 			]
 			tasks: [{
@@ -4530,13 +4389,9 @@
 					type: "item"
 				}
 				{
-					id: "24603BF8F261D498"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "2E5AB441410995BB"
+					type: "xp"
+					xp: 53
 				}
 			]
 			tasks: [
@@ -4575,13 +4430,9 @@
 					type: "item"
 				}
 				{
-					id: "416F00A1704B8500"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "50E3A5350E6E1535"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [{
@@ -4596,13 +4447,9 @@
 			dependencies: ["4E87637FF30936CD"]
 			id: "745C8130B75C03F6"
 			rewards: [{
-				id: "388D63F4DEE58DBF"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "3F9B7EBC5FD0405E"
+				type: "xp"
+				xp: 48
 			}]
 			tasks: [{
 				id: "6872C3DA998D0742"
@@ -4634,13 +4481,9 @@
 					type: "item"
 				}
 				{
-					id: "48A0772DAE3E8374"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "147EF682C0AB6BA1"
+					type: "xp"
+					xp: 49
 				}
 			]
 			tasks: [
@@ -4679,13 +4522,18 @@
 					type: "item"
 				}
 				{
-					id: "49C6E880053B0655"
+					id: "144482AFFD0A25CB"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "65EE51078ACE2D81"
+					type: "xp"
+					xp: 57
 				}
 			]
 			tasks: [
@@ -4724,13 +4572,18 @@
 					type: "item"
 				}
 				{
-					id: "31B3589F1394F736"
+					id: "105A214BAD16F756"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "62AC38C229ADDFE2"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [
@@ -4768,13 +4621,18 @@
 					type: "item"
 				}
 				{
-					id: "74060AB154A25EF4"
+					id: "112FD578E9192FD3"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "4F0B927F6AEAB5EC"
+					type: "xp"
+					xp: 54
 				}
 			]
 			tasks: [
@@ -4809,6 +4667,60 @@
 		}
 		{
 			dependencies: ["054D2D26D71D140A"]
+			id: "25A3C0F0E2768D27"
+			rewards: [{
+				id: "0997A362DD052B81"
+				type: "xp"
+				xp: 16
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5210CABF6F58FC2E"
+				item: { count: 1, id: "extended_industrialization:nano_quantum_boots" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 7.7d
+		}
+		{
+			dependencies: ["25A3C0F0E2768D27"]
+			id: "6B4DABF4DE611839"
+			rewards: [{
+				id: "3F1B78995B07F777"
+				type: "xp"
+				xp: 16
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "279B23E52F6D46B0"
+				item: { count: 1, id: "extended_industrialization:nano_quantum_chestplate" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 7.2d
+		}
+		{
+			dependencies: ["25A3C0F0E2768D27"]
+			id: "1B02005FF74832B0"
+			rewards: [{
+				id: "5778A6D16ED81F69"
+				type: "xp"
+				xp: 16
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2677E05EE741E02F"
+				item: { count: 1, id: "extended_industrialization:nano_quantum_leggings" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: 7.2d
+		}
+		{
+			dependencies: [
+				"6B4DABF4DE611839"
+				"1B02005FF74832B0"
+			]
 			id: "58192317181791CD"
 			rewards: [
 				{
@@ -4821,39 +4733,28 @@
 					type: "item"
 				}
 				{
-					id: "2FC4431EF8AEB55C"
+					id: "75E5F1809B0E4DE8"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "2F330036A41F3186"
+					type: "xp"
+					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "4CC4C231C5DE19B5"
-					item: { count: 1, id: "extended_industrialization:nano_quantum_helmet" }
-					type: "item"
-				}
-				{
-					id: "279B23E52F6D46B0"
-					item: { count: 1, id: "extended_industrialization:nano_quantum_chestplate" }
-					type: "item"
-				}
-				{
-					id: "2677E05EE741E02F"
-					item: { count: 1, id: "extended_industrialization:nano_quantum_leggings" }
-					type: "item"
-				}
-				{
-					id: "5210CABF6F58FC2E"
-					item: { count: 1, id: "extended_industrialization:nano_quantum_boots" }
-					type: "item"
-				}
-			]
+			shape: "diamond"
+			tasks: [{
+				id: "4CC4C231C5DE19B5"
+				item: { count: 1, id: "extended_industrialization:nano_quantum_helmet" }
+				type: "item"
+			}]
 			x: 28.0d
-			y: 7.2d
+			y: 6.7d
 		}
 	]
 }

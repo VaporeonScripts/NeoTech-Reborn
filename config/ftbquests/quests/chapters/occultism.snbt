@@ -2,26 +2,41 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "occultism"
-	group: ""
+	group: "5BC1E3118B4BBBD9"
 	icon: {
 		id: "occultism:vitality_compass"
 	}
 	id: "34B4F4D9D77AF9A6"
-	images: [ ]
-	order_index: 10
+	images: [{
+		height: 3.8d
+		id: "18E6D5E2C48A0903"
+		image: "neotechreborn:textures/quests/occultism_title.png"
+		rotation: 0.0d
+		width: 14.8d
+		x: 5.0d
+		y: -11.7d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			id: "4D6A2907407216EE"
-			rewards: [{
-				count: 8
-				id: "6D643AE32D0F50B0"
-				item: {
-					count: 1
-					id: "minecraft:bone_meal"
+			rewards: [
+				{
+					count: 8
+					id: "6D643AE32D0F50B0"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0A667CAA3329ACA2"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "25CB071E4A4E4C6E"
 				item: { count: 1, id: "occultism:datura_seeds" }
@@ -50,6 +65,11 @@
 						id: "occultism:demons_dream_essence"
 					}
 					type: "item"
+				}
+				{
+					id: "5E7CCB2DF18ECE86"
+					type: "xp"
+					xp: 24
 				}
 			]
 			tasks: [{
@@ -86,13 +106,9 @@
 					type: "item"
 				}
 				{
-					id: "12DE52EB185E791F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "00ED254E75E8BBF8"
+					type: "xp"
+					xp: 52
 				}
 			]
 			shape: "hexagon"
@@ -126,15 +142,22 @@
 		{
 			dependencies: ["7309FF5CF1382CC4"]
 			id: "32530CEA82AB0E41"
-			rewards: [{
-				count: 4
-				id: "416F129110799C1A"
-				item: {
-					count: 1
-					id: "occultism:spirit_attuned_gem"
+			rewards: [
+				{
+					count: 4
+					id: "416F129110799C1A"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_gem"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3BE2A09EF2B592DD"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "0349132C4D0C83F8"
 				item: { count: 1, id: "occultism:spirit_attuned_gem" }
@@ -146,15 +169,22 @@
 		{
 			dependencies: ["32530CEA82AB0E41"]
 			id: "0C723CB0ABBD7F44"
-			rewards: [{
-				count: 4
-				id: "4C8D2AB83832E6C2"
-				item: {
-					count: 1
-					id: "occultism:otherstone"
+			rewards: [
+				{
+					count: 4
+					id: "4C8D2AB83832E6C2"
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6FB3867E237A9AB6"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "62EB669468B535D2"
 				item: { count: 1, id: "occultism:divination_rod" }
@@ -166,11 +196,18 @@
 		{
 			dependencies: ["7309FF5CF1382CC4"]
 			id: "200715E62F6ACBCC"
-			rewards: [{
-				id: "3B01F4FBFC9D37D8"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3B01F4FBFC9D37D8"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3370C25DA62F6766"
+					type: "xp"
+					xp: 28
+				}
+			]
 			tasks: [{
 				id: "0009D17B1ACEF0C8"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(farmersdelight:tools/knives))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -182,15 +219,22 @@
 		{
 			dependencies: ["200715E62F6ACBCC"]
 			id: "6B3AA1C03FFF6612"
-			rewards: [{
-				count: 4
-				id: "0ABD121207ADA24C"
-				item: {
-					count: 1
-					id: "occultism:tallow"
+			rewards: [
+				{
+					count: 4
+					id: "0ABD121207ADA24C"
+					item: {
+						count: 1
+						id: "occultism:tallow"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5C3D18F560538A5F"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "633D161B024F6BF5"
 				item: { count: 1, id: "occultism:tallow" }
@@ -202,6 +246,11 @@
 		{
 			dependencies: ["7309FF5CF1382CC4"]
 			id: "41AC69B1AEB55A80"
+			rewards: [{
+				id: "63C34BF2EBE7803E"
+				type: "xp"
+				xp: 36
+			}]
 			tasks: [{
 				id: "14D094FC7F6E5C77"
 				item: { count: 1, id: "occultism:chalk_white_impure" }
@@ -217,13 +266,9 @@
 			}
 			id: "74C2921884820E96"
 			rewards: [{
-				id: "43FD8D1A4C592209"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 2
-				type: "item"
+				id: "7ACA68525F5CC00D"
+				type: "xp"
+				xp: 57
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -256,6 +301,11 @@
 		{
 			dependencies: ["200715E62F6ACBCC"]
 			id: "235CFE9AED85B1AB"
+			rewards: [{
+				id: "0A1FC6E98FF62FB5"
+				type: "xp"
+				xp: 32
+			}]
 			tasks: [{
 				id: "3CCAD6864BEC72E0"
 				item: { count: 1, id: "occultism:brush" }
@@ -280,13 +330,9 @@
 					type: "item"
 				}
 				{
-					id: "02329E5C1781D74C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "16E262FA63574B5A"
+					type: "xp"
+					xp: 40
 				}
 			]
 			tasks: [
@@ -347,13 +393,18 @@
 					type: "item"
 				}
 				{
-					id: "3E258E01D7EFFF9E"
+					id: "4B4DC65AC40B318C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "367FFF5D2A895903"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [
@@ -407,13 +458,18 @@
 					type: "item"
 				}
 				{
-					id: "2D2D72D3EA4E7659"
+					id: "4974519B4DA6705B"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "1BDB7FF74606DFB0"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [
@@ -471,13 +527,18 @@
 					type: "item"
 				}
 				{
-					id: "685BAFF5EC7530D8"
+					id: "06F8912A7B27DE4B"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "3363255B908F61FC"
+					type: "xp"
+					xp: 43
 				}
 			]
 			tasks: [
@@ -527,13 +588,9 @@
 					type: "item"
 				}
 				{
-					id: "352E6425C031D23B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "70051B58F8B4D5A5"
+					type: "xp"
+					xp: 31
 				}
 			]
 			tasks: [
@@ -582,13 +639,9 @@
 					type: "item"
 				}
 				{
-					id: "00174B8593596EA4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "21598E0C05BCE7DD"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [
@@ -627,6 +680,11 @@
 		}
 		{
 			id: "1971A73786AFF363"
+			rewards: [{
+				id: "29A667B94B295036"
+				type: "xp"
+				xp: 23
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_deer"
 				criterion: ""
@@ -641,6 +699,11 @@
 		}
 		{
 			id: "695C3AFD2AC5E607"
+			rewards: [{
+				id: "17F79E351C2C17A1"
+				type: "xp"
+				xp: 22
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_mummy"
 				criterion: ""
@@ -655,6 +718,11 @@
 		}
 		{
 			id: "1092136AE6A7B97E"
+			rewards: [{
+				id: "24EEEEABF2E69630"
+				type: "xp"
+				xp: 24
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_chimera"
 				criterion: ""
@@ -669,6 +737,11 @@
 		}
 		{
 			id: "454578CEB0618DFA"
+			rewards: [{
+				id: "06AF0867EC90BF8F"
+				type: "xp"
+				xp: 22
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_beaver"
 				criterion: ""
@@ -683,6 +756,11 @@
 		}
 		{
 			id: "2E211A404D8FB0F6"
+			rewards: [{
+				id: "255EE7FF8B91ABEB"
+				type: "xp"
+				xp: 24
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_greedy"
 				criterion: ""
@@ -697,6 +775,11 @@
 		}
 		{
 			id: "3DAB2EA1053E0DAA"
+			rewards: [{
+				id: "6C7349269C7C70EC"
+				type: "xp"
+				xp: 24
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_devil"
 				criterion: ""
@@ -711,6 +794,11 @@
 		}
 		{
 			id: "15BEF31B2D998B67"
+			rewards: [{
+				id: "118A8D094404277E"
+				type: "xp"
+				xp: 21
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_blacksmith"
 				criterion: ""
@@ -725,6 +813,11 @@
 		}
 		{
 			id: "3B77FE09990A44A5"
+			rewards: [{
+				id: "1DAAFB90098E540A"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_fairy"
 				criterion: ""
@@ -740,6 +833,11 @@
 		{
 			dependency_requirement: "one_started"
 			id: "520DC59E286485A5"
+			rewards: [{
+				id: "6588D30E4E837AF8"
+				type: "xp"
+				xp: 22
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_cthulhu"
 				criterion: ""
@@ -754,6 +852,11 @@
 		}
 		{
 			id: "53EC902D03A8B035"
+			rewards: [{
+				id: "71FFA04D183C4F43"
+				type: "xp"
+				xp: 24
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_beholder"
 				criterion: ""
@@ -768,6 +871,11 @@
 		}
 		{
 			id: "0A40A667BCA84840"
+			rewards: [{
+				id: "64BC4E08C30EA012"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_bat"
 				criterion: ""
@@ -782,6 +890,11 @@
 		}
 		{
 			id: "1095316AEE959DA6"
+			rewards: [{
+				id: "7A6B7E9FCB3D8FFE"
+				type: "xp"
+				xp: 24
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_guardian"
 				criterion: ""
@@ -796,6 +909,11 @@
 		}
 		{
 			id: "01E045927323FC31"
+			rewards: [{
+				id: "49CD471E94AA8866"
+				type: "xp"
+				xp: 22
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_dragon"
 				criterion: ""
@@ -810,6 +928,11 @@
 		}
 		{
 			id: "0017A61AF0AB3F9E"
+			rewards: [{
+				id: "48E91E07A3084C0A"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_headless"
 				criterion: ""
@@ -824,6 +947,11 @@
 		}
 		{
 			id: "508AEE688CA78966"
+			rewards: [{
+				id: "36CDC80F999596B2"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					advancement: "occultism:occultism/summon_demonic_wife"
@@ -849,14 +977,21 @@
 		}
 		{
 			id: "6D152CC9EE402249"
-			rewards: [{
-				id: "4502871BB7DDA898"
-				item: {
-					count: 1
-					id: "minecraft:comparator"
+			rewards: [
+				{
+					id: "4502871BB7DDA898"
+					item: {
+						count: 1
+						id: "minecraft:comparator"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "307C294320540764"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "386AA588F2A8820F"
 				item: { count: 1, id: "occultism:dimensional_mineshaft" }
@@ -868,14 +1003,21 @@
 		{
 			dependencies: ["6D152CC9EE402249"]
 			id: "49E6B0016D1E1DD1"
-			rewards: [{
-				id: "65E5A6799A1203C6"
-				item: {
-					count: 1
-					id: "occultism:iesnium_pickaxe"
+			rewards: [
+				{
+					id: "65E5A6799A1203C6"
+					item: {
+						count: 1
+						id: "occultism:iesnium_pickaxe"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7B8DFA16F21CEDC0"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "060A8D8E662222E7"
 				item: { count: 1, id: "occultism:miner_foliot_unspecialized" }
@@ -887,14 +1029,21 @@
 		{
 			dependencies: ["49E6B0016D1E1DD1"]
 			id: "454F456F34978425"
-			rewards: [{
-				id: "7D6E604009191387"
-				item: {
-					count: 1
-					id: "occultism:book_of_binding_djinni"
+			rewards: [
+				{
+					id: "7D6E604009191387"
+					item: {
+						count: 1
+						id: "occultism:book_of_binding_djinni"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2306FF80DFCE09B4"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "277EF3998EB7856B"
 				item: { count: 1, id: "occultism:miner_djinni_ores" }
@@ -906,17 +1055,24 @@
 		{
 			dependencies: ["454F456F34978425"]
 			id: "6D998327C7098C51"
-			rewards: [{
-				id: "7F579B61775D7FD2"
-				item: {
-					components: {
-						"occultism:spirit_name": "Zeddornzirne"
+			rewards: [
+				{
+					id: "7F579B61775D7FD2"
+					item: {
+						components: {
+							"occultism:spirit_name": "Zeddornzirne"
+						}
+						count: 1
+						id: "occultism:book_of_binding_bound_afrit"
 					}
-					count: 1
-					id: "occultism:book_of_binding_bound_afrit"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "14FCFCA6885C98F0"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "7BEF0DE81076CF45"
 				item: { count: 1, id: "occultism:miner_afrit_deeps" }
@@ -928,14 +1084,21 @@
 		{
 			dependencies: ["6D998327C7098C51"]
 			id: "5F1B37269D42EDF5"
-			rewards: [{
-				id: "612F342445EB4519"
-				item: {
-					count: 1
-					id: "occultism:book_of_binding_marid"
+			rewards: [
+				{
+					id: "612F342445EB4519"
+					item: {
+						count: 1
+						id: "occultism:book_of_binding_marid"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6DAD8293A9CF8262"
+					type: "xp"
+					xp: 28
+				}
+			]
 			tasks: [{
 				id: "59A28F06AFB04731"
 				item: { count: 1, id: "occultism:miner_marid_master" }
@@ -946,14 +1109,21 @@
 		}
 		{
 			id: "564E10E67012E447"
-			rewards: [{
-				id: "0883244300C0D868"
-				item: {
-					count: 1
-					id: "occultism:soul_gem"
+			rewards: [
+				{
+					id: "0883244300C0D868"
+					item: {
+						count: 1
+						id: "occultism:soul_gem"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2CD92C07E9D1FF80"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				id: "1915498CB8A15A0B"
 				item: { count: 1, id: "occultism:soul_gem" }
@@ -965,6 +1135,11 @@
 		{
 			dependencies: ["39594206DFA1F746"]
 			id: "0AE44306585B936A"
+			rewards: [{
+				id: "6B7BAB7E5D19AA0F"
+				type: "xp"
+				xp: 21
+			}]
 			tasks: [{
 				id: "6600CC6EB9A0D523"
 				item: { count: 1, id: "occultism:otherworld_goggles" }
@@ -976,6 +1151,11 @@
 		{
 			dependencies: ["564E10E67012E447"]
 			id: "23E98D096A1BFDC0"
+			rewards: [{
+				id: "0169BA3B38D25C54"
+				type: "xp"
+				xp: 18
+			}]
 			tasks: [{
 				id: "5F8CAC77DB822753"
 				item: { count: 1, id: "occultism:soul_shard" }
@@ -986,18 +1166,25 @@
 		}
 		{
 			id: "7C09410A1FD486BD"
-			rewards: [{
-				count: 3
-				id: "59173C990C4BF6AA"
-				item: {
-					components: {
-						"occultism:spirit_name": "Thrkyles"
+			rewards: [
+				{
+					count: 3
+					id: "59173C990C4BF6AA"
+					item: {
+						components: {
+							"occultism:spirit_name": "Thrkyles"
+						}
+						count: 1
+						id: "occultism:book_of_binding_bound_djinni"
 					}
-					count: 1
-					id: "occultism:book_of_binding_bound_djinni"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3F7D65CFA486FEE1"
+					type: "xp"
+					xp: 31
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1011,6 +1198,11 @@
 		{
 			dependencies: ["7C09410A1FD486BD"]
 			id: "3F1B5FD368DA75AF"
+			rewards: [{
+				id: "65D7F758EACD404F"
+				type: "xp"
+				xp: 13
+			}]
 			tasks: [
 				{
 					id: "4201C43A1AA51E70"
@@ -1029,14 +1221,21 @@
 		{
 			dependencies: ["7C09410A1FD486BD"]
 			id: "3215E5C6BAB9BA51"
-			rewards: [{
-				id: "13A02F9AB170DEC4"
-				item: {
-					count: 1
-					id: "minecraft:copper_block"
+			rewards: [
+				{
+					id: "13A02F9AB170DEC4"
+					item: {
+						count: 1
+						id: "minecraft:copper_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7C3B2383DF92C3B1"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "44BF72C8000F0618"
 				item: { count: 1, id: "occultism:storage_stabilizer_tier1" }
@@ -1048,14 +1247,21 @@
 		{
 			dependencies: ["7C09410A1FD486BD"]
 			id: "351240185EE70EA5"
-			rewards: [{
-				id: "5819602D0DFBC656"
-				item: {
-					count: 1
-					id: "modern_industrialization:silver_block"
+			rewards: [
+				{
+					id: "5819602D0DFBC656"
+					item: {
+						count: 1
+						id: "modern_industrialization:silver_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "604540CEB5E21A8F"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "2A055B936EC4E29F"
 				item: { count: 1, id: "occultism:storage_stabilizer_tier2" }
@@ -1067,14 +1273,21 @@
 		{
 			dependencies: ["7C09410A1FD486BD"]
 			id: "35D6F66E836AD148"
-			rewards: [{
-				id: "767D866E7C81E7B8"
-				item: {
-					count: 1
-					id: "minecraft:gold_block"
+			rewards: [
+				{
+					id: "767D866E7C81E7B8"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "37B4610E31A7E87D"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "4B5BA9BE4060848D"
 				item: { count: 1, id: "occultism:storage_stabilizer_tier3" }
@@ -1086,14 +1299,21 @@
 		{
 			dependencies: ["7C09410A1FD486BD"]
 			id: "6FD1D4CDDE2DFD69"
-			rewards: [{
-				id: "32BAFEAAA8A226C2"
-				item: {
-					count: 1
-					id: "occultism:iesnium_block"
+			rewards: [
+				{
+					id: "32BAFEAAA8A226C2"
+					item: {
+						count: 1
+						id: "occultism:iesnium_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3EA63FE957E6CC5B"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [{
 				id: "321BE20F55974A9D"
 				item: { count: 1, id: "occultism:storage_stabilizer_tier4" }
@@ -1134,13 +1354,9 @@
 					type: "item"
 				}
 				{
-					id: "65A5919D0FEC3971"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "2A0617B9163E7A46"
+					type: "xp"
+					xp: 45
 				}
 			]
 			shape: "hexagon"
@@ -1168,17 +1384,24 @@
 		{
 			dependencies: ["33E096F228450088"]
 			id: "38D9A7614CB6FBF0"
-			rewards: [{
-				id: "06F6CAB375D82DFE"
-				item: {
-					components: {
-						"occultism:spirit_name": "Styrmaracsyr"
+			rewards: [
+				{
+					id: "06F6CAB375D82DFE"
+					item: {
+						components: {
+							"occultism:spirit_name": "Styrmaracsyr"
+						}
+						count: 1
+						id: "occultism:book_of_binding_bound_foliot"
 					}
-					count: 1
-					id: "occultism:book_of_binding_bound_foliot"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1BF4FB0C2B934CA3"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "6F112613674EB32C"
 				item: { count: 1, id: "occultism:book_of_binding_foliot" }
@@ -1190,17 +1413,24 @@
 		{
 			dependencies: ["33E096F228450088"]
 			id: "78EE71687E06BB0D"
-			rewards: [{
-				id: "5A0640EE29220E43"
-				item: {
-					components: {
-						"occultism:spirit_name": "KliKli"
+			rewards: [
+				{
+					id: "5A0640EE29220E43"
+					item: {
+						components: {
+							"occultism:spirit_name": "KliKli"
+						}
+						count: 1
+						id: "occultism:book_of_binding_bound_djinni"
 					}
-					count: 1
-					id: "occultism:book_of_binding_bound_djinni"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4DFC8DD44D2225C4"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "6580596853F73060"
 				item: { count: 1, id: "occultism:book_of_binding_djinni" }
@@ -1212,17 +1442,24 @@
 		{
 			dependencies: ["33E096F228450088"]
 			id: "3EACD434A13F0A9C"
-			rewards: [{
-				id: "722EF90E66B853F5"
-				item: {
-					components: {
-						"occultism:spirit_name": "Firkylkyn"
+			rewards: [
+				{
+					id: "722EF90E66B853F5"
+					item: {
+						components: {
+							"occultism:spirit_name": "Firkylkyn"
+						}
+						count: 1
+						id: "occultism:book_of_binding_bound_afrit"
 					}
-					count: 1
-					id: "occultism:book_of_binding_bound_afrit"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "65E3648A2E818E53"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "4B06F4BFC8872539"
 				item: { count: 1, id: "occultism:book_of_binding_afrit" }
@@ -1234,17 +1471,24 @@
 		{
 			dependencies: ["33E096F228450088"]
 			id: "742522CCADD8D349"
-			rewards: [{
-				id: "52716A63AC0CD5F6"
-				item: {
-					components: {
-						"occultism:spirit_name": "Geirmeewyrm"
+			rewards: [
+				{
+					id: "52716A63AC0CD5F6"
+					item: {
+						components: {
+							"occultism:spirit_name": "Geirmeewyrm"
+						}
+						count: 1
+						id: "occultism:book_of_binding_bound_marid"
 					}
-					count: 1
-					id: "occultism:book_of_binding_bound_marid"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "54D95713D7A481E5"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "59D45CD75EBA4777"
 				item: { count: 1, id: "occultism:book_of_binding_marid" }
@@ -1255,6 +1499,11 @@
 		}
 		{
 			id: "3AB5DFC45E943980"
+			rewards: [{
+				id: "04D66E8F18308A86"
+				type: "xp"
+				xp: 22
+			}]
 			tasks: [{
 				advancement: "occultism:occultism/familiar_parrot"
 				criterion: ""
@@ -1270,15 +1519,22 @@
 		{
 			dependencies: ["14550A7149BBD5F7"]
 			id: "510764F4358838A6"
-			rewards: [{
-				count: 2
-				id: "3434D890DEFAFB2A"
-				item: {
-					count: 1
-					id: "occultism:iesnium_ingot"
+			rewards: [
+				{
+					count: 2
+					id: "3434D890DEFAFB2A"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "07FAA8A58F51A772"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [{
 				id: "7F624B3EA79DEDCC"
 				item: { count: 1, id: "occultism:iesnium_pickaxe" }
@@ -1289,15 +1545,22 @@
 		}
 		{
 			id: "1E3A2AFD59BBAED5"
-			rewards: [{
-				count: 2
-				id: "7308D85FEE1143EB"
-				item: {
-					count: 1
-					id: "occultism:spirit_attuned_gem"
+			rewards: [
+				{
+					count: 2
+					id: "7308D85FEE1143EB"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_gem"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1B8D75B8BFD16CF8"
+					type: "xp"
+					xp: 13
+				}
+			]
 			tasks: [{
 				id: "515564896BA29C46"
 				item: { count: 1, id: "occultism:infused_pickaxe" }
@@ -1309,14 +1572,21 @@
 		{
 			dependencies: ["1E3A2AFD59BBAED5"]
 			id: "14550A7149BBD5F7"
-			rewards: [{
-				id: "21E930487A6E8492"
-				item: {
-					count: 1
-					id: "occultism:iesnium_ingot"
+			rewards: [
+				{
+					id: "21E930487A6E8492"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "55A95D9BDC0DDE70"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "1808087EA8AC0DCA"
 				item: { count: 1, id: "occultism:iesnium_ingot" }
@@ -1328,14 +1598,21 @@
 		{
 			dependencies: ["5F1B37269D42EDF5"]
 			id: "53C705C777BF4E64"
-			rewards: [{
-				id: "74D058C515D6CCFB"
-				item: {
-					count: 1
-					id: "occultism:magic_lamp_empty"
+			rewards: [
+				{
+					id: "74D058C515D6CCFB"
+					item: {
+						count: 1
+						id: "occultism:magic_lamp_empty"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "18139226E501C46D"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "070D1CD6C74E0158"
 				item: { count: 1, id: "occultism:miner_ancient_eldritch" }
@@ -1346,6 +1623,11 @@
 		}
 		{
 			id: "1F4DB18F49025B83"
+			rewards: [{
+				id: "0E43C57AF30B5223"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "3EC89F25A7808DE4"
 				item: { count: 1, id: "occultism:familiar_ring" }
@@ -1357,6 +1639,11 @@
 		{
 			dependencies: ["41AC69B1AEB55A80"]
 			id: "20D9A6BE4049DE75"
+			rewards: [{
+				id: "22DCABE2B7C99443"
+				type: "xp"
+				xp: 33
+			}]
 			tasks: [{
 				id: "2420A3DCB934B1CE"
 				item: { count: 1, id: "occultism:chalk_yellow_impure" }
@@ -1368,6 +1655,11 @@
 		{
 			dependencies: ["41AC69B1AEB55A80"]
 			id: "7B18E086CE93DFC2"
+			rewards: [{
+				id: "2BF8A63D8C57F6B7"
+				type: "xp"
+				xp: 33
+			}]
 			tasks: [{
 				id: "637423130CAFAEF5"
 				item: { count: 1, id: "occultism:chalk_light_gray_impure" }
@@ -1379,6 +1671,11 @@
 		{
 			dependencies: ["20D9A6BE4049DE75"]
 			id: "065E318C78569F9D"
+			rewards: [{
+				id: "78DECDAB8F17C2B2"
+				type: "xp"
+				xp: 34
+			}]
 			tasks: [{
 				id: "75074180CC106132"
 				item: { count: 1, id: "occultism:chalk_purple_impure" }
@@ -1391,13 +1688,9 @@
 			dependencies: ["065E318C78569F9D"]
 			id: "2A78072DE4A7BC4E"
 			rewards: [{
-				id: "12BE62327B3E8E58"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "6DABCA7C99E1A806"
+				type: "xp"
+				xp: 43
 			}]
 			tasks: [{
 				id: "04C05269B9568D20"
@@ -1414,13 +1707,9 @@
 			]
 			id: "45410E3C4A9DF1C4"
 			rewards: [{
-				id: "6A125A16C2B88D9A"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "2ACD92E00F71889C"
+				type: "xp"
+				xp: 38
 			}]
 			tasks: [{
 				id: "37B8FAABC74142B8"
@@ -1434,13 +1723,9 @@
 			dependencies: ["2A78072DE4A7BC4E"]
 			id: "7E12929804B4E696"
 			rewards: [{
-				id: "73D28939C1877316"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "775FCC3816205126"
+				type: "xp"
+				xp: 42
 			}]
 			tasks: [{
 				id: "5F7AACD4E54EAE30"
@@ -1454,13 +1739,9 @@
 			dependencies: ["7E12929804B4E696"]
 			id: "05C116FCF3DE3E89"
 			rewards: [{
-				id: "59BA5BF606D79727"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "324B16BAADFE4757"
+				type: "xp"
+				xp: 50
 			}]
 			tasks: [{
 				id: "05C5CBFC01FEDBEB"
@@ -1477,13 +1758,9 @@
 			]
 			id: "15370113B5193049"
 			rewards: [{
-				id: "1EB53C6C0219EA46"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "7599ACF81FB61A1E"
+				type: "xp"
+				xp: 43
 			}]
 			tasks: [{
 				id: "571DD67A3DD33019"
@@ -1500,13 +1777,9 @@
 			]
 			id: "19098ED47E0DD410"
 			rewards: [{
-				id: "5551BEDD169216B3"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "24AF8442078E1E4E"
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				id: "4C8A4A312F5A87DA"

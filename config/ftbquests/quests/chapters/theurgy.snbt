@@ -2,13 +2,21 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "theurgy"
-	group: ""
+	group: "5BC1E3118B4BBBD9"
 	icon: {
 		id: "theurgy:liquefaction_cauldron"
 	}
 	id: "2143D2435BC071AF"
-	images: [ ]
-	order_index: 14
+	images: [{
+		height: 3.8d
+		id: "4B037E89623F5BE9"
+		image: "neotechreborn:textures/quests/theurgy_title.png"
+		rotation: 0.0d
+		width: 12.4d
+		x: 5.0d
+		y: -10.1d
+	}]
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,11 +25,18 @@
 				id: "theurgy:calcination_oven"
 			}
 			id: "533D9936392A7D45"
-			rewards: [{
-				id: "1F5F52CBD845B06D"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1F5F52CBD845B06D"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "700C1AC70409717C"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [
 				{
 					id: "0333C544E667BF6B"
@@ -43,11 +58,18 @@
 				id: "theurgy:liquefaction_cauldron"
 			}
 			id: "79E0A15A0FBCD2CC"
-			rewards: [{
-				id: "6A54A191FF0A2378"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6A54A191FF0A2378"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "1279F66A941ABA5F"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [{
 				id: "29BD479D1B327BD8"
 				item: { count: 1, id: "theurgy:liquefaction_cauldron" }
@@ -72,13 +94,9 @@
 					type: "random"
 				}
 				{
-					id: "20596801CC92D33D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "2998325DE32380FD"
+					type: "xp"
+					xp: 23
 				}
 			]
 			tasks: [
@@ -117,11 +135,18 @@
 				id: "theurgy:distiller"
 			}
 			id: "31A2BA9F565C32E3"
-			rewards: [{
-				id: "1500002136F49836"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1500002136F49836"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "594A0143D79B6027"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [
 				{
 					id: "181C844CE76189AB"
@@ -143,11 +168,18 @@
 				id: "theurgy:sal_ammoniac_accumulator"
 			}
 			id: "0E6A77563BFCDAB3"
-			rewards: [{
-				id: "2AB865F559ED26D9"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "2AB865F559ED26D9"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "71F294F3155A48C1"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [
 				{
 					id: "4814E0F336EB862C"
@@ -173,13 +205,9 @@
 					type: "random"
 				}
 				{
-					id: "19419883536E95DF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "658CC1B5D6158230"
+					type: "xp"
+					xp: 27
 				}
 			]
 			tasks: [
@@ -205,11 +233,18 @@
 		{
 			dependencies: ["344EBBBE464E0E8F"]
 			id: "503EAA79D946B3B9"
-			rewards: [{
-				id: "173E92504E4E2BDF"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "173E92504E4E2BDF"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3B184947790B3DEE"
+					type: "xp"
+					xp: 28
+				}
+			]
 			tasks: [{
 				id: "198ABC7456B155E0"
 				item: { count: 1, id: "theurgy:fermentation_vat" }
@@ -221,11 +256,18 @@
 		{
 			dependencies: ["6381EB59F371696B"]
 			id: "0D81F9CC548BA96F"
-			rewards: [{
-				id: "659E3411F766882A"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "659E3411F766882A"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "40A30F2E5D6A97EE"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "5948B0ED251F1C09"
 				item: { count: 1, id: "theurgy:digestion_vat" }
@@ -237,11 +279,18 @@
 		{
 			dependencies: ["31A2BA9F565C32E3"]
 			id: "249BA0F38C7AD688"
-			rewards: [{
-				id: "0B56816A2108965B"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "0B56816A2108965B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "63F967017FB8A636"
+					type: "xp"
+					xp: 28
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "0AC2512C9DF38193"
@@ -254,11 +303,18 @@
 		{
 			dependencies: ["32E47300F57547A6"]
 			id: "5F5503976BB2D2E1"
-			rewards: [{
-				id: "58E2A92C05E7F276"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "58E2A92C05E7F276"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "58F7F152D7E5A507"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "6E98459657EE958D"
 				item: { count: 1, id: "theurgy:caloric_flux_emitter" }
@@ -270,11 +326,18 @@
 		{
 			dependencies: ["32E47300F57547A6"]
 			id: "40057BD424CD6D99"
-			rewards: [{
-				id: "7D33A1D77E980C89"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7D33A1D77E980C89"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "41651FC5234B313A"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "7CEAA6E879F83775"
 				item: { count: 1, id: "theurgy:mercury_catalyst" }
@@ -293,13 +356,9 @@
 					type: "random"
 				}
 				{
-					id: "18B87D593D90FBAC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "6D75B6E73C32275C"
+					type: "xp"
+					xp: 43
 				}
 			]
 			shape: "hexagon"
@@ -315,11 +374,18 @@
 		{
 			dependencies: ["32E47300F57547A6"]
 			id: "60509B38B16DE593"
-			rewards: [{
-				id: "117E8A228F52CC9E"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "117E8A228F52CC9E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "24202B255BB52E5C"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [
 				{
 					id: "1A0E3AE8EAB887D8"
@@ -338,11 +404,18 @@
 		{
 			dependencies: ["32E47300F57547A6"]
 			id: "139F56D548244906"
-			rewards: [{
-				id: "4B0DDB5A9B95C9FD"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4B0DDB5A9B95C9FD"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "1F989E63A0076C9C"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "6A18DACA76BC3B07"
 				item: { count: 1, id: "theurgy:list_filter" }
@@ -354,11 +427,18 @@
 		{
 			dependencies: ["32E47300F57547A6"]
 			id: "6F68802E3CECA25D"
-			rewards: [{
-				id: "52910FAF29B45775"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "52910FAF29B45775"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "350521CEC1EE1AB4"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [
 				{
 					id: "2FC66E6149FFC838"
@@ -376,11 +456,18 @@
 		}
 		{
 			id: "3DD32E24F8A24FAD"
-			rewards: [{
-				id: "6F96EB4D424F428F"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6F96EB4D424F428F"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2DE6701B1B38D71A"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -393,11 +480,18 @@
 		}
 		{
 			id: "1AC26146E6B66060"
-			rewards: [{
-				id: "5CEF312098DEC9E5"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5CEF312098DEC9E5"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "14DC5B868FA1B32A"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "0A1D5D07C0488682"
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_abundant" }
@@ -408,11 +502,18 @@
 		}
 		{
 			id: "3ACF0EAC5C5CEAB0"
-			rewards: [{
-				id: "61B8373392772AD5"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "61B8373392772AD5"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "4697750E41E5FDB5"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "6D3FEDF3C8A044CC"
 				item: { count: 1, id: "theurgy:divination_rod_t1" }
@@ -427,11 +528,18 @@
 				"3ACF0EAC5C5CEAB0"
 			]
 			id: "7D9C263C62F23F27"
-			rewards: [{
-				id: "4E0AFA165F1D16BF"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4E0AFA165F1D16BF"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "05989F2C0B5BF049"
+					type: "xp"
+					xp: 24
+				}
+			]
 			tasks: [{
 				id: "34A96556213FA7B8"
 				item: { components: { "theurgy:divination_linked_block": "minecraft:budding_amethyst" }, count: 1, id: "theurgy:amethyst_divination_rod" }
@@ -443,11 +551,18 @@
 		{
 			dependencies: ["5FD928205FF68580"]
 			id: "3873C8BF436FA4DE"
-			rewards: [{
-				id: "22D110CCA37ECCF7"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "22D110CCA37ECCF7"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "58DB35468E1D0309"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "71AB7DB964D6C33A"
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_rare" }
@@ -459,11 +574,18 @@
 		{
 			dependencies: ["3873C8BF436FA4DE"]
 			id: "0670493BA51AD712"
-			rewards: [{
-				id: "00714591DBFC62E9"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "00714591DBFC62E9"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2FC19A42389F5368"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "543B0E4BA9A20298"
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_precious" }
@@ -475,11 +597,18 @@
 		{
 			dependencies: ["7D9C263C62F23F27"]
 			id: "3F0FBA9B295C00F7"
-			rewards: [{
-				id: "141935874000F374"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "141935874000F374"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2EB8EEE4EECEE3B1"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "12D06A595A16BCE5"
 				item: { count: 1, id: "theurgy:divination_rod_t2" }
@@ -491,11 +620,18 @@
 		{
 			dependencies: ["3F0FBA9B295C00F7"]
 			id: "1AFB83F956107321"
-			rewards: [{
-				id: "729E784D13DD8096"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "729E784D13DD8096"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "26DF6FE98D906F25"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "5FD4EC8C95BF35BB"
 				item: { count: 1, id: "theurgy:divination_rod_t3" }
@@ -507,11 +643,18 @@
 		{
 			dependencies: ["1AFB83F956107321"]
 			id: "027A197AF3241F85"
-			rewards: [{
-				id: "04AC00A4476C690A"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "04AC00A4476C690A"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "0902EEC66D041518"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "77CCFCF42618D414"
 				item: { count: 1, id: "theurgy:divination_rod_t4" }
@@ -523,11 +666,18 @@
 		{
 			dependencies: ["7D9C263C62F23F27"]
 			id: "5FD928205FF68580"
-			rewards: [{
-				id: "3FB5297A552B3624"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3FB5297A552B3624"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "1DE8453A70FB5B70"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5C54510972311049"
 				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_common" }
@@ -539,11 +689,18 @@
 		{
 			dependencies: ["0E6A77563BFCDAB3"]
 			id: "01E03C6ADEAAE17C"
-			rewards: [{
-				id: "2BB13A6312DE871A"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "2BB13A6312DE871A"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "76826E5E99EC1213"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "3E3BB4CE8BBEBA5F"
 				item: { count: 1, id: "theurgy:sal_ammoniac_bucket" }
@@ -565,13 +722,18 @@
 					type: "random"
 				}
 				{
-					id: "7846D917D293056A"
+					id: "709CA3C330C0D0C9"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "109EF0F49E4F7FD0"
+					type: "xp"
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -592,13 +754,9 @@
 					type: "random"
 				}
 				{
-					id: "256AE7DE1D74BD1C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "25050C0E8E22268B"
+					type: "xp"
+					xp: 28
 				}
 			]
 			tasks: [
@@ -641,13 +799,9 @@
 					type: "random"
 				}
 				{
-					id: "79FD547479EAA723"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "48B275F1F73ECBA7"
+					type: "xp"
+					xp: 32
 				}
 			]
 			tasks: [
@@ -710,13 +864,9 @@
 					type: "random"
 				}
 				{
-					id: "7FF61FF78ED2305D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4D7D6839D60D5464"
+					type: "xp"
+					xp: 27
 				}
 			]
 			tasks: [
@@ -774,13 +924,9 @@
 					type: "random"
 				}
 				{
-					id: "1E7093469C8052E3"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "32BE6DA00A79747D"
+					type: "xp"
+					xp: 32
 				}
 			]
 			tasks: [
@@ -818,13 +964,9 @@
 					type: "random"
 				}
 				{
-					id: "47276E48253D9E30"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "46549CA9298E18F9"
+					type: "xp"
+					xp: 46
 				}
 			]
 			shape: "hexagon"
@@ -840,11 +982,18 @@
 		{
 			dependencies: ["32E47300F57547A6"]
 			id: "08E13926AE218017"
-			rewards: [{
-				id: "3429ED10FB46F272"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3429ED10FB46F272"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3F8906D553DB9923"
+					type: "xp"
+					xp: 29
+				}
+			]
 			tasks: [{
 				id: "6DAA9C5564DC41B7"
 				item: { count: 1, id: "theurgy:sulfuric_flux_emitter" }
@@ -863,13 +1012,18 @@
 					type: "random"
 				}
 				{
-					id: "549F9954A1725102"
+					id: "7BDDE31B743D0681"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "4DD0D996561F8AAB"
+					type: "xp"
+					xp: 32
 				}
 			]
 			tasks: [{
@@ -883,11 +1037,18 @@
 		{
 			dependencies: ["533D9936392A7D45"]
 			id: "6381EB59F371696B"
-			rewards: [{
-				id: "7429E621E94BDC11"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7429E621E94BDC11"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "787F1939695D91EB"
+					type: "xp"
+					xp: 33
+				}
+			]
 			tasks: [
 				{
 					id: "4EC4A63A4A0F2C38"
@@ -916,11 +1077,18 @@
 		{
 			dependencies: ["0D81F9CC548BA96F"]
 			id: "3278039B863183CA"
-			rewards: [{
-				id: "2EF27BDD049E4881"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "2EF27BDD049E4881"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2A5B925BD9884BA9"
+					type: "xp"
+					xp: 24
+				}
+			]
 			tasks: [{
 				id: "60BD39A4FCC07CE8"
 				item: { count: 1, id: "theurgy:purified_gold" }

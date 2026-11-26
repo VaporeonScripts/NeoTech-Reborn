@@ -2,13 +2,21 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "productive_bees"
-	group: ""
+	group: "5C913BC4F177E1BC"
 	icon: {
 		id: "minecraft:honeycomb"
 	}
 	id: "5A488E43A653F20F"
-	images: [ ]
-	order_index: 12
+	images: [{
+		height: 3.52d
+		id: "1F3382A9F22E1D98"
+		image: "neotechreborn:textures/quests/productive_bees_title.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: -12.0d
+		y: -11.65d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -37,13 +45,9 @@
 					type: "item"
 				}
 				{
-					id: "6AA96A7FFE54A55C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "020F36FC981041A7"
+					type: "xp"
+					xp: 39
 				}
 			]
 			shape: "hexagon"
@@ -82,13 +86,9 @@
 					type: "item"
 				}
 				{
-					id: "1D90EC211EC0CDDC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4C8A52A0F7AABD37"
+					type: "xp"
+					xp: 44
 				}
 			]
 			shape: "hexagon"
@@ -127,6 +127,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2E3FAEF4648A5856"
+					type: "xp"
+					xp: 24
+				}
 			]
 			tasks: [{
 				id: "675A9DEC503B892E"
@@ -161,6 +166,11 @@
 						id: "minecraft:copper_ingot"
 					}
 					type: "item"
+				}
+				{
+					id: "530D2ABBE5F54937"
+					type: "xp"
+					xp: 27
 				}
 			]
 			tasks: [{
@@ -197,6 +207,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4DC09B3302063DE9"
+					type: "xp"
+					xp: 25
+				}
 			]
 			tasks: [{
 				id: "1F74C1BB5B0EF999"
@@ -232,6 +247,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "03FEEE3A1D8764A8"
+					type: "xp"
+					xp: 24
+				}
 			]
 			tasks: [{
 				id: "4D564EFAA4F9467B"
@@ -256,13 +276,9 @@
 					type: "item"
 				}
 				{
-					id: "074F37624F1043E9"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "71A13D50F7F0A3D3"
+					type: "xp"
+					xp: 28
 				}
 			]
 			tasks: [{
@@ -291,6 +307,11 @@
 					id: "58432A575FB9F7A4"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "698B78C91AE1EB5B"
+					type: "xp"
+					xp: 27
 				}
 			]
 			tasks: [{
@@ -321,13 +342,9 @@
 					type: "random"
 				}
 				{
-					id: "4F0F2F6A8769135D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "7FFEB9C5A94BFD09"
+					type: "xp"
+					xp: 38
 				}
 			]
 			tasks: [{
@@ -358,13 +375,9 @@
 					type: "random"
 				}
 				{
-					id: "0C6E4DA9CA859566"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4822FD6ECE55E8E8"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [{
@@ -395,13 +408,9 @@
 					type: "random"
 				}
 				{
-					id: "2684ACA7FE1A51EA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "38B59C11E3CE9F7F"
+					type: "xp"
+					xp: 39
 				}
 			]
 			tasks: [{
@@ -432,13 +441,9 @@
 					type: "random"
 				}
 				{
-					id: "255DE033D1FD9138"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "2AE26DCDC11C1662"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [{
@@ -469,13 +474,18 @@
 					type: "random"
 				}
 				{
-					id: "38452D5D1823FBF7"
+					id: "6EC5CA90C7865558"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "04A3EFB2F095CC4C"
+					type: "xp"
+					xp: 48
 				}
 			]
 			tasks: [{
@@ -501,13 +511,18 @@
 					type: "item"
 				}
 				{
-					id: "37B61E58C34624CA"
+					id: "65F468FDF69B8721"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "6F0E9EF7999530EC"
+					type: "xp"
+					xp: 40
 				}
 			]
 			tasks: [{
@@ -532,13 +547,9 @@
 					type: "item"
 				}
 				{
-					id: "6B1399DC37C20A28"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "2EDE62C031F194AD"
+					type: "xp"
+					xp: 41
 				}
 			]
 			tasks: [{
@@ -564,13 +575,9 @@
 					type: "item"
 				}
 				{
-					id: "2898EC2F6E603808"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "0FACEB3265B8074F"
+					type: "xp"
+					xp: 38
 				}
 			]
 			tasks: [{
@@ -596,13 +603,9 @@
 					type: "item"
 				}
 				{
-					id: "759927D21316364B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "511FAF9C23677505"
+					type: "xp"
+					xp: 34
 				}
 			]
 			tasks: [{
@@ -637,6 +640,11 @@
 						id: "minecraft:ender_pearl"
 					}
 					type: "item"
+				}
+				{
+					id: "125D4664EEEBFFF1"
+					type: "xp"
+					xp: 31
 				}
 			]
 			tasks: [{
@@ -673,6 +681,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "07E1607D6F79094C"
+					type: "xp"
+					xp: 23
+				}
 			]
 			tasks: [{
 				id: "3B4964D82970D834"
@@ -704,6 +717,11 @@
 						id: "minecraft:gunpowder"
 					}
 					type: "item"
+				}
+				{
+					id: "07B8516E863BF76F"
+					type: "xp"
+					xp: 14
 				}
 			]
 			tasks: [{
@@ -742,13 +760,9 @@
 					type: "item"
 				}
 				{
-					id: "2454BC580702037B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5B3424CE52A72A48"
+					type: "xp"
+					xp: 26
 				}
 			]
 			tasks: [{
@@ -785,6 +799,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6BE9BF2D755725FD"
+					type: "xp"
+					xp: 27
+				}
 			]
 			tasks: [{
 				id: "04F833E48C89EF88"
@@ -820,6 +839,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "686093D4948F8B7D"
+					type: "xp"
+					xp: 28
+				}
 			]
 			tasks: [{
 				id: "0A771B1609EFF327"
@@ -854,6 +878,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2F58A94FB270EC82"
+					type: "xp"
+					xp: 31
+				}
 			]
 			tasks: [{
 				id: "7F645AED58C6A726"
@@ -867,15 +896,22 @@
 		{
 			dependencies: ["77FDFD4FD5C46D39"]
 			id: "269349E72E941AEB"
-			rewards: [{
-				count: 32
-				id: "68A53D9E243AE29E"
-				item: {
-					count: 1
-					id: "minecraft:nether_brick"
+			rewards: [
+				{
+					count: 32
+					id: "68A53D9E243AE29E"
+					item: {
+						count: 1
+						id: "minecraft:nether_brick"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7C7C49226C429D57"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "5A615322A52B16C1"
 				item: { count: 1, id: "productivebees:nether_brick_nest" }
@@ -887,15 +923,22 @@
 		{
 			dependencies: ["77FDFD4FD5C46D39"]
 			id: "470B9BBE473E4872"
-			rewards: [{
-				count: 24
-				id: "5BAA6F91FDED9A8E"
-				item: {
-					count: 1
-					id: "minecraft:quartz"
+			rewards: [
+				{
+					count: 24
+					id: "5BAA6F91FDED9A8E"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "12DB7860397522CE"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "5391AC99A23BD676"
 				item: { count: 1, id: "productivebees:nether_quartz_nest" }
@@ -928,6 +971,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "78F3D9570E723C27"
+					type: "xp"
+					xp: 25
+				}
 			]
 			tasks: [{
 				id: "2EDE2AC0FE380111"
@@ -941,15 +989,22 @@
 		{
 			dependencies: ["77FDFD4FD5C46D39"]
 			id: "236E10245B6308B5"
-			rewards: [{
-				count: 2
-				id: "570782AE35942A75"
-				item: {
-					count: 1
-					id: "minecraft:slime_ball"
+			rewards: [
+				{
+					count: 2
+					id: "570782AE35942A75"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4C05215985E44603"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "30CCC7D8254DB122"
 				item: { count: 1, id: "productivebees:slimy_nest" }
@@ -986,13 +1041,9 @@
 					type: "item"
 				}
 				{
-					id: "288F1B426DD06785"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "55FB0254943C8755"
+					type: "xp"
+					xp: 38
 				}
 			]
 			tasks: [{
@@ -1032,13 +1083,18 @@
 					type: "item"
 				}
 				{
-					id: "56B44B1BE0CCE3CD"
+					id: "02C0942AA85EE329"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "11F00FF4DF9A2D13"
+					type: "xp"
+					xp: 48
 				}
 			]
 			shape: "hexagon"
@@ -1076,6 +1132,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "47155C8181C0B298"
+					type: "xp"
+					xp: 36
+				}
 			]
 			tasks: [{
 				id: "3067C19B0C34078C"
@@ -1109,6 +1170,11 @@
 						id: "minecraft:redstone_block"
 					}
 					type: "item"
+				}
+				{
+					id: "4E184AF1D2060ACE"
+					type: "xp"
+					xp: 29
 				}
 			]
 			tasks: [{
@@ -1146,6 +1212,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "247CA29C42015C67"
+					type: "xp"
+					xp: 30
+				}
 			]
 			tasks: [{
 				id: "441CD2028A57B719"
@@ -1178,6 +1249,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "52B7089939AAA48E"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				id: "262CED18DDFFD6E0"
@@ -1190,15 +1266,22 @@
 		{
 			dependencies: ["77FDFD4FD5C46D39"]
 			id: "49AD5BF5AA91F934"
-			rewards: [{
-				count: 32
-				id: "7A3F78688C38A031"
-				item: {
-					count: 1
-					id: "minecraft:end_stone"
+			rewards: [
+				{
+					count: 32
+					id: "7A3F78688C38A031"
+					item: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "43EE7D48DCE30848"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "4E69D05873EEA733"
 				item: { count: 1, id: "productivebees:end_stone_nest" }
@@ -1236,13 +1319,9 @@
 					type: "item"
 				}
 				{
-					id: "2619FA224A42594C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "38C2A86CCDAF8E53"
+					type: "xp"
+					xp: 34
 				}
 			]
 			tasks: [{
@@ -1279,13 +1358,9 @@
 					type: "item"
 				}
 				{
-					id: "27026AA2075A85B3"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "38623D55BDC30BE3"
+					type: "xp"
+					xp: 31
 				}
 			]
 			tasks: [{
@@ -1322,6 +1397,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "76E848A217525B6B"
+					type: "xp"
+					xp: 17
+				}
 			]
 			tasks: [{
 				id: "7E7E1B5DA3813A27"
@@ -1356,6 +1436,11 @@
 						id: "productivebees:wither_skull_chip"
 					}
 					type: "item"
+				}
+				{
+					id: "0BB45240257B297B"
+					type: "xp"
+					xp: 16
 				}
 			]
 			tasks: [{
@@ -1392,6 +1477,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "163E9D8F0A21ECA1"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				id: "3B29B2560A6F8898"
@@ -1427,13 +1517,9 @@
 					type: "item"
 				}
 				{
-					id: "53D44FC9B0C11829"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "6F342E91A6DBC5A5"
+					type: "xp"
+					xp: 37
 				}
 			]
 			tasks: [{
@@ -1469,6 +1555,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "104C06EA9B4A10CF"
+					type: "xp"
+					xp: 25
+				}
 			]
 			tasks: [{
 				id: "0C7F784C8A601A58"
@@ -1482,15 +1573,22 @@
 		{
 			dependencies: ["115B4B757C8A3E56"]
 			id: "3C4F9711592D2278"
-			rewards: [{
-				count: 2
-				id: "32CE7941640E0DE0"
-				item: {
-					count: 1
-					id: "productivelib:upgrade_base"
+			rewards: [
+				{
+					count: 2
+					id: "32CE7941640E0DE0"
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "14E8A5DF6152A653"
+					type: "xp"
+					xp: 37
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1522,6 +1620,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4778E619B45C7827"
+					type: "xp"
+					xp: 22
+				}
 			]
 			tasks: [{
 				id: "77D2A9471C9F1B47"
@@ -1551,6 +1654,11 @@
 						id: "minecraft:honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "0861809B59F5B52C"
+					type: "xp"
+					xp: 15
 				}
 			]
 			tasks: [{
@@ -1582,6 +1690,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2F460EFDCD6C33CD"
+					type: "xp"
+					xp: 17
+				}
 			]
 			tasks: [{
 				id: "29C9D259F2918758"
@@ -1611,6 +1724,11 @@
 						id: "minecraft:honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "629CEA17EE33503C"
+					type: "xp"
+					xp: 23
 				}
 			]
 			tasks: [{
@@ -1643,6 +1761,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "60A5B097C3B3A52F"
+					type: "xp"
+					xp: 15
+				}
 			]
 			tasks: [{
 				id: "04FFFCCA63EA0DCA"
@@ -1672,6 +1795,11 @@
 						id: "minecraft:honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "6977ECC41FD461E1"
+					type: "xp"
+					xp: 15
 				}
 			]
 			tasks: [{
@@ -1703,6 +1831,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4FB630B3AC5BF553"
+					type: "xp"
+					xp: 17
+				}
 			]
 			tasks: [{
 				id: "08938C01890E32A2"
@@ -1733,6 +1866,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2730EDC66E5ABAAF"
+					type: "xp"
+					xp: 15
+				}
 			]
 			tasks: [{
 				id: "26E9BC34E51C070C"
@@ -1744,15 +1882,22 @@
 		}
 		{
 			id: "115B4B757C8A3E56"
-			rewards: [{
-				count: 5
-				id: "2DFAB09CC9168526"
-				item: {
-					count: 1
-					id: "minecraft:honeycomb"
+			rewards: [
+				{
+					count: 5
+					id: "2DFAB09CC9168526"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "13621E576D3439EC"
+					type: "xp"
+					xp: 34
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1766,15 +1911,22 @@
 		{
 			dependencies: ["115B4B757C8A3E56"]
 			id: "77FDFD4FD5C46D39"
-			rewards: [{
-				count: 4
-				id: "20DF03A659244083"
-				item: {
-					count: 1
-					id: "productivebees:honey_treat"
+			rewards: [
+				{
+					count: 4
+					id: "20DF03A659244083"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "12B615DBA991854B"
+					type: "xp"
+					xp: 36
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -1788,15 +1940,22 @@
 		{
 			dependencies: ["77FDFD4FD5C46D39"]
 			id: "1B06483B9213DAE1"
-			rewards: [{
-				count: 16
-				id: "3F96B4D1992A10F1"
-				item: {
-					count: 1
-					id: "minecraft:obsidian"
+			rewards: [
+				{
+					count: 16
+					id: "3F96B4D1992A10F1"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "120D3D4C571D29BE"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "139C00344ABC1336"
 				item: { count: 1, id: "productivebees:obsidian_nest" }
@@ -1828,6 +1987,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1CAE53029DCD29AB"
+					type: "xp"
+					xp: 15
+				}
 			]
 			tasks: [{
 				id: "773F49C78FBAFBA5"
@@ -1841,15 +2005,22 @@
 		{
 			dependencies: ["25F29894B20B4F91"]
 			id: "76189167938C3130"
-			rewards: [{
-				count: 4
-				id: "03B926C311217A5F"
-				item: {
-					count: 1
-					id: "minecraft:honey_bottle"
+			rewards: [
+				{
+					count: 4
+					id: "03B926C311217A5F"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4682BAA174FB1593"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "740A081DC36E1350"
 				item: { count: 1, id: "productivebees:honey_generator" }
@@ -1861,14 +2032,21 @@
 		{
 			dependencies: ["43F8875D2E24DED9"]
 			id: "0126B80792E5B621"
-			rewards: [{
-				id: "3F83F14903025A0A"
-				item: {
-					count: 1
-					id: "productivebees:feeder"
+			rewards: [
+				{
+					id: "3F83F14903025A0A"
+					item: {
+						count: 1
+						id: "productivebees:feeder"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4B1E1C8A7CD490BB"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "3E28C83D5DF606C0"
 				item: { count: 1, id: "productivebees:catcher" }
@@ -1879,14 +2057,21 @@
 		}
 		{
 			id: "2ADBD3B1767199CE"
-			rewards: [{
-				id: "36853F44A0534D62"
-				item: {
-					count: 1
-					id: "minecraft:honeycomb"
+			rewards: [
+				{
+					id: "36853F44A0534D62"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "31C331352EC3A34E"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "5B658513DA59ABCA"
 				item: { count: 1, id: "productivebees:nest_locator" }
@@ -1898,15 +2083,22 @@
 		{
 			dependencies: ["115B4B757C8A3E56"]
 			id: "6E2020218315C399"
-			rewards: [{
-				count: 2
-				id: "27F1BA9AD02D3346"
-				item: {
-					count: 1
-					id: "minecraft:honey_bottle"
+			rewards: [
+				{
+					count: 2
+					id: "27F1BA9AD02D3346"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "77CA97E9CEF68175"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [{
 				id: "2D0F2C34236ECCDA"
 				item: { count: 1, id: "productivebees:centrifuge" }
@@ -1918,15 +2110,22 @@
 		{
 			dependencies: ["6E2020218315C399"]
 			id: "25F29894B20B4F91"
-			rewards: [{
-				count: 2
-				id: "4B47D0FD0B8B3342"
-				item: {
-					count: 1
-					id: "minecraft:honey_bottle"
+			rewards: [
+				{
+					count: 2
+					id: "4B47D0FD0B8B3342"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7C8D11B6CF58912A"
+					type: "xp"
+					xp: 24
+				}
+			]
 			tasks: [{
 				id: "3D95B06BFAD8E70A"
 				item: { count: 1, id: "productivebees:powered_centrifuge" }
@@ -1938,6 +2137,11 @@
 		{
 			dependencies: ["6E2020218315C399"]
 			id: "016B64D15DB848A4"
+			rewards: [{
+				id: "0F275B093D33BDAE"
+				type: "xp"
+				xp: 26
+			}]
 			tasks: [{
 				id: "2D8C538CD736802D"
 				item: { count: 1, id: "productivebees:bottler" }
@@ -1949,15 +2153,22 @@
 		{
 			dependencies: ["115B4B757C8A3E56"]
 			id: "7D80ADA71E6B6C65"
-			rewards: [{
-				count: 3
-				id: "3C3428CF7F74CEB2"
-				item: {
-					count: 1
-					id: "productivebees:honey_treat"
+			rewards: [
+				{
+					count: 3
+					id: "3C3428CF7F74CEB2"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5B3276FCB8266361"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "01FC63CBF1A9250D"
 				item: { count: 1, id: "productivebees:feeder" }
@@ -1969,14 +2180,21 @@
 		{
 			dependencies: ["0126B80792E5B621"]
 			id: "64730C62AE083D95"
-			rewards: [{
-				id: "239E587E863DC91E"
-				item: {
-					count: 1
-					id: "productivelib:upgrade_child"
+			rewards: [
+				{
+					id: "239E587E863DC91E"
+					item: {
+						count: 1
+						id: "productivelib:upgrade_child"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "23632C4696A23C68"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				id: "19F4D520D48929FC"
 				item: { count: 1, id: "productivebees:incubator" }
@@ -1988,6 +2206,11 @@
 		{
 			dependencies: ["016B64D15DB848A4"]
 			id: "2DB4A833BB76A0B8"
+			rewards: [{
+				id: "08762AD96215A7AD"
+				type: "xp"
+				xp: 21
+			}]
 			tasks: [{
 				id: "4B4215B1B26D84CA"
 				item: { count: 1, id: "productivebees:gene_indexer" }
@@ -1998,14 +2221,21 @@
 		}
 		{
 			id: "2D56054439A7F592"
-			rewards: [{
-				id: "24668F1DB215AE84"
-				item: {
-					count: 1
-					id: "minecraft:honey_bottle"
+			rewards: [
+				{
+					id: "24668F1DB215AE84"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2A5DB9FD65BDED5A"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				id: "07B0642C9A6E9106"
 				item: { count: 1, id: "minecraft:honey_bottle" }
@@ -2017,15 +2247,22 @@
 		{
 			dependencies: ["2D56054439A7F592"]
 			id: "43F8875D2E24DED9"
-			rewards: [{
-				count: 2
-				id: "5A6D172E1BA1E618"
-				item: {
-					count: 1
-					id: "productivebees:sturdy_bee_cage"
+			rewards: [
+				{
+					count: 2
+					id: "5A6D172E1BA1E618"
+					item: {
+						count: 1
+						id: "productivebees:sturdy_bee_cage"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3F6AA00DC697619B"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [{
 				id: "5307651763DE2BD8"
 				item: { count: 1, id: "productivebees:bee_cage" }
@@ -2036,15 +2273,22 @@
 		}
 		{
 			id: "1E2CCB2E0D3633D2"
-			rewards: [{
-				count: 8
-				id: "02E2C35B0855FCD1"
-				item: {
-					count: 1
-					id: "minecraft:grass_block"
+			rewards: [
+				{
+					count: 8
+					id: "02E2C35B0855FCD1"
+					item: {
+						count: 1
+						id: "minecraft:grass_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0DE447D2E8DCF5CF"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "31DB77E885C690C1"
 				item: { count: 1, id: "productivebees:bumble_bee_nest" }
@@ -2073,6 +2317,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6AC816228B104826"
+					type: "xp"
+					xp: 12
+				}
 			]
 			tasks: [{
 				id: "4F01D5686AD3F591"
@@ -2084,18 +2333,25 @@
 		}
 		{
 			id: "657A2F7D9D62CAB9"
-			rewards: [{
-				count: 2
-				id: "16488890984DBE23"
-				item: {
-					components: {
-						"productivebees:bee_type": "productivebees:salty"
+			rewards: [
+				{
+					count: 2
+					id: "16488890984DBE23"
+					item: {
+						components: {
+							"productivebees:bee_type": "productivebees:salty"
+						}
+						count: 1
+						id: "productivebees:configurable_honeycomb"
 					}
-					count: 1
-					id: "productivebees:configurable_honeycomb"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "55C7909222ACC365"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "06EC094E5667FCB5"
 				item: { components: { "productivebees:bee_type": "productivebees:salty" }, count: 1, id: "productivebees:configurable_honeycomb" }
@@ -2137,6 +2393,11 @@
 						id: "minecraft:prismarine_crystals"
 					}
 					type: "item"
+				}
+				{
+					id: "205DA5A5C863D98B"
+					type: "xp"
+					xp: 6
 				}
 			]
 			tasks: [{
@@ -2181,6 +2442,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "673514B2FFFDEE2D"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "45EDDEA94B6D6A6E"
@@ -2212,6 +2478,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "54FC5FDEF2CBF0E2"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "03BB895F901FE11A"
@@ -2224,6 +2495,11 @@
 		{
 			dependencies: ["43F8875D2E24DED9"]
 			id: "33FE4F12360F4227"
+			rewards: [{
+				id: "2E5EC65C64D78A51"
+				type: "xp"
+				xp: 17
+			}]
 			tasks: [{
 				id: "0C1DA135175B7E6D"
 				item: { count: 1, id: "productivebees:jar_oak" }
@@ -2257,6 +2533,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7AE392A21BEEAEC6"
+					type: "xp"
+					xp: 26
+				}
 			]
 			tasks: [{
 				id: "02465E2D355FCCDF"
@@ -2270,15 +2551,22 @@
 		{
 			dependencies: ["77FDFD4FD5C46D39"]
 			id: "6E6DE23E9CCF1E39"
-			rewards: [{
-				count: 16
-				id: "4CB01ECB3001DBB2"
-				item: {
-					count: 1
-					id: "minecraft:soul_sand"
+			rewards: [
+				{
+					count: 16
+					id: "4CB01ECB3001DBB2"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1939CEF176DC23FE"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "0D7D88F41884EECA"
 				item: { count: 1, id: "productivebees:soul_sand_nest" }
@@ -2314,6 +2602,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "40BE2FAFE1AD08FC"
+					type: "xp"
+					xp: 29
+				}
 			]
 			tasks: [{
 				id: "60005518EE897791"
@@ -2348,6 +2641,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5B3A774FD39FBDB1"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "1AE4F4135689E828"
@@ -2378,6 +2676,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7599FD2787176E86"
+					type: "xp"
+					xp: 7
+				}
 			]
 			tasks: [{
 				id: "13E751679C3E2772"
@@ -2407,13 +2710,18 @@
 					type: "random"
 				}
 				{
-					id: "2DDB8403477B1D4B"
+					id: "5303D1B60EA70300"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "3CD8ACAAE9043FCB"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [{
@@ -2439,13 +2747,18 @@
 					type: "item"
 				}
 				{
-					id: "7D2671B615EB29D8"
+					id: "786E0C03503FDCDA"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "4AABCBB424595935"
+					type: "xp"
+					xp: 43
 				}
 			]
 			tasks: [{
@@ -2459,15 +2772,22 @@
 		{
 			dependencies: ["25F29894B20B4F91"]
 			id: "1D12464C569BFCC2"
-			rewards: [{
-				count: 3
-				id: "58B4702E24BFD4CE"
-				item: {
-					count: 1
-					id: "minecraft:honeycomb"
+			rewards: [
+				{
+					count: 3
+					id: "58B4702E24BFD4CE"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "15C8526A3AFEE04F"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "62FF0B8A2EDCB1EE"
 				item: { count: 1, id: "productivebees:heated_centrifuge" }
@@ -2496,6 +2816,11 @@
 						id: "minecraft:honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "3D47F9B6A68E00F2"
+					type: "xp"
+					xp: 24
 				}
 			]
 			tasks: [{
@@ -2530,6 +2855,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "68089CF6C858AD7E"
+					type: "xp"
+					xp: 24
+				}
 			]
 			tasks: [{
 				id: "16DEBB3404B2292B"
@@ -2563,6 +2893,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0CB1BFC34802D8B9"
+					type: "xp"
+					xp: 23
+				}
 			]
 			tasks: [{
 				id: "4D71DA68E39A8516"
@@ -2593,6 +2928,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "169D342F62885AB3"
+					type: "xp"
+					xp: 18
+				}
 			]
 			tasks: [{
 				id: "3C4723AAE8F297AE"
@@ -2605,14 +2945,21 @@
 		{
 			dependencies: ["0B38D94672907F38"]
 			id: "5B81420F5B4091BA"
-			rewards: [{
-				id: "62D15ADE8879EB3A"
-				item: {
-					count: 1
-					id: "productivebees:amber"
+			rewards: [
+				{
+					id: "62D15ADE8879EB3A"
+					item: {
+						count: 1
+						id: "productivebees:amber"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7E3A00F9FE9B4CA2"
+					type: "xp"
+					xp: 24
+				}
+			]
 			tasks: [{
 				id: "214B3860B454C15B"
 				item: { count: 1, id: "productivebees:amber" }
@@ -2623,6 +2970,11 @@
 		}
 		{
 			id: "0B38D94672907F38"
+			rewards: [{
+				id: "6F0F8953616067BC"
+				type: "xp"
+				xp: 18
+			}]
 			tasks: [{
 				id: "31C60332366EFE2A"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:amber" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
@@ -2635,6 +2987,11 @@
 		{
 			dependencies: ["5B81420F5B4091BA"]
 			id: "48857E853D866C67"
+			rewards: [{
+				id: "243F5D8FD0664B62"
+				type: "xp"
+				xp: 17
+			}]
 			tasks: [{
 				id: "2BB783C38A65E38A"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:sussy" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
@@ -2647,6 +3004,11 @@
 		{
 			dependencies: ["5B81420F5B4091BA"]
 			id: "7E2522100BFBA8CB"
+			rewards: [{
+				id: "5E311F34A84ED297"
+				type: "xp"
+				xp: 17
+			}]
 			tasks: [{
 				id: "0FDCD6D4A7B9F05B"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:wanna" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
@@ -2681,6 +3043,11 @@
 						id: "mekanism:ingot_osmium"
 					}
 					type: "item"
+				}
+				{
+					id: "04DF1FB64CAE47AA"
+					type: "xp"
+					xp: 35
 				}
 			]
 			tasks: [{
@@ -2721,13 +3088,9 @@
 					type: "item"
 				}
 				{
-					id: "77B680E933E906FA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "166364812AD8A3AB"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -2764,13 +3127,9 @@
 					type: "item"
 				}
 				{
-					id: "5004FE50E1FC7306"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "61754929F0B96FBE"
+					type: "xp"
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -2806,13 +3165,9 @@
 					type: "item"
 				}
 				{
-					id: "0279334DE68F66AE"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "1B2E0D1A02C7AA33"
+					type: "xp"
+					xp: 29
 				}
 			]
 			tasks: [{
@@ -2846,6 +3201,11 @@
 						id: "justdirethings:ferricore_ingot"
 					}
 					type: "item"
+				}
+				{
+					id: "63575EEDFE9E3FC8"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -2881,13 +3241,9 @@
 					type: "item"
 				}
 				{
-					id: "4030C20A7F5B09D5"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "0983A8002702DD16"
+					type: "xp"
+					xp: 31
 				}
 			]
 			tasks: [{
@@ -2923,6 +3279,11 @@
 						id: "mysticalagriculture:soulium_dust"
 					}
 					type: "item"
+				}
+				{
+					id: "0F2F6772B382AA7C"
+					type: "xp"
+					xp: 20
 				}
 			]
 			tasks: [{
@@ -2962,6 +3323,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3538515B20185DCA"
+					type: "xp"
+					xp: 24
+				}
 			]
 			tasks: [{
 				id: "0A654FC2F1F0568F"
@@ -2998,6 +3364,11 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "0C61362806FA1E76"
+					type: "xp"
+					xp: 24
+				}
 			]
 			tasks: [{
 				id: "4E4D2E47B27582D5"
@@ -3033,6 +3404,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "550F3C2E01AC1E3C"
+					type: "xp"
+					xp: 23
+				}
 			]
 			tasks: [{
 				id: "3ACF047A9768068F"
@@ -3067,6 +3443,11 @@
 						id: "powah:uraninite"
 					}
 					type: "item"
+				}
+				{
+					id: "7BDD15A8F5DF35D3"
+					type: "xp"
+					xp: 21
 				}
 			]
 			tasks: [{
@@ -3104,13 +3485,9 @@
 					type: "item"
 				}
 				{
-					id: "0F91FA6079D6F68D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "24FD4F537376D4B6"
+					type: "xp"
+					xp: 28
 				}
 			]
 			tasks: [{
@@ -3146,6 +3523,11 @@
 						id: "ae2:fluix_crystal"
 					}
 					type: "item"
+				}
+				{
+					id: "557EF85E482D3AAB"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -3185,13 +3567,9 @@
 					type: "item"
 				}
 				{
-					id: "6CFBA6E5B0DF3614"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "1C6299947E83F053"
+					type: "xp"
+					xp: 29
 				}
 			]
 			tasks: [{
@@ -3206,18 +3584,25 @@
 		{
 			dependencies: ["19E8B2CABE3FAFF0"]
 			id: "0AB9F427B4CBC993"
-			rewards: [{
-				count: 2
-				id: "7F0583338F9DBED1"
-				item: {
-					components: {
-						"productivebees:bee_type": "productivebees:menril"
+			rewards: [
+				{
+					count: 2
+					id: "7F0583338F9DBED1"
+					item: {
+						components: {
+							"productivebees:bee_type": "productivebees:menril"
+						}
+						count: 1
+						id: "productivebees:configurable_honeycomb"
 					}
-					count: 1
-					id: "productivebees:configurable_honeycomb"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "563A34C03F54D6AA"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "137A5CE42D1415D8"
 				item: { components: { "productivebees:bee_type": "productivebees:menril" }, count: 1, id: "productivebees:configurable_honeycomb" }

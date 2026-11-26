@@ -2,22 +2,37 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "pneumaticcraft"
-	group: ""
+	group: "10788EC10FFABF2A"
 	icon: {
 		id: "pneumaticcraft:compressed_iron_gear"
 	}
 	id: "7DEB25F143D101CC"
-	images: [ ]
-	order_index: 20
+	images: [{
+		height: 5.0d
+		id: "377C53F746024F4D"
+		image: "neotechreborn:textures/quests/pneumaticcraft_title.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: -2.0d
+		y: -10.03d
+	}]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			id: "3E4A7158F4BBBFEB"
-			rewards: [{
-				id: "678C8FB101EAC37B"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "678C8FB101EAC37B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "6133EA03CB28F099"
+					type: "xp"
+					xp: 26
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -39,13 +54,9 @@
 					type: "random"
 				}
 				{
-					id: "4E216EA21888B674"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "19FD962C383F87F0"
+					type: "xp"
+					xp: 41
 				}
 			]
 			shape: "hexagon"
@@ -81,11 +92,18 @@
 		{
 			dependencies: ["2247E5459B5D4301"]
 			id: "55A7FB72B95316C1"
-			rewards: [{
-				id: "345BE39A03048463"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "345BE39A03048463"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "39ED9446DBCE42F6"
+					type: "xp"
+					xp: 27
+				}
+			]
 			tasks: [{
 				id: "5887CD3D60D956F5"
 				item: { count: 1, id: "pneumaticcraft:air_compressor" }
@@ -97,11 +115,18 @@
 		{
 			dependencies: ["3E4A7158F4BBBFEB"]
 			id: "2247E5459B5D4301"
-			rewards: [{
-				id: "7EF6345C16A1FB05"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7EF6345C16A1FB05"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "6397F144E7E146C6"
+					type: "xp"
+					xp: 35
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -115,11 +140,18 @@
 		{
 			dependencies: ["3E4A7158F4BBBFEB"]
 			id: "673526545A09C2CC"
-			rewards: [{
-				id: "110BED8BE17FB7A5"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "110BED8BE17FB7A5"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "4C02FD80D2E076EA"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				id: "4F1A39BA1261BA4C"
 				item: { count: 1, id: "pneumaticcraft:vortex_tube" }
@@ -138,13 +170,9 @@
 					type: "random"
 				}
 				{
-					id: "73E56F9FF49205E2"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "63A5EB050E31A0CD"
+					type: "xp"
+					xp: 51
 				}
 			]
 			shape: "hexagon"
@@ -185,13 +213,9 @@
 					type: "random"
 				}
 				{
-					id: "04B4A05E77F19783"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "647B3E2643C30E4B"
+					type: "xp"
+					xp: 39
 				}
 			]
 			tasks: [{
@@ -205,11 +229,18 @@
 		{
 			dependencies: ["528055FF0AF18D4E"]
 			id: "560B2C83B7DE350D"
-			rewards: [{
-				id: "480BF44C9868326E"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "480BF44C9868326E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3E184D2D593D3294"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "2FC0A093A46A06AD"
 				item: { count: 1, id: "pneumaticcraft:lpg_bucket" }
@@ -221,11 +252,18 @@
 		{
 			dependencies: ["528055FF0AF18D4E"]
 			id: "4E84C807543AFBA3"
-			rewards: [{
-				id: "39CE062D2CFEAF1F"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "39CE062D2CFEAF1F"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3FAFC8DCFAABA75B"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "36F5DC86432E86E3"
 				item: { count: 1, id: "pneumaticcraft:diesel_bucket" }
@@ -237,11 +275,18 @@
 		{
 			dependencies: ["528055FF0AF18D4E"]
 			id: "2D12317C92E58AEC"
-			rewards: [{
-				id: "52BB746B1663691F"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "52BB746B1663691F"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "10663AEDB966CBCC"
+					type: "xp"
+					xp: 31
+				}
+			]
 			tasks: [{
 				id: "4C811002CAC60C26"
 				item: { count: 1, id: "pneumaticcraft:kerosene_bucket" }
@@ -253,11 +298,18 @@
 		{
 			dependencies: ["528055FF0AF18D4E"]
 			id: "09101C58F5EA5242"
-			rewards: [{
-				id: "1B5CD40D2D44486D"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1B5CD40D2D44486D"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "57CFD332FF024E6F"
+					type: "xp"
+					xp: 31
+				}
+			]
 			tasks: [{
 				id: "745B3224B968BBB9"
 				item: { count: 1, id: "pneumaticcraft:gasoline_bucket" }
@@ -276,13 +328,9 @@
 					type: "random"
 				}
 				{
-					id: "767A39F322B5C204"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5D08958093675F9D"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [{
@@ -303,13 +351,9 @@
 					type: "random"
 				}
 				{
-					id: "3B14D9635E099385"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "751BA3254C01CF9A"
+					type: "xp"
+					xp: 40
 				}
 			]
 			tasks: [
@@ -337,13 +381,9 @@
 					type: "random"
 				}
 				{
-					id: "6FF61C1CF6315B57"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "2261E2D1CBFE480B"
+					type: "xp"
+					xp: 34
 				}
 			]
 			tasks: [{
@@ -364,13 +404,9 @@
 					type: "random"
 				}
 				{
-					id: "0D6E79F92EEE349A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "6E7C2163318F4A94"
+					type: "xp"
+					xp: 31
 				}
 			]
 			tasks: [{
@@ -391,13 +427,9 @@
 					type: "random"
 				}
 				{
-					id: "14DE744EC31BA792"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "1577D0E77A0C225A"
+					type: "xp"
+					xp: 55
 				}
 			]
 			shape: "hexagon"
@@ -413,11 +445,18 @@
 		{
 			dependencies: ["673526545A09C2CC"]
 			id: "2DAF9989EF84E6A5"
-			rewards: [{
-				id: "4E8BC4D89DF263AD"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4E8BC4D89DF263AD"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "127816CD439F8841"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "3F3F1F2D37F5635F"
 				item: { count: 1, id: "pneumaticcraft:small_tank" }
@@ -436,13 +475,9 @@
 					type: "random"
 				}
 				{
-					id: "479C0962EFA60E64"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "300B64F82597EF86"
+					type: "xp"
+					xp: 52
 				}
 			]
 			tasks: [{
@@ -466,13 +501,9 @@
 					type: "random"
 				}
 				{
-					id: "227903E5EA4F2F12"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "39C1822170F654B5"
+					type: "xp"
+					xp: 48
 				}
 			]
 			tasks: [{
@@ -486,11 +517,18 @@
 		{
 			dependencies: ["60B8E8055DEBAC2A"]
 			id: "576B2CCE6BAA4A0D"
-			rewards: [{
-				id: "6E1F7570D0932F19"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6E1F7570D0932F19"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "605EDB73E523226F"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "7569FAF4F330307A"
 				item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
@@ -502,11 +540,18 @@
 		{
 			dependencies: ["2247E5459B5D4301"]
 			id: "60B8E8055DEBAC2A"
-			rewards: [{
-				id: "403CA4BBAE70BA4D"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "403CA4BBAE70BA4D"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "291B3B974D3E8308"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [
 				{
 					id: "31CD8DE83CF96162"
@@ -525,11 +570,18 @@
 		{
 			dependencies: ["576B2CCE6BAA4A0D"]
 			id: "121FCAED80755032"
-			rewards: [{
-				id: "4FC9D5336C9C8762"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4FC9D5336C9C8762"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "37F73A71696A78B8"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [{
 				id: "1D901C08214A7FE7"
 				item: { count: 1, id: "pneumaticcraft:pcb_blueprint" }
@@ -548,13 +600,9 @@
 					type: "random"
 				}
 				{
-					id: "25F22B9AC168F5B1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "5A24D5110C89AD28"
+					type: "xp"
+					xp: 64
 				}
 			]
 			shape: "hexagon"
@@ -580,13 +628,9 @@
 					type: "random"
 				}
 				{
-					id: "7674DBECEC62DA5D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "00227A1451402AAE"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [{
@@ -607,13 +651,9 @@
 					type: "random"
 				}
 				{
-					id: "7C130AF51D5A8945"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5CB39267D8492ECA"
+					type: "xp"
+					xp: 52
 				}
 			]
 			tasks: [{
@@ -634,13 +674,9 @@
 					type: "random"
 				}
 				{
-					id: "2F265EC3B1EB9020"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "32021E356E969D22"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -661,13 +697,9 @@
 					type: "random"
 				}
 				{
-					id: "6B409792F662A1F5"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5DC374D30B1F94F0"
+					type: "xp"
+					xp: 51
 				}
 			]
 			tasks: [{
@@ -692,13 +724,18 @@
 					type: "random"
 				}
 				{
-					id: "20F7FDC6858B56B2"
+					id: "555A205B487A5906"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "51A99A4F362E6636"
+					type: "xp"
+					xp: 67
 				}
 			]
 			shape: "hexagon"
@@ -721,13 +758,18 @@
 					type: "random"
 				}
 				{
-					id: "1448B59403EC2B0B"
+					id: "19F610F7AC8F7385"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "4366C9FB829389AF"
+					type: "xp"
+					xp: 59
 				}
 			]
 			tasks: [
@@ -775,13 +817,9 @@
 					type: "random"
 				}
 				{
-					id: "227CAA974A4084F3"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "359621619611A05D"
+					type: "xp"
+					xp: 53
 				}
 			]
 			tasks: [{
@@ -802,13 +840,9 @@
 					type: "random"
 				}
 				{
-					id: "1C86FEB171269A2B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "55B36218EB1F6337"
+					type: "xp"
+					xp: 43
 				}
 			]
 			tasks: [{
@@ -822,11 +856,18 @@
 		{
 			dependencies: ["61EFF94B2CBDACCF"]
 			id: "23ADF75576C7CFEF"
-			rewards: [{
-				id: "50F690F3A4FA827E"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "50F690F3A4FA827E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "61F789DE2BB4E4E0"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "404E7F41613A1B66"
 				item: { count: 1, id: "pneumaticcraft:charging_station" }
@@ -838,11 +879,18 @@
 		{
 			dependencies: ["7A4B0862BC8E8B44"]
 			id: "458B3F19C9BBA511"
-			rewards: [{
-				id: "57967B7A967807F7"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "57967B7A967807F7"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "285A67A2DB84EE2E"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "767916338CC5C665"
 				item: { count: 1, id: "pneumaticcraft:safety_tube_module" }
@@ -854,11 +902,18 @@
 		{
 			dependencies: ["67CDDDAC88A5EB7F"]
 			id: "61EFF94B2CBDACCF"
-			rewards: [{
-				id: "6F4D87CC72CFD688"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6F4D87CC72CFD688"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "34760008722A71D8"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "19BC606CD539FAB8"
 				item: { count: 1, id: "pneumaticcraft:pneumatic_wrench" }
@@ -870,11 +925,18 @@
 		{
 			dependencies: ["3E4A7158F4BBBFEB"]
 			id: "67CDDDAC88A5EB7F"
-			rewards: [{
-				id: "3E594B3D1F7A50CB"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3E594B3D1F7A50CB"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "38646A0F746BFE2F"
+					type: "xp"
+					xp: 24
+				}
+			]
 			tasks: [{
 				id: "536B8C0887EAA992"
 				item: { count: 1, id: "pneumaticcraft:pressure_gauge" }
@@ -886,11 +948,18 @@
 		{
 			dependencies: ["67CDDDAC88A5EB7F"]
 			id: "7A4B0862BC8E8B44"
-			rewards: [{
-				id: "1DF3376CE46C4A92"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1DF3376CE46C4A92"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "16D1B45FF31A3E6C"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "68649A4CBC152001"
 				item: { count: 1, id: "pneumaticcraft:pressure_gauge_module" }
@@ -909,13 +978,18 @@
 					type: "random"
 				}
 				{
-					id: "2071E2CF69A6DE59"
+					id: "2796D6A35F72033F"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "5A9E9205684D0E16"
+					type: "xp"
+					xp: 66
 				}
 			]
 			shape: "hexagon"
@@ -931,11 +1005,18 @@
 		{
 			dependencies: ["55A7FB72B95316C1"]
 			id: "5095DD4AED24B2EE"
-			rewards: [{
-				id: "7EACBBBF5F7C1D3A"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7EACBBBF5F7C1D3A"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3F01463D70F62A06"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "68DA1C322103622B"
 				item: { count: 1, id: "pneumaticcraft:liquid_compressor" }
@@ -954,13 +1035,9 @@
 					type: "random"
 				}
 				{
-					id: "2B846218B966BB4D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "197B0A82FA729E21"
+					type: "xp"
+					xp: 44
 				}
 			]
 			tasks: [{
@@ -981,13 +1058,9 @@
 					type: "random"
 				}
 				{
-					id: "53205A5E2C7CC586"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "3AEAC0C212D5C007"
+					type: "xp"
+					xp: 45
 				}
 			]
 			tasks: [{
@@ -1008,13 +1081,9 @@
 					type: "random"
 				}
 				{
-					id: "4720428501B2DF48"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "55CA3D225DDA0F9A"
+					type: "xp"
+					xp: 43
 				}
 			]
 			tasks: [{
@@ -1035,13 +1104,9 @@
 					type: "random"
 				}
 				{
-					id: "73723187A87BFD5A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "2882C1CE25DF23D2"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [{
@@ -1055,11 +1120,18 @@
 		{
 			dependencies: ["5095DD4AED24B2EE"]
 			id: "1F12C2ADC89B8584"
-			rewards: [{
-				id: "1CBFCB87023C8269"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1CBFCB87023C8269"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "6A554F28C6A93403"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "412C34634325E59F"
 				item: { count: 1, id: "pneumaticcraft:thermal_compressor" }
@@ -1078,13 +1150,9 @@
 					type: "random"
 				}
 				{
-					id: "6022552EFCDC3115"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "49E8C27551EF1FE3"
+					type: "xp"
+					xp: 46
 				}
 			]
 			tasks: [{
@@ -1105,13 +1173,9 @@
 					type: "random"
 				}
 				{
-					id: "6DF5E4B57BC4FE06"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "31BE3ACBEE170812"
+					type: "xp"
+					xp: 43
 				}
 			]
 			tasks: [{
@@ -1132,13 +1196,9 @@
 					type: "random"
 				}
 				{
-					id: "17DBB5E0AE4BEE19"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "160AD980CD0F105D"
+					type: "xp"
+					xp: 52
 				}
 			]
 			tasks: [{
@@ -1152,11 +1212,18 @@
 		{
 			dependencies: ["241A984254DF5706"]
 			id: "00C0D036F47A20A3"
-			rewards: [{
-				id: "7734AE31760FAEDA"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7734AE31760FAEDA"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "06FEA331FACFA186"
+					type: "xp"
+					xp: 28
+				}
+			]
 			tasks: [{
 				id: "59A97065393D694F"
 				item: { count: 1, id: "pneumaticcraft:turbine_blade" }
@@ -1168,11 +1235,18 @@
 		{
 			dependencies: ["00C0D036F47A20A3"]
 			id: "1AD6C5BBBFFE103B"
-			rewards: [{
-				id: "7BE7C86EB624787B"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7BE7C86EB624787B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3CD28B68394D80D9"
+					type: "xp"
+					xp: 24
+				}
+			]
 			tasks: [{
 				id: "1C9CC51ABF303ABC"
 				item: { count: 1, id: "pneumaticcraft:turbine_rotor" }
@@ -1184,11 +1258,18 @@
 		{
 			dependencies: ["241A984254DF5706"]
 			id: "6080BB6D642F98D6"
-			rewards: [{
-				id: "4ACA0812E4B31D78"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4ACA0812E4B31D78"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2B6235780DAC95CA"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "2DA7163A9C1ACCF5"
 				item: { count: 1, id: "pneumaticcraft:solar_wafer" }
@@ -1207,13 +1288,9 @@
 					type: "random"
 				}
 				{
-					id: "673D6FD1B5C6F079"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "3C884AF4F9117256"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -1234,13 +1311,9 @@
 					type: "random"
 				}
 				{
-					id: "04254B08ABCEEFDA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "35D2395FC81CE73F"
+					type: "xp"
+					xp: 46
 				}
 			]
 			tasks: [{
@@ -1261,13 +1334,9 @@
 					type: "random"
 				}
 				{
-					id: "5A741701CB51BB6D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "77F86B956B54E43A"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -1288,13 +1357,9 @@
 					type: "random"
 				}
 				{
-					id: "6546D38307BA8FCF"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "74F2921EB3498215"
+					type: "xp"
+					xp: 46
 				}
 			]
 			tasks: [{
@@ -1315,13 +1380,9 @@
 					type: "random"
 				}
 				{
-					id: "5A1102CBB4093ED1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "41075EA6B079027E"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [{
@@ -1342,13 +1403,9 @@
 					type: "random"
 				}
 				{
-					id: "523CDF3C6F89685F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "06C1A5C8F090FC4F"
+					type: "xp"
+					xp: 53
 				}
 			]
 			tasks: [{
@@ -1369,13 +1426,9 @@
 					type: "random"
 				}
 				{
-					id: "1B0A59B662E681D8"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "295A13DC410D3E43"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [{
@@ -1389,11 +1442,18 @@
 		{
 			dependencies: ["2247E5459B5D4301"]
 			id: "434D23129E54AAB9"
-			rewards: [{
-				id: "2A2EBE0DD8045F58"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "2A2EBE0DD8045F58"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "18C3A6ED4F266624"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "0D885C676AED4CBB"
 				item: { count: 1, id: "pneumaticcraft:spawner_extractor" }
@@ -1405,11 +1465,18 @@
 		{
 			dependencies: ["2247E5459B5D4301"]
 			id: "302674153BDDF460"
-			rewards: [{
-				id: "54FFEAF82653D14B"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "54FFEAF82653D14B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "57B6635DCEA20C67"
+					type: "xp"
+					xp: 14
+				}
+			]
 			tasks: [{
 				id: "6324483D60E7439F"
 				item: { count: 1, id: "pneumaticcraft:spawner_core" }
@@ -1421,11 +1488,18 @@
 		{
 			dependencies: ["2247E5459B5D4301"]
 			id: "5CBBFAE060ECF746"
-			rewards: [{
-				id: "07687D6BCD2D1A40"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "07687D6BCD2D1A40"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3AB7AD1D242182D2"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [{
 				id: "52DED3ED9592D77F"
 				item: { count: 1, id: "pneumaticcraft:vacuum_pump" }
@@ -1437,11 +1511,18 @@
 		{
 			dependencies: ["2247E5459B5D4301"]
 			id: "3631E1EB82EA9014"
-			rewards: [{
-				id: "238C5A4F9ACF8879"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "238C5A4F9ACF8879"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7C72CC633C053A5A"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "1196AE23EA14F8CD"
 				item: { count: 1, id: "pneumaticcraft:vacuum_trap" }
@@ -1460,13 +1541,9 @@
 					type: "random"
 				}
 				{
-					id: "32A9CE24CD8E6249"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "3E67EF805DA6E20F"
+					type: "xp"
+					xp: 49
 				}
 			]
 			tasks: [
@@ -1502,13 +1579,9 @@
 					type: "random"
 				}
 				{
-					id: "0FCD561B21268AFA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "44EC3A4A7E19F37A"
+					type: "xp"
+					xp: 44
 				}
 			]
 			tasks: [{
@@ -1529,13 +1602,9 @@
 					type: "random"
 				}
 				{
-					id: "279A5C71EB99427D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5204B406B0DA6082"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -1556,13 +1625,9 @@
 					type: "random"
 				}
 				{
-					id: "0DB06754CFDECFDA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "63F0B2BD5376CF8F"
+					type: "xp"
+					xp: 53
 				}
 			]
 			tasks: [{
@@ -1583,13 +1648,9 @@
 					type: "random"
 				}
 				{
-					id: "2B7BA12DD58F3A5F"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "0B4D893D73D84E01"
+					type: "xp"
+					xp: 44
 				}
 			]
 			tasks: [{
@@ -1610,13 +1671,9 @@
 					type: "random"
 				}
 				{
-					id: "278E0336EB4B62B1"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "7F556B0D36B80EB8"
+					type: "xp"
+					xp: 46
 				}
 			]
 			tasks: [{
@@ -1637,13 +1694,9 @@
 					type: "random"
 				}
 				{
-					id: "5137121937E0D618"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "2DD1CB3EF0F35912"
+					type: "xp"
+					xp: 47
 				}
 			]
 			tasks: [{
@@ -1664,13 +1717,9 @@
 					type: "random"
 				}
 				{
-					id: "3B8ACB3297FDD07B"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "4CC80B2C6EA053A5"
+					type: "xp"
+					xp: 46
 				}
 			]
 			tasks: [{
@@ -1691,13 +1740,9 @@
 					type: "random"
 				}
 				{
-					id: "1F9AFE20E790BA78"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 2
-					type: "item"
+					id: "5FB5D13E5718D210"
+					type: "xp"
+					xp: 71
 				}
 			]
 			shape: "hexagon"
@@ -1720,13 +1765,9 @@
 					type: "random"
 				}
 				{
-					id: "22D3CE958B212DB7"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "651C25678D82B6C2"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [{
@@ -1747,13 +1788,9 @@
 					type: "random"
 				}
 				{
-					id: "3277692DAE73C418"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "03481BFD40E8867E"
+					type: "xp"
+					xp: 44
 				}
 			]
 			tasks: [{
@@ -1774,13 +1811,9 @@
 					type: "random"
 				}
 				{
-					id: "1061C2DB1AC5CF74"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "22D68B2BA440D1D6"
+					type: "xp"
+					xp: 31
 				}
 			]
 			tasks: [{
@@ -1794,11 +1827,18 @@
 		{
 			dependencies: ["2DAF9989EF84E6A5"]
 			id: "37C1777A017654F8"
-			rewards: [{
-				id: "04CF6C0545724FC1"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "04CF6C0545724FC1"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "5EAEC585348398C9"
+					type: "xp"
+					xp: 24
+				}
+			]
 			tasks: [{
 				id: "6C7B2357292533FB"
 				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
@@ -1817,13 +1857,18 @@
 					type: "random"
 				}
 				{
-					id: "6339AB8FAAE73CA6"
+					id: "68628E4E8C28A482"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "465EC309F037478B"
+					type: "xp"
+					xp: 49
 				}
 			]
 			tasks: [
@@ -1866,13 +1911,9 @@
 					type: "random"
 				}
 				{
-					id: "0EFC0419069C15EA"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "66644F4877AE4179"
+					type: "xp"
+					xp: 42
 				}
 			]
 			tasks: [{

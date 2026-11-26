@@ -2,17 +2,30 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cooking_for_blockheads"
-	group: ""
+	group: "5C913BC4F177E1BC"
 	icon: {
 		id: "cookingforblockheads:white_oven"
 	}
 	id: "02F58A9746B00BE8"
-	images: [ ]
-	order_index: 22
+	images: [{
+		height: 5.6d
+		id: "355392F602448F80"
+		image: "neotechreborn:textures/quests/cooking_for_blockheads_title.png"
+		rotation: 0.0d
+		width: 18.4d
+		x: 0.0d
+		y: -9.4d
+	}]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			id: "25B43F14C8AFB5BE"
+			rewards: [{
+				id: "784B3613F5B1D201"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "61988A20E62FC4F3"
 				item: { count: 1, id: "cookingforblockheads:recipe_book" }
@@ -24,14 +37,21 @@
 		{
 			dependencies: ["25B43F14C8AFB5BE"]
 			id: "44ADE9005757637C"
-			rewards: [{
-				id: "50D5DD73AF8B8EA7"
-				item: {
-					count: 1
-					id: "minecraft:cooked_porkchop"
+			rewards: [
+				{
+					id: "50D5DD73AF8B8EA7"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "50D26AC542BE5A74"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "04F91E0E41161A1D"
 				item: { count: 1, id: "cookingforblockheads:crafting_book" }
@@ -43,11 +63,18 @@
 		{
 			dependencies: ["44ADE9005757637C"]
 			id: "74922CD545618585"
-			rewards: [{
-				id: "4CAF6905FFA436E5"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4CAF6905FFA436E5"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "55F10AEE33AE62F2"
+					type: "xp"
+					xp: 39
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -61,15 +88,22 @@
 		{
 			dependencies: ["74922CD545618585"]
 			id: "53DC59B99AF4985C"
-			rewards: [{
-				count: 2
-				id: "14742A1A685BC390"
-				item: {
-					count: 1
-					id: "minecraft:ice"
+			rewards: [
+				{
+					count: 2
+					id: "14742A1A685BC390"
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0D1EF4EEA7E96626"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "3EC5A791CDAFF357"
@@ -82,14 +116,21 @@
 		{
 			dependencies: ["74922CD545618585"]
 			id: "5F8A91444A82D83D"
-			rewards: [{
-				id: "11BA8DBE9B74B8A5"
-				item: {
-					count: 1
-					id: "minecraft:water_bucket"
+			rewards: [
+				{
+					id: "11BA8DBE9B74B8A5"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "304AF812DF740F32"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "38C932D32FE99257"
 				item: { count: 1, id: "cookingforblockheads:sink" }
@@ -101,15 +142,22 @@
 		{
 			dependencies: ["74922CD545618585"]
 			id: "3EFF6E83AE509F6B"
-			rewards: [{
-				id: "31680217E04AD992"
-				item: {
-					count: 1
-					id: "cookingforblockheads:connector"
+			rewards: [
+				{
+					id: "31680217E04AD992"
+					item: {
+						count: 1
+						id: "cookingforblockheads:connector"
+					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "0EABE6A97FA3264E"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "615981D2CF4F5213"
@@ -122,15 +170,22 @@
 		{
 			dependencies: ["74922CD545618585"]
 			id: "7E5248111AE003B3"
-			rewards: [{
-				count: 2
-				id: "6594B720E501A3FC"
-				item: {
-					count: 1
-					id: "minecraft:cooked_porkchop"
+			rewards: [
+				{
+					count: 2
+					id: "6594B720E501A3FC"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0453880CF66BCB3D"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "783AC361C86448CA"
 				item: { count: 1, id: "cookingforblockheads:white_oven" }
@@ -156,6 +211,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "063BB7A3F3B8A304"
+					type: "xp"
+					xp: 18
+				}
 			]
 			tasks: [{
 				id: "5A198ABD9228A19B"
@@ -168,14 +228,21 @@
 		{
 			dependencies: ["74922CD545618585"]
 			id: "2B4B4235D47A4111"
-			rewards: [{
-				id: "501515B31006688E"
-				item: {
-					count: 1
-					id: "minecraft:bread"
+			rewards: [
+				{
+					id: "501515B31006688E"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1430022A95AF73B7"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "716A69A16B16A3A2"
 				item: { count: 1, id: "cookingforblockheads:toaster" }
@@ -187,15 +254,22 @@
 		{
 			dependencies: ["74922CD545618585"]
 			id: "2D899272A04E21C0"
-			rewards: [{
-				count: 2
-				id: "26330E8031A0814C"
-				item: {
-					count: 1
-					id: "minecraft:apple"
+			rewards: [
+				{
+					count: 2
+					id: "26330E8031A0814C"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "04419FA086B055D8"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [
 				{
 					id: "389ECBBD4B60B6E3"
@@ -213,15 +287,22 @@
 		}
 		{
 			id: "4A87B7CF8FFE9590"
-			rewards: [{
-				count: 2
-				id: "775DED293E18DA49"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
+			rewards: [
+				{
+					count: 2
+					id: "775DED293E18DA49"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "74C761A95C37DD96"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "7D487C4B65874200"
 				item: { count: 1, id: "farmingforblockheads:market" }
@@ -233,15 +314,22 @@
 		{
 			dependencies: ["4A87B7CF8FFE9590"]
 			id: "68F1C04B022F5BCA"
-			rewards: [{
-				count: 2
-				id: "54664F35593B13F3"
-				item: {
-					count: 1
-					id: "farmingforblockheads:green_fertilizer"
+			rewards: [
+				{
+					count: 2
+					id: "54664F35593B13F3"
+					item: {
+						count: 1
+						id: "farmingforblockheads:green_fertilizer"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6546DF543EFA45E6"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "54047817A716017E"
@@ -254,15 +342,22 @@
 		{
 			dependencies: ["4A87B7CF8FFE9590"]
 			id: "5A4A78398CB1737F"
-			rewards: [{
-				count: 2
-				id: "5A05FD3E2BCF9472"
-				item: {
-					count: 1
-					id: "farmingforblockheads:red_fertilizer"
+			rewards: [
+				{
+					count: 2
+					id: "5A05FD3E2BCF9472"
+					item: {
+						count: 1
+						id: "farmingforblockheads:red_fertilizer"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5C64B74286777343"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "74117D9691AA0511"

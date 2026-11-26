@@ -2,27 +2,42 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "starcatcher"
-	group: ""
+	group: "5C913BC4F177E1BC"
 	icon: {
 		id: "starcatcher:starcatcher_rod"
 	}
 	id: "542613A14F82C441"
-	images: [ ]
-	order_index: 24
+	images: [{
+		height: 3.8d
+		id: "53B9FAE4EDA6E9E4"
+		image: "neotechreborn:textures/quests/starcatcher_title.png"
+		rotation: 0.0d
+		width: 17.2d
+		x: -2.0d
+		y: -4.5d
+	}]
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7C27AA86443ED0F9"]
 			id: "421AFA4CE29C4436"
-			rewards: [{
-				count: 16
-				id: "52FD7A9D18829FDC"
-				item: {
-					count: 1
-					id: "aquaculture:box"
+			rewards: [
+				{
+					count: 16
+					id: "52FD7A9D18829FDC"
+					item: {
+						count: 1
+						id: "aquaculture:box"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7C7B303DAF758A51"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "5F6434568A73538F"
 				item: { count: 1, id: "starcatcher:starcatcher_guide" }
@@ -33,15 +48,22 @@
 		}
 		{
 			id: "7C27AA86443ED0F9"
-			rewards: [{
-				count: 16
-				id: "643DC9C59282C237"
-				item: {
-					count: 1
-					id: "aquaculture:box"
+			rewards: [
+				{
+					count: 16
+					id: "643DC9C59282C237"
+					item: {
+						count: 1
+						id: "aquaculture:box"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4D0D0E908EC6D826"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "09ECAA071216C084"
 				item: { count: 1, id: "starcatcher:starcatcher_rod" }
@@ -53,15 +75,22 @@
 		{
 			dependencies: ["421AFA4CE29C4436"]
 			id: "1AD5B0A568507993"
-			rewards: [{
-				count: 16
-				id: "6537A69E492ACAFD"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
+			rewards: [
+				{
+					count: 16
+					id: "6537A69E492ACAFD"
+					item: {
+						count: 1
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "58FA3DC8ED4167A6"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [
 				{
 					id: "70E618F480CEA234"
@@ -80,15 +109,22 @@
 		{
 			dependencies: ["7C27AA86443ED0F9"]
 			id: "0B49557F1950E99C"
-			rewards: [{
-				count: 16
-				id: "4AA4B5137EA3B53F"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
+			rewards: [
+				{
+					count: 16
+					id: "4AA4B5137EA3B53F"
+					item: {
+						count: 1
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6AC0D3DE7CE4A0D6"
+					type: "xp"
+					xp: 14
+				}
+			]
 			tasks: [{
 				id: "5F415663A2FF6191"
 				item: { components: { "ftbfiltersystem:filter": "or(item(starcatcher:cherry_bait)item(starcatcher:lush_bait)item(starcatcher:sculk_bait)item(starcatcher:dripstone_bait)item(starcatcher:murkwater_bait)item(starcatcher:legendary_bait)item(starcatcher:meteorological_bait))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -100,15 +136,22 @@
 		{
 			dependencies: ["421AFA4CE29C4436"]
 			id: "34F04E98312B4F33"
-			rewards: [{
-				count: 16
-				id: "5E3962026FAA8436"
-				item: {
-					count: 1
-					id: "aquaculture:lockbox"
+			rewards: [
+				{
+					count: 16
+					id: "5E3962026FAA8436"
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "299BC56660106033"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				id: "4A0A1B9B85C5668C"
 				item: { count: 1, id: "starcatcher:fish_radar" }
@@ -119,15 +162,22 @@
 		}
 		{
 			id: "2FB679F6448E58BB"
-			rewards: [{
-				count: 64
-				id: "073D408097BC4205"
-				item: {
-					count: 1
-					id: "aquaculture:box"
+			rewards: [
+				{
+					count: 64
+					id: "073D408097BC4205"
+					item: {
+						count: 1
+						id: "aquaculture:box"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "47691D551A0F37A0"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "6FE5B7A0CAFF99F2"
 				item: { count: 1, id: "starcatcher:trophy_copper" }
@@ -140,15 +190,22 @@
 		{
 			dependencies: ["2FB679F6448E58BB"]
 			id: "4D4B88AE8272D8F4"
-			rewards: [{
-				count: 64
-				id: "1AC87470CBAB0A4A"
-				item: {
-					count: 1
-					id: "aquaculture:lockbox"
+			rewards: [
+				{
+					count: 64
+					id: "1AC87470CBAB0A4A"
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4B1339A940E94DED"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "1479FBCA8429CAAF"
 				item: { count: 1, id: "starcatcher:trophy_iron" }
@@ -161,15 +218,22 @@
 		{
 			dependencies: ["4D4B88AE8272D8F4"]
 			id: "780EF8B9FD6437F4"
-			rewards: [{
-				count: 64
-				id: "73FF1490429F0C1A"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
+			rewards: [
+				{
+					count: 64
+					id: "73FF1490429F0C1A"
+					item: {
+						count: 1
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4F1BA4F4FACA2EE5"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "73D613A73850F524"
 				item: { count: 1, id: "starcatcher:trophy_gold" }
@@ -182,15 +246,22 @@
 		{
 			dependencies: ["780EF8B9FD6437F4"]
 			id: "22C064FC3CA2AA23"
-			rewards: [{
-				count: 64
-				id: "39FECF808D584855"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
+			rewards: [
+				{
+					count: 64
+					id: "39FECF808D584855"
+					item: {
+						count: 1
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5ACFD0F2690F660F"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "0D2FFCDE73E0E243"
 				item: { count: 1, id: "starcatcher:trophy_emerald" }
@@ -203,15 +274,22 @@
 		{
 			dependencies: ["22C064FC3CA2AA23"]
 			id: "1B26B5A7F0745D7E"
-			rewards: [{
-				count: 64
-				id: "4BCDBAA9A77FF5DE"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
+			rewards: [
+				{
+					count: 64
+					id: "4BCDBAA9A77FF5DE"
+					item: {
+						count: 1
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "362D6F6302E2A490"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [{
 				id: "6EF694A3D9B000F9"
 				item: { count: 1, id: "starcatcher:trophy_diamond" }
@@ -224,15 +302,22 @@
 		{
 			dependencies: ["1B26B5A7F0745D7E"]
 			id: "2B31535D5A9B99C8"
-			rewards: [{
-				count: 64
-				id: "63EEAF0E3E2E593F"
-				item: {
-					count: 1
-					id: "aquaculture:treasure_chest"
+			rewards: [
+				{
+					count: 64
+					id: "63EEAF0E3E2E593F"
+					item: {
+						count: 1
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4F6A2A80666C3CBE"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "14D62F3305D6B52F"
 				item: { count: 1, id: "starcatcher:trophy_of_the_older_angler" }

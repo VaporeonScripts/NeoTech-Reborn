@@ -2,26 +2,41 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aether"
-	group: ""
+	group: "49288E17E9D90688"
 	icon: {
 		id: "minecraft:glowstone"
 	}
 	id: "3FD2CE58197FEEC5"
-	images: [ ]
-	order_index: 2
+	images: [{
+		height: 3.8d
+		id: "4DCA36B8D755A729"
+		image: "neotechreborn:textures/quests/aether_title.png"
+		rotation: 0.0d
+		width: 15.6d
+		x: 0.0d
+		y: -5.3d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "6351CC7A32F8CD13"
-			rewards: [{
-				count: 4
-				id: "68E74946A779AA1C"
-				item: {
-					count: 1
-					id: "minecraft:glowstone"
+			rewards: [
+				{
+					count: 4
+					id: "68E74946A779AA1C"
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0C9F815301F83FFB"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				advancement: "aether:enter_aether"
 				criterion: ""
@@ -33,15 +48,22 @@
 		}
 		{
 			id: "3DBEC2403FEA3077"
-			rewards: [{
-				id: "083EF6D9D203B1C4"
-				item: {
-					count: 1
-					id: "aether:zanite_gemstone"
+			rewards: [
+				{
+					id: "083EF6D9D203B1C4"
+					item: {
+						count: 1
+						id: "aether:zanite_gemstone"
+					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "3889C453B2265850"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				advancement: "aether:zanite"
 				criterion: ""
@@ -53,14 +75,21 @@
 		}
 		{
 			id: "6114372D527B5903"
-			rewards: [{
-				id: "14234AD8060AD603"
-				item: {
-					count: 1
-					id: "minecraft:book"
+			rewards: [
+				{
+					id: "14234AD8060AD603"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "100F422D2E3D0B8C"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				advancement: "aether:read_lore"
 				criterion: ""
@@ -72,15 +101,22 @@
 		}
 		{
 			id: "6B87EFBA4CAD37D8"
-			rewards: [{
-				count: 3
-				id: "3AB6F0508562D90B"
-				item: {
-					count: 1
-					id: "minecraft:book"
+			rewards: [
+				{
+					count: 3
+					id: "3AB6F0508562D90B"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "51E43E9D3257A55B"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				advancement: "aether:loreception"
 				criterion: ""
@@ -92,15 +128,22 @@
 		}
 		{
 			id: "0E5FC8E3D917C59E"
-			rewards: [{
-				count: 6
-				id: "3A2E905F7C0CFFE4"
-				item: {
-					count: 1
-					id: "aether:holystone"
+			rewards: [
+				{
+					count: 6
+					id: "3A2E905F7C0CFFE4"
+					item: {
+						count: 1
+						id: "aether:holystone"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "05B7B6C2014E38E2"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "7E4611D01AB2B59E"
 				item: { count: 1, id: "aether:altar" }
@@ -111,16 +154,23 @@
 		}
 		{
 			id: "6FDB74D30B768032"
-			rewards: [{
-				count: 2
-				id: "69AFFC7BF1826067"
-				item: {
-					count: 1
-					id: "minecraft:ice"
+			rewards: [
+				{
+					count: 2
+					id: "69AFFC7BF1826067"
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "0A092437BA3B5722"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "5735348923DCA3E9"
 				item: { count: 1, id: "aether:icestone" }
@@ -156,6 +206,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "7AA5DC922A97F635"
+					type: "xp"
+					xp: 17
+				}
 			]
 			tasks: [{
 				advancement: "aether:ice_accessory"
@@ -183,6 +238,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "7C58603C2FEB2696"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				advancement: "aether:bronze_dungeon"
@@ -198,11 +258,18 @@
 				id: "aether:gravitite_chestplate"
 			}
 			id: "16A30377B0DB77A3"
-			rewards: [{
-				id: "539BB41D378D70C1"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "539BB41D378D70C1"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "40845E21E53015F6"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [
 				{
 					id: "67FB3271CD7923BB"
@@ -235,11 +302,18 @@
 		}
 		{
 			id: "25B9B8A5B2FCF4FC"
-			rewards: [{
-				id: "08CB280770D6FB6A"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "08CB280770D6FB6A"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "25190EDB7D1B8D34"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "180C5A1494BBBD0F"
 				item: { count: 1, id: "aether:hammer_of_kingbdogz" }
@@ -250,11 +324,18 @@
 		}
 		{
 			id: "52E582A995B952D6"
-			rewards: [{
-				id: "6CDA3CC02609C4F4"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6CDA3CC02609C4F4"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "0B668FDA8AAA36A0"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "656FEB756204B51C"
 				item: { count: 1, id: "aether:valkyrie_lance" }
@@ -279,6 +360,11 @@
 					id: "00821D74B7F7C046"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "215B28FF13B16DA3"
+					type: "xp"
+					xp: 20
 				}
 			]
 			tasks: [{
@@ -306,6 +392,11 @@
 					id: "296CC6E2EE63E9B7"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "1D276E266C7396B8"
+					type: "xp"
+					xp: 19
 				}
 			]
 			tasks: [{
@@ -338,6 +429,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0AEF9533A631BFAA"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "3446F90C4E1156D5"
@@ -362,6 +458,11 @@
 					id: "6574221FC84736EE"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "340296294F184A1D"
+					type: "xp"
+					xp: 18
 				}
 			]
 			tasks: [{
@@ -390,6 +491,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "5BC1C9DE5A313F98"
+					type: "xp"
+					xp: 17
+				}
 			]
 			tasks: [{
 				advancement: "aether:gold_dungeon"
@@ -416,6 +522,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "18076C2EC0FF06B4"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				advancement: "aether:valkyrie_hoe"
@@ -428,14 +539,21 @@
 		}
 		{
 			id: "3192E33EC2F3001B"
-			rewards: [{
-				id: "54E6B970A587B319"
-				item: {
-					count: 1
-					id: "comforts:sleeping_bag_orange"
+			rewards: [
+				{
+					id: "54E6B970A587B319"
+					item: {
+						count: 1
+						id: "comforts:sleeping_bag_orange"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "206B5B679F11693B"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				advancement: "aether:aether_sleep"
 				criterion: ""
@@ -475,6 +593,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "2965C28EB9EFB8AA"
+					type: "xp"
+					xp: 18
+				}
 			]
 			tasks: [{
 				advancement: "aether:phoenix_armor"
@@ -486,9 +609,63 @@
 			y: -0.8d
 		}
 		{
-			icon: {
-				id: "aether:obsidian_chestplate"
-			}
+			id: "133C331AA268B845"
+			optional: true
+			rewards: [{
+				id: "1DBBB0D5B47E37E6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "02D94F4495268F68"
+				item: { count: 1, id: "aether:obsidian_boots" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.3d
+		}
+		{
+			dependencies: ["133C331AA268B845"]
+			id: "23B151AB16FF6FD0"
+			optional: true
+			rewards: [{
+				id: "72C34EE15DE200CE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6374D0040CE5ACD3"
+				item: { count: 1, id: "aether:obsidian_chestplate" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.8d
+		}
+		{
+			dependencies: ["133C331AA268B845"]
+			id: "5FA04FD81B534CB4"
+			optional: true
+			rewards: [{
+				id: "230510ABB82DC6F8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "78D9B5B0FF344A74"
+				item: { count: 1, id: "aether:obsidian_leggings" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"23B151AB16FF6FD0"
+				"5FA04FD81B534CB4"
+			]
 			id: "4B415299FF7EA8B6"
 			optional: true
 			rewards: [
@@ -505,43 +682,39 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
-			]
-			tasks: [
 				{
-					id: "025398EC732411F5"
-					item: { count: 1, id: "aether:obsidian_helmet" }
-					type: "item"
-				}
-				{
-					id: "6374D0040CE5ACD3"
-					item: { count: 1, id: "aether:obsidian_chestplate" }
-					type: "item"
-				}
-				{
-					id: "78D9B5B0FF344A74"
-					item: { count: 1, id: "aether:obsidian_leggings" }
-					type: "item"
-				}
-				{
-					id: "02D94F4495268F68"
-					item: { count: 1, id: "aether:obsidian_boots" }
-					type: "item"
+					id: "15C60011307DCAED"
+					type: "xp"
+					xp: 16
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "025398EC732411F5"
+				item: { count: 1, id: "aether:obsidian_helmet" }
+				type: "item"
+			}]
 			x: 6.0d
-			y: -0.8d
+			y: -1.3d
 		}
 		{
 			id: "15D71004975A0E99"
-			rewards: [{
-				count: 3
-				id: "301B728ECC4BE892"
-				item: {
-					count: 1
-					id: "aether:blue_aercloud"
+			rewards: [
+				{
+					count: 3
+					id: "301B728ECC4BE892"
+					item: {
+						count: 1
+						id: "aether:blue_aercloud"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "25C0226F0C93693D"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				advancement: "aether:blue_aercloud"
 				criterion: ""
@@ -553,11 +726,18 @@
 		}
 		{
 			id: "31FC442BAEF7FE35"
-			rewards: [{
-				id: "16D2005FA13A4EC2"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "16D2005FA13A4EC2"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7E1A88EA1EF6D7F6"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				advancement: "aether:obtain_egg"
 				criterion: ""
@@ -569,34 +749,41 @@
 		}
 		{
 			id: "6BA4B719E5A64CAC"
-			rewards: [{
-				count: 16
-				id: "7D010FBC0F8DC91E"
-				item: {
-					components: {
-						"minecraft:fireworks": {
-							explosions: [
-								{
-									colors: [I;
-										16351261
-										13464641
-									]
-									fade_colors: [I;16383998]
-									has_trail: 1b
-									has_twinkle: 1b
-									shape: "small_ball"
-								}
-								{
-									shape: "star"
-								}
-							]
+			rewards: [
+				{
+					count: 16
+					id: "7D010FBC0F8DC91E"
+					item: {
+						components: {
+							"minecraft:fireworks": {
+								explosions: [
+									{
+										colors: [I;
+											16351261
+											13464641
+										]
+										fade_colors: [I;16383998]
+										has_trail: 1b
+										has_twinkle: 1b
+										shape: "small_ball"
+									}
+									{
+										shape: "star"
+									}
+								]
+							}
 						}
+						count: 1
+						id: "minecraft:firework_rocket"
 					}
-					count: 1
-					id: "minecraft:firework_rocket"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "616ACC54934DC6C6"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				advancement: "aether:mount_phyg"
 				criterion: ""
@@ -608,14 +795,21 @@
 		}
 		{
 			id: "546A74F503A75C96"
-			rewards: [{
-				id: "47A68B85F550A15D"
-				item: {
-					count: 1
-					id: "aether:aechor_petal"
+			rewards: [
+				{
+					id: "47A68B85F550A15D"
+					item: {
+						count: 1
+						id: "aether:aechor_petal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "28BE1B18442A4E9A"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "177B0596FE8425FA"
 				item: { count: 1, id: "aether:aechor_petal" }
@@ -641,6 +835,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "4021BF7D271FC147"
+					type: "xp"
+					xp: 16
+				}
 			]
 			tasks: [{
 				advancement: "aether:incubate_moa"
@@ -653,6 +852,11 @@
 		}
 		{
 			id: "72E0EC631DAC1513"
+			rewards: [{
+				id: "02371AF3AF9B6AAF"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				advancement: "aether:black_moa"
 				criterion: ""
@@ -680,6 +884,11 @@
 					id: "42F8A27D0B52E182"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "6811829DCD47E1F3"
+					type: "xp"
+					xp: 15
 				}
 			]
 			tasks: [
@@ -714,19 +923,26 @@
 		}
 		{
 			id: "0C7F75FA3DD3A2CD"
-			rewards: [{
-				id: "6975D819E1AA6921"
-				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:swiftness"
+			rewards: [
+				{
+					id: "6975D819E1AA6921"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:swiftness"
+							}
 						}
+						count: 1
+						id: "apotheosis:potion_charm"
 					}
-					count: 1
-					id: "apotheosis:potion_charm"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0B0563061114746C"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				advancement: "deep_aether:explore_aether"
 				criterion: ""
@@ -760,6 +976,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "2DF7B42162135FA4"
+					type: "xp"
+					xp: 21
+				}
 			]
 			tasks: [{
 				advancement: "deep_aether:aether_champion"
@@ -772,19 +993,26 @@
 		}
 		{
 			id: "7B91CDC8202CB41F"
-			rewards: [{
-				id: "24482409473BE54D"
-				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:poison"
+			rewards: [
+				{
+					id: "24482409473BE54D"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:poison"
+							}
 						}
+						count: 1
+						id: "minecraft:potion"
 					}
-					count: 1
-					id: "minecraft:potion"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3EF5D99D0261A822"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				advancement: "deep_aether:transform_poison"
 				criterion: ""
@@ -796,15 +1024,22 @@
 		}
 		{
 			id: "2226A5E598BA2684"
-			rewards: [{
-				count: 12
-				id: "256C48D528488C29"
-				item: {
-					count: 1
-					id: "minecraft:bone_meal"
+			rewards: [
+				{
+					count: 12
+					id: "256C48D528488C29"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "336BD74BB33506B4"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				advancement: "aether:prevent_aechor_petal_spawning"
 				criterion: ""
@@ -816,15 +1051,22 @@
 		}
 		{
 			id: "372F90BF0928F68D"
-			rewards: [{
-				count: 2
-				id: "68441067AA9B373A"
-				item: {
-					count: 1
-					id: "aether:swet_ball"
+			rewards: [
+				{
+					count: 2
+					id: "68441067AA9B373A"
+					item: {
+						count: 1
+						id: "aether:swet_ball"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "25D9AFEB6370F886"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				advancement: "aether:prevent_swet_spawning"
 				criterion: ""
@@ -836,14 +1078,21 @@
 		}
 		{
 			id: "7D5AB924D152BDB8"
-			rewards: [{
-				id: "49762EBCF88F6D19"
-				item: {
-					count: 1
-					id: "aether:gravitite_ore"
+			rewards: [
+				{
+					id: "49762EBCF88F6D19"
+					item: {
+						count: 1
+						id: "aether:gravitite_ore"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "06F273ED4D23C03C"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "1405777F56CF8DA5"
 				item: { count: 1, id: "aether:enchanted_gravitite" }
@@ -855,11 +1104,18 @@
 		{
 			hide_until_deps_complete: false
 			id: "14E0CD2112C11AE9"
-			rewards: [{
-				id: "1C762E944AA9D93D"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1C762E944AA9D93D"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "75943B915F89E695"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				advancement: "deep_aether:brass_dungeon"
 				criterion: ""

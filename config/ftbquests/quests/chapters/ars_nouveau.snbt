@@ -2,12 +2,20 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_nouveau"
-	group: ""
+	group: "5BC1E3118B4BBBD9"
 	icon: {
 		id: "ars_nouveau:magebloom"
 	}
 	id: "2EB9F6203D4EE929"
-	images: [ ]
+	images: [{
+		height: 3.8d
+		id: "6CC5E6FAED33E290"
+		image: "neotechreborn:textures/quests/ars_nouveau_title.png"
+		rotation: 0.0d
+		width: 16.8d
+		x: 0.0d
+		y: -22.1d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -33,6 +41,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4718F55A5A68028C"
+					type: "xp"
+					xp: 31
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -48,15 +61,22 @@
 			dependencies: ["365250D4F5B19F71"]
 			dependency_requirement: "one_completed"
 			id: "5C0234DC4B2D451C"
-			rewards: [{
-				count: 8
-				id: "02EABE13FB55B3CD"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem"
+			rewards: [
+				{
+					count: 8
+					id: "02EABE13FB55B3CD"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "185D14DC82D8C5F7"
+					type: "xp"
+					xp: 31
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -86,6 +106,11 @@
 						id: "minecraft:lapis_block"
 					}
 					type: "item"
+				}
+				{
+					id: "3F6B97E6507094DB"
+					type: "xp"
+					xp: 37
 				}
 			]
 			shape: "hexagon"
@@ -120,6 +145,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5CF66549EB96C7B9"
+					type: "xp"
+					xp: 35
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -134,15 +164,22 @@
 		{
 			dependencies: ["365250D4F5B19F71"]
 			id: "763D64561B2BA06B"
-			rewards: [{
-				count: 6
-				id: "047C49CC29FD4EC3"
-				item: {
-					count: 1
-					id: "minecraft:iron_ore"
+			rewards: [
+				{
+					count: 6
+					id: "047C49CC29FD4EC3"
+					item: {
+						count: 1
+						id: "minecraft:iron_ore"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7BDD1932C4C8F51A"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [
 				{
 					id: "2573C8B1ECE135BC"
@@ -170,14 +207,21 @@
 		}
 		{
 			id: "365250D4F5B19F71"
-			rewards: [{
-				id: "3275B79494ACDE30"
-				item: {
-					count: 1
-					id: "minecraft:book"
+			rewards: [
+				{
+					id: "3275B79494ACDE30"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "62DC3178FB5A284D"
+					type: "xp"
+					xp: 28
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -191,15 +235,22 @@
 		{
 			dependencies: ["5C0234DC4B2D451C"]
 			id: "6E1B7E482248CD70"
-			rewards: [{
-				count: 2
-				id: "16CAF7267CDE1AF1"
-				item: {
-					count: 1
-					id: "ars_nouveau:sourcestone"
+			rewards: [
+				{
+					count: 2
+					id: "16CAF7267CDE1AF1"
+					item: {
+						count: 1
+						id: "ars_nouveau:sourcestone"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "495E5690536C413F"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "3DD9D211FCB6CFDD"
@@ -229,6 +280,11 @@
 						id: "minecraft:gold_ingot"
 					}
 					type: "item"
+				}
+				{
+					id: "12EB45C7E5D2FCDD"
+					type: "xp"
+					xp: 20
 				}
 			]
 			tasks: [{
@@ -261,6 +317,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "73C5B338F3B7EDF0"
+					type: "xp"
+					xp: 14
+				}
 			]
 			tasks: [{
 				id: "23A5CC5BB28CDA7D"
@@ -273,14 +334,21 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "2F070A65778E6176"
-			rewards: [{
-				id: "6D83906F740F3FF9"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_crop"
+			rewards: [
+				{
+					id: "6D83906F740F3FF9"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_crop"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2E81AB18AA38F762"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "6C16A40AF6D3259E"
 				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
@@ -307,6 +375,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0FCEF2FE0C29A066"
+					type: "xp"
+					xp: 36
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -321,15 +394,22 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "4A9D28AA281FA6F5"
-			rewards: [{
-				count: 2
-				id: "3BF485437A61AC32"
-				item: {
-					count: 1
-					id: "minecraft:gold_ingot"
+			rewards: [
+				{
+					count: 2
+					id: "3BF485437A61AC32"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0AC0E7BC707BF35D"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [{
 				id: "52F419DB4580DAA6"
 				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
@@ -341,6 +421,11 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "46053853A84567F9"
+			rewards: [{
+				id: "5992ED4C65EDF9DA"
+				type: "xp"
+				xp: 43
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -368,6 +453,11 @@
 					id: "229AD425B5304E20"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "39C8AFAC1DD80FD7"
+					type: "xp"
+					xp: 41
 				}
 			]
 			shape: "hexagon"
@@ -402,6 +492,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "41076ED0D2AD6723"
+					type: "xp"
+					xp: 23
+				}
 			]
 			tasks: [{
 				id: "40C5273A5F241DC6"
@@ -433,6 +528,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "320D4CECCD507341"
+					type: "xp"
+					xp: 17
+				}
 			]
 			tasks: [{
 				id: "4BCB8D71C407406C"
@@ -463,6 +563,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7F383681EEBD1F9C"
+					type: "xp"
+					xp: 16
+				}
 			]
 			tasks: [{
 				id: "641A87785619F21B"
@@ -475,15 +580,22 @@
 		{
 			dependencies: ["0B4D39DF4C83CF3B"]
 			id: "642CC869E844C762"
-			rewards: [{
-				count: 5
-				id: "23D304F83CDAAFD8"
-				item: {
-					count: 1
-					id: "ars_nouveau:red_archwood_log"
+			rewards: [
+				{
+					count: 5
+					id: "23D304F83CDAAFD8"
+					item: {
+						count: 1
+						id: "ars_nouveau:red_archwood_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3DBFEAAFF52276C5"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "082EBC3750322A1B"
 				item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
@@ -495,15 +607,22 @@
 		{
 			dependencies: ["0B4D39DF4C83CF3B"]
 			id: "2F2B8F5566C164E7"
-			rewards: [{
-				count: 2
-				id: "34F1698D9FC26D73"
-				item: {
-					count: 1
-					id: "minecraft:cow_spawn_egg"
+			rewards: [
+				{
+					count: 2
+					id: "34F1698D9FC26D73"
+					item: {
+						count: 1
+						id: "minecraft:cow_spawn_egg"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "486C8D581010B546"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "15D50E9102131E45"
 				item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
@@ -515,15 +634,22 @@
 		{
 			dependencies: ["3570964B2399D29D"]
 			id: "307636D95097C040"
-			rewards: [{
-				count: 2
-				id: "2889A7086A85A5EF"
-				item: {
-					count: 1
-					id: "minecraft:chest"
+			rewards: [
+				{
+					count: 2
+					id: "2889A7086A85A5EF"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0A58E7D192A443A2"
+					type: "xp"
+					xp: 36
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -537,15 +663,22 @@
 		{
 			dependencies: ["307636D95097C040"]
 			id: "2EFB7C0BB0992BCF"
-			rewards: [{
-				count: 2
-				id: "51D0490F4393262E"
-				item: {
-					count: 1
-					id: "minecraft:hopper"
+			rewards: [
+				{
+					count: 2
+					id: "51D0490F4393262E"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "26E69FA2C583B34D"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				id: "5ADD027FB1315805"
 				item: { count: 1, id: "ars_nouveau:relay_collector" }
@@ -575,6 +708,11 @@
 						id: "minecraft:quartz"
 					}
 					type: "item"
+				}
+				{
+					id: "6BF27FA5D20749B5"
+					type: "xp"
+					xp: 15
 				}
 			]
 			tasks: [{
@@ -607,6 +745,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3422A4403DD612A7"
+					type: "xp"
+					xp: 19
+				}
 			]
 			tasks: [{
 				id: "686CAA8BC09A4C26"
@@ -637,6 +780,11 @@
 						id: "ars_nouveau:source_berry_roll"
 					}
 					type: "item"
+				}
+				{
+					id: "593C0B3049E7A8E1"
+					type: "xp"
+					xp: 17
 				}
 			]
 			tasks: [{
@@ -669,6 +817,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "02760F06A2DE23AC"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				id: "22552EB964B6021B"
@@ -700,6 +853,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "43F0A6B8C8BE04E1"
+					type: "xp"
+					xp: 40
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -730,13 +888,9 @@
 					type: "random"
 				}
 				{
-					id: "004F800B80289E32"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "49A264D229125CC3"
+					type: "xp"
+					xp: 43
 				}
 			]
 			shape: "hexagon"
@@ -771,13 +925,9 @@
 					type: "item"
 				}
 				{
-					id: "23D516DDD9E2EC8D"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "41C264CA7C7435D0"
+					type: "xp"
+					xp: 43
 				}
 			]
 			shape: "hexagon"
@@ -792,14 +942,21 @@
 		}
 		{
 			id: "4E72552F0B4702D2"
-			rewards: [{
-				id: "054B61353F3F3707"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
+			rewards: [
+				{
+					id: "054B61353F3F3707"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "22AA78A6E5267557"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [{
 				id: "5594BDD0ED97D666"
 				item: { count: 1, id: "ars_nouveau:wixie_shards" }
@@ -829,6 +986,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5807776F88A48BD3"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "50FD0AE33AE84435"
@@ -840,15 +1002,22 @@
 		}
 		{
 			id: "286803C3862A73DB"
-			rewards: [{
-				count: 9
-				id: "3919CB10B8F098B7"
-				item: {
-					count: 1
-					id: "minecraft:gold_nugget"
+			rewards: [
+				{
+					count: 9
+					id: "3919CB10B8F098B7"
+					item: {
+						count: 1
+						id: "minecraft:gold_nugget"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "06E21B51020F1831"
+					type: "xp"
+					xp: 14
+				}
+			]
 			tasks: [{
 				id: "381A5F8F15B7F6AE"
 				item: { count: 1, id: "ars_nouveau:starbuncle_shards" }
@@ -860,15 +1029,22 @@
 		{
 			dependencies: ["286803C3862A73DB"]
 			id: "3D629369D4381551"
-			rewards: [{
-				count: 2
-				id: "29B125B322375D32"
-				item: {
-					count: 1
-					id: "ars_nouveau:archwood_chest"
+			rewards: [
+				{
+					count: 2
+					id: "29B125B322375D32"
+					item: {
+						count: 1
+						id: "ars_nouveau:archwood_chest"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7808F13A3D6BBEC0"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "226E34AB4DAAFCD1"
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
@@ -896,6 +1072,11 @@
 						id: "minecraft:golden_carrot"
 					}
 					type: "item"
+				}
+				{
+					id: "0C0BC2FBD3F617E4"
+					type: "xp"
+					xp: 13
 				}
 			]
 			tasks: [{
@@ -928,6 +1109,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "03B64958DF78E226"
+					type: "xp"
+					xp: 12
+				}
 			]
 			tasks: [{
 				id: "5B2FEAAA0A10D948"
@@ -959,13 +1145,18 @@
 					type: "item"
 				}
 				{
-					id: "6AEF3748074206E2"
+					id: "62F4C74CADD27D9C"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "6A34FFE050C644A7"
+					type: "xp"
+					xp: 43
 				}
 			]
 			shape: "hexagon"
@@ -1000,13 +1191,18 @@
 					type: "item"
 				}
 				{
-					id: "3FA29D07F5097B4F"
+					id: "7E254343CC02738A"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "7864BCEECCFE573A"
+					type: "xp"
+					xp: 28
 				}
 			]
 			tasks: [{
@@ -1031,13 +1227,18 @@
 					type: "item"
 				}
 				{
-					id: "656EA0742C34BF1C"
+					id: "1F448DD86FB9FB7F"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "4BA73F8548239E4E"
+					type: "xp"
+					xp: 26
 				}
 			]
 			tasks: [{
@@ -1069,6 +1270,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "187287480A72C4FB"
+					type: "xp"
+					xp: 19
+				}
 			]
 			tasks: [{
 				id: "6E58A958FA1EAFAE"
@@ -1081,15 +1287,22 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "3AC95C4FF910D68A"
-			rewards: [{
-				count: 2
-				id: "12F5AD9902DA7E5D"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem_block"
+			rewards: [
+				{
+					count: 2
+					id: "12F5AD9902DA7E5D"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "349BB820CEBB72D0"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [{
 				id: "5B2DC1FA077E26D9"
 				item: { count: 1, id: "ars_nouveau:ritual_awakening" }
@@ -1120,13 +1333,18 @@
 					type: "item"
 				}
 				{
-					id: "187A3F9AD0380CFB"
+					id: "5CACDE04C1971634"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "017D401FFF6D9527"
+					type: "xp"
+					xp: 27
 				}
 			]
 			tasks: [{
@@ -1158,6 +1376,11 @@
 						id: "ars_nouveau:source_berry_pie"
 					}
 					type: "item"
+				}
+				{
+					id: "38A7071E2C8733B1"
+					type: "xp"
+					xp: 19
 				}
 			]
 			tasks: [{
@@ -1191,13 +1414,9 @@
 					type: "item"
 				}
 				{
-					id: "7FB57C5781DF6383"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "75611621715BE509"
+					type: "xp"
+					xp: 42
 				}
 			]
 			shape: "hexagon"
@@ -1231,6 +1450,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "71E0531FAD7EEAD8"
+					type: "xp"
+					xp: 19
+				}
 			]
 			tasks: [{
 				id: "54B671B598DF9F2A"
@@ -1243,6 +1467,11 @@
 		{
 			dependencies: ["4A23C16B3418A2C5"]
 			id: "603A53222BA33D67"
+			rewards: [{
+				id: "323E7E9D26A8E2C6"
+				type: "xp"
+				xp: 17
+			}]
 			tasks: [{
 				id: "02738ABE320E9208"
 				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
@@ -1254,15 +1483,22 @@
 		{
 			dependencies: ["2F02E4C86BE994F2"]
 			id: "0809BCE3D2AB5D67"
-			rewards: [{
-				count: 4
-				id: "7D75C3C53EE8D979"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_fiber"
+			rewards: [
+				{
+					count: 4
+					id: "7D75C3C53EE8D979"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6DDB5EF11A4D1E81"
+					type: "xp"
+					xp: 27
+				}
+			]
 			tasks: [{
 				id: "422BEE9E3B852844"
 				item: { count: 1, id: "ars_nouveau:allow_scroll" }
@@ -1274,15 +1510,22 @@
 		{
 			dependencies: ["2F02E4C86BE994F2"]
 			id: "6F67CAC027801375"
-			rewards: [{
-				count: 4
-				id: "518F0CDA8010FB58"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_fiber"
+			rewards: [
+				{
+					count: 4
+					id: "518F0CDA8010FB58"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "405A36981B1D8F97"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "7472284B28DA675B"
 				item: { count: 1, id: "ars_nouveau:deny_scroll" }
@@ -1313,6 +1556,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "475A7A71DCE72D84"
+					type: "xp"
+					xp: 21
+				}
 			]
 			tasks: [{
 				id: "68122C52B2CA20FC"
@@ -1342,6 +1590,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6E9993B5727FFEC9"
+					type: "xp"
+					xp: 16
+				}
 			]
 			tasks: [{
 				id: "4AB706280CD6C6C2"
@@ -1354,14 +1607,21 @@
 		{
 			dependencies: ["5C2CC9D34865D3EE"]
 			id: "36C2663C56364BE9"
-			rewards: [{
-				id: "02D04D07178177FC"
-				item: {
-					count: 1
-					id: "minecraft:potion"
+			rewards: [
+				{
+					id: "02D04D07178177FC"
+					item: {
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6E3594B3ADB3B20C"
+					type: "xp"
+					xp: 14
+				}
+			]
 			tasks: [{
 				id: "5480EABAABF2E752"
 				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
@@ -1389,6 +1649,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "18E931F8EE90B03C"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "428C1650D41FE385"
@@ -1400,6 +1665,11 @@
 		}
 		{
 			id: "7F17DEB90BDCB5D3"
+			rewards: [{
+				id: "213FD03EEB689B2F"
+				type: "xp"
+				xp: 12
+			}]
 			tasks: [{
 				id: "3D9169C1DCDD2EB9"
 				item: { count: 1, id: "ars_nouveau:glyph_self" }
@@ -1410,14 +1680,21 @@
 		}
 		{
 			id: "3FFCACDBC7FDA173"
-			rewards: [{
-				id: "10AAA37C85BC7691"
-				item: {
-					count: 1
-					id: "minecraft:stone_pressure_plate"
+			rewards: [
+				{
+					id: "10AAA37C85BC7691"
+					item: {
+						count: 1
+						id: "minecraft:stone_pressure_plate"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "189312891AFE21E6"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "78BA7433F164AD06"
 				item: { count: 1, id: "ars_nouveau:glyph_touch" }
@@ -1428,15 +1705,22 @@
 		}
 		{
 			id: "024A43414233EB55"
-			rewards: [{
-				count: 4
-				id: "3F53356C1059179F"
-				item: {
-					count: 1
-					id: "minecraft:cooked_cod"
+			rewards: [
+				{
+					count: 4
+					id: "3F53356C1059179F"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "65986B50AF12E239"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "75F21ECFFA354208"
 				item: { count: 1, id: "ars_nouveau:glyph_underfoot" }
@@ -1447,15 +1731,22 @@
 		}
 		{
 			id: "58F4FA7E46B1F9D2"
-			rewards: [{
-				count: 2
-				id: "065F5F42F7A493FA"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
+			rewards: [
+				{
+					count: 2
+					id: "065F5F42F7A493FA"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "40477BC0559CADC2"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "786E827F4196FB30"
 				item: { count: 1, id: "ars_nouveau:glyph_bounce" }
@@ -1466,15 +1757,22 @@
 		}
 		{
 			id: "1666AFB812FCCE59"
-			rewards: [{
-				count: 4
-				id: "54E9DE29A5E3DF0A"
-				item: {
-					count: 1
-					id: "minecraft:glass"
+			rewards: [
+				{
+					count: 4
+					id: "54E9DE29A5E3DF0A"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7F493F7E7EB4DC72"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "66ED016C2CB49C7F"
 				item: { count: 1, id: "ars_nouveau:glyph_break" }
@@ -1485,15 +1783,22 @@
 		}
 		{
 			id: "01BD8DF9B938ECA4"
-			rewards: [{
-				count: 8
-				id: "1D60EEA8CE4E1B01"
-				item: {
-					count: 1
-					id: "minecraft:torch"
+			rewards: [
+				{
+					count: 8
+					id: "1D60EEA8CE4E1B01"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5F9A41B75B618D1C"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "1B6F62DA85F13B58"
 				item: { count: 1, id: "ars_nouveau:glyph_phantom_block" }
@@ -1504,15 +1809,22 @@
 		}
 		{
 			id: "0A02669DEC32DB3B"
-			rewards: [{
-				count: 8
-				id: "3B92D3B462229E15"
-				item: {
-					count: 1
-					id: "minecraft:dirt"
+			rewards: [
+				{
+					count: 8
+					id: "3B92D3B462229E15"
+					item: {
+						count: 1
+						id: "minecraft:dirt"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "73582ACF6F7928D6"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "47F2CD8B5F67A20D"
 				item: { count: 1, id: "ars_nouveau:glyph_light" }
@@ -1523,15 +1835,22 @@
 		}
 		{
 			id: "74887E460F06E36B"
-			rewards: [{
-				count: 4
-				id: "24912D0E2BC45C5B"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
+			rewards: [
+				{
+					count: 4
+					id: "24912D0E2BC45C5B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1890ABB738419D40"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "03543F273C1AC73C"
 				item: { count: 1, id: "ars_nouveau:glyph_craft" }
@@ -1542,14 +1861,21 @@
 		}
 		{
 			id: "301D72ED46635A99"
-			rewards: [{
-				id: "3DC17AEAFC1B8CB2"
-				item: {
-					count: 1
-					id: "minecraft:redstone_block"
+			rewards: [
+				{
+					id: "3DC17AEAFC1B8CB2"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0F865B9803600A92"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "4C4CB0168C3EB751"
 				item: { count: 1, id: "ars_nouveau:glyph_cut" }
@@ -1560,14 +1886,21 @@
 		}
 		{
 			id: "5ED01C913DDE8FCB"
-			rewards: [{
-				id: "2A2A56E63B6BDA09"
-				item: {
-					count: 1
-					id: "minecraft:milk_bucket"
+			rewards: [
+				{
+					id: "2A2A56E63B6BDA09"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5F63D7F35E2BFF05"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "6D93B2929C9A07B8"
 				item: { count: 1, id: "ars_nouveau:glyph_delay" }
@@ -1578,14 +1911,21 @@
 		}
 		{
 			id: "6A57357AFB68EB68"
-			rewards: [{
-				id: "4E7E482CAD8E9BE7"
-				item: {
-					count: 1
-					id: "minecraft:sponge"
+			rewards: [
+				{
+					id: "4E7E482CAD8E9BE7"
+					item: {
+						count: 1
+						id: "minecraft:sponge"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1EA13232B424D58C"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "68D6EC0E0C34953F"
 				item: { count: 1, id: "ars_nouveau:glyph_dispel" }
@@ -1596,14 +1936,21 @@
 		}
 		{
 			id: "27DD33AE9F6D26B2"
-			rewards: [{
-				id: "13E2A03573A204C6"
-				item: {
-					count: 1
-					id: "minecraft:snow_block"
+			rewards: [
+				{
+					id: "13E2A03573A204C6"
+					item: {
+						count: 1
+						id: "minecraft:snow_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "09207381630CA14C"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "2B31666F2E3ADF07"
 				item: { count: 1, id: "ars_nouveau:glyph_evaporate" }
@@ -1614,14 +1961,21 @@
 		}
 		{
 			id: "2D9C8B320D9792C1"
-			rewards: [{
-				id: "70E42E3129A7A565"
-				item: {
-					count: 1
-					id: "minecraft:iron_sword"
+			rewards: [
+				{
+					id: "70E42E3129A7A565"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3F4F451A1796D907"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "3625C97849326A5A"
 				item: { count: 1, id: "ars_nouveau:glyph_freeze" }
@@ -1632,15 +1986,22 @@
 		}
 		{
 			id: "06AFF5AA8D301CAF"
-			rewards: [{
-				count: 4
-				id: "19E17BACF319CB72"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
+			rewards: [
+				{
+					count: 4
+					id: "19E17BACF319CB72"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "58B3566654D0A71A"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "1AE396F499461B04"
 				item: { count: 1, id: "ars_nouveau:glyph_harm" }
@@ -1651,15 +2012,22 @@
 		}
 		{
 			id: "744A46E122AAB6FE"
-			rewards: [{
-				count: 8
-				id: "599E6D7C0C25AE96"
-				item: {
-					count: 1
-					id: "minecraft:coal"
+			rewards: [
+				{
+					count: 8
+					id: "599E6D7C0C25AE96"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "67A1CC9B96ADB92F"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "3654C44442FD9418"
 				item: { count: 1, id: "ars_nouveau:glyph_harvest" }
@@ -1670,15 +2038,22 @@
 		}
 		{
 			id: "76F76B9C1EE6DB62"
-			rewards: [{
-				count: 4
-				id: "1B51460FAA86B608"
-				item: {
-					count: 1
-					id: "minecraft:oak_log"
+			rewards: [
+				{
+					count: 4
+					id: "1B51460FAA86B608"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2EA7896444910EB6"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "16822D84A0C6C419"
 				item: { count: 1, id: "ars_nouveau:glyph_ignite" }
@@ -1689,14 +2064,21 @@
 		}
 		{
 			id: "2E84C8F00822E8E7"
-			rewards: [{
-				id: "622488065473E90E"
-				item: {
-					count: 1
-					id: "minecraft:hopper"
+			rewards: [
+				{
+					id: "622488065473E90E"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6667FBF76861E66E"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "113E42195E85D8DE"
 				item: { count: 1, id: "ars_nouveau:glyph_interact" }
@@ -1707,14 +2089,21 @@
 		}
 		{
 			id: "1BE1EF2602228D48"
-			rewards: [{
-				id: "500B4999B34FEB37"
-				item: {
-					count: 1
-					id: "minecraft:piston"
+			rewards: [
+				{
+					id: "500B4999B34FEB37"
+					item: {
+						count: 1
+						id: "minecraft:piston"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "58F3CFE118DFCAB4"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "68911CF6DF69C61B"
 				item: { count: 1, id: "ars_nouveau:glyph_pickup" }
@@ -1725,14 +2114,21 @@
 		}
 		{
 			id: "4590F5422A848829"
-			rewards: [{
-				id: "29CF965EA98C53E4"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_hide"
+			rewards: [
+				{
+					id: "29CF965EA98C53E4"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_hide"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "671B37086996D52C"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "645857F55C6418C7"
 				item: { count: 1, id: "ars_nouveau:glyph_gust" }
@@ -1743,15 +2139,22 @@
 		}
 		{
 			id: "3D6066ED0346CE06"
-			rewards: [{
-				count: 8
-				id: "6079A28EDB791D5D"
-				item: {
-					count: 1
-					id: "minecraft:cobblestone"
+			rewards: [
+				{
+					count: 8
+					id: "6079A28EDB791D5D"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "411FD08DE2F7636B"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "15623FF49D9F58A7"
 				item: { count: 1, id: "ars_nouveau:glyph_leap" }
@@ -1762,14 +2165,21 @@
 		}
 		{
 			id: "60CCE0548A624AC1"
-			rewards: [{
-				id: "2302F14FAB85AC7E"
-				item: {
-					count: 1
-					id: "ars_nouveau:wilden_wing"
+			rewards: [
+				{
+					id: "2302F14FAB85AC7E"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_wing"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6C7B393C510EFC21"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "6FDCC0186EFA36B8"
 				item: { count: 1, id: "ars_nouveau:glyph_launch" }
@@ -1780,15 +2190,22 @@
 		}
 		{
 			id: "313E91CFDF8ADF39"
-			rewards: [{
-				count: 4
-				id: "6061C88BC1D8C14B"
-				item: {
-					count: 1
-					id: "minecraft:oak_log"
+			rewards: [
+				{
+					count: 4
+					id: "6061C88BC1D8C14B"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "751BB0C4ECE0D8E9"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "49045BC7C77120DD"
 				item: { count: 1, id: "ars_nouveau:glyph_place_block" }
@@ -1799,14 +2216,21 @@
 		}
 		{
 			id: "26546192A8EB52F1"
-			rewards: [{
-				id: "0C7D34FED02EA8F7"
-				item: {
-					count: 1
-					id: "minecraft:redstone_block"
+			rewards: [
+				{
+					id: "0C7D34FED02EA8F7"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4B521375B420BE16"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "1E3BABA601E7B191"
 				item: { count: 1, id: "ars_nouveau:glyph_pull" }
@@ -1817,15 +2241,22 @@
 		}
 		{
 			id: "445B1A87EDD03C87"
-			rewards: [{
-				count: 8
-				id: "17420CCBB588F3A3"
-				item: {
-					count: 1
-					id: "minecraft:bone_meal"
+			rewards: [
+				{
+					count: 8
+					id: "17420CCBB588F3A3"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6BB985917013D4E5"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "21A331CADE44CB23"
 				item: { count: 1, id: "ars_nouveau:glyph_redstone_signal" }
@@ -1836,15 +2267,22 @@
 		}
 		{
 			id: "6CFD8C74EEF6AAC4"
-			rewards: [{
-				count: 2
-				id: "4865CA572B58B54F"
-				item: {
-					count: 1
-					id: "minecraft:cobweb"
+			rewards: [
+				{
+					count: 2
+					id: "4865CA572B58B54F"
+					item: {
+						count: 1
+						id: "minecraft:cobweb"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1D09027943F377CD"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "67609509696AB050"
 				item: { count: 1, id: "ars_nouveau:glyph_rune" }
@@ -1855,15 +2293,22 @@
 		}
 		{
 			id: "344ADE2180F485EA"
-			rewards: [{
-				count: 2
-				id: "6E05D0CADF0BFCF5"
-				item: {
-					count: 1
-					id: "minecraft:leather"
+			rewards: [
+				{
+					count: 2
+					id: "6E05D0CADF0BFCF5"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3B9322C52CE351FC"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "5EB95C50DB5C75C6"
 				item: { count: 1, id: "ars_nouveau:glyph_snare" }
@@ -1874,15 +2319,22 @@
 		}
 		{
 			id: "7BAB96EC8F18DE53"
-			rewards: [{
-				count: 4
-				id: "145305163989B98C"
-				item: {
-					count: 1
-					id: "minecraft:bone"
+			rewards: [
+				{
+					count: 4
+					id: "145305163989B98C"
+					item: {
+						count: 1
+						id: "minecraft:bone"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "627DC2D928E47E76"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "6CD8300EBF46FBCE"
 				item: { count: 1, id: "ars_nouveau:glyph_summon_steed" }
@@ -1893,14 +2345,21 @@
 		}
 		{
 			id: "29B11DA9B93E295F"
-			rewards: [{
-				id: "23934752CD55D0D6"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
+			rewards: [
+				{
+					id: "23934752CD55D0D6"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7AE07D495F7DC686"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "0FD1F9391B1987B4"
 				item: { count: 1, id: "ars_nouveau:glyph_toss" }
@@ -1911,15 +2370,22 @@
 		}
 		{
 			id: "4AC0A33A52608BA9"
-			rewards: [{
-				count: 8
-				id: "5B6634CF192CBAA2"
-				item: {
-					count: 1
-					id: "minecraft:cobblestone"
+			rewards: [
+				{
+					count: 8
+					id: "5B6634CF192CBAA2"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4DD90C88ECDF61A5"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "01A01FFB3D02D8F9"
 				item: { count: 1, id: "ars_nouveau:glyph_summon_wolves" }
@@ -1930,15 +2396,22 @@
 		}
 		{
 			id: "04CCFA4A76886726"
-			rewards: [{
-				count: 8
-				id: "39639110803E9FC9"
-				item: {
-					count: 1
-					id: "minecraft:bamboo"
+			rewards: [
+				{
+					count: 8
+					id: "39639110803E9FC9"
+					item: {
+						count: 1
+						id: "minecraft:bamboo"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0FC6ABA80757AC7B"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "78F2DE1296E85CCD"
 				item: { count: 1, id: "ars_nouveau:glyph_amplify" }
@@ -1949,15 +2422,22 @@
 		}
 		{
 			id: "6EF2D4401AAFD366"
-			rewards: [{
-				count: 8
-				id: "591784C74ED31894"
-				item: {
-					count: 1
-					id: "minecraft:pumpkin_pie"
+			rewards: [
+				{
+					count: 8
+					id: "591784C74ED31894"
+					item: {
+						count: 1
+						id: "minecraft:pumpkin_pie"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "59B7E8A4EC60C5A1"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "66A340958B26B869"
 				item: { count: 1, id: "ars_nouveau:glyph_sensitive" }
@@ -1984,6 +2464,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "5CF8A9E816994A5F"
+					type: "xp"
+					xp: 18
+				}
 			]
 			tasks: [{
 				id: "2E89EAA422CED431"
@@ -1996,15 +2481,22 @@
 		{
 			dependencies: ["5B0F35D236824DD6"]
 			id: "0803F488F9A8EAB8"
-			rewards: [{
-				count: 2
-				id: "6D5A2AF9009F46DF"
-				item: {
-					count: 1
-					id: "minecraft:wither_rose"
+			rewards: [
+				{
+					count: 2
+					id: "6D5A2AF9009F46DF"
+					item: {
+						count: 1
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "68B547F76185C350"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "78FBB51C063EED82"
 				item: { count: 1, id: "ars_nouveau:conjuration_essence" }
@@ -2035,6 +2527,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3A4018A821DFD09E"
+					type: "xp"
+					xp: 16
+				}
 			]
 			tasks: [{
 				id: "2B3FE889FF06E4A0"
@@ -2047,15 +2544,22 @@
 		{
 			dependencies: ["5B0F35D236824DD6"]
 			id: "7269C90D724A67F6"
-			rewards: [{
-				count: 8
-				id: "07C213273B632B9B"
-				item: {
-					count: 1
-					id: "minecraft:torch"
+			rewards: [
+				{
+					count: 8
+					id: "07C213273B632B9B"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "49EFD19DCD0185B7"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "6FCA2CE6CB53879E"
 				item: { count: 1, id: "ars_nouveau:earth_essence" }
@@ -2067,14 +2571,21 @@
 		{
 			dependencies: ["5B0F35D236824DD6"]
 			id: "54912D3E3E21B31D"
-			rewards: [{
-				id: "307F85AFF56B25BF"
-				item: {
-					count: 1
-					id: "minecraft:water_bucket"
+			rewards: [
+				{
+					id: "307F85AFF56B25BF"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "14D22B0E233673C6"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "0CBF504862A916F6"
 				item: { count: 1, id: "ars_nouveau:fire_essence" }
@@ -2086,15 +2597,22 @@
 		{
 			dependencies: ["5B0F35D236824DD6"]
 			id: "149B5F0D54E66454"
-			rewards: [{
-				count: 2
-				id: "4D244413BC1930A5"
-				item: {
-					count: 1
-					id: "ars_nouveau:manipulation_essence"
+			rewards: [
+				{
+					count: 2
+					id: "4D244413BC1930A5"
+					item: {
+						count: 1
+						id: "ars_nouveau:manipulation_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "224999DAB624F53C"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "785BFDE1D9009507"
 				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
@@ -2106,14 +2624,21 @@
 		{
 			dependencies: ["5B0F35D236824DD6"]
 			id: "072E3000C6E5FF4D"
-			rewards: [{
-				id: "6069171A352E81E7"
-				item: {
-					count: 1
-					id: "minecraft:redstone_block"
+			rewards: [
+				{
+					id: "6069171A352E81E7"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "30B6BD5EE84951EF"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "74A2FA859713386B"
 				item: { count: 1, id: "ars_nouveau:water_essence" }
@@ -2124,14 +2649,21 @@
 		}
 		{
 			id: "4F350CA3D75762EF"
-			rewards: [{
-				id: "1FCEE57F57D7B723"
-				item: {
-					count: 1
-					id: "minecraft:cake"
+			rewards: [
+				{
+					id: "1FCEE57F57D7B723"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3E4C054A329AB829"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "3979828156B8B55C"
 				item: { count: 1, id: "ars_nouveau:glyph_ender_inventory" }
@@ -2142,14 +2674,21 @@
 		}
 		{
 			id: "624035E8E15B72C2"
-			rewards: [{
-				id: "590C9B079700E05A"
-				item: {
-					count: 1
-					id: "minecraft:bucket"
+			rewards: [
+				{
+					id: "590C9B079700E05A"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "67AAF865A0939B08"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "6D511BD942CF7D7A"
 				item: { count: 1, id: "ars_nouveau:glyph_cold_snap" }
@@ -2160,14 +2699,21 @@
 		}
 		{
 			id: "2A546E1CBF76E314"
-			rewards: [{
-				id: "26088B5A70A8A7B2"
-				item: {
-					count: 1
-					id: "minecraft:piston"
+			rewards: [
+				{
+					id: "26088B5A70A8A7B2"
+					item: {
+						count: 1
+						id: "minecraft:piston"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1CF8EB550514CB09"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "37831389AE1CDCD3"
 				item: { count: 1, id: "ars_nouveau:glyph_conjure_water" }
@@ -2178,15 +2724,22 @@
 		}
 		{
 			id: "522E47967E2D1302"
-			rewards: [{
-				count: 4
-				id: "06101E0A42D07EC4"
-				item: {
-					count: 1
-					id: "minecraft:emerald"
+			rewards: [
+				{
+					count: 4
+					id: "06101E0A42D07EC4"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4CA11BEE50F038CD"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "3DFF1BDD0E2668B1"
 				item: { count: 1, id: "ars_nouveau:glyph_crush" }
@@ -2197,15 +2750,22 @@
 		}
 		{
 			id: "24A34D2F6B9156E7"
-			rewards: [{
-				count: 2
-				id: "7CB33FE65C884F62"
-				item: {
-					count: 1
-					id: "minecraft:tnt"
+			rewards: [
+				{
+					count: 2
+					id: "7CB33FE65C884F62"
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7C2E2B782B6E4425"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "7623C2144A12FA6F"
 				item: { count: 1, id: "ars_nouveau:glyph_exchange" }
@@ -2216,14 +2776,21 @@
 		}
 		{
 			id: "7F0187ACE5E5B240"
-			rewards: [{
-				id: "10AA29E16A518371"
-				item: {
-					count: 1
-					id: "minecraft:diamond_ore"
+			rewards: [
+				{
+					id: "10AA29E16A518371"
+					item: {
+						count: 1
+						id: "minecraft:diamond_ore"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "14A7A5DC6821BD53"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "1050B12152BDC332"
 				item: { count: 1, id: "ars_nouveau:glyph_explosion" }
@@ -2234,15 +2801,22 @@
 		}
 		{
 			id: "65CDA8AFE4EC9F0D"
-			rewards: [{
-				count: 2
-				id: "09EE042DA4A3907B"
-				item: {
-					count: 1
-					id: "minecraft:firework_star"
+			rewards: [
+				{
+					count: 2
+					id: "09EE042DA4A3907B"
+					item: {
+						count: 1
+						id: "minecraft:firework_star"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0128DADC820F1168"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "3F1AD28FBC06AE7F"
 				item: { count: 1, id: "ars_nouveau:glyph_fell" }
@@ -2253,15 +2827,22 @@
 		}
 		{
 			id: "4775A233A5C46004"
-			rewards: [{
-				count: 4
-				id: "2DED30711D45595D"
-				item: {
-					count: 1
-					id: "minecraft:fire_charge"
+			rewards: [
+				{
+					count: 4
+					id: "2DED30711D45595D"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "09FC406CD880A17F"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "159C1867E2B467BE"
 				item: { count: 1, id: "ars_nouveau:glyph_firework" }
@@ -2272,15 +2853,22 @@
 		}
 		{
 			id: "23CEE8175974CF6B"
-			rewards: [{
-				count: 8
-				id: "2B0D46C0E000D32E"
-				item: {
-					count: 1
-					id: "minecraft:feather"
+			rewards: [
+				{
+					count: 8
+					id: "2B0D46C0E000D32E"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0CFDE4D40A7219C2"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "5859A3913848E4FB"
 				item: { count: 1, id: "ars_nouveau:glyph_flare" }
@@ -2291,15 +2879,22 @@
 		}
 		{
 			id: "06FF6BA5768C6714"
-			rewards: [{
-				count: 4
-				id: "1032AC5D41C9FFB8"
-				item: {
-					count: 1
-					id: "minecraft:bone_block"
+			rewards: [
+				{
+					count: 4
+					id: "1032AC5D41C9FFB8"
+					item: {
+						count: 1
+						id: "minecraft:bone_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "201B6054605D097C"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "5475F1C060B261B9"
 				item: { count: 1, id: "ars_nouveau:glyph_gravity" }
@@ -2310,15 +2905,22 @@
 		}
 		{
 			id: "51AFFE2D8BA060F1"
-			rewards: [{
-				count: 4
-				id: "0C1AA2BBFD16153D"
-				item: {
-					count: 1
-					id: "minecraft:glistering_melon_slice"
+			rewards: [
+				{
+					count: 4
+					id: "0C1AA2BBFD16153D"
+					item: {
+						count: 1
+						id: "minecraft:glistering_melon_slice"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4D7F048CF4DBB6C5"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "1411355EA6DA1B07"
 				item: { count: 1, id: "ars_nouveau:glyph_grow" }
@@ -2329,15 +2931,22 @@
 		}
 		{
 			id: "37169E306FB35C13"
-			rewards: [{
-				count: 4
-				id: "2CB1B8169559E4B0"
-				item: {
-					count: 1
-					id: "minecraft:fermented_spider_eye"
+			rewards: [
+				{
+					count: 4
+					id: "2CB1B8169559E4B0"
+					item: {
+						count: 1
+						id: "minecraft:fermented_spider_eye"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3D8CC48197781B9F"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "217C12ACD5AE094F"
 				item: { count: 1, id: "ars_nouveau:glyph_heal" }
@@ -2348,15 +2957,22 @@
 		}
 		{
 			id: "65642C5D4CCA838C"
-			rewards: [{
-				count: 4
-				id: "09D363E03827DF21"
-				item: {
-					count: 1
-					id: "minecraft:feather"
+			rewards: [
+				{
+					count: 4
+					id: "09D363E03827DF21"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7E42EF6215CFE248"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "28CBBCCB6B535947"
 				item: { count: 1, id: "ars_nouveau:glyph_invisibility" }
@@ -2367,15 +2983,22 @@
 		}
 		{
 			id: "6430F9D2F201DA49"
-			rewards: [{
-				count: 2
-				id: "558004F4F71A93E4"
-				item: {
-					count: 1
-					id: "minecraft:blast_furnace"
+			rewards: [
+				{
+					count: 2
+					id: "558004F4F71A93E4"
+					item: {
+						count: 1
+						id: "minecraft:blast_furnace"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "61A928749ED392A2"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "6601245A0F0A9008"
 				item: { count: 1, id: "ars_nouveau:glyph_slowfall" }
@@ -2386,15 +3009,22 @@
 		}
 		{
 			id: "7232D8F8AC59C7B6"
-			rewards: [{
-				count: 4
-				id: "6091DB67DA41E374"
-				item: {
-					count: 1
-					id: "minecraft:prismarine_shard"
+			rewards: [
+				{
+					count: 4
+					id: "6091DB67DA41E374"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_shard"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5BC0E47A77E58FEC"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "24318941B88463FE"
 				item: { count: 1, id: "ars_nouveau:glyph_smelt" }
@@ -2405,14 +3035,21 @@
 		}
 		{
 			id: "6A1526D7FF35F810"
-			rewards: [{
-				id: "0CEA4F4A4A0ADE42"
-				item: {
-					count: 1
-					id: "minecraft:firework_star"
+			rewards: [
+				{
+					id: "0CEA4F4A4A0ADE42"
+					item: {
+						count: 1
+						id: "minecraft:firework_star"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "076E24327EF07A66"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "1CF511C70427150B"
 				item: { count: 1, id: "ars_nouveau:glyph_wind_shear" }
@@ -2423,15 +3060,22 @@
 		}
 		{
 			id: "16CE7A1C699FE62A"
-			rewards: [{
-				count: 4
-				id: "5A838F1F80B4A67B"
-				item: {
-					count: 1
-					id: "minecraft:powered_rail"
+			rewards: [
+				{
+					count: 4
+					id: "5A838F1F80B4A67B"
+					item: {
+						count: 1
+						id: "minecraft:powered_rail"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "28BD691856DA40D1"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "344CABBB7E1DAF0E"
 				item: { count: 1, id: "ars_nouveau:glyph_aoe" }
@@ -2442,15 +3086,22 @@
 		}
 		{
 			id: "27F746A43CE468A1"
-			rewards: [{
-				count: 8
-				id: "20B44E17B40A7584"
-				item: {
-					count: 1
-					id: "minecraft:netherrack"
+			rewards: [
+				{
+					count: 8
+					id: "20B44E17B40A7584"
+					item: {
+						count: 1
+						id: "minecraft:netherrack"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7B3E7E315541E66D"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "4BE5462E8D96DFB8"
 				item: { count: 1, id: "ars_nouveau:glyph_accelerate" }
@@ -2461,15 +3112,22 @@
 		}
 		{
 			id: "04680DFFB36F4C48"
-			rewards: [{
-				count: 8
-				id: "6562D015298ABA0E"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
+			rewards: [
+				{
+					count: 8
+					id: "6562D015298ABA0E"
+					item: {
+						count: 1
+						id: "minecraft:glowstone_dust"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7890CCFE54644532"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "6D1F377274EAE2E1"
 				item: { count: 1, id: "ars_nouveau:glyph_dampen" }
@@ -2480,14 +3138,21 @@
 		}
 		{
 			id: "477AD8B1CEF350E7"
-			rewards: [{
-				id: "617FF3484110C86E"
-				item: {
-					count: 1
-					id: "minecraft:redstone_block"
+			rewards: [
+				{
+					id: "617FF3484110C86E"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0649F17688E21FDA"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "19A62FA7970395C1"
 				item: { count: 1, id: "ars_nouveau:glyph_duration_down" }
@@ -2498,14 +3163,21 @@
 		}
 		{
 			id: "50AF84E458B8413F"
-			rewards: [{
-				id: "29E52D3E224909A1"
-				item: {
-					count: 1
-					id: "minecraft:emerald_ore"
+			rewards: [
+				{
+					id: "29E52D3E224909A1"
+					item: {
+						count: 1
+						id: "minecraft:emerald_ore"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1EE663D0B894B78E"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "02CC12D9A62A688E"
 				item: { count: 1, id: "ars_nouveau:glyph_extend_time" }
@@ -2516,14 +3188,21 @@
 		}
 		{
 			id: "5371AFA52B1522B8"
-			rewards: [{
-				id: "4E77ED8E19E519F7"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_spawn_egg"
+			rewards: [
+				{
+					id: "4E77ED8E19E519F7"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_spawn_egg"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5646B4D6C3421F4F"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "5229F926E09B8044"
 				item: { count: 1, id: "ars_nouveau:glyph_extract" }
@@ -2534,15 +3213,22 @@
 		}
 		{
 			id: "025053E9D3F1B773"
-			rewards: [{
-				count: 8
-				id: "606012A13D6A857F"
-				item: {
-					count: 1
-					id: "minecraft:arrow"
+			rewards: [
+				{
+					count: 8
+					id: "606012A13D6A857F"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "30EEDB54388D175C"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "2F4073DF25590143"
 				item: { count: 1, id: "ars_nouveau:glyph_fortune" }
@@ -2553,11 +3239,18 @@
 		}
 		{
 			id: "79765BEC0A6FD693"
-			rewards: [{
-				id: "5A121D16721738A6"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5A121D16721738A6"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3597863F1BAA677C"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "3B6C7D98C9C22DD6"
 				item: { count: 1, id: "ars_nouveau:glyph_pierce" }
@@ -2568,15 +3261,22 @@
 		}
 		{
 			id: "362A10F8805913EE"
-			rewards: [{
-				count: 2
-				id: "7AA121A14BEA8D30"
-				item: {
-					count: 1
-					id: "minecraft:ender_pearl"
+			rewards: [
+				{
+					count: 2
+					id: "7AA121A14BEA8D30"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "46F6DA23D20CB42C"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "0F81263D40A4D767"
 				item: { count: 1, id: "ars_nouveau:glyph_orbit" }
@@ -2587,15 +3287,22 @@
 		}
 		{
 			id: "1F671291375277C6"
-			rewards: [{
-				count: 4
-				id: "79C5BC354CAA0FA6"
-				item: {
-					count: 1
-					id: "minecraft:prismarine_shard"
+			rewards: [
+				{
+					count: 4
+					id: "79C5BC354CAA0FA6"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_shard"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "319D8798DF670EE3"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "344A086BF44C8F07"
 				item: { count: 1, id: "ars_nouveau:glyph_blink" }
@@ -2606,14 +3313,21 @@
 		}
 		{
 			id: "22DAC79D807D2F89"
-			rewards: [{
-				id: "04B2A1124EE47C22"
-				item: {
-					count: 1
-					id: "minecraft:diamond_block"
+			rewards: [
+				{
+					id: "04B2A1124EE47C22"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3B9EB43FF3B27E49"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "33DAB9DE302C3C65"
 				item: { count: 1, id: "ars_nouveau:glyph_fangs" }
@@ -2624,15 +3338,22 @@
 		}
 		{
 			id: "782883242EF18A65"
-			rewards: [{
-				count: 4
-				id: "55C5CC759E7385C6"
-				item: {
-					count: 1
-					id: "minecraft:blaze_rod"
+			rewards: [
+				{
+					count: 4
+					id: "55C5CC759E7385C6"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "356759AC1800813C"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "73A946A34618AF73"
 				item: { count: 1, id: "ars_nouveau:glyph_glide" }
@@ -2643,15 +3364,22 @@
 		}
 		{
 			id: "3542746A9C52E09C"
-			rewards: [{
-				count: 4
-				id: "6EE4EC1EE49D9826"
-				item: {
-					count: 1
-					id: "minecraft:ender_pearl"
+			rewards: [
+				{
+					count: 4
+					id: "6EE4EC1EE49D9826"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "087454D9BA64AB4F"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "2E71B73E087C21CD"
 				item: { count: 1, id: "ars_nouveau:glyph_hex" }
@@ -2662,15 +3390,22 @@
 		}
 		{
 			id: "5A3D7080068189F4"
-			rewards: [{
-				count: 4
-				id: "441A8DD1B3767612"
-				item: {
-					count: 1
-					id: "minecraft:fermented_spider_eye"
+			rewards: [
+				{
+					count: 4
+					id: "441A8DD1B3767612"
+					item: {
+						count: 1
+						id: "minecraft:fermented_spider_eye"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1C0D5C230AFA5B65"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "39199820661FB694"
 				item: { count: 1, id: "ars_nouveau:glyph_intangible" }
@@ -2681,14 +3416,21 @@
 		}
 		{
 			id: "3F5689FFD66B4B4D"
-			rewards: [{
-				id: "14C9A232871481AA"
-				item: {
-					count: 1
-					id: "minecraft:diamond_block"
+			rewards: [
+				{
+					id: "14C9A232871481AA"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "565781CF4618087E"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "04B46192E306AF6E"
 				item: { count: 1, id: "ars_nouveau:glyph_lightning" }
@@ -2699,15 +3441,22 @@
 		}
 		{
 			id: "17D450F7B8EA1882"
-			rewards: [{
-				count: 2
-				id: "2F19B9F527139F22"
-				item: {
-					count: 1
-					id: "minecraft:armor_stand"
+			rewards: [
+				{
+					count: 2
+					id: "2F19B9F527139F22"
+					item: {
+						count: 1
+						id: "minecraft:armor_stand"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "561B01805B95E615"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "087F1AA075DC15F7"
 				item: { count: 1, id: "ars_nouveau:glyph_linger" }
@@ -2718,11 +3467,18 @@
 		}
 		{
 			id: "66B27D8FA9533AE2"
-			rewards: [{
-				id: "28139D5E3226B638"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "28139D5E3226B638"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "37B2E98A76C91FD1"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "0B93E9FDBC3E44CC"
 				item: { count: 1, id: "ars_nouveau:glyph_summon_decoy" }
@@ -2733,14 +3489,21 @@
 		}
 		{
 			id: "34D04E583B63CD5F"
-			rewards: [{
-				id: "743D8FF9A7DC3B51"
-				item: {
-					count: 1
-					id: "minecraft:wither_skeleton_skull"
+			rewards: [
+				{
+					id: "743D8FF9A7DC3B51"
+					item: {
+						count: 1
+						id: "minecraft:wither_skeleton_skull"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0A628FF2BC1DC138"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "08123F23AFDD9EDD"
 				item: { count: 1, id: "ars_nouveau:glyph_summon_vex" }
@@ -2751,14 +3514,21 @@
 		}
 		{
 			id: "32AF9959AFE16F01"
-			rewards: [{
-				id: "2E19E2713B7D0CDE"
-				item: {
-					count: 1
-					id: "minecraft:stonecutter"
+			rewards: [
+				{
+					id: "2E19E2713B7D0CDE"
+					item: {
+						count: 1
+						id: "minecraft:stonecutter"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "64C5290D6962BBE4"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "1969E58CEA95B3DD"
 				item: { count: 1, id: "ars_nouveau:glyph_wither" }
@@ -2769,11 +3539,18 @@
 		}
 		{
 			id: "0ABA1FAC1F4EE209"
-			rewards: [{
-				id: "7062F50898890D55"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7062F50898890D55"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "1377D8D68B5E8EA5"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "5BF5DC691039345A"
 				item: { count: 1, id: "ars_nouveau:glyph_split" }
@@ -2785,15 +3562,22 @@
 		{
 			dependencies: ["2F02E4C86BE994F2"]
 			id: "6076DF388C346FA1"
-			rewards: [{
-				count: 4
-				id: "2FD02B8E078CC25A"
-				item: {
-					count: 1
-					id: "ars_nouveau:blank_parchment"
+			rewards: [
+				{
+					count: 4
+					id: "2FD02B8E078CC25A"
+					item: {
+						count: 1
+						id: "ars_nouveau:blank_parchment"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0EE932DAE4272131"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "7CED1C8E79FA3F23"
 				item: { count: 1, id: "ars_nouveau:runic_chalk" }
@@ -2805,15 +3589,22 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "530DC28051799876"
-			rewards: [{
-				count: 8
-				id: "0CED87CAFFECD2FE"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem"
+			rewards: [
+				{
+					count: 8
+					id: "0CED87CAFFECD2FE"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "314F3A662A323320"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [{
 				id: "0673BE4EDB5BD6BF"
 				item: { count: 1, id: "ars_nouveau:jar_of_light" }
@@ -2825,15 +3616,22 @@
 		{
 			dependencies: ["5B0F35D236824DD6"]
 			id: "71FB339EBF50F9A6"
-			rewards: [{
-				count: 4
-				id: "5361514FE39970D5"
-				item: {
-					count: 1
-					id: "minecraft:amethyst_block"
+			rewards: [
+				{
+					count: 4
+					id: "5361514FE39970D5"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3259F294292C3A43"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "41E1586DC014F70E"
 				item: { count: 1, id: "ars_nouveau:dowsing_rod" }
@@ -2864,6 +3662,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "3EAD226D636A2C88"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				id: "382A3609863B6AB9"
@@ -2876,11 +3679,18 @@
 		{
 			dependencies: ["1698658107DDD33D"]
 			id: "579D119E48AEB4EB"
-			rewards: [{
-				id: "43E5B042E3A4F6AF"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "43E5B042E3A4F6AF"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "75C6A4368720A588"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "6664BE13B73E8307"
 				item: { count: 1, id: "ars_nouveau:amulet_of_mana_regen" }
@@ -2892,15 +3702,22 @@
 		{
 			dependencies: ["174F0336ABCE3ACD"]
 			id: "0CBFCABF985FA535"
-			rewards: [{
-				count: 2
-				id: "14FFBA285E5DE16D"
-				item: {
-					count: 1
-					id: "minecraft:blaze_rod"
+			rewards: [
+				{
+					count: 2
+					id: "14FFBA285E5DE16D"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "175549E4F3AC52E1"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				id: "7C6DFB8E6D2A847A"
 				item: { count: 1, id: "ars_nouveau:belt_of_levitation" }
@@ -2912,15 +3729,22 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "174F0336ABCE3ACD"
-			rewards: [{
-				count: 4
-				id: "3B12B26AAE2B1ACB"
-				item: {
-					count: 1
-					id: "minecraft:leather"
+			rewards: [
+				{
+					count: 4
+					id: "3B12B26AAE2B1ACB"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7DE6C749762494F7"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "66CE170C1A695BCC"
 				item: { count: 1, id: "ars_nouveau:mundane_belt" }
@@ -2932,14 +3756,21 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "1698658107DDD33D"
-			rewards: [{
-				id: "2843350DF2EACD59"
-				item: {
-					count: 1
-					id: "minecraft:gold_block"
+			rewards: [
+				{
+					id: "2843350DF2EACD59"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0637E21D1A3304EC"
+					type: "xp"
+					xp: 29
+				}
+			]
 			tasks: [{
 				id: "0405A7CDB52DA943"
 				item: { count: 1, id: "ars_nouveau:dull_trinket" }
@@ -2966,6 +3797,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "20FBE520CEE4DCBD"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				id: "6E97E3F68BA8D20D"
@@ -2978,11 +3814,18 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "27065243D9D23777"
-			rewards: [{
-				id: "59979BDB5B42DECB"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "59979BDB5B42DECB"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7925A22AA06810EC"
+					type: "xp"
+					xp: 14
+				}
+			]
 			tasks: [{
 				id: "5D513A3790D1F3F7"
 				item: { count: 1, id: "ars_nouveau:wand" }
@@ -2994,14 +3837,21 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "3F2021A5A184DB17"
-			rewards: [{
-				id: "48F4B4E88789460D"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem_block"
+			rewards: [
+				{
+					id: "48F4B4E88789460D"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7EFF40BBF01B7610"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "753498206BA083E3"
 				item: { count: 1, id: "ars_nouveau:spell_bow" }
@@ -3029,6 +3879,11 @@
 						id: "ars_nouveau:source_gem_block"
 					}
 					type: "item"
+				}
+				{
+					id: "2152929D76E85B8E"
+					type: "xp"
+					xp: 12
 				}
 			]
 			tasks: [{
@@ -3059,6 +3914,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6B7A0908FFEB19C9"
+					type: "xp"
+					xp: 17
+				}
 			]
 			tasks: [{
 				id: "6F26213C952DA08C"
@@ -3071,11 +3931,18 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "2928C01693842EA6"
-			rewards: [{
-				id: "42BC3240E3F06890"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "42BC3240E3F06890"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7F18FABFD6005AE9"
+					type: "xp"
+					xp: 12
+				}
+			]
 			tasks: [{
 				id: "5F46026A90A4078A"
 				item: { count: 1, id: "ars_nouveau:enchanters_sword" }
@@ -3087,11 +3954,18 @@
 		{
 			dependencies: ["7CAB3134D2EE78C5"]
 			id: "53BA9F2BA5C29302"
-			rewards: [{
-				id: "04829DC063AA517E"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "04829DC063AA517E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2E2F912F2C1C9F10"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "60AA4F2528CE5704"
 				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
@@ -3103,11 +3977,18 @@
 		{
 			dependencies: ["0803F488F9A8EAB8"]
 			id: "546A1D6C611FD5B0"
-			rewards: [{
-				id: "3612CBECF78605F9"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3612CBECF78605F9"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "206A51987B84703E"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "28CAB26FCBE0690A"
 				item: { count: 1, id: "ars_nouveau:summon_focus" }
@@ -3130,13 +4011,18 @@
 					type: "item"
 				}
 				{
-					id: "31BC1C99D5F00510"
+					id: "56076102F4AB339F"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "01C984ABFE476953"
+					type: "xp"
+					xp: 27
 				}
 			]
 			tasks: [{
@@ -3150,14 +4036,21 @@
 		{
 			dependencies: ["0CD9A1DD8A01F57A"]
 			id: "43EC58F58B7206DA"
-			rewards: [{
-				id: "5CC47182448D2B3A"
-				item: {
-					count: 1
-					id: "minecraft:potion"
+			rewards: [
+				{
+					id: "5CC47182448D2B3A"
+					item: {
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "54EFA8B1FB8829C8"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				id: "3F1DB7808FFC6B2B"
 				item: { components: { "minecraft:damage": 8 }, count: 1, id: "ars_nouveau:potion_flask" }
@@ -3169,14 +4062,21 @@
 		{
 			dependencies: ["2A5282A6DA2EC003"]
 			id: "7C3C26679DDAC466"
-			rewards: [{
-				id: "0B288ADDB66C847E"
-				item: {
-					count: 1
-					id: "minecraft:diamond_block"
+			rewards: [
+				{
+					id: "0B288ADDB66C847E"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0E9A525F1DA3BF33"
+					type: "xp"
+					xp: 24
+				}
+			]
 			tasks: [{
 				id: "224EEB7C8318EA47"
 				item: { count: 1, id: "ars_nouveau:ring_of_potential" }
@@ -3188,14 +4088,21 @@
 		{
 			dependencies: ["7C3C26679DDAC466"]
 			id: "13F949F9A2E8F6E0"
-			rewards: [{
-				id: "722578848AB5A7D0"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem_block"
+			rewards: [
+				{
+					id: "722578848AB5A7D0"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "61814329ABDF125D"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "4D05FBAFBD4A2A71"
 				item: { count: 1, id: "ars_nouveau:ring_of_lesser_discount" }
@@ -3221,6 +4128,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0E5C676F1C68B5A8"
+					type: "xp"
+					xp: 16
+				}
 			]
 			tasks: [{
 				id: "2D2E8F6FAF56E523"
@@ -3233,15 +4145,22 @@
 		{
 			dependencies: ["2F02E4C86BE994F2"]
 			id: "7E16C414F4B39363"
-			rewards: [{
-				count: 2
-				id: "39F435E3B1720964"
-				item: {
-					count: 1
-					id: "ars_nouveau:blank_parchment"
+			rewards: [
+				{
+					count: 2
+					id: "39F435E3B1720964"
+					item: {
+						count: 1
+						id: "ars_nouveau:blank_parchment"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "44C2BBB1EEE06489"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "4AFFE98E50BBC5C5"
 				item: { count: 1, id: "ars_nouveau:warp_scroll" }
@@ -3253,14 +4172,21 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "08509EC82C282FBC"
-			rewards: [{
-				id: "468F0432074D520D"
-				item: {
-					count: 1
-					id: "minecraft:iron_pickaxe"
+			rewards: [
+				{
+					id: "468F0432074D520D"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "58089ADFBC851E5D"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "24AD35C68E167658"
 				item: { count: 1, id: "ars_nouveau:ritual_binding" }
@@ -3272,14 +4198,21 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "7CAB3134D2EE78C5"
-			rewards: [{
-				id: "3DCD46196E03AAC1"
-				item: {
-					count: 1
-					id: "minecraft:lapis_block"
+			rewards: [
+				{
+					id: "3DCD46196E03AAC1"
+					item: {
+						count: 1
+						id: "minecraft:lapis_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "09E9BFCE6DEAFA05"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "37C475D0EF1335CC"
 				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
@@ -3291,14 +4224,21 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "7A815B50256D0495"
-			rewards: [{
-				id: "409F815D75050C1B"
-				item: {
-					count: 1
-					id: "minecraft:emerald_block"
+			rewards: [
+				{
+					id: "409F815D75050C1B"
+					item: {
+						count: 1
+						id: "minecraft:emerald_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "10EB1CEB5B0A9ADF"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "0C38F87165F93085"
 				item: { count: 1, id: "ars_nouveau:ritual_burrowing" }
@@ -3310,14 +4250,21 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "6337A88D3784E1FA"
-			rewards: [{
-				id: "37ED93020E0E11E5"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_gem_block"
+			rewards: [
+				{
+					id: "37ED93020E0E11E5"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "095DE295F3A94893"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "3B91ACFC775579C3"
 				item: { count: 1, id: "ars_nouveau:ritual_challenge" }
@@ -3329,15 +4276,22 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "6BCC1A61CD7E90B2"
-			rewards: [{
-				count: 2
-				id: "7B32570183E2D139"
-				item: {
-					count: 1
-					id: "minecraft:golden_sword"
+			rewards: [
+				{
+					count: 2
+					id: "7B32570183E2D139"
+					item: {
+						count: 1
+						id: "minecraft:golden_sword"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "459222F419291C0B"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				id: "29F5BD4337C51202"
 				item: { count: 1, id: "ars_nouveau:ritual_cloudshaping" }
@@ -3366,6 +4320,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "477CEC38FACEDBCB"
+					type: "xp"
+					xp: 17
+				}
 			]
 			tasks: [{
 				id: "1212FE5D81D3C3F4"
@@ -3378,15 +4337,22 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "0A75CF2C7F7DB327"
-			rewards: [{
-				count: 3
-				id: "12E36240386DA44E"
-				item: {
-					count: 1
-					id: "ars_nouveau:wilden_wing"
+			rewards: [
+				{
+					count: 3
+					id: "12E36240386DA44E"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_wing"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1FB5BBBF31C1D5CE"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "1B4A99DF58871905"
 				item: { count: 1, id: "ars_nouveau:ritual_fertility" }
@@ -3398,14 +4364,21 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "07DFC9127AFA1571"
-			rewards: [{
-				id: "625A5C5E250AE614"
-				item: {
-					count: 1
-					id: "minecraft:clock"
+			rewards: [
+				{
+					id: "625A5C5E250AE614"
+					item: {
+						count: 1
+						id: "minecraft:clock"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3725786991CBFCBA"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				id: "1C4675CC8419E21F"
 				item: { count: 1, id: "ars_nouveau:ritual_flight" }
@@ -3435,6 +4408,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "25C25E3E666A04CA"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				id: "383033A935461BAE"
@@ -3447,15 +4425,22 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "48E2FD95A5DAB41E"
-			rewards: [{
-				count: 2
-				id: "2858E65F7E4C4611"
-				item: {
-					count: 1
-					id: "ars_nouveau:abjuration_essence"
+			rewards: [
+				{
+					count: 2
+					id: "2858E65F7E4C4611"
+					item: {
+						count: 1
+						id: "ars_nouveau:abjuration_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7AEA19B55F8CB975"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "356D12A48C8DE7C8"
 				item: { count: 1, id: "ars_nouveau:ritual_overgrowth" }
@@ -3467,15 +4452,22 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "2B748F6675CE603C"
-			rewards: [{
-				count: 3
-				id: "73BFFF20A67D0F20"
-				item: {
-					count: 1
-					id: "minecraft:spider_eye"
+			rewards: [
+				{
+					count: 3
+					id: "73BFFF20A67D0F20"
+					item: {
+						count: 1
+						id: "minecraft:spider_eye"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "263B4065FAB54103"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "561D15D994BEDD78"
 				item: { count: 1, id: "ars_nouveau:ritual_restoration" }
@@ -3487,15 +4479,22 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "394456986E472364"
-			rewards: [{
-				count: 8
-				id: "015298380ECD9221"
-				item: {
-					count: 1
-					id: "ars_nouveau:red_archwood_log"
+			rewards: [
+				{
+					count: 8
+					id: "015298380ECD9221"
+					item: {
+						count: 1
+						id: "ars_nouveau:red_archwood_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "474AF69A85763AB5"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "3F9B949AFE044643"
 				item: { count: 1, id: "ars_nouveau:ritual_scrying" }
@@ -3524,6 +4523,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "58A30B0FBC0FBF2A"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				id: "012414DD8622B188"
@@ -3536,14 +4540,21 @@
 		{
 			dependencies: ["3F6064916ED91F2E"]
 			id: "3D63CB521550EC46"
-			rewards: [{
-				id: "5B9BEBD216074A5F"
-				item: {
-					count: 1
-					id: "ars_nouveau:ritual_warping"
+			rewards: [
+				{
+					id: "5B9BEBD216074A5F"
+					item: {
+						count: 1
+						id: "ars_nouveau:ritual_warping"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1955AC2266AC1568"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "3B1B620B570EEF94"
 				item: { count: 1, id: "ars_nouveau:ritual_warping" }
@@ -3562,13 +4573,9 @@
 					type: "random"
 				}
 				{
-					id: "2A6E3BD32ED0D50A"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "07EEB0FAD7C54C89"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [
@@ -3606,13 +4613,18 @@
 					type: "random"
 				}
 				{
-					id: "0F03F531524CA98F"
+					id: "346C720FE3820737"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "77087CC930B91BFC"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [
@@ -3650,13 +4662,18 @@
 					type: "random"
 				}
 				{
-					id: "4686C33516519537"
+					id: "1730CF01D211001D"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "148A5E0666C78597"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [
@@ -3698,13 +4715,9 @@
 					type: "item"
 				}
 				{
-					id: "215347F6C75A23C4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "484B1C8CDE34F7C5"
+					type: "xp"
+					xp: 44
 				}
 			]
 			shape: "hexagon"
@@ -3720,11 +4733,18 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "0685BB9C32DADAEB"
-			rewards: [{
-				id: "635E81B988A46872"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "635E81B988A46872"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "6B2A5A0AC471FF3A"
+					type: "xp"
+					xp: 24
+				}
+			]
 			tasks: [{
 				id: "363593F1B32332FE"
 				item: { count: 1, id: "ars_nouveau:thread_spellpower" }
@@ -3736,15 +4756,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "47A94E3465331798"
-			rewards: [{
-				count: 2
-				id: "764D40119622E743"
-				item: {
-					count: 1
-					id: "ars_nouveau:magebloom_fiber"
+			rewards: [
+				{
+					count: 2
+					id: "764D40119622E743"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0D056D4EA38818C4"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "103E377A3A6FAC74"
 				item: { count: 1, id: "ars_nouveau:thread_warding" }
@@ -3756,15 +4783,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "4FBA4CF59C8996AF"
-			rewards: [{
-				count: 2
-				id: "455A016C5C7E85AC"
-				item: {
-					count: 1
-					id: "minecraft:phantom_membrane"
+			rewards: [
+				{
+					count: 2
+					id: "455A016C5C7E85AC"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2F0BC26386E15D16"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "07AC2417AFA10631"
 				item: { count: 1, id: "ars_nouveau:thread_undying" }
@@ -3776,15 +4810,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "4DE42312B34F6F7B"
-			rewards: [{
-				count: 3
-				id: "228CE91E5D6A3096"
-				item: {
-					count: 1
-					id: "minecraft:nether_wart"
+			rewards: [
+				{
+					count: 3
+					id: "228CE91E5D6A3096"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "10E8885376F0E0BB"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "0646046A534FE395"
 				item: { count: 1, id: "ars_nouveau:thread_wixie" }
@@ -3796,15 +4837,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "3EAF5695FAEB6E80"
-			rewards: [{
-				count: 8
-				id: "3E0399F894BC1A5A"
-				item: {
-					count: 1
-					id: "ars_nouveau:sourceberry_bush"
+			rewards: [
+				{
+					count: 8
+					id: "3E0399F894BC1A5A"
+					item: {
+						count: 1
+						id: "ars_nouveau:sourceberry_bush"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "62CA2D05A13704A0"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "27B5BDA59FE1A071"
 				item: { count: 1, id: "ars_nouveau:thread_magic_capacity" }
@@ -3816,15 +4864,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "4F7098D2509E257D"
-			rewards: [{
-				count: 3
-				id: "546D8E0BD9B63D84"
-				item: {
-					count: 1
-					id: "minecraft:cooked_cod"
+			rewards: [
+				{
+					count: 3
+					id: "546D8E0BD9B63D84"
+					item: {
+						count: 1
+						id: "minecraft:cooked_cod"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3128F2A43F39D85D"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "50FC1898BEEBF13B"
 				item: { count: 1, id: "ars_nouveau:thread_depths" }
@@ -3836,15 +4891,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "702984EE8F429BEA"
-			rewards: [{
-				count: 2
-				id: "1E638C258EEC7119"
-				item: {
-					count: 1
-					id: "ars_nouveau:air_essence"
+			rewards: [
+				{
+					count: 2
+					id: "1E638C258EEC7119"
+					item: {
+						count: 1
+						id: "ars_nouveau:air_essence"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6E50A0EE40453CC6"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "7D0307DFD0204379"
 				item: { count: 1, id: "ars_nouveau:thread_gliding" }
@@ -3856,15 +4918,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "29259F3FA0002C4D"
-			rewards: [{
-				count: 2
-				id: "5A934479A095A805"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_stew"
+			rewards: [
+				{
+					count: 2
+					id: "5A934479A095A805"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_stew"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "31706E7780F48890"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "5E995B1C1D276B7D"
 				item: { count: 1, id: "ars_nouveau:thread_heights" }
@@ -3876,16 +4945,23 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "02378152AD6064CF"
-			rewards: [{
-				count: 2
-				id: "3A351CDE99A60533"
-				item: {
-					count: 1
-					id: "minecraft:golden_apple"
+			rewards: [
+				{
+					count: 2
+					id: "3A351CDE99A60533"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "4601BA38BE18386F"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [{
 				id: "45B776E90F4F3DA4"
 				item: { count: 1, id: "ars_nouveau:thread_whirlisprig" }
@@ -3897,15 +4973,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "39C96A0C6B300BE7"
-			rewards: [{
-				count: 2
-				id: "03C0416A9EC15F09"
-				item: {
-					count: 1
-					id: "minecraft:sculk_catalyst"
+			rewards: [
+				{
+					count: 2
+					id: "03C0416A9EC15F09"
+					item: {
+						count: 1
+						id: "minecraft:sculk_catalyst"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7545F4E1E018BDE5"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "329F609304EE23D1"
 				item: { count: 1, id: "ars_nouveau:thread_life_drain" }
@@ -3917,15 +5000,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "390A1E2CE9B27C69"
-			rewards: [{
-				count: 4
-				id: "664933F8CF1A94DB"
-				item: {
-					count: 1
-					id: "minecraft:sugar"
+			rewards: [
+				{
+					count: 4
+					id: "664933F8CF1A94DB"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1BF61D763C6E6D8A"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "512176FAEBA290AB"
 				item: { count: 1, id: "ars_nouveau:thread_starbuncle" }
@@ -3937,15 +5027,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "1A5EF42D42A67CD2"
-			rewards: [{
-				count: 2
-				id: "0A0F11DBDEE62093"
-				item: {
-					count: 1
-					id: "minecraft:magma_cream"
+			rewards: [
+				{
+					count: 2
+					id: "0A0F11DBDEE62093"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "174E7EEE56840D8C"
+					type: "xp"
+					xp: 23
+				}
+			]
 			tasks: [{
 				id: "3DE38245E93F5DC1"
 				item: { count: 1, id: "ars_nouveau:thread_kindling" }
@@ -3957,14 +5054,21 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "0D30EF2224604075"
-			rewards: [{
-				id: "0B8E304419A359BF"
-				item: {
-					count: 1
-					id: "minecraft:chipped_anvil"
+			rewards: [
+				{
+					id: "0B8E304419A359BF"
+					item: {
+						count: 1
+						id: "minecraft:chipped_anvil"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5926AD85126207B0"
+					type: "xp"
+					xp: 22
+				}
+			]
 			tasks: [{
 				id: "3EB20977054E66B9"
 				item: { count: 1, id: "ars_nouveau:thread_repairing" }
@@ -3976,15 +5080,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "1DFD2E515F4BCE51"
-			rewards: [{
-				count: 3
-				id: "55E7F2B5CBDFB1B4"
-				item: {
-					count: 1
-					id: "minecraft:feather"
+			rewards: [
+				{
+					count: 3
+					id: "55E7F2B5CBDFB1B4"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "682AC97CF24F3EC2"
+					type: "xp"
+					xp: 26
+				}
+			]
 			tasks: [{
 				id: "1667EC475DEC76E6"
 				item: { count: 1, id: "ars_nouveau:thread_feather" }
@@ -3996,15 +5107,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "5D6836138CED402F"
-			rewards: [{
-				count: 2
-				id: "4D40E8A0953A7798"
-				item: {
-					count: 1
-					id: "minecraft:rabbit_foot"
+			rewards: [
+				{
+					count: 2
+					id: "4D40E8A0953A7798"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_foot"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "35423D13C0F3A795"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				id: "07B6F81093FF4840"
 				item: { count: 1, id: "ars_nouveau:thread_drygmy" }
@@ -4016,15 +5134,22 @@
 		{
 			dependencies: ["7D3F97C5832AF3B7"]
 			id: "03B6F3FCD19E2413"
-			rewards: [{
-				count: 3
-				id: "25EBD5D13D67FBF3"
-				item: {
-					count: 1
-					id: "minecraft:ice"
+			rewards: [
+				{
+					count: 3
+					id: "25EBD5D13D67FBF3"
+					item: {
+						count: 1
+						id: "minecraft:ice"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "34BDBFEE3F299202"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "5DF8D691E8FAFC36"
 				item: { count: 1, id: "ars_nouveau:thread_chilling" }
@@ -4036,14 +5161,21 @@
 		{
 			dependencies: ["365250D4F5B19F71"]
 			id: "7E4D92A6BD9831D4"
-			rewards: [{
-				id: "2B28D427EF6C4766"
-				item: {
-					count: 1
-					id: "ars_nouveau:source_berry_roll"
+			rewards: [
+				{
+					id: "2B28D427EF6C4766"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_berry_roll"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "66665CDA6C059599"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "0BE100C749BD4AEE"
@@ -4056,16 +5188,23 @@
 		{
 			dependencies: ["7E4D92A6BD9831D4"]
 			id: "5E0DF3631880979E"
-			rewards: [{
-				count: 4
-				id: "7296BD15447A79AE"
-				item: {
-					count: 1
-					id: "ars_nouveau:sourceberry_bush"
+			rewards: [
+				{
+					count: 4
+					id: "7296BD15447A79AE"
+					item: {
+						count: 1
+						id: "ars_nouveau:sourceberry_bush"
+					}
+					random_bonus: 2
+					type: "item"
 				}
-				random_bonus: 2
-				type: "item"
-			}]
+				{
+					id: "316885CE4B22B533"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				id: "6CDED141AFBC6C53"
 				item: { count: 1, id: "ars_nouveau:source_berry_pie" }
@@ -4110,6 +5249,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6B599B03B76A6285"
+					type: "xp"
+					xp: 12
+				}
 			]
 			tasks: [{
 				id: "397D842BC9777C17"
@@ -4122,11 +5266,18 @@
 		{
 			dependencies: ["0D920853F0AE1284"]
 			id: "01FA083161D7DBD7"
-			rewards: [{
-				id: "41C1272888214DB7"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "41C1272888214DB7"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "5276812C9FB8ECB9"
+					type: "xp"
+					xp: 27
+				}
+			]
 			tasks: [{
 				id: "5DCA219B33D06018"
 				item: { count: 1, id: "ars_nouveau:alteration_table" }
@@ -4150,13 +5301,18 @@
 					type: "random"
 				}
 				{
-					id: "3C1DF52E88B224F0"
+					id: "11E646F5DE780EBA"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "7651A18243A6B992"
+					type: "xp"
+					xp: 29
 				}
 			]
 			tasks: [
@@ -4338,13 +5494,18 @@
 					type: "random"
 				}
 				{
-					id: "1CE0681934795347"
+					id: "6B3EE28B68794725"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "37A1CC53D9B2DA2D"
+					type: "xp"
+					xp: 26
 				}
 			]
 			tasks: [
@@ -4507,13 +5668,9 @@
 					type: "random"
 				}
 				{
-					id: "093377B2311275FC"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "113120E035834147"
+					type: "xp"
+					xp: 26
 				}
 			]
 			tasks: [
@@ -4614,13 +5771,9 @@
 					type: "random"
 				}
 				{
-					id: "6C35D99714B91257"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "5517675CB5682CCF"
+					type: "xp"
+					xp: 24
 				}
 			]
 			tasks: [
@@ -4686,13 +5839,9 @@
 					type: "random"
 				}
 				{
-					id: "593ED8C9333BD939"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "74734EBFD049EB37"
+					type: "xp"
+					xp: 21
 				}
 			]
 			tasks: [
@@ -4766,13 +5915,9 @@
 					type: "random"
 				}
 				{
-					id: "7358F03E8F62FCD6"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "22EAAFF766317B5E"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [
@@ -4805,13 +5950,18 @@
 					type: "random"
 				}
 				{
-					id: "4C33782C70093D3E"
+					id: "4790EB5674A22A75"
 					item: {
 						count: 1
 						id: "randomore:random_ore"
 					}
 					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "6CAC426C36B84664"
+					type: "xp"
+					xp: 28
 				}
 			]
 			tasks: [
@@ -4917,11 +6067,18 @@
 		{
 			dependencies: ["5E0DF3631880979E"]
 			id: "3261FFB968EAC0BE"
-			rewards: [{
-				id: "46BB697BE71B45B6"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "46BB697BE71B45B6"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "5E509F5FD5D4F304"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "7A41C1EABC9A52DA"
 				item: { count: 1, id: "ars_nouveau:source_berry_roll" }
@@ -4955,6 +6112,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "5C87EA8108B7590D"
+					type: "xp"
+					xp: 22
+				}
 			]
 			tasks: [
 				{
@@ -4975,11 +6137,18 @@
 			dependencies: ["5C0234DC4B2D451C"]
 			id: "7D6F8AF3728BEA44"
 			optional: true
-			rewards: [{
-				id: "5A1E2A8570AE9969"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5A1E2A8570AE9969"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "25F8178F0BF8B5D4"
+					type: "xp"
+					xp: 13
+				}
+			]
 			tasks: [{
 				id: "1C57EFAA237FA5BD"
 				item: { count: 1, id: "ars_nouveau:source_gem_block" }
@@ -4991,11 +6160,18 @@
 		{
 			dependencies: ["46053853A84567F9"]
 			id: "62CDE865C4D7CB2F"
-			rewards: [{
-				id: "1A34920204167BE3"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1A34920204167BE3"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7D2911515A014461"
+					type: "xp"
+					xp: 18
+				}
+			]
 			tasks: [{
 				id: "07C52A8D1ED1671C"
 				item: { count: 1, id: "ars_nouveau:potion_diffuser" }
@@ -5014,13 +6190,9 @@
 					type: "random"
 				}
 				{
-					id: "44F59830B44A724C"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "603FD5120DEC45B1"
+					type: "xp"
+					xp: 22
 				}
 			]
 			tasks: [
@@ -5045,15 +6217,22 @@
 		}
 		{
 			id: "2681E9502A687D30"
-			rewards: [{
-				count: 5
-				id: "2DE6572B8ABDA419"
-				item: {
-					count: 1
-					id: "ars_additions:lost_codex_entry"
+			rewards: [
+				{
+					count: 5
+					id: "2DE6572B8ABDA419"
+					item: {
+						count: 1
+						id: "ars_additions:lost_codex_entry"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4C41D23126DD4AE4"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [
 				{
 					id: "13CA77BD7150FD11"
@@ -5106,6 +6285,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "482B5A7E6FA0CB20"
+					type: "xp"
+					xp: 18
+				}
 			]
 			tasks: [{
 				id: "203997B9EAA7D46B"
@@ -5131,6 +6315,11 @@
 					id: "4F30A63967DE7059"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "14ED0A4DC46B0DBF"
+					type: "xp"
+					xp: 23
 				}
 			]
 			tasks: [
@@ -5172,6 +6361,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "2FD1AC2544433CE4"
+					type: "xp"
+					xp: 18
+				}
 			]
 			tasks: [{
 				id: "5EA39A014502CA14"
@@ -5207,6 +6401,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "134CC45326FD5AD9"
+					type: "xp"
+					xp: 19
+				}
 			]
 			tasks: [{
 				id: "7B1D248A28387A59"
@@ -5232,6 +6431,11 @@
 					id: "7D46D0E7A810C95E"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "2CA58CCA9F0C309A"
+					type: "xp"
+					xp: 18
 				}
 			]
 			tasks: [{
@@ -5259,6 +6463,11 @@
 					id: "77361A28605F1207"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "756A395B68C52783"
+					type: "xp"
+					xp: 20
 				}
 			]
 			tasks: [{
@@ -5289,6 +6498,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "546D969ED4C32778"
+					type: "xp"
+					xp: 17
+				}
 			]
 			tasks: [{
 				id: "76D2DCDA00897832"
@@ -5303,6 +6517,11 @@
 				id: "ars_nouveau:enchanters_sword"
 			}
 			id: "7EFD9AEF5DA3A64B"
+			rewards: [{
+				id: "45608498CF9A6A97"
+				type: "xp"
+				xp: 17
+			}]
 			tasks: [
 				{
 					id: "06B57B404E97BD15"
@@ -5335,6 +6554,11 @@
 		}
 		{
 			id: "312EC5131F64186F"
+			rewards: [{
+				id: "0F47880FDB34C101"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [
 				{
 					id: "1B9EE64014354A30"

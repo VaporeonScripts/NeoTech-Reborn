@@ -2,22 +2,37 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "repurposed_structures"
-	group: ""
+	group: "3F9A7C21D5B80E46"
 	icon: {
 		id: "minecraft:book"
 	}
 	id: "09F8CDA60923D6FC"
-	images: [ ]
-	order_index: 27
+	images: [{
+		height: 5.6d
+		id: "1BA5C0A047D0D382"
+		image: "neotechreborn:textures/quests/repurposed_structures_title.png"
+		rotation: 0.0d
+		width: 17.6d
+		x: 0.0d
+		y: -4.6d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "6274CAF76FF7FAFB"
-			rewards: [{
-				id: "6EED49124F324323"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6EED49124F324323"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2C5D5E800D0CA16C"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:fortress_jungle"
 				criterion: ""
@@ -29,11 +44,18 @@
 		}
 		{
 			id: "36400D26EEABD70C"
-			rewards: [{
-				id: "7EE4BB6EF557CF7A"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7EE4BB6EF557CF7A"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2F874B879F0536A8"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:ruins"
 				criterion: ""
@@ -45,11 +67,18 @@
 		}
 		{
 			id: "272D38871F3F739A"
-			rewards: [{
-				id: "1A505E628FF1DA06"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1A505E628FF1DA06"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "4776DC4457755CED"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:ruined_portal_end"
 				criterion: ""
@@ -61,11 +90,18 @@
 		}
 		{
 			id: "632B8206B3F33C7C"
-			rewards: [{
-				id: "4C49B899CC825C41"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4C49B899CC825C41"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "213235613FB3262D"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:witch_huts"
 				criterion: ""
@@ -80,11 +116,18 @@
 		}
 		{
 			id: "425CEAA9CA5DA690"
-			rewards: [{
-				id: "27D2DDC0BDBDC436"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "27D2DDC0BDBDC436"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7C6F430EA80593A5"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:mansions"
 				criterion: ""
@@ -99,11 +142,18 @@
 		}
 		{
 			id: "33B6251CF0B25772"
-			rewards: [{
-				id: "02E203CF25C47D92"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "02E203CF25C47D92"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3B03501CF062A22C"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:mineshafts"
 				criterion: ""
@@ -115,11 +165,18 @@
 		}
 		{
 			id: "675291ECEC4EAE0B"
-			rewards: [{
-				id: "2D7E950C97EBBA12"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "2D7E950C97EBBA12"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "76C4D6223047C9E8"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:city_nether"
 				criterion: ""
@@ -134,11 +191,18 @@
 		}
 		{
 			id: "32A5E703872CCE2B"
-			rewards: [{
-				id: "55653B345B616B5E"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "55653B345B616B5E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "4CE34F2687F9D75A"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:igloos"
 				criterion: ""
@@ -150,11 +214,18 @@
 		}
 		{
 			id: "017668074C954596"
-			rewards: [{
-				id: "4CA086C5BE127014"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4CA086C5BE127014"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "53F9E1B783FAD828"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:bastion_underground"
 				criterion: ""
@@ -169,11 +240,18 @@
 		}
 		{
 			id: "52242A836ECF9338"
-			rewards: [{
-				id: "07BAF7805643E20B"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "07BAF7805643E20B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "1B8DB21B4BE95739"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:shipwrecks"
 				criterion: ""
@@ -185,11 +263,18 @@
 		}
 		{
 			id: "57FC1DFC6D27AA44"
-			rewards: [{
-				id: "5303351118BFB62F"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5303351118BFB62F"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "670C8B378831847A"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:villages"
 				criterion: ""
@@ -201,11 +286,18 @@
 		}
 		{
 			id: "0E36306ACCB3D643"
-			rewards: [{
-				id: "0395AD69F789C3F2"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "0395AD69F789C3F2"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7650AB00CC278763"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:pyramids"
 				criterion: ""
@@ -217,11 +309,18 @@
 		}
 		{
 			id: "7EC392D4AD679DB5"
-			rewards: [{
-				id: "5F3658B44EF0281D"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5F3658B44EF0281D"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "706074C841ABBA56"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:city_overworld"
 				criterion: ""
@@ -233,11 +332,18 @@
 		}
 		{
 			id: "1B64462F0212E519"
-			rewards: [{
-				id: "42A684C9472A3273"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "42A684C9472A3273"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "06CF7AD8E860A87D"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:temples"
 				criterion: ""
@@ -252,11 +358,18 @@
 		}
 		{
 			id: "47FD673F259F1C85"
-			rewards: [{
-				id: "4AECC0F076CFF0C5"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4AECC0F076CFF0C5"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "45EBC3671FFDB530"
+					type: "xp"
+					xp: 17
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:outposts"
 				criterion: ""
@@ -268,11 +381,18 @@
 		}
 		{
 			id: "7B29A14775280AF9"
-			rewards: [{
-				id: "727F87A4D6A9D26B"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "727F87A4D6A9D26B"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "5800A2D2AC5414ED"
+					type: "xp"
+					xp: 21
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:strongholds"
 				criterion: ""
@@ -284,11 +404,18 @@
 		}
 		{
 			id: "1C9EBDFB533404A0"
-			rewards: [{
-				id: "38D8B840C283353C"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "38D8B840C283353C"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "36889530E895C4A1"
+					type: "xp"
+					xp: 16
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:ancient_cities"
 				criterion: ""
@@ -300,11 +427,18 @@
 		}
 		{
 			id: "73893F32A771FD27"
-			rewards: [{
-				id: "71292333FAD45CEB"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "71292333FAD45CEB"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "4AF2DE03678CB922"
+					type: "xp"
+					xp: 19
+				}
+			]
 			tasks: [{
 				advancement: "repurposed_structures:monuments"
 				criterion: ""

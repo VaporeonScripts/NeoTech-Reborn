@@ -2,13 +2,21 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "artifacts"
-	group: ""
+	group: "56A66C57DE55E953"
 	icon: {
 		id: "l2artifacts:select"
 	}
 	id: "69C97E90F04B71C9"
-	images: [ ]
-	order_index: 4
+	images: [{
+		height: 3.8d
+		id: "385E6ECF373C105C"
+		image: "neotechreborn:textures/quests/artifacts_title.png"
+		rotation: 0.0d
+		width: 14.8d
+		x: 0.0d
+		y: -6.9d
+	}]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,6 +39,11 @@
 					id: "18109EE2C4D1507D"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "6E87FDF1AAF3C578"
+					type: "xp"
+					xp: 8
 				}
 			]
 			tasks: [{
@@ -58,6 +71,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "623D984143CA277D"
+					type: "xp"
+					xp: 7
+				}
 			]
 			tasks: [{
 				id: "7E6FCD967F17CC08"
@@ -82,6 +100,11 @@
 					id: "2DCA6369CDF4AE73"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "73DB7EFC1CFCB72C"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -113,6 +136,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "08063EBC7CFC90BC"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "67FBEEC11BDD97CC"
@@ -140,6 +168,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "2116417388EBE53B"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "2D55E18D826DC951"
@@ -164,6 +197,11 @@
 					id: "7B36D1D0EE9D0478"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "440DFC1D575DAA40"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -197,6 +235,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "104B640A8539D0C6"
+					type: "xp"
+					xp: 7
+				}
 			]
 			tasks: [{
 				id: "246477579B9DF445"
@@ -227,6 +270,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "5E44B9269FDE061F"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "63DB65AE0DBBDFAA"
@@ -238,11 +286,18 @@
 		}
 		{
 			id: "37F32EEFA9330F95"
-			rewards: [{
-				id: "5C91F9C76F970E39"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5C91F9C76F970E39"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "10962CE22175D368"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "236B8D7B8FD47EF9"
 				item: { components: { "relics:data": { abilities: { abilities: { push: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 9 }, cloud_spawn_chance: { initialQuality: 5 }, cooldown: { initialQuality: 7 }, distance: { initialQuality: 1 }, paralysis_duration: { initialQuality: 9 }, paralysis_radius: { }, retaliation_chance: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:whoopee_cushion" }
@@ -253,11 +308,18 @@
 		}
 		{
 			id: "106C09B67CC6618F"
-			rewards: [{
-				id: "7FF274717CEC8E0F"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7FF274717CEC8E0F"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "5A3CCA4D65D30162"
+					type: "xp"
+					xp: 7
+				}
+			]
 			tasks: [{
 				id: "5EE8B6EFC0401014"
 				item: { components: { "minecraft:damage": 0, "relics:data": { abilities: { abilities: { drinking: { lock: { breaks: 5 }, points: 0, stats: { air: { initialQuality: 4 }, health: { initialQuality: 4 }, hunger: { initialQuality: 6 }, speed: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:plastic_drinking_hat" }
@@ -268,11 +330,18 @@
 		}
 		{
 			id: "1E99E55742762FD6"
-			rewards: [{
-				id: "529FCF638B04A4FB"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "529FCF638B04A4FB"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7027F3C39F7A13DA"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "730A8C43160FFD6C"
 				item: { components: { "minecraft:damage": 0, "relics:data": { abilities: { abilities: { drinking: { lock: { breaks: 5 }, points: 0, stats: { air: { initialQuality: 5 }, health: { initialQuality: 7 }, hunger: { initialQuality: 4 }, speed: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:novelty_drinking_hat" }
@@ -302,6 +371,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "7BD4A54C57E16C6B"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "7816AFD75D9741F3"
@@ -313,11 +387,18 @@
 		}
 		{
 			id: "7C9A1D06EC6F7BD4"
-			rewards: [{
-				id: "1D2130047E0BB5D5"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1D2130047E0BB5D5"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "26C6C24AA0294945"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "5C0DE28346C97542"
 				item: { components: { "relics:data": { abilities: { abilities: { vision: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 7 }, damage_bonus: { initialQuality: 7 }, miss_chance: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:night_vision_goggles" }
@@ -349,6 +430,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "04D367B4C84E0EF6"
+					type: "xp"
+					xp: 8
+				}
 			]
 			tasks: [{
 				id: "711768373CB76801"
@@ -379,6 +465,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "6F9DAC9395BF99EE"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "1BB4038A1FAAEEC8"
@@ -390,11 +481,18 @@
 		}
 		{
 			id: "5A58AFE2E7E6BE73"
-			rewards: [{
-				id: "6BBCDFFB8234593F"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6BBCDFFB8234593F"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7A0F237910EB95BE"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "09B837F12E2864CF"
 				item: { components: { "relics:data": { abilities: { abilities: { invisibility: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 4 }, damage: { initialQuality: 4 }, delay: { initialQuality: 7 }, regeneration: { initialQuality: 9 }, stun: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:scarf_of_invisibility" }
@@ -419,6 +517,11 @@
 					id: "324975DAB9AF408E"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "77B49C0A6AB4A2F5"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -450,6 +553,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "246056267C388DB9"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "1BC0A96A4D499B78"
@@ -461,11 +569,18 @@
 		}
 		{
 			id: "640A6C22B23AF91D"
-			rewards: [{
-				id: "76A120EF74021570"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "76A120EF74021570"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "7CB1DB42328BD3C8"
+					type: "xp"
+					xp: 8
+				}
+			]
 			tasks: [{
 				id: "1388FE2D67358A51"
 				item: { components: { "minecraft:damage": 0, "relics:data": { abilities: { abilities: { protection: { lock: { breaks: 5 }, points: 0, stats: { fire_duration: { initialQuality: 9 }, invulnerability: { initialQuality: 8 }, survival_chance: { initialQuality: 9 }, undead_damage: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:cross_necklace" }
@@ -495,6 +610,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "534713E9EFBD8D2B"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "4366F589A4A0B005"
@@ -519,6 +639,11 @@
 					id: "23C2D2709CB3FBD0"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "4038B9CB167DDC1A"
+					type: "xp"
+					xp: 8
 				}
 			]
 			tasks: [{
@@ -552,6 +677,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "4EFA7E72910D86DD"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "647F6B3DE62B42E6"
@@ -584,6 +714,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0555B3C537A629C2"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "3F63AAD9BF80FFE7"
@@ -609,6 +744,11 @@
 					id: "41273665D2403559"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "2FB0E970E87F4611"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -642,6 +782,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "3FF1C48EBE3BED05"
+					type: "xp"
+					xp: 7
+				}
 			]
 			tasks: [{
 				id: "04E81B2ECAC6D281"
@@ -672,6 +817,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "1BE5D6F115080D00"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "6A04513F2990C195"
@@ -683,11 +833,18 @@
 		}
 		{
 			id: "154C8033DEBECA8B"
-			rewards: [{
-				id: "32D7F5738C278D11"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "32D7F5738C278D11"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "794448FBA6FA9097"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "42698AAE10427311"
 				item: { components: { "minecraft:damage": 0, "relics:data": { abilities: { abilities: { antidote: { lock: { breaks: 5 }, points: 0, stats: { duration_reduction: { initialQuality: 9 }, immunity_duration: { initialQuality: 6 }, resistance_per_effect: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:antidote_vessel" }
@@ -711,6 +868,11 @@
 					id: "162EBBD895A4B803"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "4BC2E5CC9777C9D9"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -738,6 +900,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "51ABDD082E51918F"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "26C9432AD417DB71"
@@ -749,11 +916,18 @@
 		}
 		{
 			id: "1B941B974BB60F63"
-			rewards: [{
-				id: "474389C733C1A64D"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "474389C733C1A64D"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "3993237C18D4A9A0"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "7A830A8FD435E4B2"
 				item: { components: { "relics:data": { abilities: { abilities: { digging: { lock: { breaks: 5 }, points: 0, stats: { bare_hands_speed: { initialQuality: 2 }, momentum_per_block: { initialQuality: 3 }, momentum_window: { initialQuality: 2 }, speed: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:digging_claws" }
@@ -764,11 +938,18 @@
 		}
 		{
 			id: "7AFDBDA8E91A6750"
-			rewards: [{
-				id: "1260944BB07AAFAA"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1260944BB07AAFAA"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "027A37267B757EC9"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "3A8178F60674C100"
 				item: { components: { "relics:data": { abilities: { abilities: { feral: { lock: { breaks: 5 }, points: 0, stats: { attack_speed_per_charge: { initialQuality: 7 }, invulnerability_reduction: { initialQuality: 7 }, max_charges: { initialQuality: 9 }, window: { initialQuality: 8 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:feral_claws" }
@@ -800,6 +981,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "23E5F366A6AAE9E8"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "742A292A1BA69EDE"
@@ -825,6 +1011,11 @@
 					id: "0EDA4E1355B1591F"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "281FBA11FF344737"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -858,6 +1049,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "40C06882BB69976A"
+					type: "xp"
+					xp: 8
+				}
 			]
 			tasks: [{
 				id: "5AE93069D68D48A1"
@@ -883,6 +1079,11 @@
 					id: "10406D1C512CE9F5"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "5476BD177A741AAE"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -910,6 +1111,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "36E611557A10479D"
+					type: "xp"
+					xp: 6
+				}
 			]
 			tasks: [{
 				id: "777B5B35BF5CFB1A"
@@ -934,6 +1140,11 @@
 					id: "4687E145072969BD"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "5F0AE0250C8B7B22"
+					type: "xp"
+					xp: 7
 				}
 			]
 			tasks: [{
@@ -961,6 +1172,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "7E43FE4DDBB23B28"
+					type: "xp"
+					xp: 8
+				}
 			]
 			tasks: [{
 				id: "15B792F3A3314E51"
@@ -972,11 +1188,18 @@
 		}
 		{
 			id: "097404D1662B6D1F"
-			rewards: [{
-				id: "325EAED8009BD21C"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "325EAED8009BD21C"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "5D0BC21BB5C3C7A4"
+					type: "xp"
+					xp: 6
+				}
+			]
 			tasks: [{
 				id: "1D531D47F3E3F2A6"
 				item: { components: { "relics:data": { abilities: { abilities: { heating: { lock: { breaks: 5 }, points: 0, stats: { fortune_chance: { initialQuality: 5 }, fortune_max_casts: { initialQuality: 3 }, ignite_duration: { initialQuality: 8 }, smelt_chance: { initialQuality: 10 }, stack_bonus: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:pickaxe_heater" }
@@ -987,11 +1210,18 @@
 		}
 		{
 			id: "0859DD1482ADD6A8"
-			rewards: [{
-				id: "35D14D90DF42B1C1"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "35D14D90DF42B1C1"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2E741DA4C90463FC"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "2E51F04C1353AD39"
 				item: { components: { "relics:data": { abilities: { abilities: { hunger_mining: { lock: { breaks: 5 }, points: 0, stats: { food_boost: { initialQuality: 7 }, food_boost_duration: { initialQuality: 6 }, hunger_restore_chance: { initialQuality: 10 }, speed_per_hunger: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:onion_ring" }
@@ -1016,6 +1246,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "0E884A2B75B92566"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "299DA53DDABFF62A"
@@ -1027,11 +1262,18 @@
 		}
 		{
 			id: "32A9B3832AEDC785"
-			rewards: [{
-				id: "6B99B82C0EF5AD6E"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6B99B82C0EF5AD6E"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "1D4BD7B42B959393"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "22B49B851F688D2C"
 				item: { components: { "relics:data": { abilities: { abilities: { catch: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 3 }, heal: { initialQuality: 10 }, max_casts: { initialQuality: 8 }, treasure_chance: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:anglers_hat" }
@@ -1056,6 +1298,11 @@
 					id: "350A7A2B4DBAD042"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "11C91B5C4F1A01A9"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -1082,6 +1329,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "43C0707AFFA2CFFB"
+					type: "xp"
+					xp: 8
+				}
 			]
 			tasks: [{
 				id: "7E7D0EC27BA15473"
@@ -1093,11 +1345,18 @@
 		}
 		{
 			id: "2AFA7666648A8747"
-			rewards: [{
-				id: "427123FA0E35B04A"
-				table_id: 5394927797007602772L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "427123FA0E35B04A"
+					table_id: 5394927797007602772L
+					type: "random"
+				}
+				{
+					id: "2B857124E44552A2"
+					type: "xp"
+					xp: 11
+				}
+			]
 			tasks: [{
 				id: "209D6D18083303ED"
 				item: { components: { "relics:data": { abilities: { abilities: { size: { lock: { breaks: 5 }, points: 0, stats: { change_per_second: { initialQuality: 5 }, evasion_per_size: { initialQuality: 2 }, fall_reduction_per_size: { initialQuality: 5 }, min_scale: { initialQuality: 6 }, target_loss_chance_per_size: { initialQuality: 9 }, target_loss_radius: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:charm_of_shrinking" }
@@ -1121,6 +1380,11 @@
 					id: "0048D891C242DFAC"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "21C0865B5BAD410A"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -1149,6 +1413,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "5DEB825B6A695737"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "17FB9408F069C079"
@@ -1160,15 +1429,22 @@
 		}
 		{
 			id: "08710F87B744144D"
-			rewards: [{
-				count: 15
-				id: "74D6C3B3257F745C"
-				item: {
-					count: 1
-					id: "ars_nouveau:greater_experience_gem"
+			rewards: [
+				{
+					count: 15
+					id: "74D6C3B3257F745C"
+					item: {
+						count: 1
+						id: "ars_nouveau:greater_experience_gem"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5A0C8C42C1EBC005"
+					type: "xp"
+					xp: 9
+				}
+			]
 			tasks: [{
 				id: "10A068C9A88EA93C"
 				item: { components: { "relics:data": { abilities: { abilities: { vampire: { lock: { breaks: 5 }, points: 0, stats: { kill_heal: { initialQuality: 8 }, lifesteal: { initialQuality: 10 }, max_streak_bonuses: { initialQuality: 10 }, overheal_absorption_cap: { initialQuality: 7 }, streak_heal_bonus: { }, streak_window: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:vampiric_glove" }

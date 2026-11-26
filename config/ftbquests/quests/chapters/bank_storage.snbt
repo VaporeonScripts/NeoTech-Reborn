@@ -2,27 +2,42 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bank_storage"
-	group: ""
+	group: "2401AD943A650627"
 	icon: {
 		id: "bankstorage:bank_dock"
 	}
 	id: "5A47C9C05A4648CE"
-	images: [ ]
-	order_index: 25
+	images: [{
+		height: 3.8d
+		id: "527CED2B52C4AF3A"
+		image: "neotechreborn:textures/quests/bank_storage_title.png"
+		rotation: 0.0d
+		width: 18.0d
+		x: -1.0d
+		y: -4.5d
+	}]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			id: "2F813EC1C3F612D3"
-			rewards: [{
-				count: 2
-				id: "4AC911A025FADA1C"
-				item: {
-					count: 1
-					id: "minecraft:coal_block"
+			rewards: [
+				{
+					count: 2
+					id: "4AC911A025FADA1C"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					random_bonus: 3
+					type: "item"
 				}
-				random_bonus: 3
-				type: "item"
-			}]
+				{
+					id: "37845C54D27BA4B4"
+					type: "xp"
+					xp: 24
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -52,6 +67,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "683B647F12D7C415"
+					type: "xp"
+					xp: 20
+				}
 			]
 			tasks: [{
 				id: "02772FDCF3496F0A"
@@ -79,6 +99,11 @@
 					id: "759DF6C96ABE423B"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "7520BECF07A4E86A"
+					type: "xp"
+					xp: 23
 				}
 			]
 			tasks: [{
@@ -108,6 +133,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "22683DF1B5F99222"
+					type: "xp"
+					xp: 25
+				}
 			]
 			tasks: [{
 				id: "7DFFBFFD6C230952"
@@ -135,6 +165,11 @@
 					id: "1C6E502222B55021"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "5F66B6E91403F379"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -164,6 +199,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "49ADC6E729C4B859"
+					type: "xp"
+					xp: 27
+				}
 			]
 			tasks: [{
 				id: "647D2572F845907D"
@@ -192,13 +232,9 @@
 					type: "random"
 				}
 				{
-					id: "6EE38D9257D7FAC4"
-					item: {
-						count: 1
-						id: "randomore:random_ore"
-					}
-					random_bonus: 1
-					type: "item"
+					id: "3F6EF09075A398D5"
+					type: "xp"
+					xp: 24
 				}
 			]
 			tasks: [{
@@ -213,6 +249,11 @@
 			dependencies: ["2F813EC1C3F612D3"]
 			id: "6F3E82436B6DCD42"
 			optional: true
+			rewards: [{
+				id: "050D4CADA23BE8AB"
+				type: "xp"
+				xp: 13
+			}]
 			tasks: [{
 				id: "707905532C3E3A41"
 				item: { count: 1, id: "bankstorage:bank_dock" }
@@ -225,6 +266,11 @@
 			dependencies: ["2F813EC1C3F612D3"]
 			id: "49D28B33799B36AB"
 			optional: true
+			rewards: [{
+				id: "2016B5CA3BEFF760"
+				type: "xp"
+				xp: 18
+			}]
 			tasks: [{
 				id: "6457EAD1EAE18DD6"
 				item: { count: 1, id: "bankstorage:bank_link" }

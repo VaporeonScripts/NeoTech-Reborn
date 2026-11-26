@@ -2,13 +2,21 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "apotheosis"
-	group: ""
+	group: "56A66C57DE55E953"
 	icon: {
 		id: "apotheosis:reforging_table"
 	}
 	id: "2BC34F165E8360DC"
-	images: [ ]
-	order_index: 1
+	images: [{
+		height: 3.8d
+		id: "33D9555FA5FAE950"
+		image: "neotechreborn:textures/quests/apotheosis_title.png"
+		rotation: 0.0d
+		width: 16.0d
+		x: 0.0d
+		y: -10.9d
+	}]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,6 +24,11 @@
 				id: "apotheosis:boss_summoner"
 			}
 			id: "41C4CEED66FD93C0"
+			rewards: [{
+				id: "0A2EA7348059C61C"
+				type: "xp"
+				xp: 31
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/haven"
 				criterion: ""
@@ -31,6 +44,11 @@
 		{
 			dependencies: ["41C4CEED66FD93C0"]
 			id: "189C761B83F6E852"
+			rewards: [{
+				id: "4CD9EE9584B8BDD1"
+				type: "xp"
+				xp: 35
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/frontier"
 				criterion: ""
@@ -43,6 +61,11 @@
 		{
 			dependencies: ["751144D1292A6218"]
 			id: "23734E69D74BA281"
+			rewards: [{
+				id: "0AE4ECA90C1B080D"
+				type: "xp"
+				xp: 27
+			}]
 			tasks: [
 				{
 					id: "0191D1984303A1E3"
@@ -61,6 +84,11 @@
 		{
 			dependencies: ["751144D1292A6218"]
 			id: "61BDFE874D356920"
+			rewards: [{
+				id: "3F1B2BCE7D8010A9"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "42741CEF1E3E4613"
 				item: { count: 1, id: "apotheosis:simple_reforging_table" }
@@ -72,6 +100,11 @@
 		{
 			dependencies: ["189C761B83F6E852"]
 			id: "751144D1292A6218"
+			rewards: [{
+				id: "243D61875AA03875"
+				type: "xp"
+				xp: 31
+			}]
 			tasks: [
 				{
 					id: "27E9C2E7C9A7CB34"
@@ -90,6 +123,11 @@
 		{
 			dependencies: ["23734E69D74BA281"]
 			id: "5360FBB4DEBA2DFB"
+			rewards: [{
+				id: "7339855E19803A11"
+				type: "xp"
+				xp: 35
+			}]
 			tasks: [{
 				id: "4D689D3B94C7B148"
 				item: { count: 1, id: "apotheosis:gem_cutting_table" }
@@ -101,6 +139,11 @@
 		{
 			dependencies: ["5360FBB4DEBA2DFB"]
 			id: "6ECAED363B693583"
+			rewards: [{
+				id: "1D65615F3F1695EC"
+				type: "xp"
+				xp: 26
+			}]
 			tasks: [{
 				id: "1F01211314597164"
 				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
@@ -112,6 +155,11 @@
 		{
 			dependencies: ["61BDFE874D356920"]
 			id: "491CC7839C223077"
+			rewards: [{
+				id: "14A898149C25A2F9"
+				type: "xp"
+				xp: 31
+			}]
 			tasks: [{
 				id: "61994AFCAF0396BF"
 				item: { count: 1, id: "apotheosis:reforging_table" }
@@ -123,6 +171,11 @@
 		{
 			dependencies: ["189C761B83F6E852"]
 			id: "1BD9B2B42C2A76A1"
+			rewards: [{
+				id: "51ED4CBC1067398C"
+				type: "xp"
+				xp: 33
+			}]
 			tasks: [{
 				advancement: "apotheosis:progression/ascent"
 				criterion: ""
@@ -136,13 +189,9 @@
 			dependencies: ["1BD9B2B42C2A76A1"]
 			id: "3C0850C41E780C48"
 			rewards: [{
-				id: "0CC7B4D0138851B0"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
-				}
-				random_bonus: 1
-				type: "item"
+				id: "445C31448F25013D"
+				type: "xp"
+				xp: 40
 			}]
 			tasks: [{
 				advancement: "apotheosis:progression/summit"
@@ -156,15 +205,22 @@
 		{
 			dependencies: ["3C0850C41E780C48"]
 			id: "26FC791720C2AC14"
-			rewards: [{
-				id: "66946C32D6E89C6A"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
+			rewards: [
+				{
+					id: "7FFBDB1BAFC5E3D2"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "0336303B4A09E740"
+					type: "xp"
+					xp: 28
+				}
+			]
 			tasks: [{
 				advancement: "apotheosis:progression/pinnacle"
 				criterion: ""
@@ -177,6 +233,11 @@
 		{
 			dependencies: ["491CC7839C223077"]
 			id: "0F181CD4B23375D1"
+			rewards: [{
+				id: "352F3F4BE91EDA10"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					id: "7BDF0D23F8CADBC0"
@@ -195,6 +256,11 @@
 		{
 			dependencies: ["5360FBB4DEBA2DFB"]
 			id: "0945C7B89329C657"
+			rewards: [{
+				id: "6FC88BD94ED43EF1"
+				type: "xp"
+				xp: 36
+			}]
 			tasks: [{
 				id: "315C6C1A81F09404"
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"apotheosis:purity\":\"flawless\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -206,15 +272,22 @@
 		{
 			dependencies: ["0945C7B89329C657"]
 			id: "51AD0B9A21D4FC9A"
-			rewards: [{
-				id: "5A8BED30FB69E070"
-				item: {
-					count: 1
-					id: "randomore:random_ore"
+			rewards: [
+				{
+					id: "4033190DDFB282EE"
+					item: {
+						count: 1
+						id: "randomore:random_ore"
+					}
+					random_bonus: 1
+					type: "item"
 				}
-				random_bonus: 1
-				type: "item"
-			}]
+				{
+					id: "78421E1E0438ECE3"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				id: "6B45483CA9428436"
 				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"apotheosis:purity\":\"perfect\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -228,6 +301,11 @@
 				id: "apothic_enchanting:apothic_enchanting_table"
 			}
 			id: "059B625288CE656A"
+			rewards: [{
+				id: "53719D18B2328269"
+				type: "xp"
+				xp: 35
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -244,6 +322,11 @@
 				id: "apothic_enchanting:raven_enchanting_table"
 			}
 			id: "6B176850FD69337C"
+			rewards: [{
+				id: "42DFEE46B8D4801C"
+				type: "xp"
+				xp: 13
+			}]
 			tasks: [{
 				id: "4ED77E07EBCFFDCF"
 				item: { count: 1, id: "apothic_enchanting:raven_enchanting_table" }
@@ -258,6 +341,11 @@
 				id: "apothic_enchanting:hellshelf"
 			}
 			id: "7308408DF2D17B69"
+			rewards: [{
+				id: "11AB7F6C23124832"
+				type: "xp"
+				xp: 24
+			}]
 			tasks: [{
 				id: "4C3319142B01AFD0"
 				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:basic_bookshelf)item(apothic_enchanting:hellshelf)item(apothic_enchanting:blazing_hellshelf)item(apothic_enchanting:glowing_hellshelf)item(apothic_enchanting:infused_hellshelf)item(apothic_enchanting:seashelf)item(apothic_enchanting:infused_seashelf)item(apothic_enchanting:crystal_seashelf)item(apothic_enchanting:heart_seashelf)item(apothic_enchanting:dormant_deepshelf)item(apothic_enchanting:deepshelf)item(apothic_enchanting:echoing_deepshelf)item(apothic_enchanting:soul_touched_deepshelf)item(apothic_enchanting:echoing_sculkshelf)item(apothic_enchanting:soul_touched_sculkshelf)item(apothic_enchanting:endshelf)item(apothic_enchanting:pearl_endshelf)item(apothic_enchanting:draconic_endshelf)item(apothic_enchanting:beeshelf)item(apothic_enchanting:melonshelf)item(apothic_enchanting:stoneshelf)item(apothic_enchanting:sightshelf)item(apothic_enchanting:sightshelf_t2)item(apothic_enchanting:treasure_shelf)item(apothic_enchanting:geode_shelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -272,6 +360,11 @@
 				id: "apothic_enchanting:library"
 			}
 			id: "7107506BF772DD74"
+			rewards: [{
+				id: "2445D40FCD387680"
+				type: "xp"
+				xp: 19
+			}]
 			tasks: [{
 				id: "6BF7CC0124B41B43"
 				item: { count: 1, id: "apothic_enchanting:library" }
@@ -286,6 +379,11 @@
 				id: "apothic_enchanting:ender_library"
 			}
 			id: "6D39E8BD0BD78A8E"
+			rewards: [{
+				id: "7BD25684469372CA"
+				type: "xp"
+				xp: 16
+			}]
 			tasks: [{
 				id: "5882F72A39FE174F"
 				item: { count: 1, id: "apothic_enchanting:ender_library" }
@@ -300,6 +398,11 @@
 				id: "apothic_enchanting:helmet_tome"
 			}
 			id: "05334CEDD6D1FF3A"
+			rewards: [{
+				id: "0B1025DC2D0E33BE"
+				type: "xp"
+				xp: 13
+			}]
 			tasks: [{
 				id: "45F1BAEA0D09C6DA"
 				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:helmet_tome)item(apothic_enchanting:chestplate_tome)item(apothic_enchanting:leggings_tome)item(apothic_enchanting:boots_tome))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -314,6 +417,11 @@
 				id: "apothic_enchanting:weapon_tome"
 			}
 			id: "0F9F3967CD459DA6"
+			rewards: [{
+				id: "1214FA0B8DD61343"
+				type: "xp"
+				xp: 18
+			}]
 			tasks: [
 				{
 					id: "157CC7E3BDF210BA"
@@ -335,6 +443,11 @@
 				id: "apothic_enchanting:pickaxe_tome"
 			}
 			id: "1294E3322EFF5223"
+			rewards: [{
+				id: "63444229255CCA5F"
+				type: "xp"
+				xp: 21
+			}]
 			tasks: [
 				{
 					id: "54F1B5F90F3E78EF"
@@ -361,6 +474,11 @@
 				id: "apothic_enchanting:improved_scrap_tome"
 			}
 			id: "36530CC20B0D2324"
+			rewards: [{
+				id: "6313412E191BD466"
+				type: "xp"
+				xp: 24
+			}]
 			tasks: [{
 				id: "306F1C5580C6A2B4"
 				item: { count: 1, id: "apothic_enchanting:improved_scrap_tome" }
@@ -375,6 +493,11 @@
 				id: "apothic_enchanting:extraction_tome"
 			}
 			id: "58F3A6DAABAC505E"
+			rewards: [{
+				id: "67D1C5AA8DF71CD4"
+				type: "xp"
+				xp: 22
+			}]
 			tasks: [{
 				id: "6CD478EA0DD63DCB"
 				item: { count: 1, id: "apothic_enchanting:extraction_tome" }
@@ -386,6 +509,11 @@
 		{
 			dependencies: ["059B625288CE656A"]
 			id: "23FC33F83ACFC5C0"
+			rewards: [{
+				id: "281C3027CE3AA395"
+				type: "xp"
+				xp: 23
+			}]
 			tasks: [{
 				id: "110CD817C5570CB9"
 				item: { count: 1, id: "apothic_enchanting:scrap_tome" }
@@ -397,6 +525,11 @@
 		{
 			dependencies: ["7308408DF2D17B69"]
 			id: "596EE214DE2D3ADB"
+			rewards: [{
+				id: "111DA93903D473BB"
+				type: "xp"
+				xp: 18
+			}]
 			tasks: [{
 				id: "04399D7F6B91E05E"
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:candles)item(minecraft:zombie_head)item(minecraft:creeper_head)item(minecraft:piglin_head)item(minecraft:wither_skeleton_skull))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -420,6 +553,11 @@
 					id: "4DF0C3EA5598A502"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "70B0B3463756AEEE"
+					type: "xp"
+					xp: 35
 				}
 			]
 			shape: "hexagon"
@@ -449,6 +587,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "464F0E7FA979BF54"
+					type: "xp"
+					xp: 9
+				}
 			]
 			tasks: [{
 				id: "434B04AF777D9C69"
@@ -474,6 +617,11 @@
 					id: "2BECA177C82F8C90"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "579FF0903071A461"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -501,6 +649,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "48E6C584AF0C752C"
+					type: "xp"
+					xp: 14
+				}
 			]
 			tasks: [{
 				id: "60D58477FEF281A7"
@@ -526,6 +679,11 @@
 					id: "5A07CDB73AED3478"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "2D9DCC45637442C0"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -553,6 +711,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "5BF84EBD3A7DA507"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "15BE10970D1B4CA1"
@@ -578,6 +741,11 @@
 					id: "499C98402ADC4BC2"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "46BC95ABC1F5CD8E"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -605,6 +773,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "55BABB45C4095F64"
+					type: "xp"
+					xp: 13
+				}
 			]
 			tasks: [{
 				id: "0605304D508149FD"
@@ -630,6 +803,11 @@
 					id: "52E56F51B97726B6"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "718DA589CCB2E05F"
+					type: "xp"
+					xp: 12
 				}
 			]
 			tasks: [{
@@ -657,6 +835,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "15E0F1E9B1A30914"
+					type: "xp"
+					xp: 12
+				}
 			]
 			tasks: [{
 				id: "12C334D623E912CD"
@@ -682,6 +865,11 @@
 					id: "7BF4975082AFDBD3"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "7C0487837986A3EA"
+					type: "xp"
+					xp: 9
 				}
 			]
 			tasks: [{
@@ -709,6 +897,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "2126D1602B407064"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "64B6FB03105E0F9E"
@@ -734,6 +927,11 @@
 					id: "5E8A7B1C6B4F9D95"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "7512FB1C3597C0B9"
+					type: "xp"
+					xp: 13
 				}
 			]
 			tasks: [{
@@ -761,6 +959,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "75C363FE89412A57"
+					type: "xp"
+					xp: 11
+				}
 			]
 			tasks: [{
 				id: "49DC9B04EC8FAA05"
@@ -786,6 +989,11 @@
 					id: "391B0A52CD2B1A17"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "1745F76CDA946AD2"
+					type: "xp"
+					xp: 14
 				}
 			]
 			tasks: [{
@@ -813,6 +1021,11 @@
 					table_id: 5394927797007602772L
 					type: "random"
 				}
+				{
+					id: "5F10224D187D4283"
+					type: "xp"
+					xp: 14
+				}
 			]
 			tasks: [{
 				id: "2866EF67F565BB12"
@@ -838,6 +1051,11 @@
 					id: "32E0D549EDDD82F7"
 					table_id: 5394927797007602772L
 					type: "random"
+				}
+				{
+					id: "2E33B9C0E00AD77A"
+					type: "xp"
+					xp: 11
 				}
 			]
 			tasks: [{
