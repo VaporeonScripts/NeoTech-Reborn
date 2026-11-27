@@ -29,7 +29,7 @@ rewards_text_color:    #FFD27A
 
 quest_completed_color:   #00D9AA
 quest_started_color:     #00D9FF
-quest_not_started_color: #B3DCE8F0
+quest_not_started_color: #E6EEF6F8
 quest_locked_color:      #66889AA8
 
 dependency_line_completed_color:    #00D9AA
