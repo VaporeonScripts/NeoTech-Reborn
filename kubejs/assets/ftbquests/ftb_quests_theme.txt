@@ -1,14 +1,14 @@
 [*]
 background:                 color:#00000000
-chapter_panel_background:   color:#FF1B2B45
-key_reference_background:   color:#E61B2B45
+chapter_panel_background:   color:#FF1F2632
+key_reference_background:   color:#E61F2632
 
 text_color:          #E8F8FF
 hover_text_color:    #7FFFEA
 disabled_text_color: #8497A6
 
-widget_border:     #6650A8D0
-widget_background: #331E3A5A
+widget_border:     #66C8D2DC
+widget_background: #33202630
 symbol_in:         #00D9FF
 symbol_out:        #00A8C8
 
@@ -21,8 +21,8 @@ scroll_bar_background: {{widget_background}}
 scroll_bar:            {{button}} + #4000D9FF; padding=1
 container_slot:        {{button}}; padding=-1
 
-quest_view_background: color:#E61B2B45; round_edges
-quest_view_border:     #8850A8D0
+quest_view_background: color:#E61F2632; round_edges
+quest_view_border:     #88C8D2DC
 quest_view_title:      #FFFFFF
 tasks_text_color:      #CFEFFF
 rewards_text_color:    #FFD27A
