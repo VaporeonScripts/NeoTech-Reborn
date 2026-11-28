@@ -1896,17 +1896,6 @@
 			id: "7591056997C2F9D1"
 			rewards: [
 				{
-					id: "5E703509162CEB12"
-					item: {
-						components: {
-							"ftbquests:missing_item": "minecraft:dried_ghast"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
 					id: "698B71059A8CAF47"
 					item: {
 						count: 1
@@ -1999,10 +1988,10 @@
 											points: 0
 											stats: {
 												linger_duration: {
-													initialQuality: 9
+													initialQuality: 1
 												}
 												speed_bonus: {
-													initialQuality: 10
+													initialQuality: 2
 												}
 											}
 										}
