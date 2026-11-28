@@ -337,7 +337,7 @@
   "modonomiconTabIconNudgeLeft": 0,
   "modonomiconTabIconNudgeRight": 0,
   "modonomiconTabOrder": 0,
-  "modonomiconTabDisplayVisibility": "YES",
+  "modonomiconTabDisplayVisibility": "TUCK",
   "reliableBackpacksTabEnabled": true,
   "reliableBackpacksTabCustomIcon": "",
   "reliableBackpacksTabIconScale": 100,

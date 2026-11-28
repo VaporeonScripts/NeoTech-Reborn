@@ -19,6 +19,14 @@
 	showStatScreen = false
 	#Apply accumulate Jump Boost stat only while a player has the Jump Boost effect
 	jumpBootsEffect = false
+	#Multiplier for new stat from food. Does not affect stored stats. Zero disable new food
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	statMultiplier = 1.0
+	#Show actual stat gain in a action bar after eating
+	showStatGain = false
+	#Show remaining CAPPED use in food tooltips while hold Ctrl
+	showStatUse = false
 
 ["Stat Limits"]
 	#Maximum Armor attribute value
@@ -57,3 +65,15 @@
 	# Default: 10.0
 	# Range: 0.0 ~ 10000.0
 	maxSwimSpeed = 10.0
+
+#Disable stat are neither granted by food nor applied. Stored value are preserved
+["Stat Type"]
+	armorBoost = true
+	attackDamage = true
+	speedBoost = true
+	jumpBoost = true
+	attackSpeed = true
+	critChance = true
+	knockbackResistance = true
+	passiveRegen = true
+	swimSpeed = true

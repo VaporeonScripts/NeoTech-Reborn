@@ -5,10 +5,10 @@ maxParticles: 1000
 # Volume multiplier for custom sounds.
 soundVolume: 0.8
 # Custom greeting displayed in player HUD.
-greetingMessage: Hello BetterLib!
+greetingMessage: {}
 # UI Color Theme.
 # [@cui:Dropdown:Dark,Light,Midnight,Cyberpunk]
-themeName: Dark
+themeName: Cyberpunk
 # Accent color used for GUI highlights.
 # [@cui:ColorField]
 accentColor: 3718648

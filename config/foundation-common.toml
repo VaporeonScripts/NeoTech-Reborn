@@ -10,3 +10,7 @@
 	showArmorSetInfo = true
 	#Shows a short confirmation next to a block after you use it.
 	showBlockNotices = true
+	#Item attributes like armor and attack damage show an icon in front of their value.
+	enableAttributeIcons = false
+	#Shows short step-by-step tips at the top of the screen. Each tip appears only once.
+	showTutorials = true

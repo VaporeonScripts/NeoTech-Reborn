@@ -388,7 +388,13 @@
     "com.alexthw.sauce.client.gui.GuiAlliesScreen": true,
     "aztech.modern_industrialization.client.machines.gui.MachineScreen": true,
     "org.confluence.mod.client.gui.screen.NPCDialogScreen": true,
-    "org.confluence.mod.client.gui.container.soulcerer.SoulOverviewScreen": true
+    "org.confluence.mod.client.gui.container.soulcerer.SoulOverviewScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.ManageWaystonesScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.PersonalWaystoneSettingsScreen": true,
+    "net.satisfy.foundation.client.gui.LetsDoConfigScreen": true,
+    "com.reggarf.mods.better_lib.popup.gui.WelcomePopupScreen": true,
+    "com.reggarf.mods.better_lib.configs.ui.BaseConfigScreen": true,
+    "com.reggarf.mods.better_lib.configs.ui.OtherModConfigsScreen": true
   },
   "hideBackground": {
     "top.theillusivec4.curios.client.gui.CuriosScreen": true,
@@ -591,6 +597,8 @@
     "org.confluence.mod.client.gui.AskForSoftcoreScreen": true,
     "com.alexthw.sauce.client.gui.GuiAlliesScreen": true,
     "aztech.modern_industrialization.client.machines.gui.MachineScreen": true,
-    "org.confluence.mod.client.gui.screen.NPCDialogScreen": true
+    "org.confluence.mod.client.gui.screen.NPCDialogScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.ManageWaystonesScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.PersonalWaystoneSettingsScreen": true
   }
 }

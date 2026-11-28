@@ -22,7 +22,7 @@ header-footer:
       display-condition: '%world%!=disabledworld'
       header:
       - '&b&m                                                '
-      - '&b&lNeoTech Reborn &f&l1.6.1.0'
+      - '&b&lNeoTech Reborn &f&l1.6.2.0'
       - ''
       - '&b&l» &f%animation:Welcome%, &b%player%&f! &b&l«'
       - '&fOnline Players: &b%online%'
@@ -171,8 +171,6 @@ conditions:
     true: '1'
     false: '2'
   nick:
-    conditions:
-    - '%player%=%essentials_nickname%'
     conditions:
     - '%player%=%essentials_nickname%'
     true: '%player%'

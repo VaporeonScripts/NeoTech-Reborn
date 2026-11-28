@@ -1,0 +1,54 @@
+#天境（The Aether）地牢 Boss 宝箱兼容设置
+[aether]
+	#是否启用天境青铜/白银/黄金地牢宝箱的 Lootr 独立战利品兼容
+	enableAetherTreasureChest = true
+	#是否要求每位玩家各自消耗一把对应地牢钥匙才能解锁自己的独立战利品（false 表示一人解锁后所有玩家均可独立领取）
+	aetherPerPlayerKeyUnlock = false
+
+#暮色森林（The Twilight Forest）Boss 战利品箱兼容设置
+[twilightforest]
+	#是否将暮色森林 Boss 死亡时生成的战利品箱转为每位玩家独立的 Lootr 战利品箱
+	enableTwilightBossChest = true
+	#是否为每位打开 Boss 战利品箱的玩家重新抽取一次该 Boss 的战利品表（false 表示向每位玩家复制一份击杀时的掉落物）
+	twilightBossRerollPerPlayer = true
+
+#深海秘境（Aquamirae）冰冻宝箱兼容设置
+[aquamirae]
+	#是否启用 Aquamirae 冰冻宝箱（aquamirae:frozen_chest）的 Lootr 独立战利品兼容
+	enableAquamiraeFrozenChest = true
+	#是否要求每位玩家各自消耗一把冰冻钥匙解锁自己的独立战利品（false 表示一人解锁融冰后所有玩家均可独立领取）
+	aquamiraePerPlayerKeyUnlock = false
+
+#汇流来世（Confluence: Otherworld）宝箱与地牢遗落纸张兼容设置 / Confluence: Otherworld compat settings
+[confluence]
+	#是否启用汇流来世全部主题箱、钥匙箱、9 大地牢群系箱、死人宝箱与树洞的 Lootr 独立战利品兼容 / Enable Lootr instanced loot compat for all Confluence chests and tree holes
+	enableConfluenceChests = true
+	#是否要求每位玩家各自使用对应钥匙解锁上锁的汇流宝箱（false 表示一人开锁后全员均可独立领取；暗影钥匙按原版机制始终不消耗） / Require each player to unlock locked Confluence chests with their own key (Shadow Key is never consumed)
+	confluencePerPlayerKeyUnlock = false
+	#首次开启汇流死人宝箱时，是否保留触发其连接的机械电路陷阱（飞镖/巨石/瞬爆 TNT） / Preserve mechanical trap activation on the first opening of a Confluence Death Chest
+	preserveConfluenceDeathChestTrap = true
+	#是否允许右键交互地牢自然生成的遗落纸张（confluence:lost_paper）以打开每人独立的战利品界面 / Enable per-player Lootr loot for naturally generated Confluence dungeon Lost Paper
+	enableConfluenceLostPaper = true
+
+#冰火传说（Ice and Fire）幽灵宝箱设置
+[iceandfire]
+	#接管 iceandfire:ghost_chest 原地独立战利品时，是否在首次开启时保留原版幽灵伏击刷怪机制
+	preserveIceAndFireGhostAmbush = true
+
+#破坏掉落型战利品方块兼容（如深幽暗域远古花瓶、Supplementaries 洞穴陶罐）
+[break_loot_blocks]
+	#是否允许右键交互自然生成的破坏掉落型战利品方块以打开独立 Lootr 战利品（不破坏原方块）
+	enableBreakLootBlocks = true
+	#自定义破坏掉落型战利品方块列表，格式：方块ID|属性名=属性值|战利品表ID（属性条件可留空表示任意状态）
+	customBreakLootBlocks = ["deeperdarker:ancient_vase|safe=false|deeperdarker:blocks/ancient_vase", "supplementaries:urn|treasure=true|supplementaries:blocks/urn"]
+
+#通用第三方模组战利品容器原地兼容设置
+[universal]
+	#是否自动原地接管未被 Lootr 转换、但带有战利品表的第三方模组 RandomizableContainerBlockEntity（保留原方块模型与容量）
+	enableUniversalModdedContainers = true
+	#是否对已接入独立战利品的兼容容器启用防误拆保护（需潜行挖掘才能破坏）
+	protectCompatContainersFromBreak = true
+	#通用原地兼容忽略的模组命名空间列表
+	blacklistedMods = ["minecraft", "lootr", "eternal_starlight"]
+	#通用原地兼容忽略的特定方块 ID 列表（如玩家墓碑、宝箱怪、索财灵宝箱）
+	blacklistedBlocks = ["twilightforest:keepsake_casket", "aether:chest_mimic", "cobblemon:gimmighoul_chest"]

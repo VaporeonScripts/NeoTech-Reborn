@@ -71,12 +71,5 @@
     "mob": "monsterplus:wisp",
     "incontrol": false,
     "result": "deny"
-  },
-  {
-    "mob": "netherex:flaemoth",
-    "when": "onjoin",
-    "firstjoin": true,
-    "mincount": 15,
-    "result": "deny"
   }
 ]

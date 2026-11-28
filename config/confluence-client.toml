@@ -79,6 +79,8 @@
 	enableNonSpiderModel = false
 	#Mute every Warden sound: footsteps, heartbeat, roars, sonic boom and so on. Client-side only, disabled by default.
 	muteWardenSound = false
+	#Allowed Values: SIMULTANEOUS, SEQUENTIAL
+	destroyerShellBurstMode = "SIMULTANEOUS"
 
 [GUI]
 	achievementToast = true

@@ -102,6 +102,11 @@
 	# 
 	# Default: false
 	FTB_QUESTS_ITEM_TOOLTIPS = false
+	# Render the frame overlay texture behind the tooltip text instead of on top of it. Custom frames can override it with
+	# frameBehindText.
+	# 
+	# Default: false
+	FRAME_BEHIND_TEXT = false
 
 # divider §§
 [divider]

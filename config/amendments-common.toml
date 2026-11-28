@@ -102,22 +102,40 @@
 	dye_blocks = false
 	#Prevents entities from taking suffocation damage while riding another entity
 	passenger_no_suffocation = false
-	#Following pets teleport with you instantly when you teleport
+	#Following pets teleport with you instantly when you teleport or go through a portal. Enderpearls will also keep you on your mount
 	pets_follow_teleports = true
 
-[torch]
-	#Allows torches to set entities on fire
-	torch_fire = true
-	#Allows torches to set entities on fire when held in offhand given you are attacking with a sword
-	torch_fire_offhand = false
-	#Duration of the on fire effect applied by torches. In seconds
-	# Default: 2
-	# Range: 1 ~ 60
-	torch_fire_duration = 2
+	[misc.container_pickup]
+		#Makes oicked up items go straight into a container held in your offhand (like bundle or shulker). Tag amendments:held_pickup_blacklist
+		#Allowed Values: OFF, OFFHAND, BOTH, MAIN_HAND
+		held_container_pickup = "OFFHAND"
+		pickup_sound = true
 
-[lily_pad]
-	#Allows lilypads to have any block placed ontop
-	better_lilypads = true
+	[misc.torch]
+		#Allows torches to set entities on fire
+		torch_fire = true
+		#Allows torches to set entities on fire when held in offhand given you are attacking with a sword
+		torch_fire_offhand = false
+		#Duration of the on fire effect applied by torches. In seconds
+		# Default: 2
+		# Range: 1 ~ 60
+		torch_fire_duration = 2
+
+	[misc.lily_pad]
+		#Allows lilypads to have any block placed ontop
+		better_lilypads = true
+
+	[misc.bubble_column]
+		#Makes bubble columns to extend up through grate like blocks (amendments:bubble_column_passable tag)
+		bubble_column_grates = true
+
+	[misc.treading_water_swim]
+		#Holding jump in water keeps players at the surface with their head out instead of bobbing up and down
+		surface_swimming = true
+		#Float at the surface automatically, without holding jump. Sneak to dive
+		surface_auto_float = false
+		#Makes players able to only push themselves up in water when they deep enough in water up to their chest or next to a ledge
+		water_jump_needs_depth = true
 
 [fireball]
 	#Cooldown for fire & dragon charges in ticks
@@ -150,13 +168,3 @@
 	wooden_to_nether_fences = true
 	#Makes fences, walls, panes and bars connect to wall signs attached to them
 	wall_signs = true
-
-[bubble_column]
-	#Makes bubble columns to extend up through grate like blocks (amendments:bubble_column_passable tag)
-	bubble_column_grates = true
-
-[container_pickup]
-	#Makes oicked up items go straight into a container held in your offhand (like bundle or shulker). Tag amendments:held_pickup_blacklist
-	#Allowed Values: OFF, OFFHAND, BOTH, MAIN_HAND
-	held_container_pickup = "OFFHAND"
-	pickup_sound = true

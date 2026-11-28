@@ -1,0 +1,8 @@
+#客户端未领取战利品视觉提示设置
+[visuals]
+	#是否在当前玩家尚未领取的兼容战利品容器上方生成星光粒子提示
+	enableUnopenedParticles = true
+	#客户端粒子提示刷新间隔（单位：tick，越大越省性能）
+	# Default: 12
+	# Range: 4 ~ 100
+	particleIntervalTicks = 12

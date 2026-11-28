@@ -1,18 +1,93 @@
-#Biomes placed in new chunks. Changes need a restart and only affect new chunks
-[biomes]
+#Biomes placed in new chunks. Changes need a game restart and only affect new chunks.
+[Biomes]
+	#Generates the Forest Edge biome in new chunks. Needs a game restart.
 	forestEdge = true
+	#Generates the Flower Glade biome in new chunks. Needs a game restart.
 	flowerGlade = true
+	#Generates the Brushlands biome in new chunks. Needs a game restart.
 	brushland = true
+	#Generates the Cypress Fields biome in new chunks. Needs a game restart.
 	cypressFields = true
+	#Generates the Golden Glade biome in new chunks. Needs a game restart.
 	goldenGlade = true
+	#Generates the Baobab Savanna biome in new chunks. Needs a game restart.
 	baobabSavanna = true
+	#Generates the Desert Oasis biome in new chunks. Needs a game restart.
 	desertOasis = true
+	#Generates the Desert River biome in new chunks. Needs a game restart.
 	desertRiver = true
+	#Generates the Jungle River biome in new chunks. Needs a game restart.
 	jungleRiver = true
+	#Generates the Cold River biome in new chunks. Needs a game restart.
 	coldRiver = true
+	#Generates the Cold Grassland biome in new chunks. Needs a game restart.
 	coldGrassland = true
+	#Generates the Larch Forest biome in new chunks. Needs a game restart.
 	larchForest = true
+	#Generates the Marshland biome in new chunks. Needs a game restart.
 	marshland = true
+	#Generates the Aspen Forest biome in new chunks. Needs a game restart.
 	aspenForest = true
+	#Generates the Fen biome in new chunks. Needs a game restart.
 	fen = true
+	#Generates the Highland Woods biome in new chunks. Needs a game restart.
 	highlandWoods = true
+
+#Ground blocks, slopes and cliffs Blooming Nature paints onto biomes. Turn a biome off to keep its vanilla or datapack surface. Changes need a game restart and only affect new chunks.
+[Surface]
+	#Blooming Nature reworks the ground of the Plains with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfacePlains = true
+	#Blooming Nature reworks the ground of the Sunflower Plains with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceSunflowerPlains = true
+	#Blooming Nature reworks the ground of the Forest with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceForest = true
+	#Blooming Nature reworks the ground of the Birch Forest with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceBirchForest = true
+	#Blooming Nature reworks the ground of the Old Growth Birch Forest with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceOldGrowthBirchForest = true
+	#Blooming Nature reworks the ground of the Dark Forest with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceDarkForest = true
+	#Blooming Nature reworks the ground of the River with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceRiver = true
+	#Blooming Nature reworks the ground of the Stony Shore with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceStonyShore = true
+	#Blooming Nature reworks the ground of the Taiga with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceTaiga = true
+	#Blooming Nature reworks the ground of the Old Growth Spruce Taiga with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceOldGrowthSpruceTaiga = true
+	#Blooming Nature reworks the ground of the Old Growth Pine Taiga with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceOldGrowthPineTaiga = true
+	#Blooming Nature reworks the ground of the Desert with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceDesert = true
+	#Blooming Nature reworks the ground of the Jungle with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceJungle = true
+	#Blooming Nature reworks the ground of the Sparse Jungle with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceSparseJungle = true
+	#Blooming Nature reworks the ground of the Swamp with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceSwamp = true
+	#Blooming Nature reworks the ground of the Aspen Forest with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceAspenForest = true
+	#Blooming Nature reworks the ground of the Larch Forest with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceLarchForest = true
+	#Blooming Nature reworks the ground of the Highland Woods with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceHighlandWoods = true
+	#Blooming Nature reworks the ground of the Cold Grassland with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceColdGrassland = true
+	#Blooming Nature reworks the ground of the Cold River with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceColdRiver = true
+	#Blooming Nature reworks the ground of the Fen with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceFen = true
+	#Blooming Nature reworks the ground of the Cypress Fields with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceCypressFields = true
+	#Blooming Nature reworks the ground of the Brushlands with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceBrushland = true
+	#Blooming Nature reworks the ground of the Baobab Savanna with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceBaobabSavanna = true
+	#Blooming Nature reworks the ground of the Desert Oasis with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceDesertOasis = true
+	#Blooming Nature reworks the ground of the Desert River with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceDesertRiver = true
+	#Blooming Nature reworks the ground of the Jungle River with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceJungleRiver = true
+	#Blooming Nature reworks the ground of the Marshland with its own soil, slopes and cliffs in new chunks. Needs a game restart.
+	surfaceMarshland = true
